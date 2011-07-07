@@ -4,7 +4,7 @@ import ftypes
 
 data_files = {
     "recipient_indicators" : "../data/recipient/recipient_indicators.xls",
-    "donor_data"           : "../data/recipient/donor_data2.xls",
+    "donor_data"           : "../data/recipient/donor_data3.xls",
 }
 
 sheet_names = {
@@ -37,6 +37,16 @@ class RecipientCountry(object):
     def _yearzip(self, data):
         year = self._recipient_indicators.Year
         return dict(zip(year, data))
+
+    @property
+    def bilateral_donations(self):
+        is_mdg = lambda x : x.__getattr__("MDG Purpose")
+        
+        mdg_donations = self._donor_data / is_mdg
+        donors = mdg_donations.__getattr__("donorname_e")
+        print donors
+        print mdg_donations.__getattr__("2007-2009")
+        return mdg_donations
 
     def __getattr__(self, attr_key):
         if attr_key in self.colmap:
@@ -98,6 +108,7 @@ def main(*args):
         for year in range(2002, 2010):
             print vals[str(year)],
         print ""
+    ethiopia.bilateral_donations
 
 if __name__ == "__main__":
     main(*sys.argv)
