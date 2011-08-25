@@ -1,6 +1,7 @@
 import sys
 import xlrd
 import ftypes
+from pivottable import PivotTable, GroupBy, Sum
 
 data_files = {
     "recipient_indicators" : "../data/recipient/recipient_indicators.xls",
@@ -46,14 +47,17 @@ class RecipientCountry(object):
         return dict(zip(year, data))
 
     @property
-    def bilateral_donations(self):
-        is_mdg = lambda x : x.__getattr__("MDG Purpose")
-        
-        mdg_donations = self._donor_data / is_mdg
-        donors = mdg_donations.__getattr__("donorname_e")
-        print donors
-        print mdg_donations.__getattr__("2007-2009")
-        return mdg_donations
+    def donations(self):
+        pt = PivotTable()
+        pt.xaxis = "MDG Purpose"
+        pt.yaxis = [
+            {"attr" : "donorname_e", "label" : "country", "aggr" : GroupBy},
+            {"attr" : "2007-2009", "label" : "amount", "aggr" : Sum},
+        ]
+        pt.yaxis_order = ["donorname_e"]
+        pt.rows = self._donor_data
+        table = ftypes.list(*[a for a in pt.result])
+        return table
 
     def __getattr__(self, attr_key):
         if attr_key in self.colmap:
@@ -116,8 +120,10 @@ def get_data_sheet(fname, sname):
 
 def process_recipient_country(country):
     rc = recipient_country = RecipientCountry(country, recipient_indicators, sources_data)
+    none_is_zero = lambda x : 0 if x == None else float(x)
     fmt_pop = lambda x : str(round(x / 1000000.0, 1))
-    fmt_r1 = lambda x : "{:,.1f}".format(x)
+    fmt_r1 = lambda x : "0" if x == None else "{:,.1f}".format(float(x))
+    fmt_1000 = lambda x : "0" if x == None else "{:,.0f}".format(float(x) * 1000)
     #fmt_r1 = lambda x : str(round(x, 1))
     fmt_perc = lambda x : str(round(x * 100, 1))
     fmt_r2 = lambda x : str(round(x, 2))
@@ -141,10 +147,31 @@ def process_recipient_country(country):
         data["rhfp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.rhfp[year]), fmt_perc(rc.rhfp_perc[year]))
         data["ohp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.other_health[year]), fmt_perc(rc.other_health_perc[year]))
         data["unspec_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.unspecified[year]), fmt_perc(rc.unspecified_perc[year]))
+
+    donations = rc.donations
+    country_donations = lambda country : donations / (lambda x : x["donorname_e"] == country)
+    for abbr, country in [
+        ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
+        ("den", "Denmark"), ("fin", "Finland"), ("fra", "France"), ("ger", "Germany"), 
+        ("gre", "Greece"), ("ire", "Ireland"), ("ita", "Italy"), ("jap", "Japan"),
+        ("lux", "Luxembourg"), ("net", "Netherlands"), ("nor", "Norway"), ("kor", "Republic of Korea"),
+        ("spa", "Spain"), ("swe", "Sweden"), ("uk", "United Kingdom"), ("us", "United States of America"),
+        ("ec", "EC"), ("gavi", "GAVI"), ("gf", "GFATM"), ("ida", "IDA"),
+        ("una", "UNAIDS"), ("und", "UNDP"), ("unf", "UNFPA"), ("uni", "UNICEF"),
+        ]:
+        mdg6 = none_is_zero(country_donations(country)[0]["MDG6"])
+        rf = none_is_zero(country_donations(country)[0]["RH & FP"])
+        other = none_is_zero(country_donations(country)[0]["Other Health Purposes"])
+        unspecified = none_is_zero(country_donations(country)[0]["Unallocated"])
+
+        data["mdg6_%s" % abbr] = fmt_1000(mdg6)
+        data["rf_%s" % abbr] = fmt_1000(rf)
+        data["oth_%s" % abbr] = fmt_1000(other)
+        data["un_%s" % abbr] = fmt_1000(unspecified)
+        data["tot_%s" % abbr] = fmt_1000(mdg6 + rf + other + unspecified)
     print data
     process_svg_template(data, recipient_svg)
 
-    recipient_country.bilateral_donations
 
 def main(*args):
     global recipient_indicators, sources_data

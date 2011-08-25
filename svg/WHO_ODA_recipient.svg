@@ -4339,9 +4339,9 @@
    inkscape:window-height="1005"
    id="namedview26134"
    showgrid="false"
-   inkscape:zoom="1.9821498"
-   inkscape:cx="473.34463"
-   inkscape:cy="607.11677"
+   inkscape:zoom="3.9642997"
+   inkscape:cx="411.91606"
+   inkscape:cy="293.06893"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -7734,10 +7734,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,547.0781)"
-   id="SVGID_145_">00</text>
+   id="SVGID_145_"
+   x="4.5625"
+   y="0">{mdg6_ast}</text>
 
 				</g>
 			</switch><switch
@@ -7784,10 +7786,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,547.0781)"
-   id="SVGID_146_">00</text>
+   id="SVGID_146_"
+   x="4.5625"
+   y="0">{rf_ast}</text>
 
 				</g>
 			</switch><switch
@@ -7834,10 +7838,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,547.0781)"
-   id="SVGID_147_">00</text>
+   id="SVGID_147_"
+   x="4.5625"
+   y="0">{oth_ast}</text>
 
 				</g>
 			</switch><switch
@@ -7884,10 +7890,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,547.0781)"
-   id="SVGID_148_">00</text>
+   id="SVGID_148_"
+   x="4.5625"
+   y="0">{un_ast}</text>
 
 				</g>
 			</switch><switch
@@ -7937,7 +7945,11 @@
    style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,547.0781)"
-   id="SVGID_149_">00</text>
+   id="SVGID_149_"
+   x="4.5625"
+   y="0"><tspan
+     style="text-align:center;text-anchor:middle"
+     id="tspan41386">{tot_ast}</tspan></text>
 
 				</g>
 			</switch><switch
@@ -7984,10 +7996,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,560.6992)"
-   id="SVGID_150_">00</text>
+   id="SVGID_150_"
+   x="4.5625"
+   y="0">{mdg6_bel}</text>
 
 				</g>
 			</switch><switch
@@ -8034,10 +8048,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,560.6992)"
-   id="SVGID_151_">00</text>
+   id="SVGID_151_"
+   x="4.5625"
+   y="0">{rf_bel}</text>
 
 				</g>
 			</switch><switch
@@ -8084,10 +8100,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,560.6992)"
-   id="SVGID_152_">00</text>
+   id="SVGID_152_"
+   x="4.5625"
+   y="0">{oth_bel}</text>
 
 				</g>
 			</switch><switch
@@ -8134,10 +8152,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,560.6992)"
-   id="SVGID_153_">00</text>
+   id="SVGID_153_"
+   x="4.5625"
+   y="0">{un_bel}</text>
 
 				</g>
 			</switch><switch
@@ -8184,10 +8204,12 @@
    x="256.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,560.6992)"
-   id="SVGID_154_">00</text>
+   id="SVGID_154_"
+   x="4.5625"
+   y="0">{tot_bel}</text>
 
 				</g>
 			</switch><switch
@@ -8234,10 +8256,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,573.3203)"
-   id="SVGID_155_">00</text>
+   id="SVGID_155_"
+   x="4.5625"
+   y="0">{mdg6_can}</text>
 
 				</g>
 			</switch><switch
@@ -8284,10 +8308,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,573.3203)"
-   id="SVGID_156_">00</text>
+   id="SVGID_156_"
+   x="4.5625"
+   y="0">{rf_can}</text>
 
 				</g>
 			</switch><switch
@@ -8334,10 +8360,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,573.3203)"
-   id="SVGID_157_">00</text>
+   id="SVGID_157_"
+   x="4.5625"
+   y="0">{oth_can}</text>
 
 				</g>
 			</switch><switch
@@ -8384,10 +8412,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,573.3203)"
-   id="SVGID_158_">00</text>
+   id="SVGID_158_"
+   x="4.5625"
+   y="0">{un_can}</text>
 
 				</g>
 			</switch><switch
@@ -8434,10 +8464,12 @@
    x="256.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,573.3203)"
-   id="SVGID_159_">00</text>
+   id="SVGID_159_"
+   x="4.5625"
+   y="0">{tot_can}</text>
 
 				</g>
 			</switch><switch
@@ -8484,10 +8516,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,585.9414)"
-   id="SVGID_160_">00</text>
+   id="SVGID_160_"
+   x="4.5625"
+   y="0">{mdg6_den}</text>
 
 				</g>
 			</switch><switch
@@ -8534,10 +8568,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,585.9414)"
-   id="SVGID_161_">00</text>
+   id="SVGID_161_"
+   x="4.5625"
+   y="0">{rf_den}</text>
 
 				</g>
 			</switch><switch
@@ -8584,10 +8620,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,585.9414)"
-   id="SVGID_162_">00</text>
+   id="SVGID_162_"
+   x="4.5625"
+   y="0">{oth_den}</text>
 
 				</g>
 			</switch><switch
@@ -8634,10 +8672,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,585.9414)"
-   id="SVGID_163_">00</text>
+   id="SVGID_163_"
+   x="4.5625"
+   y="0">{un_den}</text>
 
 				</g>
 			</switch><switch
@@ -8684,10 +8724,12 @@
    x="256.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,585.9414)"
-   id="SVGID_164_">00</text>
+   id="SVGID_164_"
+   x="4.5625"
+   y="0">{tot_den}</text>
 
 				</g>
 			</switch><switch
@@ -8734,10 +8776,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,535.457)"
-   id="SVGID_165_">00</text>
+   id="SVGID_165_"
+   x="4.5625"
+   y="0">{mdg6_aus}</text>
 
 				</g>
 			</switch><switch
@@ -8784,10 +8828,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,535.457)"
-   id="SVGID_166_">00</text>
+   id="SVGID_166_"
+   x="4.5625"
+   y="0">{rf_aus}</text>
 
 				</g>
 			</switch><switch
@@ -8834,10 +8880,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,535.457)"
-   id="SVGID_167_">00</text>
+   id="SVGID_167_"
+   x="4.5625"
+   y="0">{oth_aus}</text>
 
 				</g>
 			</switch><switch
@@ -8884,10 +8932,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,535.457)"
-   id="SVGID_168_">00</text>
+   id="SVGID_168_"
+   x="4.5625"
+   y="0">{un_aus}</text>
 
 				</g>
 			</switch><switch
@@ -8934,10 +8984,12 @@
    x="256.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,535.457)"
-   id="SVGID_169_">00</text>
+   id="SVGID_169_"
+   x="4.5625"
+   y="0">{tot_aus}</text>
 
 				</g>
 			</switch><g
@@ -8986,10 +9038,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,598.5605)"
-   id="SVGID_170_">00</text>
+   id="SVGID_170_"
+   x="4.5625"
+   y="0">{mdg6_fin}</text>
 
 					</g>
 				</switch>
@@ -9037,10 +9091,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,598.5605)"
-   id="SVGID_171_">00</text>
+   id="SVGID_171_"
+   x="4.5625"
+   y="0">{rf_fin}</text>
 
 					</g>
 				</switch>
@@ -9088,10 +9144,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,598.5605)"
-   id="SVGID_172_">00</text>
+   id="SVGID_172_"
+   x="4.5625"
+   y="0">{oth_fin}</text>
 
 					</g>
 				</switch>
@@ -9139,10 +9197,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,598.5605)"
-   id="SVGID_173_">00</text>
+   id="SVGID_173_"
+   x="4.5625"
+   y="0">{un_fin}</text>
 
 					</g>
 				</switch>
@@ -9190,10 +9250,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,598.5605)"
-   id="SVGID_174_">00</text>
+   id="SVGID_174_"
+   x="4.5625"
+   y="0">{tot_fin}</text>
 
 					</g>
 				</switch>
@@ -9243,10 +9305,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,623.8027)"
-   id="SVGID_175_">00</text>
+   id="SVGID_175_"
+   x="4.5625"
+   y="0">{mdg6_ger}</text>
 
 					</g>
 				</switch>
@@ -9294,10 +9358,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,623.8027)"
-   id="SVGID_176_">00</text>
+   id="SVGID_176_"
+   x="4.5625"
+   y="0">{rf_ger}</text>
 
 					</g>
 				</switch>
@@ -9345,10 +9411,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,623.8027)"
-   id="SVGID_177_">00</text>
+   id="SVGID_177_"
+   x="4.5625"
+   y="0">{oth_ger}</text>
 
 					</g>
 				</switch>
@@ -9396,10 +9464,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,623.8027)"
-   id="SVGID_178_">00</text>
+   id="SVGID_178_"
+   x="4.5625"
+   y="0">{un_ger}</text>
 
 					</g>
 				</switch>
@@ -9447,10 +9517,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,623.8027)"
-   id="SVGID_179_">00</text>
+   id="SVGID_179_"
+   x="4.5625"
+   y="0">{tot_ger}</text>
 
 					</g>
 				</switch>
@@ -9500,10 +9572,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,648.9277)"
-   id="SVGID_180_">00</text>
+   id="SVGID_180_"
+   x="4.5625"
+   y="0">{mdg6_ire}</text>
 
 					</g>
 				</switch>
@@ -9551,10 +9625,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,648.9277)"
-   id="SVGID_181_">00</text>
+   id="SVGID_181_"
+   x="4.5625"
+   y="0">{rf_ire}</text>
 
 					</g>
 				</switch>
@@ -9602,10 +9678,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,648.9277)"
-   id="SVGID_182_">00</text>
+   id="SVGID_182_"
+   x="4.5625"
+   y="0">{oth_ire}</text>
 
 					</g>
 				</switch>
@@ -9653,10 +9731,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,648.9277)"
-   id="SVGID_183_">00</text>
+   id="SVGID_183_"
+   x="4.5625"
+   y="0">{un_ire}</text>
 
 					</g>
 				</switch>
@@ -9704,10 +9784,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,648.9277)"
-   id="SVGID_184_">00</text>
+   id="SVGID_184_"
+   x="4.5625"
+   y="0">{tot_ire}</text>
 
 					</g>
 				</switch>
@@ -9757,10 +9839,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,636.4238)"
-   id="SVGID_185_">00</text>
+   id="SVGID_185_"
+   x="4.5625"
+   y="0">{mdg6_gre}</text>
 
 					</g>
 				</switch>
@@ -9808,10 +9892,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,636.4238)"
-   id="SVGID_186_">00</text>
+   id="SVGID_186_"
+   x="4.5625"
+   y="0">{rf_gre}</text>
 
 					</g>
 				</switch>
@@ -9859,10 +9945,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,636.4238)"
-   id="SVGID_187_">00</text>
+   id="SVGID_187_"
+   x="4.5625"
+   y="0">{oth_gre}</text>
 
 					</g>
 				</switch>
@@ -9910,10 +9998,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,636.4238)"
-   id="SVGID_188_">00</text>
+   id="SVGID_188_"
+   x="4.5625"
+   y="0">{un_gre}</text>
 
 					</g>
 				</switch>
@@ -9961,10 +10051,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,636.4238)"
-   id="SVGID_189_">00</text>
+   id="SVGID_189_"
+   x="4.5625"
+   y="0">{tot_gre}</text>
 
 					</g>
 				</switch>
@@ -10014,10 +10106,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,661.5488)"
-   id="SVGID_190_">00</text>
+   id="SVGID_190_"
+   x="4.5625"
+   y="0">{mdg6_ita}</text>
 
 					</g>
 				</switch>
@@ -10065,10 +10159,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,661.5488)"
-   id="SVGID_191_">00</text>
+   id="SVGID_191_"
+   x="4.5625"
+   y="0">{rf_ita}</text>
 
 					</g>
 				</switch>
@@ -10116,10 +10212,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,661.5488)"
-   id="SVGID_192_">00</text>
+   id="SVGID_192_"
+   x="4.5625"
+   y="0">{oth_ita}</text>
 
 					</g>
 				</switch>
@@ -10167,10 +10265,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,661.5488)"
-   id="SVGID_193_">00</text>
+   id="SVGID_193_"
+   x="4.5625"
+   y="0">{un_ita}</text>
 
 					</g>
 				</switch>
@@ -10218,10 +10318,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,661.5488)"
-   id="SVGID_194_">00</text>
+   id="SVGID_194_"
+   x="4.5625"
+   y="0">{tot_ita}</text>
 
 					</g>
 				</switch>
@@ -10271,10 +10373,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,674.1699)"
-   id="SVGID_195_">00</text>
+   id="SVGID_195_"
+   x="4.5625"
+   y="0">{mdg6_jap}</text>
 
 					</g>
 				</switch>
@@ -10322,10 +10426,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,674.1699)"
-   id="SVGID_196_">00</text>
+   id="SVGID_196_"
+   x="4.5625"
+   y="0">{rf_jap}</text>
 
 					</g>
 				</switch>
@@ -10373,10 +10479,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,674.1699)"
-   id="SVGID_197_">00</text>
+   id="SVGID_197_"
+   x="4.5625"
+   y="0">{oth_jap}</text>
 
 					</g>
 				</switch>
@@ -10424,10 +10532,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,674.1699)"
-   id="SVGID_198_">00</text>
+   id="SVGID_198_"
+   x="4.5625"
+   y="0">{un_jap}</text>
 
 					</g>
 				</switch>
@@ -10475,10 +10585,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,674.1699)"
-   id="SVGID_199_">00</text>
+   id="SVGID_199_"
+   x="4.5625"
+   y="0">{tot_jap}</text>
 
 					</g>
 				</switch>
@@ -10528,10 +10640,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,686.791)"
-   id="SVGID_200_">00</text>
+   id="SVGID_200_"
+   x="4.5625"
+   y="0">{mdg6_lux}</text>
 
 					</g>
 				</switch>
@@ -10579,10 +10693,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,686.791)"
-   id="SVGID_201_">00</text>
+   id="SVGID_201_"
+   x="4.5625"
+   y="0">{rf_lux}</text>
 
 					</g>
 				</switch>
@@ -10630,10 +10746,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,686.791)"
-   id="SVGID_202_">00</text>
+   id="SVGID_202_"
+   x="4.5625"
+   y="0">{oth_lux}</text>
 
 					</g>
 				</switch>
@@ -10681,10 +10799,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,686.791)"
-   id="SVGID_203_">00</text>
+   id="SVGID_203_"
+   x="4.5625"
+   y="0">{un_lux}</text>
 
 					</g>
 				</switch>
@@ -10732,10 +10852,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,686.791)"
-   id="SVGID_204_">00</text>
+   id="SVGID_204_"
+   x="4.5625"
+   y="0">{tot_lux}</text>
 
 					</g>
 				</switch>
@@ -10785,10 +10907,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,699.4102)"
-   id="SVGID_205_">00</text>
+   id="SVGID_205_"
+   x="4.5625"
+   y="0">{mdg6_net}</text>
 
 					</g>
 				</switch>
@@ -10836,10 +10960,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,699.4102)"
-   id="SVGID_206_">00</text>
+   id="SVGID_206_"
+   x="4.5625"
+   y="0">{rf_net}</text>
 
 					</g>
 				</switch>
@@ -10887,10 +11013,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,699.4102)"
-   id="SVGID_207_">00</text>
+   id="SVGID_207_"
+   x="4.5625"
+   y="0">{oth_net}</text>
 
 					</g>
 				</switch>
@@ -10938,10 +11066,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,699.4102)"
-   id="SVGID_208_">00</text>
+   id="SVGID_208_"
+   x="4.5625"
+   y="0">{un_net}</text>
 
 					</g>
 				</switch>
@@ -10989,10 +11119,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,699.4102)"
-   id="SVGID_209_">00</text>
+   id="SVGID_209_"
+   x="4.5625"
+   y="0">{tot_net}</text>
 
 					</g>
 				</switch>
@@ -11042,10 +11174,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,712.0312)"
-   id="SVGID_210_">00</text>
+   id="SVGID_210_"
+   x="4.5625"
+   y="0">{mdg6_nor}</text>
 
 					</g>
 				</switch>
@@ -11093,10 +11227,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,712.0312)"
-   id="SVGID_211_">00</text>
+   id="SVGID_211_"
+   x="4.5625"
+   y="0">{rf_nor}</text>
 
 					</g>
 				</switch>
@@ -11144,10 +11280,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,712.0312)"
-   id="SVGID_212_">00</text>
+   id="SVGID_212_"
+   x="4.5625"
+   y="0">{oth_nor}</text>
 
 					</g>
 				</switch>
@@ -11195,10 +11333,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,712.0312)"
-   id="SVGID_213_">00</text>
+   id="SVGID_213_"
+   x="4.5625"
+   y="0">{un_nor}</text>
 
 					</g>
 				</switch>
@@ -11246,10 +11386,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,712.0312)"
-   id="SVGID_214_">00</text>
+   id="SVGID_214_"
+   x="4.5625"
+   y="0">{tot_nor}</text>
 
 					</g>
 				</switch>
@@ -11299,10 +11441,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,724.6523)"
-   id="SVGID_215_">00</text>
+   id="SVGID_215_"
+   x="4.5625"
+   y="0">{mdg6_kor}</text>
 
 					</g>
 				</switch>
@@ -11350,10 +11494,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,724.6523)"
-   id="SVGID_216_">00</text>
+   id="SVGID_216_"
+   x="4.5625"
+   y="0">{rf_kor}</text>
 
 					</g>
 				</switch>
@@ -11401,10 +11547,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,724.6523)"
-   id="SVGID_217_">00</text>
+   id="SVGID_217_"
+   x="4.5625"
+   y="0">{oth_kor}</text>
 
 					</g>
 				</switch>
@@ -11452,10 +11600,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,724.6523)"
-   id="SVGID_218_">00</text>
+   id="SVGID_218_"
+   x="4.5625"
+   y="0">{un_kor}</text>
 
 					</g>
 				</switch>
@@ -11503,10 +11653,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,724.6523)"
-   id="SVGID_219_">00</text>
+   id="SVGID_219_"
+   x="4.5625"
+   y="0">{tot_kor}</text>
 
 					</g>
 				</switch>
@@ -11556,10 +11708,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,737.2734)"
-   id="SVGID_220_">00</text>
+   id="SVGID_220_"
+   x="4.5625"
+   y="0">{mdg6_spa}</text>
 
 					</g>
 				</switch>
@@ -11607,10 +11761,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,737.2734)"
-   id="SVGID_221_">00</text>
+   id="SVGID_221_"
+   x="4.5625"
+   y="0">{rf_spa}</text>
 
 					</g>
 				</switch>
@@ -11658,10 +11814,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,737.2734)"
-   id="SVGID_222_">00</text>
+   id="SVGID_222_"
+   x="4.5625"
+   y="0">{oth_spa}</text>
 
 					</g>
 				</switch>
@@ -11709,10 +11867,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,737.2734)"
-   id="SVGID_223_">00</text>
+   id="SVGID_223_"
+   x="4.5625"
+   y="0">{un_spa}</text>
 
 					</g>
 				</switch>
@@ -11760,10 +11920,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,737.2734)"
-   id="SVGID_224_">00</text>
+   id="SVGID_224_"
+   x="4.5625"
+   y="0">{tot_spa}</text>
 
 					</g>
 				</switch>
@@ -11813,10 +11975,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,749.8945)"
-   id="SVGID_225_">00</text>
+   id="SVGID_225_"
+   x="4.5625"
+   y="0">{mdg6_swe}</text>
 
 					</g>
 				</switch>
@@ -11864,10 +12028,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,749.8945)"
-   id="SVGID_226_">00</text>
+   id="SVGID_226_"
+   x="4.5625"
+   y="0">{rf_swe}</text>
 
 					</g>
 				</switch>
@@ -11915,10 +12081,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,749.8945)"
-   id="SVGID_227_">00</text>
+   id="SVGID_227_"
+   x="4.5625"
+   y="0">{oth_swe}</text>
 
 					</g>
 				</switch>
@@ -11966,10 +12134,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,749.8945)"
-   id="SVGID_228_">00</text>
+   id="SVGID_228_"
+   x="4.5625"
+   y="0">{un_swe}</text>
 
 					</g>
 				</switch>
@@ -12017,10 +12187,12 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,749.8945)"
-   id="SVGID_229_">00</text>
+   id="SVGID_229_"
+   x="4.5625"
+   y="0">{tot_swe}</text>
 
 					</g>
 				</switch>
@@ -12070,10 +12242,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,762.5156)"
-   id="SVGID_230_">00</text>
+   id="SVGID_230_"
+   x="4.5625"
+   y="0">{mdg6_uk}</text>
 
 					</g>
 				</switch>
@@ -12121,10 +12295,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,762.5156)"
-   id="SVGID_231_">00</text>
+   id="SVGID_231_"
+   x="4.5625"
+   y="0">{rf_uk}</text>
 
 					</g>
 				</switch>
@@ -12172,10 +12348,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,762.5156)"
-   id="SVGID_232_">00</text>
+   id="SVGID_232_"
+   x="4.5625"
+   y="0">{oth_uk}</text>
 
 					</g>
 				</switch>
@@ -12223,10 +12401,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,762.5156)"
-   id="SVGID_233_">00</text>
+   id="SVGID_233_"
+   x="4.5625"
+   y="0">{un_uk}</text>
 
 					</g>
 				</switch>
@@ -12274,15 +12454,101 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,762.5156)"
-   id="SVGID_234_">00</text>
+   id="SVGID_234_"
+   x="4.5625"
+   y="0">{tot_uk}</text>
 
 					</g>
 				</switch>
 			</g><g
-   id="g23443">
+   id="g41275"><g
+     id="g41165"><g
+       id="g41056"><g
+         id="g40948"><g
+           id="g40841"><g
+             id="g40735"><g
+               id="g40630"><g
+                 id="g40526"><g
+                   id="g40423"><g
+                     id="g40321"><g
+                       id="g40220"><g
+                         id="g40120"><g
+                           id="g40021"><g
+                             id="g39923"><g
+                               id="g39826"><g
+                                 id="g39730"><g
+                                   id="g39635"><g
+                                   id="g39541"><g
+                                   id="g39448"><g
+                                   id="g39356"><g
+                                   id="g39265"><g
+                                   id="g39175"><g
+                                   id="g39086"><g
+                                   id="g38998"><g
+                                   id="g38911"><g
+                                   id="g38825"><g
+                                   id="g38740"><g
+                                   id="g38656"><g
+                                   id="g38573"><g
+                                   id="g38491"><g
+                                   id="g38410"><g
+                                   id="g38330"><g
+                                   id="g38251"><g
+                                   id="g38173"><g
+                                   id="g38096"><g
+                                   id="g38020"><g
+                                   id="g37945"><g
+                                   id="g37871"><g
+                                   id="g37798"><g
+                                   id="g37726"><g
+                                   id="g37655"><g
+                                   id="g37585"><g
+                                   id="g37516"><g
+                                   id="g37448"><g
+                                   id="g37381"><g
+                                   id="g37315"><g
+                                   id="g37250"><g
+                                   id="g37186"><g
+                                   id="g37123"><g
+                                   id="g37061"><g
+                                   id="g37000"><g
+                                   id="g36940"><g
+                                   id="g36881"><g
+                                   id="g36823"><g
+                                   id="g36766"><g
+                                   id="g36710"><g
+                                   id="g36655"><g
+                                   id="g36601"><g
+                                   id="g36548"><g
+                                   id="g36496"><g
+                                   id="g36445"><g
+                                   id="g36395"><g
+                                   id="g36346"><g
+                                   id="g36298"><g
+                                   id="g36251"><g
+                                   id="g36205"><g
+                                   id="g36160"><g
+                                   id="g36116"><g
+                                   id="g36073"><g
+                                   id="g36031"><g
+                                   id="g35990"><g
+                                   id="g35950"><g
+                                   id="g35911"><g
+                                   id="g35873"><g
+                                   id="g35836"><g
+                                   id="g35800"><g
+                                   id="g35765"><g
+                                   id="g35731"><g
+                                   id="g35698"><g
+                                   id="g35666"><g
+                                   id="g35635"><g
+                                   id="g35605"><g
+                                   id="g35576"><g
+                                   id="g35548"><g
+                                   id="g23443">
 				<switch
    id="switch23445"
    i:objectType="areaText"
@@ -12327,10 +12593,12 @@
    x="103" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,775.1367)"
-   id="SVGID_235_">00</text>
+   id="SVGID_235_"
+   x="4.5625"
+   y="0">{mdg6_us}</text>
 
 					</g>
 				</switch>
@@ -12378,10 +12646,12 @@
    x="141.3" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,775.1367)"
-   id="SVGID_236_">00</text>
+   id="SVGID_236_"
+   x="4.5625"
+   y="0">{rf_us}</text>
 
 					</g>
 				</switch>
@@ -12429,10 +12699,12 @@
    x="179.7" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,775.1367)"
-   id="SVGID_237_">00</text>
+   id="SVGID_237_"
+   x="4.5625"
+   y="0">{oth_us}</text>
 
 					</g>
 				</switch>
@@ -12480,10 +12752,12 @@
    x="217.89999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,775.1367)"
-   id="SVGID_238_">00</text>
+   id="SVGID_238_"
+   x="4.5625"
+   y="0">{un_us}</text>
 
 					</g>
 				</switch>
@@ -12531,14 +12805,16 @@
    x="256.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,775.1367)"
-   id="SVGID_239_">00</text>
+   id="SVGID_239_"
+   x="4.5625"
+   y="0">{tot_us}</text>
 
 					</g>
 				</switch>
-			</g><switch
+			</g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g><switch
    id="switch23490"
    i:objectType="areaText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/">
@@ -12582,10 +12858,12 @@
    x="103" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,119.0352,611.1816)"
-   id="SVGID_240_">00</text>
+   id="SVGID_240_"
+   x="4.5625"
+   y="0">{mdg6_fra}</text>
 
 				</g>
 			</switch><switch
@@ -12632,10 +12910,12 @@
    x="141.3" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,157.0557,611.1816)"
-   id="SVGID_241_">00</text>
+   id="SVGID_241_"
+   x="4.5625"
+   y="0">{rf_fra}</text>
 
 				</g>
 			</switch><switch
@@ -12682,10 +12962,12 @@
    x="179.7" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,195.5767,611.1816)"
-   id="SVGID_242_">00</text>
+   id="SVGID_242_"
+   x="4.5625"
+   y="0">{oth_fra}</text>
 
 				</g>
 			</switch><switch
@@ -12732,10 +13014,12 @@
    x="217.89999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,233.4399,611.1816)"
-   id="SVGID_243_">00</text>
+   id="SVGID_243_"
+   x="4.5625"
+   y="0">{un_fra}</text>
 
 				</g>
 			</switch><switch
@@ -12782,10 +13066,12 @@
    x="256.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,271.9326,611.1816)"
-   id="SVGID_244_">00</text>
+   id="SVGID_244_"
+   x="4.5625"
+   y="0">{tot_fra}</text>
 
 				</g>
 			</switch><line
@@ -15952,10 +16238,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,547.0781)"
-   id="SVGID_311_">00</text>
+   id="SVGID_311_"
+   x="4.5625"
+   y="0">{mdg6_gavi}</text>
 
 				</g>
 			</switch><switch
@@ -16002,10 +16290,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,547.0781)"
-   id="SVGID_312_">00</text>
+   id="SVGID_312_"
+   x="4.5625"
+   y="0">{rf_gavi}</text>
 
 				</g>
 			</switch><switch
@@ -16052,10 +16342,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,547.0781)"
-   id="SVGID_313_">00</text>
+   id="SVGID_313_"
+   x="4.5625"
+   y="0">{oth_gavi}</text>
 
 				</g>
 			</switch><switch
@@ -16102,10 +16394,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,547.0781)"
-   id="SVGID_314_">00</text>
+   id="SVGID_314_"
+   x="4.5625"
+   y="0">{un_gavi}</text>
 
 				</g>
 			</switch><switch
@@ -16152,10 +16446,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,547.0781)"
-   id="SVGID_315_">00</text>
+   id="SVGID_315_"
+   x="4.5625"
+   y="0">{tot_gavi}</text>
 
 				</g>
 			</switch><switch
@@ -16202,10 +16498,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,560.6992)"
-   id="SVGID_316_">00</text>
+   id="SVGID_316_"
+   x="4.5625"
+   y="0">{mdg6_gf}</text>
 
 				</g>
 			</switch><switch
@@ -16252,10 +16550,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,560.6992)"
-   id="SVGID_317_">00</text>
+   id="SVGID_317_"
+   x="4.5625"
+   y="0">{rf_gf}</text>
 
 				</g>
 			</switch><switch
@@ -16302,10 +16602,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,560.6992)"
-   id="SVGID_318_">00</text>
+   id="SVGID_318_"
+   x="4.5625"
+   y="0">{oth_gf}</text>
 
 				</g>
 			</switch><switch
@@ -16352,10 +16654,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,560.6992)"
-   id="SVGID_319_">00</text>
+   id="SVGID_319_"
+   x="4.5625"
+   y="0">{un_gf}</text>
 
 				</g>
 			</switch><switch
@@ -16402,10 +16706,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,560.6992)"
-   id="SVGID_320_">00</text>
+   id="SVGID_320_"
+   x="4.5625"
+   y="0">{tot_gf}</text>
 
 				</g>
 			</switch><switch
@@ -16452,10 +16758,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,573.3203)"
-   id="SVGID_321_">00</text>
+   id="SVGID_321_"
+   x="4.5625"
+   y="0">{mdg6_ida}</text>
 
 				</g>
 			</switch><switch
@@ -16502,10 +16810,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,573.3203)"
-   id="SVGID_322_">00</text>
+   id="SVGID_322_"
+   x="4.5625"
+   y="0">{rf_ida}</text>
 
 				</g>
 			</switch><switch
@@ -16552,10 +16862,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,573.3203)"
-   id="SVGID_323_">00</text>
+   id="SVGID_323_"
+   x="4.5625"
+   y="0">{oth_ida}</text>
 
 				</g>
 			</switch><switch
@@ -16602,10 +16914,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,573.3203)"
-   id="SVGID_324_">00</text>
+   id="SVGID_324_"
+   x="4.5625"
+   y="0">{un_ida}</text>
 
 				</g>
 			</switch><switch
@@ -16652,10 +16966,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,573.3203)"
-   id="SVGID_325_">00</text>
+   id="SVGID_325_"
+   x="4.5625"
+   y="0">{tot_ida}</text>
 
 				</g>
 			</switch><switch
@@ -16702,10 +17018,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,585.9414)"
-   id="SVGID_326_">00</text>
+   id="SVGID_326_"
+   x="4.5625"
+   y="0">{mdg6_una}</text>
 
 				</g>
 			</switch><switch
@@ -16752,10 +17070,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,585.9414)"
-   id="SVGID_327_">00</text>
+   id="SVGID_327_"
+   x="4.5625"
+   y="0">{rf_una}</text>
 
 				</g>
 			</switch><switch
@@ -16802,10 +17122,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,585.9414)"
-   id="SVGID_328_">00</text>
+   id="SVGID_328_"
+   x="4.5625"
+   y="0">{oth_una}</text>
 
 				</g>
 			</switch><switch
@@ -16852,10 +17174,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,585.9414)"
-   id="SVGID_329_">00</text>
+   id="SVGID_329_"
+   x="4.5625"
+   y="0">{un_una}</text>
 
 				</g>
 			</switch><switch
@@ -16902,10 +17226,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,585.9414)"
-   id="SVGID_330_">00</text>
+   id="SVGID_330_"
+   x="4.5625"
+   y="0">{tot_una}</text>
 
 				</g>
 			</switch><switch
@@ -16952,10 +17278,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,535.457)"
-   id="SVGID_331_">00</text>
+   id="SVGID_331_"
+   x="4.5625"
+   y="0">{mdg6_ec}</text>
 
 				</g>
 			</switch><switch
@@ -17002,10 +17330,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,535.457)"
-   id="SVGID_332_">00</text>
+   id="SVGID_332_"
+   x="4.5625"
+   y="0">{rf_ec}</text>
 
 				</g>
 			</switch><switch
@@ -17052,10 +17382,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,535.457)"
-   id="SVGID_333_">00</text>
+   id="SVGID_333_"
+   x="4.5625"
+   y="0">{oth_ec}</text>
 
 				</g>
 			</switch><switch
@@ -17102,10 +17434,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,535.457)"
-   id="SVGID_334_">00</text>
+   id="SVGID_334_"
+   x="4.5625"
+   y="0">{un_ec}</text>
 
 				</g>
 			</switch><switch
@@ -17152,10 +17486,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,535.457)"
-   id="SVGID_335_">00</text>
+   id="SVGID_335_"
+   x="4.5625"
+   y="0">{tot_ec}</text>
 
 				</g>
 			</switch><g
@@ -17204,10 +17540,12 @@
    x="389.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,598.5605)"
-   id="SVGID_336_">00</text>
+   id="SVGID_336_"
+   x="4.5625"
+   y="0">{mdg6_und}</text>
 
 					</g>
 				</switch>
@@ -17255,10 +17593,12 @@
    x="427.39999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,598.5605)"
-   id="SVGID_337_">00</text>
+   id="SVGID_337_"
+   x="4.5625"
+   y="0">{rf_und}</text>
 
 					</g>
 				</switch>
@@ -17306,10 +17646,12 @@
    x="465.79999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,598.5605)"
-   id="SVGID_338_">00</text>
+   id="SVGID_338_"
+   x="4.5625"
+   y="0">{oth_und}</text>
 
 					</g>
 				</switch>
@@ -17357,10 +17699,12 @@
    x="504" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,598.5605)"
-   id="SVGID_339_">00</text>
+   id="SVGID_339_"
+   x="4.5625"
+   y="0">{un_und}</text>
 
 					</g>
 				</switch>
@@ -17408,10 +17752,12 @@
    x="542.29999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,598.5605)"
-   id="SVGID_340_">00</text>
+   id="SVGID_340_"
+   x="4.5625"
+   y="0">{tot_und}</text>
 
 					</g>
 				</switch>
@@ -17461,10 +17807,12 @@
    x="389.10001" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,623.8027)"
-   id="SVGID_341_">00</text>
+   id="SVGID_341_"
+   x="4.5625"
+   y="0">{mdg6_uni}</text>
 
 					</g>
 				</switch>
@@ -17512,10 +17860,12 @@
    x="427.39999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,623.8027)"
-   id="SVGID_342_">00</text>
+   id="SVGID_342_"
+   x="4.5625"
+   y="0">{rf_uni}</text>
 
 					</g>
 				</switch>
@@ -17563,10 +17913,12 @@
    x="465.79999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,623.8027)"
-   id="SVGID_343_">00</text>
+   id="SVGID_343_"
+   x="4.5625"
+   y="0">{oth_uni}</text>
 
 					</g>
 				</switch>
@@ -17614,10 +17966,12 @@
    x="504" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,623.8027)"
-   id="SVGID_344_">00</text>
+   id="SVGID_344_"
+   x="4.5625"
+   y="0">{un_uni}</text>
 
 					</g>
 				</switch>
@@ -17665,10 +18019,12 @@
    x="542.29999" />
 						
 							<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,623.8027)"
-   id="SVGID_345_">00</text>
+   id="SVGID_345_"
+   x="4.5625"
+   y="0">{tot_uni}</text>
 
 					</g>
 				</switch>
@@ -17716,10 +18072,12 @@
    x="389.10001" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,405.1738,611.1816)"
-   id="SVGID_346_">00</text>
+   id="SVGID_346_"
+   x="4.5625"
+   y="0">{mdg6_unf}</text>
 
 				</g>
 			</switch><switch
@@ -17766,10 +18124,12 @@
    x="427.39999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,443.1934,611.1816)"
-   id="SVGID_347_">00</text>
+   id="SVGID_347_"
+   x="4.5625"
+   y="0">{rf_unf}</text>
 
 				</g>
 			</switch><switch
@@ -17816,10 +18176,12 @@
    x="465.79999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,481.7148,611.1816)"
-   id="SVGID_348_">00</text>
+   id="SVGID_348_"
+   x="4.5625"
+   y="0">{oth_unf}</text>
 
 				</g>
 			</switch><switch
@@ -17866,10 +18228,12 @@
    x="504" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,519.5781,611.1816)"
-   id="SVGID_349_">00</text>
+   id="SVGID_349_"
+   x="4.5625"
+   y="0">{un_unf}</text>
 
 				</g>
 			</switch><switch
@@ -17916,10 +18280,12 @@
    x="542.29999" />
 					
 						<text
-   style="font-size:8px;fill:#58595b;font-family:Univers-CondensedLight"
+   style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
    transform="matrix(0.9513,0,0,1,558.0703,611.1816)"
-   id="SVGID_350_">00</text>
+   id="SVGID_350_"
+   x="4.5625"
+   y="0">{tot_unf}</text>
 
 				</g>
 			</switch><line
