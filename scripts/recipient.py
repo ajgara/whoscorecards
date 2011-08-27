@@ -96,10 +96,12 @@ class xmlutils(object):
         return None if len(match) == 0 else match[0]
 
 class BarGraph(object):
-    def __init__(self, min_height=285.5, max_height=223):
+    def __init__(self, tick_multiplier=1.2, num_ticks=6, min_height=285.5, max_height=223):
         self.values = {}
         self.max_height = max_height
         self.min_height = min_height
+        self.num_ticks = num_ticks
+        self.tick_multiplier = tick_multiplier
 
     def add_value(self, year, value):
         self.values[int(year)] = value
@@ -107,27 +109,31 @@ class BarGraph(object):
     @property
     def ticks(self):
         high = max(self.values.values())
-        top = round(high * 1.2, -1)
-        ticksz = top / 5.0
-        return { tick + 1 : ticksz * tick for tick in range(6) }
+        top = round(high * self.tick_multiplier, -1)
+        ticksz = top / (self.num_ticks - 1)
+        return { tick + 1 : ticksz * tick for tick in range(self.num_ticks) }
+
+    @property
+    def max_tick(self):
+        return self.ticks[self.num_ticks]
+
+    @property
+    def pixel_range(self):
+        return abs(self.max_height - self.min_height)
 
     def update_bars(self, xml, ids):
-        highest_tick = self.ticks[6]
-        rng = abs(self.max_height - self.min_height)
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "path", ids[year])
             d = node.attributes["d"].value.split()
             d[2] = "V"
-            d[3] = str(self.min_height - self.values[year] / highest_tick * rng)
+            d[3] = str(self.min_height - self.values[year] / self.max_tick * self.pixel_range)
             node.attributes["d"].value = " ".join(d)
 
     def update_values(self, xml, ids):
-        highest_tick = self.ticks[6]
-        rng = abs(self.max_height - self.min_height)
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "text", ids[year])
-            height = self.min_height - self.values[year] / highest_tick * rng
-            node.attributes["y"].value = str(height - 6)
+            height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
+            node.setAttribute("y", str(height - 6))
 
 def process_svg_template(context, template_xml):
     for (key, value) in context.items():
@@ -216,7 +222,7 @@ def process_donor_table(recipient_country, template_xml):
 
 def process_health_graph(recipient_country, template_xml):
     rc = recipient_country
-    graph_oda_health = BarGraph(min_height=285.5, max_height=223)
+    graph_oda_health = BarGraph(num_ticks=6, min_height=285.5, max_height=223)
     data = {}
 
     for year in range(2002, 2010):
@@ -269,12 +275,61 @@ def process_health_graph(recipient_country, template_xml):
 
     arrow = xmlutils.get_el_by_id(xml, "polygon", "g1_arrow")
     if g1_change < 0:
-        arrow = xmlutils.get_el_by_id(xml, "polygon", "g1_arrow")
         arrow.setAttribute("transform", "matrix(-1,0,0,-1,529.8,494)")
         arrow.setAttribute("style", "fill:#be1e2d")
 
 
 
+    return xml.toxml()
+
+def process_health_per_capita_graph(recipient_country, template_xml):
+    rc = recipient_country
+    data = {}
+    graph = BarGraph(num_ticks=4, min_height=285.5, max_height=223)
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        data["g2_v%s" % y] = fmt_r1(rc.oda_health_per_capita[year])
+        graph.add_value(year, rc.oda_health_per_capita[year])
+
+    g2_ticks = graph.ticks
+    data["g2_t1"] = fmt_r0(g2_ticks[1])
+    data["g2_t2"] = fmt_r0(g2_ticks[2])
+    data["g2_t3"] = fmt_r0(g2_ticks[3])
+    data["g2_t4"] = fmt_r0(g2_ticks[4])
+
+    g2_change = rc.oda_health_per_capita["2009"] - rc.oda_health_per_capita["2008"]
+    data["g2_diff"] = fmt_r1(g2_change)
+
+    template_xml = process_svg_template(data, template_xml)
+
+    xml = minidom.parseString(template_xml)
+    graph.update_bars(xml, {
+        2002 : "g2_b2",
+        2003 : "g2_b3",
+        2004 : "g2_b4",
+        2005 : "g2_b5",
+        2006 : "g2_b6",
+        2007 : "g2_b7",
+        2008 : "g2_b8",
+        2009 : "g2_b9",
+    })
+
+    graph.update_values(xml, {
+        2002 : "g2_v2",
+        2003 : "g2_v3",
+        2004 : "g2_v4",
+        2005 : "g2_v5",
+        2006 : "g2_v6",
+        2007 : "g2_v7",
+        2008 : "g2_v8",
+        2009 : "g2_v9",
+    })
+
+    arrow = xmlutils.get_el_by_id(xml, "polygon", "g2_arrow")
+    if g2_change < 0:
+        arrow.setAttribute("transform", "matrix(-1,0,0,-1,529.8,494)")
+        arrow.setAttribute("style", "fill:#be1e2d")
     return xml.toxml()
 
 def process_recipient_country(country):
@@ -286,6 +341,7 @@ def process_recipient_country(country):
     template_xml = process_expenditure_table(rc, template_xml)
     template_xml = process_donor_table(rc, template_xml)
     template_xml = process_health_graph(rc, template_xml)
+    template_xml = process_health_per_capita_graph(rc, template_xml)
 
     f = open("generated/%s.svg" % country, "w")
     f.write(template_xml)
