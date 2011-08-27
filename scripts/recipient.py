@@ -1,4 +1,5 @@
 from xml.dom import minidom
+import os
 import math
 import sys
 import xlrd
@@ -71,7 +72,7 @@ class RecipientCountry(object):
             new_key = attr_key.replace("_perc", "")
             num_arr = self.__getattr__(new_key)
             den_arr = self.__getattr__("oda_health")
-            return { year : (num_arr[year] / den_arr[year]) for year in num_arr.keys()}
+            return { year : numutils.safediv(num_arr[year], den_arr[year]) for year in num_arr.keys()}
         else:
             return object.__getattribute__(self, attr_key)
 
@@ -92,10 +93,18 @@ class SheetReader(object):
 class numutils(object):
     @staticmethod
     def condround(val):
-        if val < 100:
+        if val < 1:
+            return round(val, 1)
+        elif val < 100:
             return round(val)
         else:
             return round(val, -1)
+    @staticmethod
+    def safediv(num, den):
+        if den == 0:
+            return 0.0
+        else:
+            return num / den
 
 class xmlutils(object):
     @staticmethod
@@ -169,7 +178,7 @@ def get_data_sheet(fname, sname):
 # formatting functions
 none_is_zero = lambda x : 0 if x == None else float(x)
 fmt_pop = lambda x : str(round(x / 1000000.0, 1))
-fmt_r1 = lambda x : "0" if x == None else "{:,.1f}".format(float(x))
+fmt_r1 = lambda x : "0" if (x == None or str(x).strip() == "") else "{:,.1f}".format(float(x))
 fmt_1000 = lambda x : "0" if x == None else "{:,.0f}".format(float(x) * 1000)
 fmt_perc = lambda x : str(round(x * 100, 1))
 fmt_r2 = lambda x : str(round(x, 2))
@@ -210,19 +219,19 @@ def process_donor_table(recipient_country, template_xml):
     def data_mdg6(donor_country):
         donor_data = country_donations(donor_country)
         if donor_data == None or len(donor_data) == 0: return 0
-        return none_is_zero(donor_data[0]["MDG6"])
+        return none_is_zero(donor_data[0].get("MDG6", None))
     def data_rhfp(donor_country):
         donor_data = country_donations(donor_country)
         if donor_data == None or len(donor_data) == 0: return 0
-        return none_is_zero(donor_data[0]["RH & FP"])
+        return none_is_zero(donor_data[0].get("RH & FP", None))
     def data_other(donor_country):
         donor_data = country_donations(donor_country)
         if donor_data == None or len(donor_data) == 0: return 0
-        return none_is_zero(donor_data[0]["Other Health Purposes"])
+        return none_is_zero(donor_data[0].get("Other Health Purposes", None))
     def data_unspecified(donor_country):
         donor_data = country_donations(donor_country)
         if donor_data == None or len(donor_data) == 0: return 0
-        return none_is_zero(donor_data[0]["Unallocated"])
+        return none_is_zero(donor_data[0].get("Unallocated", None))
 
     for abbr, donor_country in [
         ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
@@ -485,9 +494,16 @@ def main(*args):
         get_data_sheet(data_files["donor_data"], sheet_names["donor_data"])
     )
 
-    for country in ["IDN"]:
-        print "Processing: %s" % country
-        process_recipient_country(country)
+    for country in open("../data/recipient/recipients"):
+        try:
+            country = country.strip()
+            if country.startswith("#"): continue
+            if os.path.exists("generated/%s.svg" % country):
+                continue
+            print "Processing: %s" % country
+            process_recipient_country(country)
+        except:
+            pass
 
 
 if __name__ == "__main__":
