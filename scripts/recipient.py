@@ -1,3 +1,4 @@
+from xml.dom import minidom
 import sys
 import xlrd
 import ftypes
@@ -87,20 +88,52 @@ class SheetReader(object):
     def data(self):
         return self._data
 
-def process_svg_template(context, template):
-    country = context["country"]
-    filename = "generated/%s.svg" % country
-    new_svg_file = open(filename, 'wb')
+class xmlutils(object):
+    @staticmethod
+    def get_el_by_id(dom, elname, id):
+        elements = dom.getElementsByTagName(elname)
+        match = [el for el in elements if el.attributes["id"].value == id]
+        return None if len(match) == 0 else match[0]
 
-    # no need to make it difficult with xml parsing
-    # just do find/replace
-    svg_data = open(template).read()
+class BarGraph(object):
+    def __init__(self, min_height=285.5, max_height=223):
+        self.values = {}
+        self.max_height = max_height
+        self.min_height = min_height
+
+    def add_value(self, year, value):
+        self.values[int(year)] = value
+
+    @property
+    def ticks(self):
+        high = max(self.values.values())
+        top = round(high * 1.2, -1)
+        ticksz = top / 5.0
+        return { tick + 1 : ticksz * tick for tick in range(6) }
+
+    def update_bars(self, xml, ids):
+        highest_tick = self.ticks[6]
+        rng = abs(self.max_height - self.min_height)
+        for year in range(2002, 2010):
+            node = xmlutils.get_el_by_id(xml, "path", ids[year])
+            d = node.attributes["d"].value.split()
+            d[2] = "V"
+            d[3] = str(self.min_height - self.values[year] / highest_tick * rng)
+            node.attributes["d"].value = " ".join(d)
+
+    def update_values(self, xml, ids):
+        highest_tick = self.ticks[6]
+        rng = abs(self.max_height - self.min_height)
+        for year in range(2002, 2010):
+            node = xmlutils.get_el_by_id(xml, "text", ids[year])
+            height = self.min_height - self.values[year] / highest_tick * rng
+            node.attributes["y"].value = str(height - 6)
+
+def process_svg_template(context, template_xml):
     for (key, value) in context.items():
-        svg_data = svg_data.replace('{%s}' % key, value)
-    new_svg_file.write(svg_data)
-    new_svg_file.close()
+        template_xml = template_xml.replace('{%s}' % key, value)
 
-    return filename
+    return template_xml
 
 def cleanup():
     sys.exit()
@@ -118,20 +151,22 @@ def get_data_sheet(fname, sname):
         print >> sys.stderr, "Could not open sheet: %s in %s" % (sname, fname)
         cleanup() 
 
-def process_recipient_country(country):
-    rc = recipient_country = RecipientCountry(country, recipient_indicators, sources_data)
-    none_is_zero = lambda x : 0 if x == None else float(x)
-    fmt_pop = lambda x : str(round(x / 1000000.0, 1))
-    fmt_r1 = lambda x : "0" if x == None else "{:,.1f}".format(float(x))
-    fmt_1000 = lambda x : "0" if x == None else "{:,.0f}".format(float(x) * 1000)
-    #fmt_r1 = lambda x : str(round(x, 1))
-    fmt_perc = lambda x : str(round(x * 100, 1))
-    fmt_r2 = lambda x : str(round(x, 2))
-    fmt_r0 = lambda x : str(round(x, 0))
+# formatting functions
+none_is_zero = lambda x : 0 if x == None else float(x)
+fmt_pop = lambda x : str(round(x / 1000000.0, 1))
+fmt_r1 = lambda x : "0" if x == None else "{:,.1f}".format(float(x))
+fmt_1000 = lambda x : "0" if x == None else "{:,.0f}".format(float(x) * 1000)
+fmt_perc = lambda x : str(round(x * 100, 1))
+fmt_r2 = lambda x : str(round(x, 2))
+fmt_r0 = lambda x : str(round(x, 0))
 
+def process_expenditure_table(recipient_country, template_xml):
+
+    rc = recipient_country
     data = {
         "country" : recipient_country.country 
     }
+
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
@@ -147,10 +182,16 @@ def process_recipient_country(country):
         data["rhfp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.rhfp[year]), fmt_perc(rc.rhfp_perc[year]))
         data["ohp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.other_health[year]), fmt_perc(rc.other_health_perc[year]))
         data["unspec_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.unspecified[year]), fmt_perc(rc.unspecified_perc[year]))
+    template_xml = process_svg_template(data, template_xml)
+    return template_xml
+
+def process_donor_table(recipient_country, template_xml):
+    rc = recipient_country
+    data = {}
 
     donations = rc.donations
-    country_donations = lambda country : donations / (lambda x : x["donorname_e"] == country)
-    for abbr, country in [
+    country_donations = lambda donor_country : donations / (lambda x : x["donorname_e"] == donor_country)
+    for abbr, donor_country in [
         ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
         ("den", "Denmark"), ("fin", "Finland"), ("fra", "France"), ("ger", "Germany"), 
         ("gre", "Greece"), ("ire", "Ireland"), ("ita", "Italy"), ("jap", "Japan"),
@@ -159,18 +200,96 @@ def process_recipient_country(country):
         ("ec", "EC"), ("gavi", "GAVI"), ("gf", "GFATM"), ("ida", "IDA"),
         ("una", "UNAIDS"), ("und", "UNDP"), ("unf", "UNFPA"), ("uni", "UNICEF"),
         ]:
-        mdg6 = none_is_zero(country_donations(country)[0]["MDG6"])
-        rf = none_is_zero(country_donations(country)[0]["RH & FP"])
-        other = none_is_zero(country_donations(country)[0]["Other Health Purposes"])
-        unspecified = none_is_zero(country_donations(country)[0]["Unallocated"])
+
+        mdg6 = none_is_zero(country_donations(donor_country)[0]["MDG6"])
+        rf = none_is_zero(country_donations(donor_country)[0]["RH & FP"])
+        other = none_is_zero(country_donations(donor_country)[0]["Other Health Purposes"])
+        unspecified = none_is_zero(country_donations(donor_country)[0]["Unallocated"])
 
         data["mdg6_%s" % abbr] = fmt_1000(mdg6)
         data["rf_%s" % abbr] = fmt_1000(rf)
         data["oth_%s" % abbr] = fmt_1000(other)
         data["un_%s" % abbr] = fmt_1000(unspecified)
         data["tot_%s" % abbr] = fmt_1000(mdg6 + rf + other + unspecified)
-    print data
-    process_svg_template(data, recipient_svg)
+    template_xml = process_svg_template(data, template_xml)
+    return template_xml
+
+def process_health_graph(recipient_country, template_xml):
+    rc = recipient_country
+    graph_oda_health = BarGraph(min_height=285.5, max_height=223)
+    data = {}
+
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        data["g1_v%s" % y] = fmt_r1(rc.oda_health[year])
+        graph_oda_health.add_value(year, rc.oda_health[year])
+
+    g1_ticks = graph_oda_health.ticks
+    data["g1_t1"] = fmt_r0(g1_ticks[1])
+    data["g1_t2"] = fmt_r0(g1_ticks[2])
+    data["g1_t3"] = fmt_r0(g1_ticks[3])
+    data["g1_t4"] = fmt_r0(g1_ticks[4])
+    data["g1_t5"] = fmt_r0(g1_ticks[5])
+    data["g1_t6"] = fmt_r0(g1_ticks[6])
+    g1_change = rc.oda_health["2009"] - rc.oda_health["2008"]
+    data["g1_diff"] = fmt_r1(g1_change)
+
+    perc_2008 = rc.oda_health["2008"] / rc.oda_commitments["2008"] * 100
+    perc_2009 = rc.oda_health["2009"] / rc.oda_commitments["2009"] * 100
+    if perc_2008 > perc_2009:
+        data["g1_perc"] = "decreased by %s%%" % fmt_r1(perc_2008 - perc_2009)
+    else:
+        data["g1_perc"] = "increased by %s%%" % fmt_r1(perc_2009 - perc_2008)
+
+    template_xml = process_svg_template(data, template_xml)
+
+    xml = minidom.parseString(template_xml)
+    graph_oda_health.update_bars(xml, {
+        2002 : "path22512",
+        2003 : "path22522",
+        2004 : "path22532",
+        2005 : "path22542",
+        2006 : "path22552",
+        2007 : "path22562",
+        2008 : "path22572",
+        2009 : "path22582",
+    })
+
+    graph_oda_health.update_values(xml, {
+        2002 : "g1_v2",
+        2003 : "g1_v3",
+        2004 : "g1_v4",
+        2005 : "g1_v5",
+        2006 : "g1_v6",
+        2007 : "g1_v7",
+        2008 : "g1_v8",
+        2009 : "g1_v9",
+    })
+
+    arrow = xmlutils.get_el_by_id(xml, "polygon", "g1_arrow")
+    if g1_change < 0:
+        arrow = xmlutils.get_el_by_id(xml, "polygon", "g1_arrow")
+        arrow.setAttribute("transform", "matrix(-1,0,0,-1,529.8,494)")
+        arrow.setAttribute("style", "fill:#be1e2d")
+
+
+
+    return xml.toxml()
+
+def process_recipient_country(country):
+    template_xml = open(recipient_svg, "r").read()
+
+    rc = recipient_country = RecipientCountry(country, recipient_indicators, sources_data)
+
+
+    template_xml = process_expenditure_table(rc, template_xml)
+    template_xml = process_donor_table(rc, template_xml)
+    template_xml = process_health_graph(rc, template_xml)
+
+    f = open("generated/%s.svg" % country, "w")
+    f.write(template_xml)
+    f.close()
 
 
 def main(*args):
