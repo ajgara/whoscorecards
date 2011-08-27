@@ -89,6 +89,14 @@ class SheetReader(object):
     def data(self):
         return self._data
 
+class numutils(object):
+    @staticmethod
+    def condround(val):
+        if val < 100:
+            return round(val)
+        else:
+            return round(val, -1)
+
 class xmlutils(object):
     @staticmethod
     def get_el_by_id(dom, elname, id):
@@ -110,7 +118,7 @@ class BarGraph(object):
     @property
     def ticks(self):
         high = max(self.values.values())
-        top = round(high * self.tick_multiplier, -1)
+        top = numutils.condround(high * self.tick_multiplier)
         ticksz = top / (self.num_ticks - 1)
         return { tick + 1 : ticksz * tick for tick in range(self.num_ticks) }
 
@@ -197,7 +205,25 @@ def process_donor_table(recipient_country, template_xml):
     data = {}
 
     donations = rc.donations
-    country_donations = lambda donor_country : donations / (lambda x : x["donorname_e"] == donor_country)
+    def country_donations(donor_country):
+        return donations / (lambda x : x["donorname_e"] == donor_country)
+    def data_mdg6(donor_country):
+        donor_data = country_donations(donor_country)
+        if donor_data == None or len(donor_data) == 0: return 0
+        return none_is_zero(donor_data[0]["MDG6"])
+    def data_rhfp(donor_country):
+        donor_data = country_donations(donor_country)
+        if donor_data == None or len(donor_data) == 0: return 0
+        return none_is_zero(donor_data[0]["RH & FP"])
+    def data_other(donor_country):
+        donor_data = country_donations(donor_country)
+        if donor_data == None or len(donor_data) == 0: return 0
+        return none_is_zero(donor_data[0]["Other Health Purposes"])
+    def data_unspecified(donor_country):
+        donor_data = country_donations(donor_country)
+        if donor_data == None or len(donor_data) == 0: return 0
+        return none_is_zero(donor_data[0]["Unallocated"])
+
     for abbr, donor_country in [
         ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
         ("den", "Denmark"), ("fin", "Finland"), ("fra", "France"), ("ger", "Germany"), 
@@ -208,10 +234,11 @@ def process_donor_table(recipient_country, template_xml):
         ("una", "UNAIDS"), ("und", "UNDP"), ("unf", "UNFPA"), ("uni", "UNICEF"),
         ]:
 
-        mdg6 = none_is_zero(country_donations(donor_country)[0]["MDG6"])
-        rf = none_is_zero(country_donations(donor_country)[0]["RH & FP"])
-        other = none_is_zero(country_donations(donor_country)[0]["Other Health Purposes"])
-        unspecified = none_is_zero(country_donations(donor_country)[0]["Unallocated"])
+        
+        mdg6 = data_mdg6(donor_country)
+        rf = data_rhfp(donor_country)
+        other = data_other(donor_country)
+        unspecified = data_unspecified(donor_country)
 
         data["mdg6_%s" % abbr] = fmt_1000(mdg6)
         data["rf_%s" % abbr] = fmt_1000(rf)
@@ -387,6 +414,43 @@ def process_allocation_piecharts(recipient_country, template_xml):
         chart.generate_xml()
     return xml.toxml()
 
+def process_largest_donors(recipient_country, template_xml):
+    niz = none_is_zero
+    rc = recipient_country
+    data = {}
+    donations = rc.donations
+    oda = donations * (
+        lambda x : 
+        (
+            x["donorname_e"],
+            niz(x["MDG6"]) + niz(x["RH & FP"]) + 
+            niz(x["Other Health Purposes"]) + niz(x["Unallocated"])
+        )
+    )
+    total = sum([x for (_, x) in oda])  
+    oda = sorted(oda, key=lambda (x, y) : y, reverse=True)
+    oda = [(x, y/total * 100) for (x, y) in oda]
+
+    for i in range(1, 6):
+        val = fmt_r0(oda[i - 1][1])
+        data["d_v%d" % i] = "%s (%s%%)" % (oda[i - 1][0], val)
+    total5 = sum([x for (_, x) in oda[0:5]])
+    data["d_tot"] = fmt_r0(total5)
+
+    template_xml = process_svg_template(data, template_xml)
+
+    max_size = 5500
+    xml = minidom.parseString(template_xml)
+    for i in range(1, 6):
+        perc = oda[i - 1][1]
+        node = xmlutils.get_el_by_id(xml, "circle", "d_c%d" % i)
+        area = perc / 100 * max_size
+        radius = math.sqrt(area / math.pi)
+        node.setAttribute("r", str(radius))
+        
+
+    return xml.toxml()
+
 
 def process_recipient_country(country):
     template_xml = open(recipient_svg, "r").read()
@@ -399,6 +463,7 @@ def process_recipient_country(country):
     template_xml = process_health_graph(rc, template_xml)
     template_xml = process_health_per_capita_graph(rc, template_xml)
     template_xml = process_allocation_piecharts(rc, template_xml)
+    template_xml = process_largest_donors(rc, template_xml)
 
     f = open("generated/%s.svg" % country, "w")
     f.write(template_xml)
@@ -420,9 +485,9 @@ def main(*args):
         get_data_sheet(data_files["donor_data"], sheet_names["donor_data"])
     )
 
-    for country in ["ETH"]:
+    for country in ["IDN"]:
+        print "Processing: %s" % country
         process_recipient_country(country)
-    
 
 
 if __name__ == "__main__":
