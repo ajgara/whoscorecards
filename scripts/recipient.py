@@ -6,19 +6,12 @@ import sys
 import xlrd
 import ftypes
 from pivottable import PivotTable, GroupBy, Sum
-
-data_files = {
-    "recipient_indicators" : "../data/recipient/recipient_indicators.xls",
-    "donor_data"           : "../data/recipient/donor_data3.xls",
-}
-
-sheet_names = {
-    "recipient_data" : "Sheet2",
-    "donor_data"     : "DataBase",
-}
+import dataprocessing
+import processutils
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2
 
 recipient_svg = "../svg/WHO_ODA_recipient.svg"
-donor_svg = "../svg/WHO_ODA_donar.svg"
+output_path = "gen_recipients"
 
 recipient_indicators = None
 sources_data = None
@@ -81,20 +74,6 @@ class RecipientCountry(object):
             return { year : numutils.safediv(num_arr[year], den_arr[year]) for year in num_arr.keys()}
         else:
             return object.__getattribute__(self, attr_key)
-
-class SheetReader(object):
-    def __init__(self, sheet):
-        self._sheet = sheet
-        def get_data():
-            for i in range(self._sheet.nrows):
-                row = self._sheet.row(i)
-                r = map(lambda x : x.value, row)
-                yield r
-        self._data = ftypes.list(*get_data())
-
-    @property
-    def data(self):
-        return self._data
 
 class numutils(object):
     @staticmethod
@@ -163,54 +142,8 @@ class BarGraph(object):
             height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
             node.setAttribute("y", str(height - 6))
 
-def process_svg_template(context, template_xml):
-    for (key, value) in context.items():
-        template_xml = template_xml.replace('{%s}' % key, value)
-
-    return template_xml
-
 def cleanup():
     sys.exit()
-
-def get_data_sheet(fname, sname):
-    try:
-        book = xlrd.open_workbook(fname)
-    except IOError:
-        print >> sys.stderr, "Could not open %" (fname)
-        cleanup() 
-        
-    try:
-        return book.sheet_by_name(sname)
-    except xlrd.XLRDError:
-        print >> sys.stderr, "Could not open sheet: %s in %s" % (sname, fname)
-        cleanup() 
-
-def check_numeric(fn):
-    def _check_numeric(x):
-        if (x == None or str(x).strip() == ""):
-            return "0"
-        else:
-            return fn(x)
-    return _check_numeric
-
-# formatting functions
-none_is_zero = lambda x : 0 if x == None else float(x)
-fmt_pop = lambda x : str(round(x / 1000000.0, 1))
-
-@check_numeric
-def fmt_1000(x): return "{:,.0f}".format(float(x) * 1000)
-
-@check_numeric
-def fmt_perc(x): return str(round(x * 100, 1))
-
-@check_numeric
-def fmt_r0(x): return str(round(x, 0))
-
-@check_numeric
-def fmt_r1(x): return "{:,.1f}".format(float(x))
-
-@check_numeric
-def fmt_r2(x): return str(round(x, 2)) 
 
 def process_expenditure_table(recipient_country, template_xml):
 
@@ -475,7 +408,7 @@ def process_largest_donors(recipient_country, template_xml):
         niz(x.get("Other Health Purposes", 0)) + niz(x.get("Unallocated", 0))
     )
     fn_get_health_oda = lambda (x, y) : y
-    fn_sum_oda = lambda donors : sum([fn_get_health_oda for tpl in donors])
+    fn_sum_oda = lambda donors : sum([fn_get_health_oda(tpl) for tpl in donors])
     fn_calc_area = lambda perc_donated : perc_donated / 100 * max_size
     fn_calc_radius = lambda perc_donated : math.sqrt(fn_calc_area(perc_donated) / math.pi)
 
@@ -504,7 +437,7 @@ def process_largest_donors(recipient_country, template_xml):
     return xml.toxml()
 
 def process_recipient_country(country):
-    template_xml = open(recipient_svg, "r").read()
+    template_xml = open(recipient_svg, "r").read().decode("utf-8")
 
     rc = recipient_country = RecipientCountry(country, recipient_indicators, sources_data)
 
@@ -516,7 +449,7 @@ def process_recipient_country(country):
     template_xml = process_allocation_piecharts(rc, template_xml)
     template_xml = process_largest_donors(rc, template_xml)
 
-    f = open("generated/%s.svg" % country, "w")
+    f = open("%s/%s.svg" % (output_path, country), "w")
     f.write(template_xml.encode("utf-8"))
     f.close()
 
@@ -524,22 +457,18 @@ def process_recipient_country(country):
 def main(*args):
     global recipient_indicators, sources_data
 
-    indicator_file = open(data_files["recipient_indicators"])
-    book = data_sheet = None
+    try:
+        recipient_indicators = dataprocessing.load_data("recipient_indicators")
+        sources_data = dataprocessing.load_data("donor_data")
+    except dataprocessing.DataProcessingException, e:
+        print >> sys.stderr, e.message
+        cleanup()
 
-        
-    recipient_indicators = SheetReader(
-        get_data_sheet(data_files["recipient_indicators"], sheet_names["recipient_data"])
-    )
-
-    sources_data = SheetReader(
-        get_data_sheet(data_files["donor_data"], sheet_names["donor_data"])
-    )
-
-    for country in open("../data/recipient/recipients"):
+    #for country in open("../data/recipient/recipients"):
+    for country in ["ETH"]:
         country = country.strip()
         if country.startswith("#"): continue
-        if os.path.exists("generated/%s.svg" % country):
+        if os.path.exists("%s/%s.svg" % (output_path, country)):
             continue
         print "Processing: %s" % country
         try:
