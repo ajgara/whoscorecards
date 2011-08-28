@@ -88,6 +88,70 @@ class DonorCountry(object):
         fn_get_gmc_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
         gmc_allocation =  dict(self._donation_breakdown * fn_get_gmc_allocation)
         return gmc_allocation
+
+    @property
+    def afro_allocation(self):
+        f_year = "Period"
+        f_allocation = "Afr"
+        fn_get_afro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        afro_allocation =  dict(self._donation_breakdown * fn_get_afro_allocation)
+        return afro_allocation
+
+    @property
+    def amro_allocation(self):
+        f_year = "Period"
+        f_allocation = "Amr"
+        fn_get_amro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        amro_allocation =  dict(self._donation_breakdown * fn_get_amro_allocation)
+        return amro_allocation
+
+    @property
+    def emro_allocation(self):
+        f_year = "Period"
+        f_allocation = "Emr"
+        fn_get_emro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        emro_allocation =  dict(self._donation_breakdown * fn_get_emro_allocation)
+        return emro_allocation
+
+    @property
+    def euro_allocation(self):
+        f_year = "Period"
+        f_allocation = "Eur"
+        fn_get_euro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        euro_allocation =  dict(self._donation_breakdown * fn_get_euro_allocation)
+        return euro_allocation
+
+    @property
+    def searo_allocation(self):
+        f_year = "Period"
+        f_allocation = "Sear"
+        fn_get_searo_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        searo_allocation =  dict(self._donation_breakdown * fn_get_searo_allocation)
+        return searo_allocation
+
+    @property
+    def wpro_allocation(self):
+        f_year = "Period"
+        f_allocation = "Wpr"
+        fn_get_wpro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        wpro_allocation =  dict(self._donation_breakdown * fn_get_wpro_allocation)
+        return wpro_allocation
+
+    @property
+    def gmcr_allocation(self):
+        f_year = "Period"
+        f_allocation = "Multicount"
+        fn_get_gmcr_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        gmcr_allocation =  dict(self._donation_breakdown * fn_get_gmcr_allocation)
+        return gmcr_allocation
+
+    @property
+    def other_allocation(self):
+        f_year = "Period"
+        f_allocation = "Not UN"
+        fn_get_other_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        other_allocation =  dict(self._donation_breakdown * fn_get_other_allocation)
+        return other_allocation
         
 
 class ProcessingException(Exception):
@@ -120,6 +184,7 @@ def process_income_group_table(donor_country, template_xml):
     lmi_allocation = dc.lmi_allocation
     umi_allocation = dc.umi_allocation
     gmc_allocation = dc.gmc_allocation
+    other_allocation = dc.other_allocation
 
     for year in range(2002, 2010):
         y = str(year)[3]
@@ -129,6 +194,33 @@ def process_income_group_table(donor_country, template_xml):
         data["lmi_%s" % y] = fmt_r1(lmi_allocation[year])
         data["umi_%s" % y] = fmt_r1(umi_allocation[year])
         data["gmc_%s" % y] = fmt_r1(gmc_allocation[year])
+        data["othr_%s" % y] = fmt_r1(other_allocation[year])
+
+    template_xml = process_svg_template(data, template_xml)
+    return template_xml
+
+def process_region_table(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+
+    afro_allocation = dc.afro_allocation
+    amro_allocation = dc.amro_allocation
+    emro_allocation = dc.emro_allocation
+    euro_allocation = dc.euro_allocation
+    searo_allocation = dc.searo_allocation
+    wpro_allocation = dc.wpro_allocation
+    gmcr_allocation = dc.gmcr_allocation
+
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        data["afro_%s" % y] = fmt_r1(afro_allocation[year])
+        data["amro_%s" % y] = fmt_r1(amro_allocation[year])
+        data["emro_%s" % y] = fmt_r1(emro_allocation[year])
+        data["euro_%s" % y] = fmt_r1(euro_allocation[year])
+        data["searo_%s" % y] = fmt_r1(searo_allocation[year])
+        data["wpro_%s" % y] = fmt_r1(wpro_allocation[year])
+        data["gmcr_%s" % y] = fmt_r1(gmcr_allocation[year])
 
     template_xml = process_svg_template(data, template_xml)
     return template_xml
@@ -143,6 +235,7 @@ def process_donor_country(donor_country):
     template_xml = process_svg_template(data, template_xml)
     template_xml = process_commitments_table(dc, template_xml)
     template_xml = process_income_group_table(dc, template_xml)
+    template_xml = process_region_table(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))
