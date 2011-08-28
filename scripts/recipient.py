@@ -1,3 +1,4 @@
+import numbers
 from xml.dom import minidom
 import os
 import math
@@ -24,10 +25,15 @@ sources_data = None
 
 is_country = lambda country : lambda x : x.ISO3 == country 
 
+class ProcessingException(Exception):
+    pass
+
 class RecipientCountry(object):
     def __init__(self, iso3, recipient_indicators, donor_data):
         self._recipient_indicators = recipient_indicators.data / is_country(iso3)
         self._donor_data = donor_data.data / is_country(iso3)
+        if len(self._recipient_indicators) == 0:
+            raise ProcessingException("Could not find data for %s" % iso3)
         self.country = self._recipient_indicators[0]["WHO Name"]
 
         self.colmap = {
@@ -93,7 +99,9 @@ class SheetReader(object):
 class numutils(object):
     @staticmethod
     def condround(val):
-        if val < 1:
+        if val < 0.1:
+            return val
+        elif val < 1:
             return round(val, 1)
         elif val < 100:
             return round(val)
@@ -101,6 +109,8 @@ class numutils(object):
             return round(val, -1)
     @staticmethod
     def safediv(num, den):
+        if not isinstance(num, numbers.Number) or not isinstance(den, numbers.Number):
+            return 0
         if den == 0:
             return 0.0
         else:
@@ -175,14 +185,32 @@ def get_data_sheet(fname, sname):
         print >> sys.stderr, "Could not open sheet: %s in %s" % (sname, fname)
         cleanup() 
 
+def check_numeric(fn):
+    def _check_numeric(x):
+        if (x == None or str(x).strip() == ""):
+            return "0"
+        else:
+            return fn(x)
+    return _check_numeric
+
 # formatting functions
 none_is_zero = lambda x : 0 if x == None else float(x)
 fmt_pop = lambda x : str(round(x / 1000000.0, 1))
-fmt_r1 = lambda x : "0" if (x == None or str(x).strip() == "") else "{:,.1f}".format(float(x))
-fmt_1000 = lambda x : "0" if x == None else "{:,.0f}".format(float(x) * 1000)
-fmt_perc = lambda x : str(round(x * 100, 1))
-fmt_r2 = lambda x : str(round(x, 2))
-fmt_r0 = lambda x : str(round(x, 0))
+
+@check_numeric
+def fmt_1000(x): return "{:,.0f}".format(float(x) * 1000)
+
+@check_numeric
+def fmt_perc(x): return str(round(x * 100, 1))
+
+@check_numeric
+def fmt_r0(x): return str(round(x, 0))
+
+@check_numeric
+def fmt_r1(x): return "{:,.1f}".format(float(x))
+
+@check_numeric
+def fmt_r2(x): return str(round(x, 2)) 
 
 def process_expenditure_table(recipient_country, template_xml):
 
@@ -259,16 +287,21 @@ def process_donor_table(recipient_country, template_xml):
 
 def process_health_graph(recipient_country, template_xml):
     rc = recipient_country
-    graph_oda_health = BarGraph(num_ticks=6, min_height=285.5, max_height=223)
+    graph = BarGraph(num_ticks=6, min_height=285.5, max_height=223)
     data = {}
 
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
         data["g1_v%s" % y] = fmt_r1(rc.oda_health[year])
-        graph_oda_health.add_value(year, rc.oda_health[year])
+        graph.add_value(year, rc.oda_health[year])
 
-    g1_ticks = graph_oda_health.ticks
+    has_data = isinstance(max(graph.values.values()), numbers.Number)
+    if not has_data:
+        # No data available for this graph
+        return template_xml
+
+    g1_ticks = graph.ticks
     data["g1_t1"] = fmt_r0(g1_ticks[1])
     data["g1_t2"] = fmt_r0(g1_ticks[2])
     data["g1_t3"] = fmt_r0(g1_ticks[3])
@@ -278,8 +311,8 @@ def process_health_graph(recipient_country, template_xml):
     g1_change = rc.oda_health["2009"] - rc.oda_health["2008"]
     data["g1_diff"] = fmt_r1(g1_change)
 
-    perc_2008 = rc.oda_health["2008"] / rc.oda_commitments["2008"] * 100
-    perc_2009 = rc.oda_health["2009"] / rc.oda_commitments["2009"] * 100
+    perc_2008 = numutils.safediv(rc.oda_health["2008"], rc.oda_commitments["2008"]) * 100
+    perc_2009 = numutils.safediv(rc.oda_health["2009"], rc.oda_commitments["2009"]) * 100
     if perc_2008 > perc_2009:
         data["g1_perc"] = "decreased by %s%%" % fmt_r1(perc_2008 - perc_2009)
     else:
@@ -287,8 +320,8 @@ def process_health_graph(recipient_country, template_xml):
 
     template_xml = process_svg_template(data, template_xml)
 
-    xml = minidom.parseString(template_xml)
-    graph_oda_health.update_bars(xml, {
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    graph.update_bars(xml, {
         2002 : "path22512",
         2003 : "path22522",
         2004 : "path22532",
@@ -299,7 +332,7 @@ def process_health_graph(recipient_country, template_xml):
         2009 : "path22582",
     })
 
-    graph_oda_health.update_values(xml, {
+    graph.update_values(xml, {
         2002 : "g1_v2",
         2003 : "g1_v3",
         2004 : "g1_v4",
@@ -315,8 +348,6 @@ def process_health_graph(recipient_country, template_xml):
         arrow.setAttribute("transform", "matrix(-1,0,0,-1,529.8,494)")
         arrow.setAttribute("style", "fill:#be1e2d")
 
-
-
     return xml.toxml()
 
 def process_health_per_capita_graph(recipient_country, template_xml):
@@ -329,6 +360,11 @@ def process_health_per_capita_graph(recipient_country, template_xml):
         data["g2_v%s" % y] = fmt_r1(rc.oda_health_per_capita[year])
         graph.add_value(year, rc.oda_health_per_capita[year])
 
+    has_data = isinstance(max(graph.values.values()), numbers.Number)
+    if not has_data:
+        # No data available for this graph
+        return template_xml
+
     g2_ticks = graph.ticks
     data["g2_t1"] = fmt_r0(g2_ticks[1])
     data["g2_t2"] = fmt_r0(g2_ticks[2])
@@ -340,7 +376,7 @@ def process_health_per_capita_graph(recipient_country, template_xml):
 
     template_xml = process_svg_template(data, template_xml)
 
-    xml = minidom.parseString(template_xml)
+    xml = minidom.parseString(template_xml.encode("utf-8"))
     graph.update_bars(xml, {
         2002 : "g2_b2",
         2003 : "g2_b3",
@@ -382,6 +418,8 @@ class PieChart(object):
 
     def generate_xml(self):
         total = sum(self.data)
+        if total == 0: return
+
         centre_x, centre_y = self.centre
         percs = [v / total for v in self.data]
 
@@ -415,7 +453,7 @@ class PieChart(object):
 
 def process_allocation_piecharts(recipient_country, template_xml):
     rc = recipient_country
-    xml = minidom.parseString(template_xml)
+    xml = minidom.parseString(template_xml.encode("utf-8"))
     circle_y = 441
     for year, circle_x in [(2002, 237), (2003, 281), (2004, 328), (2005, 373.8), (2006, 420), (2007, 465.77), (2008, 511.71), (2009, 557.77)]:
         year = str(year)
@@ -424,42 +462,46 @@ def process_allocation_piecharts(recipient_country, template_xml):
     return xml.toxml()
 
 def process_largest_donors(recipient_country, template_xml):
+    max_size = 5500 # Area of a 100% circle
+
     niz = none_is_zero
     rc = recipient_country
     data = {}
     donations = rc.donations
-    oda = donations * (
-        lambda x : 
-        (
-            x["donorname_e"],
-            niz(x["MDG6"]) + niz(x["RH & FP"]) + 
-            niz(x["Other Health Purposes"]) + niz(x["Unallocated"])
-        )
-    )
-    total = sum([x for (_, x) in oda])  
-    oda = sorted(oda, key=lambda (x, y) : y, reverse=True)
-    oda = [(x, y/total * 100) for (x, y) in oda]
 
-    for i in range(1, 6):
-        val = fmt_r0(oda[i - 1][1])
-        data["d_v%d" % i] = "%s (%s%%)" % (oda[i - 1][0], val)
-    total5 = sum([x for (_, x) in oda[0:5]])
-    data["d_tot"] = fmt_r0(total5)
+    fn_total_donor_health_oda = lambda x : (
+        x["donorname_e"],
+        niz(x.get("MDG6", 0)) + niz(x.get("RH & FP", 0)) + 
+        niz(x.get("Other Health Purposes", 0)) + niz(x.get("Unallocated", 0))
+    )
+    fn_get_health_oda = lambda (x, y) : y
+    fn_sum_oda = lambda donors : sum([fn_get_health_oda for tpl in donors])
+    fn_calc_area = lambda perc_donated : perc_donated / 100 * max_size
+    fn_calc_radius = lambda perc_donated : math.sqrt(fn_calc_area(perc_donated) / math.pi)
+
+    # Total health oda for each donor
+    oda = donations * fn_total_donor_health_oda
+
+    total_oda = fn_sum_oda(oda)
+    oda = sorted(oda, key=fn_get_health_oda, reverse=True)
+    oda_as_perc = [(x, y/total_oda * 100) for (x, y) in oda]
+
+    top5_oda_donors = oda_as_perc[0:5]
+    for i, (country_name, perc_donated) in enumerate(top5_oda_donors):
+        s_perc_donated = fmt_r0(perc_donated)
+        data["d_v%d" % (i + 1)] = "%s (%s%%)" % (country_name, s_perc_donated)
+    top5_perc = fn_sum_oda(top5_oda_donors)
+    data["d_tot"] = fmt_r0(top5_perc)
 
     template_xml = process_svg_template(data, template_xml)
 
-    max_size = 5500
-    xml = minidom.parseString(template_xml)
-    for i in range(1, 6):
-        perc = oda[i - 1][1]
-        node = xmlutils.get_el_by_id(xml, "circle", "d_c%d" % i)
-        area = perc / 100 * max_size
-        radius = math.sqrt(area / math.pi)
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    for i, (country_name, perc_donated) in enumerate(top5_oda_donors):
+        node = xmlutils.get_el_by_id(xml, "circle", "d_c%d" % (i + 1))
+        radius = fn_calc_radius(perc_donated)
         node.setAttribute("r", str(radius))
-        
 
     return xml.toxml()
-
 
 def process_recipient_country(country):
     template_xml = open(recipient_svg, "r").read()
@@ -475,7 +517,7 @@ def process_recipient_country(country):
     template_xml = process_largest_donors(rc, template_xml)
 
     f = open("generated/%s.svg" % country, "w")
-    f.write(template_xml)
+    f.write(template_xml.encode("utf-8"))
     f.close()
 
 
@@ -495,15 +537,15 @@ def main(*args):
     )
 
     for country in open("../data/recipient/recipients"):
+        country = country.strip()
+        if country.startswith("#"): continue
+        if os.path.exists("generated/%s.svg" % country):
+            continue
+        print "Processing: %s" % country
         try:
-            country = country.strip()
-            if country.startswith("#"): continue
-            if os.path.exists("generated/%s.svg" % country):
-                continue
-            print "Processing: %s" % country
             process_recipient_country(country)
-        except:
-            pass
+        except ProcessingException, e:
+            print "Skipping %s due to processing exception: %s" % (country, e.message)
 
 
 if __name__ == "__main__":
