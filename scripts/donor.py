@@ -8,12 +8,14 @@ output_path = "gen_donors"
 
 is_donor1 = lambda donor : lambda x : x.donorname_e == donor
 is_donor2 = lambda donor : lambda x : x.DONOR == donor
+is_donor3 = lambda donor : lambda x : x.Donor == donor
 
 class DonorCountry(object):
-    def __init__(self, country, db_donor_data, db_donor_oda):
+    def __init__(self, country, db_donor_data, db_donor_oda, db_donation_breakdown):
         self.country = country
         self._donor_data = db_donor_data.data / is_donor1(country)
         self._donor_oda = db_donor_oda.data / is_donor2(country)
+        self._donation_breakdown = db_donation_breakdown.data / is_donor3(country)
 
         # Years are presented as ranges - e.g. 2000-2002
         # Return only the end of the range
@@ -47,6 +49,47 @@ class DonorCountry(object):
             year : oda_health[year] / oda[year] for year in oda.keys()
         }
 
+    @property
+    def ldc_allocation(self):
+        f_year = "Period"
+        f_allocation = "LDCs,Total (Least Developed)"
+        fn_get_ldc_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        ldc_allocation =  dict(self._donation_breakdown * fn_get_ldc_allocation)
+        return ldc_allocation
+
+    @property
+    def lic_allocation(self):
+        f_year = "Period"
+        f_allocation = "OLICs,Total (Other Low Income)"
+        fn_get_lic_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        lic_allocation =  dict(self._donation_breakdown * fn_get_lic_allocation)
+        return lic_allocation
+
+    @property
+    def lmi_allocation(self):
+        f_year = "Period"
+        f_allocation = "LMICs,Total (Low Middle Income)"
+        fn_get_lmi_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        lmi_allocation =  dict(self._donation_breakdown * fn_get_lmi_allocation)
+        return lmi_allocation
+
+    @property
+    def umi_allocation(self):
+        f_year = "Period"
+        f_allocation = "UMICs,Total (Upper Middle Income)"
+        fn_get_umi_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        umi_allocation =  dict(self._donation_breakdown * fn_get_umi_allocation)
+        return umi_allocation
+
+    @property
+    def gmc_allocation(self):
+        f_year = "Period"
+        f_allocation = "DONORS TO Income groups 3 yrs MovAv.(blank)"
+        fn_get_gmc_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        gmc_allocation =  dict(self._donation_breakdown * fn_get_gmc_allocation)
+        return gmc_allocation
+        
+
 class ProcessingException(Exception):
     pass
 
@@ -68,6 +111,28 @@ def process_commitments_table(donor_country, template_xml):
     template_xml = process_svg_template(data, template_xml)
     return template_xml
 
+def process_income_group_table(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+
+    ldc_allocation = dc.ldc_allocation
+    lic_allocation = dc.lic_allocation
+    lmi_allocation = dc.lmi_allocation
+    umi_allocation = dc.umi_allocation
+    gmc_allocation = dc.gmc_allocation
+
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        data["ldc_%s" % y] = fmt_r1(ldc_allocation[year])
+        data["lic_%s" % y] = fmt_r1(lic_allocation[year])
+        data["lmi_%s" % y] = fmt_r1(lmi_allocation[year])
+        data["umi_%s" % y] = fmt_r1(umi_allocation[year])
+        data["gmc_%s" % y] = fmt_r1(gmc_allocation[year])
+
+    template_xml = process_svg_template(data, template_xml)
+    return template_xml
+
 def process_donor_country(donor_country):
     template_xml = open(donor_svg, "r").read().decode("utf-8")
 
@@ -77,6 +142,7 @@ def process_donor_country(donor_country):
     }
     template_xml = process_svg_template(data, template_xml)
     template_xml = process_commitments_table(dc, template_xml)
+    template_xml = process_income_group_table(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))
@@ -88,6 +154,7 @@ def main(*args):
         recipient_indicators = dataprocessing.load_data("recipient_indicators")
         db_donor_data = dataprocessing.load_data("donor_data")
         db_donor_oda = dataprocessing.load_data("donor_oda")
+        db_donation_breakdown = dataprocessing.load_data("donation_breakdown")
     except dataprocessing.DataProcessingException, e:
         print >> sys.stderr, e.message
         cleanup()
@@ -100,7 +167,7 @@ def main(*args):
         #    continue
         print "Processing: %s" % country
         try:
-            dc = DonorCountry(country, db_donor_data, db_donor_oda)
+            dc = DonorCountry(country, db_donor_data, db_donor_oda, db_donation_breakdown)
             process_donor_country(dc)
         except ProcessingException, e:
             print "Skipping %s due to processing exception: %s" % (country, e.message)

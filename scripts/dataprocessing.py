@@ -4,13 +4,15 @@ import ftypes
 data_files = {
     "recipient_indicators" : "../data/recipient/recipient_indicators.xls",
     "donor_data"           : "../data/recipient/donor_data3.xls",
-    "donor_oda"           : "../data/donor/donor_oda.xls",
+    "donor_oda"            : "../data/donor/donor_oda.xls",
+    "donation_breakdown"   : "../data/donor/donation_breakdown.xls",
 }
 
 sheet_names = {
     "recipient_indicators" : "Sheet2",
-    "donor_data"     : "DataBase",
-    "donor_oda"     : "DB",
+    "donor_data"           : "DataBase",
+    "donor_oda"            : "DB",
+    "donation_breakdown"   : "DATA",
 }
 
 class DataProcessingException(Exception):
