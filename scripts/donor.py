@@ -1,4 +1,5 @@
 from xml.dom import minidom
+import numbers
 import sys
 import os
 import dataprocessing
@@ -292,6 +293,48 @@ def process_health_table(donor_country, template_xml):
         chart.generate_xml()
     return xml.toxml()
 
+def process_commitments_graph(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+    graph = graphs.BarGraph(num_ticks=7, min_height=285.5, max_height=223)
+
+    oda_commitments = dc.oda_commitments
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        #data["g1_v%s" % y] = fmt_r1(rc.oda_health[year])
+        graph.add_value(year, oda_commitments[year])
+
+    has_data = isinstance(max(graph.values.values()), numbers.Number)
+    if not has_data:
+        # No data available for this graph
+        return template_xml
+
+    g1_ticks = graph.ticks
+    data["g1_t1"] = fmt_r0(g1_ticks[1])
+    data["g1_t2"] = fmt_r0(g1_ticks[2])
+    data["g1_t3"] = fmt_r0(g1_ticks[3])
+    data["g1_t4"] = fmt_r0(g1_ticks[4])
+    data["g1_t5"] = fmt_r0(g1_ticks[5])
+    data["g1_t6"] = fmt_r0(g1_ticks[6])
+    data["g1_t7"] = fmt_r0(g1_ticks[7])
+
+    template_xml = process_svg_template(data, template_xml)
+
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    graph.update_bars(xml, {
+        2002 : "g1_b2",
+        2003 : "g1_b3",
+        2004 : "g1_b4",
+        2005 : "g1_b5",
+        2006 : "g1_b6",
+        2007 : "g1_b7",
+        2008 : "g1_b8",
+        2009 : "g1_b9",
+    })
+
+    return xml.toxml()
+
 def process_donor_country(donor_country):
     template_xml = open(donor_svg, "r").read().decode("utf-8")
 
@@ -304,6 +347,7 @@ def process_donor_country(donor_country):
     template_xml = process_income_group_table(dc, template_xml)
     template_xml = process_region_table(dc, template_xml)
     template_xml = process_health_table(dc, template_xml)
+    template_xml = process_commitments_graph(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))

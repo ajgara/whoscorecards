@@ -8,7 +8,7 @@ import ftypes
 from pivottable import PivotTable, GroupBy, Sum
 import dataprocessing
 import processutils
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2, xmlutils, numutils
 import graphs
 
 recipient_svg = "../svg/WHO_ODA_recipient.svg"
@@ -75,73 +75,6 @@ class RecipientCountry(object):
             return { year : numutils.safediv(num_arr[year], den_arr[year]) for year in num_arr.keys()}
         else:
             return object.__getattribute__(self, attr_key)
-
-class numutils(object):
-    @staticmethod
-    def condround(val):
-        if val < 0.1:
-            return val
-        elif val < 1:
-            return round(val, 1)
-        elif val < 100:
-            return round(val)
-        else:
-            return round(val, -1)
-    @staticmethod
-    def safediv(num, den):
-        if not isinstance(num, numbers.Number) or not isinstance(den, numbers.Number):
-            return 0
-        if den == 0:
-            return 0.0
-        else:
-            return num / den
-
-class xmlutils(object):
-    @staticmethod
-    def get_el_by_id(dom, elname, id):
-        elements = dom.getElementsByTagName(elname)
-        match = [el for el in elements if el.attributes["id"].value == id]
-        return None if len(match) == 0 else match[0]
-
-class BarGraph(object):
-    def __init__(self, tick_multiplier=1.2, num_ticks=6, min_height=285.5, max_height=223):
-        self.values = {}
-        self.max_height = max_height
-        self.min_height = min_height
-        self.num_ticks = num_ticks
-        self.tick_multiplier = tick_multiplier
-
-    def add_value(self, year, value):
-        self.values[int(year)] = value
-
-    @property
-    def ticks(self):
-        high = max(self.values.values())
-        top = numutils.condround(high * self.tick_multiplier)
-        ticksz = top / (self.num_ticks - 1)
-        return { tick + 1 : ticksz * tick for tick in range(self.num_ticks) }
-
-    @property
-    def max_tick(self):
-        return self.ticks[self.num_ticks]
-
-    @property
-    def pixel_range(self):
-        return abs(self.max_height - self.min_height)
-
-    def update_bars(self, xml, ids):
-        for year in range(2002, 2010):
-            node = xmlutils.get_el_by_id(xml, "path", ids[year])
-            d = node.attributes["d"].value.split()
-            d[2] = "V"
-            d[3] = str(self.min_height - self.values[year] / self.max_tick * self.pixel_range)
-            node.attributes["d"].value = " ".join(d)
-
-    def update_values(self, xml, ids):
-        for year in range(2002, 2010):
-            node = xmlutils.get_el_by_id(xml, "text", ids[year])
-            height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
-            node.setAttribute("y", str(height - 6))
 
 def cleanup():
     sys.exit()

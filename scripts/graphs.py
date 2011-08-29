@@ -1,4 +1,46 @@
 import math
+from processutils import numutils, xmlutils
+
+class BarGraph(object):
+    def __init__(self, tick_multiplier=1.2, num_ticks=6, min_height=285.5, max_height=223):
+        self.values = {}
+        self.max_height = max_height
+        self.min_height = min_height
+        self.num_ticks = num_ticks
+        self.tick_multiplier = tick_multiplier
+
+    def add_value(self, year, value):
+        self.values[int(year)] = value
+
+    @property
+    def ticks(self):
+        high = max(self.values.values())
+        top = numutils.condround(high * self.tick_multiplier)
+        ticksz = top / (self.num_ticks - 1)
+        return { tick + 1 : ticksz * tick for tick in range(self.num_ticks) }
+
+    @property
+    def max_tick(self):
+        return self.ticks[self.num_ticks]
+
+    @property
+    def pixel_range(self):
+        return abs(self.max_height - self.min_height)
+
+    def update_bars(self, xml, ids):
+        for year in range(2002, 2010):
+            node = xmlutils.get_el_by_id(xml, "path", ids[year])
+            d = node.attributes["d"].value.split()
+            d[2] = "V"
+            d[3] = str(self.min_height - self.values[year] / self.max_tick * self.pixel_range)
+            node.attributes["d"].value = " ".join(d)
+
+    def update_values(self, xml, ids):
+        for year in range(2002, 2010):
+            node = xmlutils.get_el_by_id(xml, "text", ids[year])
+            height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
+            node.setAttribute("y", str(height - 6))
+
 
 class PieChart(object):
     def __init__(self, xml, centre, radius, data, colours=None):
