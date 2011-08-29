@@ -24,6 +24,9 @@ def fmt_1000(x): return "{:,.0f}".format(float(x) * 1000)
 def fmt_perc(x): return str(round(x * 100, 1))
 
 @check_numeric
+def fmt_perc0(x): return str(int(round(x * 100, 0)))
+
+@check_numeric
 def fmt_r0(x): return str(round(x, 0))
 
 @check_numeric

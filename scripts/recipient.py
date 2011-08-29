@@ -9,6 +9,7 @@ from pivottable import PivotTable, GroupBy, Sum
 import dataprocessing
 import processutils
 from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2
+import graphs
 
 recipient_svg = "../svg/WHO_ODA_recipient.svg"
 output_path = "gen_recipients"
@@ -338,59 +339,13 @@ def process_health_per_capita_graph(recipient_country, template_xml):
         arrow.setAttribute("style", "fill:#be1e2d")
     return xml.toxml()
 
-class PieChart(object):
-    def __init__(self, xml, centre, radius, data, colours=None):
-        self.xml = xml
-        self.centre = centre
-        self.radius = radius
-        self.data = data
-        if colours == None:
-            self.colours = ["#cf3d96", "#62a73b", "#79317f", "#009983"]
-        else:
-            self.colours = colours
-
-    def generate_xml(self):
-        total = sum(self.data)
-        if total == 0: return
-
-        centre_x, centre_y = self.centre
-        percs = [v / total for v in self.data]
-
-        prev_angle = 0
-        for perc in percs:
-            new_angle = prev_angle + 2 * math.pi * perc
-            segment = {
-                "centre_x" : centre_x,
-                "centre_y" : centre_y,
-                "start_x" : centre_x - math.cos(prev_angle) * self.radius,
-                "start_y" : centre_y - math.sin(prev_angle) * self.radius,
-                "end_x" : centre_x - math.cos(new_angle) * self.radius,
-                "end_y" : centre_y - math.sin(new_angle) * self.radius,
-                "long_arc" : 1 if perc > 0.5 else 0,
-                "radius" : self.radius,
-            } 
-            self.generate_segment(segment)
-            prev_angle = new_angle
-
-    def generate_segment(self, segment):
-        colour = self.colours[0]
-        self.colours = self.colours[1:] + [colour]
-        root = self.xml.documentElement
-        segment_node = self.xml.createElement("path")
-        path_d="M%(centre_x)f,%(centre_y)f L%(start_x)f,%(start_y)f A%(radius)f, %(radius)f 0 %(long_arc)d,1 %(end_x)f,%(end_y)f Z" % segment
-        segment_node.setAttribute("d", path_d)
-        segment_node.setAttribute("stoke", "black")
-        segment_node.setAttribute("stoke-width", "2")
-        segment_node.setAttribute("style", "fill:%s" % colour)
-        root.appendChild(segment_node)
-
 def process_allocation_piecharts(recipient_country, template_xml):
     rc = recipient_country
     xml = minidom.parseString(template_xml.encode("utf-8"))
     circle_y = 441
     for year, circle_x in [(2002, 237), (2003, 281), (2004, 328), (2005, 373.8), (2006, 420), (2007, 465.77), (2008, 511.71), (2009, 557.77)]:
         year = str(year)
-        chart = PieChart(xml, (circle_x, circle_y), 17, [rc.mdg6[year], rc.rhfp[year], rc.other_health[year], rc.unspecified[year]])
+        chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [rc.mdg6[year], rc.rhfp[year], rc.other_health[year], rc.unspecified[year]])
         chart.generate_xml()
     return xml.toxml()
 

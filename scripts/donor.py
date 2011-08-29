@@ -1,7 +1,9 @@
+from xml.dom import minidom
 import sys
 import os
 import dataprocessing
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2
+import graphs
 
 donor_svg = "../svg/WHO_ODA_donar.svg"
 output_path = "gen_donors"
@@ -152,7 +154,38 @@ class DonorCountry(object):
         fn_get_other_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
         other_allocation =  dict(self._donation_breakdown * fn_get_other_allocation)
         return other_allocation
-        
+
+    @property
+    def mdg6_allocation(self):
+        f_year = "Period"
+        f_allocation = "MDG6"
+        fn_get_mdg6_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        mdg6_allocation =  dict(self._donation_breakdown * fn_get_mdg6_allocation)
+        return mdg6_allocation
+
+    @property
+    def rhfp_allocation(self):
+        f_year = "Period"
+        f_allocation = "RH & FP"
+        fn_get_rhfp_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        rhfp_allocation =  dict(self._donation_breakdown * fn_get_rhfp_allocation)
+        return rhfp_allocation
+
+    @property
+    def otherh_allocation(self):
+        f_year = "Period"
+        f_allocation = "Other Health Purposes"
+        fn_get_otherh_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        otherh_allocation =  dict(self._donation_breakdown * fn_get_otherh_allocation)
+        return otherh_allocation
+
+    @property
+    def unspecified_allocation(self):
+        f_year = "Period"
+        f_allocation = "DONORS Purpose 3 yrs MovAv.(blank)"
+        fn_get_unspecified_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
+        unspecified_allocation =  dict(self._donation_breakdown * fn_get_unspecified_allocation)
+        return unspecified_allocation
 
 class ProcessingException(Exception):
     pass
@@ -225,6 +258,40 @@ def process_region_table(donor_country, template_xml):
     template_xml = process_svg_template(data, template_xml)
     return template_xml
 
+def process_health_table(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+
+    mdg6_allocation = dc.mdg6_allocation
+    rhfp_allocation = dc.rhfp_allocation
+    otherh_allocation = dc.otherh_allocation
+    unspecified_allocation = dc.unspecified_allocation
+    oda_health = dc.oda_health
+
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        total = oda_health[year]
+        data["mdg_%s" % y] = "%s (%s%%)" % (fmt_r1(mdg6_allocation[year]), fmt_perc0(mdg6_allocation[year] / total))
+        data["rf_%s" % y] = "%s (%s%%)" % (fmt_r1(rhfp_allocation[year]), fmt_perc0(rhfp_allocation[year] / total))
+        data["oth_%s" % y] = "%s (%s%%)" % (fmt_r1(otherh_allocation[year]), fmt_perc0(otherh_allocation[year] / total))
+        data["uns_%s" % y] = "%s (%s%%)" % (fmt_r1(unspecified_allocation[year]), fmt_perc0(unspecified_allocation[year] / total))
+
+    template_xml = process_svg_template(data, template_xml)
+
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    circle_y = 534
+    for year, circle_x in [(2002, 164), (2003, 208), (2004, 250), (2005, 293.4), (2006, 336.4), (2007, 379.38), (2008, 422.9), (2009, 466)]:
+        year = str(year)
+        chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
+            mdg6_allocation[year], 
+            rhfp_allocation[year], 
+            otherh_allocation[year], 
+            unspecified_allocation[year]]
+        )
+        chart.generate_xml()
+    return xml.toxml()
+
 def process_donor_country(donor_country):
     template_xml = open(donor_svg, "r").read().decode("utf-8")
 
@@ -236,6 +303,7 @@ def process_donor_country(donor_country):
     template_xml = process_commitments_table(dc, template_xml)
     template_xml = process_income_group_table(dc, template_xml)
     template_xml = process_region_table(dc, template_xml)
+    template_xml = process_health_table(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))
