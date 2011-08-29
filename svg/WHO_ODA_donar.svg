@@ -7477,7 +7477,109 @@
      x="0"
      y="0"
      width="595.29999"
-     height="841.90002" /></clipPath></defs><sodipodi:namedview
+     height="841.90002" /></clipPath>
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+				
+				
+				
+					
+				
+			
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+					
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -7490,9 +7592,9 @@
    inkscape:window-height="1005"
    id="namedview4297"
    showgrid="false"
-   inkscape:zoom="2.8032454"
-   inkscape:cx="762.0273"
-   inkscape:cy="438.07132"
+   inkscape:zoom="5.6064908"
+   inkscape:cx="683.26535"
+   inkscape:cy="183.94139"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -8791,14 +8893,14 @@
    d="m 486.3,109.2 v 12.7 H 15.6 v -12.7 h 470.7 m 0.8,-0.8 H 14.8 v 14.2 h 472.3 v -14.2 l 0,0 z"
    i:knockout="Off" />
 			</g><rect
-   style="fill:#ffffff;stroke:#58595b;stroke-width:0.25;stroke-miterlimit:10"
+   style="fill:#ffffff;stroke:#58595b;stroke-width:0.25829718;stroke-miterlimit:10"
    id="rect526"
-   height="22.1"
-   width="90.699997"
+   height="22.091703"
+   width="96.856705"
    stroke-miterlimit="10"
    i:knockout="Off"
-   y="107.6"
-   x="498.70001" /><g
+   y="107.60415"
+   x="498.70416" /><g
    id="g528"
    transform="translate(-6.3386944,0)">
 				<defs
@@ -9623,7 +9725,7 @@
    id="switch689"
    i:objectType="pointText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-1.783647,14)">
+   transform="translate(-1.783647,13.014806)">
 				<foreignObject
    id="foreignObject691"
    overflow="visible"
@@ -9660,7 +9762,7 @@
    id="switch694"
    i:objectType="pointText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-1.783647,0)">
+   transform="translate(-1.783647,10)">
 				<foreignObject
    id="foreignObject696"
    overflow="visible"
@@ -9697,7 +9799,7 @@
    id="switch699"
    i:objectType="pointText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-1.783647,0)">
+   transform="translate(-1.783647,11.289806)">
 				<foreignObject
    id="foreignObject701"
    overflow="visible"
@@ -9777,7 +9879,8 @@
    x="502.89999" /><switch
    id="switch850"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-0.89182345,0)">
 				<foreignObject
    id="foreignObject852"
    overflow="visible"
@@ -9807,13 +9910,14 @@
    id="g854">
 					<text
    transform="translate(520.9053,116.6133)"
-   id="SVGID_123_"><tspan
-     style="font-size:5.5px;font-family:Univers-CondensedLight"
+   id="SVGID_123_"
+   style="font-size:5.0000001px"><tspan
+     style="font-size:5.0000001px;font-family:Univers-CondensedLight"
      id="tspan857"
      font-size="5.5"
      y="0"
      x="0">T</tspan><tspan
-     style="font-size:5.5px;font-family:Univers-CondensedLight"
+     style="font-size:5.0000001px;font-family:Univers-CondensedLight"
      id="tspan859"
      font-size="5.5"
      y="0"
@@ -9824,7 +9928,8 @@
 			</switch><switch
    id="switch861"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-0.89182345,0)">
 				<foreignObject
    id="foreignObject863"
    overflow="visible"
@@ -9849,17 +9954,17 @@
    xlink:href="#SVGID_124_" />
 				</foreignObject>
 				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
+   style="font-size:5.0000001px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(520.9053,125.2051)"
    id="SVGID_124_">ODA for Health</text>
 
 
 			</switch><rect
-   style="fill:#ffffff;stroke:#58595b;stroke-width:0.3452;stroke-miterlimit:10"
+   style="fill:#ffffff;stroke:#58595b;stroke-width:0.35654309;stroke-miterlimit:10"
    id="rect866"
    height="42.200001"
-   width="90.699997"
+   width="96.758629"
    stroke-miterlimit="10"
    i:knockout="Off"
    y="208"
@@ -9901,7 +10006,8 @@
    x="502.39999" /><switch
    id="switch878"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-1.7836469,0)">
 				<foreignObject
    id="foreignObject880"
    overflow="visible"
@@ -9929,13 +10035,16 @@
    style="font-size:5.5px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(516.2725,246.7441)"
-   id="SVGID_125_">Global and Multi-Country</text>
+   id="SVGID_125_"><tspan
+     style="font-size:5px"
+     id="tspan14249">Global and Multi-Country</tspan></text>
 
 
 			</switch><switch
    id="switch883"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-1.7836469,0)">
 				<foreignObject
    id="foreignObject885"
    overflow="visible"
@@ -9963,13 +10072,16 @@
    style="font-size:5.5px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(516.2725,216.3438)"
-   id="SVGID_126_">Least Developed Countries</text>
+   id="SVGID_126_"><tspan
+     style="font-size:5px"
+     id="tspan14245">Least Developed Countries</tspan></text>
 
 
 			</switch><switch
    id="switch888"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-1.7836469,0)">
 				<foreignObject
    id="foreignObject890"
    overflow="visible"
@@ -9994,7 +10106,7 @@
    xlink:href="#SVGID_127_" />
 				</foreignObject>
 				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
+   style="font-size:5px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(516.2725,223.9434)"
    id="SVGID_127_">Other Low Income Countries</text>
@@ -10003,7 +10115,8 @@
 			</switch><switch
    id="switch893"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-1.7836469,0)">
 				<foreignObject
    id="foreignObject895"
    overflow="visible"
@@ -10028,7 +10141,7 @@
    xlink:href="#SVGID_128_" />
 				</foreignObject>
 				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
+   style="font-size:5px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(516.2725,231.543)"
    id="SVGID_128_">Low Middle Income Countries</text>
@@ -10037,7 +10150,8 @@
 			</switch><switch
    id="switch898"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-1.7836469,0)">
 				<foreignObject
    id="foreignObject900"
    overflow="visible"
@@ -10065,355 +10179,9 @@
    style="font-size:5.5px;font-family:Univers-CondensedLight"
    font-size="5.5"
    transform="translate(516.2725,239.1436)"
-   id="SVGID_129_">Upper Middle Income Countries</text>
-
-
-			</switch><rect
-   style="fill:#ffffff;stroke:#58595b;stroke-width:0.42930001;stroke-miterlimit:10"
-   id="rect903"
-   height="65.199997"
-   width="90.699997"
-   stroke-miterlimit="10"
-   i:knockout="Off"
-   y="341.39999"
-   x="498.20001" /><rect
-   style="fill:#cf3d96"
-   id="rect905"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="391.20001"
-   x="502.39999" /><rect
-   style="fill:#0093d5"
-   id="rect907"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="398.89999"
-   x="502.39999" /><rect
-   style="fill:#c1b400"
-   id="rect909"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="375.79999"
-   x="502.39999" /><rect
-   style="fill:#c53254"
-   id="rect911"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="368.10001"
-   x="502.39999" /><rect
-   style="fill:#f1b821"
-   id="rect913"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="383.5"
-   x="502.39999" /><rect
-   style="fill:#009983"
-   id="rect915"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="352.79999"
-   x="502.39999" /><rect
-   style="fill:#df7627"
-   id="rect917"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="345.10001"
-   x="502.39999" /><rect
-   style="fill:#79317f"
-   id="rect919"
-   height="4.3000002"
-   width="9.6999998"
-   i:knockout="Off"
-   y="360.39999"
-   x="502.39999" /><switch
-   id="switch921"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject923"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,403.1" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>Others</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_130_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,403.1113)"
-   id="SVGID_130_">Others</text>
-
-
-			</switch><switch
-   id="switch926"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject928"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,372.4" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To EURO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_131_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,372.4297)"
-   id="SVGID_131_">To EURO Countries</text>
-
-
-			</switch><switch
-   id="switch931"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject933"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,380.1" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To SEARO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_132_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,380.1152)"
-   id="SVGID_132_">To SEARO Countries</text>
-
-
-			</switch><switch
-   id="switch936"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject938"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.9,387.8" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To WPRO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_133_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.8848,387.8066)"
-   id="SVGID_133_">To WPRO Countries</text>
-
-
-			</switch><switch
-   id="switch941"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject943"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M515,395.3" />
-						</ns1:region>
-						<ns1:flow
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span
-     font-size="5.3">Global &amp; Multi-Country Grants</ns1:span><ns1:span
-     font-size="4"> (incl UN)</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_134_" />
-				</foreignObject>
-				<g
-   id="g945">
-					<text
-   transform="translate(514.9648,395.3271)"
-   id="SVGID_134_"><tspan
-     style="font-size:5.30000019px;font-family:Univers-CondensedLight"
-     id="tspan948"
-     font-size="5.3"
-     y="0"
-     x="0">Global &amp; Multi-Country Grants</tspan><tspan
-     style="font-size:4px;font-family:Univers-CondensedLight"
-     id="tspan950"
-     font-size="4"
-     y="0"
-     x="58.299999"> (incl UN)</tspan></text>
-
-
-				</g>
-			</switch><switch
-   id="switch952"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject954"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,349.4" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To AFRO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_135_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,349.377)"
-   id="SVGID_135_">To AFRO Countries</text>
-
-
-			</switch><switch
-   id="switch957"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject959"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,357.1" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To AMRO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_136_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,357.0615)"
-   id="SVGID_136_">To AMRO Countries</text>
-
-
-			</switch><switch
-   id="switch962"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-				<foreignObject
-   id="foreignObject964"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M514.7,364.7" />
-						</ns1:region>
-						<ns1:flow
-   font-size="5.5"
-   font-family="'Univers-CondensedLight'">
-							<ns1:p><ns1:span>To EMRO Countries</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_137_" />
-				</foreignObject>
-				<text
-   style="font-size:5.5px;font-family:Univers-CondensedLight"
-   font-size="5.5"
-   transform="translate(514.7227,364.7451)"
-   id="SVGID_137_">To EMRO Countries</text>
+   id="SVGID_129_"><tspan
+     style="font-size:5px"
+     id="tspan14247">Upper Middle Income Countries</tspan></text>
 
 
 			</switch><rect
@@ -11551,32 +11319,19 @@
    y1="196.8"
    x1="14.8"
    stroke-miterlimit="10"
-   i:knockout="Off" /><g
-   id="g1494">
-				<circle
-   d="m 662.39999,173.39999 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.2055,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.8945,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="640.29999"
-   id="circle1496"
-   r="22.1"
-   cy="173.39999"
-   cx="640.29999"
-   i:knockout="Off" />
-				<switch
-   id="switch1498"
+   i:knockout="Off" /><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1498"
+   transform="translate(-2.1205203,0)">
 					<foreignObject
-   id="foreignObject1500"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1500">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -11584,8 +11339,8 @@
    d="M634.9,203" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2002</ns1:span></ns1:p>
 							</ns1:flow>
@@ -11595,165 +11350,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_193_"
    transform="translate(634.9375,202.9717)"
-   id="SVGID_193_">2002</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2002</text>
 
 
-				</switch>
-				<g
-   id="g1503">
-					<defs
-   id="defs1505">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="640.29999"
-   r="22.1"
-   cy="173.39999"
-   cx="640.29999"
-   id="SVGID_25_" />
-					</defs>
-					<clipPath
-   id="SVGID_194_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1509"
-   overflow="visible"
-   xlink:href="#SVGID_25_" />
-					</clipPath>
-					<g
-   id="g1511"
-   clip-path="url(#SVGID_194_)">
-						<g
-   id="g1513"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1515"
-   points="660.5,155.7 664.4,173.5 640.7,173.5 640.7,148 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1517"
-   d="m 641,148.5 19.2,7.5 3.7,17.1 H 641 v -24.6 m -0.7,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1519"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1521"
-   points="663.6,185.8 652.9,195.6 640.5,173.4 665.4,173.4 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1523"
-   d="M 665,173.8 663.2,185.6 653,195 641.1,173.8 H 665 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1525"
-   points="640.3,173.4 616.6,177.5 627.3,195.5 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1527"
-   points="640.3,173.1 625.7,197.9 653.4,195.8 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 652.89999,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="640.29999"
-   id="circle1529"
-   r="12.6"
-   cy="173.39999"
-   cx="640.29999"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1531"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
-					<foreignObject
-   id="foreignObject1533"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-						<ns1:flowDef>
-							<ns1:region
-   textMatrix="1 0 0 1 0 0">
-								<ns1:path
-   d="M640.3,177.1" />
-							</ns1:region>
-							<ns1:flow
-   font-size="9.9"
-   font-family="'Univers-Condensed'">
-								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
-     fill="#FFFFFF">00</ns1:span></ns1:p>
-							</ns1:flow>
-						</ns1:flowDef>
-						<x:targetRef
-   xlink:href="#SVGID_195_" />
-					</foreignObject>
-					
-						<text
-   style="font-size:9.89999962px;fill:#ffffff;font-family:Univers-Condensed"
-   font-size="9.9"
-   transform="translate(635.8955,177.0518)"
-   id="SVGID_195_">00</text>
-
-
-				</switch>
-			</g><g
-   id="g1536">
-				<circle
-   d="m 662.39999,228.3 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.2055,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.8945,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="640.29999"
-   id="circle1538"
-   r="22.1"
-   cy="228.3"
-   cx="640.29999"
-   i:knockout="Off" />
-				<switch
    id="switch1540"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   transform="translate(-2.2307352,0)">
 					<foreignObject
-   id="foreignObject1542"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1542">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -11761,8 +11376,8 @@
    d="M634.9,257.9" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2006</ns1:span></ns1:p>
 							</ns1:flow>
@@ -11772,104 +11387,30 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_196_"
    transform="translate(634.9375,257.8564)"
-   id="SVGID_196_">2006</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2006</text>
 
 
-				</switch>
-				<g
-   id="g1545">
-					<defs
-   id="defs1547">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="640.29999"
-   r="22.1"
-   cy="228.3"
-   cx="640.29999"
-   id="SVGID_27_" />
-					</defs>
-					<clipPath
-   id="SVGID_197_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1551"
-   overflow="visible"
-   xlink:href="#SVGID_27_" />
-					</clipPath>
-					<g
-   id="g1553"
-   clip-path="url(#SVGID_197_)">
-						<g
-   id="g1555"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1557"
-   points="660.5,210.6 664.4,228.3 640.7,228.3 640.7,202.8 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1559"
-   d="m 641,203.4 19.2,7.5 3.8,17.1 h -23 v -24.6 m -0.7,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1561"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1563"
-   points="663.6,240.7 652.9,250.5 640.5,228.3 665.4,228.3 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1565"
-   d="m 665,228.7 -1.8,11.8 -10.2,9.4 -11.9,-21.2 H 665 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1567"
-   points="640.3,228.3 616.6,232.3 627.3,250.4 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1569"
-   points="640.3,228 625.7,252.8 653.4,250.7 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 652.89999,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="228.3"
-   sodipodi:cx="640.29999"
-   id="circle1571"
-   r="12.6"
-   cy="228.3"
-   cx="640.29999"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1573"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_6"><circle
+     d="m 652.89999,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="228.3"
+     sodipodi:cx="640.29999"
+     id="circle1571"
+     r="12.6"
+     cy="228.3"
+     cx="640.29999"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.8941936,-0.03176174)"
+     id="switch1573"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1575"
    overflow="visible"
@@ -11904,33 +11445,19 @@
    id="SVGID_198_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1578">
-				<circle
-   d="m 715.6,173.39999 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="693.5"
-   id="circle1580"
-   r="22.1"
-   cy="173.39999"
-   cx="693.5"
-   i:knockout="Off" />
-				<switch
-   id="switch1582"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1582"
+   transform="translate(-2.2065661,0)">
 					<foreignObject
-   id="foreignObject1584"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1584">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -11938,8 +11465,8 @@
    d="M688.2,203" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2003</ns1:span></ns1:p>
 							</ns1:flow>
@@ -11949,104 +11476,30 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_199_"
    transform="translate(688.1641,202.9717)"
-   id="SVGID_199_">2003</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2003</text>
 
 
-				</switch>
-				<g
-   id="g1587">
-					<defs
-   id="defs1589">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="693.5"
-   r="22.1"
-   cy="173.39999"
-   cx="693.5"
-   id="SVGID_29_" />
-					</defs>
-					<clipPath
-   id="SVGID_200_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1593"
-   overflow="visible"
-   xlink:href="#SVGID_29_" />
-					</clipPath>
-					<g
-   id="g1595"
-   clip-path="url(#SVGID_200_)">
-						<g
-   id="g1597"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1599"
-   points="713.8,155.7 717.7,173.5 693.9,173.5 693.9,148 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1601"
-   d="m 694.3,148.5 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.8,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1603"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1605"
-   points="716.8,185.8 706.2,195.6 693.7,173.4 718.6,173.4 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1607"
-   d="m 718.2,173.8 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1609"
-   points="693.5,173.4 669.9,177.5 680.5,195.5 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1611"
-   points="693.5,173.1 678.9,197.9 706.6,195.8 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 706.1,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="693.5"
-   id="circle1613"
-   r="12.6"
-   cy="173.39999"
-   cx="693.5"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1615"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_3"><circle
+     d="m 706.1,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="173.39999"
+     sodipodi:cx="693.5"
+     id="circle1613"
+     r="12.6"
+     cy="173.39999"
+     cx="693.5"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.9216814,-0.04807089)"
+     id="switch1615"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1617"
    overflow="visible"
@@ -12081,33 +11534,19 @@
    id="SVGID_201_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1620">
-				<circle
-   d="m 713.00002,228.3 c 0,12.2055 -9.8945,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.2055,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="690.90002"
-   id="circle1622"
-   r="22.1"
-   cy="228.3"
-   cx="690.90002"
-   i:knockout="Off" />
-				<switch
-   id="switch1624"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1624"
+   transform="translate(0.40898601,0)">
 					<foreignObject
-   id="foreignObject1626"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1626">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -12115,8 +11554,8 @@
    d="M685.6,257.9" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2007</ns1:span></ns1:p>
 							</ns1:flow>
@@ -12126,104 +11565,31 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_202_"
    transform="translate(685.5645,257.8564)"
-   id="SVGID_202_">2007</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2007</text>
 
 
-				</switch>
-				<g
-   id="g1629">
-					<defs
-   id="defs1631">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="690.90002"
-   r="22.1"
-   cy="228.3"
-   cx="690.90002"
-   id="SVGID_31_" />
-					</defs>
-					<clipPath
-   id="SVGID_203_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1635"
-   overflow="visible"
-   xlink:href="#SVGID_31_" />
-					</clipPath>
-					<g
-   id="g1637"
-   clip-path="url(#SVGID_203_)">
-						<g
-   id="g1639"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1641"
-   points="711.2,210.6 715.1,228.3 691.3,228.3 691.3,202.8 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1643"
-   d="m 691.7,203.4 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.8,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1645"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1647"
-   points="714.2,240.7 703.6,250.5 691.1,228.3 716,228.3 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1649"
-   d="m 715.6,228.7 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1651"
-   points="690.9,228.3 667.3,232.3 677.9,250.4 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1653"
-   points="690.9,228 676.3,252.8 704,250.7 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 703.50002,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95878,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64122,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="228.3"
-   sodipodi:cx="690.90002"
-   id="circle1655"
-   r="12.6"
-   cy="228.3"
-   cx="690.90002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1657"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_7"
+   transform="translate(2.5999756,0)"><circle
+     d="m 703.50002,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95878,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64122,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="228.3"
+     sodipodi:cx="690.90002"
+     id="circle1655"
+     r="12.6"
+     cy="228.3"
+     cx="690.90002"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.922057,-0.03176174)"
+     id="switch1657"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1659"
    overflow="visible"
@@ -12258,33 +11624,19 @@
    id="SVGID_204_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1662">
-				<circle
-   d="m 822.1,173.39999 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="800"
-   id="circle1664"
-   r="22.1"
-   cy="173.39999"
-   cx="800"
-   i:knockout="Off" />
-				<switch
-   id="switch1666"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1666"
+   transform="translate(-2.1379132,0)">
 					<foreignObject
-   id="foreignObject1668"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1668">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -12292,8 +11644,8 @@
    d="M794.6,203" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2005</ns1:span></ns1:p>
 							</ns1:flow>
@@ -12303,104 +11655,30 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_205_"
    transform="translate(794.6172,202.9717)"
-   id="SVGID_205_">2005</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2005</text>
 
 
-				</switch>
-				<g
-   id="g1671">
-					<defs
-   id="defs1673">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="800"
-   r="22.1"
-   cy="173.39999"
-   cx="800"
-   id="SVGID_33_" />
-					</defs>
-					<clipPath
-   id="SVGID_206_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1677"
-   overflow="visible"
-   xlink:href="#SVGID_33_" />
-					</clipPath>
-					<g
-   id="g1679"
-   clip-path="url(#SVGID_206_)">
-						<g
-   id="g1681"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1683"
-   points="820.2,155.7 824.1,173.5 800.3,173.5 800.3,148 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1685"
-   d="m 800.7,148.5 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.7,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1687"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1689"
-   points="823.2,185.8 812.6,195.6 800.2,173.4 825.1,173.4 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1691"
-   d="m 824.7,173.8 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.8,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1693"
-   points="800,173.4 776.3,177.5 787,195.5 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1695"
-   points="800,173.1 785.3,197.9 813,195.8 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 812.6,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="800"
-   id="circle1697"
-   r="12.6"
-   cy="173.39999"
-   cx="800"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1699"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_5"><circle
+     d="m 812.6,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="173.39999"
+     sodipodi:cx="800"
+     id="circle1697"
+     r="12.6"
+     cy="173.39999"
+     cx="800"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.8748814,-0.04807089)"
+     id="switch1699"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1701"
    overflow="visible"
@@ -12435,33 +11713,19 @@
    id="SVGID_207_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1704">
-				<circle
-   d="m 822.1,228.3 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="800"
-   id="circle1706"
-   r="22.1"
-   cy="228.3"
-   cx="800"
-   i:knockout="Off" />
-				<switch
-   id="switch1708"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1708"
+   transform="translate(-2.1886701,0)">
 					<foreignObject
-   id="foreignObject1710"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1710">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -12469,8 +11733,8 @@
    d="M794.6,257.9" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2009</ns1:span></ns1:p>
 							</ns1:flow>
@@ -12480,104 +11744,30 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_208_"
    transform="translate(794.6172,257.8564)"
-   id="SVGID_208_">2009</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2009</text>
 
 
-				</switch>
-				<g
-   id="g1713">
-					<defs
-   id="defs1715">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="800"
-   r="22.1"
-   cy="228.3"
-   cx="800"
-   id="SVGID_35_" />
-					</defs>
-					<clipPath
-   id="SVGID_209_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1719"
-   overflow="visible"
-   xlink:href="#SVGID_35_" />
-					</clipPath>
-					<g
-   id="g1721"
-   clip-path="url(#SVGID_209_)">
-						<g
-   id="g1723"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1725"
-   points="820.2,210.6 824.1,228.3 800.3,228.3 800.3,202.8 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1727"
-   d="m 800.7,203.4 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.7,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1729"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1731"
-   points="823.2,240.7 812.6,250.5 800.2,228.3 825.1,228.3 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1733"
-   d="m 824.7,228.7 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.8,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1735"
-   points="800,228.3 776.3,232.3 787,250.4 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1737"
-   points="800,228 785.3,252.8 813,250.7 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 812.6,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="228.3"
-   sodipodi:cx="800"
-   id="circle1739"
-   r="12.6"
-   cy="228.3"
-   cx="800"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1741"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_9"><circle
+     d="m 812.6,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="228.3"
+     sodipodi:cx="800"
+     id="circle1739"
+     r="12.6"
+     cy="228.3"
+     cx="800"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.8748814,-0.03176174)"
+     id="switch1741"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1743"
    overflow="visible"
@@ -12612,33 +11802,19 @@
    id="SVGID_210_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1746">
-				<circle
-   d="m 768.80001,173.39999 c 0,12.2055 -9.8945,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.2055,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="746.70001"
-   id="circle1748"
-   r="22.1"
-   cy="173.39999"
-   cx="746.70001"
-   i:knockout="Off" />
-				<switch
-   id="switch1750"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1750"
+   transform="translate(-2.3041135,0)">
 					<foreignObject
-   id="foreignObject1752"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1752">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -12646,8 +11822,8 @@
    d="M741.4,203" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2004</ns1:span></ns1:p>
 							</ns1:flow>
@@ -12657,104 +11833,30 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_211_"
    transform="translate(741.3906,202.9717)"
-   id="SVGID_211_">2004</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2004</text>
 
 
-				</switch>
-				<g
-   id="g1755">
-					<defs
-   id="defs1757">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="746.70001"
-   r="22.1"
-   cy="173.39999"
-   cx="746.70001"
-   id="SVGID_37_" />
-					</defs>
-					<clipPath
-   id="SVGID_212_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1761"
-   overflow="visible"
-   xlink:href="#SVGID_37_" />
-					</clipPath>
-					<g
-   id="g1763"
-   clip-path="url(#SVGID_212_)">
-						<g
-   id="g1765"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1767"
-   points="767,155.7 770.9,173.5 747.1,173.5 747.1,148 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1769"
-   d="m 747.5,148.5 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.8,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1771"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1773"
-   points="770,185.8 759.4,195.6 746.9,173.4 771.9,173.4 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1775"
-   d="m 771.4,173.8 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1777"
-   points="746.7,173.4 723.1,177.5 733.7,195.5 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1779"
-   points="746.7,173.1 732.1,197.9 759.8,195.8 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 759.30001,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="173.39999"
-   sodipodi:cx="746.70001"
-   id="circle1781"
-   r="12.6"
-   cy="173.39999"
-   cx="746.70001"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1783"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_4"><circle
+     d="m 759.30001,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="173.39999"
+     sodipodi:cx="746.70001"
+     id="circle1781"
+     r="12.6"
+     cy="173.39999"
+     cx="746.70001"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.9482692,-0.04807089)"
+     id="switch1783"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1785"
    overflow="visible"
@@ -12789,33 +11891,19 @@
    id="SVGID_213_">00</text>
 
 
-				</switch>
-			</g><g
-   id="g1788">
-				<circle
-   d="m 766.6,228.3 c 0,12.2055 -9.89451,22.1 -22.1,22.1 -12.20549,0 -22.1,-9.8945 -22.1,-22.1 0,-12.20549 9.89451,-22.1 22.1,-22.1 12.20549,0 22.1,9.89451 22.1,22.1 z"
-   style="fill:#0093d5"
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="744.5"
-   id="circle1790"
-   r="22.1"
-   cy="228.3"
-   cx="744.5"
-   i:knockout="Off" />
-				<switch
-   id="switch1792"
+				</switch></g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch1792"
+   transform="translate(-0.01595862,0)">
 					<foreignObject
-   id="foreignObject1794"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject1794">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -12823,8 +11911,8 @@
    d="M739.1,257.9" />
 							</ns1:region>
 							<ns1:flow
-   font-size="5.94"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="5.94">
 								<ns1:p><ns1:span
      fill="#58595B">2008</ns1:span></ns1:p>
 							</ns1:flow>
@@ -12834,104 +11922,31 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="5.94"
+   id="SVGID_214_"
    transform="translate(739.1387,257.8564)"
-   id="SVGID_214_">2008</text>
+   font-size="5.94"
+   style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2008</text>
 
 
-				</switch>
-				<g
-   id="g1797">
-					<defs
-   id="defs1799">
-						<circle
-   sodipodi:ry="22.1"
-   sodipodi:rx="22.1"
-   sodipodi:cy="228.3"
-   sodipodi:cx="744.5"
-   r="22.1"
-   cy="228.3"
-   cx="744.5"
-   id="SVGID_39_" />
-					</defs>
-					<clipPath
-   id="SVGID_215_">
-						<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use1803"
-   overflow="visible"
-   xlink:href="#SVGID_39_" />
-					</clipPath>
-					<g
-   id="g1805"
-   clip-path="url(#SVGID_215_)">
-						<g
-   id="g1807"
-   i:knockout="Off">
-							<polygon
-   style="fill:#df7627"
-   id="polygon1809"
-   points="764.8,210.6 768.6,228.3 744.9,228.3 744.9,202.8 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1811"
-   d="m 745.2,203.4 19.2,7.5 3.7,17.1 h -22.9 v -24.6 m -0.7,-1.1 v 26.4 h 24.6 l -4,-18.4 -20.6,-8 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<g
-   id="g1813"
-   i:knockout="Off">
-							<polygon
-   style="fill:#cf3d96"
-   id="polygon1815"
-   points="767.8,240.7 757.1,250.5 744.7,228.3 769.6,228.3 "
-   i:knockout="Off" />
-							<path
-   style="fill:#ffffff"
-   inkscape:connector-curvature="0"
-   id="path1817"
-   d="m 769.2,228.7 -1.8,11.8 -10.2,9.4 -11.9,-21.2 h 23.9 m 0.9,-0.8 h -26 l 13,23.1 11.1,-10.2 1.9,-12.9 0,0 z"
-   i:knockout="Off" />
-						</g>
-						<polygon
-   style="fill:#79317f;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1819"
-   points="744.5,228.3 720.8,232.3 731.5,250.4 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-						<polygon
-   style="fill:#62a73b;stroke:#ffffff;stroke-width:0.7604;stroke-miterlimit:10"
-   id="polygon1821"
-   points="744.5,228 729.9,252.8 757.6,250.7 "
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-					</g>
-				</g>
-				
-					<circle
-   d="m 757.1,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
-   style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
-   sodipodi:ry="12.6"
-   sodipodi:rx="12.6"
-   sodipodi:cy="228.3"
-   sodipodi:cx="744.5"
-   id="circle1823"
-   r="12.6"
-   cy="228.3"
-   cx="744.5"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				<switch
-   id="switch1825"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+				</switch><g
+   id="bcg_8"
+   transform="translate(2.2000122,0)"><circle
+     d="m 757.1,228.3 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95879 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64121 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="228.3"
+     sodipodi:cx="744.5"
+     id="circle1823"
+     r="12.6"
+     cy="228.3"
+     cx="744.5"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.8963814,-0.03176174)"
+     id="switch1825"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
 					<foreignObject
    id="foreignObject1827"
    overflow="visible"
@@ -12966,8 +11981,7 @@
    id="SVGID_216_">00</text>
 
 
-				</switch>
-			</g><rect
+				</switch></g><rect
    style="fill:#df7627"
    id="rect1830"
    height="14.2"
@@ -15600,259 +14614,236 @@
    id="path3077"
    d="m 486.1,81.1 v 54.7 H 445 V 81.1 h 41.1 m 1,-1 H 444 v 56.7 h 43.1 V 80.1 l 0,0 z"
    i:knockout="Off" />
-			</g><g
-   id="g3079">
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.24969999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.5005"
-   id="line3081"
-   y2="281.60001"
-   x2="631.40002"
+			</g><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="399.5"
-   x1="631.40002"
+   x2="631.40002"
+   y2="281.60001"
+   id="line3081"
+   style="fill:none;stroke:#000000;stroke-width:0.24969999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.5005" /><line
+   i:knockout="Off"
    stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3083"
-   y2="399.29999"
-   x2="825.59998"
+   x1="631.40002"
    y1="399.29999"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3085"
-   y2="281.5"
    x2="825.59998"
+   y2="399.29999"
+   id="line3083"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="281.5"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3087"
-   y2="296.20001"
    x2="825.59998"
+   y2="281.5"
+   id="line3085"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="296.20001"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3089"
-   y2="310.89999"
    x2="825.59998"
+   y2="296.20001"
+   id="line3087"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="310.89999"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3091"
-   y2="325.70001"
    x2="825.59998"
+   y2="310.89999"
+   id="line3089"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="325.70001"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3093"
-   y2="340.39999"
    x2="825.59998"
+   y2="325.70001"
+   id="line3091"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="340.39999"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3095"
-   y2="355.10001"
    x2="825.59998"
+   y2="340.39999"
+   id="line3093"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="355.10001"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3097"
-   y2="369.89999"
    x2="825.59998"
+   y2="355.10001"
+   id="line3095"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="631.40002"
    y1="369.89999"
-   x1="631.40002"
-   stroke-miterlimit="10"
-   i:knockout="Off" />
-				
-					<line
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423"
-   id="line3099"
-   y2="384.60001"
    x2="825.59998"
-   y1="384.60001"
-   x1="631.40002"
+   y2="369.89999"
+   id="line3097"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
+   i:knockout="Off"
    stroke-miterlimit="10"
-   i:knockout="Off" />
-				<g
+   x1="631.40002"
+   y1="384.60001"
+   x2="825.59998"
+   y2="384.60001"
+   id="line3099"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><g
    id="g3101">
 					<g
    id="g3103">
 						<defs
    id="defs3105">
 							<rect
-   height="64.599998"
-   width="15.1"
-   y="334.70001"
+   id="SVGID_41_"
    x="634.90002"
-   id="SVGID_41_" />
+   y="334.70001"
+   width="15.1"
+   height="64.599998" />
 						</defs>
 						<clipPath
    id="SVGID_346_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3109"
+   xlink:href="#SVGID_41_"
    overflow="visible"
-   xlink:href="#SVGID_41_" />
+   id="use3109"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3111"
-   d="m 650,399.3 v -59.1 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 59.1 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_346_)"
-   i:knockout="Off" />
+   d="m 650,399.3 v -59.1 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 59.1 h 4.9 4 1.2 4.9 z"
+   id="path3111"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3113">
 						<defs
    id="defs3115">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_43_"
    d="m 634.9,334.7 v 3.7 0.8 1 59.1 h 4.9 4 1.3 4.9 v -60.9 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_43_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_347_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3119"
+   xlink:href="#SVGID_43_"
    overflow="visible"
-   xlink:href="#SVGID_43_" />
+   id="use3119"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3121"
-   height="34.5"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
-   i:knockout="Off"
+   x="634.20001"
    y="344.5"
-   x="634.20001" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3123"
-   height="24.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="34.5"
+   id="rect3121"
+   style="fill:#cf3d96" />
+						<rect
+   x="634.20001"
    y="362.20001"
-   x="634.20001" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3125"
-   height="25.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="24.200001"
+   id="rect3123"
+   style="fill:#f1b821" />
+						<rect
+   x="634.20001"
    y="364.20001"
-   x="634.20001" />
-						<rect
-   style="fill:#c53254"
-   id="rect3127"
-   height="34.299999"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="25.700001"
+   id="rect3125"
+   style="fill:#62a73b" />
+						<rect
+   x="634.20001"
    y="365.20001"
-   x="634.20001" />
-						<rect
-   style="fill:#79317f"
-   id="rect3129"
-   height="34.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="34.299999"
+   id="rect3127"
+   style="fill:#c53254" />
+						<rect
+   x="634.20001"
    y="366.89999"
-   x="634.20001" />
-						<rect
-   style="fill:#009983"
-   id="rect3131"
-   height="31.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="34.200001"
+   id="rect3129"
+   style="fill:#79317f" />
+						<rect
+   x="634.20001"
    y="369.70001"
-   x="634.20001" />
-						<rect
-   style="fill:#df7627"
-   id="rect3133"
-   height="25.9"
-   width="16.700001"
-   clip-path="url(#SVGID_347_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="31.200001"
+   id="rect3131"
+   style="fill:#009983" />
+						<rect
+   x="634.20001"
    y="375.10001"
-   x="634.20001" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_347_)"
+   width="16.700001"
+   height="25.9"
+   id="rect3133"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3135">
 					<g
    id="g3137">
 						<defs
    id="defs3139">
 							<rect
-   height="78.800003"
-   width="15.1"
-   y="320.70001"
+   id="SVGID_45_"
    x="659.5"
-   id="SVGID_45_" />
+   y="320.70001"
+   width="15.1"
+   height="78.800003" />
 						</defs>
 						<clipPath
    id="SVGID_348_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3143"
+   xlink:href="#SVGID_45_"
    overflow="visible"
-   xlink:href="#SVGID_45_" />
+   id="use3143"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3145"
-   d="m 674.6,399.5 v -73.3 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 73.3 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_348_)"
-   i:knockout="Off" />
+   d="m 674.6,399.5 v -73.3 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 73.3 h 4.9 4 1.2 4.9 z"
+   id="path3145"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3147">
@@ -15861,796 +14852,789 @@
 							<defs
    id="defs3151">
 								<path
-   inkscape:connector-curvature="0"
+   id="SVGID_47_"
    d="m 659.5,320.7 v 3.7 0.8 1 73.3 h 4.9 4 1.3 4.9 v -75.1 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_47_" />
+   inkscape:connector-curvature="0" />
 							</defs>
 							<clipPath
    id="SVGID_349_">
 								<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3155"
+   xlink:href="#SVGID_47_"
    overflow="visible"
-   xlink:href="#SVGID_47_" />
+   id="use3155"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 							</clipPath>
 							<rect
-   style="fill:#cf3d96"
-   id="rect3157"
-   height="46.099998"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
-   i:knockout="Off"
+   x="658.5"
    y="333"
-   x="658.5" />
-							<rect
-   style="fill:#f1b821"
-   id="rect3159"
-   height="31.4"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="46.099998"
+   id="rect3157"
+   style="fill:#cf3d96" />
+							<rect
+   x="658.5"
    y="355.10001"
-   x="658.5" />
-							<rect
-   style="fill:#62a73b"
-   id="rect3161"
-   height="33.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="31.4"
+   id="rect3159"
+   style="fill:#f1b821" />
+							<rect
+   x="658.5"
    y="356.79999"
-   x="658.5" />
-							<rect
-   style="fill:#c53254"
-   id="rect3163"
-   height="38.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="33.200001"
+   id="rect3161"
+   style="fill:#62a73b" />
+							<rect
+   x="658.5"
    y="360.79999"
-   x="658.5" />
-							<rect
-   style="fill:#79317f"
-   id="rect3165"
-   height="39.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="38.799999"
+   id="rect3163"
+   style="fill:#c53254" />
+							<rect
+   x="658.5"
    y="361.39999"
-   x="658.5" />
-							<rect
-   style="fill:#009983"
-   id="rect3167"
-   height="35.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="39.799999"
+   id="rect3165"
+   style="fill:#79317f" />
+							<rect
+   x="658.5"
    y="365.29999"
-   x="658.5" />
-							<rect
-   style="fill:#df7627"
-   id="rect3169"
-   height="29"
-   width="16.700001"
-   clip-path="url(#SVGID_349_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="35.799999"
+   id="rect3167"
+   style="fill:#009983" />
+							<rect
+   x="658.5"
    y="372.20001"
-   x="658.5" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_349_)"
+   width="16.700001"
+   height="29"
+   id="rect3169"
+   style="fill:#df7627" />
 						</g>
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3171">
 					<g
    id="g3173">
 						<defs
    id="defs3175">
 							<rect
-   height="90.5"
-   width="15.1"
-   y="308.79999"
+   id="SVGID_49_"
    x="684.09998"
-   id="SVGID_49_" />
+   y="308.79999"
+   width="15.1"
+   height="90.5" />
 						</defs>
 						<clipPath
    id="SVGID_350_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3179"
+   xlink:href="#SVGID_49_"
    overflow="visible"
-   xlink:href="#SVGID_49_" />
+   id="use3179"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3181"
-   d="m 699.2,399.3 v -85 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.3 -4 -4.9 v 3.7 0.8 1 85 h 4.9 4 1.2 5 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_350_)"
-   i:knockout="Off" />
+   d="m 699.2,399.3 v -85 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.3 -4 -4.9 v 3.7 0.8 1 85 h 4.9 4 1.2 5 z"
+   id="path3181"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3183">
 						<defs
    id="defs3185">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_51_"
    d="m 684.1,308.8 v 3.7 0.8 1 85 h 4.9 4 1.3 4.9 v -86.8 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_51_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_351_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3189"
+   xlink:href="#SVGID_51_"
    overflow="visible"
-   xlink:href="#SVGID_51_" />
+   id="use3189"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3191"
-   height="58.900002"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
-   i:knockout="Off"
+   x="683.29999"
    y="320.10001"
-   x="683.29999" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3193"
-   height="38.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="58.900002"
+   id="rect3191"
+   style="fill:#cf3d96" />
+						<rect
+   x="683.29999"
    y="347.60001"
-   x="683.29999" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3195"
-   height="36.599998"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="38.799999"
+   id="rect3193"
+   style="fill:#f1b821" />
+						<rect
+   x="683.29999"
    y="353.29999"
-   x="683.29999" />
-						<rect
-   style="fill:#c53254"
-   id="rect3197"
-   height="43.099998"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="36.599998"
+   id="rect3195"
+   style="fill:#62a73b" />
+						<rect
+   x="683.29999"
    y="356.39999"
-   x="683.29999" />
-						<rect
-   style="fill:#79317f"
-   id="rect3199"
-   height="44.400002"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="43.099998"
+   id="rect3197"
+   style="fill:#c53254" />
+						<rect
+   x="683.29999"
    y="356.70001"
-   x="683.29999" />
-						<rect
-   style="fill:#009983"
-   id="rect3201"
-   height="35.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="44.400002"
+   id="rect3199"
+   style="fill:#79317f" />
+						<rect
+   x="683.29999"
    y="365.20001"
-   x="683.29999" />
-						<rect
-   style="fill:#df7627"
-   id="rect3203"
-   height="28.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_351_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="35.799999"
+   id="rect3201"
+   style="fill:#009983" />
+						<rect
+   x="683.29999"
    y="372.29999"
-   x="683.29999" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_351_)"
+   width="16.700001"
+   height="28.700001"
+   id="rect3203"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3205">
 					<g
    id="g3207">
 						<defs
    id="defs3209">
 							<rect
-   height="95.099998"
-   width="15.1"
-   y="304.20001"
+   id="SVGID_53_"
    x="708.70001"
-   id="SVGID_53_" />
+   y="304.20001"
+   width="15.1"
+   height="95.099998" />
 						</defs>
 						<clipPath
    id="SVGID_352_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3213"
+   xlink:href="#SVGID_53_"
    overflow="visible"
-   xlink:href="#SVGID_53_" />
+   id="use3213"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3215"
-   d="m 723.7,399.3 v -89.6 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 89.6 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_352_)"
-   i:knockout="Off" />
+   d="m 723.7,399.3 v -89.6 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 89.6 h 4.9 4 1.2 4.9 z"
+   id="path3215"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3217">
 						<defs
    id="defs3219">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_55_"
    d="m 708.7,304.2 v 3.7 0.8 1 89.6 h 4.9 4 1.3 4.9 v -91.4 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_55_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_353_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3223"
+   xlink:href="#SVGID_55_"
    overflow="visible"
-   xlink:href="#SVGID_55_" />
+   id="use3223"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3225"
-   height="58.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
-   i:knockout="Off"
+   x="707.5"
    y="309.89999"
-   x="707.5" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3227"
-   height="18.6"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="58.700001"
+   id="rect3225"
+   style="fill:#cf3d96" />
+						<rect
+   x="707.5"
    y="345.70001"
-   x="707.5" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3229"
-   height="26.9"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="18.6"
+   id="rect3227"
+   style="fill:#f1b821" />
+						<rect
+   x="707.5"
    y="351.29999"
-   x="707.5" />
-						<rect
-   style="fill:#c53254"
-   id="rect3231"
-   height="32.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="26.9"
+   id="rect3229"
+   style="fill:#62a73b" />
+						<rect
+   x="707.5"
    y="355.60001"
-   x="707.5" />
-						<rect
-   style="fill:#79317f"
-   id="rect3233"
-   height="38.599998"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="32.200001"
+   id="rect3231"
+   style="fill:#c53254" />
+						<rect
+   x="707.5"
    y="355.89999"
-   x="707.5" />
-						<rect
-   style="fill:#009983"
-   id="rect3235"
-   height="35.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="38.599998"
+   id="rect3233"
+   style="fill:#79317f" />
+						<rect
+   x="707.5"
    y="365.79999"
-   x="707.5" />
-						<rect
-   style="fill:#df7627"
-   id="rect3237"
-   height="27"
-   width="16.700001"
-   clip-path="url(#SVGID_353_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="35.200001"
+   id="rect3235"
+   style="fill:#009983" />
+						<rect
+   x="707.5"
    y="374"
-   x="707.5" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_353_)"
+   width="16.700001"
+   height="27"
+   id="rect3237"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3239">
 					<g
    id="g3241">
 						<defs
    id="defs3243">
 							<rect
-   height="107.2"
-   width="15.1"
-   y="292.29999"
+   id="SVGID_57_"
    x="733.20001"
-   id="SVGID_57_" />
+   y="292.29999"
+   width="15.1"
+   height="107.2" />
 						</defs>
 						<clipPath
    id="SVGID_354_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3247"
+   xlink:href="#SVGID_57_"
    overflow="visible"
-   xlink:href="#SVGID_57_" />
+   id="use3247"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3249"
-   d="m 748.3,399.5 v -101.7 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 101.6 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_354_)"
-   i:knockout="Off" />
+   d="m 748.3,399.5 v -101.7 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 101.6 h 4.9 4 1.2 4.9 z"
+   id="path3249"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3251">
 						<defs
    id="defs3253">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_59_"
    d="m 733.2,292.3 v 3.7 0.8 1 101.6 h 4.9 4 1.3 4.9 V 296 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_59_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_355_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3257"
+   xlink:href="#SVGID_59_"
    overflow="visible"
-   xlink:href="#SVGID_59_" />
+   id="use3257"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3259"
-   height="58.900002"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
-   i:knockout="Off"
+   x="732.59998"
    y="297.60001"
-   x="732.59998" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3261"
-   height="27.299999"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="58.900002"
+   id="rect3259"
+   style="fill:#cf3d96" />
+						<rect
+   x="732.59998"
    y="328.79999"
-   x="732.59998" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3263"
-   height="22.9"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="27.299999"
+   id="rect3261"
+   style="fill:#f1b821" />
+						<rect
+   x="732.59998"
    y="336.70001"
-   x="732.59998" />
-						<rect
-   style="fill:#c53254"
-   id="rect3265"
-   height="27.9"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="22.9"
+   id="rect3263"
+   style="fill:#62a73b" />
+						<rect
+   x="732.59998"
    y="341.29999"
-   x="732.59998" />
-						<rect
-   style="fill:#79317f"
-   id="rect3267"
-   height="36.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="27.9"
+   id="rect3265"
+   style="fill:#c53254" />
+						<rect
+   x="732.59998"
    y="341.79999"
-   x="732.59998" />
-						<rect
-   style="fill:#009983"
-   id="rect3269"
-   height="26.4"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="36.700001"
+   id="rect3267"
+   style="fill:#79317f" />
+						<rect
+   x="732.59998"
    y="352"
-   x="732.59998" />
-						<rect
-   style="fill:#df7627"
-   id="rect3271"
-   height="38.900002"
-   width="16.700001"
-   clip-path="url(#SVGID_355_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="26.4"
+   id="rect3269"
+   style="fill:#009983" />
+						<rect
+   x="732.59998"
    y="362.20001"
-   x="732.59998" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_355_)"
+   width="16.700001"
+   height="38.900002"
+   id="rect3271"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3273">
 					<g
    id="g3275">
 						<defs
    id="defs3277">
 							<rect
-   height="83.099998"
-   width="15.1"
-   y="316.29999"
+   id="SVGID_61_"
    x="757.79999"
-   id="SVGID_61_" />
+   y="316.29999"
+   width="15.1"
+   height="83.099998" />
 						</defs>
 						<clipPath
    id="SVGID_356_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3281"
+   xlink:href="#SVGID_61_"
    overflow="visible"
-   xlink:href="#SVGID_61_" />
+   id="use3281"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3283"
-   d="m 772.9,399.3 v -77.5 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 77.5 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_356_)"
-   i:knockout="Off" />
+   d="m 772.9,399.3 v -77.5 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 77.5 h 4.9 4 1.2 4.9 z"
+   id="path3283"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3285">
 						<defs
    id="defs3287">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_63_"
    d="m 757.8,316.3 v 3.7 0.8 1 77.5 h 4.9 4 1.3 4.9 V 320 c 0,0 0,-3.7 -4.9,-3.7 h -10.2 z"
-   id="SVGID_63_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_357_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3291"
+   xlink:href="#SVGID_63_"
    overflow="visible"
-   xlink:href="#SVGID_63_" />
+   id="use3291"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3293"
-   height="39.900002"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
-   i:knockout="Off"
+   x="757.09998"
    y="317.89999"
-   x="757.09998" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3295"
-   height="26.299999"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="39.900002"
+   id="rect3293"
+   style="fill:#cf3d96" />
+						<rect
+   x="757.09998"
    y="338.79999"
-   x="757.09998" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3297"
-   height="25.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="26.299999"
+   id="rect3295"
+   style="fill:#f1b821" />
+						<rect
+   x="757.09998"
    y="343"
-   x="757.09998" />
-						<rect
-   style="fill:#79317f"
-   id="rect3299"
-   height="32.200001"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="25.700001"
+   id="rect3297"
+   style="fill:#62a73b" />
+						<rect
+   x="757.09998"
    y="347.60001"
-   x="757.09998" />
-						<rect
-   style="fill:#009983"
-   id="rect3301"
-   height="22.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="32.200001"
+   id="rect3299"
+   style="fill:#79317f" />
+						<rect
+   x="757.09998"
    y="357"
-   x="757.09998" />
-						<rect
-   style="fill:#df7627"
-   id="rect3303"
-   height="35.5"
-   width="16.700001"
-   clip-path="url(#SVGID_357_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="22.700001"
+   id="rect3301"
+   style="fill:#009983" />
+						<rect
+   x="757.09998"
    y="365.5"
-   x="757.09998" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_357_)"
+   width="16.700001"
+   height="35.5"
+   id="rect3303"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3305">
 					<g
    id="g3307">
 						<defs
    id="defs3309">
 							<rect
-   height="90.900002"
-   width="15.1"
-   y="308.60001"
+   id="SVGID_65_"
    x="782.40002"
-   id="SVGID_65_" />
+   y="308.60001"
+   width="15.1"
+   height="90.900002" />
 						</defs>
 						<clipPath
    id="SVGID_358_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3313"
+   xlink:href="#SVGID_65_"
    overflow="visible"
-   xlink:href="#SVGID_65_" />
+   id="use3313"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3315"
-   d="m 797.5,399.6 v -85.4 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 85.4 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_358_)"
-   i:knockout="Off" />
+   d="m 797.5,399.6 v -85.4 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 85.4 h 4.9 4 1.2 4.9 z"
+   id="path3315"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3317">
 						<defs
    id="defs3319">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_67_"
    d="m 782.4,308.6 v 3.7 0.8 1 85.4 h 4.9 4 1.2 4.9 v -87.2 c 0,0 0,-3.7 -4.9,-3.7 h -10.1 z"
-   id="SVGID_67_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_359_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3323"
+   xlink:href="#SVGID_67_"
    overflow="visible"
-   xlink:href="#SVGID_67_" />
+   id="use3323"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3325"
-   height="56.299999"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
-   i:knockout="Off"
+   x="781.79999"
    y="311"
-   x="781.79999" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3327"
-   height="19.6"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="56.299999"
+   id="rect3325"
+   style="fill:#cf3d96" />
+						<rect
+   x="781.79999"
    y="340.5"
-   x="781.79999" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3329"
-   height="17.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="19.6"
+   id="rect3327"
+   style="fill:#f1b821" />
+						<rect
+   x="781.79999"
    y="345.89999"
-   x="781.79999" />
-						<rect
-   style="fill:#79317f"
-   id="rect3331"
-   height="21.799999"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="17.799999"
+   id="rect3329"
+   style="fill:#62a73b" />
+						<rect
+   x="781.79999"
    y="353"
-   x="781.79999" />
-						<rect
-   style="fill:#009983"
-   id="rect3333"
-   height="32.599998"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="21.799999"
+   id="rect3331"
+   style="fill:#79317f" />
+						<rect
+   x="781.79999"
    y="360.60001"
-   x="781.79999" />
-						<rect
-   style="fill:#df7627"
-   id="rect3335"
-   height="33.5"
-   width="16.700001"
-   clip-path="url(#SVGID_359_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="32.599998"
+   id="rect3333"
+   style="fill:#009983" />
+						<rect
+   x="781.79999"
    y="367.70001"
-   x="781.79999" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_359_)"
+   width="16.700001"
+   height="33.5"
+   id="rect3335"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<g
+				</g><g
    id="g3337">
 					<g
    id="g3339">
 						<defs
    id="defs3341">
 							<rect
-   height="71.400002"
-   width="15.1"
-   y="327.79999"
+   id="SVGID_69_"
    x="807"
-   id="SVGID_69_" />
+   y="327.79999"
+   width="15.1"
+   height="71.400002" />
 						</defs>
 						<clipPath
    id="SVGID_360_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3345"
+   xlink:href="#SVGID_69_"
    overflow="visible"
-   xlink:href="#SVGID_69_" />
+   id="use3345"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<path
-   style="fill:#0093d5"
-   inkscape:connector-curvature="0"
-   id="path3347"
-   d="m 822,399.1 v -65.9 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 65.9 h 4.9 4 1.2 4.9 z"
+   i:knockout="Off"
    clip-path="url(#SVGID_360_)"
-   i:knockout="Off" />
+   d="m 822,399.1 v -65.9 -1 -0.8 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -4.9 v 3.7 0.8 1 65.9 h 4.9 4 1.2 4.9 z"
+   id="path3347"
+   inkscape:connector-curvature="0"
+   style="fill:#0093d5" />
 					</g>
 					<g
    id="g3349">
 						<defs
    id="defs3351">
 							<path
-   inkscape:connector-curvature="0"
+   id="SVGID_71_"
    d="m 807,327.8 v 3.7 0.8 1 65.9 h 4.9 4 1.3 4.9 v -67.7 c 0,0 0,-3.7 -4.9,-3.7 H 807 z"
-   id="SVGID_71_" />
+   inkscape:connector-curvature="0" />
 						</defs>
 						<clipPath
    id="SVGID_361_">
 							<use
-   height="595.29999"
-   width="841.90002"
-   y="0"
-   x="0"
-   style="overflow:visible"
-   id="use3355"
+   xlink:href="#SVGID_71_"
    overflow="visible"
-   xlink:href="#SVGID_71_" />
+   id="use3355"
+   style="overflow:visible"
+   x="0"
+   y="0"
+   width="841.90002"
+   height="595.29999" />
 						</clipPath>
 						<rect
-   style="fill:#cf3d96"
-   id="rect3357"
-   height="46.400002"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
-   i:knockout="Off"
+   x="806.40002"
    y="332.39999"
-   x="806.40002" />
-						<rect
-   style="fill:#f1b821"
-   id="rect3359"
-   height="26.6"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="46.400002"
+   id="rect3357"
+   style="fill:#cf3d96" />
+						<rect
+   x="806.40002"
    y="359.60001"
-   x="806.40002" />
-						<rect
-   style="fill:#62a73b"
-   id="rect3361"
-   height="25"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="26.6"
+   id="rect3359"
+   style="fill:#f1b821" />
+						<rect
+   x="806.40002"
    y="364.70001"
-   x="806.40002" />
-						<rect
-   style="fill:#c53254"
-   id="rect3363"
-   height="31.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="25"
+   id="rect3361"
+   style="fill:#62a73b" />
+						<rect
+   x="806.40002"
    y="367.60001"
-   x="806.40002" />
-						<rect
-   style="fill:#79317f"
-   id="rect3365"
-   height="32.700001"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="31.700001"
+   id="rect3363"
+   style="fill:#c53254" />
+						<rect
+   x="806.40002"
    y="368.10001"
-   x="806.40002" />
-						<rect
-   style="fill:#009983"
-   id="rect3367"
-   height="23.6"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="32.700001"
+   id="rect3365"
+   style="fill:#79317f" />
+						<rect
+   x="806.40002"
    y="377.20001"
-   x="806.40002" />
-						<rect
-   style="fill:#df7627"
-   id="rect3369"
-   height="19.1"
-   width="16.700001"
-   clip-path="url(#SVGID_361_)"
    i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="23.6"
+   id="rect3367"
+   style="fill:#009983" />
+						<rect
+   x="806.40002"
    y="381.70001"
-   x="806.40002" />
+   i:knockout="Off"
+   clip-path="url(#SVGID_361_)"
+   width="16.700001"
+   height="19.1"
+   id="rect3369"
+   style="fill:#df7627" />
 					</g>
-				</g>
-				<switch
-   id="switch3371"
+				</g><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3371">
 					<foreignObject
-   id="foreignObject3373"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3373">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16658,11 +15642,11 @@
    d="M667,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2003</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16671,25 +15655,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_362_"
    transform="translate(661.7207,406.6016)"
-   id="SVGID_362_">2003</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2003</text>
 
 
-				</switch>
-				<switch
-   id="switch3376"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3376">
 					<foreignObject
-   id="foreignObject3378"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3378">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16697,11 +15680,11 @@
    d="M691.6,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2004</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16710,25 +15693,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_363_"
    transform="translate(686.2988,406.6016)"
-   id="SVGID_363_">2004</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2004</text>
 
 
-				</switch>
-				<switch
-   id="switch3381"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3381">
 					<foreignObject
-   id="foreignObject3383"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3383">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16736,11 +15718,11 @@
    d="M716.2,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2005</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16749,25 +15731,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_364_"
    transform="translate(710.875,406.6016)"
-   id="SVGID_364_">2005</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2005</text>
 
 
-				</switch>
-				<switch
-   id="switch3386"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3386">
 					<foreignObject
-   id="foreignObject3388"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3388">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16775,11 +15756,11 @@
    d="M740.8,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2006</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16788,25 +15769,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_365_"
    transform="translate(735.4531,406.6016)"
-   id="SVGID_365_">2006</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2006</text>
 
 
-				</switch>
-				<switch
-   id="switch3391"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3391">
 					<foreignObject
-   id="foreignObject3393"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3393">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16814,11 +15794,11 @@
    d="M765.4,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2007</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16827,25 +15807,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_366_"
    transform="translate(760.0312,406.6016)"
-   id="SVGID_366_">2007</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2007</text>
 
 
-				</switch>
-				<switch
-   id="switch3396"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3396">
 					<foreignObject
-   id="foreignObject3398"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3398">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16853,11 +15832,11 @@
    d="M789.9,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2008</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16866,25 +15845,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_367_"
    transform="translate(784.6074,406.6016)"
-   id="SVGID_367_">2008</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2008</text>
 
 
-				</switch>
-				<switch
-   id="switch3401"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3401">
 					<foreignObject
-   id="foreignObject3403"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3403">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16892,11 +15870,11 @@
    d="M814.5,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2009</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16905,25 +15883,24 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_368_"
    transform="translate(809.1855,406.6016)"
-   id="SVGID_368_">2009</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2009</text>
 
 
-				</switch>
-				<switch
-   id="switch3406"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3406">
 					<foreignObject
-   id="foreignObject3408"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3408">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16931,11 +15908,11 @@
    d="M642.5,406.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-Condensed'">
+   font-family="'Univers-Condensed'"
+   font-size="6">
 								<ns1:p
-   text-align-last="center"
-   text-align="center"><ns1:span
+   text-align="center"
+   text-align-last="center"><ns1:span
      fill="#58595B">2002</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16944,25 +15921,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed"
-   font-size="6"
+   id="SVGID_369_"
    transform="translate(637.1426,406.6016)"
-   id="SVGID_369_">2002</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2002</text>
 
 
-				</switch>
-				<switch
-   id="switch3411"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3411"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3413"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3413">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -16970,11 +15947,11 @@
    d="M629.2,401.1" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">0</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -16983,25 +15960,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_370_"
    transform="translate(626.5322,401.1182)"
-   id="SVGID_370_">0</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">0</text>
 
 
-				</switch>
-				<switch
-   id="switch3416"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3416"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3418"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3418">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17009,11 +15986,11 @@
    d="M629.2,386.4" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">50</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17022,25 +15999,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_371_"
    transform="translate(623.8691,386.4316)"
-   id="SVGID_371_">50</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">50</text>
 
 
-				</switch>
-				<switch
-   id="switch3421"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3421"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3423"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3423">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17048,11 +16025,11 @@
    d="M629.2,371.7" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">100</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17061,25 +16038,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_372_"
    transform="translate(621.2051,371.7461)"
-   id="SVGID_372_">100</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">100</text>
 
 
-				</switch>
-				<switch
-   id="switch3426"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3426"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3428"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3428">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17087,11 +16064,11 @@
    d="M629.2,357.1" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">150</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17100,25 +16077,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_373_"
    transform="translate(621.2051,357.0596)"
-   id="SVGID_373_">150</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">150</text>
 
 
-				</switch>
-				<switch
-   id="switch3431"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3431"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3433"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3433">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17126,11 +16103,11 @@
    d="M629.2,342.4" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">200</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17139,25 +16116,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_374_"
    transform="translate(621.2051,342.374)"
-   id="SVGID_374_">200</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">200</text>
 
 
-				</switch>
-				<switch
-   id="switch3436"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3436"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3438"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3438">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17165,11 +16142,11 @@
    d="M629.2,313" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">300</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17178,25 +16155,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_375_"
    transform="translate(621.2051,313.002)"
-   id="SVGID_375_">300</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">300</text>
 
 
-				</switch>
-				<switch
-   id="switch3441"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3441"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3443"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3443">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17204,11 +16181,11 @@
    d="M629.2,283.6" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">400</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17217,25 +16194,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_376_"
    transform="translate(621.2051,283.6309)"
-   id="SVGID_376_">400</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">400</text>
 
 
-				</switch>
-				<switch
-   id="switch3446"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3446"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3448"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3448">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17243,11 +16220,11 @@
    d="M629.2,327.7" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">250</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17256,25 +16233,25 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_377_"
    transform="translate(621.2051,327.6885)"
-   id="SVGID_377_">250</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">250</text>
 
 
-				</switch>
-				<switch
-   id="switch3451"
+				</switch><switch
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   id="switch3451"
+   transform="translate(-3.0321998,0)">
 					<foreignObject
-   id="foreignObject3453"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject3453">
 						<ns1:flowDef>
 							<ns1:region
    textMatrix="1 0 0 1 0 0">
@@ -17282,11 +16259,11 @@
    d="M629.2,298.3" />
 							</ns1:region>
 							<ns1:flow
-   font-size="6"
-   font-family="'Univers-CondensedLight'">
+   font-family="'Univers-CondensedLight'"
+   font-size="6">
 								<ns1:p
-   text-align-last="right"
-   text-align="right"><ns1:span
+   text-align="right"
+   text-align-last="right"><ns1:span
      fill="#58595B">350</ns1:span></ns1:p>
 							</ns1:flow>
 						</ns1:flowDef>
@@ -17295,14 +16272,13 @@
 					</foreignObject>
 					
 						<text
-   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight"
-   font-size="6"
+   id="SVGID_378_"
    transform="translate(621.2051,298.3164)"
-   id="SVGID_378_">350</text>
+   font-size="6"
+   style="font-size:6px;fill:#58595b;font-family:Univers-CondensedLight">350</text>
 
 
-				</switch>
-			</g><switch
+				</switch><switch
    id="switch3712"
    i:objectType="pointText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/">
@@ -23951,4 +22927,379 @@ d7/6+5f/D5sErPQ=
    id="SVGID_108_">242.6</text>
 
 
-			</switch></svg>
+			</switch><g
+   id="bcg_2"><circle
+     d="m 652.89999,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
+     style="fill:#58595b;stroke:#ffffff;stroke-width:0.75;stroke-miterlimit:10"
+     sodipodi:ry="12.6"
+     sodipodi:rx="12.6"
+     sodipodi:cy="173.39999"
+     sodipodi:cx="640.29999"
+     id="circle1529"
+     r="12.6"
+     cy="173.39999"
+     cx="640.29999"
+     stroke-miterlimit="10"
+     i:knockout="Off" /><switch
+     transform="translate(-1.8941936,-0.04807089)"
+     id="switch1531"
+     i:objectType="pointText"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/">
+					<foreignObject
+   id="foreignObject1533"
+   overflow="visible"
+   height="1"
+   width="1"
+   y="0"
+   x="0"
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
+						<ns1:flowDef>
+							<ns1:region
+   textMatrix="1 0 0 1 0 0">
+								<ns1:path
+   d="M640.3,177.1" />
+							</ns1:region>
+							<ns1:flow
+   font-size="9.9"
+   font-family="'Univers-Condensed'">
+								<ns1:p
+   text-align-last="center"
+   text-align="center"><ns1:span
+     fill="#FFFFFF">00</ns1:span></ns1:p>
+							</ns1:flow>
+						</ns1:flowDef>
+						<x:targetRef
+   xlink:href="#SVGID_195_" />
+					</foreignObject>
+					
+						<text
+   style="font-size:9.89999962px;fill:#ffffff;font-family:Univers-Condensed"
+   font-size="9.9"
+   transform="translate(635.8955,177.0518)"
+   id="SVGID_195_">00</text>
+
+
+				</switch></g><g
+   id="g14296"><rect
+     x="498.20694"
+     y="328.36804"
+     i:knockout="Off"
+     stroke-miterlimit="10"
+     width="96.671844"
+     height="72.383804"
+     id="rect903"
+     style="fill:#ffffff;stroke:#58595b;stroke-width:0.46698633;stroke-miterlimit:10" /><rect
+     x="502.39999"
+     y="379.20001"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect905"
+     style="fill:#cf3d96" /><rect
+     x="502.39999"
+     y="392.89999"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect907"
+     style="fill:#0093d5" /><rect
+     x="502.39999"
+     y="363.79999"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect909"
+     style="fill:#c1b400" /><rect
+     x="502.39999"
+     y="356.10001"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect911"
+     style="fill:#c53254" /><rect
+     x="502.39999"
+     y="371.5"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect913"
+     style="fill:#f1b821" /><rect
+     x="502.39999"
+     y="340.79999"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect915"
+     style="fill:#009983" /><rect
+     x="502.39999"
+     y="333.10001"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect917"
+     style="fill:#df7627" /><rect
+     x="502.39999"
+     y="348.39999"
+     i:knockout="Off"
+     width="9.6999998"
+     height="4.3000002"
+     id="rect919"
+     style="fill:#79317f" /><switch
+     transform="translate(0,-6)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch921">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject923">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,403.1" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>Others</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_130_" />
+				</foreignObject>
+				<text
+   id="SVGID_130_"
+   transform="translate(514.7227,403.1113)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">Others</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch926">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject928">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,372.4" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To EURO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_131_" />
+				</foreignObject>
+				<text
+   id="SVGID_131_"
+   transform="translate(514.7227,372.4297)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To EURO Countries</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch931">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject933">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,380.1" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To SEARO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_132_" />
+				</foreignObject>
+				<text
+   id="SVGID_132_"
+   transform="translate(514.7227,380.1152)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To SEARO Countries</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch936">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject938">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.9,387.8" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To WPRO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_133_" />
+				</foreignObject>
+				<text
+   id="SVGID_133_"
+   transform="translate(514.8848,387.8066)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To WPRO Countries</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch952">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject954">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,349.4" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To AFRO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_135_" />
+				</foreignObject>
+				<text
+   id="SVGID_135_"
+   transform="translate(514.7227,349.377)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To AFRO Countries</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch957">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject959">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,357.1" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To AMRO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_136_" />
+				</foreignObject>
+				<text
+   id="SVGID_136_"
+   transform="translate(514.7227,357.0615)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To AMRO Countries</text>
+
+
+			</switch><switch
+     transform="translate(0,-12)"
+     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+     i:objectType="pointText"
+     id="switch962">
+				<foreignObject
+   requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+   x="0"
+   y="0"
+   width="1"
+   height="1"
+   overflow="visible"
+   id="foreignObject964">
+					<ns1:flowDef>
+						<ns1:region
+   textMatrix="1 0 0 1 0 0">
+							<ns1:path
+   d="M514.7,364.7" />
+						</ns1:region>
+						<ns1:flow
+   font-family="'Univers-CondensedLight'"
+   font-size="5.5">
+							<ns1:p><ns1:span>To EMRO Countries</ns1:span></ns1:p>
+						</ns1:flow>
+					</ns1:flowDef>
+					<x:targetRef
+   xlink:href="#SVGID_137_" />
+				</foreignObject>
+				<text
+   id="SVGID_137_"
+   transform="translate(514.7227,364.7451)"
+   font-size="5.5"
+   style="font-size:5px;font-family:Univers-CondensedLight">To EMRO Countries</text>
+
+
+			</switch><flowRoot
+     transform="translate(6.0643788,-9.2749641)"
+     style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Univers-CondensedLight;-inkscape-font-specification:Univers-CondensedLight"
+     id="flowRoot14251"
+     xml:space="preserve"><flowRegion
+       id="flowRegion14253"><rect
+         style="text-align:start;text-anchor:start;font-family:Univers-CondensedLight;-inkscape-font-specification:Univers-CondensedLight"
+         y="388.04022"
+         x="507.98264"
+         height="17.836468"
+         width="78.480453"
+         id="rect14255" /></flowRegion><flowPara
+       style="font-size:5px;font-family:Univers-CondensedLight;-inkscape-font-specification:Univers-CondensedLight"
+       id="flowPara14257">Global &amp; Multi-Country Grants (Incl UN)</flowPara></flowRoot></g></svg>

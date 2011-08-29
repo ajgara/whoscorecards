@@ -3,7 +3,7 @@ import numbers
 import sys
 import os
 import dataprocessing
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2, xmlutils
 import graphs
 
 donor_svg = "../svg/WHO_ODA_donar.svg"
@@ -348,10 +348,40 @@ def process_donor_country(donor_country):
     template_xml = process_region_table(dc, template_xml)
     template_xml = process_health_table(dc, template_xml)
     template_xml = process_commitments_graph(dc, template_xml)
+    template_xml = process_income_group_graph(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))
     f.close()
+
+def process_income_group_graph(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+
+    ldc_allocation = dc.ldc_allocation
+    lic_allocation = dc.lic_allocation
+    lmi_allocation = dc.lmi_allocation
+    umi_allocation = dc.umi_allocation
+    gmc_allocation = dc.gmc_allocation
+
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    for year, circle_x in [(2002, 640.29999), (2003, 693.5), (2004, 746.70001), (2005, 800), (2006, 640.29999), (2007, 693.5), (2008, 746.70001), (2009, 800)]:
+        y = str(year)[3]
+        if year <= 2005: circle_y = 173.39999
+        else: circle_y = 228.3
+        year = str(year)
+        chart = graphs.PieChart(xml, (circle_x, circle_y), 22.1, [
+            ldc_allocation[year], 
+            lic_allocation[year], 
+            lmi_allocation[year], 
+            umi_allocation[year],
+            gmc_allocation[year],
+        ], colours=["#df7627", "#cf3d96", "#62a73b", "#79317f", "#0093d5"])
+        chart.generate_xml()
+        black_circle = xmlutils.get_el_by_id(xml, "g", "bcg_%s" % y)
+        xml.documentElement.removeChild(black_circle)
+        xml.documentElement.appendChild(black_circle)
+    return xml.toxml()
 
 def main(*args):
 
