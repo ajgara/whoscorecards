@@ -368,6 +368,7 @@ def process_region_graph(donor_country, template_xml):
     dc = donor_country
 
     graph = graphs.BarGraph(num_ticks=9, min_height=285.5, max_height=223)
+    graph_afro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.5)
 
     afro_allocation = dc.afro_allocation
     amro_allocation = dc.amro_allocation
@@ -382,6 +383,7 @@ def process_region_graph(donor_country, template_xml):
         y = str(year)[3]
         year = str(year)
         graph.add_value(year, oda_health[year])
+        graph_afro.add_value(year, afro_allocation[year])
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
     if not has_data:
@@ -403,14 +405,13 @@ def process_region_graph(donor_country, template_xml):
 
     xml = minidom.parseString(template_xml.encode("utf-8"))
     graph.update_bars(xml, {
-        2002 : "g2_b2",
-        2003 : "g2_b3",
-        2004 : "g2_b4",
-        2005 : "g2_b5",
-        2006 : "g2_b6",
-        2007 : "g2_b7",
-        2008 : "g2_b8",
-        2009 : "g2_b9",
+        2002 : "g2_b2", 2003 : "g2_b3", 2004 : "g2_b4", 2005 : "g2_b5",
+        2006 : "g2_b6", 2007 : "g2_b7", 2008 : "g2_b8", 2009 : "g2_b9",
+    })
+
+    graph_afro.update_bars(xml, {
+        2002 : "g2_afro2", 2003 : "g2_afro3", 2004 : "g2_afro4", 2005 : "g2_afro5",
+        2006 : "g2_afro6", 2007 : "g2_afro7", 2008 : "g2_afro8", 2009 : "g2_afro9",
     })
 
     return xml.toxml()

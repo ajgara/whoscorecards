@@ -41,6 +41,14 @@ class BarGraph(object):
             height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
             node.setAttribute("y", str(height - 6))
 
+class RectBarGraph(BarGraph):
+    def update_bars(self, xml, ids):
+        for year in range(2002, 2010):
+            node = xmlutils.get_el_by_id(xml, "rect", ids[year])
+            y = self.min_height -  self.values[year] / self.max_tick * self.pixel_range
+            height = self.min_height - y
+            node.setAttribute("y", str(y))
+            node.setAttribute("height", str(height))
 
 class PieChart(object):
     def __init__(self, xml, centre, radius, data, colours=None):
