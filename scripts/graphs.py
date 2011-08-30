@@ -42,7 +42,16 @@ class BarGraph(object):
             node.setAttribute("y", str(height - 6))
 
 class RectBarGraph(BarGraph):
+    def __init__(self, tick_multiplier=1.2, num_ticks=6, min_height=285.5, max_height=223, max_tick=None):
+        self._max_tick = max_tick
+        super(RectBarGraph, self).__init__(tick_multiplier, num_ticks, min_height, max_height)
+
+    @property
+    def max_tick(self):
+        return self._max_tick or super(RectBarGraph, self).max_tick
+
     def update_bars(self, xml, ids):
+        #import pdb; pdb.set_trace()
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "rect", ids[year])
             y = self.min_height -  self.values[year] / self.max_tick * self.pixel_range

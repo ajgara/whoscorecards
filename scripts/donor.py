@@ -367,8 +367,14 @@ def process_region_graph(donor_country, template_xml):
     data = {}
     dc = donor_country
 
-    graph = graphs.BarGraph(num_ticks=9, min_height=285.5, max_height=223)
-    graph_afro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.5)
+    graph = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_afro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_amro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_emro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_euro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_searo = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_wpro = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
+    graph_gmcr = graphs.RectBarGraph(num_ticks=9, min_height=399.5, max_height=281.63257)
 
     afro_allocation = dc.afro_allocation
     amro_allocation = dc.amro_allocation
@@ -381,9 +387,15 @@ def process_region_graph(donor_country, template_xml):
 
     for year in range(2002, 2010):
         y = str(year)[3]
-        year = str(year)
-        graph.add_value(year, oda_health[year])
-        graph_afro.add_value(year, afro_allocation[year])
+        s_year = str(year)
+        graph.add_value(s_year, oda_health[s_year])
+        graph_afro.add_value(s_year, afro_allocation[s_year])
+        graph_amro.add_value(s_year, amro_allocation[s_year] + graph_afro.values[year])
+        graph_emro.add_value(s_year, emro_allocation[s_year] + graph_amro.values[year])
+        graph_euro.add_value(s_year, euro_allocation[s_year] + graph_emro.values[year])
+        graph_searo.add_value(s_year, searo_allocation[s_year] + graph_euro.values[year])
+        graph_wpro.add_value(s_year, wpro_allocation[s_year] + graph_searo.values[year])
+        graph_gmcr.add_value(s_year, gmcr_allocation[s_year] + graph_wpro.values[year])
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
     if not has_data:
@@ -409,9 +421,46 @@ def process_region_graph(donor_country, template_xml):
         2006 : "g2_b6", 2007 : "g2_b7", 2008 : "g2_b8", 2009 : "g2_b9",
     })
 
+    graph_afro._max_tick = graph.max_tick
     graph_afro.update_bars(xml, {
         2002 : "g2_afro2", 2003 : "g2_afro3", 2004 : "g2_afro4", 2005 : "g2_afro5",
         2006 : "g2_afro6", 2007 : "g2_afro7", 2008 : "g2_afro8", 2009 : "g2_afro9",
+    })
+
+    graph_amro._max_tick = graph.max_tick
+    graph_amro.update_bars(xml, {
+        2002 : "g2_amro2", 2003 : "g2_amro3", 2004 : "g2_amro4", 2005 : "g2_amro5",
+        2006 : "g2_amro6", 2007 : "g2_amro7", 2008 : "g2_amro8", 2009 : "g2_amro9",
+    })
+
+    graph_emro._max_tick = graph.max_tick
+    graph_emro.update_bars(xml, {
+        2002 : "g2_emro2", 2003 : "g2_emro3", 2004 : "g2_emro4", 2005 : "g2_emro5",
+        2006 : "g2_emro6", 2007 : "g2_emro7", 2008 : "g2_emro8", 2009 : "g2_emro9",
+    })
+
+    graph_euro._max_tick = graph.max_tick
+    graph_euro.update_bars(xml, {
+        2002 : "g2_euro2", 2003 : "g2_euro3", 2004 : "g2_euro4", 2005 : "g2_euro5",
+        2006 : "g2_euro6", 2007 : "g2_euro7", 2008 : "g2_euro8", 2009 : "g2_euro9",
+    })
+
+    graph_searo._max_tick = graph.max_tick
+    graph_searo.update_bars(xml, {
+        2002 : "g2_searo2", 2003 : "g2_searo3", 2004 : "g2_searo4", 2005 : "g2_searo5",
+        2006 : "g2_searo6", 2007 : "g2_searo7", 2008 : "g2_searo8", 2009 : "g2_searo9",
+    })
+
+    graph_wpro._max_tick = graph.max_tick
+    graph_wpro.update_bars(xml, {
+        2002 : "g2_wpro2", 2003 : "g2_wpro3", 2004 : "g2_wpro4", 2005 : "g2_wpro5",
+        2006 : "g2_wpro6", 2007 : "g2_wpro7", 2008 : "g2_wpro8", 2009 : "g2_wpro9",
+    })
+
+    graph_gmcr._max_tick = graph.max_tick
+    graph_gmcr.update_bars(xml, {
+        2002 : "g2_global2", 2003 : "g2_global3", 2004 : "g2_global4", 2005 : "g2_global5",
+        2006 : "g2_global6", 2007 : "g2_global7", 2008 : "g2_global8", 2009 : "g2_global9",
     })
 
     return xml.toxml()

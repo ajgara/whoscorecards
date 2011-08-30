@@ -27,7 +27,7 @@
    enable-background="new 0 0 841.9 595.3"
    xml:space="preserve"
    id="svg2"
-   inkscape:version="0.48.1 r9760"
+   inkscape:version="0.48.0 r9654"
    sodipodi:docname="WHO_ODA_donar.svg"><defs
    id="defs4299">
 	<foreignObject
@@ -7586,15 +7586,12 @@
 					
 					
 				<clipPath
-   id="SVGID_143_-7-71"><use
-     xlink:href="#SVGID_17_-4-8"
-     overflow="visible"
-     id="use22580-0-7"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath>
+   id="SVGID_143_-7-71"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7" /></clipPath>
 					
 					
 				
@@ -7639,69 +7636,48 @@
 						
 						
 					<clipPath
-   id="SVGID_143_-7-71-1"><use
-     xlink:href="#SVGID_17_-4-8-2"
-     overflow="visible"
-     id="use22580-0-7-5"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-2"><use
-     xlink:href="#SVGID_17_-4-8-0"
-     overflow="visible"
-     id="use22580-0-7-6"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-6"><use
-     xlink:href="#SVGID_17_-4-8-8"
-     overflow="visible"
-     id="use22580-0-7-8"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-0"><use
-     xlink:href="#SVGID_17_-4-8-4"
-     overflow="visible"
-     id="use22580-0-7-81"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-23"><use
-     xlink:href="#SVGID_17_-4-8-7"
-     overflow="visible"
-     id="use22580-0-7-69"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-5"><use
-     xlink:href="#SVGID_17_-4-8-1"
-     overflow="visible"
-     id="use22580-0-7-87"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath><clipPath
-   id="SVGID_143_-7-71-3"><use
-     xlink:href="#SVGID_17_-4-8-3"
-     overflow="visible"
-     id="use22580-0-7-2"
-     style="overflow:visible"
-     x="0"
-     y="0"
-     width="595.29999"
-     height="841.90002" /></clipPath>
+   id="SVGID_143_-7-71-1"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-5" /></clipPath><clipPath
+   id="SVGID_143_-7-71-2"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-6" /></clipPath><clipPath
+   id="SVGID_143_-7-71-6"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-8" /></clipPath><clipPath
+   id="SVGID_143_-7-71-0"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-81" /></clipPath><clipPath
+   id="SVGID_143_-7-71-23"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-69" /></clipPath><clipPath
+   id="SVGID_143_-7-71-5"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-87" /></clipPath><clipPath
+   id="SVGID_143_-7-71-3"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-2" /></clipPath>
 						<defs
    id="defs3115">
 							<path
@@ -7891,7 +7867,67 @@
 						
 						
 						
-					</defs><sodipodi:namedview
+					<clipPath
+   id="SVGID_355_-5"><use
+     xlink:href="#SVGID_59_"
+     overflow="visible"
+     id="use3257-8"
+     style="overflow:visible"
+     x="0"
+     y="0"
+     width="841.90002"
+     height="595.29999" /></clipPath><clipPath
+   id="SVGID_355_-5-0"><use
+     xlink:href="#SVGID_59_"
+     overflow="visible"
+     id="use3257-8-6"
+     style="overflow:visible"
+     x="0"
+     y="0"
+     width="841.90002"
+     height="595.29999" /></clipPath><clipPath
+   id="SVGID_143_-7-71-9"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-3" /></clipPath><clipPath
+   id="SVGID_143_-7-71-59"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-85" /></clipPath><clipPath
+   id="SVGID_143_-7-71-4"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-25" /></clipPath><clipPath
+   id="SVGID_143_-7-71-7"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-39" /></clipPath><clipPath
+   id="SVGID_143_-7-71-8"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-1" /></clipPath><clipPath
+   id="SVGID_143_-7-71-65"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-813" /></clipPath><clipPath
+   id="SVGID_143_-7-71-95"><rect
+     height="200.90001"
+     width="15.1"
+     y="200.10001"
+     x="200"
+     id="use22580-0-7-7" /></clipPath></defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -7900,13 +7936,13 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1366"
-   inkscape:window-height="693"
+   inkscape:window-width="1920"
+   inkscape:window-height="1005"
    id="namedview4297"
    showgrid="false"
-   inkscape:zoom="3.6801581"
-   inkscape:cx="653.88496"
-   inkscape:cy="255.77497"
+   inkscape:zoom="4"
+   inkscape:cx="644.81442"
+   inkscape:cy="270.27667"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -8264,6 +8300,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch122"
@@ -8317,6 +8354,7 @@
    y="47.381802"><tspan
      style="text-align:end;text-anchor:end"
      id="tspan14337">{country}</tspan></text>
+
 
 
 
@@ -8539,6 +8577,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -8569,6 +8608,7 @@
    x="168.20085"
    y="87.852547">2002</text>
 
+
 <rect
    style="fill:none"
    id="rect209"
@@ -8584,6 +8624,7 @@
    x="168.09798"
    y="115.77524">{odah_2}</text>
 
+
 <text
    style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Univers-CondensedLight"
    font-size="8"
@@ -8591,6 +8632,7 @@
    id="SVGID_14_"
    x="168.09798"
    y="101.99701">{oda_2}</text>
+
 
 <rect
    style="fill:none"
@@ -8607,6 +8649,7 @@
    x="168.09798"
    y="129.31001">{odahp_2}</text>
 
+
 <text
    style="font-size:7.80276871px;fill:#0093d5;font-family:Univers-Condensed"
    font-size="8"
@@ -8614,6 +8657,7 @@
    id="SVGID_18_"
    x="202.37585"
    y="87.852547">2003</text>
+
 
 <rect
    style="fill:none"
@@ -8630,6 +8674,7 @@
    x="212.28743"
    y="115.77524">{odah_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect254"
@@ -8644,6 +8689,7 @@
    id="SVGID_22_"
    x="212.28743"
    y="101.99701">{oda_3}</text>
+
 
 <rect
    style="fill:none"
@@ -8660,6 +8706,7 @@
    x="212.28743"
    y="129.31001">{odahp_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect272"
@@ -8674,6 +8721,7 @@
    id="SVGID_26_"
    x="246.47197"
    y="87.852547">2004</text>
+
 
 <rect
    style="fill:none"
@@ -8690,6 +8738,7 @@
    x="256.47687"
    y="115.77524">{odah_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect290"
@@ -8704,6 +8753,7 @@
    id="SVGID_30_"
    x="256.47687"
    y="101.99701">{oda_4}</text>
+
 
 <rect
    style="fill:none"
@@ -8720,6 +8770,7 @@
    x="256.47687"
    y="129.31001">{odahp_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect308"
@@ -8734,6 +8785,7 @@
    id="SVGID_34_"
    x="290.68079"
    y="87.852547">2005</text>
+
 
 <rect
    style="fill:none"
@@ -8750,6 +8802,7 @@
    x="300.56378"
    y="115.77524">{odah_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect326"
@@ -8764,6 +8817,7 @@
    id="SVGID_38_"
    x="300.56378"
    y="101.99701">{oda_5}</text>
+
 
 <rect
    style="fill:none"
@@ -8780,6 +8834,7 @@
    x="300.56378"
    y="129.31001">{odahp_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect344"
@@ -8794,6 +8849,7 @@
    id="SVGID_42_"
    x="334.77499"
    y="87.852547">2006</text>
+
 
 <rect
    style="fill:none"
@@ -8810,6 +8866,7 @@
    x="344.75323"
    y="115.77524">{odah_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect362"
@@ -8824,6 +8881,7 @@
    id="SVGID_46_"
    x="344.75323"
    y="101.99701">{oda_6}</text>
+
 
 <rect
    style="fill:none"
@@ -8840,6 +8898,7 @@
    x="344.75323"
    y="129.31001">{odahp_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect380"
@@ -8854,6 +8913,7 @@
    id="SVGID_50_"
    x="379.05203"
    y="87.852547">2007</text>
+
 
 <rect
    style="fill:none"
@@ -8870,6 +8930,7 @@
    x="388.94266"
    y="115.77524">{odah_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect398"
@@ -8884,6 +8945,7 @@
    id="SVGID_54_"
    x="388.94266"
    y="101.99701">{oda_7}</text>
+
 
 <rect
    style="fill:none"
@@ -8900,6 +8962,7 @@
    x="388.94266"
    y="129.31001">{odahp_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect416"
@@ -8914,6 +8977,7 @@
    id="SVGID_58_"
    x="423.1748"
    y="87.852547">2008</text>
+
 
 <rect
    style="fill:none"
@@ -8930,6 +8994,7 @@
    x="433.13211"
    y="115.77524">{odah_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect434"
@@ -8944,6 +9009,7 @@
    id="SVGID_62_"
    x="433.13211"
    y="101.99701">{oda_8}</text>
+
 
 <rect
    style="fill:none"
@@ -8960,6 +9026,7 @@
    x="433.13211"
    y="129.31001">{odahp_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect452"
@@ -8974,6 +9041,7 @@
    id="SVGID_66_"
    x="467.37189"
    y="87.852547">2009</text>
+
 
 <rect
    style="fill:none"
@@ -8990,6 +9058,7 @@
    x="477.32156"
    y="115.77524">{odah_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect470"
@@ -9005,6 +9074,7 @@
    x="477.32156"
    y="101.99701">{oda_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect479"
@@ -9019,6 +9089,7 @@
    id="SVGID_72_"
    x="477.32156"
    y="129.31001">{odahp_9}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:10"
@@ -9085,6 +9156,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch495"
@@ -9132,6 +9204,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,104.6299)"
    id="SVGID_76_">ODA Commitments</text>
+
 
 
 
@@ -9185,6 +9258,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch513"
@@ -9230,6 +9304,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,118.6504)"
    id="SVGID_80_">ODA for Health Commitments</text>
+
 
 
 
@@ -9321,6 +9396,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch>
@@ -9364,6 +9440,7 @@
 
 
 
+
 			</switch><switch
    id="switch550"
    i:objectType="pointText"
@@ -9401,6 +9478,7 @@
    id="SVGID_88_"
    x="16.382812"
    y="0">{g1_t5}</text>
+
 
 
 
@@ -9444,6 +9522,7 @@
 
 
 
+
 			</switch><switch
    id="switch560"
    i:objectType="pointText"
@@ -9481,6 +9560,7 @@
    id="SVGID_91_"
    x="16.49707"
    y="0">{g1_t3}</text>
+
 
 
 
@@ -9524,6 +9604,7 @@
 
 
 
+
 			</switch><switch
    id="switch570"
    i:objectType="pointText"
@@ -9561,6 +9642,7 @@
    id="SVGID_93_"
    x="3.0234375"
    y="0">{g1_t1}</text>
+
 
 
 
@@ -9606,6 +9688,7 @@
    transform="translate(637.2197,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2002</text>
+
 
 
 
@@ -9656,6 +9739,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -9700,6 +9784,7 @@
    transform="translate(685.9756,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2004</text>
+
 
 
 
@@ -9750,6 +9835,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -9797,6 +9883,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -9841,6 +9928,7 @@
    transform="translate(759.1094,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2007</text>
+
 
 
 
@@ -10123,6 +10211,7 @@
 
 
 
+
 			</switch><switch
    id="switch694"
    i:objectType="pointText"
@@ -10161,6 +10250,7 @@
 
 
 
+
 			</switch><switch
    id="switch699"
    i:objectType="pointText"
@@ -10196,6 +10286,7 @@
    font-size="5"
    transform="matrix(0,-1,1,0,605.1562,367.9287)"
    id="SVGID_106_">(in Million constant 2008 US$)</text>
+
 
 
 
@@ -10292,6 +10383,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch861"
@@ -10326,6 +10418,7 @@
    font-size="5.5"
    transform="translate(520.9053,125.2051)"
    id="SVGID_124_">ODA for Health</text>
+
 
 
 
@@ -10410,6 +10503,7 @@
 
 
 
+
 			</switch><switch
    id="switch883"
    i:objectType="pointText"
@@ -10445,6 +10539,7 @@
    id="SVGID_126_"><tspan
      style="font-size:5px"
      id="tspan14245">Least Developed Countries</tspan></text>
+
 
 
 
@@ -10484,6 +10579,7 @@
 
 
 
+
 			</switch><switch
    id="switch893"
    i:objectType="pointText"
@@ -10517,6 +10613,7 @@
    font-size="5.5"
    transform="translate(516.2725,231.543)"
    id="SVGID_128_">Low Middle Income Countries</text>
+
 
 
 
@@ -10555,6 +10652,7 @@
    id="SVGID_129_"><tspan
      style="font-size:5px"
      id="tspan14247">Upper Middle Income Countries</tspan></text>
+
 
 
 
@@ -10679,6 +10777,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -10695,6 +10794,7 @@
    x="168.20085"
    y="174.05353">2002</text>
 
+
 <rect
    style="fill:none"
    id="rect1011"
@@ -10709,6 +10809,7 @@
    id="SVGID_140_"
    x="168.09798"
    y="201.97614">{lic_2}</text>
+
 
 <rect
    style="fill:none"
@@ -10725,6 +10826,7 @@
    x="168.09798"
    y="188.198">{ldc_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect1029"
@@ -10739,6 +10841,7 @@
    id="SVGID_142_"
    x="168.09798"
    y="215.51102">{lmi_2}</text>
+
 
 <rect
    style="fill:none"
@@ -10755,6 +10858,7 @@
    x="212.31219"
    y="174.05353">2003</text>
 
+
 <rect
    style="fill:none"
    id="rect1047"
@@ -10769,6 +10873,7 @@
    id="SVGID_144_"
    x="212.28743"
    y="201.97614">{lic_3}</text>
+
 
 <rect
    style="fill:none"
@@ -10785,6 +10890,7 @@
    x="212.28743"
    y="188.198">{ldc_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect1065"
@@ -10799,6 +10905,7 @@
    id="SVGID_146_"
    x="212.28743"
    y="215.51102">{lmi_3}</text>
+
 
 <rect
    style="fill:none"
@@ -10815,6 +10922,7 @@
    x="256.40829"
    y="174.05353">2004</text>
 
+
 <rect
    style="fill:none"
    id="rect1083"
@@ -10829,6 +10937,7 @@
    id="SVGID_148_"
    x="256.47687"
    y="201.97614">{lic_4}</text>
+
 
 <rect
    style="fill:none"
@@ -10845,6 +10954,7 @@
    x="256.47687"
    y="188.198">{ldc_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect1101"
@@ -10859,6 +10969,7 @@
    id="SVGID_150_"
    x="256.47687"
    y="215.51102">{lmi_4}</text>
+
 
 <rect
    style="fill:none"
@@ -10875,6 +10986,7 @@
    x="300.61713"
    y="174.05353">2005</text>
 
+
 <rect
    style="fill:none"
    id="rect1119"
@@ -10889,6 +11001,7 @@
    id="SVGID_152_"
    x="300.56378"
    y="201.97614">{lic_5}</text>
+
 
 <rect
    style="fill:none"
@@ -10905,6 +11018,7 @@
    x="300.56378"
    y="188.198">{ldc_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect1137"
@@ -10919,6 +11033,7 @@
    id="SVGID_154_"
    x="300.56378"
    y="215.51102">{lmi_5}</text>
+
 
 <rect
    style="fill:none"
@@ -10935,6 +11050,7 @@
    x="344.71133"
    y="174.05353">2006</text>
 
+
 <rect
    style="fill:none"
    id="rect1155"
@@ -10949,6 +11065,7 @@
    id="SVGID_156_"
    x="344.75323"
    y="201.97614">{lic_6}</text>
+
 
 <rect
    style="fill:none"
@@ -10965,6 +11082,7 @@
    x="344.75323"
    y="188.198">{ldc_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect1173"
@@ -10979,6 +11097,7 @@
    id="SVGID_158_"
    x="344.75323"
    y="215.51102">{lmi_6}</text>
+
 
 <rect
    style="fill:none"
@@ -10995,6 +11114,7 @@
    x="388.98837"
    y="174.05353">2007</text>
 
+
 <rect
    style="fill:none"
    id="rect1191"
@@ -11009,6 +11129,7 @@
    id="SVGID_160_"
    x="388.94266"
    y="201.97614">{lic_7}</text>
+
 
 <rect
    style="fill:none"
@@ -11025,6 +11146,7 @@
    x="388.94266"
    y="188.198">{ldc_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect1209"
@@ -11039,6 +11161,7 @@
    id="SVGID_162_"
    x="388.94266"
    y="215.51102">{lmi_7}</text>
+
 
 <rect
    style="fill:none"
@@ -11055,6 +11178,7 @@
    x="433.11115"
    y="174.05353">2008</text>
 
+
 <rect
    style="fill:none"
    id="rect1227"
@@ -11069,6 +11193,7 @@
    id="SVGID_164_"
    x="433.13211"
    y="201.97614">{lic_8}</text>
+
 
 <rect
    style="fill:none"
@@ -11085,6 +11210,7 @@
    x="433.13211"
    y="188.198">{ldc_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect1245"
@@ -11099,6 +11225,7 @@
    id="SVGID_166_"
    x="433.13211"
    y="215.51102">{lmi_8}</text>
+
 
 <rect
    style="fill:none"
@@ -11115,6 +11242,7 @@
    x="477.30823"
    y="174.05353">2009</text>
 
+
 <rect
    style="fill:none"
    id="rect1263"
@@ -11129,6 +11257,7 @@
    id="SVGID_168_"
    x="477.32156"
    y="201.97614">{lic_9}</text>
+
 
 <rect
    style="fill:none"
@@ -11145,6 +11274,7 @@
    x="477.32156"
    y="188.198">{ldc_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect1281"
@@ -11159,6 +11289,7 @@
    id="SVGID_170_"
    x="477.32156"
    y="215.51102">{lmi_9}</text>
+
 
 <rect
    style="fill:none"
@@ -11175,6 +11306,7 @@
    x="168.09798"
    y="229.29207">{umi_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect1299"
@@ -11189,6 +11321,7 @@
    id="SVGID_172_"
    x="212.28743"
    y="229.29207">{umi_3}</text>
+
 
 <rect
    style="fill:none"
@@ -11205,6 +11338,7 @@
    x="256.47687"
    y="229.29207">{umi_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect1317"
@@ -11219,6 +11353,7 @@
    id="SVGID_174_"
    x="300.56378"
    y="229.29207">{umi_5}</text>
+
 
 <rect
    style="fill:none"
@@ -11235,6 +11370,7 @@
    x="344.75323"
    y="229.29207">{umi_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect1335"
@@ -11249,6 +11385,7 @@
    id="SVGID_176_"
    x="388.94266"
    y="229.29207">{umi_7}</text>
+
 
 <rect
    style="fill:none"
@@ -11265,6 +11402,7 @@
    x="433.13211"
    y="229.29207">{umi_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect1353"
@@ -11279,6 +11417,7 @@
    id="SVGID_178_"
    x="477.32156"
    y="229.29207">{umi_9}</text>
+
 
 <rect
    style="fill:none"
@@ -11295,6 +11434,7 @@
    x="168.09798"
    y="242.92877">{gmc_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect1371"
@@ -11309,6 +11449,7 @@
    id="SVGID_180_"
    x="212.28743"
    y="242.92877">{gmc_3}</text>
+
 
 <rect
    style="fill:none"
@@ -11325,6 +11466,7 @@
    x="256.47687"
    y="242.92877">{gmc_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect1389"
@@ -11339,6 +11481,7 @@
    id="SVGID_182_"
    x="300.56378"
    y="242.92877">{gmc_5}</text>
+
 
 <rect
    style="fill:none"
@@ -11355,6 +11498,7 @@
    x="344.75323"
    y="242.92877">{gmc_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect1407"
@@ -11369,6 +11513,7 @@
    id="SVGID_184_"
    x="388.94266"
    y="242.92877">{gmc_7}</text>
+
 
 <rect
    style="fill:none"
@@ -11385,6 +11530,7 @@
    x="433.13211"
    y="242.92877">{gmc_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect1425"
@@ -11399,6 +11545,7 @@
    id="SVGID_186_"
    x="477.32156"
    y="242.92877">{gmc_9}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10"
@@ -11481,6 +11628,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch1445"
@@ -11528,6 +11676,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,193.0098)"
    id="SVGID_188_">To Least Developed Countries</text>
+
 
 
 
@@ -11581,6 +11730,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch1463"
@@ -11628,6 +11778,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,248.4644)"
    id="SVGID_190_">Global and Multi-Country Grants</text>
+
 
 
 
@@ -11681,6 +11832,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch1481"
@@ -11728,6 +11880,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,234.6006)"
    id="SVGID_192_">To Upper Middle Income Countries</text>
+
 
 
 
@@ -11786,6 +11939,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11821,6 +11975,7 @@
    transform="translate(634.9375,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2006</text>
+
 
 
 
@@ -11877,6 +12032,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11912,6 +12068,7 @@
    transform="translate(688.1641,202.9717)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2003</text>
+
 
 
 
@@ -11968,6 +12125,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -12003,6 +12161,7 @@
    transform="translate(685.5645,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2007</text>
+
 
 
 
@@ -12060,6 +12219,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -12095,6 +12255,7 @@
    transform="translate(794.6172,202.9717)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2005</text>
+
 
 
 
@@ -12151,6 +12312,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -12186,6 +12348,7 @@
    transform="translate(794.6172,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2009</text>
+
 
 
 
@@ -12242,6 +12405,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -12277,6 +12441,7 @@
    transform="translate(741.3906,202.9717)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2004</text>
+
 
 
 
@@ -12333,6 +12498,7 @@
 
 
 
+
 				</switch></g><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -12368,6 +12534,7 @@
    transform="translate(739.1387,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Univers-Condensed">2008</text>
+
 
 
 
@@ -12422,6 +12589,7 @@
    font-size="9.9"
    transform="translate(740.0977,231.9355)"
    id="SVGID_216_">00</text>
+
 
 
 
@@ -12509,6 +12677,7 @@
    x="252.24609"
    y="280.61179">Allocation by WHO Region</text>
 
+
 <rect
    style="fill:none"
    id="rect1865"
@@ -12523,6 +12692,7 @@
    id="SVGID_218_"
    x="168.20085"
    y="287.72134">2002</text>
+
 
 <rect
    style="fill:none"
@@ -12539,6 +12709,7 @@
    x="168.09798"
    y="315.64444">{amro_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect1883"
@@ -12553,6 +12724,7 @@
    id="SVGID_220_"
    x="168.09798"
    y="301.86581">{afro_2}</text>
+
 
 <rect
    style="fill:none"
@@ -12569,6 +12741,7 @@
    x="168.09798"
    y="329.17932">{emro_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect1901"
@@ -12583,6 +12756,7 @@
    id="SVGID_222_"
    x="212.31219"
    y="287.72134">2003</text>
+
 
 <rect
    style="fill:none"
@@ -12599,6 +12773,7 @@
    x="212.28743"
    y="315.64444">{amro_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect1919"
@@ -12613,6 +12788,7 @@
    id="SVGID_224_"
    x="212.28743"
    y="301.86581">{afro_3}</text>
+
 
 <rect
    style="fill:none"
@@ -12629,6 +12805,7 @@
    x="212.28743"
    y="329.17932">{emro_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect1937"
@@ -12643,6 +12820,7 @@
    id="SVGID_226_"
    x="256.40829"
    y="287.72134">2004</text>
+
 
 <rect
    style="fill:none"
@@ -12659,6 +12837,7 @@
    x="256.47687"
    y="315.64444">{amro_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect1955"
@@ -12673,6 +12852,7 @@
    id="SVGID_228_"
    x="256.47687"
    y="301.86581">{afro_4}</text>
+
 
 <rect
    style="fill:none"
@@ -12689,6 +12869,7 @@
    x="256.47687"
    y="329.17932">{emro_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect1973"
@@ -12703,6 +12884,7 @@
    id="SVGID_230_"
    x="300.61713"
    y="287.72134">2005</text>
+
 
 <rect
    style="fill:none"
@@ -12719,6 +12901,7 @@
    x="300.56378"
    y="315.64444">{amro_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect1991"
@@ -12733,6 +12916,7 @@
    id="SVGID_232_"
    x="300.56378"
    y="301.86581">{afro_5}</text>
+
 
 <rect
    style="fill:none"
@@ -12749,6 +12933,7 @@
    x="300.56378"
    y="329.17932">{emro_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect2009"
@@ -12763,6 +12948,7 @@
    id="SVGID_234_"
    x="347.24673"
    y="287.72134">2006</text>
+
 
 <rect
    style="fill:none"
@@ -12779,6 +12965,7 @@
    x="344.75323"
    y="315.64444">{amro_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2027"
@@ -12793,6 +12980,7 @@
    id="SVGID_236_"
    x="344.75323"
    y="301.86581">{afro_6}</text>
+
 
 <rect
    style="fill:none"
@@ -12809,6 +12997,7 @@
    x="344.75323"
    y="329.17932">{emro_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2045"
@@ -12823,6 +13012,7 @@
    id="SVGID_238_"
    x="388.98837"
    y="287.72134">2007</text>
+
 
 <rect
    style="fill:none"
@@ -12839,6 +13029,7 @@
    x="388.94266"
    y="315.64444">{amro_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect2063"
@@ -12853,6 +13044,7 @@
    id="SVGID_240_"
    x="388.94266"
    y="301.86581">{afro_7}</text>
+
 
 <rect
    style="fill:none"
@@ -12869,6 +13061,7 @@
    x="388.94266"
    y="329.17932">{emro_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect2081"
@@ -12883,6 +13076,7 @@
    id="SVGID_242_"
    x="433.11115"
    y="287.72134">2008</text>
+
 
 <rect
    style="fill:none"
@@ -12899,6 +13093,7 @@
    x="433.13211"
    y="315.64444">{amro_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2099"
@@ -12913,6 +13108,7 @@
    id="SVGID_244_"
    x="433.13211"
    y="301.86581">{afro_8}</text>
+
 
 <rect
    style="fill:none"
@@ -12929,6 +13125,7 @@
    x="433.13211"
    y="329.17932">{emro_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2117"
@@ -12943,6 +13140,7 @@
    id="SVGID_246_"
    x="477.30823"
    y="287.72134">2009</text>
+
 
 <rect
    style="fill:none"
@@ -12959,6 +13157,7 @@
    x="477.32156"
    y="315.64444">{amro_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect2135"
@@ -12973,6 +13172,7 @@
    id="SVGID_248_"
    x="477.32156"
    y="301.86581">{afro_9}</text>
+
 
 <rect
    style="fill:none"
@@ -12989,6 +13189,7 @@
    x="477.32156"
    y="329.17932">{emro_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect2153"
@@ -13003,6 +13204,7 @@
    id="SVGID_250_"
    x="168.09798"
    y="342.95987">{euro_2}</text>
+
 
 <rect
    style="fill:none"
@@ -13019,6 +13221,7 @@
    x="212.28743"
    y="342.95987">{euro_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect2171"
@@ -13033,6 +13236,7 @@
    id="SVGID_252_"
    x="256.47687"
    y="342.95987">{euro_4}</text>
+
 
 <rect
    style="fill:none"
@@ -13049,6 +13253,7 @@
    x="300.56378"
    y="342.95987">{euro_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect2189"
@@ -13063,6 +13268,7 @@
    id="SVGID_254_"
    x="344.75323"
    y="342.95987">{euro_6}</text>
+
 
 <rect
    style="fill:none"
@@ -13079,6 +13285,7 @@
    x="388.94266"
    y="342.95987">{euro_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect2207"
@@ -13093,6 +13300,7 @@
    id="SVGID_256_"
    x="433.13211"
    y="342.95987">{euro_8}</text>
+
 
 <rect
    style="fill:none"
@@ -13109,6 +13317,7 @@
    x="477.32156"
    y="342.95987">{euro_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect2225"
@@ -13123,6 +13332,7 @@
    id="SVGID_258_"
    x="168.09798"
    y="356.59668">{searo_2}</text>
+
 
 <rect
    style="fill:none"
@@ -13139,6 +13349,7 @@
    x="212.28743"
    y="356.59668">{searo_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect2243"
@@ -13153,6 +13364,7 @@
    id="SVGID_260_"
    x="256.47687"
    y="356.59668">{searo_4}</text>
+
 
 <rect
    style="fill:none"
@@ -13169,6 +13381,7 @@
    x="300.56378"
    y="356.59668">{searo_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect2261"
@@ -13183,6 +13396,7 @@
    id="SVGID_262_"
    x="344.75323"
    y="356.59668">{searo_6}</text>
+
 
 <rect
    style="fill:none"
@@ -13199,6 +13413,7 @@
    x="388.94266"
    y="356.59668">{searo_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect2279"
@@ -13214,6 +13429,7 @@
    x="433.13211"
    y="356.59668">{searo_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2288"
@@ -13228,6 +13444,7 @@
    id="SVGID_265_"
    x="477.32156"
    y="356.59668">{searo_9}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:10"
@@ -13334,6 +13551,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2314"
@@ -13381,6 +13599,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,309.5508)"
    id="SVGID_267_">To AFRO Countries</text>
+
 
 
 
@@ -13434,6 +13653,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2332"
@@ -13484,6 +13704,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -13500,6 +13721,7 @@
    x="168.09798"
    y="370.76483">{wpro_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect2356"
@@ -13514,6 +13736,7 @@
    id="SVGID_271_"
    x="212.28743"
    y="370.76483">{wpro_3}</text>
+
 
 <rect
    style="fill:none"
@@ -13530,6 +13753,7 @@
    x="256.47687"
    y="370.76483">{wpro_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect2374"
@@ -13544,6 +13768,7 @@
    id="SVGID_273_"
    x="300.56378"
    y="370.76483">{wpro_5}</text>
+
 
 <rect
    style="fill:none"
@@ -13560,6 +13785,7 @@
    x="344.75323"
    y="370.76483">{wpro_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2392"
@@ -13574,6 +13800,7 @@
    id="SVGID_275_"
    x="388.94266"
    y="370.76483">{wpro_7}</text>
+
 
 <rect
    style="fill:none"
@@ -13590,6 +13817,7 @@
    x="433.13211"
    y="370.76483">{wpro_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2410"
@@ -13604,6 +13832,7 @@
    id="SVGID_277_"
    x="477.32156"
    y="370.76483">{wpro_9}</text>
+
 
 <switch
    id="switch2413"
@@ -13654,6 +13883,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -13670,6 +13900,7 @@
    x="168.09798"
    y="385.08078">{gmcr_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect2437"
@@ -13684,6 +13915,7 @@
    id="SVGID_280_"
    x="212.28743"
    y="385.08078">{gmcr_3}</text>
+
 
 <rect
    style="fill:none"
@@ -13700,6 +13932,7 @@
    x="256.47687"
    y="385.08078">{gmcr_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect2455"
@@ -13714,6 +13947,7 @@
    id="SVGID_282_"
    x="300.56378"
    y="385.08078">{gmcr_5}</text>
+
 
 <rect
    style="fill:none"
@@ -13730,6 +13964,7 @@
    x="344.75323"
    y="385.08078">{gmcr_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2473"
@@ -13744,6 +13979,7 @@
    id="SVGID_284_"
    x="388.94266"
    y="385.08078">{gmcr_7}</text>
+
 
 <rect
    style="fill:none"
@@ -13760,6 +13996,7 @@
    x="433.13211"
    y="385.08078">{gmcr_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2491"
@@ -13774,6 +14011,7 @@
    id="SVGID_286_"
    x="477.32156"
    y="385.08078">{gmcr_9}</text>
+
 
 <switch
    id="switch2494"
@@ -13824,6 +14062,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -13840,6 +14079,7 @@
    x="168.09798"
    y="398.80701">{othr_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect2518"
@@ -13854,6 +14094,7 @@
    id="SVGID_289_"
    x="212.28743"
    y="398.80701">{othr_3}</text>
+
 
 <rect
    style="fill:none"
@@ -13870,6 +14111,7 @@
    x="256.47687"
    y="398.80701">{othr_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect2536"
@@ -13884,6 +14126,7 @@
    id="SVGID_291_"
    x="300.56378"
    y="398.80701">{othr_5}</text>
+
 
 <rect
    style="fill:none"
@@ -13900,6 +14143,7 @@
    x="344.75323"
    y="398.80701">{othr_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2554"
@@ -13914,6 +14158,7 @@
    id="SVGID_293_"
    x="388.94266"
    y="398.80701">{othr_7}</text>
+
 
 <rect
    style="fill:none"
@@ -13930,6 +14175,7 @@
    x="433.13211"
    y="398.80701">{othr_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2572"
@@ -13944,6 +14190,7 @@
    id="SVGID_295_"
    x="477.32156"
    y="398.80701">{othr_9}</text>
+
 
 <switch
    id="switch2575"
@@ -13991,6 +14238,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,408.2832)"
    id="SVGID_296_">Others</text>
+
 
 
 
@@ -14044,6 +14292,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2593"
@@ -14091,6 +14340,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,351.1416)"
    id="SVGID_298_">To EURO Countries</text>
+
 
 
 
@@ -14253,6 +14503,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2645"
@@ -14305,6 +14556,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -14321,6 +14573,7 @@
    x="168.20085"
    y="441.52502">2002</text>
 
+
 <rect
    style="fill:none"
    id="rect2669"
@@ -14335,6 +14588,7 @@
    id="SVGID_302_"
    x="168.09798"
    y="469.44821">{rf_2}</text>
+
 
 <rect
    style="fill:none"
@@ -14351,6 +14605,7 @@
    x="168.09798"
    y="455.66949">{mdg_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect2687"
@@ -14365,6 +14620,7 @@
    id="SVGID_304_"
    x="168.09798"
    y="482.983">{oth_2}</text>
+
 
 <rect
    style="fill:none"
@@ -14381,6 +14637,7 @@
    x="212.31219"
    y="441.52502">2003</text>
 
+
 <rect
    style="fill:none"
    id="rect2705"
@@ -14395,6 +14652,7 @@
    id="SVGID_306_"
    x="212.28743"
    y="469.44821">{rf_3}</text>
+
 
 <rect
    style="fill:none"
@@ -14411,6 +14669,7 @@
    x="212.28743"
    y="455.66949">{mdg_3}</text>
 
+
 <rect
    style="fill:none"
    id="rect2723"
@@ -14425,6 +14684,7 @@
    id="SVGID_308_"
    x="212.28743"
    y="482.983">{oth_3}</text>
+
 
 <rect
    style="fill:none"
@@ -14441,6 +14701,7 @@
    x="256.35703"
    y="441.52502">2004</text>
 
+
 <rect
    style="fill:none"
    id="rect2741"
@@ -14455,6 +14716,7 @@
    id="SVGID_310_"
    x="256.42563"
    y="469.44821">{rf_4}</text>
+
 
 <rect
    style="fill:none"
@@ -14471,6 +14733,7 @@
    x="256.42563"
    y="455.66949">{mdg_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect2759"
@@ -14485,6 +14748,7 @@
    id="SVGID_312_"
    x="256.42563"
    y="482.983">{oth_4}</text>
+
 
 <rect
    style="fill:none"
@@ -14501,6 +14765,7 @@
    x="300.61713"
    y="441.52502">2005</text>
 
+
 <rect
    style="fill:none"
    id="rect2777"
@@ -14515,6 +14780,7 @@
    id="SVGID_314_"
    x="300.56378"
    y="469.44821">{rf_5}</text>
+
 
 <rect
    style="fill:none"
@@ -14531,6 +14797,7 @@
    x="300.56378"
    y="455.66949">{mdg_5}</text>
 
+
 <rect
    style="fill:none"
    id="rect2795"
@@ -14545,6 +14812,7 @@
    id="SVGID_316_"
    x="300.56378"
    y="482.983">{oth_5}</text>
+
 
 <rect
    style="fill:none"
@@ -14561,6 +14829,7 @@
    x="344.71133"
    y="441.52502">2006</text>
 
+
 <rect
    style="fill:none"
    id="rect2813"
@@ -14575,6 +14844,7 @@
    id="SVGID_318_"
    x="344.75323"
    y="469.44821">{rf_6}</text>
+
 
 <rect
    style="fill:none"
@@ -14591,6 +14861,7 @@
    x="344.75323"
    y="455.66949">{mdg_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2831"
@@ -14605,6 +14876,7 @@
    id="SVGID_320_"
    x="344.75323"
    y="482.983">{oth_6}</text>
+
 
 <rect
    style="fill:none"
@@ -14621,6 +14893,7 @@
    x="388.98837"
    y="441.52502">2007</text>
 
+
 <rect
    style="fill:none"
    id="rect2849"
@@ -14635,6 +14908,7 @@
    id="SVGID_322_"
    x="388.94266"
    y="469.44821">{rf_7}</text>
+
 
 <rect
    style="fill:none"
@@ -14651,6 +14925,7 @@
    x="388.94266"
    y="455.66949">{mdg_7}</text>
 
+
 <rect
    style="fill:none"
    id="rect2867"
@@ -14665,6 +14940,7 @@
    id="SVGID_324_"
    x="388.94266"
    y="482.983">{oth_7}</text>
+
 
 <rect
    style="fill:none"
@@ -14681,6 +14957,7 @@
    x="433.11115"
    y="441.52502">2008</text>
 
+
 <rect
    style="fill:none"
    id="rect2885"
@@ -14695,6 +14972,7 @@
    id="SVGID_326_"
    x="433.13211"
    y="469.44821">{rf_8}</text>
+
 
 <rect
    style="fill:none"
@@ -14711,6 +14989,7 @@
    x="433.13211"
    y="455.66949">{mdg_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect2903"
@@ -14725,6 +15004,7 @@
    id="SVGID_328_"
    x="433.13211"
    y="482.983">{oth_8}</text>
+
 
 <rect
    style="fill:none"
@@ -14741,6 +15021,7 @@
    x="477.30823"
    y="441.52502">2009</text>
 
+
 <rect
    style="fill:none"
    id="rect2921"
@@ -14755,6 +15036,7 @@
    id="SVGID_330_"
    x="477.32156"
    y="469.44821">{rf_9}</text>
+
 
 <rect
    style="fill:none"
@@ -14771,6 +15053,7 @@
    x="477.32156"
    y="455.66949">{mdg_9}</text>
 
+
 <rect
    style="fill:none"
    id="rect2939"
@@ -14785,6 +15068,7 @@
    id="SVGID_332_"
    x="477.32156"
    y="482.983">{oth_9}</text>
+
 
 <rect
    style="fill:none"
@@ -14801,6 +15085,7 @@
    x="168.09798"
    y="496.76355">{uns_2}</text>
 
+
 <rect
    style="fill:none"
    id="rect2957"
@@ -14815,6 +15100,7 @@
    id="SVGID_334_"
    x="212.28743"
    y="496.76355">{uns_3}</text>
+
 
 <rect
    style="fill:none"
@@ -14831,6 +15117,7 @@
    x="256.42563"
    y="496.76355">{uns_4}</text>
 
+
 <rect
    style="fill:none"
    id="rect2975"
@@ -14845,6 +15132,7 @@
    id="SVGID_336_"
    x="300.56378"
    y="496.76355">{uns_5}</text>
+
 
 <rect
    style="fill:none"
@@ -14861,6 +15149,7 @@
    x="344.75323"
    y="496.76355">{uns_6}</text>
 
+
 <rect
    style="fill:none"
    id="rect2993"
@@ -14875,6 +15164,7 @@
    id="SVGID_338_"
    x="388.94266"
    y="496.76355">{uns_7}</text>
+
 
 <rect
    style="fill:none"
@@ -14891,6 +15181,7 @@
    x="433.13211"
    y="496.76355">{uns_8}</text>
 
+
 <rect
    style="fill:none"
    id="rect3011"
@@ -14905,6 +15196,7 @@
    id="SVGID_340_"
    x="477.32156"
    y="496.76355">{uns_9}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10"
@@ -14987,6 +15279,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch3031"
@@ -15034,6 +15327,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,467.2422)"
    id="SVGID_342_">MDG6: HIV/AIDS, Malaria &amp; other Diseases</text>
+
 
 
 
@@ -15087,6 +15381,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -15102,6 +15397,7 @@
    id="SVGID_344_"
    x="24.757294"
    y="453.31357">Reproductive Health &amp; Family Planning (RH/FP)</text>
+
 
 <switch
    id="switch3058"
@@ -15152,6 +15448,7 @@
 
 
 
+
 				</g>
 			</switch><line
    style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002"
@@ -15198,9 +15495,9 @@
    style="fill:none;stroke:#000000;stroke-width:0.24969999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.5005" /><line
    i:knockout="Off"
    stroke-miterlimit="10"
-   x1="569.95001"
+   x1="631.40002"
    y1="399.29999"
-   x2="764.14996"
+   x2="825.59998"
    y2="399.29999"
    id="line3083"
    style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><line
@@ -15267,544 +15564,63 @@
    x2="825.59998"
    y2="384.60001"
    id="line3099"
-   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><g
-   transform="matrix(1,0,0,1.889657,434.9,-131.53338)"
-   id="g22574-6-03"><defs
-     id="defs22576-0-9"><rect
-       id="SVGID_17_-4-8"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6"><use
-       xlink:href="#SVGID_17_-4-8"
-       overflow="visible"
-       id="use5452-51"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b2"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="634.20001"
-   y="344.5"
+   style="fill:none;stroke:#000000;stroke-width:0.32049999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.6423" /><rect
+   x="634.90002"
+   y="288.11716"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="34.5"
-   id="rect3121"
+   width="15.1"
+   height="111.03058"
+   id="g2_b2"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="634.90002"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global2"
    style="fill:#cf3d96" /><rect
-   x="634.20001"
-   y="362.20001"
+   x="634.90002"
+   y="309.44412"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="24.200001"
-   id="rect3123"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro2"
    style="fill:#f1b821" /><rect
-   x="634.20001"
-   y="364.20001"
+   x="634.90002"
+   y="323.94357"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="25.700001"
-   id="rect3125"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo2"
    style="fill:#62a73b" /><rect
-   x="634.20001"
-   y="365.20001"
+   x="634.90002"
+   y="335.50116"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="34.299999"
-   id="rect3127"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro2"
    style="fill:#c53254" /><rect
-   x="634.20001"
-   y="366.89999"
+   x="634.90002"
+   y="350.54614"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="34.200001"
-   id="rect3129"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro2"
    style="fill:#79317f" /><rect
-   x="634.20001"
-   y="369.70001"
+   x="634.90002"
+   y="365.50217"
    i:knockout="Off"
-   clip-path="url(#SVGID_347_)"
-   width="16.700001"
-   height="31.200001"
-   id="rect3131"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro2"
    style="fill:#009983" /><rect
    x="634.90002"
-   y="381.70001"
+   y="381.44772"
    i:knockout="Off"
    width="15.1"
    height="17.700001"
    id="g2_afro2"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,484.1,-131.53338)"
-   id="g22574-6-03-3"><defs
-     id="defs22576-0-9-9"><rect
-       id="SVGID_17_-4-8-0"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-6"><use
-       xlink:href="#SVGID_17_-4-8-0"
-       overflow="visible"
-       id="use5452-51-3"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-2)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b4"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="683.29999"
-   y="320.10001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="58.900002"
-   id="rect3191"
-   style="fill:#cf3d96" /><rect
-   x="683.29999"
-   y="347.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="38.799999"
-   id="rect3193"
-   style="fill:#f1b821" /><rect
-   x="683.29999"
-   y="353.29999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="36.599998"
-   id="rect3195"
-   style="fill:#62a73b" /><rect
-   x="683.29999"
-   y="356.39999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="43.099998"
-   id="rect3197"
-   style="fill:#c53254" /><rect
-   x="683.29999"
-   y="356.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="44.400002"
-   id="rect3199"
-   style="fill:#79317f" /><rect
-   x="683.29999"
-   y="365.20001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="16.700001"
-   height="35.799999"
-   id="rect3201"
-   style="fill:#009983" /><rect
-   x="683.29999"
-   y="372.29999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_351_)"
-   width="15.1"
-   height="28.700001"
-   id="g2_afro4"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,508.7,-131.53338)"
-   id="g22574-6-03-7"><defs
-     id="defs22576-0-9-96"><rect
-       id="SVGID_17_-4-8-8"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-0"><use
-       xlink:href="#SVGID_17_-4-8-8"
-       overflow="visible"
-       id="use5452-51-4"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-6)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b5"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="707.5"
-   y="309.89999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="58.700001"
-   id="rect3225"
-   style="fill:#cf3d96" /><rect
-   x="707.5"
-   y="345.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="18.6"
-   id="rect3227"
-   style="fill:#f1b821" /><rect
-   x="707.5"
-   y="351.29999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="26.9"
-   id="rect3229"
-   style="fill:#62a73b" /><rect
-   x="707.5"
-   y="355.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="32.200001"
-   id="rect3231"
-   style="fill:#c53254" /><rect
-   x="707.5"
-   y="355.89999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="38.599998"
-   id="rect3233"
-   style="fill:#79317f" /><rect
-   x="707.5"
-   y="365.79999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="16.700001"
-   height="35.200001"
-   id="rect3235"
-   style="fill:#009983" /><rect
-   x="707.5"
-   y="374"
-   i:knockout="Off"
-   clip-path="url(#SVGID_353_)"
-   width="15.1"
-   height="27"
-   id="g2_afro5"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,533.2,-131.53338)"
-   id="g22574-6-03-8"><defs
-     id="defs22576-0-9-5"><rect
-       id="SVGID_17_-4-8-4"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-9"><use
-       xlink:href="#SVGID_17_-4-8-4"
-       overflow="visible"
-       id="use5452-51-0"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-0)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b6"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="732.59998"
-   y="297.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="58.900002"
-   id="rect3259"
-   style="fill:#cf3d96" /><rect
-   x="732.59998"
-   y="328.79999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="27.299999"
-   id="rect3261"
-   style="fill:#f1b821" /><rect
-   x="732.59998"
-   y="336.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="22.9"
-   id="rect3263"
-   style="fill:#62a73b" /><rect
-   x="732.59998"
-   y="341.29999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="27.9"
-   id="rect3265"
-   style="fill:#c53254" /><rect
-   x="732.59998"
-   y="341.79999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="36.700001"
-   id="rect3267"
-   style="fill:#79317f" /><rect
-   x="732.59998"
-   y="352"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="16.700001"
-   height="26.4"
-   id="rect3269"
-   style="fill:#009983" /><rect
-   x="732.59998"
-   y="362.20001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_355_)"
-   width="15.1"
-   height="38.900002"
-   id="g2_afro6"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,557.8,-131.53338)"
-   id="g22574-6-03-9"><defs
-     id="defs22576-0-9-1"><rect
-       id="SVGID_17_-4-8-7"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-2"><use
-       xlink:href="#SVGID_17_-4-8-7"
-       overflow="visible"
-       id="use5452-51-09"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-23)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b7"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="757.09998"
-   y="317.89999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="16.700001"
-   height="39.900002"
-   id="rect3293"
-   style="fill:#cf3d96" /><rect
-   x="757.09998"
-   y="338.79999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="16.700001"
-   height="26.299999"
-   id="rect3295"
-   style="fill:#f1b821" /><rect
-   x="757.09998"
-   y="343"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="16.700001"
-   height="25.700001"
-   id="rect3297"
-   style="fill:#62a73b" /><rect
-   x="757.09998"
-   y="347.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="16.700001"
-   height="32.200001"
-   id="rect3299"
-   style="fill:#79317f" /><rect
-   x="757.09998"
-   y="357"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="16.700001"
-   height="22.700001"
-   id="rect3301"
-   style="fill:#009983" /><rect
-   x="757.09998"
-   y="365.5"
-   i:knockout="Off"
-   clip-path="url(#SVGID_357_)"
-   width="15.1"
-   height="35.5"
-   id="g2_afro7"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,582.35,-131.53338)"
-   id="g22574-6-03-35"><defs
-     id="defs22576-0-9-8"><rect
-       id="SVGID_17_-4-8-1"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-61"><use
-       xlink:href="#SVGID_17_-4-8-1"
-       overflow="visible"
-       id="use5452-51-5"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-5)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b8"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="781.79999"
-   y="311"
-   i:knockout="Off"
-   clip-path="url(#SVGID_359_)"
-   width="16.700001"
-   height="56.299999"
-   id="rect3325"
-   style="fill:#cf3d96" /><rect
-   x="781.79999"
-   y="340.5"
-   i:knockout="Off"
-   clip-path="url(#SVGID_359_)"
-   width="16.700001"
-   height="19.6"
-   id="rect3327"
-   style="fill:#f1b821" /><rect
-   x="781.79999"
-   y="345.89999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_359_)"
-   width="16.700001"
-   height="17.799999"
-   id="rect3329"
-   style="fill:#62a73b" /><rect
-   x="781.79999"
-   y="353"
-   i:knockout="Off"
-   clip-path="url(#SVGID_359_)"
-   width="16.700001"
-   height="21.799999"
-   id="rect3331"
-   style="fill:#79317f" /><rect
-   x="781.79999"
-   y="360.60001"
-   i:knockout="Off"
-   clip-path=""
-   width="16.700001"
-   height="32.599998"
-   id="rect3333"
-   style="fill:#009983" /><rect
-   x="781.79999"
-   y="367.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_359_)"
-   width="15.1"
-   height="33.5"
-   id="g2_afro8"
-   style="fill:#df7627" /><g
-   transform="matrix(1,0,0,1.889657,607,-131.53338)"
-   id="g22574-6-03-1"><defs
-     id="defs22576-0-9-98"><rect
-       id="SVGID_17_-4-8-3"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-90"><use
-       xlink:href="#SVGID_17_-4-8-3"
-       overflow="visible"
-       id="use5452-51-52"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-3)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b9"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   x="806.40002"
-   y="332.39999"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="46.400002"
-   id="rect3357"
-   style="fill:#cf3d96" /><rect
-   x="806.40002"
-   y="359.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="26.6"
-   id="rect3359"
-   style="fill:#f1b821" /><rect
-   x="806.40002"
-   y="364.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="25"
-   id="rect3361"
-   style="fill:#62a73b" /><rect
-   x="806.40002"
-   y="367.60001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="31.700001"
-   id="rect3363"
-   style="fill:#c53254" /><rect
-   x="806.40002"
-   y="368.10001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="32.700001"
-   id="rect3365"
-   style="fill:#79317f" /><rect
-   x="806.40002"
-   y="377.20001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="16.700001"
-   height="23.6"
-   id="rect3367"
-   style="fill:#009983" /><rect
-   x="806.40002"
-   y="381.70001"
-   i:knockout="Off"
-   clip-path="url(#SVGID_361_)"
-   width="15.1"
-   height="19.1"
-   id="g2_afro9"
-   style="fill:#df7627"
-   transform="translate(0.2999876,0)" /><switch
+   style="fill:#df7627" /><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
    id="switch3371"
@@ -15841,6 +15657,7 @@
    transform="translate(661.7207,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2003</text>
+
 
 
 
@@ -15884,6 +15701,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -15921,6 +15739,7 @@
    transform="translate(710.875,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2005</text>
+
 
 
 
@@ -15964,6 +15783,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16001,6 +15821,7 @@
    transform="translate(760.0312,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2007</text>
+
 
 
 
@@ -16044,6 +15865,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16084,6 +15906,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16121,6 +15944,7 @@
    transform="translate(637.1426,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2002</text>
+
 
 
 
@@ -16166,6 +15990,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16205,6 +16030,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Univers-CondensedLight"
    x="6.7763672"
    y="0">{g2_t2}</text>
+
 
 
 
@@ -16250,6 +16076,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16289,6 +16116,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Univers-CondensedLight"
    x="10.400391"
    y="0">{g2_t4}</text>
+
 
 
 
@@ -16334,6 +16162,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16373,6 +16202,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Univers-CondensedLight"
    x="10.602539"
    y="0">{g2_t7}</text>
+
 
 
 
@@ -16418,6 +16248,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16457,6 +16288,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Univers-CondensedLight"
    x="10.620117"
    y="0">{g2_t6}</text>
+
 
 
 
@@ -16502,6 +16334,7 @@
 
 
 
+
 				</switch><switch
    id="switch3712"
    i:objectType="pointText"
@@ -16539,6 +16372,7 @@
 
 
 
+
 			</switch><switch
    id="switch3717"
    i:objectType="pointText"
@@ -16573,6 +16407,7 @@
    font-size="5"
    transform="translate(32.0601,566.6855)"
    id="SVGID_388_"> </text>
+
 
 
 
@@ -16721,6 +16556,7 @@
 
 
 
+
 			</switch><switch
    id="switch3727"
    i:objectType="pointText"
@@ -16755,6 +16591,7 @@
    font-size="5"
    transform="translate(472.7148,566.6855)"
    id="SVGID_390_">DEFINITION</text>
+
 
 
 
@@ -16795,6 +16632,7 @@
 
 
 
+
 			</switch><switch
    id="switch3737"
    i:objectType="pointText"
@@ -16832,6 +16670,7 @@
 
 
 
+
 			</switch><switch
    id="switch3742"
    i:objectType="pointText"
@@ -16866,6 +16705,7 @@
    font-size="5"
    transform="translate(500.7754,566.6855)"
    id="SVGID_393_"> </text>
+
 
 
 
@@ -17069,6 +16909,7 @@
      font-size="5"
      y="0"
      x="292.29999">availability of the </tspan></text>
+
 
 
 
@@ -17351,6 +17192,7 @@
      font-size="5"
      y="0"
      x="292.89999">early commitments are presented as three-year moving averages in order to smooth trends, and in constant 2008 US$ to ensure comparability over years. ODA for health is presented in US$ per capita per year and according to allocation (i.e. policy purpose). Policy purposes used here are </tspan></text>
+
 
 
 
@@ -17816,6 +17658,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch3918"
@@ -17851,6 +17694,7 @@
    font-size="5"
    transform="translate(382.6602,579.6855)"
    id="SVGID_397_">ACRONYM</text>
+
 
 
 
@@ -17891,6 +17735,7 @@
 
 
 
+
 			</switch><switch
    id="switch3928"
    i:objectType="pointText"
@@ -17928,6 +17773,7 @@
 
 
 
+
 			</switch><switch
    id="switch3933"
    i:objectType="pointText"
@@ -17962,6 +17808,7 @@
    font-size="5"
    transform="translate(408.2197,579.6855)"
    id="SVGID_400_"> </text>
+
 
 
 
@@ -18216,6 +18063,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4007"
@@ -18356,6 +18204,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4044"
@@ -18412,6 +18261,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:#d4effc"
@@ -18454,6 +18304,7 @@
    font-size="16"
    transform="translate(787.9551,502.5879)"
    id="SVGID_404_">55%</text>
+
 
 
 
@@ -18686,6 +18537,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4115"
@@ -18747,6 +18599,7 @@
      font-size="6"
      y="0"
      x="24.799999">%</tspan></text>
+
 
 
 
@@ -18828,6 +18681,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4149"
@@ -18892,6 +18746,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4164"
@@ -18953,6 +18808,7 @@
      font-size="6"
      y="0"
      x="19.299999">%</tspan></text>
+
 
 
 
@@ -19034,6 +18890,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4198"
@@ -19109,6 +18966,7 @@
      font-size="6"
      y="0"
      x="26.4">%</tspan></text>
+
 
 
 
@@ -19204,6 +19062,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4240"
@@ -19282,6 +19141,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4259"
@@ -19332,6 +19192,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4270"
@@ -19367,6 +19228,7 @@
    font-size="6"
    transform="translate(623.0166,459.2979)"
    id="SVGID_416_">L</text>
+
 
 
 
@@ -19419,6 +19281,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4286"
@@ -19466,6 +19329,7 @@
      font-size="6"
      y="0"
      x="6.5">%</tspan></text>
+
 
 
 
@@ -22849,6 +22713,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -22878,6 +22743,7 @@ d7/6+5f/D5sErPQ=
    transform="translate(783.4883,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Univers-Condensed">2009</text>
+
 
 </g></g></switch><line
    i:knockout="Off"
@@ -22957,6 +22823,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
    id="switch788"
    i:objectType="pointText"
@@ -22992,6 +22859,7 @@ d7/6+5f/D5sErPQ=
    font-size="6"
    transform="translate(709.8164,120.0459)"
    id="SVGID_116_">322.9</text>
+
 
 
 
@@ -23033,6 +22901,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
    id="switch754"
    i:objectType="pointText"
@@ -23068,6 +22937,7 @@ d7/6+5f/D5sErPQ=
    font-size="6"
    transform="translate(758.8223,119.4795)"
    id="SVGID_112_">286.7</text>
+
 
 
 
@@ -23109,6 +22979,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
    id="switch822"
    i:objectType="pointText"
@@ -23147,12 +23018,14 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><text
    id="SVGID_122_"
    font-size="6"
    style="font-size:6px;fill:#ffffff;font-family:Univers-CondensedLight"
    x="633.99823"
    y="118.6289">220.5</text>
+
 
 <switch
    id="switch720"
@@ -23189,6 +23062,7 @@ d7/6+5f/D5sErPQ=
    font-size="6"
    transform="translate(807.2949,123.5898)"
    id="SVGID_108_">242.6</text>
+
 
 
 
@@ -23245,6 +23119,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</switch></g><g
    id="g14296"><rect
      x="498.20694"
@@ -23275,7 +23150,7 @@ d7/6+5f/D5sErPQ=
      width="9.6999998"
      height="4.3000002"
      id="rect909"
-     style="fill:#c1b400" /><rect
+     style="fill:#62a73b;fill-opacity:1" /><rect
      x="502.39999"
      y="356.10001"
      i:knockout="Off"
@@ -23346,6 +23221,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
      transform="translate(0,-12)"
      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -23379,6 +23255,7 @@ d7/6+5f/D5sErPQ=
    transform="translate(514.7227,372.4297)"
    font-size="5.5"
    style="font-size:5px;font-family:Univers-CondensedLight">To EURO Countries</text>
+
 
 
 
@@ -23418,6 +23295,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
      transform="translate(0,-12)"
      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -23451,6 +23329,7 @@ d7/6+5f/D5sErPQ=
    transform="translate(514.8848,387.8066)"
    font-size="5.5"
    style="font-size:5px;font-family:Univers-CondensedLight">To WPRO Countries</text>
+
 
 
 
@@ -23490,6 +23369,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
      transform="translate(0,-12)"
      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -23523,6 +23403,7 @@ d7/6+5f/D5sErPQ=
    transform="translate(514.7227,357.0615)"
    font-size="5.5"
    style="font-size:5px;font-family:Univers-CondensedLight">To AMRO Countries</text>
+
 
 
 
@@ -23562,6 +23443,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><flowRoot
      transform="translate(6.0643788,-9.2749641)"
      style="font-size:4px;font-style:normal;font-weight:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Univers-CondensedLight;-inkscape-font-specification:Univers-CondensedLight"
@@ -23575,78 +23457,396 @@ d7/6+5f/D5sErPQ=
          width="78.480453"
          id="rect14255" /></flowRegion><flowPara
        style="font-size:5px;font-family:Univers-CondensedLight;-inkscape-font-specification:Univers-CondensedLight"
-       id="flowPara14257">Global &amp; Multi-Country Grants (Incl UN)</flowPara></flowRoot></g><g
-   transform="matrix(1,0,0,1.889657,459.5,-131.5936)"
-   id="g22574-6-03-4"><defs
-     id="defs22576-0-9-0"><rect
-       id="SVGID_17_-4-8-2"
-       x="200"
-       y="200.10001"
-       width="15.1"
-       height="200.90001" /></defs><clipPath
-     id="clipPath5450-6-4"><use
-       xlink:href="#SVGID_17_-4-8-2"
-       overflow="visible"
-       id="use5452-51-7"
-       style="overflow:visible"
-       x="0"
-       y="0"
-       width="595.29999"
-       height="841.90002" /></clipPath><path
-     i:knockout="Off"
-     clip-path="url(#SVGID_143_-7-71-1)"
-     d="m 215.1,281 v -58 c 0,0 0,-3.7 -4.9,-3.7 h -1.2 -4 -5 V 281"
-     id="g2_b3"
-     inkscape:connector-curvature="0"
-     style="fill:#0093d5" /></g><rect
-   style="fill:#cf3d96"
-   id="rect3157"
-   height="46.099998"
-   width="15.1"
+       id="flowPara14257">Global &amp; Multi-Country Grants (Incl UN)</flowPara></flowRoot></g><rect
+   x="659.5"
+   y="288.11716"
    i:knockout="Off"
-   y="353.30002"
-   x="659.5" /><rect
-   style="fill:#f1b821"
-   id="rect3159"
-   height="31.4"
    width="15.1"
+   height="111.03058"
+   id="g2_b3"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="659.5"
+   y="296.90692"
    i:knockout="Off"
-   y="355.10001"
-   x="659.5" /><rect
-   style="fill:#62a73b"
-   id="rect3161"
-   height="33.200001"
    width="15.1"
+   height="81.780579"
+   id="g2_global3"
+   style="fill:#cf3d96" /><rect
+   x="659.5"
+   y="309.44412"
    i:knockout="Off"
-   y="356.79999"
-   x="659.5" /><rect
-   style="fill:#c53254"
-   id="rect3163"
-   height="38.799999"
    width="15.1"
+   height="76.643402"
+   id="g2_wpro3"
+   style="fill:#f1b821" /><rect
+   x="659.5"
+   y="323.94357"
    i:knockout="Off"
-   y="360.60001"
-   x="659.5" /><rect
-   style="fill:#79317f"
-   id="rect3165"
-   height="39.799999"
    width="15.1"
+   height="65.643936"
+   id="g2_searo3"
+   style="fill:#62a73b" /><rect
+   x="659.5"
+   y="335.50116"
    i:knockout="Off"
-   y="359.60001"
-   x="659.5" /><rect
-   style="fill:#009983"
-   id="rect3167"
-   height="35.799999"
    width="15.1"
-   clip-path=""
+   height="63.646564"
+   id="g2_euro3"
+   style="fill:#c53254" /><rect
+   x="659.5"
+   y="350.54614"
    i:knockout="Off"
-   y="363.60001"
-   x="659.5" /><rect
-   style="fill:#df7627"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro3"
+   style="fill:#79317f" /><rect
+   x="659.5"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro3"
+   style="fill:#009983" /><rect
+   x="659.5"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
    id="g2_afro3"
-   height="29"
-   width="15.1"
-   clip-path=""
+   style="fill:#df7627" /><rect
+   x="684.10004"
+   y="288.11716"
    i:knockout="Off"
-   y="370.40002"
-   x="659.5" /></svg>
+   width="15.1"
+   height="111.03058"
+   id="g2_b4"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="684.10004"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global4"
+   style="fill:#cf3d96" /><rect
+   x="684.10004"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro4"
+   style="fill:#f1b821" /><rect
+   x="684.10004"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo4"
+   style="fill:#62a73b" /><rect
+   x="684.10004"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro4"
+   style="fill:#c53254" /><rect
+   x="684.10004"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro4"
+   style="fill:#79317f" /><rect
+   x="684.10004"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro4"
+   style="fill:#009983" /><rect
+   x="684.10004"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro4"
+   style="fill:#df7627" /><rect
+   x="708.70001"
+   y="288.11716"
+   i:knockout="Off"
+   width="15.1"
+   height="111.03058"
+   id="g2_b5"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="708.70001"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global5"
+   style="fill:#cf3d96" /><rect
+   x="708.70001"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro5"
+   style="fill:#f1b821" /><rect
+   x="708.70001"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo5"
+   style="fill:#62a73b" /><rect
+   x="708.70001"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro5"
+   style="fill:#c53254" /><rect
+   x="708.70001"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro5"
+   style="fill:#79317f" /><rect
+   x="708.70001"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro5"
+   style="fill:#009983" /><rect
+   x="708.70001"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro5"
+   style="fill:#df7627" /><rect
+   x="733.20001"
+   y="288.11716"
+   i:knockout="Off"
+   width="15.1"
+   height="111.03058"
+   id="g2_b6"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="733.20001"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global6"
+   style="fill:#cf3d96" /><rect
+   x="733.20001"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro6"
+   style="fill:#f1b821" /><rect
+   x="733.20001"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo6"
+   style="fill:#62a73b" /><rect
+   x="733.20001"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro6"
+   style="fill:#c53254" /><rect
+   x="733.20001"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro6"
+   style="fill:#79317f" /><rect
+   x="733.20001"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro6"
+   style="fill:#009983" /><rect
+   x="733.20001"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro6"
+   style="fill:#df7627" /><rect
+   x="757.79999"
+   y="288.11716"
+   i:knockout="Off"
+   width="15.1"
+   height="111.03058"
+   id="g2_b7"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="757.79999"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global7"
+   style="fill:#cf3d96" /><rect
+   x="757.79999"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro7"
+   style="fill:#f1b821" /><rect
+   x="757.79999"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo7"
+   style="fill:#62a73b" /><rect
+   x="757.79999"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro7"
+   style="fill:#c53254" /><rect
+   x="757.79999"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro7"
+   style="fill:#79317f" /><rect
+   x="757.79999"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro7"
+   style="fill:#009983" /><rect
+   x="757.79999"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro7"
+   style="fill:#df7627" /><rect
+   x="782.35004"
+   y="288.11716"
+   i:knockout="Off"
+   width="15.1"
+   height="111.03058"
+   id="g2_b8"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="782.35004"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global8"
+   style="fill:#cf3d96" /><rect
+   x="782.35004"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro8"
+   style="fill:#f1b821" /><rect
+   x="782.35004"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo8"
+   style="fill:#62a73b" /><rect
+   x="782.35004"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro8"
+   style="fill:#c53254" /><rect
+   x="782.35004"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro8"
+   style="fill:#79317f" /><rect
+   x="782.35004"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro8"
+   style="fill:#009983" /><rect
+   x="782.35004"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro8"
+   style="fill:#df7627" /><rect
+   x="807"
+   y="288.11716"
+   i:knockout="Off"
+   width="15.1"
+   height="111.03058"
+   id="g2_b9"
+   style="fill:#0093d5;fill-opacity:1" /><rect
+   x="807"
+   y="296.90692"
+   i:knockout="Off"
+   width="15.1"
+   height="81.780579"
+   id="g2_global9"
+   style="fill:#cf3d96" /><rect
+   x="807"
+   y="309.44412"
+   i:knockout="Off"
+   width="15.1"
+   height="76.643402"
+   id="g2_wpro9"
+   style="fill:#f1b821" /><rect
+   x="807"
+   y="323.94357"
+   i:knockout="Off"
+   width="15.1"
+   height="65.643936"
+   id="g2_searo9"
+   style="fill:#62a73b" /><rect
+   x="807"
+   y="335.50116"
+   i:knockout="Off"
+   width="15.1"
+   height="63.646564"
+   id="g2_euro9"
+   style="fill:#c53254" /><rect
+   x="807"
+   y="350.54614"
+   i:knockout="Off"
+   width="15.1"
+   height="48.601555"
+   id="g2_emro9"
+   style="fill:#79317f" /><rect
+   x="807"
+   y="365.50217"
+   i:knockout="Off"
+   width="15.1"
+   height="33.645546"
+   id="g2_amro9"
+   style="fill:#009983" /><rect
+   x="807"
+   y="381.44772"
+   i:knockout="Off"
+   width="15.1"
+   height="17.700001"
+   id="g2_afro9"
+   style="fill:#df7627" /></svg>
