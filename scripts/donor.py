@@ -302,7 +302,6 @@ def process_commitments_graph(donor_country, template_xml):
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        #data["g1_v%s" % y] = fmt_r1(rc.oda_health[year])
         graph.add_value(year, oda_commitments[year])
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
@@ -335,25 +334,6 @@ def process_commitments_graph(donor_country, template_xml):
 
     return xml.toxml()
 
-def process_donor_country(donor_country):
-    template_xml = open(donor_svg, "r").read().decode("utf-8")
-
-    dc = donor_country
-    data = {
-        "country" : dc.country 
-    }
-    template_xml = process_svg_template(data, template_xml)
-    template_xml = process_commitments_table(dc, template_xml)
-    template_xml = process_income_group_table(dc, template_xml)
-    template_xml = process_region_table(dc, template_xml)
-    template_xml = process_health_table(dc, template_xml)
-    template_xml = process_commitments_graph(dc, template_xml)
-    template_xml = process_income_group_graph(dc, template_xml)
-
-    f = open("%s/%s.svg" % (output_path, dc.country), "w")
-    f.write(template_xml.encode("utf-8"))
-    f.close()
-
 def process_income_group_graph(donor_country, template_xml):
     data = {}
     dc = donor_country
@@ -382,6 +362,78 @@ def process_income_group_graph(donor_country, template_xml):
         xml.documentElement.removeChild(black_circle)
         xml.documentElement.appendChild(black_circle)
     return xml.toxml()
+
+def process_region_graph(donor_country, template_xml):
+    data = {}
+    dc = donor_country
+
+    graph = graphs.BarGraph(num_ticks=9, min_height=285.5, max_height=223)
+
+    afro_allocation = dc.afro_allocation
+    amro_allocation = dc.amro_allocation
+    emro_allocation = dc.emro_allocation
+    euro_allocation = dc.euro_allocation
+    searo_allocation = dc.searo_allocation
+    wpro_allocation = dc.wpro_allocation
+    gmcr_allocation = dc.gmcr_allocation
+    oda_health = dc.oda_health
+
+    for year in range(2002, 2010):
+        y = str(year)[3]
+        year = str(year)
+        graph.add_value(year, oda_health[year])
+
+    has_data = isinstance(max(graph.values.values()), numbers.Number)
+    if not has_data:
+        # No data available for this graph
+        return template_xml
+
+    g1_ticks = graph.ticks
+    data["g2_t1"] = fmt_r0(g1_ticks[1])
+    data["g2_t2"] = fmt_r0(g1_ticks[2])
+    data["g2_t3"] = fmt_r0(g1_ticks[3])
+    data["g2_t4"] = fmt_r0(g1_ticks[4])
+    data["g2_t5"] = fmt_r0(g1_ticks[5])
+    data["g2_t6"] = fmt_r0(g1_ticks[6])
+    data["g2_t7"] = fmt_r0(g1_ticks[7])
+    data["g2_t8"] = fmt_r0(g1_ticks[8])
+    data["g2_t9"] = fmt_r0(g1_ticks[9])
+
+    template_xml = process_svg_template(data, template_xml)
+
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    graph.update_bars(xml, {
+        2002 : "g2_b2",
+        2003 : "g2_b3",
+        2004 : "g2_b4",
+        2005 : "g2_b5",
+        2006 : "g2_b6",
+        2007 : "g2_b7",
+        2008 : "g2_b8",
+        2009 : "g2_b9",
+    })
+
+    return xml.toxml()
+
+def process_donor_country(donor_country):
+    template_xml = open(donor_svg, "r").read().decode("utf-8")
+
+    dc = donor_country
+    data = {
+        "country" : dc.country 
+    }
+    template_xml = process_svg_template(data, template_xml)
+    template_xml = process_commitments_table(dc, template_xml)
+    template_xml = process_income_group_table(dc, template_xml)
+    template_xml = process_region_table(dc, template_xml)
+    template_xml = process_health_table(dc, template_xml)
+    template_xml = process_commitments_graph(dc, template_xml)
+    template_xml = process_income_group_graph(dc, template_xml)
+    template_xml = process_region_graph(dc, template_xml)
+
+    f = open("%s/%s.svg" % (output_path, dc.country), "w")
+    f.write(template_xml.encode("utf-8"))
+    f.close()
 
 def main(*args):
 
