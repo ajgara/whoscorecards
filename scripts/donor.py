@@ -2,6 +2,9 @@ from xml.dom import minidom
 import numbers
 import sys
 import os
+from pivottable import PivotTable, GroupBy, Sum
+import ftypes
+import math
 import dataprocessing
 from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2, xmlutils
 import graphs
@@ -12,11 +15,14 @@ output_path = "gen_donors"
 is_donor1 = lambda donor : lambda x : x.donorname_e == donor
 is_donor2 = lambda donor : lambda x : x.DONOR == donor
 is_donor3 = lambda donor : lambda x : x.Donor == donor
+is_not_multilateral = lambda recipient : recipient.ISO3 != "Multi"
 
 class DonorCountry(object):
     def __init__(self, country, db_donor_data, db_donor_oda, db_donation_breakdown):
         self.country = country
-        self._donor_data = db_donor_data.data / is_donor1(country)
+        self._recipient_data = db_donor_data.data / is_donor1(country)
+        self._bilateral_donations = self._recipient_data
+        #self._bilateral_donations = self._recipient_data / is_not_multilateral
         self._donor_oda = db_donor_oda.data / is_donor2(country)
         self._donation_breakdown = db_donation_breakdown.data / is_donor3(country)
 
@@ -188,6 +194,19 @@ class DonorCountry(object):
         unspecified_allocation =  dict(self._donation_breakdown * fn_get_unspecified_allocation)
         return unspecified_allocation
 
+    @property
+    def bilateral_donations(self):
+        pt = PivotTable()
+        pt.xaxis = "MDG Purpose"
+        pt.yaxis = [
+            {"attr" : "recipientname_e", "label" : "country", "aggr" : GroupBy},
+            {"attr" : "2007-2009", "label" : "amount", "aggr" : Sum},
+        ]
+        pt.yaxis_order = ["recipientname_e"]
+        pt.rows = self._bilateral_donations
+        table = ftypes.list(*[a for a in pt.result])
+        return table
+
 class ProcessingException(Exception):
     pass
 
@@ -281,7 +300,7 @@ def process_health_table(donor_country, template_xml):
     template_xml = process_svg_template(data, template_xml)
 
     xml = minidom.parseString(template_xml.encode("utf-8"))
-    circle_y = 534
+    circle_y = 526.5
     for year, circle_x in [(2002, 164), (2003, 208), (2004, 250), (2005, 293.4), (2006, 336.4), (2007, 379.38), (2008, 422.9), (2009, 466)]:
         year = str(year)
         chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
@@ -347,10 +366,10 @@ def process_income_group_graph(donor_country, template_xml):
     xml = minidom.parseString(template_xml.encode("utf-8"))
     for year, circle_x in [(2002, 640.29999), (2003, 693.5), (2004, 746.70001), (2005, 800), (2006, 640.29999), (2007, 693.5), (2008, 746.70001), (2009, 800)]:
         y = str(year)[3]
-        if year <= 2005: circle_y = 173.39999
-        else: circle_y = 228.3
+        if year <= 2005: circle_y = 167.39999
+        else: circle_y = 222.3
         year = str(year)
-        chart = graphs.PieChart(xml, (circle_x, circle_y), 22.1, [
+        chart = graphs.PieChart(xml, (circle_x, circle_y), 19.1, [
             ldc_allocation[year], 
             lic_allocation[year], 
             lmi_allocation[year], 
@@ -465,12 +484,54 @@ def process_region_graph(donor_country, template_xml):
 
     return xml.toxml()
 
+def process_recipients_graph(donor_country, template_xml):
+    max_size = 2500 # Area of a 100% circle
+
+    niz = none_is_zero
+    dc = donor_country
+    data = {}
+    
+    donations = dc.bilateral_donations
+
+    fn_total_recipient_health_oda = lambda x : (
+        x["recipientname_e"],
+        niz(x.get("MDG6", 0)) + niz(x.get("RH & FP", 0)) + 
+        niz(x.get("Other Health Purposes", 0)) + niz(x.get("Unallocated", 0))
+    )
+    fn_get_health_oda = lambda (x, y) : y
+    fn_sum_oda = lambda donors : sum([fn_get_health_oda(tpl) for tpl in donors])
+    fn_calc_area = lambda perc_donated : perc_donated / 100 * max_size
+    fn_calc_radius = lambda perc_donated : math.sqrt(fn_calc_area(perc_donated) / math.pi)
+
+    # Total health oda for each recipient
+    oda = donations * fn_total_recipient_health_oda
+
+    total_oda = fn_sum_oda(oda)
+    oda = sorted(oda, key=fn_get_health_oda, reverse=True)
+    oda_as_perc = [(x, y/total_oda * 100) for (x, y) in oda]
+
+    top10_oda_recipients = oda_as_perc[0:10]
+    for i, (country_name, perc_received) in enumerate(top10_oda_recipients):
+        s_perc_received = fmt_r0(perc_received)
+        data["recip%d" % (i + 1)] = "%s (%s%%)" % (country_name, s_perc_received)
+    top10_perc = fn_sum_oda(top10_oda_recipients)
+    data["d_tot"] = fmt_r0(top10_perc)
+
+    template_xml = process_svg_template(data, template_xml)
+    xml = minidom.parseString(template_xml.encode("utf-8"))
+    for i, (country_name, perc_received) in enumerate(top10_oda_recipients):
+        node = xmlutils.get_el_by_id(xml, "circle", "r_c%d" % (i + 1))
+        radius = fn_calc_radius(perc_received)
+        node.setAttribute("r", str(radius))
+
+    return xml.toxml()
+
 def process_donor_country(donor_country):
     template_xml = open(donor_svg, "r").read().decode("utf-8")
 
     dc = donor_country
     data = {
-        "country" : dc.country 
+        "country" : dc.country.upper() 
     }
     template_xml = process_svg_template(data, template_xml)
     template_xml = process_commitments_table(dc, template_xml)
@@ -480,6 +541,7 @@ def process_donor_country(donor_country):
     template_xml = process_commitments_graph(dc, template_xml)
     template_xml = process_income_group_graph(dc, template_xml)
     template_xml = process_region_graph(dc, template_xml)
+    template_xml = process_recipients_graph(dc, template_xml)
 
     f = open("%s/%s.svg" % (output_path, dc.country), "w")
     f.write(template_xml.encode("utf-8"))
@@ -497,7 +559,7 @@ def main(*args):
         cleanup()
 
     #for country in open("../data/recipient/recipients"):
-    for country in ["France"]:
+    for country in ["Denmark"]:
         country = country.strip()
         if country.startswith("#"): continue
         #if os.path.exists("gen_donors/%s.svg" % country):

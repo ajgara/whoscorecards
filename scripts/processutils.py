@@ -1,3 +1,5 @@
+import numbers 
+
 def process_svg_template(context, template_xml):
     for (key, value) in context.items():
         template_xml = template_xml.replace('{%s}' % key, value)
@@ -27,7 +29,7 @@ def fmt_perc(x): return str(round(x * 100, 1))
 def fmt_perc0(x): return str(int(round(x * 100, 0)))
 
 @check_numeric
-def fmt_r0(x): return str(round(x, 0))
+def fmt_r0(x): return str(int(round(x, 0)))
 
 @check_numeric
 def fmt_r1(x): return "{:,.1f}".format(float(x))

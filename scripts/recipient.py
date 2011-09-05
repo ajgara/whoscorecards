@@ -83,7 +83,7 @@ def process_expenditure_table(recipient_country, template_xml):
 
     rc = recipient_country
     data = {
-        "country" : recipient_country.country 
+        "country" : recipient_country.country.upper() 
     }
 
     for year in range(2002, 2010):
@@ -154,7 +154,7 @@ def process_donor_table(recipient_country, template_xml):
 
 def process_health_graph(recipient_country, template_xml):
     rc = recipient_country
-    graph = BarGraph(num_ticks=6, min_height=285.5, max_height=223)
+    graph = graphs.BarGraph(num_ticks=6, min_height=285.5, max_height=223)
     data = {}
 
     for year in range(2002, 2010):
@@ -220,7 +220,7 @@ def process_health_graph(recipient_country, template_xml):
 def process_health_per_capita_graph(recipient_country, template_xml):
     rc = recipient_country
     data = {}
-    graph = BarGraph(num_ticks=4, min_height=285.5, max_height=223)
+    graph = graphs.BarGraph(num_ticks=4, min_height=285.5, max_height=223)
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
@@ -353,11 +353,11 @@ def main(*args):
         cleanup()
 
     #for country in open("../data/recipient/recipients"):
-    for country in ["ETH"]:
+    for country in ["SDN"]:
         country = country.strip()
         if country.startswith("#"): continue
-        if os.path.exists("%s/%s.svg" % (output_path, country)):
-            continue
+        #if os.path.exists("%s/%s.svg" % (output_path, country)):
+        #    continue
         print "Processing: %s" % country
         try:
             process_recipient_country(country)
