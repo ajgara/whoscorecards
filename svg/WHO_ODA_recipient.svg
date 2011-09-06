@@ -27,9 +27,15 @@
    enable-background="new 0 0 595.3 841.9"
    xml:space="preserve"
    id="svg21423"
-   inkscape:version="0.48.0 r9654"
+   inkscape:version="0.47pre4 r22446"
    sodipodi:docname="WHO_ODA_recipient.svg"><defs
-   id="defs26136">
+   id="defs26136"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 420.95001 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="595.29999 : 420.95001 : 1"
+   inkscape:persp3d-origin="297.64999 : 280.63334 : 1"
+   id="perspective1658" />
 	<foreignObject
    id="foreignObject21429"
    height="1"
@@ -10299,7 +10305,13 @@
 
 
 
-				</defs><sodipodi:namedview
+				<inkscape:perspective
+   id="perspective5436"
+   inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+   inkscape:vp_z="1 : 0.5 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_x="0 : 0.5 : 1"
+   sodipodi:type="inkscape:persp3d" /></defs><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -10308,13 +10320,13 @@
    guidetolerance="10"
    inkscape:pageopacity="0"
    inkscape:pageshadow="2"
-   inkscape:window-width="1920"
-   inkscape:window-height="1005"
+   inkscape:window-width="1600"
+   inkscape:window-height="825"
    id="namedview26134"
    showgrid="false"
-   inkscape:zoom="3.94"
-   inkscape:cx="247.69064"
-   inkscape:cy="98.760837"
+   inkscape:zoom="2.2547266"
+   inkscape:cx="390.89985"
+   inkscape:cy="188.81711"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -10659,7 +10671,7 @@
    id="switch21544"
    i:objectType="areaText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-80,0)">
+   transform="translate(-98,-0.84899044)">
 				<foreignObject
    id="foreignObject21546"
    overflow="visible"
@@ -10703,10 +10715,11 @@
    style="font-size:12.5px;fill:#ffffff;font-family:Arial"
    font-size="12.5"
    id="SVGID_2_"
-   x="666.9118"
+   x="669.98676"
    y="18.3491"><tspan
-     style="font-size:11.5px;text-align:end;text-anchor:end"
-     id="tspan5294">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH FROM</tspan></text>
+     style="font-size:11px;text-align:end;text-anchor:end"
+     id="tspan5294">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH TO</tspan></text>
+
 
 
 
@@ -10719,7 +10732,7 @@
    id="switch21553"
    i:objectType="areaText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-60,0)">
+   transform="translate(-78,0)">
 				<foreignObject
    id="foreignObject21555"
    overflow="visible"
@@ -10766,8 +10779,9 @@
    id="SVGID_4_"
    x="154.84277"
    y="0"><tspan
-     style="text-align:end;text-anchor:end;-inkscape-font-specification:Arial;font-family:Arial;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+     style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;font-family:Arial;-inkscape-font-specification:Arial"
      id="tspan33840">{country}</tspan></text>
+
 
 
 
@@ -10875,6 +10889,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21611"
@@ -10889,6 +10904,7 @@
    id="SVGID_10_"
    x="267.24039"
    y="91.764465">{pop_2}</text>
+
 
 
 
@@ -10917,6 +10933,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21629"
@@ -10933,6 +10950,7 @@
    y="91.764465"><tspan
      style="text-align:center;text-anchor:middle;font-size:6.80276885px"
      id="tspan33846">{pop_3}</tspan></text>
+
 
 
 
@@ -10961,6 +10979,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21647"
@@ -10975,6 +10994,7 @@
    id="SVGID_18_"
    x="354.49146"
    y="91.764465">{pop_4}</text>
+
 
 
 
@@ -11003,6 +11023,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21665"
@@ -11017,6 +11038,7 @@
    id="SVGID_22_"
    x="398.06573"
    y="91.764465">{pop_5}</text>
+
 
 
 
@@ -11045,6 +11067,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21683"
@@ -11059,6 +11082,7 @@
    id="SVGID_26_"
    x="441.64001"
    y="91.764465">{pop_6}</text>
+
 
 
 
@@ -11087,6 +11111,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21701"
@@ -11101,6 +11126,7 @@
    id="SVGID_30_"
    x="485.31683"
    y="91.764465">{pop_7}</text>
+
 
 
 
@@ -11129,6 +11155,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21719"
@@ -11143,6 +11170,7 @@
    id="SVGID_34_"
    x="528.89111"
    y="91.764465">{pop_8}</text>
+
 
 
 
@@ -11171,6 +11199,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect21737"
@@ -11185,6 +11214,7 @@
    id="SVGID_38_"
    x="572.46533"
    y="91.764465">{pop_9}</text>
+
 
 
 
@@ -11211,6 +11241,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="116.3"
@@ -11225,6 +11256,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odah_3}</text>
+
 
 
 
@@ -11251,6 +11283,7 @@
 
 
 
+
 <rect
    x="367"
    y="116.3"
@@ -11265,6 +11298,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odah_5}</text>
+
 
 
 
@@ -11291,6 +11325,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="116.3"
@@ -11305,6 +11340,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odah_7}</text>
+
 
 
 
@@ -11331,6 +11367,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="116.3"
@@ -11345,6 +11382,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odah_9}</text>
+
 
 
 
@@ -11371,6 +11409,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="130.2"
@@ -11385,6 +11424,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahp_3}</text>
+
 
 
 
@@ -11411,6 +11451,7 @@
 
 
 
+
 <rect
    x="367"
    y="130.2"
@@ -11425,6 +11466,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahp_5}</text>
+
 
 
 
@@ -11451,6 +11493,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="130.2"
@@ -11465,6 +11508,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahp_7}</text>
+
 
 
 
@@ -11491,6 +11535,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="130.2"
@@ -11505,6 +11550,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahp_9}</text>
+
 
 
 
@@ -11531,6 +11577,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="144.60001"
@@ -11545,6 +11592,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahc_3}</text>
+
 
 
 
@@ -11571,6 +11619,7 @@
 
 
 
+
 <rect
    x="367"
    y="144.60001"
@@ -11585,6 +11634,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahc_5}</text>
+
 
 
 
@@ -11611,6 +11661,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="144.60001"
@@ -11625,6 +11676,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahc_7}</text>
+
 
 
 
@@ -11651,6 +11703,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="144.60001"
@@ -11665,6 +11718,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahc_9}</text>
+
 
 
 
@@ -11691,6 +11745,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="159"
@@ -11705,6 +11760,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahr_3}</text>
+
 
 
 
@@ -11731,6 +11787,7 @@
 
 
 
+
 <rect
    x="367"
    y="159"
@@ -11745,6 +11802,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahr_5}</text>
+
 
 
 
@@ -11771,6 +11829,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="159"
@@ -11785,6 +11844,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahr_7}</text>
+
 
 
 
@@ -11811,6 +11871,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="159"
@@ -11825,6 +11886,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{odahr_9}</text>
+
 
 
 
@@ -11851,6 +11913,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="103.1"
@@ -11865,6 +11928,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oda_3}</text>
+
 
 
 
@@ -11891,6 +11955,7 @@
 
 
 
+
 <rect
    x="367"
    y="103.1"
@@ -11905,6 +11970,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oda_5}</text>
+
 
 
 
@@ -11931,6 +11997,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="103.1"
@@ -11945,6 +12012,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oda_7}</text>
+
 
 
 
@@ -11971,6 +12039,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="103.1"
@@ -11985,6 +12054,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oda_9}</text>
+
 
 
 
@@ -12011,6 +12081,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="173.39999"
@@ -12025,6 +12096,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{the_3}</text>
+
 
 
 
@@ -12051,6 +12123,7 @@
 
 
 
+
 <rect
    x="367"
    y="173.39999"
@@ -12065,6 +12138,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{the_5}</text>
+
 
 
 
@@ -12091,6 +12165,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="173.39999"
@@ -12105,6 +12180,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{the_7}</text>
+
 
 
 
@@ -12131,6 +12207,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="173.39999"
@@ -12145,6 +12222,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{the_9}</text>
+
 
 
 
@@ -12171,6 +12249,7 @@
 
 
 
+
 <rect
    x="281.89999"
    y="187.8"
@@ -12185,6 +12264,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gh_3}</text>
+
 
 
 
@@ -12211,6 +12291,7 @@
 
 
 
+
 <rect
    x="367"
    y="187.8"
@@ -12225,6 +12306,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gh_5}</text>
+
 
 
 
@@ -12251,6 +12333,7 @@
 
 
 
+
 <rect
    x="452.10001"
    y="187.8"
@@ -12265,6 +12348,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gh_7}</text>
+
 
 
 
@@ -12291,6 +12375,7 @@
 
 
 
+
 <rect
    x="537.09998"
    y="187.8"
@@ -12305,6 +12390,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gh_9}</text>
+
 
 
 
@@ -12428,6 +12514,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22283"
@@ -12489,6 +12576,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22296"
@@ -12543,6 +12631,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22305"
@@ -12590,6 +12679,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.9468,108.2534)"
    id="SVGID_107_">ODA Commitments</text>
+
 
 
 
@@ -12659,6 +12749,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22325"
@@ -12706,6 +12797,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.9468,178.8267)"
    id="SVGID_109_">Total Health Expenditure per Capita</text>
+
 
 
 
@@ -12767,6 +12859,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22343"
@@ -12821,6 +12914,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch22352"
@@ -12868,6 +12962,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.9468,136.4829)"
    id="SVGID_112_">ODA for Health as % of Total ODA</text>
+
 
 
 
@@ -12991,6 +13086,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13028,6 +13124,7 @@
    transform="translate(97.9307,288.5684)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2004</text>
+
 
 
 
@@ -13079,6 +13176,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13116,6 +13214,7 @@
    transform="translate(139.6572,288.5684)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2006</text>
+
 
 
 
@@ -13167,6 +13266,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13204,6 +13304,7 @@
    transform="translate(181.3838,288.5693)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2008</text>
+
 
 
 
@@ -13255,6 +13356,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13292,6 +13394,7 @@
    transform="translate(56.2041,288.5684)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2002</text>
+
 
 
 
@@ -13338,6 +13441,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="30.27832"
    y="0">{g1_t1}</text>
+
 
 
 
@@ -13394,6 +13498,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13430,6 +13535,7 @@
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="206.35365"
    y="217">{g1_v9}</text>
+
 
 
 
@@ -13480,6 +13586,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13516,6 +13623,7 @@
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="140.21423"
    y="217">{g1_v6}</text>
+
 
 
 
@@ -13566,6 +13674,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -13602,6 +13711,7 @@
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="58.749859"
    y="217">{g1_v2}</text>
+
 
 
 
@@ -13867,8 +13977,11 @@
    id="SVGID_144_"
    font-size="7"
    style="font-size:7px;fill:#58595b;font-family:Arial"
-   x="54.112358"
-   y="300.84961">10 LARGEST RECIPIENTS OF ODA FOR HEALTH</text>
+   x="134.4671"
+   y="300.84961"><tspan
+     style="text-align:center;text-anchor:middle"
+     id="tspan4473">ODA FOR HEALTH, TOTAL COMMITMENTS</tspan></text>
+
 <rect
    style="fill:#e6e7e8"
    id="rect22595"
@@ -13926,6 +14039,7 @@
    x="125.23926"
    y="533.59052">{mdg6_ast}</text>
 
+
 <rect
    style="fill:none"
    id="rect22622"
@@ -13940,6 +14054,7 @@
    id="SVGID_146_"
    x="164.50737"
    y="533.59052">{rf_ast}</text>
+
 
 <rect
    style="fill:none"
@@ -13956,6 +14071,7 @@
    x="203.77548"
    y="533.59052">{oth_ast}</text>
 
+
 <rect
    style="fill:none"
    id="rect22640"
@@ -13970,6 +14086,7 @@
    id="SVGID_148_"
    x="243.04359"
    y="533.59052">{un_ast}</text>
+
 
 <rect
    style="fill:none"
@@ -13988,6 +14105,7 @@
      style="font-size:6.80276871px;text-align:center;text-anchor:middle"
      id="tspan41386">{tot_ast}</tspan></text>
 
+
 <rect
    style="fill:none"
    id="rect22658"
@@ -14002,6 +14120,7 @@
    id="SVGID_150_"
    x="125.23926"
    y="546.87579">{mdg6_bel}</text>
+
 
 <rect
    style="fill:none"
@@ -14018,6 +14137,7 @@
    x="164.50737"
    y="546.87579">{rf_bel}</text>
 
+
 <rect
    style="fill:none"
    id="rect22676"
@@ -14032,6 +14152,7 @@
    id="SVGID_152_"
    x="203.77548"
    y="546.87579">{oth_bel}</text>
+
 
 <rect
    style="fill:none"
@@ -14048,6 +14169,7 @@
    x="243.04359"
    y="546.87579">{un_bel}</text>
 
+
 <rect
    style="fill:none"
    id="rect22694"
@@ -14062,6 +14184,7 @@
    id="SVGID_154_"
    x="282.2092"
    y="546.87579">{tot_bel}</text>
+
 
 <rect
    style="fill:none"
@@ -14078,6 +14201,7 @@
    x="125.23926"
    y="559.18573">{mdg6_can}</text>
 
+
 <rect
    style="fill:none"
    id="rect22712"
@@ -14092,6 +14216,7 @@
    id="SVGID_156_"
    x="164.50737"
    y="559.18573">{rf_can}</text>
+
 
 <rect
    style="fill:none"
@@ -14108,6 +14233,7 @@
    x="203.77548"
    y="559.18573">{oth_can}</text>
 
+
 <rect
    style="fill:none"
    id="rect22730"
@@ -14122,6 +14248,7 @@
    id="SVGID_158_"
    x="243.04359"
    y="559.18573">{un_can}</text>
+
 
 <rect
    style="fill:none"
@@ -14138,6 +14265,7 @@
    x="282.2092"
    y="559.18573">{tot_can}</text>
 
+
 <rect
    style="fill:none"
    id="rect22748"
@@ -14152,6 +14280,7 @@
    id="SVGID_160_"
    x="125.23926"
    y="571.49567">{mdg6_den}</text>
+
 
 <rect
    style="fill:none"
@@ -14168,6 +14297,7 @@
    x="164.50737"
    y="571.49567">{rf_den}</text>
 
+
 <rect
    style="fill:none"
    id="rect22766"
@@ -14182,6 +14312,7 @@
    id="SVGID_162_"
    x="203.77548"
    y="571.49567">{oth_den}</text>
+
 
 <rect
    style="fill:none"
@@ -14198,6 +14329,7 @@
    x="243.04359"
    y="571.49567">{un_den}</text>
 
+
 <rect
    style="fill:none"
    id="rect22784"
@@ -14212,6 +14344,7 @@
    id="SVGID_164_"
    x="282.2092"
    y="571.49567">{tot_den}</text>
+
 
 <rect
    style="fill:none"
@@ -14228,6 +14361,7 @@
    x="125.23926"
    y="522.25592">{mdg6_aus}</text>
 
+
 <rect
    style="fill:none"
    id="rect22802"
@@ -14242,6 +14376,7 @@
    id="SVGID_166_"
    x="164.50737"
    y="522.25592">{rf_aus}</text>
+
 
 <rect
    style="fill:none"
@@ -14258,6 +14393,7 @@
    x="203.77548"
    y="522.25592">{oth_aus}</text>
 
+
 <rect
    style="fill:none"
    id="rect22820"
@@ -14272,6 +14408,7 @@
    id="SVGID_168_"
    x="243.04359"
    y="522.25592">{un_aus}</text>
+
 
 <rect
    style="fill:none"
@@ -14288,6 +14425,7 @@
    x="282.2092"
    y="522.25592">{tot_aus}</text>
 
+
 <rect
    x="102.75"
    y="592.79999"
@@ -14302,6 +14440,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_fin}</text>
+
 
 <rect
    x="141.3"
@@ -14318,6 +14457,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_fin}</text>
 
+
 <rect
    x="179.7"
    y="592.79999"
@@ -14332,6 +14472,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_fin}</text>
+
 
 <rect
    x="218.09999"
@@ -14348,6 +14489,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_fin}</text>
 
+
 <rect
    x="256.10001"
    y="592.79999"
@@ -14362,6 +14504,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_fin}</text>
+
 
 <rect
    x="102.75"
@@ -14378,6 +14521,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_ger}</text>
 
+
 <rect
    x="141.3"
    y="618"
@@ -14392,6 +14536,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_ger}</text>
+
 
 <rect
    x="179.7"
@@ -14408,6 +14553,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_ger}</text>
 
+
 <rect
    x="218.09999"
    y="618"
@@ -14422,6 +14568,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_ger}</text>
+
 
 <rect
    x="256.10001"
@@ -14438,6 +14585,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_ger}</text>
 
+
 <rect
    x="102.75"
    y="643.20001"
@@ -14452,6 +14600,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_ire}</text>
+
 
 <rect
    x="141.3"
@@ -14468,6 +14617,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_ire}</text>
 
+
 <rect
    x="179.7"
    y="643.20001"
@@ -14482,6 +14632,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_ire}</text>
+
 
 <rect
    x="218.09999"
@@ -14498,6 +14649,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_ire}</text>
 
+
 <rect
    x="256.10001"
    y="643.20001"
@@ -14512,6 +14664,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_ire}</text>
+
 
 <rect
    x="102.75"
@@ -14528,6 +14681,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_gre}</text>
 
+
 <rect
    x="141.3"
    y="630.59998"
@@ -14542,6 +14696,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_gre}</text>
+
 
 <rect
    x="179.7"
@@ -14558,6 +14713,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_gre}</text>
 
+
 <rect
    x="218.09999"
    y="630.59998"
@@ -14572,6 +14728,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_gre}</text>
+
 
 <rect
    x="256.10001"
@@ -14588,6 +14745,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_gre}</text>
 
+
 <rect
    x="102.75"
    y="655.79999"
@@ -14602,6 +14760,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_ita}</text>
+
 
 <rect
    x="141.3"
@@ -14618,6 +14777,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_ita}</text>
 
+
 <rect
    x="179.7"
    y="655.79999"
@@ -14632,6 +14792,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_ita}</text>
+
 
 <rect
    x="218.09999"
@@ -14648,6 +14809,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_ita}</text>
 
+
 <rect
    x="256.10001"
    y="655.79999"
@@ -14662,6 +14824,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_ita}</text>
+
 
 <rect
    x="102.75"
@@ -14678,6 +14841,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_jap}</text>
 
+
 <rect
    x="141.3"
    y="668.40002"
@@ -14692,6 +14856,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_jap}</text>
+
 
 <rect
    x="179.7"
@@ -14708,6 +14873,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_jap}</text>
 
+
 <rect
    x="218.09999"
    y="668.40002"
@@ -14722,6 +14888,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_jap}</text>
+
 
 <rect
    x="256.10001"
@@ -14738,6 +14905,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_jap}</text>
 
+
 <rect
    x="102.75"
    y="681"
@@ -14752,6 +14920,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_lux}</text>
+
 
 <rect
    x="141.3"
@@ -14768,6 +14937,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_lux}</text>
 
+
 <rect
    x="179.7"
    y="681"
@@ -14782,6 +14952,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_lux}</text>
+
 
 <rect
    x="218.09999"
@@ -14798,6 +14969,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_lux}</text>
 
+
 <rect
    x="256.10001"
    y="681"
@@ -14812,6 +14984,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_lux}</text>
+
 
 <rect
    x="102.75"
@@ -14828,6 +15001,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_net}</text>
 
+
 <rect
    x="141.3"
    y="693.59998"
@@ -14842,6 +15016,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_net}</text>
+
 
 <rect
    x="179.7"
@@ -14858,6 +15033,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_net}</text>
 
+
 <rect
    x="218.09999"
    y="693.59998"
@@ -14872,6 +15048,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_net}</text>
+
 
 <rect
    x="256.10001"
@@ -14888,6 +15065,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_net}</text>
 
+
 <rect
    x="102.75"
    y="706.29999"
@@ -14902,6 +15080,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_nor}</text>
+
 
 <rect
    x="141.3"
@@ -14918,6 +15097,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_nor}</text>
 
+
 <rect
    x="179.7"
    y="706.29999"
@@ -14932,6 +15112,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_nor}</text>
+
 
 <rect
    x="218.09999"
@@ -14948,6 +15129,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_nor}</text>
 
+
 <rect
    x="256.10001"
    y="706.29999"
@@ -14962,6 +15144,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_nor}</text>
+
 
 <rect
    x="102.75"
@@ -14978,6 +15161,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_kor}</text>
 
+
 <rect
    x="141.3"
    y="718.90002"
@@ -14992,6 +15176,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_kor}</text>
+
 
 <rect
    x="179.7"
@@ -15008,6 +15193,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_kor}</text>
 
+
 <rect
    x="218.09999"
    y="718.90002"
@@ -15022,6 +15208,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_kor}</text>
+
 
 <rect
    x="256.10001"
@@ -15038,6 +15225,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_kor}</text>
 
+
 <rect
    x="102.75"
    y="731.5"
@@ -15052,6 +15240,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_spa}</text>
+
 
 <rect
    x="141.3"
@@ -15068,6 +15257,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_spa}</text>
 
+
 <rect
    x="179.7"
    y="731.5"
@@ -15082,6 +15272,7 @@
    transform="scale(0.97534609,1.0252771)"
    font-size="8"
    style="font-size:6.80276881px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_spa}</text>
+
 
 <rect
    x="218.09999"
@@ -15098,6 +15289,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_spa}</text>
 
+
 <rect
    x="256.10001"
    y="731.5"
@@ -15112,6 +15304,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_spa}</text>
+
 
 <rect
    x="102.75"
@@ -15128,6 +15321,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_swe}</text>
 
+
 <rect
    x="141.3"
    y="744.09998"
@@ -15142,6 +15336,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_swe}</text>
+
 
 <rect
    x="179.7"
@@ -15158,6 +15353,7 @@
    font-size="8"
    style="font-size:6.80276881px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_swe}</text>
 
+
 <rect
    x="218.09999"
    y="744.09998"
@@ -15172,6 +15368,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_swe}</text>
+
 
 <rect
    x="256.10001"
@@ -15188,6 +15385,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_swe}</text>
 
+
 <rect
    x="102.75"
    y="756.70001"
@@ -15202,6 +15400,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_uk}</text>
+
 
 <rect
    x="141.3"
@@ -15218,6 +15417,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_uk}</text>
 
+
 <rect
    x="179.7"
    y="756.70001"
@@ -15232,6 +15432,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_uk}</text>
+
 
 <rect
    x="218.09999"
@@ -15248,6 +15449,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_uk}</text>
 
+
 <rect
    x="256.10001"
    y="756.70001"
@@ -15262,6 +15464,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_uk}</text>
+
 
 <g
    id="g38491"><g
@@ -15379,6 +15582,7 @@
 
 
 
+
 					</g>
 				</switch>
 				<switch
@@ -15433,6 +15637,7 @@
    style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial"><tspan
      style="font-size:6.80276871px"
      id="tspan6894">{rf_us}</tspan></text>
+
 
 
 
@@ -15501,6 +15706,7 @@
 
 
 
+
 					</g>
 				</switch>
 				<switch
@@ -15553,6 +15759,7 @@
    transform="scale(0.97534609,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_us}</text>
+
 
 
 
@@ -15619,6 +15826,7 @@
 
 
 
+
 					</g>
 				</switch>
 			</g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g></g><rect
@@ -15636,6 +15844,7 @@
    x="125.23926"
    y="596.11359">{mdg6_fra}</text>
 
+
 <rect
    style="fill:none"
    id="rect23505"
@@ -15650,6 +15859,7 @@
    id="SVGID_241_"
    x="164.50737"
    y="596.11359">{rf_fra}</text>
+
 
 <rect
    style="fill:none"
@@ -15666,6 +15876,7 @@
    x="203.77548"
    y="596.11359">{oth_fra}</text>
 
+
 <rect
    style="fill:none"
    id="rect23523"
@@ -15681,6 +15892,7 @@
    x="243.04359"
    y="596.11359">{un_fra}</text>
 
+
 <rect
    style="fill:none"
    id="rect23532"
@@ -15695,6 +15907,7 @@
    id="SVGID_244_"
    x="282.2092"
    y="596.11359">{tot_fra}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.57660002;stroke-linejoin:round;stroke-miterlimit:10"
@@ -15807,6 +16020,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -15825,6 +16039,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial Bold"
      id="tspan8303">MDG6</tspan></text>
 
+
 <rect
    style="fill:none"
    id="rect23573"
@@ -15841,6 +16056,7 @@
    y="507.74002"><tspan
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
      id="tspan8313">RH/FP</tspan></text>
+
 
 <rect
    style="fill:none"
@@ -15859,6 +16075,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
      id="tspan8311">Other</tspan></text>
 
+
 <rect
    style="fill:none"
    id="rect23591"
@@ -15876,6 +16093,7 @@
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
      id="tspan8307">Unspecified</tspan></text>
 
+
 <rect
    style="fill:none"
    id="rect23600"
@@ -15892,6 +16110,7 @@
    y="507.74002"><tspan
      style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Arial;-inkscape-font-specification:Arial"
      id="tspan8315">Total</tspan></text>
+
 
 <switch
    id="switch23603"
@@ -15939,6 +16158,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,521.3125)"
    id="SVGID_251_">Bilateral</text>
+
 
 
 
@@ -16000,6 +16220,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23621"
@@ -16047,6 +16268,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,534.7354)"
    id="SVGID_253_">Australia</text>
+
 
 
 
@@ -16116,6 +16338,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23641"
@@ -16163,6 +16386,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,597.8389)"
    id="SVGID_255_">Finland</text>
+
 
 
 
@@ -16224,6 +16448,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23659"
@@ -16278,6 +16503,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23668"
@@ -16325,6 +16551,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,559.9766)"
    id="SVGID_258_">Belgium</text>
+
 
 
 
@@ -16442,6 +16669,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23700"
@@ -16496,6 +16724,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23709"
@@ -16543,6 +16772,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,635.7012)"
    id="SVGID_261_">Greece</text>
+
 
 
 
@@ -16652,6 +16882,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23739"
@@ -16699,6 +16930,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,711.4268)"
    id="SVGID_263_">Norway</text>
+
 
 
 
@@ -16760,6 +16992,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23757"
@@ -16807,6 +17040,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,673.5645)"
    id="SVGID_265_">Japan</text>
+
 
 
 
@@ -16868,6 +17102,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23775"
@@ -16915,6 +17150,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,774.5312)"
    id="SVGID_267_">United States of America</text>
+
 
 
 
@@ -16976,6 +17212,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23793"
@@ -17023,6 +17260,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,749.2891)"
    id="SVGID_269_">Sweden</text>
+
 
 
 
@@ -17084,6 +17322,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch23811"
@@ -17131,6 +17370,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.6636,698.8057)"
    id="SVGID_271_">Netherlands</text>
+
 
 
 
@@ -17217,6 +17457,7 @@
 
 
 
+
 			</switch><switch
    id="switch23833"
    i:objectType="pointText"
@@ -17256,6 +17497,7 @@
    id="SVGID_273_"
    x="7.2509766"
    y="0">2004</text>
+
 
 
 
@@ -17309,6 +17551,7 @@
 
 
 
+
 			</switch><switch
    id="switch23843"
    i:objectType="pointText"
@@ -17348,6 +17591,7 @@
    id="SVGID_275_"
    x="7.2304688"
    y="0">2006</text>
+
 
 
 
@@ -17401,6 +17645,7 @@
 
 
 
+
 			</switch><switch
    id="switch23853"
    i:objectType="pointText"
@@ -17440,6 +17685,7 @@
    id="SVGID_277_"
    x="7.2143555"
    y="0">2008</text>
+
 
 
 
@@ -17493,6 +17739,7 @@
 
 
 
+
 			</switch><switch
    id="switch23863"
    i:objectType="pointText"
@@ -17532,6 +17779,7 @@
    id="SVGID_279_"
    x="7.1191406"
    y="0">2002</text>
+
 
 
 
@@ -17587,6 +17835,7 @@
 
 
 
+
 			</switch><switch
    id="switch23873"
    i:objectType="pointText"
@@ -17626,6 +17875,7 @@
    id="SVGID_281_"
    x="8.6865234"
    y="0">{g2_t2}</text>
+
 
 
 
@@ -17679,6 +17929,7 @@
 
 
 
+
 			</switch><switch
    id="switch23883"
    i:objectType="pointText"
@@ -17718,6 +17969,7 @@
    id="SVGID_283_"
    x="12.310547"
    y="0">{g2_t4}</text>
+
 
 
 
@@ -17774,6 +18026,7 @@
 
 
 
+
 			</switch><rect
    style="fill:#ffffff;stroke:#58595b;stroke-width:0.28349999"
    id="rect23895"
@@ -17797,7 +18050,8 @@
      id="tspan23906"
      font-size="7"
      y="300.84961"
-     x="419.18082">ODA FOR HEALTH  PER CAPITA</tspan></text>
+     x="419.18082">ODA FOR HEALTH,  PER CAPITA</tspan></text>
+
 
 
 
@@ -17908,6 +18162,7 @@
 
 
 
+
 			</switch><switch
    id="switch23959"
    i:objectType="pointText"
@@ -17945,6 +18200,7 @@
    id="SVGID_289_"
    x="13.356445"
    y="0">from 2008</text>
+
 
 
 
@@ -18000,6 +18256,7 @@
 
 
 
+
 			</switch><switch
    id="switch23969"
    i:objectType="pointText"
@@ -18039,6 +18296,7 @@
    id="SVGID_291_"
    x="13.356445"
    y="0">from 2008</text>
+
 
 
 
@@ -18144,6 +18402,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:#3f6e82"
@@ -18201,6 +18460,7 @@
    id="SVGID_310_"
    x="101.85234"
    y="493.83499">SOURCES OF ODA IN 2009</text>
+
 
 
 
@@ -18266,6 +18526,7 @@
    x="418.57104"
    y="533.59052">{mdg6_gavi}</text>
 
+
 <rect
    style="fill:none"
    id="rect24168"
@@ -18280,6 +18541,7 @@
    id="SVGID_312_"
    x="457.83914"
    y="533.59052">{rf_gavi}</text>
+
 
 <rect
    style="fill:none"
@@ -18296,6 +18558,7 @@
    x="497.10727"
    y="533.59052">{oth_gavi}</text>
 
+
 <rect
    style="fill:none"
    id="rect24186"
@@ -18310,6 +18573,7 @@
    id="SVGID_314_"
    x="536.37537"
    y="533.59052">{un_gavi}</text>
+
 
 <rect
    style="fill:none"
@@ -18326,6 +18590,7 @@
    x="575.64349"
    y="533.59052">{tot_gavi}</text>
 
+
 <rect
    style="fill:none"
    id="rect24204"
@@ -18340,6 +18605,7 @@
    id="SVGID_316_"
    x="418.57104"
    y="546.87579">{mdg6_gf}</text>
+
 
 <rect
    style="fill:none"
@@ -18356,6 +18622,7 @@
    x="457.83914"
    y="546.87579">{rf_gf}</text>
 
+
 <rect
    style="fill:none"
    id="rect24222"
@@ -18370,6 +18637,7 @@
    id="SVGID_318_"
    x="497.10727"
    y="546.87579">{oth_gf}</text>
+
 
 <rect
    style="fill:none"
@@ -18386,6 +18654,7 @@
    x="536.37537"
    y="546.87579">{un_gf}</text>
 
+
 <rect
    style="fill:none"
    id="rect24240"
@@ -18400,6 +18669,7 @@
    id="SVGID_320_"
    x="575.64349"
    y="546.87579">{tot_gf}</text>
+
 
 <rect
    style="fill:none"
@@ -18416,6 +18686,7 @@
    x="418.57104"
    y="559.18573">{mdg6_ida}</text>
 
+
 <rect
    style="fill:none"
    id="rect24258"
@@ -18430,6 +18701,7 @@
    id="SVGID_322_"
    x="457.83914"
    y="559.18573">{rf_ida}</text>
+
 
 <rect
    style="fill:none"
@@ -18446,6 +18718,7 @@
    x="497.10727"
    y="559.18573">{oth_ida}</text>
 
+
 <rect
    style="fill:none"
    id="rect24276"
@@ -18460,6 +18733,7 @@
    id="SVGID_324_"
    x="536.37537"
    y="559.18573">{un_ida}</text>
+
 
 <rect
    style="fill:none"
@@ -18476,6 +18750,7 @@
    x="575.64349"
    y="559.18573">{tot_ida}</text>
 
+
 <rect
    style="fill:none"
    id="rect24294"
@@ -18490,6 +18765,7 @@
    id="SVGID_326_"
    x="418.57104"
    y="571.49567">{mdg6_una}</text>
+
 
 <rect
    style="fill:none"
@@ -18506,6 +18782,7 @@
    x="457.83914"
    y="571.49567">{rf_una}</text>
 
+
 <rect
    style="fill:none"
    id="rect24312"
@@ -18520,6 +18797,7 @@
    id="SVGID_328_"
    x="497.10727"
    y="571.49567">{oth_una}</text>
+
 
 <rect
    style="fill:none"
@@ -18536,6 +18814,7 @@
    x="536.37537"
    y="571.49567">{un_una}</text>
 
+
 <rect
    style="fill:none"
    id="rect24330"
@@ -18550,6 +18829,7 @@
    id="SVGID_330_"
    x="575.64349"
    y="571.49567">{tot_una}</text>
+
 
 <rect
    style="fill:none"
@@ -18566,6 +18846,7 @@
    x="418.57104"
    y="522.25592">{mdg6_ec}</text>
 
+
 <rect
    style="fill:none"
    id="rect24348"
@@ -18580,6 +18861,7 @@
    id="SVGID_332_"
    x="457.83914"
    y="522.25592">{rf_ec}</text>
+
 
 <rect
    style="fill:none"
@@ -18596,6 +18878,7 @@
    x="497.10727"
    y="522.25592">{oth_ec}</text>
 
+
 <rect
    style="fill:none"
    id="rect24366"
@@ -18610,6 +18893,7 @@
    id="SVGID_334_"
    x="536.37537"
    y="522.25592">{un_ec}</text>
+
 
 <rect
    style="fill:none"
@@ -18626,6 +18910,7 @@
    x="575.64349"
    y="522.25592">{tot_ec}</text>
 
+
 <rect
    x="389.10001"
    y="592.79999"
@@ -18640,6 +18925,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_und}</text>
+
 
 <rect
    x="427.39999"
@@ -18656,6 +18942,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_und}</text>
 
+
 <rect
    x="465.79999"
    y="592.79999"
@@ -18670,6 +18957,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_und}</text>
+
 
 <rect
    x="504"
@@ -18686,6 +18974,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_und}</text>
 
+
 <rect
    x="542.29999"
    y="592.79999"
@@ -18700,6 +18989,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_und}</text>
+
 
 <rect
    x="389.10001"
@@ -18716,6 +19006,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg6_uni}</text>
 
+
 <rect
    x="427.39999"
    y="618"
@@ -18730,6 +19021,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_uni}</text>
+
 
 <rect
    x="465.79999"
@@ -18746,6 +19038,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_uni}</text>
 
+
 <rect
    x="504"
    y="618"
@@ -18760,6 +19053,7 @@
    transform="scale(0.97534608,1.0252771)"
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{un_uni}</text>
+
 
 <rect
    x="542.29999"
@@ -18776,6 +19070,7 @@
    font-size="8"
    style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{tot_uni}</text>
 
+
 <rect
    style="fill:none"
    id="rect24478"
@@ -18790,6 +19085,7 @@
    id="SVGID_346_"
    x="418.57104"
    y="596.11359">{mdg6_unf}</text>
+
 
 <rect
    style="fill:none"
@@ -18806,6 +19102,7 @@
    x="457.83914"
    y="596.11359">{rf_unf}</text>
 
+
 <rect
    style="fill:none"
    id="rect24496"
@@ -18820,6 +19117,7 @@
    id="SVGID_348_"
    x="497.10727"
    y="596.11359">{oth_unf}</text>
+
 
 <rect
    style="fill:none"
@@ -18836,6 +19134,7 @@
    x="536.37537"
    y="596.11359">{un_unf}</text>
 
+
 <rect
    style="fill:none"
    id="rect24514"
@@ -18850,6 +19149,7 @@
    id="SVGID_350_"
    x="575.64349"
    y="596.11359">{tot_unf}</text>
+
 
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.57660002;stroke-linejoin:round;stroke-miterlimit:10"
@@ -18962,6 +19262,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -18977,6 +19278,7 @@
    id="SVGID_352_"
    x="408.6066"
    y="507.74002">MDG6</text>
+
 <rect
    style="fill:none"
    id="rect24555"
@@ -18991,6 +19293,7 @@
    id="SVGID_353_"
    x="447.47299"
    y="507.74002">RH/FP</text>
+
 <rect
    style="fill:none"
    id="rect24564"
@@ -19005,6 +19308,7 @@
    id="SVGID_354_"
    x="488.35632"
    y="507.74002">Other</text>
+
 <rect
    style="fill:none"
    id="rect24573"
@@ -19019,6 +19323,7 @@
    id="SVGID_355_"
    x="518.50507"
    y="507.74002">Unspecified</text>
+
 <rect
    style="fill:none"
    id="rect24582"
@@ -19033,6 +19338,7 @@
    id="SVGID_356_"
    x="568.58936"
    y="507.74002">Total</text>
+
 <switch
    id="switch24585"
    i:objectType="areaText"
@@ -19079,6 +19385,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,309.8018,521.3125)"
    id="SVGID_357_">Multilateral</text>
+
 
 
 
@@ -19140,6 +19447,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24603"
@@ -19187,6 +19495,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,309.8018,534.7354)"
    id="SVGID_359_">EC</text>
+
 
 
 
@@ -19256,6 +19565,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24623"
@@ -19303,6 +19613,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,309.8018,597.8389)"
    id="SVGID_361_">UNDP</text>
+
 
 
 
@@ -19364,6 +19675,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24641"
@@ -19418,6 +19730,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24650"
@@ -19465,6 +19778,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,309.8018,559.9766)"
    id="SVGID_364_">GFATM</text>
+
 
 
 
@@ -19534,6 +19848,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:#3f6e82"
@@ -19590,6 +19905,7 @@
    font-size="8"
    transform="translate(399.1152,493.835)"
    id="SVGID_366_">SOURCES OF ODA IN 2009</text>
+
 
 
 
@@ -19661,6 +19977,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -19678,6 +19995,7 @@
    y="351.62943"><tspan
      style="font-weight:bold"
      id="tspan5312">2002</tspan></text>
+
 
 
 
@@ -19704,6 +20022,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24716"
@@ -19724,6 +20043,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24725"
@@ -19738,6 +20058,7 @@
    id="SVGID_371_"
    x="241.50232"
    y="393.08682">{ohp_2}</text>
+
 
 
 
@@ -19766,6 +20087,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24743"
@@ -19780,6 +20102,7 @@
    id="SVGID_373_"
    x="288.56253"
    y="379.55203">{rhfp_3}</text>
+
 
 
 
@@ -19806,6 +20129,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24761"
@@ -19820,6 +20144,7 @@
    id="SVGID_375_"
    x="288.56253"
    y="393.08682">{ohp_3}</text>
+
 
 
 
@@ -19848,6 +20173,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24779"
@@ -19862,6 +20188,7 @@
    id="SVGID_377_"
    x="335.62274"
    y="379.55203">{rhfp_4}</text>
+
 
 
 
@@ -19888,6 +20215,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24797"
@@ -19908,6 +20236,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24806"
@@ -19922,6 +20251,7 @@
    id="SVGID_380_"
    x="241.50232"
    y="406.86786">{unspec_2}</text>
+
 
 
 
@@ -19954,6 +20284,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24824"
@@ -19968,6 +20299,7 @@
    id="SVGID_382_"
    x="335.62274"
    y="406.86786">{unspec_4}</text>
+
 
 
 
@@ -20059,6 +20391,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24844"
@@ -20106,6 +20439,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.1562,375.0742)"
    id="SVGID_384_">MDG6: HIV/AIDS, Malaria &amp; other Diseases</text>
+
 
 
 
@@ -20167,6 +20501,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch24862"
@@ -20214,6 +20549,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.1562,388.938)"
    id="SVGID_386_">Reproductive Health &amp; Family Planning (RH/FP)</text>
+
 
 
 
@@ -20275,6 +20611,7 @@
 
 
 
+
 				</g>
 			</switch><line
    style="fill:none;stroke:#000000;stroke-width:0.54729998;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.0967"
@@ -20314,6 +20651,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect24995"
@@ -20328,6 +20666,7 @@
    id="SVGID_392_"
    x="382.68295"
    y="379.55203">{rhfp_5}</text>
+
 
 
 
@@ -20354,6 +20693,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25013"
@@ -20374,6 +20714,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25022"
@@ -20388,6 +20729,7 @@
    id="SVGID_395_"
    x="382.68295"
    y="406.86786">{unspec_5}</text>
+
 
 
 
@@ -20416,6 +20758,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25072"
@@ -20430,6 +20773,7 @@
    id="SVGID_398_"
    x="429.8457"
    y="379.55203">{rhfp_6}</text>
+
 
 
 
@@ -20456,6 +20800,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25090"
@@ -20476,6 +20821,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25099"
@@ -20490,6 +20836,7 @@
    id="SVGID_401_"
    x="429.8457"
    y="406.86786">{unspec_6}</text>
+
 
 
 
@@ -20518,6 +20865,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25149"
@@ -20532,6 +20880,7 @@
    id="SVGID_404_"
    x="476.90594"
    y="379.55203">{rhfp_7}</text>
+
 
 
 
@@ -20558,6 +20907,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25167"
@@ -20578,6 +20928,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25176"
@@ -20592,6 +20943,7 @@
    id="SVGID_407_"
    x="476.90594"
    y="406.86786">{unspec_7}</text>
+
 
 
 
@@ -20620,6 +20972,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25226"
@@ -20634,6 +20987,7 @@
    id="SVGID_410_"
    x="523.96619"
    y="379.55203">{rhfp_8}</text>
+
 
 
 
@@ -20660,6 +21014,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25244"
@@ -20674,6 +21029,7 @@
    id="SVGID_412_"
    x="523.96619"
    y="393.08682">{ohp_8}</text>
+
 
 
 
@@ -20702,6 +21058,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25294"
@@ -20718,6 +21075,7 @@
    y="351.62943"><tspan
      style="font-weight:bold"
      id="tspan5326">2009</tspan></text>
+
 
 
 
@@ -20744,6 +21102,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25312"
@@ -20758,6 +21117,7 @@
    id="SVGID_417_"
    x="571.23145"
    y="365.7738">{mdg6_9}</text>
+
 
 
 
@@ -20784,6 +21144,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect25330"
@@ -20798,6 +21159,7 @@
    id="SVGID_419_"
    x="571.23145"
    y="406.86786">{unspec_9}</text>
+
 
 
 
@@ -20854,6 +21216,7 @@
 
 
 
+
 			</switch><switch
    id="switch25374"
    i:objectType="pointText"
@@ -20895,6 +21258,7 @@
 
 
 
+
 			</switch><switch
    id="switch25384"
    i:objectType="pointText"
@@ -20929,6 +21293,7 @@
    font-size="5"
    transform="translate(359.0156,814.75)"
    id="SVGID_424_"> </text>
+
 
 
 
@@ -21035,7 +21400,8 @@
 			</g><switch
    id="switch26074"
    i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/">
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   transform="translate(-4,0)">
 				<foreignObject
    id="foreignObject26076"
    overflow="visible"
@@ -21062,12 +21428,14 @@
 				</foreignObject>
 				
 					<text
-   style="font-size:14.00000029px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
+   style="font-size:14px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    font-size="16"
-   transform="translate(545.5059,719.5879)"
    id="SVGID_426_"
-   x="33.460938"
-   y="0">{d_tot}%</text>
+   x="559.85394"
+   y="719.58789"><tspan
+     style="text-align:center;text-anchor:middle"
+     id="tspan4475">{d_tot}%</tspan></text>
+
 
 
 
@@ -24522,6 +24890,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -24548,6 +24917,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="30.27832"
    y="0">{g1_t3}</text>
+
 
 
 
@@ -24584,6 +24954,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -24610,6 +24981,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="30.27832"
    y="0">{g1_t5}</text>
+
 
 
 
@@ -24646,6 +25018,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -24669,6 +25042,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="80.620148"
    y="217">{g1_v4}</text>
+
 
 
 
@@ -24702,6 +25076,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -24730,6 +25105,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><text
    xml:space="preserve"
    style="font-size:4px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#be1e2d;fill-opacity:1;stroke:none;font-family:Sans"
@@ -24749,6 +25125,7 @@ n/4/3INMcw==
      x="265.08813"
      y="303.44357"
      id="tspan5415">{g1_perc}</tspan></text>
+
 
 
 
@@ -24977,6 +25354,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -25000,6 +25378,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="206.35365"
    y="217">{g2_v2}</text>
+
 
 
 
@@ -25031,6 +25410,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -25054,6 +25434,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="206.35365"
    y="217">{g2_v4}</text>
+
 
 
 
@@ -25085,6 +25466,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -25108,6 +25490,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="206.35365"
    y="217">{g2_v6}</text>
+
 
 
 
@@ -25139,6 +25522,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -25166,6 +25550,7 @@ n/4/3INMcw==
 
 
 
+
 </switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -25189,6 +25574,7 @@ n/4/3INMcw==
    style="font-size:6px;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial"
    x="206.35365"
    y="217">{g2_v9}</text>
+
 
 
 
@@ -25290,4 +25676,10 @@ n/4/3INMcw==
        style="fill:#58595b;fill-opacity:1"
        id="flowSpan5474"> AFRO-WHO African Region; AMRO-WHO Region of the Americas; EMRO-WHO Eastern Mediterranean Region; EURO-WHO European Region; MDG-Millennium Development Goals; SEARO-WHO South-East Asia Region; UN-United  Nations; WPRO-WHO Western Pacific Region.</flowSpan></flowPara><flowPara
      id="flowPara5644"
-     style="font-size:5px;text-align:justify;text-anchor:start;-inkscape-font-specification:Arial;font-family:Arial" /></flowRoot></svg>
+     style="font-size:5px;text-align:justify;text-anchor:start;-inkscape-font-specification:Arial;font-family:Arial" /></flowRoot><rect
+   style="fill:#ffffff;fill-opacity:1;stroke:none"
+   id="rect5265"
+   width="1.767767"
+   height="39.59798"
+   x="577.83221"
+   y="8.4510098" /></svg>
