@@ -10325,8 +10325,8 @@
    id="namedview26134"
    showgrid="false"
    inkscape:zoom="2.2547266"
-   inkscape:cx="390.89985"
-   inkscape:cy="188.81711"
+   inkscape:cx="71.612354"
+   inkscape:cy="543.62732"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -10353,7 +10353,34 @@
 <rdf:RDF><cc:Work
      rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata>
-<rect
+<g
+   id="g4477"><rect
+     x="241.2"
+     y="288.29999"
+     i:knockout="Off"
+     width="47.700001"
+     height="20.299999"
+     id="rect23974"
+     style="fill:#ffffff;stroke:#be1e2d;stroke-width:0.75" /><text
+     sodipodi:linespacing="125%"
+     id="text5409"
+     y="293.44357"
+     x="265.08813"
+     style="font-size:4px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#be1e2d;fill-opacity:1;stroke:none;font-family:Sans"
+     xml:space="preserve"><tspan
+       y="293.44357"
+       x="265.08813"
+       id="tspan5411"
+       sodipodi:role="line">Note: ODA for Health</tspan><tspan
+       id="tspan5413"
+       y="298.44357"
+       x="265.08813"
+       sodipodi:role="line">as % of Total ODA has</tspan><tspan
+       id="tspan5415"
+       y="303.44357"
+       x="265.08813"
+       sodipodi:role="line">{g1_perc}</tspan></text>
+</g><rect
    style="fill:#ffffff"
    id="rect21434"
    height="110.6"
@@ -18305,13 +18332,6 @@
 
 
 			</switch><rect
-   style="fill:#ffffff;stroke:#be1e2d;stroke-width:0.75"
-   id="rect23974"
-   height="20.299999"
-   width="47.700001"
-   i:knockout="Off"
-   y="288.29999"
-   x="241.2" /><rect
    style="fill:#3f6e82"
    id="rect24111"
    height="14.2"
@@ -25106,26 +25126,7 @@ n/4/3INMcw==
 
 
 
-</switch><text
-   xml:space="preserve"
-   style="font-size:4px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#be1e2d;fill-opacity:1;stroke:none;font-family:Sans"
-   x="265.08813"
-   y="293.44357"
-   id="text5409"
-   sodipodi:linespacing="125%"><tspan
-     sodipodi:role="line"
-     id="tspan5411"
-     x="265.08813"
-     y="293.44357">Note: ODA for Health</tspan><tspan
-     sodipodi:role="line"
-     x="265.08813"
-     y="298.44357"
-     id="tspan5413">as % of Total ODA has</tspan><tspan
-     sodipodi:role="line"
-     x="265.08813"
-     y="303.44357"
-     id="tspan5415">{g1_perc}</tspan></text>
-
+</switch>
 
 
 
