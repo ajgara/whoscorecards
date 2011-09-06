@@ -29,7 +29,28 @@
    id="svg2"
    inkscape:version="0.48.0 r9654"
    sodipodi:docname="WHO_ODA_donar.svg"><defs
-   id="defs4299">
+   id="defs4299"><marker
+   inkscape:stockid="Arrow1Lstart"
+   orient="auto"
+   refY="0.0"
+   refX="0.0"
+   id="Arrow1Lstart"
+   style="overflow:visible"><path
+     id="path6199"
+     d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+     style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+     transform="scale(0.8) translate(12.5,0)" /></marker><marker
+   inkscape:stockid="DotL"
+   orient="auto"
+   refY="0.0"
+   refX="0.0"
+   id="DotL"
+   style="overflow:visible"><path
+     id="path6261"
+     d="m -2.5,-1 c 0,2.76 -2.24,5 -5,5 -2.76,0 -5,-2.24 -5,-5 0,-2.76 2.24,-5 5,-5 2.76,0 5,2.24 5,5 z"
+     style="fill:#c1b400;fill-rule:evenodd;stroke:#c1b400;stroke-width:1pt;marker-start:none;marker-end:none"
+     transform="matrix(0.3,0,0,0.3,2.22,0.3)"
+     inkscape:connector-curvature="0" /></marker>
 	<foreignObject
    id="foreignObject8"
    height="1"
@@ -7940,9 +7961,9 @@
    inkscape:window-height="1005"
    id="namedview4297"
    showgrid="false"
-   inkscape:zoom="2.8284272"
-   inkscape:cx="619.82007"
-   inkscape:cy="422.22127"
+   inkscape:zoom="4.0000001"
+   inkscape:cx="695.59511"
+   inkscape:cy="535.63564"
    inkscape:window-x="0"
    inkscape:window-y="25"
    inkscape:window-maximized="1"
@@ -8307,12 +8328,13 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch122"
    i:objectType="areaText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-100,0)">
+   transform="translate(-100,2)">
 				<foreignObject
    id="foreignObject124"
    overflow="visible"
@@ -8360,6 +8382,7 @@
    y="47.381802"><tspan
      style="font-size:32px;text-align:end;text-anchor:end"
      id="tspan14337">{country}</tspan></text>
+
 
 
 
@@ -8589,6 +8612,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -8622,6 +8646,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect209"
@@ -8640,6 +8665,7 @@
 
 
 
+
 <text
    style="font-size:6.80276885px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial"
    font-size="8"
@@ -8647,6 +8673,7 @@
    id="SVGID_14_"
    x="168.09798"
    y="101.99701">{oda_2}</text>
+
 
 
 
@@ -8669,6 +8696,7 @@
 
 
 
+
 <text
    style="font-size:7.80276870999999961px;fill:#0093d5;font-family:Arial;font-weight:bold;-inkscape-font-specification:Arial Bold"
    font-size="8"
@@ -8676,6 +8704,7 @@
    id="SVGID_18_"
    x="202.37585"
    y="87.852547">2003</text>
+
 
 
 
@@ -8698,6 +8727,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect254"
@@ -8712,6 +8742,7 @@
    id="SVGID_22_"
    x="212.28743"
    y="101.99701">{oda_3}</text>
+
 
 
 
@@ -8734,6 +8765,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect272"
@@ -8748,6 +8780,7 @@
    id="SVGID_26_"
    x="246.47197"
    y="87.852547">2004</text>
+
 
 
 
@@ -8770,6 +8803,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect290"
@@ -8784,6 +8818,7 @@
    id="SVGID_30_"
    x="256.47687"
    y="101.99701">{oda_4}</text>
+
 
 
 
@@ -8806,6 +8841,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect308"
@@ -8820,6 +8856,7 @@
    id="SVGID_34_"
    x="290.68079"
    y="87.852547">2005</text>
+
 
 
 
@@ -8842,6 +8879,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect326"
@@ -8856,6 +8894,7 @@
    id="SVGID_38_"
    x="300.56378"
    y="101.99701">{oda_5}</text>
+
 
 
 
@@ -8878,6 +8917,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect344"
@@ -8892,6 +8932,7 @@
    id="SVGID_42_"
    x="334.77499"
    y="87.852547">2006</text>
+
 
 
 
@@ -8914,6 +8955,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect362"
@@ -8928,6 +8970,7 @@
    id="SVGID_46_"
    x="344.75323"
    y="101.99701">{oda_6}</text>
+
 
 
 
@@ -8950,6 +8993,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect380"
@@ -8964,6 +9008,7 @@
    id="SVGID_50_"
    x="379.05203"
    y="87.852547">2007</text>
+
 
 
 
@@ -8986,6 +9031,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect398"
@@ -9000,6 +9046,7 @@
    id="SVGID_54_"
    x="388.94266"
    y="101.99701">{oda_7}</text>
+
 
 
 
@@ -9022,6 +9069,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect416"
@@ -9036,6 +9084,7 @@
    id="SVGID_58_"
    x="423.1748"
    y="87.852547">2008</text>
+
 
 
 
@@ -9058,6 +9107,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect434"
@@ -9072,6 +9122,7 @@
    id="SVGID_62_"
    x="433.13211"
    y="101.99701">{oda_8}</text>
+
 
 
 
@@ -9094,6 +9145,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect452"
@@ -9108,6 +9160,7 @@
    id="SVGID_66_"
    x="467.37189"
    y="87.852547">2009</text>
+
 
 
 
@@ -9130,6 +9183,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect470"
@@ -9148,6 +9202,7 @@
 
 
 
+
 <rect
    style="fill:none"
    id="rect479"
@@ -9162,6 +9217,7 @@
    id="SVGID_72_"
    x="477.32156"
    y="129.31001">{odahp_9}</text>
+
 
 
 
@@ -9235,6 +9291,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch495"
@@ -9283,6 +9340,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,104.6299)"
    id="SVGID_76_">ODA Commitments</text>
+
 
 
 
@@ -9343,6 +9401,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch513"
@@ -9389,6 +9448,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,118.6504)"
    id="SVGID_80_">ODA for Health Commitments</text>
+
 
 
 
@@ -9486,6 +9546,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch>
@@ -9526,6 +9587,7 @@
    id="SVGID_86_"
    x="19.951172"
    y="0">{g1_t6}</text>
+
 
 
 
@@ -9575,6 +9637,7 @@
 
 
 
+
 			</switch><switch
    id="switch555"
    i:objectType="pointText"
@@ -9612,6 +9675,7 @@
    id="SVGID_90_"
    x="16.371094"
    y="0">{g1_t4}</text>
+
 
 
 
@@ -9661,6 +9725,7 @@
 
 
 
+
 			</switch><switch
    id="switch565"
    i:objectType="pointText"
@@ -9698,6 +9763,7 @@
    id="SVGID_92_"
    x="16.350586"
    y="0">{g1_t2}</text>
+
 
 
 
@@ -9747,6 +9813,7 @@
 
 
 
+
 			</switch><switch
    i:knockout="Off"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -9789,6 +9856,7 @@
    transform="translate(637.2197,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2002</text>
+
 
 
 
@@ -9845,6 +9913,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -9889,6 +9958,7 @@
    transform="translate(685.9756,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2004</text>
+
 
 
 
@@ -9945,6 +10015,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -9995,6 +10066,7 @@
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -10039,6 +10111,7 @@
    transform="translate(759.1094,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2007</text>
+
 
 
 
@@ -10327,6 +10400,7 @@
 
 
 
+
 			</switch><switch
    id="switch694"
    i:objectType="pointText"
@@ -10362,6 +10436,7 @@
    font-size="5"
    transform="matrix(0,-1,1,0,605.1562,231.9355)"
    id="SVGID_105_">(in Million constant 2008 US$)</text>
+
 
 
 
@@ -10409,6 +10484,7 @@
 
 
 
+
 			</switch><line
    i:knockout="Off"
    clip-path="url(#SVGID_107_)"
@@ -10423,21 +10499,9 @@
    d="m 820.9,68.2 0,0 m -189.5,0 0,0"
    id="path714"
    inkscape:connector-curvature="0"
-   style="fill:none;stroke:#58595b;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" /><path
-   i:knockout="Off"
-   clip-path="url(#SVGID_107_)"
-   d="m 813.4,128.6 c 0.8,0 1.4,-0.6 1.4,-1.4 0,-0.8 -0.6,-1.4 -1.4,-1.4 -0.8,0 -1.4,0.6 -1.4,1.4 0,0.8 0.6,1.4 1.4,1.4"
-   id="path718"
-   inkscape:connector-curvature="0"
-   style="fill:#c1b400" /><path
-   i:knockout="Off"
-   clip-path="url(#SVGID_121_)"
-   d="m 642.5,124.6 c 0.8,0 1.4,-0.6 1.4,-1.4 0,-0.8 -0.6,-1.4 -1.4,-1.4 -0.8,0 -1.4,0.6 -1.4,1.4 0,0.8 0.7,1.4 1.4,1.4"
-   id="path837"
-   inkscape:connector-curvature="0"
-   style="fill:#c1b400" /><polyline
-   style="fill:none;stroke:#c1b400;stroke-width:0.75"
-   id="polyline844"
+   style="fill:none;stroke:#58595b;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round" /><polyline
+   style="fill:none;stroke:#c1b400;stroke-width:0.75;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;marker-start:url(#DotL);marker-mid:none;marker-end:url(#DotL)"
+   id="graph_line"
    points="813.5,127.3 789,126.1 764.8,123.5      740.4,125.6 716,125.2 691.5,126.8 667,125.1 642.6,123.2    "
    i:knockout="Off" /><rect
    style="fill:#0093d5"
@@ -10505,6 +10569,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch861"
@@ -10539,6 +10604,7 @@
    font-size="5.5"
    transform="translate(520.9053,125.2051)"
    id="SVGID_124_">ODA for Health (not to scale)</text>
+
 
 
 
@@ -10631,6 +10697,7 @@
 
 
 
+
 			</switch><switch
      transform="translate(-1.7836469,0)"
      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -10666,6 +10733,7 @@
    style="font-size:5.5px;font-family:Arial"><tspan
      id="tspan14245"
      style="font-size:5px">Least Developed Countries</tspan></text>
+
 
 
 
@@ -10711,6 +10779,7 @@
 
 
 
+
 			</switch><switch
      transform="translate(-1.7836469,0)"
      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -10744,6 +10813,7 @@
    transform="translate(516.2725,231.543)"
    font-size="5.5"
    style="font-size:5px;font-family:Arial">Low Middle Income Countries</text>
+
 
 
 
@@ -10785,6 +10855,7 @@
    style="font-size:5.5px;font-family:Arial"><tspan
      id="tspan14247"
      style="font-size:5px">Upper Middle Income Countries</tspan></text>
+
 
 
 
@@ -11024,6 +11095,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11059,6 +11131,7 @@
    transform="translate(634.9375,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Arial">2006</text>
+
 
 
 
@@ -11107,6 +11180,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11142,6 +11216,7 @@
    transform="translate(685.5645,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Arial">2007</text>
+
 
 
 
@@ -11189,6 +11264,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11224,6 +11300,7 @@
    transform="translate(794.6172,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Arial">2009</text>
+
 
 
 
@@ -11271,6 +11348,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -11306,6 +11384,7 @@
    transform="translate(739.1387,257.8564)"
    font-size="5.94"
    style="font-size:5.94000006px;fill:#58595b;font-family:Arial">2008</text>
+
 
 
 
@@ -11687,6 +11766,7 @@
    id="SVGID_217_"
    x="251.28593"
    y="272.33679">ALLOCATION BY WHO REGION</text>
+
 <rect
    style="fill:none"
    id="rect1865"
@@ -11701,6 +11781,7 @@
    id="SVGID_218_"
    x="168.20085"
    y="279.65036">2002</text>
+
 <rect
    style="fill:none"
    id="rect1874"
@@ -11715,6 +11796,7 @@
    id="SVGID_219_"
    x="168.09608"
    y="307.57346">{amro_2}</text>
+
 <rect
    style="fill:none"
    id="rect1883"
@@ -11729,6 +11811,7 @@
    id="SVGID_220_"
    x="168.09584"
    y="293.79483">{afro_2}</text>
+
 <rect
    style="fill:none"
    id="rect1892"
@@ -11743,6 +11826,7 @@
    id="SVGID_221_"
    x="168.09798"
    y="321.10834">{emro_2}</text>
+
 <rect
    style="fill:none"
    id="rect1901"
@@ -11757,6 +11841,7 @@
    id="SVGID_222_"
    x="212.31219"
    y="279.65036">2003</text>
+
 <rect
    style="fill:none"
    id="rect1910"
@@ -11771,6 +11856,7 @@
    id="SVGID_223_"
    x="212.28743"
    y="307.57346">{amro_3}</text>
+
 <rect
    style="fill:none"
    id="rect1919"
@@ -11785,6 +11871,7 @@
    id="SVGID_224_"
    x="212.28743"
    y="293.79483">{afro_3}</text>
+
 <rect
    style="fill:none"
    id="rect1928"
@@ -11799,6 +11886,7 @@
    id="SVGID_225_"
    x="212.28743"
    y="321.10834">{emro_3}</text>
+
 <rect
    style="fill:none"
    id="rect1937"
@@ -11813,6 +11901,7 @@
    id="SVGID_226_"
    x="256.40829"
    y="279.65036">2004</text>
+
 <rect
    style="fill:none"
    id="rect1946"
@@ -11827,6 +11916,7 @@
    id="SVGID_227_"
    x="256.47687"
    y="307.57346">{amro_4}</text>
+
 <rect
    style="fill:none"
    id="rect1955"
@@ -11841,6 +11931,7 @@
    id="SVGID_228_"
    x="256.47687"
    y="293.79483">{afro_4}</text>
+
 <rect
    style="fill:none"
    id="rect1964"
@@ -11855,6 +11946,7 @@
    id="SVGID_229_"
    x="256.47687"
    y="321.10834">{emro_4}</text>
+
 <rect
    style="fill:none"
    id="rect1973"
@@ -11869,6 +11961,7 @@
    id="SVGID_230_"
    x="300.61713"
    y="279.65036">2005</text>
+
 <rect
    style="fill:none"
    id="rect1982"
@@ -11883,6 +11976,7 @@
    id="SVGID_231_"
    x="300.56378"
    y="307.57346">{amro_5}</text>
+
 <rect
    style="fill:none"
    id="rect1991"
@@ -11897,6 +11991,7 @@
    id="SVGID_232_"
    x="300.56378"
    y="293.79483">{afro_5}</text>
+
 <rect
    style="fill:none"
    id="rect2000"
@@ -11911,6 +12006,7 @@
    id="SVGID_233_"
    x="300.56378"
    y="321.10834">{emro_5}</text>
+
 <rect
    style="fill:none"
    id="rect2009"
@@ -11925,6 +12021,7 @@
    id="SVGID_234_"
    x="347.24673"
    y="279.65036">2006</text>
+
 <rect
    style="fill:none"
    id="rect2018"
@@ -11939,6 +12036,7 @@
    id="SVGID_235_"
    x="344.75323"
    y="307.57346">{amro_6}</text>
+
 <rect
    style="fill:none"
    id="rect2027"
@@ -11953,6 +12051,7 @@
    id="SVGID_236_"
    x="344.75323"
    y="293.79483">{afro_6}</text>
+
 <rect
    style="fill:none"
    id="rect2036"
@@ -11967,6 +12066,7 @@
    id="SVGID_237_"
    x="344.75323"
    y="321.10834">{emro_6}</text>
+
 <rect
    style="fill:none"
    id="rect2045"
@@ -11981,6 +12081,7 @@
    id="SVGID_238_"
    x="388.98837"
    y="279.65036">2007</text>
+
 <rect
    style="fill:none"
    id="rect2054"
@@ -11995,6 +12096,7 @@
    id="SVGID_239_"
    x="388.94266"
    y="307.57346">{amro_7}</text>
+
 <rect
    style="fill:none"
    id="rect2063"
@@ -12009,6 +12111,7 @@
    id="SVGID_240_"
    x="388.94266"
    y="293.79483">{afro_7}</text>
+
 <rect
    style="fill:none"
    id="rect2072"
@@ -12023,6 +12126,7 @@
    id="SVGID_241_"
    x="388.94266"
    y="321.10834">{emro_7}</text>
+
 <rect
    style="fill:none"
    id="rect2081"
@@ -12037,6 +12141,7 @@
    id="SVGID_242_"
    x="433.11115"
    y="279.65036">2008</text>
+
 <rect
    style="fill:none"
    id="rect2090"
@@ -12051,6 +12156,7 @@
    id="SVGID_243_"
    x="433.13211"
    y="307.57346">{amro_8}</text>
+
 <rect
    style="fill:none"
    id="rect2099"
@@ -12065,6 +12171,7 @@
    id="SVGID_244_"
    x="433.13211"
    y="293.79483">{afro_8}</text>
+
 <rect
    style="fill:none"
    id="rect2108"
@@ -12079,6 +12186,7 @@
    id="SVGID_245_"
    x="433.13211"
    y="321.10834">{emro_8}</text>
+
 <rect
    style="fill:none"
    id="rect2117"
@@ -12093,6 +12201,7 @@
    id="SVGID_246_"
    x="477.30823"
    y="279.65036">2009</text>
+
 <rect
    style="fill:none"
    id="rect2126"
@@ -12107,6 +12216,7 @@
    id="SVGID_247_"
    x="477.32156"
    y="307.57346">{amro_9}</text>
+
 <rect
    style="fill:none"
    id="rect2135"
@@ -12121,6 +12231,7 @@
    id="SVGID_248_"
    x="477.32156"
    y="293.79483">{afro_9}</text>
+
 <rect
    style="fill:none"
    id="rect2144"
@@ -12135,6 +12246,7 @@
    id="SVGID_249_"
    x="477.32156"
    y="321.10834">{emro_9}</text>
+
 <rect
    style="fill:none"
    id="rect2153"
@@ -12149,6 +12261,7 @@
    id="SVGID_250_"
    x="168.09798"
    y="334.88889">{euro_2}</text>
+
 <rect
    style="fill:none"
    id="rect2162"
@@ -12163,6 +12276,7 @@
    id="SVGID_251_"
    x="212.28743"
    y="334.88889">{euro_3}</text>
+
 <rect
    style="fill:none"
    id="rect2171"
@@ -12177,6 +12291,7 @@
    id="SVGID_252_"
    x="256.47687"
    y="334.88889">{euro_4}</text>
+
 <rect
    style="fill:none"
    id="rect2180"
@@ -12191,6 +12306,7 @@
    id="SVGID_253_"
    x="300.56378"
    y="334.88889">{euro_5}</text>
+
 <rect
    style="fill:none"
    id="rect2189"
@@ -12205,6 +12321,7 @@
    id="SVGID_254_"
    x="344.75323"
    y="334.88889">{euro_6}</text>
+
 <rect
    style="fill:none"
    id="rect2198"
@@ -12219,6 +12336,7 @@
    id="SVGID_255_"
    x="388.94266"
    y="334.88889">{euro_7}</text>
+
 <rect
    style="fill:none"
    id="rect2207"
@@ -12233,6 +12351,7 @@
    id="SVGID_256_"
    x="433.13211"
    y="334.88889">{euro_8}</text>
+
 <rect
    style="fill:none"
    id="rect2216"
@@ -12247,6 +12366,7 @@
    id="SVGID_257_"
    x="477.32156"
    y="334.88889">{euro_9}</text>
+
 <rect
    style="fill:none"
    id="rect2225"
@@ -12261,6 +12381,7 @@
    id="SVGID_258_"
    x="168.09798"
    y="348.5257">{searo_2}</text>
+
 <rect
    style="fill:none"
    id="rect2234"
@@ -12275,6 +12396,7 @@
    id="SVGID_259_"
    x="212.28743"
    y="348.5257">{searo_3}</text>
+
 <rect
    style="fill:none"
    id="rect2243"
@@ -12289,6 +12411,7 @@
    id="SVGID_260_"
    x="256.47687"
    y="348.5257">{searo_4}</text>
+
 <rect
    style="fill:none"
    id="rect2252"
@@ -12303,6 +12426,7 @@
    id="SVGID_261_"
    x="300.56378"
    y="348.5257">{searo_5}</text>
+
 <rect
    style="fill:none"
    id="rect2261"
@@ -12317,6 +12441,7 @@
    id="SVGID_262_"
    x="344.75323"
    y="348.5257">{searo_6}</text>
+
 <rect
    style="fill:none"
    id="rect2270"
@@ -12331,6 +12456,7 @@
    id="SVGID_263_"
    x="388.94266"
    y="348.5257">{searo_7}</text>
+
 <rect
    style="fill:none"
    id="rect2279"
@@ -12345,6 +12471,7 @@
    id="SVGID_264_"
    x="433.13211"
    y="348.5257">{searo_8}</text>
+
 <rect
    style="fill:none"
    id="rect2288"
@@ -12359,6 +12486,7 @@
    id="SVGID_265_"
    x="477.32156"
    y="348.5257">{searo_9}</text>
+
 <line
    style="fill:none;stroke:#0093d5;stroke-width:0.75;stroke-linejoin:round;stroke-miterlimit:10"
    id="line2291"
@@ -12468,6 +12596,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2314"
@@ -12516,6 +12645,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,309.5508)"
    id="SVGID_267_">To AFRO Countries</text>
+
 
 
 
@@ -12576,6 +12706,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2332"
@@ -12630,6 +12761,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -12645,6 +12777,7 @@
    id="SVGID_270_"
    x="168.09798"
    y="362.69385">{wpro_2}</text>
+
 <rect
    style="fill:none"
    id="rect2356"
@@ -12659,6 +12792,7 @@
    id="SVGID_271_"
    x="212.28743"
    y="362.69385">{wpro_3}</text>
+
 <rect
    style="fill:none"
    id="rect2365"
@@ -12673,6 +12807,7 @@
    id="SVGID_272_"
    x="256.47687"
    y="362.69385">{wpro_4}</text>
+
 <rect
    style="fill:none"
    id="rect2374"
@@ -12687,6 +12822,7 @@
    id="SVGID_273_"
    x="300.56378"
    y="362.69385">{wpro_5}</text>
+
 <rect
    style="fill:none"
    id="rect2383"
@@ -12701,6 +12837,7 @@
    id="SVGID_274_"
    x="344.75323"
    y="362.69385">{wpro_6}</text>
+
 <rect
    style="fill:none"
    id="rect2392"
@@ -12715,6 +12852,7 @@
    id="SVGID_275_"
    x="388.94266"
    y="362.69385">{wpro_7}</text>
+
 <rect
    style="fill:none"
    id="rect2401"
@@ -12729,6 +12867,7 @@
    id="SVGID_276_"
    x="433.13211"
    y="362.69385">{wpro_8}</text>
+
 <rect
    style="fill:none"
    id="rect2410"
@@ -12743,6 +12882,7 @@
    id="SVGID_277_"
    x="477.32156"
    y="362.69385">{wpro_9}</text>
+
 <switch
    id="switch2413"
    i:objectType="areaText"
@@ -12796,6 +12936,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -12811,6 +12952,7 @@
    id="SVGID_279_"
    x="168.09798"
    y="377.0098">{gmcr_2}</text>
+
 <rect
    style="fill:none"
    id="rect2437"
@@ -12825,6 +12967,7 @@
    id="SVGID_280_"
    x="212.28743"
    y="377.0098">{gmcr_3}</text>
+
 <rect
    style="fill:none"
    id="rect2446"
@@ -12839,6 +12982,7 @@
    id="SVGID_281_"
    x="256.47687"
    y="377.0098">{gmcr_4}</text>
+
 <rect
    style="fill:none"
    id="rect2455"
@@ -12853,6 +12997,7 @@
    id="SVGID_282_"
    x="300.56378"
    y="377.0098">{gmcr_5}</text>
+
 <rect
    style="fill:none"
    id="rect2464"
@@ -12867,6 +13012,7 @@
    id="SVGID_283_"
    x="344.75323"
    y="377.0098">{gmcr_6}</text>
+
 <rect
    style="fill:none"
    id="rect2473"
@@ -12881,6 +13027,7 @@
    id="SVGID_284_"
    x="388.94266"
    y="377.0098">{gmcr_7}</text>
+
 <rect
    style="fill:none"
    id="rect2482"
@@ -12895,6 +13042,7 @@
    id="SVGID_285_"
    x="433.13211"
    y="377.0098">{gmcr_8}</text>
+
 <rect
    style="fill:none"
    id="rect2491"
@@ -12909,6 +13057,7 @@
    id="SVGID_286_"
    x="477.32156"
    y="377.0098">{gmcr_9}</text>
+
 <switch
    id="switch2494"
    i:objectType="areaText"
@@ -12962,6 +13111,7 @@
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:none"
@@ -12977,6 +13127,7 @@
    id="SVGID_288_"
    x="168.09798"
    y="390.73602">{othr_2}</text>
+
 <rect
    style="fill:none"
    id="rect2518"
@@ -12991,6 +13142,7 @@
    id="SVGID_289_"
    x="212.28743"
    y="390.73602">{othr_3}</text>
+
 <rect
    style="fill:none"
    id="rect2527"
@@ -13005,6 +13157,7 @@
    id="SVGID_290_"
    x="256.47687"
    y="390.73602">{othr_4}</text>
+
 <rect
    style="fill:none"
    id="rect2536"
@@ -13019,6 +13172,7 @@
    id="SVGID_291_"
    x="300.56378"
    y="390.73602">{othr_5}</text>
+
 <rect
    style="fill:none"
    id="rect2545"
@@ -13033,6 +13187,7 @@
    id="SVGID_292_"
    x="344.75323"
    y="390.73602">{othr_6}</text>
+
 <rect
    style="fill:none"
    id="rect2554"
@@ -13047,6 +13202,7 @@
    id="SVGID_293_"
    x="388.94266"
    y="390.73602">{othr_7}</text>
+
 <rect
    style="fill:none"
    id="rect2563"
@@ -13061,6 +13217,7 @@
    id="SVGID_294_"
    x="433.13211"
    y="390.73602">{othr_8}</text>
+
 <rect
    style="fill:none"
    id="rect2572"
@@ -13075,6 +13232,7 @@
    id="SVGID_295_"
    x="477.32156"
    y="390.73602">{othr_9}</text>
+
 <switch
    id="switch2575"
    i:objectType="areaText"
@@ -13122,6 +13280,7 @@
    font-size="7"
    transform="matrix(0.8878,0,0,1,23.3271,408.2832)"
    id="SVGID_296_">Others</text>
+
 
 
 
@@ -13182,6 +13341,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch2593"
@@ -13236,6 +13396,7 @@
 
 
 
+
 				</g>
 			</switch><line
    style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002"
@@ -13261,80 +13422,80 @@
    style="fill:#be1e2d" /><g
    id="g4483"
    transform="translate(0,-4)"><rect
-     x="14.8"
-     y="154.3"
-     i:knockout="Off"
-     width="472.29999"
-     height="14.2"
-     id="rect967"
-     style="fill:#df7627" /><rect
-     x="142.39999"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect969"
-     style="fill:#e6e7e8" /><rect
-     x="228.60001"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect971"
-     style="fill:#e6e7e8" /><rect
-     x="314.70001"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect973"
-     style="fill:#e6e7e8" /><rect
-     x="400.89999"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect975"
-     style="fill:#e6e7e8" /><rect
-     x="14.8"
-     y="168.39999"
-     i:knockout="Off"
-     width="127.6"
-     height="85"
-     id="rect977"
-     style="fill:#ffffff" /><rect
-     x="185.5"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect979"
-     style="fill:#ffffff" /><rect
-     x="271.60001"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect981"
-     style="fill:#ffffff" /><rect
-     x="357.79999"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect983"
-     style="fill:#ffffff" /><rect
-     x="444"
-     y="168.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="85"
-     id="rect985"
-     style="fill:#ffffff" /><switch
-     transform="translate(-6.5817121,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch987">
+   x="14.8"
+   y="154.3"
+   i:knockout="Off"
+   width="472.29999"
+   height="14.2"
+   id="rect967"
+   style="fill:#df7627" /><rect
+   x="142.39999"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect969"
+   style="fill:#e6e7e8" /><rect
+   x="228.60001"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect971"
+   style="fill:#e6e7e8" /><rect
+   x="314.70001"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect973"
+   style="fill:#e6e7e8" /><rect
+   x="400.89999"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect975"
+   style="fill:#e6e7e8" /><rect
+   x="14.8"
+   y="168.39999"
+   i:knockout="Off"
+   width="127.6"
+   height="85"
+   id="rect977"
+   style="fill:#ffffff" /><rect
+   x="185.5"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect979"
+   style="fill:#ffffff" /><rect
+   x="271.60001"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect981"
+   style="fill:#ffffff" /><rect
+   x="357.79999"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect983"
+   style="fill:#ffffff" /><rect
+   x="444"
+   y="168.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="85"
+   id="rect985"
+   style="fill:#ffffff" /><switch
+   transform="translate(-6.5817121,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch987">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -13385,716 +13546,765 @@
 
 
 
+
 				</g>
 			</switch><rect
-     x="142.39999"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1002"
-     style="fill:none" /><text
-     y="174.05353"
-     x="168.20085"
-     id="SVGID_139_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2002</text>
+   x="142.39999"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1002"
+   style="fill:none" /><text
+   y="174.05353"
+   x="168.20085"
+   id="SVGID_139_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2002</text>
+
 <rect
-     x="142.39999"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1011"
-     style="fill:none" /><text
-     y="201.97614"
-     x="168.09798"
-     id="SVGID_140_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_2}</text>
+   x="142.39999"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1011"
+   style="fill:none" /><text
+   y="201.97614"
+   x="168.09798"
+   id="SVGID_140_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_2}</text>
+
 <rect
-     x="142.39999"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1020"
-     style="fill:none" /><text
-     y="188.198"
-     x="168.09798"
-     id="SVGID_141_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_2}</text>
+   x="142.39999"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1020"
+   style="fill:none" /><text
+   y="188.198"
+   x="168.09798"
+   id="SVGID_141_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_2}</text>
+
 <rect
-     x="142.39999"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1029"
-     style="fill:none" /><text
-     y="215.51102"
-     x="168.09798"
-     id="SVGID_142_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_2}</text>
+   x="142.39999"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1029"
+   style="fill:none" /><text
+   y="215.51102"
+   x="168.09798"
+   id="SVGID_142_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_2}</text>
+
 <rect
-     x="185.5"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1038"
-     style="fill:none" /><text
-     y="174.05353"
-     x="212.31219"
-     id="SVGID_143_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2003</text>
+   x="185.5"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1038"
+   style="fill:none" /><text
+   y="174.05353"
+   x="212.31219"
+   id="SVGID_143_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2003</text>
+
 <rect
-     x="185.5"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1047"
-     style="fill:none" /><text
-     y="201.97614"
-     x="212.28743"
-     id="SVGID_144_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_3}</text>
+   x="185.5"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1047"
+   style="fill:none" /><text
+   y="201.97614"
+   x="212.28743"
+   id="SVGID_144_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_3}</text>
+
 <rect
-     x="185.5"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1056"
-     style="fill:none" /><text
-     y="188.198"
-     x="212.28743"
-     id="SVGID_145_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_3}</text>
+   x="185.5"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1056"
+   style="fill:none" /><text
+   y="188.198"
+   x="212.28743"
+   id="SVGID_145_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_3}</text>
+
 <rect
-     x="185.5"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1065"
-     style="fill:none" /><text
-     y="215.51102"
-     x="212.28743"
-     id="SVGID_146_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_3}</text>
+   x="185.5"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1065"
+   style="fill:none" /><text
+   y="215.51102"
+   x="212.28743"
+   id="SVGID_146_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_3}</text>
+
 <rect
-     x="228.60001"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1074"
-     style="fill:none" /><text
-     y="174.05353"
-     x="256.40829"
-     id="SVGID_147_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2004</text>
+   x="228.60001"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1074"
+   style="fill:none" /><text
+   y="174.05353"
+   x="256.40829"
+   id="SVGID_147_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2004</text>
+
 <rect
-     x="228.60001"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1083"
-     style="fill:none" /><text
-     y="201.97614"
-     x="256.47687"
-     id="SVGID_148_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_4}</text>
+   x="228.60001"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1083"
+   style="fill:none" /><text
+   y="201.97614"
+   x="256.47687"
+   id="SVGID_148_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_4}</text>
+
 <rect
-     x="228.60001"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1092"
-     style="fill:none" /><text
-     y="188.198"
-     x="256.47687"
-     id="SVGID_149_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_4}</text>
+   x="228.60001"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1092"
+   style="fill:none" /><text
+   y="188.198"
+   x="256.47687"
+   id="SVGID_149_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_4}</text>
+
 <rect
-     x="228.60001"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1101"
-     style="fill:none" /><text
-     y="215.51102"
-     x="256.47687"
-     id="SVGID_150_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_4}</text>
+   x="228.60001"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1101"
+   style="fill:none" /><text
+   y="215.51102"
+   x="256.47687"
+   id="SVGID_150_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_4}</text>
+
 <rect
-     x="271.60001"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1110"
-     style="fill:none" /><text
-     y="174.05353"
-     x="300.61713"
-     id="SVGID_151_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2005</text>
+   x="271.60001"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1110"
+   style="fill:none" /><text
+   y="174.05353"
+   x="300.61713"
+   id="SVGID_151_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2005</text>
+
 <rect
-     x="271.60001"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1119"
-     style="fill:none" /><text
-     y="201.97614"
-     x="300.56378"
-     id="SVGID_152_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_5}</text>
+   x="271.60001"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1119"
+   style="fill:none" /><text
+   y="201.97614"
+   x="300.56378"
+   id="SVGID_152_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_5}</text>
+
 <rect
-     x="271.60001"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1128"
-     style="fill:none" /><text
-     y="188.198"
-     x="300.56378"
-     id="SVGID_153_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_5}</text>
+   x="271.60001"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1128"
+   style="fill:none" /><text
+   y="188.198"
+   x="300.56378"
+   id="SVGID_153_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_5}</text>
+
 <rect
-     x="271.60001"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1137"
-     style="fill:none" /><text
-     y="215.51102"
-     x="300.56378"
-     id="SVGID_154_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_5}</text>
+   x="271.60001"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1137"
+   style="fill:none" /><text
+   y="215.51102"
+   x="300.56378"
+   id="SVGID_154_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_5}</text>
+
 <rect
-     x="314.70001"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1146"
-     style="fill:none" /><text
-     y="174.05353"
-     x="344.71133"
-     id="SVGID_155_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2006</text>
+   x="314.70001"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1146"
+   style="fill:none" /><text
+   y="174.05353"
+   x="344.71133"
+   id="SVGID_155_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2006</text>
+
 <rect
-     x="314.70001"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1155"
-     style="fill:none" /><text
-     y="201.97614"
-     x="344.75323"
-     id="SVGID_156_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_6}</text>
+   x="314.70001"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1155"
+   style="fill:none" /><text
+   y="201.97614"
+   x="344.75323"
+   id="SVGID_156_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_6}</text>
+
 <rect
-     x="314.70001"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1164"
-     style="fill:none" /><text
-     y="188.198"
-     x="344.75323"
-     id="SVGID_157_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_6}</text>
+   x="314.70001"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1164"
+   style="fill:none" /><text
+   y="188.198"
+   x="344.75323"
+   id="SVGID_157_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_6}</text>
+
 <rect
-     x="314.70001"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1173"
-     style="fill:none" /><text
-     y="215.51102"
-     x="344.75323"
-     id="SVGID_158_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_6}</text>
+   x="314.70001"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1173"
+   style="fill:none" /><text
+   y="215.51102"
+   x="344.75323"
+   id="SVGID_158_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_6}</text>
+
 <rect
-     x="357.79999"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1182"
-     style="fill:none" /><text
-     y="174.05353"
-     x="388.98837"
-     id="SVGID_159_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2007</text>
+   x="357.79999"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1182"
+   style="fill:none" /><text
+   y="174.05353"
+   x="388.98837"
+   id="SVGID_159_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2007</text>
+
 <rect
-     x="357.79999"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1191"
-     style="fill:none" /><text
-     y="201.97614"
-     x="388.94266"
-     id="SVGID_160_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_7}</text>
+   x="357.79999"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1191"
+   style="fill:none" /><text
+   y="201.97614"
+   x="388.94266"
+   id="SVGID_160_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_7}</text>
+
 <rect
-     x="357.79999"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1200"
-     style="fill:none" /><text
-     y="188.198"
-     x="388.94266"
-     id="SVGID_161_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_7}</text>
+   x="357.79999"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1200"
+   style="fill:none" /><text
+   y="188.198"
+   x="388.94266"
+   id="SVGID_161_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_7}</text>
+
 <rect
-     x="357.79999"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1209"
-     style="fill:none" /><text
-     y="215.51102"
-     x="388.94266"
-     id="SVGID_162_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_7}</text>
+   x="357.79999"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1209"
+   style="fill:none" /><text
+   y="215.51102"
+   x="388.94266"
+   id="SVGID_162_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_7}</text>
+
 <rect
-     x="401"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1218"
-     style="fill:none" /><text
-     y="174.05353"
-     x="433.11115"
-     id="SVGID_163_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2008</text>
+   x="401"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1218"
+   style="fill:none" /><text
+   y="174.05353"
+   x="433.11115"
+   id="SVGID_163_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2008</text>
+
 <rect
-     x="401"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1227"
-     style="fill:none" /><text
-     y="201.97614"
-     x="433.13211"
-     id="SVGID_164_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_8}</text>
+   x="401"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1227"
+   style="fill:none" /><text
+   y="201.97614"
+   x="433.13211"
+   id="SVGID_164_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_8}</text>
+
 <rect
-     x="401"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1236"
-     style="fill:none" /><text
-     y="188.198"
-     x="433.13211"
-     id="SVGID_165_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_8}</text>
+   x="401"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1236"
+   style="fill:none" /><text
+   y="188.198"
+   x="433.13211"
+   id="SVGID_165_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_8}</text>
+
 <rect
-     x="401"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1245"
-     style="fill:none" /><text
-     y="215.51102"
-     x="433.13211"
-     id="SVGID_166_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_8}</text>
+   x="401"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1245"
+   style="fill:none" /><text
+   y="215.51102"
+   x="433.13211"
+   id="SVGID_166_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_8}</text>
+
 <rect
-     x="444"
-     y="172.7"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1254"
-     style="fill:none" /><text
-     y="174.05353"
-     x="477.30823"
-     id="SVGID_167_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2009</text>
+   x="444"
+   y="172.7"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1254"
+   style="fill:none" /><text
+   y="174.05353"
+   x="477.30823"
+   id="SVGID_167_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2009</text>
+
 <rect
-     x="444"
-     y="201.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1263"
-     style="fill:none" /><text
-     y="201.97614"
-     x="477.32156"
-     id="SVGID_168_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_9}</text>
+   x="444"
+   y="201.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1263"
+   style="fill:none" /><text
+   y="201.97614"
+   x="477.32156"
+   id="SVGID_168_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lic_9}</text>
+
 <rect
-     x="444"
-     y="187.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1272"
-     style="fill:none" /><text
-     y="188.198"
-     x="477.32156"
-     id="SVGID_169_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_9}</text>
+   x="444"
+   y="187.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1272"
+   style="fill:none" /><text
+   y="188.198"
+   x="477.32156"
+   id="SVGID_169_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{ldc_9}</text>
+
 <rect
-     x="444"
-     y="215.2"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1281"
-     style="fill:none" /><text
-     y="215.51102"
-     x="477.32156"
-     id="SVGID_170_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_9}</text>
+   x="444"
+   y="215.2"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1281"
+   style="fill:none" /><text
+   y="215.51102"
+   x="477.32156"
+   id="SVGID_170_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{lmi_9}</text>
+
 <rect
-     x="142.39999"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1290"
-     style="fill:none" /><text
-     y="229.29207"
-     x="168.09798"
-     id="SVGID_171_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_2}</text>
+   x="142.39999"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1290"
+   style="fill:none" /><text
+   y="229.29207"
+   x="168.09798"
+   id="SVGID_171_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_2}</text>
+
 <rect
-     x="185.5"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1299"
-     style="fill:none" /><text
-     y="229.29207"
-     x="212.28743"
-     id="SVGID_172_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_3}</text>
+   x="185.5"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1299"
+   style="fill:none" /><text
+   y="229.29207"
+   x="212.28743"
+   id="SVGID_172_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_3}</text>
+
 <rect
-     x="228.60001"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1308"
-     style="fill:none" /><text
-     y="229.29207"
-     x="256.47687"
-     id="SVGID_173_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_4}</text>
+   x="228.60001"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1308"
+   style="fill:none" /><text
+   y="229.29207"
+   x="256.47687"
+   id="SVGID_173_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_4}</text>
+
 <rect
-     x="271.60001"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1317"
-     style="fill:none" /><text
-     y="229.29207"
-     x="300.56378"
-     id="SVGID_174_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_5}</text>
+   x="271.60001"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1317"
+   style="fill:none" /><text
+   y="229.29207"
+   x="300.56378"
+   id="SVGID_174_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_5}</text>
+
 <rect
-     x="314.70001"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1326"
-     style="fill:none" /><text
-     y="229.29207"
-     x="344.75323"
-     id="SVGID_175_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_6}</text>
+   x="314.70001"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1326"
+   style="fill:none" /><text
+   y="229.29207"
+   x="344.75323"
+   id="SVGID_175_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_6}</text>
+
 <rect
-     x="357.79999"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1335"
-     style="fill:none" /><text
-     y="229.29207"
-     x="388.94266"
-     id="SVGID_176_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_7}</text>
+   x="357.79999"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1335"
+   style="fill:none" /><text
+   y="229.29207"
+   x="388.94266"
+   id="SVGID_176_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_7}</text>
+
 <rect
-     x="401"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1344"
-     style="fill:none" /><text
-     y="229.29207"
-     x="433.13211"
-     id="SVGID_177_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_8}</text>
+   x="401"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1344"
+   style="fill:none" /><text
+   y="229.29207"
+   x="433.13211"
+   id="SVGID_177_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_8}</text>
+
 <rect
-     x="444"
-     y="229.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1353"
-     style="fill:none" /><text
-     y="229.29207"
-     x="477.32156"
-     id="SVGID_178_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_9}</text>
+   x="444"
+   y="229.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1353"
+   style="fill:none" /><text
+   y="229.29207"
+   x="477.32156"
+   id="SVGID_178_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{umi_9}</text>
+
 <rect
-     x="142.39999"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1362"
-     style="fill:none" /><text
-     y="242.92877"
-     x="168.09798"
-     id="SVGID_179_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_2}</text>
+   x="142.39999"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1362"
+   style="fill:none" /><text
+   y="242.92877"
+   x="168.09798"
+   id="SVGID_179_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_2}</text>
+
 <rect
-     x="185.5"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1371"
-     style="fill:none" /><text
-     y="242.92877"
-     x="212.28743"
-     id="SVGID_180_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_3}</text>
+   x="185.5"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1371"
+   style="fill:none" /><text
+   y="242.92877"
+   x="212.28743"
+   id="SVGID_180_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_3}</text>
+
 <rect
-     x="228.60001"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1380"
-     style="fill:none" /><text
-     y="242.92877"
-     x="256.47687"
-     id="SVGID_181_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_4}</text>
+   x="228.60001"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1380"
+   style="fill:none" /><text
+   y="242.92877"
+   x="256.47687"
+   id="SVGID_181_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_4}</text>
+
 <rect
-     x="271.60001"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1389"
-     style="fill:none" /><text
-     y="242.92877"
-     x="300.56378"
-     id="SVGID_182_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_5}</text>
+   x="271.60001"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1389"
+   style="fill:none" /><text
+   y="242.92877"
+   x="300.56378"
+   id="SVGID_182_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_5}</text>
+
 <rect
-     x="314.70001"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1398"
-     style="fill:none" /><text
-     y="242.92877"
-     x="344.75323"
-     id="SVGID_183_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_6}</text>
+   x="314.70001"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1398"
+   style="fill:none" /><text
+   y="242.92877"
+   x="344.75323"
+   id="SVGID_183_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_6}</text>
+
 <rect
-     x="357.79999"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1407"
-     style="fill:none" /><text
-     y="242.92877"
-     x="388.94266"
-     id="SVGID_184_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_7}</text>
+   x="357.79999"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1407"
+   style="fill:none" /><text
+   y="242.92877"
+   x="388.94266"
+   id="SVGID_184_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_7}</text>
+
 <rect
-     x="401"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1416"
-     style="fill:none" /><text
-     y="242.92877"
-     x="433.13211"
-     id="SVGID_185_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_8}</text>
+   x="401"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1416"
+   style="fill:none" /><text
+   y="242.92877"
+   x="433.13211"
+   id="SVGID_185_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_8}</text>
+
 <rect
-     x="444"
-     y="243.3"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect1425"
-     style="fill:none" /><text
-     y="242.92877"
-     x="477.32156"
-     id="SVGID_186_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_9}</text>
+   x="444"
+   y="243.3"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect1425"
+   style="fill:none" /><text
+   y="242.92877"
+   x="477.32156"
+   id="SVGID_186_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{gmc_9}</text>
+
 <line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="182.60001"
-     x2="487.10001"
-     y2="182.60001"
-     id="line1428"
-     style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="253.5"
-     x2="487.39999"
-     y2="253.5"
-     id="line1430"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="239.3"
-     x2="487.39999"
-     y2="239.3"
-     id="line1432"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="225.10001"
-     x2="487.39999"
-     y2="225.10001"
-     id="line1434"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1436">
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="182.60001"
+   x2="487.10001"
+   y2="182.60001"
+   id="line1428"
+   style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="253.5"
+   x2="487.39999"
+   y2="253.5"
+   id="line1430"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="239.3"
+   x2="487.39999"
+   y2="239.3"
+   id="line1432"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="225.10001"
+   x2="487.39999"
+   y2="225.10001"
+   id="line1434"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><switch
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1436">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14143,12 +14353,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1445">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1445">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14197,12 +14408,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1454">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1454">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14251,12 +14463,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1463">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1463">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14305,12 +14518,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1472">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1472">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14359,12 +14573,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch1481">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch1481">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14413,26 +14628,27 @@
 
 
 
+
 				</g>
 			</switch><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="211"
-     x2="487.39999"
-     y2="211"
-     id="line1490"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="196.8"
-     x2="487.39999"
-     y2="196.8"
-     id="line1492"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><g
-     i:knockout="Off"
-     id="g2610">
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="211"
+   x2="487.39999"
+   y2="211"
+   id="line1490"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="196.8"
+   x2="487.39999"
+   y2="196.8"
+   id="line1492"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><g
+   i:knockout="Off"
+   id="g2610">
 				<path
    i:knockout="Off"
    d="m 486.1,169.4 v 83 H 445 v -83 h 41.1 m 1,-1 H 444 v 85 h 43.1 v -85 l 0,0 z"
@@ -14606,80 +14822,80 @@
 <g
    id="g4847"
    transform="translate(0,-6)"><rect
-     x="14.8"
-     y="428.5"
-     i:knockout="Off"
-     width="472.29999"
-     height="14.2"
-     id="rect2614"
-     style="fill:#df7627" /><rect
-     x="142.39999"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2618"
-     style="fill:#e6e7e8" /><rect
-     x="228.60001"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2620"
-     style="fill:#e6e7e8" /><rect
-     x="314.70001"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2622"
-     style="fill:#e6e7e8" /><rect
-     x="400.89999"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2624"
-     style="fill:#e6e7e8" /><rect
-     x="14.8"
-     y="442.70001"
-     i:knockout="Off"
-     width="127.6"
-     height="110.6"
-     id="rect2626"
-     style="fill:#ffffff" /><rect
-     x="185.5"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2628"
-     style="fill:#ffffff" /><rect
-     x="271.60001"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2630"
-     style="fill:#ffffff" /><rect
-     x="357.79999"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2632"
-     style="fill:#ffffff" /><rect
-     x="444"
-     y="442.70001"
-     i:knockout="Off"
-     width="43.099998"
-     height="110.6"
-     id="rect2634"
-     style="fill:#ffffff" /><switch
-     transform="translate(-8.5507027,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch2636">
+   x="14.8"
+   y="428.5"
+   i:knockout="Off"
+   width="472.29999"
+   height="14.2"
+   id="rect2614"
+   style="fill:#df7627" /><rect
+   x="142.39999"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2618"
+   style="fill:#e6e7e8" /><rect
+   x="228.60001"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2620"
+   style="fill:#e6e7e8" /><rect
+   x="314.70001"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2622"
+   style="fill:#e6e7e8" /><rect
+   x="400.89999"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2624"
+   style="fill:#e6e7e8" /><rect
+   x="14.8"
+   y="442.70001"
+   i:knockout="Off"
+   width="127.6"
+   height="110.6"
+   id="rect2626"
+   style="fill:#ffffff" /><rect
+   x="185.5"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2628"
+   style="fill:#ffffff" /><rect
+   x="271.60001"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2630"
+   style="fill:#ffffff" /><rect
+   x="357.79999"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2632"
+   style="fill:#ffffff" /><rect
+   x="444"
+   y="442.70001"
+   i:knockout="Off"
+   width="43.099998"
+   height="110.6"
+   id="rect2634"
+   style="fill:#ffffff" /><switch
+   transform="translate(-8.5507027,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch2636">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -14730,604 +14946,645 @@
 
 
 
+
 				</g>
 			</switch><rect
-     x="142.39999"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2660"
-     style="fill:none" /><text
-     y="441.52502"
-     x="168.20085"
-     id="SVGID_301_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2002</text>
+   x="142.39999"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2660"
+   style="fill:none" /><text
+   y="441.52502"
+   x="168.20085"
+   id="SVGID_301_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2002</text>
+
 <rect
-     x="142.39999"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2669"
-     style="fill:none" /><text
-     y="469.44821"
-     x="168.09798"
-     id="SVGID_302_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_2}</text>
+   x="142.39999"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2669"
+   style="fill:none" /><text
+   y="469.44821"
+   x="168.09798"
+   id="SVGID_302_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_2}</text>
+
 <rect
-     x="142.39999"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2678"
-     style="fill:none" /><text
-     y="455.66949"
-     x="168.09798"
-     id="SVGID_303_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_2}</text>
+   x="142.39999"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2678"
+   style="fill:none" /><text
+   y="455.66949"
+   x="168.09798"
+   id="SVGID_303_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_2}</text>
+
 <rect
-     x="142.39999"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2687"
-     style="fill:none" /><text
-     y="482.983"
-     x="168.09798"
-     id="SVGID_304_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_2}</text>
+   x="142.39999"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2687"
+   style="fill:none" /><text
+   y="482.983"
+   x="168.09798"
+   id="SVGID_304_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_2}</text>
+
 <rect
-     x="185.5"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2696"
-     style="fill:none" /><text
-     y="441.52502"
-     x="212.31219"
-     id="SVGID_305_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2003</text>
+   x="185.5"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2696"
+   style="fill:none" /><text
+   y="441.52502"
+   x="212.31219"
+   id="SVGID_305_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2003</text>
+
 <rect
-     x="185.5"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2705"
-     style="fill:none" /><text
-     y="469.44821"
-     x="212.28743"
-     id="SVGID_306_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_3}</text>
+   x="185.5"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2705"
+   style="fill:none" /><text
+   y="469.44821"
+   x="212.28743"
+   id="SVGID_306_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_3}</text>
+
 <rect
-     x="185.5"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2714"
-     style="fill:none" /><text
-     y="455.66949"
-     x="212.28743"
-     id="SVGID_307_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_3}</text>
+   x="185.5"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2714"
+   style="fill:none" /><text
+   y="455.66949"
+   x="212.28743"
+   id="SVGID_307_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_3}</text>
+
 <rect
-     x="185.5"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2723"
-     style="fill:none" /><text
-     y="482.983"
-     x="212.28528"
-     id="SVGID_308_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_3}</text>
+   x="185.5"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2723"
+   style="fill:none" /><text
+   y="482.983"
+   x="212.28528"
+   id="SVGID_308_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_3}</text>
+
 <rect
-     x="228.60001"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2732"
-     style="fill:none" /><text
-     y="441.52502"
-     x="256.35703"
-     id="SVGID_309_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2004</text>
+   x="228.60001"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2732"
+   style="fill:none" /><text
+   y="441.52502"
+   x="256.35703"
+   id="SVGID_309_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2004</text>
+
 <rect
-     x="228.60001"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2741"
-     style="fill:none" /><text
-     y="469.44821"
-     x="256.42563"
-     id="SVGID_310_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_4}</text>
+   x="228.60001"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2741"
+   style="fill:none" /><text
+   y="469.44821"
+   x="256.42563"
+   id="SVGID_310_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_4}</text>
+
 <rect
-     x="228.60001"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2750"
-     style="fill:none" /><text
-     y="455.66949"
-     x="256.42563"
-     id="SVGID_311_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_4}</text>
+   x="228.60001"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2750"
+   style="fill:none" /><text
+   y="455.66949"
+   x="256.42563"
+   id="SVGID_311_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_4}</text>
+
 <rect
-     x="228.60001"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2759"
-     style="fill:none" /><text
-     y="482.983"
-     x="256.42563"
-     id="SVGID_312_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_4}</text>
+   x="228.60001"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2759"
+   style="fill:none" /><text
+   y="482.983"
+   x="256.42563"
+   id="SVGID_312_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_4}</text>
+
 <rect
-     x="271.60001"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2768"
-     style="fill:none" /><text
-     y="441.52502"
-     x="300.61713"
-     id="SVGID_313_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2005</text>
+   x="271.60001"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2768"
+   style="fill:none" /><text
+   y="441.52502"
+   x="300.61713"
+   id="SVGID_313_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2005</text>
+
 <rect
-     x="271.60001"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2777"
-     style="fill:none" /><text
-     y="469.44821"
-     x="300.56378"
-     id="SVGID_314_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_5}</text>
+   x="271.60001"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2777"
+   style="fill:none" /><text
+   y="469.44821"
+   x="300.56378"
+   id="SVGID_314_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_5}</text>
+
 <rect
-     x="271.60001"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2786"
-     style="fill:none" /><text
-     y="455.66949"
-     x="300.56378"
-     id="SVGID_315_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_5}</text>
+   x="271.60001"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2786"
+   style="fill:none" /><text
+   y="455.66949"
+   x="300.56378"
+   id="SVGID_315_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_5}</text>
+
 <rect
-     x="271.60001"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2795"
-     style="fill:none" /><text
-     y="482.983"
-     x="300.56378"
-     id="SVGID_316_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_5}</text>
+   x="271.60001"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2795"
+   style="fill:none" /><text
+   y="482.983"
+   x="300.56378"
+   id="SVGID_316_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_5}</text>
+
 <rect
-     x="314.70001"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2804"
-     style="fill:none" /><text
-     y="441.52502"
-     x="344.71133"
-     id="SVGID_317_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2006</text>
+   x="314.70001"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2804"
+   style="fill:none" /><text
+   y="441.52502"
+   x="344.71133"
+   id="SVGID_317_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2006</text>
+
 <rect
-     x="314.70001"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2813"
-     style="fill:none" /><text
-     y="469.44821"
-     x="344.75323"
-     id="SVGID_318_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_6}</text>
+   x="314.70001"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2813"
+   style="fill:none" /><text
+   y="469.44821"
+   x="344.75323"
+   id="SVGID_318_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_6}</text>
+
 <rect
-     x="314.70001"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2822"
-     style="fill:none" /><text
-     y="455.66949"
-     x="344.75323"
-     id="SVGID_319_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_6}</text>
+   x="314.70001"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2822"
+   style="fill:none" /><text
+   y="455.66949"
+   x="344.75323"
+   id="SVGID_319_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_6}</text>
+
 <rect
-     x="314.70001"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2831"
-     style="fill:none" /><text
-     y="482.983"
-     x="344.75323"
-     id="SVGID_320_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_6}</text>
+   x="314.70001"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2831"
+   style="fill:none" /><text
+   y="482.983"
+   x="344.75323"
+   id="SVGID_320_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_6}</text>
+
 <rect
-     x="357.79999"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2840"
-     style="fill:none" /><text
-     y="441.52502"
-     x="388.98837"
-     id="SVGID_321_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2007</text>
+   x="357.79999"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2840"
+   style="fill:none" /><text
+   y="441.52502"
+   x="388.98837"
+   id="SVGID_321_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2007</text>
+
 <rect
-     x="357.79999"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2849"
-     style="fill:none" /><text
-     y="469.44821"
-     x="388.94266"
-     id="SVGID_322_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_7}</text>
+   x="357.79999"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2849"
+   style="fill:none" /><text
+   y="469.44821"
+   x="388.94266"
+   id="SVGID_322_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_7}</text>
+
 <rect
-     x="357.79999"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2858"
-     style="fill:none" /><text
-     y="455.66949"
-     x="388.94266"
-     id="SVGID_323_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_7}</text>
+   x="357.79999"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2858"
+   style="fill:none" /><text
+   y="455.66949"
+   x="388.94266"
+   id="SVGID_323_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_7}</text>
+
 <rect
-     x="357.79999"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2867"
-     style="fill:none" /><text
-     y="482.983"
-     x="388.94266"
-     id="SVGID_324_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_7}</text>
+   x="357.79999"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2867"
+   style="fill:none" /><text
+   y="482.983"
+   x="388.94266"
+   id="SVGID_324_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_7}</text>
+
 <rect
-     x="401"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2876"
-     style="fill:none" /><text
-     y="441.52502"
-     x="433.11115"
-     id="SVGID_325_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2008</text>
+   x="401"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2876"
+   style="fill:none" /><text
+   y="441.52502"
+   x="433.11115"
+   id="SVGID_325_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2008</text>
+
 <rect
-     x="401"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2885"
-     style="fill:none" /><text
-     y="469.44821"
-     x="433.13211"
-     id="SVGID_326_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_8}</text>
+   x="401"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2885"
+   style="fill:none" /><text
+   y="469.44821"
+   x="433.13211"
+   id="SVGID_326_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_8}</text>
+
 <rect
-     x="401"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2894"
-     style="fill:none" /><text
-     y="455.66949"
-     x="433.13211"
-     id="SVGID_327_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_8}</text>
+   x="401"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2894"
+   style="fill:none" /><text
+   y="455.66949"
+   x="433.13211"
+   id="SVGID_327_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_8}</text>
+
 <rect
-     x="401"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2903"
-     style="fill:none" /><text
-     y="482.983"
-     x="433.13211"
-     id="SVGID_328_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_8}</text>
+   x="401"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2903"
+   style="fill:none" /><text
+   y="482.983"
+   x="433.13211"
+   id="SVGID_328_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_8}</text>
+
 <rect
-     x="444"
-     y="446.89999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2912"
-     style="fill:none" /><text
-     y="441.52502"
-     x="477.30823"
-     id="SVGID_329_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2009</text>
+   x="444"
+   y="446.89999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2912"
+   style="fill:none" /><text
+   y="441.52502"
+   x="477.30823"
+   id="SVGID_329_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:7.80276871px;font-weight:bold;text-align:center;text-anchor:middle;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Arial Bold">2009</text>
+
 <rect
-     x="444"
-     y="475.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2921"
-     style="fill:none" /><text
-     y="469.44821"
-     x="477.32156"
-     id="SVGID_330_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_9}</text>
+   x="444"
+   y="475.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2921"
+   style="fill:none" /><text
+   y="469.44821"
+   x="477.32156"
+   id="SVGID_330_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{rf_9}</text>
+
 <rect
-     x="444"
-     y="461.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2930"
-     style="fill:none" /><text
-     y="455.66949"
-     x="477.32156"
-     id="SVGID_331_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_9}</text>
+   x="444"
+   y="461.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2930"
+   style="fill:none" /><text
+   y="455.66949"
+   x="477.32156"
+   id="SVGID_331_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{mdg_9}</text>
+
 <rect
-     x="444"
-     y="489.39999"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2939"
-     style="fill:none" /><text
-     y="482.983"
-     x="477.32156"
-     id="SVGID_332_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_9}</text>
+   x="444"
+   y="489.39999"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2939"
+   style="fill:none" /><text
+   y="482.983"
+   x="477.32156"
+   id="SVGID_332_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{oth_9}</text>
+
 <rect
-     x="142.39999"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2948"
-     style="fill:none" /><text
-     y="496.76355"
-     x="168.09798"
-     id="SVGID_333_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_2}</text>
+   x="142.39999"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2948"
+   style="fill:none" /><text
+   y="496.76355"
+   x="168.09798"
+   id="SVGID_333_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_2}</text>
+
 <rect
-     x="185.5"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2957"
-     style="fill:none" /><text
-     y="496.76355"
-     x="212.28743"
-     id="SVGID_334_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_3}</text>
+   x="185.5"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2957"
+   style="fill:none" /><text
+   y="496.76355"
+   x="212.28743"
+   id="SVGID_334_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_3}</text>
+
 <rect
-     x="228.60001"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2966"
-     style="fill:none" /><text
-     y="496.76355"
-     x="256.42563"
-     id="SVGID_335_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_4}</text>
+   x="228.60001"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2966"
+   style="fill:none" /><text
+   y="496.76355"
+   x="256.42563"
+   id="SVGID_335_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_4}</text>
+
 <rect
-     x="271.60001"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2975"
-     style="fill:none" /><text
-     y="496.76355"
-     x="300.56378"
-     id="SVGID_336_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_5}</text>
+   x="271.60001"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2975"
+   style="fill:none" /><text
+   y="496.76355"
+   x="300.56378"
+   id="SVGID_336_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_5}</text>
+
 <rect
-     x="314.70001"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2984"
-     style="fill:none" /><text
-     y="496.76355"
-     x="344.75323"
-     id="SVGID_337_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_6}</text>
+   x="314.70001"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2984"
+   style="fill:none" /><text
+   y="496.76355"
+   x="344.75323"
+   id="SVGID_337_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_6}</text>
+
 <rect
-     x="357.79999"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect2993"
-     style="fill:none" /><text
-     y="496.76355"
-     x="388.94266"
-     id="SVGID_338_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_7}</text>
+   x="357.79999"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect2993"
+   style="fill:none" /><text
+   y="496.76355"
+   x="388.94266"
+   id="SVGID_338_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_7}</text>
+
 <rect
-     x="401"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect3002"
-     style="fill:none" /><text
-     y="496.76355"
-     x="433.13211"
-     id="SVGID_339_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_8}</text>
+   x="401"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect3002"
+   style="fill:none" /><text
+   y="496.76355"
+   x="433.13211"
+   id="SVGID_339_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_8}</text>
+
 <rect
-     x="444"
-     y="503.5"
-     i:knockout="Off"
-     width="43.099998"
-     height="6.1999998"
-     id="rect3011"
-     style="fill:none" /><text
-     y="496.76355"
-     x="477.32156"
-     id="SVGID_340_"
-     transform="scale(0.97534608,1.0252771)"
-     font-size="8"
-     style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_9}</text>
+   x="444"
+   y="503.5"
+   i:knockout="Off"
+   width="43.099998"
+   height="6.1999998"
+   id="rect3011"
+   style="fill:none" /><text
+   y="496.76355"
+   x="477.32156"
+   id="SVGID_340_"
+   transform="scale(0.97534608,1.0252771)"
+   font-size="8"
+   style="font-size:6.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Arial">{uns_9}</text>
+
 <line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="456.79999"
-     x2="487.10001"
-     y2="456.79999"
-     id="line3014"
-     style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="553.20001"
-     x2="487.39999"
-     y2="553.20001"
-     id="line3016"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="513.5"
-     x2="487.39999"
-     y2="513.5"
-     id="line3018"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="499.39999"
-     x2="487.39999"
-     y2="499.39999"
-     id="line3020"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch3022">
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="456.79999"
+   x2="487.10001"
+   y2="456.79999"
+   id="line3014"
+   style="fill:none;stroke:#0093d5;stroke-width:0.74980003;stroke-linejoin:round;stroke-miterlimit:10" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="553.20001"
+   x2="487.39999"
+   y2="553.20001"
+   id="line3016"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="513.5"
+   x2="487.39999"
+   y2="513.5"
+   id="line3018"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="499.39999"
+   x2="487.39999"
+   y2="499.39999"
+   id="line3020"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><switch
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch3022">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -15376,12 +15633,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch3031">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch3031">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -15430,12 +15688,13 @@
 
 
 
+
 				</g>
 			</switch><switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch3040">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch3040">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -15484,26 +15743,28 @@
 
 
 
+
 				</g>
 			</switch><rect
-     x="18.350246"
-     y="476.10001"
-     i:knockout="Off"
-     width="119.1"
-     height="6"
-     id="rect3055"
-     style="fill:none" /><text
-     y="453.31357"
-     x="19.504076"
-     id="SVGID_344_"
-     transform="scale(0.94223141,1.0613104)"
-     font-size="7"
-     style="font-size:6px;fill:#62a73b;font-family:Arial">Reproductive Health &amp; Family Planning (RH/FP)</text>
+   x="18.350246"
+   y="476.10001"
+   i:knockout="Off"
+   width="119.1"
+   height="6"
+   id="rect3055"
+   style="fill:none" /><text
+   y="453.31357"
+   x="19.504076"
+   id="SVGID_344_"
+   transform="scale(0.94223141,1.0613104)"
+   font-size="7"
+   style="font-size:6px;fill:#62a73b;font-family:Arial">Reproductive Health &amp; Family Planning (RH/FP)</text>
+
 <switch
-     transform="translate(-4.9497476,0)"
-     i:objectNS="http://ns.adobe.com/Flows/1.0/"
-     i:objectType="areaText"
-     id="switch3058">
+   transform="translate(-4.9497476,0)"
+   i:objectNS="http://ns.adobe.com/Flows/1.0/"
+   i:objectType="areaText"
+   id="switch3058">
 				<foreignObject
    requiredExtensions="http://ns.adobe.com/Flows/1.0/"
    x="0"
@@ -15552,26 +15813,27 @@
 
 
 
+
 				</g>
 			</switch><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="485.20001"
-     x2="487.39999"
-     y2="485.20001"
-     id="line3067"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
-     i:knockout="Off"
-     stroke-miterlimit="10"
-     x1="14.8"
-     y1="471"
-     x2="487.39999"
-     y2="471"
-     id="line3069"
-     style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><g
-     i:knockout="Off"
-     id="g3071">
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="485.20001"
+   x2="487.39999"
+   y2="485.20001"
+   id="line3067"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><line
+   i:knockout="Off"
+   stroke-miterlimit="10"
+   x1="14.8"
+   y1="471"
+   x2="487.39999"
+   y2="471"
+   id="line3069"
+   style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 1.002" /><g
+   i:knockout="Off"
+   id="g3071">
 				<path
    i:knockout="Off"
    d="M 486.1,443.7 V 552.3 H 445 V 443.7 h 41.1 m 1,-1 H 444 v 110.6 h 43.1 V 442.7 l 0,0 z"
@@ -15766,6 +16028,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -15803,6 +16066,7 @@
    transform="translate(686.2988,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2004</text>
+
 
 
 
@@ -15852,6 +16116,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -15889,6 +16154,7 @@
    transform="translate(735.4531,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2006</text>
+
 
 
 
@@ -15938,6 +16204,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -15975,6 +16242,7 @@
    transform="translate(784.6074,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2008</text>
+
 
 
 
@@ -16024,6 +16292,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16061,6 +16330,7 @@
    transform="translate(637.1426,406.6016)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2002</text>
+
 
 
 
@@ -16112,6 +16382,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16151,6 +16422,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="6.7763672"
    y="0">{g2_t2}</text>
+
 
 
 
@@ -16202,6 +16474,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16241,6 +16514,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="10.400391"
    y="0">{g2_t4}</text>
+
 
 
 
@@ -16292,6 +16566,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16331,6 +16606,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="10.602539"
    y="0">{g2_t7}</text>
+
 
 
 
@@ -16382,6 +16658,7 @@
 
 
 
+
 				</switch><switch
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
    i:objectType="pointText"
@@ -16421,6 +16698,7 @@
    style="font-size:6px;text-align:end;text-anchor:end;fill:#58595b;font-family:Arial"
    x="10.620117"
    y="0">{g2_t6}</text>
+
 
 
 
@@ -16472,6 +16750,7 @@
 
 
 
+
 				</switch><switch
    id="switch3717"
    i:objectType="pointText"
@@ -16506,6 +16785,7 @@
    font-size="5"
    transform="translate(32.0601,566.6855)"
    id="SVGID_388_"> </text>
+
 
 
 
@@ -16693,6 +16973,7 @@
 
 
 
+
 			</switch><switch
    id="switch3933"
    i:objectType="pointText"
@@ -16727,6 +17008,7 @@
    font-size="5"
    transform="translate(408.2197,579.6855)"
    id="SVGID_400_"> </text>
+
 
 
 
@@ -16775,6 +17057,7 @@
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4286"
@@ -16812,6 +17095,7 @@
 					<text
    transform="translate(635.377,459.2979)"
    id="SVGID_418_" />
+
 
 
 
@@ -20201,6 +20485,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 						</g>
 					</g>
 				</switch><switch
@@ -20230,6 +20515,7 @@ d7/6+5f/D5sErPQ=
    transform="translate(783.4883,138.2246)"
    font-size="6"
    style="font-size:6px;fill:#58595b;font-family:Arial">2009</text>
+
 
 
 
@@ -20274,222 +20560,12 @@ d7/6+5f/D5sErPQ=
    x2="820.40002"
    y2="119.4"
    id="line671"
-   style="fill:none;stroke:#58595b;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0, 1.003" /><switch
-   id="switch805"
+   style="fill:none;stroke:#58595b;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0, 1.003"
+   transform="translate(2,2)" /><switch
+   id="switch8504"
    i:objectType="pointText"
    i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.26476211,0)">
-				<foreignObject
-   id="foreignObject807"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M685.4,122.5" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">306.8</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_118_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:5px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(685.4111,122.4561)"
-   id="SVGID_118_">306.8</text>
-
-
-
-
-
-
-			</switch><switch
-   id="switch788"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.27006211,0)">
-				<foreignObject
-   id="foreignObject790"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M709.8,120" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">322.9</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_116_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:5px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(709.8164,120.0459)"
-   id="SVGID_116_">322.9</text>
-
-
-
-
-
-
-			</switch><switch
-   id="switch771"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.26437578,0)">
-				<foreignObject
-   id="foreignObject773"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M734.2,120.6" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">359.4</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_114_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:6px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(734.2217,120.6133)"
-   id="SVGID_114_"><tspan
-     style="font-size:5px"
-     id="tspan6182">359.4</tspan></text>
-
-
-
-
-
-
-			</switch><switch
-   id="switch754"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.59056172,0)">
-				<foreignObject
-   id="foreignObject756"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M758.8,119.5" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">286.7</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_112_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:6px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(758.8223,119.4795)"
-   id="SVGID_112_"><tspan
-     style="font-size:5px"
-     id="tspan6186">286.7</tspan></text>
-
-
-
-
-
-
-			</switch><switch
-   id="switch737"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.10908086,0)">
-				<foreignObject
-   id="foreignObject739"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M783,121.5" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">311.5</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_110_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:6px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(783.0312,121.4639)"
-   id="SVGID_110_"><tspan
-     style="font-size:5px"
-     id="tspan6188">311.5</tspan></text>
-
-
-
-
-
-
-			</switch><switch
-   id="switch822"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(0.2274418,0)">
+   transform="translate(-1.2117672,-8.2676014)">
 				<foreignObject
    id="foreignObject824"
    overflow="visible"
@@ -20515,11 +20591,7 @@ d7/6+5f/D5sErPQ=
    xlink:href="#SVGID_120_" />
 				</foreignObject>
 				
-					<text
-   style="font-size:5px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(660.6104,120.8965)"
-   id="SVGID_120_">269.0</text>
+					
 
 
 
@@ -20527,59 +20599,17 @@ d7/6+5f/D5sErPQ=
 
 
 			</switch><text
-   id="SVGID_122_"
+   id="g1_l2"
    font-size="6"
-   style="font-size:5px;fill:#ffffff;font-family:Arial"
-   x="636.3183"
-   y="118.6289">220.5</text>
-
-
-
-
-<switch
-   id="switch720"
-   i:objectType="pointText"
-   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-   transform="translate(-0.11780102,0)">
-				<foreignObject
-   id="foreignObject722"
-   overflow="visible"
-   height="1"
-   width="1"
-   y="0"
-   x="0"
-   requiredExtensions="http://ns.adobe.com/Flows/1.0/">
-					<ns1:flowDef>
-						<ns1:region
-   textMatrix="1 0 0 1 0 0">
-							<ns1:path
-   d="M807.3,123.6" />
-						</ns1:region>
-						<ns1:flow
-   font-size="6"
-   font-family="'Arial'">
-							<ns1:p><ns1:span
-     fill="#FFFFFF">242.6</ns1:span></ns1:p>
-						</ns1:flow>
-					</ns1:flowDef>
-					<x:targetRef
-   xlink:href="#SVGID_108_" />
-				</foreignObject>
-				
-					<text
-   style="font-size:6px;fill:#ffffff;font-family:Arial"
-   font-size="6"
-   transform="translate(807.2949,123.5898)"
-   id="SVGID_108_"><tspan
-     style="font-size:5px"
-     id="tspan6190">242.6</tspan></text>
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="642.55121"
+   y="112.6289">{g1_l2}</text>
 
 
 
 
 
-
-			</switch><g
+<g
    id="bcg_2"
    transform="translate(0,-6)"><circle
      d="m 652.89999,173.39999 c 0,6.95879 -5.64121,12.6 -12.6,12.6 -6.95879,0 -12.6,-5.64121 -12.6,-12.6 0,-6.95878 5.64121,-12.6 12.6,-12.6 6.95879,0 12.6,5.64122 12.6,12.6 z"
@@ -20633,6 +20663,7 @@ d7/6+5f/D5sErPQ=
    id="SVGID_195_"><tspan
      id="tspan5442"
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_2}</tspan></text>
+
 
 
 
@@ -20745,6 +20776,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
        id="switch926"
        i:objectType="pointText"
@@ -20778,6 +20810,7 @@ d7/6+5f/D5sErPQ=
    font-size="5.5"
    transform="translate(514.7227,372.4297)"
    id="SVGID_131_">To EURO Countries</text>
+
 
 
 
@@ -20823,6 +20856,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
        id="switch936"
        i:objectType="pointText"
@@ -20856,6 +20890,7 @@ d7/6+5f/D5sErPQ=
    font-size="5.5"
    transform="translate(514.8848,387.8066)"
    id="SVGID_133_">To WPRO Countries</text>
+
 
 
 
@@ -20901,6 +20936,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
        id="switch957"
        i:objectType="pointText"
@@ -20940,6 +20976,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 			</switch><switch
        id="switch962"
        i:objectType="pointText"
@@ -20973,6 +21010,7 @@ d7/6+5f/D5sErPQ=
    font-size="5.5"
    transform="translate(514.7227,364.7451)"
    id="SVGID_137_">To EMRO Countries</text>
+
 
 
 
@@ -21446,6 +21484,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</g>
 			</switch><rect
    style="fill:#d4effc"
@@ -21492,6 +21531,7 @@ d7/6+5f/D5sErPQ=
    y="500.58789"><tspan
      style="font-size:13px"
      id="tspan5334">{d_tot}%</tspan></text>
+
 
 
 
@@ -21707,6 +21747,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4164"
@@ -21754,6 +21795,7 @@ d7/6+5f/D5sErPQ=
      font-size="6"
      y="0"
      x="3.5999999">{recip6}</tspan></text>
+
 
 
 
@@ -21817,6 +21859,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4240"
@@ -21874,6 +21917,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4259"
@@ -21923,6 +21967,7 @@ d7/6+5f/D5sErPQ=
 
 
 
+
 				</g>
 			</switch><switch
    id="switch4270"
@@ -21959,6 +22004,7 @@ d7/6+5f/D5sErPQ=
    font-size="6"
    transform="translate(623.0166,459.2979)"
    id="SVGID_416_">{recip1}</text>
+
 
 
 
@@ -22073,6 +22119,7 @@ d7/6+5f/D5sErPQ=
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_3}</tspan></text>
 
 
+
 </switch></g><g
    transform="translate(106.40002,-6)"
    id="bcg_4"><circle
@@ -22114,6 +22161,7 @@ d7/6+5f/D5sErPQ=
    id="SVGID_195_-1"><tspan
      id="tspan5442-8"
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_4}</tspan></text>
+
 
 
 </switch></g><g
@@ -22159,6 +22207,7 @@ d7/6+5f/D5sErPQ=
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_5}</tspan></text>
 
 
+
 </switch></g><g
    transform="translate(0,48.900009)"
    id="bcg_6"><circle
@@ -22200,6 +22249,7 @@ d7/6+5f/D5sErPQ=
    id="SVGID_195_-0"><tspan
      id="tspan5442-6"
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_6}</tspan></text>
+
 
 
 </switch></g><g
@@ -22245,6 +22295,7 @@ d7/6+5f/D5sErPQ=
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_7}</tspan></text>
 
 
+
 </switch></g><g
    transform="translate(106.40002,48.900009)"
    id="bcg_8"><circle
@@ -22286,6 +22337,7 @@ d7/6+5f/D5sErPQ=
    id="SVGID_195_-0-2"><tspan
      id="tspan5442-6-8"
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_8}</tspan></text>
+
 
 
 </switch></g><g
@@ -22331,6 +22383,7 @@ d7/6+5f/D5sErPQ=
      style="font-size:7px;text-align:center;text-anchor:middle">{odah_9}</tspan></text>
 
 
+
 </switch></g><flowRoot
    xml:space="preserve"
    id="flowRoot5632"
@@ -22363,4 +22416,46 @@ d7/6+5f/D5sErPQ=
    width="1.767767"
    height="39.59798"
    x="819.17639"
-   y="9.8999996" /></svg>
+   y="9.8999996" /><text
+   id="g1_l3"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="667.05121"
+   y="112.59395">{g1_l3}</text>
+<text
+   id="g1_l4"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="691.40125"
+   y="112.59395">{g1_l4}</text>
+<text
+   id="g1_l5"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="715.80121"
+   y="112.59395">{g1_l5}</text>
+<text
+   id="g1_l6"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="740.20123"
+   y="112.59395">{g1_l6}</text>
+<text
+   id="g1_l7"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="764.45123"
+   y="112.59395">{g1_l7}</text>
+<text
+   id="g1_l8"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="789.00122"
+   y="112.59395">{g1_l8}</text>
+<text
+   id="g1_l9"
+   font-size="6"
+   style="font-size:5px;text-align:center;text-anchor:middle;fill:#ffffff;font-family:Arial"
+   x="813.39539"
+   y="112.59395">{g1_l9}</text>
+</svg>

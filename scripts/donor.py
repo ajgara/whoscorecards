@@ -316,12 +316,21 @@ def process_commitments_graph(donor_country, template_xml):
     data = {}
     dc = donor_country
     graph = graphs.BarGraph(num_ticks=7, min_height=285.5, max_height=223)
+    graph2 = graphs.LineGraph("graph_line", min_height=129.5, max_height=68.5)
 
     oda_commitments = dc.oda_commitments
+    oda_health = dc.oda_health
     for year in range(2002, 2010):
-        y = str(year)[3]
         year = str(year)
         graph.add_value(year, oda_commitments[year])
+
+    max_val = max(oda_health.values())
+    ratio = graph.max_tick / max_val
+    for year in range(2002, 2010):
+        year = str(year)
+        y = str(year)[3]
+        graph2.add_value(year, oda_health[year] * ratio * 0.25)
+        data["g1_l%s" % y] = fmt_r1(oda_health[year])
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
     if not has_data:
@@ -349,6 +358,20 @@ def process_commitments_graph(donor_country, template_xml):
         2007 : "g1_b7",
         2008 : "g1_b8",
         2009 : "g1_b9",
+    })
+
+    graph2.ticks = graph.ticks
+    graph2.update_points(xml, reverse=True)
+
+    graph2.update_values(xml, {
+        2002 : "g1_l2",
+        2003 : "g1_l3",
+        2004 : "g1_l4",
+        2005 : "g1_l5",
+        2006 : "g1_l6",
+        2007 : "g1_l7",
+        2008 : "g1_l8",
+        2009 : "g1_l9",
     })
 
     return xml.toxml()
