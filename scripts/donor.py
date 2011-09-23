@@ -6,8 +6,9 @@ from pivottable import PivotTable, GroupBy, Sum
 import ftypes
 import math
 import dataprocessing
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2, xmlutils
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_perc0, fmt_r0, fmt_r1, fmt_r2, xmlutils, numutils
 import graphs
+from collections import defaultdict
 
 donor_svg = "../svg/WHO_ODA_donar.svg"
 output_path = "gen_donors"
@@ -37,7 +38,7 @@ class DonorCountry(object):
 
 
         fn_get_commitments = lambda x : (self.fn_clean_year(x[f_year]), x[f_oda])
-        oda_commitments =  dict(self._donor_oda * fn_get_commitments)
+        oda_commitments =  defaultdict(float, self._donor_oda * fn_get_commitments)
         return oda_commitments
 
     @property
@@ -45,8 +46,9 @@ class DonorCountry(object):
         f_oda = "HEALTH ODA By DONOR three years MovAv"
         f_year = "Three Years"
 
-        fn_get_health_oda = lambda x : (self.fn_clean_year(x[f_year]), x[f_oda])
-        oda_health =  dict(self._donor_oda * fn_get_health_oda)
+        fn_blank_zero = lambda x: 0 if str(x).strip() == "" else x
+        fn_get_health_oda = lambda x : (self.fn_clean_year(x[f_year]), fn_blank_zero(x[f_oda]))
+        oda_health =  defaultdict(float, self._donor_oda * fn_get_health_oda)
         return oda_health
 
     @property
@@ -54,16 +56,16 @@ class DonorCountry(object):
         oda = self.oda_commitments
         oda_health = self.oda_health
 
-        return {
+        return defaultdict(str, {
             year : oda_health[year] / oda[year] for year in oda.keys()
-        }
+        })
 
     @property
     def ldc_allocation(self):
         f_year = "Period"
         f_allocation = "LDCs,Total (Least Developed)"
         fn_get_ldc_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        ldc_allocation =  dict(self._donation_breakdown * fn_get_ldc_allocation)
+        ldc_allocation =  defaultdict(float, self._donation_breakdown * fn_get_ldc_allocation)
         return ldc_allocation
 
     @property
@@ -71,7 +73,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "OLICs,Total (Other Low Income)"
         fn_get_lic_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        lic_allocation =  dict(self._donation_breakdown * fn_get_lic_allocation)
+        lic_allocation =  defaultdict(float, self._donation_breakdown * fn_get_lic_allocation)
         return lic_allocation
 
     @property
@@ -79,7 +81,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "LMICs,Total (Low Middle Income)"
         fn_get_lmi_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        lmi_allocation =  dict(self._donation_breakdown * fn_get_lmi_allocation)
+        lmi_allocation =  defaultdict(float, self._donation_breakdown * fn_get_lmi_allocation)
         return lmi_allocation
 
     @property
@@ -87,7 +89,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "UMICs,Total (Upper Middle Income)"
         fn_get_umi_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        umi_allocation =  dict(self._donation_breakdown * fn_get_umi_allocation)
+        umi_allocation =  defaultdict(float, self._donation_breakdown * fn_get_umi_allocation)
         return umi_allocation
 
     @property
@@ -95,7 +97,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "DONORS TO Income groups 3 yrs MovAv.(blank)"
         fn_get_gmc_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        gmc_allocation =  dict(self._donation_breakdown * fn_get_gmc_allocation)
+        gmc_allocation =  defaultdict(float, self._donation_breakdown * fn_get_gmc_allocation)
         return gmc_allocation
 
     @property
@@ -103,7 +105,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Afr"
         fn_get_afro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        afro_allocation =  dict(self._donation_breakdown * fn_get_afro_allocation)
+        afro_allocation =  defaultdict(float, self._donation_breakdown * fn_get_afro_allocation)
         return afro_allocation
 
     @property
@@ -111,7 +113,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Amr"
         fn_get_amro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        amro_allocation =  dict(self._donation_breakdown * fn_get_amro_allocation)
+        amro_allocation =  defaultdict(float, self._donation_breakdown * fn_get_amro_allocation)
         return amro_allocation
 
     @property
@@ -119,7 +121,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Emr"
         fn_get_emro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        emro_allocation =  dict(self._donation_breakdown * fn_get_emro_allocation)
+        emro_allocation =  defaultdict(float, self._donation_breakdown * fn_get_emro_allocation)
         return emro_allocation
 
     @property
@@ -127,7 +129,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Eur"
         fn_get_euro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        euro_allocation =  dict(self._donation_breakdown * fn_get_euro_allocation)
+        euro_allocation =  defaultdict(float, self._donation_breakdown * fn_get_euro_allocation)
         return euro_allocation
 
     @property
@@ -135,7 +137,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Sear"
         fn_get_searo_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        searo_allocation =  dict(self._donation_breakdown * fn_get_searo_allocation)
+        searo_allocation =  defaultdict(float, self._donation_breakdown * fn_get_searo_allocation)
         return searo_allocation
 
     @property
@@ -143,7 +145,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Wpr"
         fn_get_wpro_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        wpro_allocation =  dict(self._donation_breakdown * fn_get_wpro_allocation)
+        wpro_allocation =  defaultdict(float, self._donation_breakdown * fn_get_wpro_allocation)
         return wpro_allocation
 
     @property
@@ -151,7 +153,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Multicount"
         fn_get_gmcr_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        gmcr_allocation =  dict(self._donation_breakdown * fn_get_gmcr_allocation)
+        gmcr_allocation =  defaultdict(float, self._donation_breakdown * fn_get_gmcr_allocation)
         return gmcr_allocation
 
     @property
@@ -159,7 +161,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Not UN"
         fn_get_other_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        other_allocation =  dict(self._donation_breakdown * fn_get_other_allocation)
+        other_allocation =  defaultdict(float, self._donation_breakdown * fn_get_other_allocation)
         return other_allocation
 
     @property
@@ -167,7 +169,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "MDG6"
         fn_get_mdg6_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        mdg6_allocation =  dict(self._donation_breakdown * fn_get_mdg6_allocation)
+        mdg6_allocation =  defaultdict(float, self._donation_breakdown * fn_get_mdg6_allocation)
         return mdg6_allocation
 
     @property
@@ -175,7 +177,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "RH & FP"
         fn_get_rhfp_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        rhfp_allocation =  dict(self._donation_breakdown * fn_get_rhfp_allocation)
+        rhfp_allocation =  defaultdict(float, self._donation_breakdown * fn_get_rhfp_allocation)
         return rhfp_allocation
 
     @property
@@ -183,7 +185,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "Other Health Purposes"
         fn_get_otherh_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        otherh_allocation =  dict(self._donation_breakdown * fn_get_otherh_allocation)
+        otherh_allocation =  defaultdict(float, self._donation_breakdown * fn_get_otherh_allocation)
         return otherh_allocation
 
     @property
@@ -191,7 +193,7 @@ class DonorCountry(object):
         f_year = "Period"
         f_allocation = "DONORS Purpose 3 yrs MovAv.(blank)"
         fn_get_unspecified_allocation = lambda x : (self.fn_clean_year(x[f_year]), x[f_allocation])
-        unspecified_allocation =  dict(self._donation_breakdown * fn_get_unspecified_allocation)
+        unspecified_allocation =  defaultdict(float, self._donation_breakdown * fn_get_unspecified_allocation)
         return unspecified_allocation
 
     @property
@@ -204,6 +206,7 @@ class DonorCountry(object):
         ]
         pt.yaxis_order = ["recipientname_e"]
         pt.rows = self._bilateral_donations
+        print self._bilateral_donations
         table = ftypes.list(*[a for a in pt.result])
         return table
 
@@ -292,10 +295,11 @@ def process_health_table(donor_country, template_xml):
         y = str(year)[3]
         year = str(year)
         total = oda_health[year]
-        data["mdg_%s" % y] = "%s (%s%%)" % (fmt_r1(mdg6_allocation[year]), fmt_perc0(mdg6_allocation[year] / total))
-        data["rf_%s" % y] = "%s (%s%%)" % (fmt_r1(rhfp_allocation[year]), fmt_perc0(rhfp_allocation[year] / total))
-        data["oth_%s" % y] = "%s (%s%%)" % (fmt_r1(otherh_allocation[year]), fmt_perc0(otherh_allocation[year] / total))
-        data["uns_%s" % y] = "%s (%s%%)" % (fmt_r1(unspecified_allocation[year]), fmt_perc0(unspecified_allocation[year] / total))
+        sd = numutils.safediv
+        data["mdg_%s" % y] = "%s (%s%%)" % (fmt_r1(mdg6_allocation[year]), fmt_perc0(sd(mdg6_allocation[year], total)))
+        data["rf_%s" % y] = "%s (%s%%)" % (fmt_r1(rhfp_allocation[year]), fmt_perc0(sd(rhfp_allocation[year], total)))
+        data["oth_%s" % y] = "%s (%s%%)" % (fmt_r1(otherh_allocation[year]), fmt_perc0(sd(otherh_allocation[year], total)))
+        data["uns_%s" % y] = "%s (%s%%)" % (fmt_r1(unspecified_allocation[year]), fmt_perc0(sd(unspecified_allocation[year], total)))
 
     template_xml = process_svg_template(data, template_xml)
 
@@ -325,6 +329,10 @@ def process_commitments_graph(donor_country, template_xml):
         graph.add_value(year, oda_commitments[year])
 
     max_val = max(oda_health.values())
+    if max_val == 0:
+        # No data available for this graph
+        return template_xml
+
     ratio = graph.max_tick / max_val
     for year in range(2002, 2010):
         year = str(year)
@@ -550,9 +558,15 @@ def process_recipients_graph(donor_country, template_xml):
     return xml.toxml()
 
 def process_donor_country(donor_country):
+    dc = donor_country
+    output_filename = "%s/%s.svg" % (output_path, dc.country)
+    output_filename = output_filename.replace(" ", "_")
+
+    if os.path.exists(output_filename):
+        return
+
     template_xml = open(donor_svg, "r").read().decode("utf-8")
 
-    dc = donor_country
     data = {
         "country" : dc.country.upper() 
     }
@@ -566,7 +580,7 @@ def process_donor_country(donor_country):
     template_xml = process_region_graph(dc, template_xml)
     template_xml = process_recipients_graph(dc, template_xml)
 
-    f = open("%s/%s.svg" % (output_path, dc.country), "w")
+    f = open(output_filename, "w")
     f.write(template_xml.encode("utf-8"))
     f.close()
 
@@ -581,12 +595,9 @@ def main(*args):
         print >> sys.stderr, e.message
         cleanup()
 
-    #for country in open("../data/recipient/recipients"):
-    for country in ["Denmark"]:
+    for country in open("../data/donor/donors"):
         country = country.strip()
         if country.startswith("#"): continue
-        #if os.path.exists("gen_donors/%s.svg" % country):
-        #    continue
         print "Processing: %s" % country
         try:
             dc = DonorCountry(country, db_donor_data, db_donor_oda, db_donation_breakdown)

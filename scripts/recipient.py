@@ -352,8 +352,8 @@ def main(*args):
         print >> sys.stderr, e.message
         cleanup()
 
-    #for country in open("../data/recipient/recipients"):
-    for country in ["SDN"]:
+    for country in open("../data/recipient/recipients"):
+    #for country in ["SDN"]:
         country = country.strip()
         if country.startswith("#"): continue
         #if os.path.exists("%s/%s.svg" % (output_path, country)):

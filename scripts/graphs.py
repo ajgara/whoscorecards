@@ -30,7 +30,6 @@ class LineGraph(object):
         new_coords = []
         for year, (x, y) in zip(range(2002, 2010), coords):
             y = self.min_height - self.values[year] / self.max_tick * self.pixel_range 
-            print year, y, self.values[year]
             new_coords.append((x, y))
         node.attributes["points"].value = " ".join("%s,%s" % (x, y) for (x, y) in new_coords)
 
@@ -38,8 +37,7 @@ class LineGraph(object):
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "text", ids[year])
             height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
-            print year, height, self.values[year]
-            node.setAttribute("y", str(height - 6))
+            node.setAttribute("y", str(height - 4))
 
 
 class BarGraph(object):
@@ -94,6 +92,7 @@ class RectBarGraph(BarGraph):
     def update_bars(self, xml, ids):
         #import pdb; pdb.set_trace()
         for year in range(2002, 2010):
+            if self.max_tick == 0: continue
             node = xmlutils.get_el_by_id(xml, "rect", ids[year])
             y = self.min_height -  self.values[year] / self.max_tick * self.pixel_range
             height = self.min_height - y
