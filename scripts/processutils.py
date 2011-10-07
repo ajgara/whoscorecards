@@ -37,6 +37,15 @@ def fmt_r1(x): return "{:,.1f}".format(float(x))
 @check_numeric
 def fmt_r2(x): return str(round(x, 2)) 
 
+@check_numeric
+def fmt_cond(x):
+    if x >= 10:
+        return fmt_r0(x)
+    elif x >= 1:
+        return fmt_r1(x)
+    else:
+        return fmt_r2(x)
+
 class xmlutils(object):
     @staticmethod
     def get_el_by_id(dom, elname, id):
@@ -49,7 +58,7 @@ class numutils(object):
     def condround(val):
         if val < 0.1:
             return val
-        elif val < 1:
+        elif val < 10:
             return round(val, 1)
         elif val < 100:
             return round(val)
