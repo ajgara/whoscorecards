@@ -69,17 +69,25 @@ class BarGraph(object):
     def update_bars(self, xml, ids):
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "path", ids[year])
-            d = node.attributes["d"].value.split()
-            d[2] = "V"
-            d[3] = str(self.min_height - self.values[year] / self.max_tick * self.pixel_range)
-            node.attributes["d"].value = " ".join(d)
+            if self.values[year] < 0.1:
+                node.parentNode.removeChild(node)
+            else:
+                d = node.attributes["d"].value.split()
+                d[2] = "V"
+                d[3] = str(self.min_height - self.values[year] / self.max_tick * self.pixel_range)
+                node.attributes["d"].value = " ".join(d)
+
 
     def update_values(self, xml, ids):
         for year in range(2002, 2010):
             node = xmlutils.get_el_by_id(xml, "text", ids[year])
-            height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
-            node.setAttribute("y", str(height - 6))
+            if self.values[year] < 0.1:
+                node.parentNode.removeChild(node)
+            else:
+                height = self.min_height - self.values[year] / self.max_tick * self.pixel_range
+                node.setAttribute("y", str(height - 6))
 
+            
 class RectBarGraph(BarGraph):
     def __init__(self, tick_multiplier=1.2, num_ticks=6, min_height=285.5, max_height=223, max_tick=None):
         self._max_tick = max_tick
@@ -90,7 +98,6 @@ class RectBarGraph(BarGraph):
         return self._max_tick or super(RectBarGraph, self).max_tick
 
     def update_bars(self, xml, ids):
-        #import pdb; pdb.set_trace()
         for year in range(2002, 2010):
             if self.max_tick == 0: continue
             node = xmlutils.get_el_by_id(xml, "rect", ids[year])
@@ -111,7 +118,8 @@ class PieChart(object):
             self.colours = colours
 
     def generate_xml(self):
-        total = sum(self.data)
+        # added a tiny increment to total so that angles are always less than 360 degrees
+        total = sum(self.data) + 0.00001
         if total == 0: return
 
         centre_x, centre_y = self.centre
