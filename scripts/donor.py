@@ -307,12 +307,14 @@ def process_health_table(donor_country, template_xml):
     circle_y = 526.5
     for year, circle_x in [(2002, 164), (2003, 208), (2004, 250), (2005, 293.4), (2006, 336.4), (2007, 379.38), (2008, 422.9), (2009, 466)]:
         year = str(year)
+        colours = ["#cf3d96", "#62a73b", "#79317f", "#009983", "#cccccc", "#cccccc"]
         chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
             mdg6_allocation[year], 
             rhfp_allocation[year], 
             otherh_allocation[year], 
-            unspecified_allocation[year]]
-        )
+            unspecified_allocation[year],
+            100 if mdg6_allocation[year] + rhfp_allocation[year] + otherh_allocation[year] + unspecified_allocation[year] == 0 else 0,
+        ], colours)
         chart.generate_xml()
     return xml.toxml()
 
@@ -406,7 +408,7 @@ def process_income_group_graph(donor_country, template_xml):
             lmi_allocation[year], 
             umi_allocation[year],
             gmc_allocation[year],
-        ], colours=["#df7627", "#cf3d96", "#62a73b", "#79317f", "#0093d5"])
+        ], colours=["#df7627", "#cf3d96", "#62a73b", "#79317f", "#c1b400"])
         chart.generate_xml()
         black_circle = xmlutils.get_el_by_id(xml, "g", "bcg_%s" % y)
         xml.documentElement.removeChild(black_circle)
@@ -545,6 +547,9 @@ def process_recipients_graph(donor_country, template_xml):
     for i, (country_name, perc_received) in enumerate(top10_oda_recipients):
         s_perc_received = fmt_r0(perc_received)
         data["recip%d" % (i + 1)] = "%s (%s%%)" % (country_name, s_perc_received)
+    for unused_id in range(i + 1, 10):
+        data["recip%d" % (unused_id + 1)] = ""
+
     top10_perc = fn_sum_oda(top10_oda_recipients)
     data["d_tot"] = fmt_r0(top10_perc)
 
@@ -554,6 +559,10 @@ def process_recipients_graph(donor_country, template_xml):
         node = xmlutils.get_el_by_id(xml, "circle", "r_c%d" % (i + 1))
         radius = fn_calc_radius(perc_received)
         node.setAttribute("r", str(radius))
+
+    for unused_circle_id in range(i + 1, 10):
+        node = xmlutils.get_el_by_id(xml, "circle", "r_c%d" % (unused_circle_id + 1))
+        node.parentNode.removeChild(node)
 
     return xml.toxml()
 
