@@ -8,7 +8,7 @@ import ftypes
 from pivottable import PivotTable, GroupBy, Sum
 import dataprocessing
 import processutils
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2, xmlutils, numutils
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2, xmlutils, numutils, fmt_cond
 import graphs
 
 recipient_svg = "../svg/WHO_ODA_recipient.svg"
@@ -152,6 +152,12 @@ def process_donor_table(recipient_country, template_xml):
     template_xml = process_svg_template(data, template_xml)
     return template_xml
 
+def graph_round(value):
+    if value > 1:
+        return round(value, 1), fmt_r1(value)
+    else:
+        return round(value, 2), fmt_r2(value)
+
 def process_health_graph(recipient_country, template_xml):
     rc = recipient_country
     graph = graphs.BarGraph(num_ticks=6, min_height=285.5, max_height=223)
@@ -160,8 +166,9 @@ def process_health_graph(recipient_country, template_xml):
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        data["g1_v%s" % y] = fmt_r1(rc.oda_health[year])
-        graph.add_value(year, rc.oda_health[year])
+        f_value, s_value = graph_round(rc.oda_health[year])
+        data["g1_v%s" % y] = s_value
+        graph.add_value(year, f_value)
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
     if not has_data:
@@ -169,14 +176,14 @@ def process_health_graph(recipient_country, template_xml):
         return template_xml
 
     g1_ticks = graph.ticks
-    data["g1_t1"] = fmt_r0(g1_ticks[1])
-    data["g1_t2"] = fmt_r0(g1_ticks[2])
-    data["g1_t3"] = fmt_r0(g1_ticks[3])
-    data["g1_t4"] = fmt_r0(g1_ticks[4])
-    data["g1_t5"] = fmt_r0(g1_ticks[5])
-    data["g1_t6"] = fmt_r0(g1_ticks[6])
+    data["g1_t1"] = fmt_cond(g1_ticks[1])
+    data["g1_t2"] = fmt_cond(g1_ticks[2])
+    data["g1_t3"] = fmt_cond(g1_ticks[3])
+    data["g1_t4"] = fmt_cond(g1_ticks[4])
+    data["g1_t5"] = fmt_cond(g1_ticks[5])
+    data["g1_t6"] = fmt_cond(g1_ticks[6])
     g1_change = rc.oda_health["2009"] - rc.oda_health["2008"]
-    data["g1_diff"] = fmt_r1(g1_change)
+    data["g1_diff"] = fmt_r1(abs(g1_change))
 
     perc_2008 = numutils.safediv(rc.oda_health["2008"], rc.oda_commitments["2008"]) * 100
     perc_2009 = numutils.safediv(rc.oda_health["2009"], rc.oda_commitments["2009"]) * 100
@@ -189,14 +196,14 @@ def process_health_graph(recipient_country, template_xml):
 
     xml = minidom.parseString(template_xml.encode("utf-8"))
     graph.update_bars(xml, {
-        2002 : "path22512",
-        2003 : "path22522",
-        2004 : "path22532",
-        2005 : "path22542",
-        2006 : "path22552",
-        2007 : "path22562",
-        2008 : "path22572",
-        2009 : "path22582",
+        2002 : "g1_b2",
+        2003 : "g1_b3",
+        2004 : "g1_b4",
+        2005 : "g1_b5",
+        2006 : "g1_b6",
+        2007 : "g1_b7",
+        2008 : "g1_b8",
+        2009 : "g1_b9",
     })
 
     graph.update_values(xml, {
@@ -221,11 +228,13 @@ def process_health_per_capita_graph(recipient_country, template_xml):
     rc = recipient_country
     data = {}
     graph = graphs.BarGraph(num_ticks=4, min_height=285.5, max_height=223)
+    get_value = lambda x : x or 0
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        data["g2_v%s" % y] = fmt_r1(rc.oda_health_per_capita[year])
-        graph.add_value(year, rc.oda_health_per_capita[year])
+        f_value, s_value = graph_round(rc.oda_health_per_capita[year])
+        data["g2_v%s" % y] = s_value
+        graph.add_value(year, f_value)
 
     has_data = isinstance(max(graph.values.values()), numbers.Number)
     if not has_data:
@@ -233,13 +242,13 @@ def process_health_per_capita_graph(recipient_country, template_xml):
         return template_xml
 
     g2_ticks = graph.ticks
-    data["g2_t1"] = fmt_r0(g2_ticks[1])
-    data["g2_t2"] = fmt_r0(g2_ticks[2])
-    data["g2_t3"] = fmt_r0(g2_ticks[3])
-    data["g2_t4"] = fmt_r0(g2_ticks[4])
+    data["g2_t1"] = fmt_cond(g2_ticks[1])
+    data["g2_t2"] = fmt_cond(g2_ticks[2])
+    data["g2_t3"] = fmt_cond(g2_ticks[3])
+    data["g2_t4"] = fmt_cond(g2_ticks[4])
 
-    g2_change = rc.oda_health_per_capita["2009"] - rc.oda_health_per_capita["2008"]
-    data["g2_diff"] = fmt_r1(g2_change)
+    g2_change = get_value(rc.oda_health_per_capita["2009"]) - get_value(rc.oda_health_per_capita["2008"])
+    data["g2_diff"] = fmt_r1(abs(g2_change))
 
     template_xml = process_svg_template(data, template_xml)
 
@@ -278,7 +287,15 @@ def process_allocation_piecharts(recipient_country, template_xml):
     circle_y = 441
     for year, circle_x in [(2002, 237), (2003, 281), (2004, 328), (2005, 373.8), (2006, 420), (2007, 465.77), (2008, 511.71), (2009, 557.77)]:
         year = str(year)
-        chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [rc.mdg6[year], rc.rhfp[year], rc.other_health[year], rc.unspecified[year]])
+        #colours = ["#cf3d96", "#62a73b", "#79317f", "#009983", "#cccccc", "#cccccc"]
+        colours = ["#cf3d96", "#62a73b", "#79317f", "#524b4b", "#cccccc", "#cccccc"]
+        chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
+            rc.mdg6[year], 
+            rc.rhfp[year], 
+            rc.other_health[year], 
+            rc.unspecified[year],
+            100 if rc.mdg6[year] + rc.rhfp[year] + rc.other_health[year] + rc.unspecified[year] == 0 else 0,
+        ], colours)
         chart.generate_xml()
     return xml.toxml()
 
@@ -311,16 +328,35 @@ def process_largest_donors(recipient_country, template_xml):
     for i, (country_name, perc_donated) in enumerate(top5_oda_donors):
         s_perc_donated = fmt_r0(perc_donated)
         data["d_v%d" % (i + 1)] = "%s (%s%%)" % (country_name, s_perc_donated)
+    for unused_id in range(i + 2, 6):
+        data["d_v%d" % unused_id] = ""
+        
     top5_perc = fn_sum_oda(top5_oda_donors)
     data["d_tot"] = fmt_r0(top5_perc)
 
     template_xml = process_svg_template(data, template_xml)
 
     xml = minidom.parseString(template_xml.encode("utf-8"))
+    UP = -1; DOWN = 1
+    LEFT = -1; RIGHT = 1
+    STAY = 0
+    circles_dir = {
+        1 : (LEFT, UP), 2: (RIGHT, UP),
+        3 : (LEFT, UP), 4: (RIGHT, DOWN),
+        5 : (LEFT, DOWN), 
+    }
     for i, (country_name, perc_donated) in enumerate(top5_oda_donors):
         node = xmlutils.get_el_by_id(xml, "circle", "d_c%d" % (i + 1))
         radius = fn_calc_radius(perc_donated)
         node.setAttribute("r", str(radius))
+        x_coeff, y_coeff = circles_dir[i+1]
+        node = xmlutils.get_el_by_id(xml, "g", "d_v%d" % (i + 1))
+        radius2 = radius * 1.2
+        node.attributes["transform"] = "translate(%s, %s)" % (x_coeff * radius2, y_coeff * radius2)
+        
+    for unused_id in range(i + 2, 6):
+        node = xmlutils.get_el_by_id(xml, "circle", "d_c%d" % unused_id)
+        node.parentNode.removeChild(node)
 
     return xml.toxml()
 
@@ -356,8 +392,8 @@ def main(*args):
     #for country in ["SDN"]:
         country = country.strip()
         if country.startswith("#"): continue
-        #if os.path.exists("%s/%s.svg" % (output_path, country)):
-        #    continue
+        if os.path.exists("%s/%s.svg" % (output_path, country)):
+            continue
         print "Processing: %s" % country
         try:
             process_recipient_country(country)
