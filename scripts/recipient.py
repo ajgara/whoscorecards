@@ -8,7 +8,7 @@ import ftypes
 from pivottable import PivotTable, GroupBy, Sum
 import dataprocessing
 import processutils
-from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2, xmlutils, numutils, fmt_cond
+from processutils import process_svg_template, none_is_zero, fmt_pop, fmt_1000, fmt_perc, fmt_r0, fmt_r1, fmt_r2, fmt_r3, xmlutils, numutils, fmt_cond, is_blank_string
 import graphs
 
 recipient_svg = "../svg/WHO_ODA_recipient.svg"
@@ -89,18 +89,18 @@ def process_expenditure_table(recipient_country, template_xml):
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        data["pop_%s" % y] = fmt_pop(rc.population[year])
-        data["oda_%s" % y] = fmt_r1(rc.oda_commitments[year])
-        data["odah_%s" % y] = fmt_r1(rc.oda_health[year])
-        data["odahp_%s" % y] = fmt_perc(rc.oda_health_perc[year])
-        data["odahc_%s" % y] = fmt_r1(rc.oda_health_per_capita[year])
-        data["odahr_%s" % y] = fmt_r2(rc.oda_regional[year])
-        data["the_%s" % y] = fmt_r2(rc.total_health[year])
-        data["gh_%s" % y] = fmt_r1(rc.general_health[year])
-        data["mdg6_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.mdg6[year]), fmt_perc(rc.mdg6_perc[year]))
-        data["rhfp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.rhfp[year]), fmt_perc(rc.rhfp_perc[year]))
-        data["ohp_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.other_health[year]), fmt_perc(rc.other_health_perc[year]))
-        data["unspec_%s" % y] = "%s (%s%%)" % (fmt_r1(rc.unspecified[year]), fmt_perc(rc.unspecified_perc[year]))
+        data["pop_%s" % y] = "-" if not year in rc.population else fmt_pop(rc.population[year])
+        data["oda_%s" % y] = "-" if not year in rc.oda_commitments else fmt_r1(rc.oda_commitments[year])
+        data["odah_%s" % y] = "-" if not year in rc.oda_health else fmt_r1(rc.oda_health[year])
+        data["odahp_%s" % y] = "-" if not year in rc.oda_health_perc else fmt_perc(rc.oda_health_perc[year])
+        data["odahc_%s" % y] = "-" if not year in rc.oda_health_per_capita else fmt_r1(rc.oda_health_per_capita[year])
+        data["odahr_%s" % y] = "-" if not year in rc.oda_regional else fmt_r2(rc.oda_regional[year])
+        data["the_%s" % y] = "-" if not year in rc.total_health else fmt_r2(rc.total_health[year])
+        data["gh_%s" % y] = "-" if not year in rc.general_health else fmt_r1(rc.general_health[year])
+        data["mdg6_%s" % y] = "-" if not year in rc.mdg6 else "%s (%s%%)" % (fmt_r1(rc.mdg6[year]), fmt_perc(rc.mdg6_perc[year]))
+        data["rhfp_%s" % y] = "-" if not year in rc.rhfp else "%s (%s%%)" % (fmt_r1(rc.rhfp[year]), fmt_perc(rc.rhfp_perc[year]))
+        data["ohp_%s" % y] = "-" if not year in rc.other_health else "%s (%s%%)" % (fmt_r1(rc.other_health[year]), fmt_perc(rc.other_health_perc[year]))
+        data["unspec_%s" % y] = "-" if not year in rc.unspecified else "%s (%s%%)" % (fmt_r1(rc.unspecified[year]), fmt_perc(rc.unspecified_perc[year]))
     template_xml = process_svg_template(data, template_xml)
     return template_xml
 
@@ -126,14 +126,14 @@ def process_donor_table(recipient_country, template_xml):
     def data_unspecified(donor_country):
         donor_data = country_donations(donor_country)
         if donor_data == None or len(donor_data) == 0: return 0
-        return none_is_zero(donor_data[0].get("Unallocated", None))
+        return none_is_zero(donor_data[0].get("(blank)", None))
 
     for abbr, donor_country in [
         ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
         ("den", "Denmark"), ("fin", "Finland"), ("fra", "France"), ("ger", "Germany"), 
         ("gre", "Greece"), ("ire", "Ireland"), ("ita", "Italy"), ("jap", "Japan"),
-        ("lux", "Luxembourg"), ("net", "Netherlands"), ("nor", "Norway"), ("kor", "Republic of Korea"),
-        ("spa", "Spain"), ("swe", "Sweden"), ("uk", "United Kingdom"), ("us", "United States of America"),
+        ("lux", "Luxembourg"), ("net", "Netherlands"), ("nor", "Norway"), ("kor", "Korea"),
+        ("spa", "Spain"), ("swe", "Sweden"), ("uk", "United Kingdom"), ("us", "United States"),
         ("ec", "EC"), ("gavi", "GAVI"), ("gf", "GFATM"), ("ida", "IDA"),
         ("una", "UNAIDS"), ("und", "UNDP"), ("unf", "UNFPA"), ("uni", "UNICEF"),
         ]:
@@ -144,11 +144,11 @@ def process_donor_table(recipient_country, template_xml):
         other = data_other(donor_country)
         unspecified = data_unspecified(donor_country)
 
-        data["mdg6_%s" % abbr] = fmt_1000(mdg6)
-        data["rf_%s" % abbr] = fmt_1000(rf)
-        data["oth_%s" % abbr] = fmt_1000(other)
-        data["un_%s" % abbr] = fmt_1000(unspecified)
-        data["tot_%s" % abbr] = fmt_1000(mdg6 + rf + other + unspecified)
+        data["mdg6_%s" % abbr] = fmt_r3(mdg6)
+        data["rf_%s" % abbr] = fmt_r3(rf)
+        data["oth_%s" % abbr] = fmt_r3(other)
+        data["un_%s" % abbr] = fmt_r3(unspecified)
+        data["tot_%s" % abbr] = fmt_r3(mdg6 + rf + other + unspecified)
     template_xml = process_svg_template(data, template_xml)
     return template_xml
 
@@ -166,7 +166,10 @@ def process_health_graph(recipient_country, template_xml):
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        f_value, s_value = graph_round(rc.oda_health[year])
+        if not year in rc.oda_health:
+            f_value, s_value = 0, "-"
+        else:
+            f_value, s_value = graph_round(rc.oda_health[year])
         data["g1_v%s" % y] = s_value
         graph.add_value(year, f_value)
 
@@ -232,7 +235,10 @@ def process_health_per_capita_graph(recipient_country, template_xml):
     for year in range(2002, 2010):
         y = str(year)[3]
         year = str(year)
-        f_value, s_value = graph_round(rc.oda_health_per_capita[year])
+        if not year in rc.oda_health_per_capita or is_blank_string(rc.oda_health_per_capita[year]):
+            f_value, s_value = 0, "-"
+        else:
+            f_value, s_value = graph_round(none_is_zero(rc.oda_health_per_capita[year]))
         data["g2_v%s" % y] = s_value
         graph.add_value(year, f_value)
 
@@ -288,15 +294,16 @@ def process_allocation_piecharts(recipient_country, template_xml):
     for year, circle_x in [(2002, 237), (2003, 281), (2004, 328), (2005, 373.8), (2006, 420), (2007, 465.77), (2008, 511.71), (2009, 557.77)]:
         year = str(year)
         #colours = ["#cf3d96", "#62a73b", "#79317f", "#009983", "#cccccc", "#cccccc"]
-        colours = ["#cf3d96", "#62a73b", "#79317f", "#524b4b", "#cccccc", "#cccccc"]
-        chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
-            rc.mdg6[year], 
-            rc.rhfp[year], 
-            rc.other_health[year], 
-            rc.unspecified[year],
-            100 if rc.mdg6[year] + rc.rhfp[year] + rc.other_health[year] + rc.unspecified[year] == 0 else 0,
-        ], colours)
-        chart.generate_xml()
+        colours = ["#cf3d96", "#62a73b", "#79317f", "#0093d5", "#cccccc", "#cccccc"]
+        if year in rc.mdg6:
+            chart = graphs.PieChart(xml, (circle_x, circle_y), 17, [
+                rc.mdg6[year], 
+                rc.rhfp[year], 
+                rc.other_health[year], 
+                rc.unspecified[year],
+                100 if rc.mdg6[year] + rc.rhfp[year] + rc.other_health[year] + rc.unspecified[year] == 0 else 0,
+            ], colours)
+            chart.generate_xml()
     return xml.toxml()
 
 def process_largest_donors(recipient_country, template_xml):
@@ -360,10 +367,10 @@ def process_largest_donors(recipient_country, template_xml):
 
     return xml.toxml()
 
-def process_recipient_country(country):
+def process_recipient_country(iso3, country):
     template_xml = open(recipient_svg, "r").read().decode("utf-8")
 
-    rc = recipient_country = RecipientCountry(country, recipient_indicators, sources_data)
+    rc = recipient_country = RecipientCountry(iso3, recipient_indicators, sources_data)
 
 
     template_xml = process_expenditure_table(rc, template_xml)
@@ -388,15 +395,14 @@ def main(*args):
         print >> sys.stderr, e.message
         cleanup()
 
-    for country in open("../data/recipient/recipients"):
-    #for country in ["SDN"]:
-        country = country.strip()
-        if country.startswith("#"): continue
+    for line in open("../data/recipient/recipients"):
+        if line.startswith("#"): continue
+        iso3, country = line.strip().split("|")
         if os.path.exists("%s/%s.svg" % (output_path, country)):
             continue
         print "Processing: %s" % country
         try:
-            process_recipient_country(country)
+            process_recipient_country(iso3, country)
         except ProcessingException, e:
             print "Skipping %s due to processing exception: %s" % (country, e.message)
 
