@@ -16,8 +16,9 @@ def check_numeric(fn):
 
 
 # formatting functions
-none_is_zero = lambda x : 0 if x == None else float(x)
-fmt_pop = lambda x : str(round(x / 1000000.0, 1))
+is_blank_string = lambda x : type(x) == str and x.strip() == ""
+none_is_zero = lambda x : 0 if (x == None or is_blank_string(x)) else float(x)
+fmt_pop = lambda x : "{:,.1f}".format(round(x / 1000000.0, 1))
 
 @check_numeric
 def fmt_1000(x): return "{:,.0f}".format(float(x) * 1000)
@@ -36,6 +37,9 @@ def fmt_r1(x): return "{:,.1f}".format(float(x))
 
 @check_numeric
 def fmt_r2(x): return str(round(x, 2)) 
+
+@check_numeric
+def fmt_r3(x): return str(round(x, 3)) 
 
 @check_numeric
 def fmt_cond(x):
