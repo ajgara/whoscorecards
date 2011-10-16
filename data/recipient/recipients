@@ -1,152 +1,144 @@
-AFG
-AGO
-ALB
-ARG
-ARM
-ATG
-AZE
-BDI
-BEN
-BFA
-BGD
-BIH
-BLR
-BLZ
-BOL
-BRA
-BRB
-BTN
-BWA
-CAF
-CHL
-CHN
-CIV
-CMR
-COD
-COG
-COK
-COL
-COM
-CPV
-CRI
-CUB
-DJI
-DMA
-DOM
-DZA
-ECU
-EGY
-ERI
-ETH
-FJI
-FSM
-GAB
-GEO
-GHA
-GIN
-GMB
-GNB
-GNQ
-GRD
-GTM
-GUY
-HND
-HRV
-HTI
-IDN
-IND
-IRN
-IRQ
-JAM
-JOR
-KAZ
-KEN
-KGZ
-KHM
-KIR
-KNA
-LAO
-LBN
-LBR
-LBY
-LCA
-LKA
-LSO
-MAR
-MDA
-MDG
-MDV
-MEX
-MHL
-MKD
-MLI
-MMR
-MNE
-MNG
-MOZ
-MRT
-MSR
-Multi
-MUS
-MWI
-MYS
-MYT
-NAM
-NER
-NGA
-NIC
-NIU
-NPL
-NRU
-OMN
-PAK
-PAN
-PER
-PHL
-PLW
-PNG
-PRK
-PRY
-PSE
-RWA
-SAU
-SDN
-SEN
-SHN
-SLB
-SLE
-SLV
-SOM
-SRB
-STP
-SUR
-SWZ
-SYC
-SYR
-TCD
-TGO
-THA
-TJK
-TKM
-TLS
-TON
-TTO
-TUN
-TUR
-TUV
-TZA
-UGA
-UKR
-UNK
-URY
-UZB
-VCT
-VEN
-VNM
-VUT
-WLF
-WSM
-YEM
-ZAF
-ZMB
-ZWE
+AFG|Afghanistan
+ALB|Albania
+DZA|Algeria
+AGO|Angola
+ATG|Antigua and Barbuda
+ARG|Argentina
+ARM|Armenia
+AZE|Azerbaijan
+BGD|Bangladesh
+BRB|Barbados
+BLR|Belarus
+BLZ|Belize
+BEN|Benin
+BTN|Bhutan
+BOL|Bolivia
+BIH|Bosnia-Herzegovina
+BWA|Botswana
+BRA|Brazil
+BFA|Burkina Faso
+BDI|Burundi
+KHM|Cambodia
+CMR|Cameroon
+CPV|Cape Verde
+CAF|Central African Rep.
+TCD|Chad
+CHL|Chile
+CHN|China
+COL|Colombia
+COM|Comoros
+COD|Congo, Dem. Rep.
+COG|Congo, Rep.
+COK|Cook Islands
+CRI|Costa Rica
+CIV|Cote d'Ivoire
+HRV|Croatia
+CUB|Cuba
+DJI|Djibouti
+DMA|Dominica
+DOM|Dominican Republic
+ECU|Ecuador
+EGY|Egypt
+SLV|El Salvador
+GNQ|Equatorial Guinea
+ERI|Eritrea
+ETH|Ethiopia
+FJI|Fiji
+GAB|Gabon
+GMB|Gambia
+GEO|Georgia
+GHA|Ghana
+GRD|Grenada
+GTM|Guatemala
+GIN|Guinea
+GNB|Guinea-Bissau
+GUY|Guyana
+HTI|Haiti
+HND|Honduras
+IND|India
+IDN|Indonesia
+IRN|Iran
+IRQ|Iraq
+JAM|Jamaica
+JOR|Jordan
+KAZ|Kazakhstan
+KEN|Kenya
+KIR|Kiribati
+PRK|Korea, Dem. Rep.
+KGZ|Kyrgyz Republic
+LAO|Laos
+LBN|Lebanon
+LSO|Lesotho
+LBR|Liberia
+LBY|Libya
+MKD|Macedonia, FYR
+MDG|Madagascar
+MWI|Malawi
+MYS|Malaysia
+MDV|Maldives
+MLI|Mali
+MHL|Marshall Islands
+MRT|Mauritania
+MUS|Mauritius
+MEX|Mexico
+FSM|Micronesia, Fed. States
+MDA|Moldova
+MNG|Mongolia
+MNE|Montenegro
+MAR|Morocco
+MOZ|Mozambique
+MMR|Myanmar
+NAM|Namibia
+NRU|Nauru
+NPL|Nepal
+NIC|Nicaragua
+NER|Niger
+NGA|Nigeria
+NIU|Niue
+OMN|Oman
+PAK|Pakistan
+PLW|Palau
+PAN|Panama
+PNG|Papua New Guinea
+PRY|Paraguay
+PER|Peru
+PHL|Philippines
+RWA|Rwanda
+WSM|Samoa
+STP|Sao Tome & Principe
+SEN|Senegal
+SRB|Serbia
+SYC|Seychelles
+SLE|Sierra Leone
+SLB|Solomon Islands
+SOM|Somalia
+ZAF|South Africa
+LKA|Sri Lanka
+KNA|St. Kitts-Nevis
+LCA|St. Lucia
+VCT|St.Vincent & Grenadines
+SDN|Sudan
+SUR|Suriname
+SWZ|Swaziland
+SYR|Syria
+TJK|Tajikistan
+TZA|Tanzania
+THA|Thailand
+TLS|Timor-Leste
+TGO|Togo
+TON|Tonga
+TTO|Trinidad and Tobago
+TUN|Tunisia
+TUR|Turkey
+TKM|Turkmenistan
+TUV|Tuvalu
+UGA|Uganda
+UKR|Ukraine
+URY|Uruguay
+UZB|Uzbekistan
+VUT|Vanuatu
+VEN|Venezuela
+VNM|Viet Nam
+YEM|Yemen
+ZMB|Zambia
+ZWE|Zimbabwe
