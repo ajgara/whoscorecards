@@ -1,15 +1,20 @@
 import xlrd
 import ftypes
+import sys
 
 data_files = {
-    "recipient_indicators" : "../data/recipient/recipient_indicators.xls",
-    "donor_data"           : "../data/recipient/donor_data3.xls",
+    #"recipient_indicators": "../data/recipient/recipient_indicators.xls",
+    "recipient_indicators" : "../data/recipient/TABLES 1, 2 Correct data.xls",
+    #"donor_data"          : "../data/recipient/donor_data3.xls",
+    "donor_data"           : "../data/recipient/TABLES 3, 4, 5 NEW DATA.xls",
+    #"pivot_for_donors"     : "../data/recipient/TABLES 3, 4, 5 NEW DATA.xls",
     "donor_oda"            : "../data/donor/donor_oda.xls",
     "donation_breakdown"   : "../data/donor/donation_breakdown.xls",
 }
 
 sheet_names = {
-    "recipient_indicators" : "Sheet2",
+    #"recipient_indicators" : "Sheet2",
+    "recipient_indicators" : "DB",
     "donor_data"           : "DataBase",
     "donor_oda"            : "DB",
     "donation_breakdown"   : "DATA",
