@@ -132,9 +132,11 @@ def process_donor_table(recipient_country, template_xml):
         ("aus", "Australia"), ("ast", "Austria"), ("bel", "Belgium"), ("can", "Canada"), 
         ("den", "Denmark"), ("fin", "Finland"), ("fra", "France"), ("ger", "Germany"), 
         ("gre", "Greece"), ("ire", "Ireland"), ("ita", "Italy"), ("jap", "Japan"),
-        ("lux", "Luxembourg"), ("net", "Netherlands"), ("nor", "Norway"), ("kor", "Korea"),
-        ("spa", "Spain"), ("swe", "Sweden"), ("uk", "United Kingdom"), ("us", "United States"),
-        ("ec", "EC"), ("gavi", "GAVI"), ("gf", "GFATM"), ("ida", "IDA"),
+        ("lux", "Luxembourg"), ("net", "Netherlands"), ("new", "New Zealand"), ("nor", "Norway"), ("kor", "Korea"),
+        ("por", "Portugal"), ("spa", "Spain"), ("swe", "Sweden"), ("swi", "Switzerland"), 
+        ("uae", "United Arab Emirates"), ("uk", "United Kingdom"), ("us", "United States"),
+        ("afd", "AfDF"), ("asd", "AsDF"), ("ec", "EC"), ("gavi", "GAVI"), ("gf", "GFATM"), 
+        ("ida", "IDA"), ("idb", "IDB Sp. Fund"), ("ifad", "IFAD"), ("opec", "OPEC Fund"),
         ("una", "UNAIDS"), ("und", "UNDP"), ("unf", "UNFPA"), ("uni", "UNICEF"),
         ]:
 
@@ -314,11 +316,12 @@ def process_largest_donors(recipient_country, template_xml):
     data = {}
     donations = rc.donations
 
-    fn_total_donor_health_oda = lambda x : (
-        x["donorname_e"],
-        niz(x.get("MDG6", 0)) + niz(x.get("RH & FP", 0)) + 
-        niz(x.get("Other Health Purposes", 0)) + niz(x.get("Unallocated", 0))
-    )
+    def fn_total_donor_health_oda(x) : 
+        return (
+            x["donorname_e"],
+            niz(x.get("MDG6", 0)) + niz(x.get("RH & FP", 0)) + 
+            niz(x.get("Other Health Purposes", 0)) + niz(x.get("Unallocated", 0)) + niz(x.get("(blank)"))
+        )
     fn_get_health_oda = lambda (x, y) : y
     fn_sum_oda = lambda donors : sum([fn_get_health_oda(tpl) for tpl in donors])
     fn_calc_area = lambda perc_donated : perc_donated / 100 * max_size
