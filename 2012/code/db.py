@@ -1,4 +1,5 @@
 import xlrd
+import openpyxl
 import ftypes
 
 class DataProcessingException(Exception):
@@ -18,25 +19,45 @@ class SheetReader(object):
     def data(self):
         return self._data
 
+class XLSFile(object):
+    def __init__(self, file_path, sheet_name):
+        self.workbook = xlrd.open_workbook(file_path)
+        self.sheet = self.workbook.sheet_by_name(sheet_name)
+        self.data = ftypes.list(*self._load_data())
+
+    def _load_data(self):
+        for i in range(self.sheet.nrows):
+            row = self.sheet.row(i)
+            r = map(lambda x : x.value, row)
+            yield r
+
+class XLSXFile(object):
+    def __init__(self, file_path, sheet_name):
+        self.workbook = openpyxl.load_workbook(file_path)
+        print self.workbook.get_sheet_names()
+        self.sheet = self.workbook.get_sheet_by_name(sheet_name)
+        self.data = ftypes.list(*self._load_data())
+
+    def _load_data(self):
+        for row in self.sheet.rows:
+            r = map(lambda x : x.value, row)
+            yield r
+
 class XLSDB(object):
-    def get_data_sheet(self, file_name, sheet_name):
-        try:
-            book = xlrd.open_workbook(file_name)
-        except IOError:
-            print >> sys.stderr, "Could not open %" (file_name)
-            raise DataProcessingException("Could not open %s" % file_name)
+    def __init__(self, file_path, sheet_name):
+        self.file_path = file_path
+        if file_path.endswith("xlsx"):
+            self.fileobj = XLSXFile(file_path, sheet_name)
+        elif file_path.endswith("xls"):
+            self.fileobj = XLSFile(file_path, sheet_name)
+        else:
+            raise DataProcessingException("Expected an XLS or XLSX file")
             
-        try:
-            return book.sheet_by_name(sheet_name)
-        except xlrd.XLRDError:
-            print >> sys.stderr, "Could not open sheet: %s in %s" % (sheet_name, file_name)
-            raise DataProcessingException("Could not open sheet %s in %s" % (sheet_name, file_name))
+        self.data = self.fileobj.data
 
-    def load_data(self, file_name, sheet_name):
-        return SheetReader(
-            self.get_data_sheet(file_name, sheet_name)
-        )
-
+    def filter_by_country(self, iso3):
+        country_data = self.data / (lambda x : x["ISO3"] == iso3)
+        return FListMixin(country_data)
 
 class FListMixin(object):
     def __init__(self, data):
@@ -53,18 +74,28 @@ class FListMixin(object):
 
 class PurposeDBFactory(XLSDB):
     def __init__(self, file_path="../data/Purpose of ODA.xls", sheet_name="DB"):
-        super(PurposeDBFactory, self).__init__()
-        self.file_path = file_path
-        self.data = self.load_data(file_path, sheet_name).data
+        super(PurposeDBFactory, self).__init__(file_path, sheet_name)
 
-    def get_purpose_for_country(self, iso3):
-        country_data = self.data / (lambda x : x["ISO3"] == iso3)
-        return RecipientODAPurpose(iso3, country_data)
+class ODASourceFactory(XLSDB):
+    def __init__(self, file_path="../data/Sources of ODA in 08-10.xls", sheet_name="Sheet1"):
+        super(ODASourceFactory, self).__init__(file_path, sheet_name)
 
-class RecipientODAPurpose(FListMixin):
-    def __init__(self, iso3, data):
-        self.iso = iso3
-        self.data = data
+class IndicatorsFactory(XLSDB):
+    def __init__(self, file_path="../data/Table1.xls", sheet_name="Sheet1"):
+        super(IndicatorsFactory, self).__init__(file_path, sheet_name)
 
-    def by_year(self, year):
-        return self.data / (lambda x : x["Year"] == year)
+class IndicatorsFactory(XLSDB):
+    def __init__(self, file_path="../data/Table1.xls", sheet_name="Sheet1"):
+        super(IndicatorsFactory, self).__init__(file_path, sheet_name)
+
+class LargestDisbursementsFactory(XLSDB):
+    def __init__(self, file_path="../data/Largest Disbursements.xlsx", sheet_name="Largest_Disbursements DB"):
+        super(LargestDisbursementsFactory, self).__init__(file_path, sheet_name)
+
+class LargestCommitmentsFactory(XLSDB):
+    def __init__(self, file_path="../data/Largest Commitments.xlsx", sheet_name="Largest_Commitments DB"):
+        super(LargestCommitmentsFactory, self).__init__(file_path, sheet_name)
+
+if __name__ == "__main__":
+    osf = LargestCommitmentsFactory()
+    print osf.filter_by_country("AFG")
