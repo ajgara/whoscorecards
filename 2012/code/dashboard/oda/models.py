@@ -24,3 +24,9 @@ class CountryIndicator(models.Model):
     indicator = models.ForeignKey(GeneralIndicator)
     year = models.CharField(max_length=4)
     value = models.FloatField()
+
+    class Meta:
+        unique_together = ("country", "indicator", "year")
+
+    def __unicode__(self):
+        return "%s (%s)" % (self.indicator, self.country.iso3)
