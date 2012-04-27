@@ -14,3 +14,7 @@ function scorecard_front(docroot) {
     var country_name = $("#_countryname_1_", docroot);
     country_name.text("South Africa");
 }
+
+function scorecard_back(docroot) {
+    alert('back');
+}
