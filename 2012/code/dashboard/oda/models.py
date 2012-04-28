@@ -37,6 +37,9 @@ class MDGPurpose(models.Model):
     def __unicode__(self):
         return self.name
 
+    class Meta:
+        verbose_name_plural = "MDG Purposes" 
+
 class Allocation(models.Model):
     country = models.ForeignKey(Recipient)
     mdgpurpose = models.ForeignKey(MDGPurpose)
