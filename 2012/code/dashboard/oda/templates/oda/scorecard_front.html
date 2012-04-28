@@ -4,7 +4,10 @@
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
     <script>
         $(document).ready(function() {
-            svg_load("scorecard", scorecard_front, "{{ params.iso3 }}");
+            svg_load("scorecard", function(docroot, iso3) {
+                sc = new ScorecardFrontPage(docroot, iso3);
+                sc.generate_scorecord();
+            }, "{{ params.iso3 }}");
         }, false);
     </script>
 {% endblock %}

@@ -20,17 +20,18 @@ function svg_load(element_id, callback, params) {
         callback(svgRoot, params);
     });
 }
-function scorecard_front(docroot, iso3) {
-    front_country_name(docroot, iso3);
-    front_indicators(iso3);
+
+function ScorecardFrontPage(docroot, iso3) {
+    this.docroot = docroot;
+    this.iso3 = iso3;
 }
 
-function front_country_name(docroot, iso3)
-{
+ScorecardFrontPage.prototype.setup_country_name = function() {
     var ds = new Miso.Dataset({
-        url : "/oda/data/country_name/" + iso3 + "/"
+        url : "/oda/data/country_name/" + this.iso3 + "/"
     });
 
+    var docroot = this.docroot
     ds.fetch({
         success: function() {
             console.log('Country name dataset loaded');
@@ -39,12 +40,11 @@ function front_country_name(docroot, iso3)
             country_name.text(this.column("Name").data[0]);
         }
     });
-}
+};
 
-function front_indicators(iso3)
-{
+ScorecardFrontPage.prototype.setup_indicator_block = function() {
     var ds = new Miso.Dataset({
-        url : "/oda/data/" + iso3 + "/"
+        url : "/oda/data/" + this.iso3 + "/"
     });
 
     ds.fetch({
@@ -58,7 +58,13 @@ function front_indicators(iso3)
             console.log("2000 mean", data2000.mean("value"));
         }
     });
-}
+};
+
+ScorecardFrontPage.prototype.generate_scorecord = function() {
+    this.setup_country_name();
+    this.setup_indicator_block();
+};
+
 
 function scorecard_back(docroot) {
     alert('back');
