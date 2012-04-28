@@ -30,3 +30,19 @@ class CountryIndicator(models.Model):
 
     def __unicode__(self):
         return "%s (%s)" % (self.indicator, self.country.iso3)
+
+class MDGPurpose(models.Model):
+    name = models.CharField(max_length=30)
+
+    def __unicode__(self):
+        return self.name
+
+class Allocation(models.Model):
+    country = models.ForeignKey(Recipient)
+    mdgpurpose = models.ForeignKey(MDGPurpose)
+    year = models.CharField(max_length=4)
+    commitment = models.FloatField()
+    disbursement = models.FloatField()
+
+    def __unicode__(self):
+        return "%s - %s (%s)" % (self.country, self.mdgpurpose, self.year)
