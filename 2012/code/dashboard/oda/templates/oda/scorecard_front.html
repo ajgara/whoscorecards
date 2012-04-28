@@ -4,7 +4,7 @@
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
     <script>
         $(document).ready(function() {
-            svg_load("scorecard", scorecard_front);
+            svg_load("scorecard", scorecard_front, "{{ params.iso3 }}");
         }, false);
     </script>
 {% endblock %}
