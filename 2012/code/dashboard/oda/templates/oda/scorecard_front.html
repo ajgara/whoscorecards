@@ -2,16 +2,17 @@
 
 {% block scripts %}
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
-    <script>
-        $(document).ready(function() {
-            svg_load("scorecard", function(docroot, iso3) {
-                sc = new ScorecardFrontPage(docroot, iso3);
-                sc.generate_scorecord();
-            }, "{{ params.iso3 }}");
-        }, false);
-    </script>
 {% endblock %}
 
 {% block content %}
-    <object id="scorecard" data="{{ STATIC_URL }}svg/front.svg" width="100%" height="100%" type="image/svg+xml"/>
+    <!--<object id="scorecard" data="{{ STATIC_URL }}svg/front.svg" width="100%" height="100%" type="image/svg+xml"/>-->
+    <div id="scorecard"</div>
+    <script>
+        d3.xml("{{ STATIC_URL }}svg/front2.svg", "image/svg+xml", function(xml) {
+            var importedNode = document.importNode(xml.documentElement, true);
+            d3.select("#scorecard").node().appendChild(importedNode);
+            sc = new ScorecardFrontPage(importedNode, "{{ params.iso3 }}");
+            sc.generate_scorecord();
+        });
+    </script>
 {% endblock %}
