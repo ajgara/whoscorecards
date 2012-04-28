@@ -16,6 +16,18 @@ def data_country_name(request, iso3):
     }]
     return HttpResponse(json.dumps(data))
 
+def data_allocation(request, iso3):
+    country = get_object_or_404(models.Recipient, iso3=iso3) 
+    allocations = models.Allocation.objects.filter(country=country)
+    js = json.dumps( [{
+        'mdgpurpose' : a.mdgpurpose.pk,
+        'commitment' : a.commitment,
+        'disbursement' : a.disbursement,
+        'year' : a.year,
+    } for a in allocations])
+    
+    return HttpResponse(js)
+
 def country_data(request, iso3):
     country = get_object_or_404(models.Recipient, iso3=iso3) 
     indicators = models.CountryIndicator.objects.filter(country=country)
