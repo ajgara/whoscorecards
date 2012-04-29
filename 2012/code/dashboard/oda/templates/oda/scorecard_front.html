@@ -5,13 +5,51 @@
     <script type="text/javascript" src="{{ STATIC_URL }}js/roundedbargraph.js"></script>
 {% endblock %}
 
+
+
 {% block content %}
+    <style>
+        .rb-line {
+            fill:none;
+            stroke:#be1e2d;
+            stroke-linecap:round;
+            stroke-linejoin:round;
+            stroke-miterlimit:10;
+            stroke-dasharray:3;
+            stroke-width: 1.1px;
+        }
+
+        .rb-series {
+            font-size:5.54409981px;
+            fill:#58595b;
+            font-family:Myriad-Roman;
+        }
+
+        .rb-bar {
+            font-size:4px;
+            font-family:Myriad-Roman;
+        }
+
+        .rb-y-tick {
+            font-size:5.54409981px;
+            fill:#58595b;
+            font-family:Myriad-Roman;
+        }
+
+        #bargraph1_block .rb-bar, #bargraph3_block .rb-bar {
+            fill: #0093d5;
+        }
+
+        #bargraph2_block .rb-bar, #bargraph4_block .rb-bar {
+            fill: #DF7627;
+        }
+    </style>
     <div id="scorecard"</div>
     <script>
         d3.xml("{{ STATIC_URL }}svg/front2.svg", "image/svg+xml", function(xml) {
             var importedNode = document.importNode(xml.documentElement, true);
             d3.select("#scorecard").node().appendChild(importedNode);
-            sc = new ScorecardFrontPage(importedNode, "{{ params.iso3 }}");
+            sc = new WHO.ScorecardFrontPage(importedNode, "{{ params.iso3 }}");
             sc.generate_scorecord();
         });
     </script>

@@ -91,6 +91,7 @@ _.extend(
                 year : []
             }
 
+            // TODO see if this can be simplified
             data.sort(function(a, b) {
                 if (a.year < b.year) return -1;
                 if (a.year > b.year) return 1;
@@ -175,81 +176,85 @@ _.extend(
     }
 );
 
-function ScorecardFrontPage(docroot, iso3) {
+WHO.ScorecardData = function(iso3) {
+    this.iso3 = iso3;
+    this._fetchAll();
+};
+
+WHO.ScorecardData.prototype = {
+    _round1 : function(v) { return sprintf("%.1f", v); },
+    _round1perc : function(v) { return sprintf("%.1f%%", v * 100); },
+    _round1mill : function(v) { return sprintf("%.1f", v / 1000000); },
+    _getCountryName : function() {
+        return new Miso.Dataset({
+            url : "/oda/data/country_name/" + this.iso3 + "/"
+        }).fetch();
+    },
+    _getIndicatorData : function() {
+        return new Miso.Dataset({
+            url : "/oda/data/" + this.iso3 + "/",
+            parser : WHO.IndicatorsParser,
+            columns : [
+                { name : "gghe_perc", type : "string", before : this._round1perc },
+                { name : "gghe_cap", type : "number", before : this._round1 },
+                { name : "gghe_cap_ppp", type : "number" },
+                { name : "external_resources", type : "string", before : this._round1perc },
+                { name : "health_commitments", type : "number", before : this._round1 },
+                { name : "health_disbursements", type : "number", before : this._round1 },
+                { name : "population", type : "number", before : this._round1mill },
+                { name : "commitments_per_capita", type : "number", before : this._round1 },
+                { name : "disbursements_per_capita", type : "number", before : this._round1 },
+                { name : "total_commitments", type : "number", before : this._round1},
+                { name : "total_disbursements", type : "number", before : this._round1 },
+                { name : "year", type : "number" }
+            ]
+        }).fetch();
+    },
+    _getAllocationData : function() {
+        return new Miso.Dataset({
+            url : "/oda/data/allocation/" + this.iso3 + "/",
+            parser : WHO.AllocationsParser,
+            columns : [
+                { name : "c_hpam", type : "number", before : this._round1 },
+                { name : "c_mdg6", type : "number", before : this._round1 },
+                { name : "c_ohp", type : "number", before : this._round1 },
+                { name : "c_rhfp", type : "number", before : this._round1 },
+                { name : "d_hpam", type : "number", before : this._round1 },
+                { name : "d_mdg6", type : "number", before : this._round1 },
+                { name : "d_ohp", type : "number", before : this._round1 },
+                { name : "d_rhfp", type : "number", before : this._round1 },
+                { name : "year", type : "number" }
+            ]
+        }).fetch();
+    },
+    _fetchAll : function() {
+        this.countryName = this._getCountryName();
+        this.indicatorData = this._getIndicatorData();
+        this.allocationData = this._getAllocationData();
+    }  
+};
+
+WHO.ScorecardFrontPage = function(docroot, iso3) {
     this.docroot = docroot;
     this.iso3 = iso3;
     this.all_years = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010];
+    this.data = new WHO.ScorecardData(iso3);
 }
 
-ScorecardFrontPage.prototype.setup_country_name = function() {
-    var ds = new Miso.Dataset({
-        url : "/oda/data/country_name/" + this.iso3 + "/"
-    });
-
-    var docroot = this.docroot
-    ds.fetch({
-        success: function() {
+WHO.ScorecardFrontPage.prototype = {
+    setup_country_name : function() {
+        this.data.countryName.done(function(ds) {
             console.log('Country name dataset loaded');
             console.log(ds.column("Name"));
-            console.log(this.column("Name").data);
+            console.log(ds.column("Name").data);
             var country_name = d3.select("#_countryname_1_");
-            country_name.text(this.column("Name").data[0]);
-        }
-    });
-};
-
-ScorecardFrontPage.prototype.setup_indicator_block = function() {
-    var ds = new Miso.Dataset({
-        url : "/oda/data/" + this.iso3 + "/",
-        parser : WHO.IndicatorsParser,
-        /*
-        parser : WHO.ReshapeParser,
-        reshape_options : {
-            reshape_key : "indicator",
-            reshape_value : "value"
-        },
-        */
-        columns : [
-            { name : "gghe_perc", type : "string", before : function(v) {
-                return sprintf("%.1f%%", v * 100);
-            }},
-            { name : "gghe_cap", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "gghe_cap_ppp", type : "number" },
-            { name : "external_resources", type : "string", before : function(v) {
-                return sprintf("%.1f%%", v * 100);
-            }},
-            { name : "health_commitments", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "health_disbursements", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "population", type : "number", before : function(v) {
-                return sprintf("%.1f", v / 1000000);
-            }},
-            { name : "commitments_per_capita", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "disbursements_per_capita", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "total_commitments", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "total_disbursements", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "year", type : "number" }
-        ]
-    });
-
-    var scorecard = this;
-    ds.fetch({
-        success: function() {
-            console.log('Indicator dataset loaded');
-
+            country_name.text(ds.column("Name").data[0]);
+        });
+    },
+    setup_indicator_block : function() {
+        var scorecard = this;
+        this.data.indicatorData.done(function(ds) {
+            // Loop over each year
             _.each(scorecard.all_years, function(year) {
                 console.log("Indicator year: " + year);
                 var base_year = scorecard.all_years[0]
@@ -270,56 +275,19 @@ ScorecardFrontPage.prototype.setup_indicator_block = function() {
                     "gghe_cap" : 14
                 }
 
+                // Update each indicator in the current year
                 _.each(_.keys(svg_map), function(key) {
                     var id = svg_map[key]; 
                     var svg_id = "#col" + svgidx + "r" + id + " text";
                     d3.select(svg_id).text(row[key]);
                 });
-                
             });
-            
-        }
-    });
-};
-
-ScorecardFrontPage.prototype.setup_allocation_block = function() {
-    var ds = new Miso.Dataset({
-        url : "/oda/data/allocation/" + this.iso3 + "/",
-        parser : WHO.AllocationsParser,
-        columns : [
-            { name : "c_hpam", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "c_mdg6", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "c_ohp", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "c_rhfp", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "d_hpam", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "d_mdg6", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "d_ohp", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "d_rhfp", type : "number", before : function(v) {
-                return sprintf("%.1f", v);
-            }},
-            { name : "year", type : "number" }
-        ]
-    });
-
-    var scorecard = this;
-    ds.fetch({
-        success: function() {
-            console.log('Allocation dataset loaded');
-
+        });
+    },
+    setup_allocation_block : function() {
+        var scorecard = this;
+        this.data.allocationData.done(function(ds) {
+            // Loop over each year
             _.each(scorecard.all_years, function(year) {
                 console.log("Allocation year: " + year);
                 var base_year = scorecard.all_years[0]
@@ -341,16 +309,71 @@ ScorecardFrontPage.prototype.setup_allocation_block = function() {
                     d3.select(svg_id).text(row[key]);
                 });
             });
-            
-        }
-    });
-};
+        });
+    },
+    setup_graph_block : function() {
+        var scorecard = this;
+        var rounded = {
+            bar: {
+                'margin' : 4, // pixels between bars
+                'width': 185, // width of bars
+                'rounding': 3, // pixels for rounding effect
+                'color': '#0093d5'
+            },
 
-ScorecardFrontPage.prototype.generate_scorecord = function() {
-    this.setup_country_name();
-    this.setup_indicator_block();
-    this.setup_allocation_block();
-};
+            line: {
+                type:'const',
+                const_val: '350'
+            }
+        }
+        function gen_graph(parent_node, series_name, ctx) {
+            scorecard.data.indicatorData.done(function(ds) {
+                var graph_selector = parent_node + " .graph_container";
+                var graph_container = d3.select(graph_selector);
+                var bbox = graph_container.node().getBBox();
+                console.log("x: " + bbox.x);
+                console.log("y: " + bbox.y);
+                console.log("width: " + bbox.width);
+                console.log("height: " + bbox.height);
+
+                ctx["node"] = graph_selector;
+
+                ctx["width"] = bbox.width;
+                ctx["height"] = bbox.height;
+                ctx["width"] = 169.513;
+                ctx["height"] = 92.924;
+
+                var data_series = ds.column(series_name).data;
+                var pairs = _.zip(data_series, scorecard.all_years);
+                ctx["data"] = _.reduce(pairs, function(memo, pair) {
+                    memo.push({"value" : pair[0], "series" : pair[1]});
+                    return memo;
+                }, []);
+
+
+                graph_container.remove();
+                d3.select(parent_node).append("g")
+                    .attr("transform", "translate(" + bbox.x + "," + bbox.y + ")")
+                    .attr("class", "graph_container")
+
+            
+                rbg = new RoundedBarGraph(ctx)
+
+                d3.selectAll(parent_node + " .rb-series").attr("dy", -2);
+            });
+        }
+        gen_graph("#bargraph1_block", "total_commitments", rounded);
+        gen_graph("#bargraph2_block", "total_disbursements", rounded);
+        gen_graph("#bargraph3_block", "commitments_per_capita", rounded);
+        gen_graph("#bargraph4_block", "disbursements_per_capita", rounded);
+    },
+    generate_scorecord : function() {
+        this.setup_country_name();
+        this.setup_indicator_block();
+        this.setup_allocation_block();
+        this.setup_graph_block();
+    }
+}
 
 
 function scorecard_back(docroot) {
