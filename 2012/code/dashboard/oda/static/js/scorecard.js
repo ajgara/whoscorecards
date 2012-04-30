@@ -4,59 +4,10 @@ if (typeof String.prototype.startsWith != 'function') {
     return this.indexOf(str) == 0;
   };
 }
-/*
-Miso.types.in_millions = {
-    name : "in_millions",
-    test : function(v) { return true; },
-    compare : function(v1, v2) { return v1 - v2; },
-    numeric : function(v) { return v / 1000000;},
-    coerce : function(v) {
-        if (_.isNull(v)) { return null; }
-        return _.isNaN(v) ? null : +v;
-    }
-};
-*/
 var WHO = {};
 
-/*
-// A parser that converts rows to columns
-WHO.ReshapeParser = function(options) {
-    if (typeof options.reshape_options == "undefined") {
-          throw "Expected reshape_options parameter to be set"
-    }
-    this.reshape_key = options.reshape_options.reshape_key;
-    this.reshape_value = options.reshape_options.reshape_value;
-};
-
-_.extend(
-    WHO.ReshapeParser.prototype, 
-    Miso.Parsers.prototype,
-    {
-        parse : function(data) {
-            var cols = {}
-            var reshape_key = this.reshape_key;
-            var reshape_value = this.reshape_value;
-            var dataYears = {}
-
-            _.each(data, function(d) {
-                if (_.indexOf(dataColumns, d.year) < 0) {
-                    dataYears[d.year] = {}
-                }
-                var currentDataYear = dataYears[d.year];
-                currentDataYear[d[reshape_key]] = d[reshape_value]
-            });
-            
-            return {
-                columns: ._keys(cols),
-                data : dataColumns
-            };
-        }
-    }
-);
-*/
-
-
 // A parser that reformats the WHO indicator data from rows to columns
+// Better would be a generic parser that re-shapes the data by denormalising it according to a specific column
 WHO.IndicatorsParser = function(options) {};
 _.extend(
     WHO.IndicatorsParser.prototype, Miso.Parsers.prototype,
