@@ -1,8 +1,10 @@
 import os
+import django.conf.global_settings as DEFAULT_SETTINGS
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
+SITE_URL = '/'
 
 ADMINS = (
     ('Adi Eyal', 'adi@burgercom.co.za'),
@@ -84,6 +86,7 @@ STATICFILES_FINDERS = (
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = '_m*jl^*lq=(ly9r(e168g)-2k!to24kb=+s(yu9d59lq1bl9m@'
 
+TEMPLATE_CONTEXT_PROCESSORS = DEFAULT_SETTINGS.TEMPLATE_CONTEXT_PROCESSORS + ('dashboard.context_processors.site_url',)
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',

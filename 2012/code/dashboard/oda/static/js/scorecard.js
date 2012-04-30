@@ -176,8 +176,9 @@ _.extend(
     }
 );
 
-WHO.ScorecardData = function(iso3) {
+WHO.ScorecardData = function(iso3, base_url) {
     this.iso3 = iso3;
+    this.base_url = base_url;
     this._fetchAll();
 };
 
@@ -187,12 +188,12 @@ WHO.ScorecardData.prototype = {
     _round1mill : function(v) { return sprintf("%.1f", v / 1000000); },
     _getCountryName : function() {
         return new Miso.Dataset({
-            url : "/oda/data/country_name/" + this.iso3 + "/"
+            url : this.base_url + "/oda/data/country_name/" + this.iso3 + "/"
         }).fetch();
     },
     _getIndicatorData : function() {
         return new Miso.Dataset({
-            url : "/oda/data/" + this.iso3 + "/",
+            url : this.base_url + "/oda/data/" + this.iso3 + "/",
             parser : WHO.IndicatorsParser,
             columns : [
                 { name : "gghe_perc", type : "string", before : this._round1perc },
@@ -212,7 +213,7 @@ WHO.ScorecardData.prototype = {
     },
     _getAllocationData : function() {
         return new Miso.Dataset({
-            url : "/oda/data/allocation/" + this.iso3 + "/",
+            url : this.base_url + "/oda/data/allocation/" + this.iso3 + "/",
             parser : WHO.AllocationsParser,
             columns : [
                 { name : "c_hpam", type : "number", before : this._round1 },
@@ -234,11 +235,11 @@ WHO.ScorecardData.prototype = {
     }  
 };
 
-WHO.ScorecardFrontPage = function(docroot, iso3) {
+WHO.ScorecardFrontPage = function(docroot, iso3, base_url) {
     this.docroot = docroot;
     this.iso3 = iso3;
     this.all_years = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010];
-    this.data = new WHO.ScorecardData(iso3);
+    this.data = new WHO.ScorecardData(iso3, base_url);
 }
 
 WHO.ScorecardFrontPage.prototype = {
