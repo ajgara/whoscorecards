@@ -4,59 +4,10 @@ if (typeof String.prototype.startsWith != 'function') {
     return this.indexOf(str) == 0;
   };
 }
-/*
-Miso.types.in_millions = {
-    name : "in_millions",
-    test : function(v) { return true; },
-    compare : function(v1, v2) { return v1 - v2; },
-    numeric : function(v) { return v / 1000000;},
-    coerce : function(v) {
-        if (_.isNull(v)) { return null; }
-        return _.isNaN(v) ? null : +v;
-    }
-};
-*/
 var WHO = {};
 
-/*
-// A parser that converts rows to columns
-WHO.ReshapeParser = function(options) {
-    if (typeof options.reshape_options == "undefined") {
-          throw "Expected reshape_options parameter to be set"
-    }
-    this.reshape_key = options.reshape_options.reshape_key;
-    this.reshape_value = options.reshape_options.reshape_value;
-};
-
-_.extend(
-    WHO.ReshapeParser.prototype, 
-    Miso.Parsers.prototype,
-    {
-        parse : function(data) {
-            var cols = {}
-            var reshape_key = this.reshape_key;
-            var reshape_value = this.reshape_value;
-            var dataYears = {}
-
-            _.each(data, function(d) {
-                if (_.indexOf(dataColumns, d.year) < 0) {
-                    dataYears[d.year] = {}
-                }
-                var currentDataYear = dataYears[d.year];
-                currentDataYear[d[reshape_key]] = d[reshape_value]
-            });
-            
-            return {
-                columns: ._keys(cols),
-                data : dataColumns
-            };
-        }
-    }
-);
-*/
-
-
 // A parser that reformats the WHO indicator data from rows to columns
+// Better would be a generic parser that re-shapes the data by denormalising it according to a specific column
 WHO.IndicatorsParser = function(options) {};
 _.extend(
     WHO.IndicatorsParser.prototype, Miso.Parsers.prototype,
@@ -176,8 +127,9 @@ _.extend(
     }
 );
 
-WHO.ScorecardData = function(iso3) {
+WHO.ScorecardData = function(iso3, base_url) {
     this.iso3 = iso3;
+    this.base_url = base_url;
     this._fetchAll();
 };
 
@@ -187,12 +139,12 @@ WHO.ScorecardData.prototype = {
     _round1mill : function(v) { return sprintf("%.1f", v / 1000000); },
     _getCountryName : function() {
         return new Miso.Dataset({
-            url : "/oda/data/country_name/" + this.iso3 + "/"
+            url : this.base_url + "/oda/data/country_name/" + this.iso3 + "/"
         }).fetch();
     },
     _getIndicatorData : function() {
         return new Miso.Dataset({
-            url : "/oda/data/" + this.iso3 + "/",
+            url : this.base_url + "/oda/data/" + this.iso3 + "/",
             parser : WHO.IndicatorsParser,
             columns : [
                 { name : "gghe_perc", type : "string", before : this._round1perc },
@@ -212,7 +164,7 @@ WHO.ScorecardData.prototype = {
     },
     _getAllocationData : function() {
         return new Miso.Dataset({
-            url : "/oda/data/allocation/" + this.iso3 + "/",
+            url : this.base_url + "/oda/data/allocation/" + this.iso3 + "/",
             parser : WHO.AllocationsParser,
             columns : [
                 { name : "c_hpam", type : "number", before : this._round1 },
@@ -234,11 +186,11 @@ WHO.ScorecardData.prototype = {
     }  
 };
 
-WHO.ScorecardFrontPage = function(docroot, iso3) {
+WHO.ScorecardFrontPage = function(docroot, iso3, base_url) {
     this.docroot = docroot;
     this.iso3 = iso3;
     this.all_years = [2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010];
-    this.data = new WHO.ScorecardData(iso3);
+    this.data = new WHO.ScorecardData(iso3, base_url);
 }
 
 WHO.ScorecardFrontPage.prototype = {
