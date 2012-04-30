@@ -1,0 +1,5 @@
+
+virtualenv ~./.virtualenvs/who
+source ~/.virtualenvs/who/bin/activate
+
+pip install -r requirements.txt
