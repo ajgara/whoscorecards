@@ -3,6 +3,7 @@
 {% block scripts %}
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/roundedbargraph.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/piechart.js"></script>
 {% endblock %}
 
 
@@ -46,7 +47,7 @@
     </style>
     <div id="scorecard"</div>
     <script>
-        d3.xml("{{ STATIC_URL }}svg/front2.svg", "image/svg+xml", function(xml) {
+        d3.xml("{{ STATIC_URL }}svg/front.svg", "image/svg+xml", function(xml) {
             var importedNode = document.importNode(xml.documentElement, true);
             d3.select("#scorecard").node().appendChild(importedNode);
             sc = new WHO.ScorecardFrontPage(importedNode, "{{ params.iso3 }}", SITE_URL);

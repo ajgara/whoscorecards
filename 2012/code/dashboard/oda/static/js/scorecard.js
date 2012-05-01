@@ -197,8 +197,6 @@ WHO.ScorecardFrontPage.prototype = {
     setup_country_name : function() {
         this.data.countryName.done(function(ds) {
             console.log('Country name dataset loaded');
-            console.log(ds.column("Name"));
-            console.log(ds.column("Name").data);
             var country_name = d3.select("#_countryname_1_");
             country_name.text(ds.column("Name").data[0]);
         });
@@ -283,10 +281,6 @@ WHO.ScorecardFrontPage.prototype = {
                 var graph_selector = parent_node + " .graph_container";
                 var graph_container = d3.select(graph_selector);
                 var bbox = graph_container.node().getBBox();
-                console.log("x: " + bbox.x);
-                console.log("y: " + bbox.y);
-                console.log("width: " + bbox.width);
-                console.log("height: " + bbox.height);
 
                 ctx["node"] = graph_selector;
 
@@ -319,11 +313,89 @@ WHO.ScorecardFrontPage.prototype = {
         gen_graph("#bargraph3_block", "commitments_per_capita", rounded);
         gen_graph("#bargraph4_block", "disbursements_per_capita", rounded);
     },
+    setup_piecharts : function() {
+        var scorecard = this;
+        var context = {}
+
+        function gen_graph(node, series_name, ctx) {
+            scorecard.data.allocationData.done(function(ds) {
+                d3_node = d3.select(node);
+                console.log(node);
+                console.log(d3_node);
+                console.log(d3.select(d3_node));
+                var bbox = d3_node.node().getBBox();
+                var d3_parent_node = d3_node[0][0].parentNode;
+
+                ctx["node"] = d3_parent_node;
+
+                ctx["width"] = bbox.width * 2;
+                ctx["height"] = bbox.height * 2;
+                ctx["radius"] = 20;
+                ctx["data"] = [
+                    {"label" : "", "value" : 20},
+                    {"label" : "", "value" : 50},
+                    {"label" : "", "value" : 30},
+                    {"label" : "", "value" : 40}
+                ]
+
+                pie = new Piechart(ctx);
+
+                d3_node.select(".piechart").attr("transform", "translate(" + 500 + "," + 0 + ")")
+                d3_node.remove()
+                return;
+                /*
+
+
+                var data_series = ds.column(series_name).data;
+                var pairs = _.zip(data_series, scorecard.all_years);
+                ctx["data"] = _.reduce(pairs, function(memo, pair) {
+                    memo.push({"value" : pair[0], "series" : pair[1]});
+                    return memo;
+                }, []);
+
+
+                graph_container.remove();
+                d3.select(parent_node).append("g")
+                    .attr("transform", "translate(" + bbox.x + "," + bbox.y + ")")
+                    .attr("class", "graph_container")
+
+            
+                rbg = new RoundedBarGraph(ctx)
+
+                d3.selectAll(parent_node + " .rb-series").attr("dy", -2);
+                */
+            });
+        }
+        gen_graph("#pie2000c", "", context);
+        gen_graph("#pie2001c", "", context);
+        gen_graph("#pie2002c", "", context);
+        gen_graph("#pie2003c", "", context);
+        gen_graph("#pie2004c", "", context);
+        gen_graph("#pie2005c", "", context);
+        gen_graph("#pie2006c", "", context);
+        gen_graph("#pie2007c", "", context);
+        gen_graph("#pie2008c", "", context);
+        gen_graph("#pie2009c", "", context);
+        gen_graph("#pie2010c", "", context);
+
+        gen_graph("#pie2000d", "", context);
+        gen_graph("#pie2001d", "", context);
+        gen_graph("#pie2002d", "", context);
+        gen_graph("#pie2003d", "", context);
+        gen_graph("#pie2004d", "", context);
+        gen_graph("#pie2005d", "", context);
+        gen_graph("#pie2006d", "", context);
+        gen_graph("#pie2007d", "", context);
+        gen_graph("#pie2008d", "", context);
+        gen_graph("#pie2009d", "", context);
+        gen_graph("#pie2010d", "", context);
+    },
     generate_scorecord : function() {
         this.setup_country_name();
         this.setup_indicator_block();
         this.setup_allocation_block();
         this.setup_graph_block();
+        this.setup_piecharts();
     }
 }
 

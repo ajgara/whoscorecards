@@ -37,7 +37,8 @@ Piechart.prototype = {
             .attr("width", this.w)           //set the width and height of our visualization (these will be attributes of the <svg> tag
             .attr("height", this.h)
             .append("svg:g")                //make a group to hold our pie chart
-            .attr("transform", "translate(" + this.r + "," + this.r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+                .attr("transform", "translate(" + this.r + "," + this.r + ")")    //move the center of the pie chart from 0, 0 to radius, radius
+                .attr("class", "piechart");
 
         var arc = d3.svg.arc()              //this will create <path> elements for us using arc data
             .outerRadius(this.r);

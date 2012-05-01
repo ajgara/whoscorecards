@@ -4,7 +4,7 @@ import django.conf.global_settings as DEFAULT_SETTINGS
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.dirname(os.path.realpath(__file__))
-SITE_URL = '/'
+SITE_URL = ''
 
 ADMINS = (
     ('Adi Eyal', 'adi@burgercom.co.za'),
