@@ -18,7 +18,7 @@
    id="svg21978"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="front2.svg">
+   sodipodi:docname="front.svg">
   <svg:defs
      id="defs21980">
     <svg:clipPath
@@ -558,15 +558,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.56"
-     inkscape:cx="292.88905"
-     inkscape:cy="209.4199"
+     inkscape:cx="743.86561"
+     inkscape:cy="459.4199"
      inkscape:document-units="px"
      inkscape:current-layer="g10890"
      showgrid="false"
      height="644px"
-     inkscape:window-width="873"
-     inkscape:window-height="1034"
-     inkscape:window-x="1045"
+     inkscape:window-width="876"
+     inkscape:window-height="1019"
+     inkscape:window-x="1042"
      inkscape:window-y="15"
      inkscape:window-maximized="0" />
   <svg:metadata
@@ -922,10 +922,11 @@
                y="9.9219999"
                x="366.06699" />
             <svg:text
-               style="font-size:12px;fill:#ffffff;font-family:Calibri"
+               style="font-size:12px;fill:#ffffff;font-family:Calibri;text-anchor:end;text-align:end"
                font-size="12"
-               transform="translate(519.0537,18.0576)"
-               id="_scorecardname_1_">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH TO</svg:text>
+               id="_scorecardname_1_"
+               x="885.49121"
+               y="18.0576">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH TO</svg:text>
           </svg:g>
         </svg:switch>
         <svg:switch
@@ -951,7 +952,7 @@
               </ns:region>
               <ns:flow
                  font-size="34"
-                 font-family="'Univers-LightUltraCondensed'">
+                 font-family="'UniversLT-LightUltraCondensed'">
                 <ns:p
                    text-align-last="right"
                    text-align="right">
@@ -974,10 +975,10 @@
                y="22.834"
                x="371.88699" />
             <svg:text
-               style="font-size:34px;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers-LightUltraCondensed"
+               style="font-size:34px;text-align:end;text-anchor:end;fill:#6dcff6;font-family:UniversLT-LightUltraCondensed"
                font-size="34"
                id="_countryname_1_"
-               x="920.86816"
+               x="921.08301"
                y="47.381802">ETHIOPIA</svg:text>
           </svg:g>
         </svg:switch>

@@ -7,8 +7,7 @@
 {% endblock %}
 
 
-
-{% block content %}
+{% block styles %}
     <style>
         .rb-line {
             fill:none;
@@ -45,6 +44,9 @@
             fill: #DF7627;
         }
     </style>
+{% endblock %}
+
+{% block content %}
     <div id="scorecard"</div>
     <script>
         d3.xml("{{ STATIC_URL }}svg/front.svg", "image/svg+xml", function(xml) {
