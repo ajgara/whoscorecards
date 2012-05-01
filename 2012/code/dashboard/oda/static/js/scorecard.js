@@ -395,7 +395,7 @@ WHO.ScorecardFrontPage.prototype = {
         this.setup_indicator_block();
         this.setup_allocation_block();
         this.setup_graph_block();
-        this.setup_piecharts();
+        //this.setup_piecharts();
     }
 }
 
