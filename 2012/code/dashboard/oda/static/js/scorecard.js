@@ -197,8 +197,8 @@ WHO.ScorecardFrontPage.prototype = {
     setup_country_name : function() {
         this.data.countryName.done(function(ds) {
             console.log('Country name dataset loaded');
-            var country_name = d3.select("#_countryname_1_").upper();
-            country_name.text(ds.column("Name").data[0]);
+            var country_name = d3.select("#_countryname_1_");
+            country_name.text(ds.column("Name").data[0].toUpperCase());
         });
     },
     setup_indicator_block : function() {
