@@ -8,6 +8,11 @@
     src: url('calibri.ttf');
 }
 
+@font-face {
+    font-family: 'Calibri-Bold';
+    src: url('calibri-bold.ttf');
+}
+
 #_countryname_1 {
     font-family: 'UniversLT-LightUltraCondensed';
     fill: blue;
