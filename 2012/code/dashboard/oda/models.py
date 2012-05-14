@@ -60,3 +60,13 @@ class DisbursementSource(models.Model):
     def __unicode__(self):
         return "%s => %s" % (self.source, self.country)
     
+class Disbursement(models.Model):
+    country = models.ForeignKey(Recipient)
+    donor = models.CharField(max_length=50)
+    year = models.CharField(max_length=4)
+    purpose = models.CharField(max_length=50)
+    disbursement = models.FloatField()
+    percentage = models.FloatField()
+
+    def __unicode__(self):
+        return "%s (%s)" % (self.donor, self.purpose)
