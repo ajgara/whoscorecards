@@ -7,4 +7,6 @@ urlpatterns = patterns('',
     (r'^data/country_name/(?P<iso3>\w+)/$', 'oda.views.data_country_name', {}, "data_country_name"),
     (r'^data/allocation/(?P<iso3>\w+)/$', 'oda.views.data_allocation', {}, "data_allocation"),
     (r'^data/(?P<iso3>\w+)/$', 'oda.views.country_data', {}, "country_data"),
+    (r'^data/(?P<iso3>\w+)/all_data/$', 'oda.views.all_data', {}, "all_data"),
+    (r'^data/(?P<iso3>\w+)/back_data/$', 'oda.views.back_data', {}, "back_data"),
 )
