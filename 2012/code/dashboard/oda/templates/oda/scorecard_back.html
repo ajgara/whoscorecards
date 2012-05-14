@@ -10,11 +10,16 @@
 {% block content %}
     <div id="scorecard"></div>
     <script>
-        d3.xml("{{ STATIC_URL }}svg/back.svg", "image/svg+xml", function(xml) {
-            var importedNode = document.importNode(xml.documentElement, true);
-            d3.select("#scorecard").node().appendChild(importedNode);
-            sc = new WHO.ScorecardFrontPage(importedNode, "{{ params.iso3 }}", SITE_URL);
-            sc.generate_scorecord();
+        var template = '{{ STATIC_URL }}svg/back.svg';
+        var json = '{% url back_data params.iso3 %}';
+
+        d3.json(json, function(e){
+            d3.xml(template, 'image/svg+xml', function(xml){
+                document.body.appendChild(xml.documentElement);
+ 
+                // load the json data
+                load_back(e);
+            });
         });
     </script>
 {% endblock %}

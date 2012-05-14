@@ -20,8 +20,8 @@ _.extend(
                 "ratio_commitments", "ratio_disbursements", 
                 "commitments_per_capita", "disbursements_per_capita", 
                 "regional_avg_commitements", "regional_avg_disbursements", 
-                "external_resources", 
-                "gghe_perc", "gghe_cap"
+                "total_expenditure", 
+                "gge", "private_expenditure"
             ],
             dataColumns = {
                 population : [], 
@@ -29,16 +29,15 @@ _.extend(
                 total_disbursements : [], 
                 health_commitments : [], 
                 health_disbursements : [], 
-                //ratio_commitments : [], 
-                //ratio_disbursements : [], 
+                ratio_commitments : [], 
+                ratio_disbursements : [], 
                 commitments_per_capita : [], 
                 disbursements_per_capita : [], 
-                //regional_avg_commitements : [], 
-                //regional_avg_disbursements : [], 
-                external_resources : [], 
-                gghe_perc : [], 
-                gghe_cap : [],
-                gghe_cap_ppp : [],
+                regional_avg_commitements : [], 
+                regional_avg_disbursements : [], 
+                total_expenditure : [], 
+                gge : [], 
+                private_expenditure : [],
                 year : []
             }
 
@@ -50,17 +49,20 @@ _.extend(
             });
 
             var indicator_map = {
-                1 : "gghe_perc",
-                2 : "gghe_cap",
-                3 : "gghe_cap_ppp",
-                4 : "external_resources",
-                5 : "health_commitments",
+                1 : "regional_disb",
+                2 : "regional_comm",
+                3 : "regional_disb_ratio",
+                4 : "regional_comm_ratio",
+                5 : "population",
                 6 : "health_disbursements",
-                7 : "population",
-                8 : "commitments_per_capita",
+                7 : "health_commitments",
+                8 : "total_disbursements",
                 9 : "disbursements_per_capita",
                 10 : "total_commitments",
-                11 : "total_disbursements"
+                11 : "commitments_per_capita",
+                12 : "total_expenditure",
+                13 : "gge",
+                14 : "private_expenditure",
             }
             years = {}
             _.each(data, function(c) {
@@ -147,10 +149,9 @@ WHO.ScorecardData.prototype = {
             url : this.base_url + "/oda/data/" + this.iso3 + "/",
             parser : WHO.IndicatorsParser,
             columns : [
-                { name : "gghe_perc", type : "string", before : this._round1perc },
-                { name : "gghe_cap", type : "number", before : this._round1 },
-                { name : "gghe_cap_ppp", type : "number" },
-                { name : "external_resources", type : "string", before : this._round1perc },
+                { name : "gge", type : "string", before : this._round1perc },
+                { name : "private_expenditure", type : "number", before : this._round1 },
+                { name : "total_expenditure", type : "string", before : this._round1perc },
                 { name : "health_commitments", type : "number", before : this._round1 },
                 { name : "health_disbursements", type : "number", before : this._round1 },
                 { name : "population", type : "number", before : this._round1mill },
@@ -220,9 +221,9 @@ WHO.ScorecardFrontPage.prototype = {
                     "health_disbursements" : 5,
                     "commitments_per_capita" : 8,
                     "disbursements_per_capita" : 9,
-                    "external_resources" : 12,
-                    "gghe_perc" : 13,
-                    "gghe_cap" : 14
+                    "total_expenditure" : 12,
+                    "gge" : 13,
+                    "private_expenditure" : 14
                 }
 
                 // Update each indicator in the current year
@@ -272,8 +273,7 @@ WHO.ScorecardFrontPage.prototype = {
             },
 
             line: {
-                type:'const',
-                const_val: '350'
+                const_val: '0'
             }
         }
         function gen_graph(parent_node, series_name, ctx) {
@@ -402,4 +402,146 @@ WHO.ScorecardFrontPage.prototype = {
 
 function scorecard_back(docroot) {
     alert('back');
+}
+
+round1 = function(v) { return sprintf("%.1f", v); }
+round1perc = function(v) { return sprintf("%.1f%%", v * 100); }
+round1mill = function(v) { return sprintf("%.1f", v / 1000000); }
+
+function load_json(json) {
+    /*********** Country Name ************/
+    var country_name = d3.select("#_countryname_1_").text(json.country.name.toUpperCase());
+    var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
+
+    /*********** Indicators Table ************/
+    var imap = {
+        "1" : { value : "5", fmt : round1mill},
+        "2" : { value : "10", fmt : round1},
+        "3" : { value : "8", fmt : round1},
+        "4" : { value : "7", fmt : round1},
+        "5" : { value : "6", fmt : round1},
+        "6" : { value : "4", fmt : round1},
+        "7" : { value : "3", fmt : round1},
+        "8" : { value : "11", fmt : round1},
+        "9" : { value : "9", fmt : round1},
+        "10" : { value : "2", fmt : round1},
+        "11" : { value : "1", fmt : round1},
+        "12" : { value : "12", fmt : round1},
+        "13" : { value : "13", fmt : round1},
+        "14" : { value : "14", fmt : round1},
+    }
+
+    _.each(all_years, function(year) {
+        var col_class = ".ind_" + year + " text";
+        d3.selectAll(col_class).data(_.keys(json.indicators[year]))
+            .text(function(d, i) {
+                var idx = imap[String(i + 1)];
+                return idx.fmt(json.indicators[year][idx.value]);
+            });
+    });
+
+    /*********** Allocation Table ************/
+    var amap = {
+        "0" : { value : "0", fmt : round1},
+        "1" : { value : "1", fmt : round1},
+        "2" : { value : "2", fmt : round1},
+        "3" : { value : "3", fmt : round1},
+    }
+
+    _.each(all_years, function(year) {
+        var col_class = ".allocation_c_" + year + " text";
+        /* commitments */
+        commitments = d3.selectAll(col_class).data(_.keys(json.allocations[year]));
+        commitments
+            .text(function(d, i) {
+                var idx = amap[String(i)];
+                return idx.fmt(json.allocations[year][idx.value].commitment);
+            });
+
+        commitments.exit().text(function(d, i) {
+            val = _.reduce(json.allocations[year], function(memo, el) {
+                return memo + el.commitment
+            }, 0);
+            return round1(val);
+        });
+
+        
+
+        var pies = d3.selectAll(".piec g").data(all_years);
+        pies.selectAll("g").remove();
+        _.each(pies, function(el) {
+            if (!el) return;
+            console.log(el.id);
+            ctx = {
+                width : 200,
+                height : 200,
+                radius : 50,
+                node : el.id,
+                data : [
+                    {"label":"one", "value":20}, 
+                    {"label":"two", "value":50}, 
+                    {"label":"three", "value":30}
+                ]
+            }
+            Piechart(ctx);
+        });
+
+        /* disbursements */
+        col_class = ".allocation_d_" + year + " text";
+        disbursements = d3.selectAll(col_class).data(_.keys(json.allocations[year]));
+        disbursements
+            .text(function(d, i) {
+                var idx = amap[String(i)];
+                return idx.fmt(json.allocations[year][idx.value].disbursement);
+            });
+
+        disbursements.exit().text(function(d, i) {
+            val = _.reduce(json.allocations[year], function(memo, el) {
+                return memo + el.disbursement
+            }, 0);
+            return round1(val);
+        });
+    });
+}
+
+r0 = function(v) { return sprintf("%.0f", v); }
+r1 = function(v) { return sprintf("%.1f", v); }
+r2 = function(v) { return sprintf("%.2f", v); }
+
+function load_back(json) {
+    /*********** Country Name ************/
+    var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
+    d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
+    d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
+
+    countries = [
+        "Australia", "Austria", "Belgium", "Canada", "Denmark", 
+        "Finland", "France", "Germany", "Greece", "Ireland",
+        "Italy", "Japan", "Korea", "Luxembourg", "Netherlands",
+        "Norway", "Spain", "Sweden", "Switzerland", "United Arab Emirates",
+        "United Kingdom", "United States"
+    ];
+
+    multis = [
+        "AfDF", "AFESD", "AsDB Special Fund", "EU Institutions", "GAVI",
+        "GEF", "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
+        "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "UNRWA", "UNRWA", "UNRWA", "WFP"
+    ]
+    _.each(countries, function(c, i) {
+        d3.select("#col2r" + (i + 1)).text("-");
+        d3.select("#col3r" + (i + 1)).text("-");
+        if (json.bil_sources[c] != undefined) {
+            d3.select("#col2r" + (i + 1)).text(json.bil_sources[c].number);
+            d3.select("#col3r" + (i + 1)).text(r2(json.bil_sources[c].amount));
+        }
+    });
+
+    _.each(multis, function(c, i) {
+        d3.select("#mcol2r" + (i + 1)).text("-");
+        d3.select("#mcol3r" + (i + 1)).text("-");
+        if (json.mul_sources[c] != undefined) {
+            d3.select("#mcol2r" + (i + 1)).text(json.mul_sources[c].number);
+            d3.select("#mcol3r" + (i + 1)).text(r2(json.mul_sources[c].amount));
+        }
+    });
 }

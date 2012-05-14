@@ -89,7 +89,7 @@ def back_data(request, iso3):
     ndisb = int(re_disb.match(other_disbursements.donor).groups()[0])
     pdisb = other_disbursements.percentage
     total_disbursements_count = disbursements.count() - 1 + ndisb
-    total_disbursements_sum = disbursements.aggregate(Sum('disbursement'))
+    total_disbursements_sum = float(disbursements.aggregate(Sum('disbursement'))["disbursement__sum"])
 
     js = {
         "country" : {
