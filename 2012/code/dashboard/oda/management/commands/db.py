@@ -77,15 +77,11 @@ class PurposeDBFactory(XLSDB):
         super(PurposeDBFactory, self).__init__(file_path, sheet_name)
 
 class ODASourceFactory(XLSDB):
-    def __init__(self, file_path="../data/Sources of ODA in 08-10.xls", sheet_name="Sheet1"):
+    def __init__(self, file_path="../data/disbursement_sources.xls", sheet_name="Sheet1"):
         super(ODASourceFactory, self).__init__(file_path, sheet_name)
 
 class IndicatorsFactory(XLSDB):
-    def __init__(self, file_path="../data/Table1.xls", sheet_name="Sheet1"):
-        super(IndicatorsFactory, self).__init__(file_path, sheet_name)
-
-class IndicatorsFactory(XLSDB):
-    def __init__(self, file_path="../data/Table1.xls", sheet_name="Sheet1"):
+    def __init__(self, file_path="../data/Table1.xls", sheet_name="DB"):
         super(IndicatorsFactory, self).__init__(file_path, sheet_name)
 
 class LargestDisbursementsFactory(XLSDB):

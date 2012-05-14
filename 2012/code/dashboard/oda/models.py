@@ -49,3 +49,14 @@ class Allocation(models.Model):
 
     def __unicode__(self):
         return "%s - %s (%s)" % (self.country, self.mdgpurpose, self.year)
+
+class DisbursementSource(models.Model):
+    country = models.ForeignKey(Recipient)
+    source = models.CharField(max_length=50)
+    number = models.IntegerField()
+    amount = models.FloatField()
+    group = models.CharField(max_length=10, choices=(("Bil", "Bil"), ("Mul", "Mul")))
+
+    def __unicode__(self):
+        return "%s => %s" % (self.source, self.country)
+    

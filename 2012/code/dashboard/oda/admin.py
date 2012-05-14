@@ -9,8 +9,13 @@ class AllocationAdmin(admin.ModelAdmin):
     list_filter = ("country", "mdgpurpose", "year")
     list_display = ("country", "mdgpurpose", "year", "commitment", "disbursement")
 
+class DisbursementSourceAdmin(admin.ModelAdmin):
+    list_filter = ("country", "source", "group")
+    list_display = ("country", "source", "number", "amount", "group")
+
 admin.site.register(models.Recipient)
 admin.site.register(models.GeneralIndicator)
 admin.site.register(models.CountryIndicator, CountryIndicatorAdmin)
 admin.site.register(models.MDGPurpose)
 admin.site.register(models.Allocation, AllocationAdmin)
+admin.site.register(models.DisbursementSource, DisbursementSourceAdmin)
