@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="527.70172"
-     inkscape:cy="45.390106"
+     inkscape:cx="438.05886"
+     inkscape:cy="273.96153"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -3037,9 +3037,11 @@
                          height="6.2010002"
                          id="rect968" />
                       <text
-                         id="col2r21_1_"
-                         transform="matrix(0.9513,0,0,1,245.5469,419.9512)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">77.49</text>
+                         id="bil_total_value"
+                         transform="scale(0.97534609,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
+                         x="260.21387"
+                         y="409.59775">77.49</text>
                     </g>
                   </switch>
                   <switch
@@ -3095,7 +3097,7 @@
                            x="23.372"
                            y="0"
                            style="font-size:7px;fill:#58595b;font-family:Calibri"
-                           id="tspan982">(in Million constant US$)</tspan>
+                           id="tspan982" />
                       </text>
                     </g>
                   </switch>
@@ -3141,7 +3143,7 @@
                          height="6.2010002"
                          id="rect989" />
                       <text
-                         id="col2r21_2_"
+                         id="bil_total_nr"
                          transform="matrix(0.9513,0,0,1,169.8496,419.9512)"
                          style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">00</text>
                     </g>
@@ -10273,9 +10275,11 @@
                          height="6.2010002"
                          id="rect2286" />
                       <text
-                         id="col2r21_5_"
+                         id="mul_total_value"
                          transform="matrix(0.9513,0,0,1,532.5352,420.1855)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">77.49</text>
+                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold;text-anchor:middle;text-align:center"
+                         x="10.849609"
+                         y="0">77.49</text>
                     </g>
                   </switch>
                   <switch
@@ -10331,7 +10335,7 @@
                            x="23.372"
                            y="0"
                            style="font-size:7px;fill:#58595b;font-family:Calibri"
-                           id="tspan2300">(in Million constant US$)</tspan>
+                           id="tspan2300" />
                       </text>
                     </g>
                   </switch>
@@ -10377,9 +10381,11 @@
                          height="6.2010002"
                          id="rect2307" />
                       <text
-                         id="col2r21_6_"
-                         transform="matrix(0.9513,0,0,1,457.8604,420.1855)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">00</text>
+                         id="mul_total_nr"
+                         transform="scale(0.97534609,1.0252771)"
+                         style="font-size:7.80276871px;fill:#58595b;font-family:Calibri-Bold"
+                         x="468.44202"
+                         y="409.82629">00</text>
                     </g>
                   </switch>
                 </g>

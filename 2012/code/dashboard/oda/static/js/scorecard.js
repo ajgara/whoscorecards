@@ -528,6 +528,8 @@ function load_back(json) {
         "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "UNRWA", "UNRWA", "UNRWA", "WFP"
     ]
 
+    var bil_total_nr = 0;
+    var bil_total_value = 0;
     // bilateral and multilateral tables
     _.each(countries, function(c, i) {
         d3.select("#col2r" + (i + 1)).text("-");
@@ -535,17 +537,27 @@ function load_back(json) {
         if (json.bil_sources[c] != undefined) {
             d3.select("#col2r" + (i + 1)).text(json.bil_sources[c].number);
             d3.select("#col3r" + (i + 1)).text(r2(json.bil_sources[c].amount));
+            bil_total_nr += json.bil_sources[c].number;
+            bil_total_value += json.bil_sources[c].amount;
         }
     });
+    d3.select("#bil_total_nr").text(bil_total_nr);
+    d3.select("#bil_total_value").text(r2(bil_total_value));
 
+    var mul_total_nr = 0;
+    var mul_total_value = 0;
     _.each(multis, function(c, i) {
         d3.select("#mcol2r" + (i + 1)).text("-");
         d3.select("#mcol3r" + (i + 1)).text("-");
         if (json.mul_sources[c] != undefined) {
             d3.select("#mcol2r" + (i + 1)).text(json.mul_sources[c].number);
             d3.select("#mcol3r" + (i + 1)).text(r2(json.mul_sources[c].amount));
+            mul_total_nr += json.mul_sources[c].number;
+            mul_total_value += json.mul_sources[c].amount;
         }
     });
+    d3.select("#mul_total_nr").text(mul_total_nr);
+    d3.select("#mul_total_value").text(r2(mul_total_value));
 
     // bubbles
     d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
