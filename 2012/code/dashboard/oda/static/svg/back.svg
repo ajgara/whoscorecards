@@ -348,7 +348,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="390.93459"
+     inkscape:cx="539.70887"
      inkscape:cy="461.2765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -11731,38 +11731,49 @@
                      id="rect2556" />
                   <text
                      id="col3row1_3_"
-                     transform="scale(0.94223139,1.0613104)"
-                     x="82.148315"
+                     transform="scale(0.94223141,1.0613104)"
+                     x="84.79628"
                      y="77.541779"
-                     style="font-size:11.30677700000000030px;-inkscape-font-specification:Calibri;font-family:Calibri">
+                     style="font-size:11.306777px;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold">
                     <tspan
-                       x="82.148315"
+                       x="84.79628"
                        y="77.541779"
-                       style="font-size:11.94495009999999979px;fill:#ffffff;font-family:Calibri;-inkscape-font-specification:Calibri"
-                       id="tspan2559">In the period 2009-2010 the <tspan
-   style="font-weight:bold;-inkscape-font-specification:Calibri;font-family:Calibri"
-   id="tspan4720">total amount of US$ <tspan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri;-inkscape-font-specification:Calibri"
-   id="summary_amount"
-   dy="1.8844628"
-   dx="7.5378513">2299.13</tspan>
-<tspan
-   id="tspan4753"
-   dy="-1.8844628"
-   dx="7.5378513"
-   style="-inkscape-font-specification:Calibri;font-family:Calibri">was disbursed from donors for implementation in</tspan>
-<tspan
-   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri;-inkscape-font-specification:Calibri"
-   id="summary_count"
-   dy="1.8844628"
-   dx="7.5378513">1900</tspan>
-<tspan
-   id="tspan4750"
-   dy="-1.8844628"
-   dx="7.5378513"
-   style="-inkscape-font-specification:Calibri;font-family:Calibri">different transfers</tspan>
-</tspan>
-</tspan>
+                       style="font-size:11.9449501px;fill:#ffffff;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+                       id="tspan2559">
+                      <tspan
+                         style="font-family:Calibri;-inkscape-font-specification:Calibri"
+                         id="tspan4956">In the period 2009-2010 the</tspan>
+                      <tspan
+                         style="font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+                         id="tspan4720">
+                        <tspan
+                           style="font-family:Calibri;-inkscape-font-specification:Calibri"
+                           id="tspan4958">t</tspan>
+                        <tspan
+                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+                           id="tspan4954">otal amount of US$</tspan>
+                        <tspan
+                           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+                           id="summary_amount"
+                           dy="1.8844628"
+                           dx="7.5378513">2299.13</tspan>
+                        <tspan
+                           id="tspan4753"
+                           dy="-1.8844628"
+                           dx="7.5378513"
+                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri">was disbursed from donors for implementation in</tspan>
+                        <tspan
+                           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+                           id="summary_count"
+                           dy="1.8844628"
+                           dx="7.5378513">1900</tspan>
+                        <tspan
+                           id="tspan4750"
+                           dy="-1.8844628"
+                           dx="7.5378513"
+                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri">different transfers</tspan>
+                      </tspan>
+                    </tspan>
                   </text>
                 </g>
               </switch>
