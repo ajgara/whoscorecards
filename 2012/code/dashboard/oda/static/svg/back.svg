@@ -14,8 +14,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="841.888"
-   height="589.66699"
+   width="1052.3622"
+   height="744.09448"
    id="svg7712"
    version="1.1"
    inkscape:version="0.48.0 r9654"
@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="539.70887"
-     inkscape:cy="461.2765"
+     inkscape:cx="870.55886"
+     inkscape:cy="559.67582"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,10 +357,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1179"
-     inkscape:window-height="1034"
-     inkscape:window-x="739"
-     inkscape:window-y="15"
+     inkscape:window-width="958"
+     inkscape:window-height="1049"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7717">
@@ -378,10 +378,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(744.38826,413.89988)">
+     transform="translate(744.38826,568.32741)">
     <switch
        id="switch6"
-       transform="translate(-744.38826,-413.89988)">
+       transform="matrix(1.2507783,0,0,1.2507783,-744.71479,-565.05151)">
       <foreignObject
          requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
          x="0"
@@ -735,7 +735,7 @@
                 <text
                    id="_scorecardname_2_"
                    style="font-size:12px;fill:#ffffff;font-family:Calibri"
-                   x="516.02429"
+                   x="523.97449"
                    y="18.0576">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH TO</text>
               </g>
             </switch>
@@ -3201,7 +3201,7 @@
                       <text
                          id="col3r1"
                          transform="matrix(0.9513,0,0,1,248.54,155.5356)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7382812"
                          y="0">3.06</text>
                     </g>
@@ -3250,7 +3250,7 @@
                       <text
                          id="col3r2"
                          transform="matrix(0.9513,0,0,1,248.251,167.5542)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.8457031"
                          y="0">4.96</text>
                     </g>
@@ -3299,7 +3299,7 @@
                       <text
                          id="col3r3"
                          transform="matrix(0.9513,0,0,1,248.251,179.5718)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7988281"
                          y="0">0.06</text>
                     </g>
@@ -3348,7 +3348,7 @@
                       <text
                          id="col3r4"
                          transform="matrix(0.9513,0,0,1,246.3223,191.5894)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.7617188"
                          y="0">63.46</text>
                     </g>
@@ -3397,7 +3397,7 @@
                       <text
                          id="col3r5"
                          transform="matrix(0.9513,0,0,1,248.251,203.6089)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.671875"
                          y="0">2.59</text>
                     </g>
@@ -3446,7 +3446,7 @@
                       <text
                          id="col3r6"
                          transform="matrix(0.9513,0,0,1,248.251,215.6265)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.5410156"
                          y="0">1.61</text>
                     </g>
@@ -3495,7 +3495,7 @@
                       <text
                          id="col3r7"
                          transform="matrix(0.9513,0,0,1,248.251,227.644)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7148438"
                          y="0">0.43</text>
                     </g>
@@ -3544,7 +3544,7 @@
                       <text
                          id="col3r8"
                          transform="matrix(0.9513,0,0,1,248.251,239.6626)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7324219"
                          y="0">3.28</text>
                     </g>
@@ -3593,7 +3593,7 @@
                       <text
                          id="col3r9"
                          transform="matrix(0.9513,0,0,1,253.832,251.6812)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="0.95507812"
                          y="0">-</text>
                     </g>
@@ -3642,7 +3642,7 @@
                       <text
                          id="col3r10"
                          transform="matrix(0.9513,0,0,1,246.3223,263.6987)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.6640625"
                          y="0">22.73</text>
                     </g>
@@ -3691,7 +3691,7 @@
                       <text
                          id="col3r11"
                          transform="matrix(0.9513,0,0,1,246.3223,275.7163)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.7421875"
                          y="0">20.18</text>
                     </g>
@@ -3740,7 +3740,7 @@
                       <text
                          id="col3r12"
                          transform="matrix(0.9513,0,0,1,246.3223,287.7349)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.5664062"
                          y="0">18.32</text>
                     </g>
@@ -3789,7 +3789,7 @@
                       <text
                          id="col3r13"
                          transform="matrix(0.9513,0,0,1,248.251,299.7539)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.8652344"
                          y="0">4.30</text>
                     </g>
@@ -3838,7 +3838,7 @@
                       <text
                          id="col3r14"
                          transform="matrix(0.9513,0,0,1,248.251,311.7715)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.8417969"
                          y="0">0.34</text>
                     </g>
@@ -3887,7 +3887,7 @@
                       <text
                          id="col3r15"
                          transform="matrix(0.9513,0,0,1,245.6025,323.7891)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.8125"
                          y="0">43.42</text>
                     </g>
@@ -3936,7 +3936,7 @@
                       <text
                          id="col3r16"
                          transform="matrix(0.9513,0,0,1,245.6025,335.8066)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.6738281"
                          y="0">16.84</text>
                     </g>
@@ -3985,7 +3985,7 @@
                       <text
                          id="col3r17"
                          transform="matrix(0.9513,0,0,1,245.6025,347.8262)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.7890625"
                          y="0">37.40</text>
                     </g>
@@ -4034,7 +4034,7 @@
                       <text
                          id="col3r18"
                          transform="matrix(0.9513,0,0,1,247.5312,359.8438)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7519531"
                          y="0">9.37</text>
                     </g>
@@ -4083,7 +4083,7 @@
                       <text
                          id="col3r19"
                          transform="matrix(0.9513,0,0,1,247.5312,371.8613)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7402344"
                          y="0">0.11</text>
                     </g>
@@ -4132,7 +4132,7 @@
                       <text
                          id="col3r20"
                          transform="matrix(0.9513,0,0,1,247.5312,383.8789)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.734375"
                          y="0">0.12</text>
                     </g>
@@ -4181,7 +4181,7 @@
                       <text
                          id="col3r21"
                          transform="matrix(0.9513,0,0,1,245.6025,395.8984)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.7324219"
                          y="0">77.49</text>
                     </g>
@@ -4230,7 +4230,7 @@
                       <text
                          id="col3r22"
                          transform="matrix(0.9513,0,0,1,243.6743,407.916)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="10.716797"
                          y="0">656.85</text>
                     </g>
@@ -4282,7 +4282,7 @@
                       <text
                          id="col2r1"
                          transform="matrix(0.9513,0,0,1,170.8584,155.5371)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4331,7 +4331,7 @@
                       <text
                          id="col2r2"
                          transform="matrix(0.9513,0,0,1,170.5693,167.5557)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4380,7 +4380,7 @@
                       <text
                          id="col2r3"
                          transform="matrix(0.9513,0,0,1,170.5693,179.5732)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4429,7 +4429,7 @@
                       <text
                          id="col2r4"
                          transform="matrix(0.9513,0,0,1,170.5693,191.5908)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4478,7 +4478,7 @@
                       <text
                          id="col2r5"
                          transform="matrix(0.9513,0,0,1,170.5693,203.6104)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4527,7 +4527,7 @@
                       <text
                          id="col2r6"
                          transform="matrix(0.9513,0,0,1,170.5693,215.6279)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4576,7 +4576,7 @@
                       <text
                          id="col2r7"
                          transform="matrix(0.9513,0,0,1,170.5693,227.6455)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4625,7 +4625,7 @@
                       <text
                          id="col2r8"
                          transform="matrix(0.9513,0,0,1,170.5693,239.6641)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4674,7 +4674,7 @@
                       <text
                          id="col2r9"
                          transform="matrix(0.9513,0,0,1,170.5693,251.6821)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4723,7 +4723,7 @@
                       <text
                          id="col2r10"
                          transform="matrix(0.9513,0,0,1,170.5693,263.6997)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4772,7 +4772,7 @@
                       <text
                          id="text4800"
                          transform="matrix(0.9513,0,0,1,170.5693,275.7173)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4821,7 +4821,7 @@
                       <text
                          id="col2r12"
                          transform="matrix(0.9513,0,0,1,170.5693,287.7368)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4870,7 +4870,7 @@
                       <text
                          id="col2r13"
                          transform="matrix(0.9513,0,0,1,170.5693,299.7539)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4919,7 +4919,7 @@
                       <text
                          id="col2r14"
                          transform="matrix(0.9513,0,0,1,170.5693,311.7686)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -4968,7 +4968,7 @@
                       <text
                          id="col2r15"
                          transform="matrix(0.9513,0,0,1,169.8496,323.7861)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5017,7 +5017,7 @@
                       <text
                          id="col2r16"
                          transform="matrix(0.9513,0,0,1,169.8496,335.8047)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5066,7 +5066,7 @@
                       <text
                          id="col2r17"
                          transform="matrix(0.9513,0,0,1,169.8496,347.8213)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5115,7 +5115,7 @@
                       <text
                          id="col2r18"
                          transform="matrix(0.9513,0,0,1,169.8496,359.8389)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5164,7 +5164,7 @@
                       <text
                          id="col2r19"
                          transform="matrix(0.9513,0,0,1,169.8496,371.8564)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5213,7 +5213,7 @@
                       <text
                          id="col2r20"
                          transform="matrix(0.9513,0,0,1,169.8496,383.874)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5262,7 +5262,7 @@
                       <text
                          id="col2r21"
                          transform="matrix(0.9513,0,0,1,169.8496,395.8936)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -5311,7 +5311,7 @@
                       <text
                          id="col2r22"
                          transform="matrix(0.9513,0,0,1,169.8496,407.9111)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="3.7792969"
                          y="0">00</text>
                     </g>
@@ -9284,7 +9284,7 @@
                       <text
                          id="mcol2r1"
                          transform="matrix(0.9513,0,0,1,453.4102,155.8862)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.6738281"
                          y="0">13.04</text>
                     </g>
@@ -9333,7 +9333,7 @@
                       <text
                          id="mcol2r2"
                          transform="matrix(0.9513,0,0,1,460.1562,169.77)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -9382,7 +9382,7 @@
                       <text
                          id="mcol2r3"
                          transform="matrix(0.9513,0,0,1,460.1562,183.0581)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -9431,7 +9431,7 @@
                       <text
                          id="mcol2r4"
                          transform="matrix(0.9513,0,0,1,455.3398,195.6367)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.734375"
                          y="0">8.09</text>
                     </g>
@@ -9480,7 +9480,7 @@
                       <text
                          id="mcol2r5"
                          transform="matrix(0.9513,0,0,1,453.4102,209.2417)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.7265625"
                          y="0">91.93</text>
                     </g>
@@ -9529,7 +9529,7 @@
                       <text
                          id="mcol2r6"
                          transform="matrix(0.9513,0,0,1,451.4824,222.0723)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="10.740234"
                          y="0">525.12</text>
                     </g>
@@ -9578,7 +9578,7 @@
                       <text
                          id="mcol2r7"
                          transform="matrix(0.9513,0,0,1,451.4824,235.4224)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="10.720703"
                          y="0">525.13</text>
                     </g>
@@ -9627,7 +9627,7 @@
                       <text
                          id="mcol2r8"
                          transform="matrix(0.9513,0,0,1,453.4102,248.8452)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.8164062"
                          y="0">55.24</text>
                     </g>
@@ -9676,7 +9676,7 @@
                       <text
                          id="mcol2r9"
                          transform="matrix(0.9513,0,0,1,460.1562,262.1626)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -9725,7 +9725,7 @@
                       <text
                          id="mcol2r10"
                          transform="matrix(0.9513,0,0,1,460.1562,275.4014)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -9774,7 +9774,7 @@
                       <text
                          id="mcol2r11"
                          transform="matrix(0.9513,0,0,1,455.3398,288.0088)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.6777344"
                          y="0">5.12</text>
                     </g>
@@ -9823,7 +9823,7 @@
                       <text
                          id="mcol2r12"
                          transform="matrix(0.9513,0,0,1,455.3398,301.375)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7207031"
                          y="0">9.31</text>
                     </g>
@@ -9872,7 +9872,7 @@
                       <text
                          id="mcol2r13"
                          transform="matrix(0.9513,0,0,1,453.4102,315.1562)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.6894531"
                          y="0">26.11</text>
                     </g>
@@ -9921,7 +9921,7 @@
                       <text
                          id="mcol2r14"
                          transform="matrix(0.9513,0,0,1,453.4102,327.8145)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="8.9199219"
                          y="0">43.44</text>
                     </g>
@@ -9970,7 +9970,7 @@
                       <text
                          id="mcol2r15"
                          transform="matrix(0.9513,0,0,1,455.3398,341.5566)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7207031"
                          y="0">9.31</text>
                     </g>
@@ -10019,7 +10019,7 @@
                       <text
                          id="mcol2r16"
                          transform="matrix(0.9513,0,0,1,460.1562,354.3789)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -10068,7 +10068,7 @@
                       <text
                          id="mcol2r17"
                          transform="matrix(0.9513,0,0,1,460.1562,368.0898)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -10117,7 +10117,7 @@
                       <text
                          id="mcol2r18"
                          transform="matrix(0.9513,0,0,1,460.1562,380.4873)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -10166,7 +10166,7 @@
                       <text
                          id="mcol2r19"
                          transform="matrix(0.9513,0,0,1,460.1562,393.9395)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="1.7480469"
                          y="0">0</text>
                     </g>
@@ -10215,7 +10215,7 @@
                       <text
                          id="mcol2r20"
                          transform="matrix(0.9513,0,0,1,455.3398,407.2969)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri;text-anchor:middle;text-align:center"
+                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="6.7714844"
                          y="0">0.37</text>
                     </g>
