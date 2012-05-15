@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="468.93655"
-     inkscape:cy="427.81057"
+     inkscape:cx="390.93459"
+     inkscape:cy="461.2765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,9 +357,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="830"
+     inkscape:window-width="1179"
      inkscape:window-height="1034"
-     inkscape:window-x="1088"
+     inkscape:window-x="739"
      inkscape:window-y="15"
      inkscape:window-maximized="0" />
   <metadata
@@ -11731,31 +11731,36 @@
                      id="rect2556" />
                   <text
                      id="col3row1_3_"
-                     transform="matrix(0.8878,0,0,1,94.5771,82.2959)">
+                     transform="scale(0.94223139,1.0613104)"
+                     x="82.148315"
+                     y="77.541779"
+                     style="font-size:11.30677700000000030px;-inkscape-font-specification:Calibri;font-family:Calibri">
                     <tspan
-                       x="0"
-                       y="0"
-                       style="font-size:12.67730045px;fill:#ffffff;font-family:Calibri"
+                       x="82.148315"
+                       y="77.541779"
+                       style="font-size:11.94495009999999979px;fill:#ffffff;font-family:Calibri;-inkscape-font-specification:Calibri"
                        id="tspan2559">In the period 2009-2010 the <tspan
-   style="font-weight:bold"
+   style="font-weight:bold;-inkscape-font-specification:Calibri;font-family:Calibri"
    id="tspan4720">total amount of US$ <tspan
-   style="font-size:19.1035881px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri;-inkscape-font-specification:Calibri"
    id="summary_amount"
-   dy="2"
-   dx="8">2299.13</tspan>
+   dy="1.8844628"
+   dx="7.5378513">2299.13</tspan>
 <tspan
    id="tspan4753"
-   dy="-2"
-   dx="8">was disbursed from donors for implementation in</tspan>
+   dy="-1.8844628"
+   dx="7.5378513"
+   style="-inkscape-font-specification:Calibri;font-family:Calibri">was disbursed from donors for implementation in</tspan>
 <tspan
-   style="font-size:19.1035881px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+   style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri;-inkscape-font-specification:Calibri"
    id="summary_count"
-   dy="2"
-   dx="8">1900</tspan>
+   dy="1.8844628"
+   dx="7.5378513">1900</tspan>
 <tspan
    id="tspan4750"
-   dy="-2"
-   dx="8">different transfers</tspan>
+   dy="-1.8844628"
+   dx="7.5378513"
+   style="-inkscape-font-specification:Calibri;font-family:Calibri">different transfers</tspan>
 </tspan>
 </tspan>
                   </text>
