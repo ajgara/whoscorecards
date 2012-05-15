@@ -7,7 +7,7 @@
 
 {% block styles %}
 <style>
-#scorecard { width:1690px; height:1200px;}
+#scorecard { width:1052.36px; height:744.09px;}
 .spg-arc {
     stroke: #E6E7E8;
 }
@@ -22,7 +22,8 @@
 
         d3.json(json, function(e){
             d3.xml(template, 'image/svg+xml', function(xml){
-                document.body.appendChild(xml.documentElement);
+		var scorecard = document.body.children[0];
+                scorecard.appendChild(xml.documentElement);
  
                 // load the json data
                 load_back(e);
