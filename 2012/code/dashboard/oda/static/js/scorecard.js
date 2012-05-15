@@ -514,7 +514,7 @@ function load_back(json) {
     d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
-    countries = [
+    var countries = [
         "Australia", "Austria", "Belgium", "Canada", "Denmark", 
         "Finland", "France", "Germany", "Greece", "Ireland",
         "Italy", "Japan", "Korea", "Luxembourg", "Netherlands",
@@ -522,7 +522,7 @@ function load_back(json) {
         "United Kingdom", "United States"
     ];
 
-    multis = [
+    var multis = [
         "AfDF", "AFESD", "AsDB Special Fund", "EU Institutions", "GAVI",
         "GEF", "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
         "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "UNRWA", "UNRWA", "UNRWA", "WFP"
@@ -559,10 +559,10 @@ function load_back(json) {
     d3.select("#bubble_perc4").text(r1(json.largest_sources[3]["percentage"] * 100) + "%");
     d3.select("#bubble_perc5").text(r1(json.largest_sources[4]["percentage"] * 100) + "%");
 
-    totaltop5 = _.reduce([0, 1, 2, 3, 4], function(memo, pair) {
+    var totaltop5 = _.reduce([0, 1, 2, 3, 4], function(memo, pair) {
         return memo + json.largest_sources[pair]["percentage"]
     }, 0);
-    other_perc = 1 - totaltop5;
+    var other_perc = 1 - totaltop5;
     d3.select("#bubble_perc6").text(r1(other_perc * 100) + "%");
     
 
@@ -582,10 +582,39 @@ function load_back(json) {
 
     // largest single disbursements
     _.each(json.largest_disbursements, function(el, i) {
-        console.log(i);
         d3.select("#sdcol1r" + (i + 1)).text("$" + r2(el.disbursement) + "m");
         d3.select("#sdcol2r" + (i + 1)).text(el.year);
         d3.select("#sdcol3r" + (i + 1)).text(el.donor.toUpperCase());
         d3.select("#sdcol4r" + (i + 1)).text(el.purpose);
     }); 
+
+    var val1 = r1(json.disbursements_percentage["other"].percentage * 100);
+    var val2 = r1(json.disbursements_percentage["largest"].percentage * 100);
+    // segment pie
+    var segpie = {
+        width: 300,
+        height:300,
+        node :'#segpie',
+
+        arc: {
+            margin: 25,
+            width: 74,
+        },
+        data : [
+            {'value': parseInt(val1)},
+            {'value': parseInt(val2)},
+        ],
+        colors : [
+            "#0093D5", "#009983"
+        ]
+    };
+    var _attr = d3.select("#segpie").attr("transform");
+    d3.select("#segpie").attr("transform", "scale(0.35, 0.35)");
+    
+    var segpiegraph = new SegmentPieGraph(segpie);
+    var chart = d3.select("#segpie svg g");
+
+    d3.select("#largest_other_text").text(json.summary.total_disbursements_count - 7);
+    
+
 }

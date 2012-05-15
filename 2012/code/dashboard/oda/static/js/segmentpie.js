@@ -63,7 +63,6 @@ SegmentPieGraph.prototype = {
             paths.enter().append('path')
             .attr('d', arc)
             .attr('class', function(d, i) { return 'spg-arc spg-color spg-group-' + i +' spg-arc-' + i; })
-            .style('stroke', '#fff')
             .style('stroke-width', this.arc.margin / 2)
             .style('fill', function(d, i) { return me.colors[i]; });
 
@@ -73,7 +72,6 @@ SegmentPieGraph.prototype = {
                 .attr('dy', '0.25em')
                 .attr('class' , function(d, i){ return 'spg-arc-text spg-group-' + i; })
                 .style('fill', '#fff')
-                .style('font-size', '12')
                 .text(function(d , i){ return d.value + '%'; });
 
     }

@@ -1,10 +1,16 @@
 {% extends "oda/scorecard_base.html" %}
 
 {% block scripts %}
+    <script type="text/javascript" src="{{ STATIC_URL }}js/segmentpie.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
 {% endblock %}
 
 {% block styles %}
+<style>
+.spg-arc {
+    stroke: #E6E7E8;
+}
+</style>
 {% endblock %}
 
 {% block content %}
@@ -22,4 +28,5 @@
             });
         });
     </script>
+
 {% endblock %}

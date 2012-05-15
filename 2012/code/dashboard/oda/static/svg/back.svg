@@ -347,9 +347,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="149.76817"
-     inkscape:cy="150.03239"
+     inkscape:zoom="1.4"
+     inkscape:cx="297.50798"
+     inkscape:cy="142.09628"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -11924,7 +11924,7 @@
                  width="214.11"
                  height="108.214" />
               <g
-                 id="_x5F_piechart_1_">
+                 id="g4844">
                 <g
                    id="_x5F_piechart_2_">
                   <path
@@ -12035,6 +12035,12 @@
                      transform="translate(435.3291,512.124)"
                      style="font-size:7.71120024px;fill:#ffffff;font-family:Calibri-Bold">36.5%</text>
                 </switch>
+                <g
+                   id="g4952"
+                   transform="translate(362,470)">
+                  <g
+                     id="segpie" />
+                </g>
               </g>
               <g
                  id="_x5F_legends">
@@ -12151,7 +12157,7 @@
                            height="8.5"
                            id="rect2650" />
                         <text
-                           id="SVGID_73_"
+                           id="largest_other_text"
                            transform="translate(481.624,539.4004)"
                            style="font-size:12px;fill:#0093d5;font-family:Calibri-Bold">1893</text>
                       </g>
@@ -12277,7 +12283,7 @@
                            height="8.5"
                            id="rect2680" />
                         <text
-                           id="SVGID_75_"
+                           id="largest7_text"
                            transform="translate(482.624,490.8984)"
                            style="font-size:12px;fill:#009983;font-family:Calibri-Bold">7</text>
                       </g>
