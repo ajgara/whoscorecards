@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="494.96664"
-     inkscape:cy="330.65781"
+     inkscape:cx="405.32378"
+     inkscape:cy="273.51495"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -10283,16 +10283,19 @@
                          id="rect2295" />
                       <text
                          id="SVGID_53_"
-                         transform="matrix(0.8878,0,0,1,305.5166,420.2969)">
+                         transform="scale(0.94223139,1.0613104)"
+                         x="321.43195"
+                         y="396.01694"
+                         style="font-size:11.306777px">
                         <tspan
-                           x="0"
-                           y="0"
-                           style="font-size:8px;fill:#58595b;font-family:Calibri-Bold"
+                           x="321.43195"
+                           y="396.01694"
+                           style="font-size:7.53785133px;fill:#58595b;font-family:Calibri-Bold"
                            id="tspan2298">TOTAL</tspan>
                         <tspan
-                           x="23.372"
-                           y="0"
-                           style="font-size:7px;fill:#58595b;font-family:Calibri"
+                           x="343.45377"
+                           y="396.01694"
+                           style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
                            id="tspan2300" />
                       </text>
                     </g>
