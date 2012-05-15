@@ -4,6 +4,13 @@ if (typeof String.prototype.startsWith != 'function') {
     return this.indexOf(str) == 0;
   };
 }
+
+if (typeof Number.prototype.formatThousands != 'function') {
+    Number.prototype.formatThousands = function(c, d, t) {
+        var n = this, c = isNaN(c = Math.abs(c)) ? 2 : c, d = d == undefined ? "." : d, t = t == undefined ? "," : t, s = n < 0 ? "-" : "", i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", j = (j = i.length) > 3 ? j % 3 : 0;
+       return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+    }
+}
 var WHO = {};
 
 // A parser that reformats the WHO indicator data from rows to columns
@@ -504,9 +511,11 @@ function load_json(json) {
     });
 }
 
-r0 = function(v) { return sprintf("%.0f", v); }
-r1 = function(v) { return sprintf("%.1f", v); }
-r2 = function(v) { return sprintf("%.2f", v); }
+r0 = function(v) { return v.formatThousands(0); }
+r1 = function(v) { return v.formatThousands(1); }
+r2 = function(v) { return v.formatThousands(2); }
+
+
 
 function load_back(json) {
     /*********** Country Name ************/
@@ -628,6 +637,7 @@ function load_back(json) {
     d3.select("#oldpie").remove();
 
     d3.select("#largest_other_text").text(json.summary.total_disbursements_count - 7);
-    
+    var num = 32432432423;
+    console.log(num.formatThousands());    
 
 }
