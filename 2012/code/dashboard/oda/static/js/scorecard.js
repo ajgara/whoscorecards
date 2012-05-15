@@ -613,6 +613,7 @@ function load_back(json) {
     
     var segpiegraph = new SegmentPieGraph(segpie);
     var chart = d3.select("#segpie svg g");
+    d3.select("#oldpie").remove();
 
     d3.select("#largest_other_text").text(json.summary.total_disbursements_count - 7);
     
