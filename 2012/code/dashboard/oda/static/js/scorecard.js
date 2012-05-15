@@ -527,6 +527,8 @@ function load_back(json) {
         "GEF", "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
         "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "UNRWA", "UNRWA", "UNRWA", "WFP"
     ]
+
+    // bilateral and multilateral tables
     _.each(countries, function(c, i) {
         d3.select("#col2r" + (i + 1)).text("-");
         d3.select("#col3r" + (i + 1)).text("-");
@@ -544,4 +546,46 @@ function load_back(json) {
             d3.select("#mcol3r" + (i + 1)).text(r2(json.mul_sources[c].amount));
         }
     });
+
+    // bubbles
+    d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
+    d3.select("#bubble_text2").text(json.largest_sources[1]["source"]);
+    d3.select("#bubble_text3").text(json.largest_sources[2]["source"]);
+    d3.select("#bubble_text4").text(json.largest_sources[3]["source"]);
+    d3.select("#bubble_text5").text(json.largest_sources[4]["source"]);
+    d3.select("#bubble_perc1").text(r1(json.largest_sources[0]["percentage"] * 100) + "%");
+    d3.select("#bubble_perc2").text(r1(json.largest_sources[1]["percentage"] * 100) + "%");
+    d3.select("#bubble_perc3").text(r1(json.largest_sources[2]["percentage"] * 100) + "%");
+    d3.select("#bubble_perc4").text(r1(json.largest_sources[3]["percentage"] * 100) + "%");
+    d3.select("#bubble_perc5").text(r1(json.largest_sources[4]["percentage"] * 100) + "%");
+
+    totaltop5 = _.reduce([0, 1, 2, 3, 4], function(memo, pair) {
+        return memo + json.largest_sources[pair]["percentage"]
+    }, 0);
+    other_perc = 1 - totaltop5;
+    d3.select("#bubble_perc6").text(r1(other_perc * 100) + "%");
+    
+
+    ratio2 = Math.sqrt(json.largest_sources[1]["percentage"] / json.largest_sources[0]["percentage"]);
+    ratio3 = Math.sqrt(json.largest_sources[2]["percentage"] / json.largest_sources[0]["percentage"]);
+    ratio4 = Math.sqrt(json.largest_sources[3]["percentage"] / json.largest_sources[0]["percentage"]);
+    ratio5 = Math.sqrt(json.largest_sources[4]["percentage"] / json.largest_sources[0]["percentage"]);
+    ratio6 = Math.sqrt(other_perc / json.largest_sources[0]["percentage"]);
+
+    other_disbursements = 100 - totaltop5;
+
+    d3.select("#bubble2").attr("transform", "scale(" + ratio2 + "," + ratio2 + ")");
+    d3.select("#bubble3").attr("transform", "scale(" + ratio3 + "," + ratio3 + ")");
+    d3.select("#bubble4").attr("transform", "scale(" + ratio4 + "," + ratio4 + ")");
+    d3.select("#bubble5").attr("transform", "scale(" + ratio5 + "," + ratio5 + ")");
+    d3.select("#bubble6").attr("transform", "scale(" + ratio6 + "," + ratio6 + ")");
+
+    // largest single disbursements
+    _.each(json.largest_disbursements, function(el, i) {
+        console.log(i);
+        d3.select("#sdcol1r" + (i + 1)).text("$" + r2(el.disbursement) + "m");
+        d3.select("#sdcol2r" + (i + 1)).text(el.year);
+        d3.select("#sdcol3r" + (i + 1)).text(el.donor.toUpperCase());
+        d3.select("#sdcol4r" + (i + 1)).text(el.purpose);
+    }); 
 }

@@ -347,9 +347,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="466.26606"
-     inkscape:cy="244.84464"
+     inkscape:zoom="1.979899"
+     inkscape:cx="149.76817"
+     inkscape:cy="150.03239"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -10974,7 +10974,7 @@
                        height="6.6560001"
                        id="rect2428" />
                     <text
-                       id="_x5F_disb6_1_"
+                       id="bubble_text6"
                        transform="matrix(0.8878,0,0,1,721.9805,391.5117)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">Other Sources</text>
                   </g>
@@ -11020,7 +11020,7 @@
                        height="6.6550002"
                        id="rect2436" />
                     <text
-                       id="_x5F_disb5_1_"
+                       id="bubble_text5"
                        transform="matrix(0.8878,0,0,1,721.9805,333.6953)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">Canada</text>
                   </g>
@@ -11066,7 +11066,7 @@
                        height="6.6539998"
                        id="rect2444" />
                     <text
-                       id="_x5F_disb4_1_"
+                       id="bubble_text4"
                        transform="matrix(0.8878,0,0,1,720.9785,304.6562)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">United Kingdom</text>
                   </g>
@@ -11112,7 +11112,7 @@
                        height="6.6560001"
                        id="rect2452" />
                     <text
-                       id="_x5F_disb3_1_"
+                       id="bubble_text3"
                        transform="matrix(0.8878,0,0,1,721.9805,273.7104)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">GAVI</text>
                   </g>
@@ -11158,7 +11158,7 @@
                        height="6.6560001"
                        id="rect2460" />
                     <text
-                       id="_x5F_disb2_1_"
+                       id="bubble_text2"
                        transform="matrix(0.8878,0,0,1,721.9805,230.7305)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">Global Fund</text>
                   </g>
@@ -11204,7 +11204,7 @@
                        height="6.6560001"
                        id="rect2468" />
                     <text
-                       id="_x5F_disb1_1_"
+                       id="bubble_text1"
                        transform="matrix(0.8878,0,0,1,720.9121,173.8071)"
                        style="font-size:9px;fill:#58595b;font-family:Calibri">United States</text>
                   </g>
@@ -11253,7 +11253,7 @@
                        height="11.426"
                        id="rect2477" />
                     <text
-                       id="_x5F_value6_1_"
+                       id="bubble_perc6"
                        transform="matrix(0.8878,0,0,1,675.2715,393.873)"
                        style="font-size:16px;fill:#df7627;font-family:Calibri-Bold">23.4%</text>
                   </g>
@@ -11299,7 +11299,7 @@
                        height="12.453"
                        id="rect2485" />
                     <text
-                       id="_x5F_value5_1_"
+                       id="bubble_perc5"
                        transform="matrix(0.8878,0,0,1,675.2715,335.5391)"
                        style="font-size:16px;fill:#cf3d96;font-family:Calibri-Bold">4%</text>
                   </g>
@@ -11345,7 +11345,7 @@
                        height="11.712"
                        id="rect2493" />
                     <text
-                       id="_x5F_value4_1_"
+                       id="bubble_perc4"
                        transform="matrix(0.8878,0,0,1,674.2715,306.8682)"
                        style="font-size:16px;fill:#009983;font-family:Calibri-Bold">4.4%</text>
                   </g>
@@ -11391,7 +11391,7 @@
                        height="11.383"
                        id="rect2501" />
                     <text
-                       id="_x5F_value3_1_"
+                       id="bubble_perc3"
                        transform="matrix(0.8878,0,0,1,675.2715,276.0923)"
                        style="font-size:16px;fill:#79317f;font-family:Calibri-Bold">5.2%</text>
                   </g>
@@ -11437,7 +11437,7 @@
                        height="11.989"
                        id="rect2509" />
                     <text
-                       id="_x5F_value2_1_"
+                       id="bubble_perc2"
                        transform="matrix(0.8878,0,0,1,675.2715,232.8101)"
                        style="font-size:16px;fill:#f1b821;font-family:Calibri-Bold">29.8%</text>
                   </g>
@@ -11483,7 +11483,7 @@
                        height="13.24"
                        id="rect2517" />
                     <text
-                       id="_x5F_value1_1_"
+                       id="bubble_perc1"
                        transform="matrix(0.8878,0,0,1,674.2031,175.2612)"
                        style="font-size:16px;fill:#0093d5;font-family:Calibri-Bold">37.2%</text>
                   </g>
@@ -11492,157 +11492,170 @@
               <g
                  id="_x5F_circles">
                 <g
-                   id="_x5F_circle6">
-                  <path
-                     inkscape:connector-curvature="0"
-                     id="orangebubble_1_"
-                     i:knockout="Off"
-                     style="fill:#df7627"
-                     d="m 658.978,388.737 c 0,11.051 -8.955,20.004 -20,20.004 -11.047,0 -20,-8.953 -20,-20.004 0,-11.043 8.953,-20 20,-20 11.044,0 20,8.957 20,20 z" />
-                  <path
-                     inkscape:connector-curvature="0"
-                     id="orangebubble_2_"
-                     i:knockout="Off"
-                     style="fill:none;stroke:#df7627;stroke-width:0.96880001;stroke-miterlimit:10"
-                     d="m 660.946,388.737 c 0,12.138 -9.837,21.971 -21.969,21.971 -12.135,0 -21.969,-9.833 -21.969,-21.971 0,-12.129 9.834,-21.967 21.969,-21.967 12.132,0.001 21.969,9.838 21.969,21.967 z" />
-                </g>
-                <g
-                   id="_x5F_circle5">
-                  <circle
-                     sodipodi:ry="7.3429999"
-                     sodipodi:rx="7.3429999"
-                     sodipodi:cy="330.92001"
-                     sodipodi:cx="637.17102"
-                     d="m 644.51402,330.92001 c 0,4.05543 -3.28757,7.343 -7.343,7.343 -4.05543,0 -7.343,-3.28757 -7.343,-7.343 0,-4.05542 3.28757,-7.343 7.343,-7.343 4.05543,0 7.343,3.28758 7.343,7.343 z"
-                     id="pinkbubble_1_"
-                     i:knockout="Off"
-                     style="fill:#cf3d96"
-                     cx="637.17102"
-                     cy="330.92001"
-                     r="7.3429999" />
+                   id="_x5F_circle1"
+                   transform="translate(637.17102,171.035)">
                   <g
-                     id="g2526">
+                     id="bubble1">
                     <circle
-                       sodipodi:ry="8.9289999"
-                       sodipodi:rx="8.9289999"
-                       sodipodi:cy="330.92001"
-                       sodipodi:cx="637.16998"
-                       d="m 646.09898,330.92001 c 0,4.93135 -3.99765,8.929 -8.929,8.929 -4.93135,0 -8.929,-3.99765 -8.929,-8.929 0,-4.93135 3.99765,-8.929 8.929,-8.929 4.93135,0 8.929,3.99765 8.929,8.929 z"
-                       id="pinkbubble_2_"
-                       i:knockout="Off"
-                       style="fill:none;stroke:#cf3d96;stroke-width:0.89999998;stroke-miterlimit:10"
-                       cx="637.16998"
-                       cy="330.92001"
-                       r="8.9289999" />
-                  </g>
-                </g>
-                <g
-                   id="_x5F_circle4">
-                  <circle
-                     sodipodi:ry="8.8430004"
-                     sodipodi:rx="8.8430004"
-                     sodipodi:cy="301.37799"
-                     sodipodi:cx="637.16901"
-                     d="m 646.01201,301.37799 c 0,4.88385 -3.95915,8.843 -8.843,8.843 -4.88386,0 -8.843,-3.95915 -8.843,-8.843 0,-4.88385 3.95914,-8.843 8.843,-8.843 4.88385,0 8.843,3.95915 8.843,8.843 z"
-                     id="greenbubble_1_"
-                     i:knockout="Off"
-                     style="fill:#009983"
-                     cx="637.16901"
-                     cy="301.37799"
-                     r="8.8430004" />
-                  <g
-                     id="g2531">
-                    <circle
-                       sodipodi:ry="10.332"
-                       sodipodi:rx="10.332"
-                       sodipodi:cy="301.37799"
-                       sodipodi:cx="637.16998"
-                       d="m 647.50198,301.37799 c 0,5.70621 -4.62579,10.332 -10.332,10.332 -5.7062,0 -10.332,-4.62579 -10.332,-10.332 0,-5.70621 4.6258,-10.332 10.332,-10.332 5.70621,0 10.332,4.62579 10.332,10.332 z"
-                       id="greenbubble_2_"
-                       i:knockout="Off"
-                       style="fill:none;stroke:#009983;stroke-width:0.81;stroke-miterlimit:10"
-                       cx="637.16998"
-                       cy="301.37799"
-                       r="10.332" />
-                  </g>
-                </g>
-                <g
-                   id="_x5F_circle3">
-                  <circle
-                     sodipodi:ry="10.644"
-                     sodipodi:rx="10.644"
-                     sodipodi:cy="270.60999"
-                     sodipodi:cx="637.17102"
-                     d="m 647.81502,270.60999 c 0,5.87851 -4.76548,10.644 -10.644,10.644 -5.87852,0 -10.644,-4.76549 -10.644,-10.644 0,-5.87852 4.76548,-10.644 10.644,-10.644 5.87852,0 10.644,4.76548 10.644,10.644 z"
-                     id="purplebubble_1_"
-                     i:knockout="Off"
-                     style="fill:#79317f"
-                     cx="637.17102"
-                     cy="270.60999"
-                     r="10.644" />
-                  <circle
-                     sodipodi:ry="12.118"
-                     sodipodi:rx="12.118"
-                     sodipodi:cy="270.60999"
-                     sodipodi:cx="637.17102"
-                     d="m 649.28902,270.60999 c 0,6.69258 -5.42541,12.118 -12.118,12.118 -6.69259,0 -12.118,-5.42542 -12.118,-12.118 0,-6.69259 5.42541,-12.118 12.118,-12.118 6.69259,0 12.118,5.42541 12.118,12.118 z"
-                     id="purplebubble_2_"
-                     i:knockout="Off"
-                     style="fill:none;stroke:#79317f;stroke-width:0.85500002;stroke-miterlimit:10"
-                     cx="637.17102"
-                     cy="270.60999"
-                     r="12.118" />
-                </g>
-                <g
-                   id="_x5F_circle2">
-                  <circle
-                     sodipodi:ry="18.483999"
-                     sodipodi:rx="18.483999"
-                     sodipodi:cy="226.95799"
-                     sodipodi:cx="637.17102"
-                     d="m 655.65502,226.95799 c 0,10.20843 -8.27557,18.484 -18.484,18.484 -10.20843,0 -18.484,-8.27557 -18.484,-18.484 0,-10.20843 8.27557,-18.484 18.484,-18.484 10.20843,0 18.484,8.27557 18.484,18.484 z"
-                     id="yellowbubble_1_"
-                     i:knockout="Off"
-                     style="fill:#f1b821"
-                     cx="637.17102"
-                     cy="226.95799"
-                     r="18.483999" />
-                  <circle
-                     sodipodi:ry="20.409"
-                     sodipodi:rx="20.409"
-                     sodipodi:cy="226.95799"
-                     sodipodi:cx="637.17102"
-                     d="m 657.58002,226.95799 c 0,11.27158 -9.13742,20.409 -20.409,20.409 -11.27158,0 -20.409,-9.13742 -20.409,-20.409 0,-11.27158 9.13742,-20.409 20.409,-20.409 11.27158,0 20.409,9.13742 20.409,20.409 z"
-                     id="yellowbubble_2_"
-                     i:knockout="Off"
-                     style="fill:none;stroke:#f1b821;stroke-width:0.89999998;stroke-miterlimit:10"
-                     cx="637.17102"
-                     cy="226.95799"
-                     r="20.409" />
-                </g>
-                <g
-                   id="_x5F_circle1">
-                  <circle
-                     sodipodi:ry="21.639999"
-                     sodipodi:rx="21.639999"
-                     sodipodi:cy="171.035"
-                     sodipodi:cx="637.17102"
-                     d="m 658.81102,171.035 c 0,11.95145 -9.68856,21.64 -21.64,21.64 -11.95144,0 -21.64,-9.68855 -21.64,-21.64 0,-11.95144 9.68856,-21.64 21.64,-21.64 11.95144,0 21.64,9.68856 21.64,21.64 z"
-                     id="bluebubble_1_"
-                     i:knockout="Off"
-                     style="fill:#0093d5"
-                     cx="637.17102"
-                     cy="171.035"
-                     r="21.639999" />
-                  <g
-                     id="bluebubble_2_"
-                     i:knockout="Off">
-                    <path
-                       inkscape:connector-curvature="0"
-                       i:knockout="Off"
+                       r="21.639999"
+                       cy="0"
+                       cx="0"
                        style="fill:#0093d5"
-                       d="m 637.171,148.075 c 12.68,0 22.961,10.279 22.961,22.96 0,12.68 -10.281,22.961 -22.961,22.961 -12.681,0 -22.961,-10.281 -22.961,-22.961 0,-12.681 10.28,-22.96 22.961,-22.96 m 0,-0.9 c -13.157,0 -23.861,10.704 -23.861,23.86 0,13.156 10.704,23.861 23.861,23.861 13.157,0 23.861,-10.704 23.861,-23.861 0,-13.157 -10.704,-23.86 -23.861,-23.86 l 0,0 z"
-                       id="path2543" />
+                       i:knockout="Off"
+                       id="bluebubble_1_"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       sodipodi:cx="0"
+                       sodipodi:cy="0"
+                       sodipodi:rx="21.639999"
+                       sodipodi:ry="21.639999" />
+                    <g
+                       i:knockout="Off"
+                       id="bluebubble_2_">
+                      <path
+                         id="path2543"
+                         d="M -1e-6,-22.9605 C 12.68,-22.9605 22.961,-12.681498 22.961,-4.9702e-4 22.961,12.6795 12.68,22.9605 -1e-6,22.9605 -12.681,22.9605 -22.961,12.6795 -22.961,-4.9702e-4 -22.961,-12.681498 -12.681,-22.9605 -1e-6,-22.9605 m 0,-0.9 C -13.157,-23.8605 -23.861,-13.156498 -23.861,-4.9702e-4 -23.861,13.1555 -13.157,23.8605 -1e-6,23.8605 13.157,23.8605 23.861,13.1565 23.861,-4.9702e-4 23.861,-13.157498 13.157,-23.8605 -1e-6,-23.8605 l 0,0 z"
+                         style="fill:#0093d5"
+                         i:knockout="Off"
+                         inkscape:connector-curvature="0" />
+                    </g>
+                  </g>
+                </g>
+                <g
+                   transform="translate(637.17102,226.95799)"
+                   id="g4717">
+                  <g
+                     id="bubble2">
+                    <circle
+                       sodipodi:ry="21.639999"
+                       sodipodi:rx="21.639999"
+                       sodipodi:cy="0"
+                       sodipodi:cx="0"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       id="circle4721"
+                       i:knockout="Off"
+                       style="fill:#f1b821"
+                       cx="0"
+                       cy="0"
+                       r="21.639999" />
+                    <g
+                       id="g4723"
+                       i:knockout="Off">
+                      <path
+                         inkscape:connector-curvature="0"
+                         i:knockout="Off"
+                         style="fill:#f1b821"
+                         d="M -1e-6,-22.9605 C 12.68,-22.9605 22.961,-12.681498 22.961,-4.9702e-4 22.961,12.6795 12.68,22.9605 -1e-6,22.9605 -12.681,22.9605 -22.961,12.6795 -22.961,-4.9702e-4 -22.961,-12.681498 -12.681,-22.9605 -1e-6,-22.9605 m 0,-0.9 C -13.157,-23.8605 -23.861,-13.156498 -23.861,-4.9702e-4 -23.861,13.1555 -13.157,23.8605 -1e-6,23.8605 13.157,23.8605 23.861,13.1565 23.861,-4.9702e-4 23.861,-13.157498 13.157,-23.8605 -1e-6,-23.8605 l 0,0 z"
+                         id="path4725" />
+                    </g>
+                  </g>
+                </g>
+                <g
+                   id="g4727"
+                   transform="translate(637.17102,270.60998)">
+                  <g
+                     id="bubble3">
+                    <circle
+                       r="21.639999"
+                       cy="0"
+                       cx="0"
+                       style="fill:#79317f"
+                       i:knockout="Off"
+                       id="circle4731"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       sodipodi:cx="0"
+                       sodipodi:cy="0"
+                       sodipodi:rx="21.639999"
+                       sodipodi:ry="21.639999" />
+                    <g
+                       i:knockout="Off"
+                       id="g4733">
+                      <path
+                         id="path4735"
+                         d="M -1e-6,-22.9605 C 12.68,-22.9605 22.961,-12.681498 22.961,-4.9702e-4 22.961,12.6795 12.68,22.9605 -1e-6,22.9605 -12.681,22.9605 -22.961,12.6795 -22.961,-4.9702e-4 -22.961,-12.681498 -12.681,-22.9605 -1e-6,-22.9605 m 0,-0.9 C -13.157,-23.8605 -23.861,-13.156498 -23.861,-4.9702e-4 -23.861,13.1555 -13.157,23.8605 -1e-6,23.8605 13.157,23.8605 23.861,13.1565 23.861,-4.9702e-4 23.861,-13.157498 13.157,-23.8605 -1e-6,-23.8605 l 0,0 z"
+                         style="fill:#79317f"
+                         i:knockout="Off"
+                         inkscape:connector-curvature="0" />
+                    </g>
+                  </g>
+                </g>
+                <g
+                   transform="translate(637.16901,301.37799)"
+                   id="g4737">
+                  <g
+                     id="bubble4">
+                    <path
+                       style="fill:#009983"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       id="circle4741"
+                       inkscape:connector-curvature="0" />
+                    <g
+                       id="g4743"
+                       i:knockout="Off">
+                      <path
+                         inkscape:connector-curvature="0"
+                         i:knockout="Off"
+                         style="fill:#009983"
+                         d="M -1e-6,-22.9605 C 12.68,-22.9605 22.961,-12.681498 22.961,-4.9702e-4 22.961,12.6795 12.68,22.9605 -1e-6,22.9605 -12.681,22.9605 -22.961,12.6795 -22.961,-4.9702e-4 -22.961,-12.681498 -12.681,-22.9605 -1e-6,-22.9605 m 0,-0.9 C -13.157,-23.8605 -23.861,-13.156498 -23.861,-4.9702e-4 -23.861,13.1555 -13.157,23.8605 -1e-6,23.8605 13.157,23.8605 23.861,13.1565 23.861,-4.9702e-4 23.861,-13.157498 13.157,-23.8605 -1e-6,-23.8605 l 0,0 z"
+                         id="path4745" />
+                    </g>
+                  </g>
+                </g>
+                <g
+                   id="g4747"
+                   transform="translate(637.17005,330.92001)">
+                  <g
+                     id="bubble5">
+                    <circle
+                       r="21.639999"
+                       cy="0"
+                       cx="0"
+                       style="fill:#cf3d96"
+                       i:knockout="Off"
+                       id="circle4751"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       sodipodi:cx="0"
+                       sodipodi:cy="0"
+                       sodipodi:rx="21.639999"
+                       sodipodi:ry="21.639999" />
+                    <g
+                       i:knockout="Off"
+                       id="g4753">
+                      <path
+                         id="path4755"
+                         d="M 9.7140234e-4,-22.9605 C 12.680972,-22.9605 22.961972,-12.681498 22.961972,-4.9702e-4 22.961972,12.6795 12.680972,22.9605 9.7140234e-4,22.9605 -12.680028,22.9605 -22.960028,12.6795 -22.960028,-4.9702e-4 c 0,-12.68100098 10.28,-22.96000298 22.96099940234,-22.96000298 m 0,-0.9 C -13.156028,-23.8605 -23.860028,-13.156498 -23.860028,-4.9702e-4 -23.860028,13.1555 -13.156028,23.8605 9.7140234e-4,23.8605 13.157972,23.8605 23.861972,13.1565 23.861972,-4.9702e-4 23.861972,-13.157498 13.157972,-23.8605 9.7140234e-4,-23.8605 l 0,0 z"
+                         style="fill:#cf3d96"
+                         i:knockout="Off"
+                         inkscape:connector-curvature="0" />
+                    </g>
+                  </g>
+                </g>
+                <g
+                   transform="translate(638.97703,388.739)"
+                   id="g4758">
+                  <g
+                     id="bubble6">
+                    <circle
+                       sodipodi:ry="21.639999"
+                       sodipodi:rx="21.639999"
+                       sodipodi:cy="0"
+                       sodipodi:cx="0"
+                       d="m 21.639999,0 c 0,11.951442 -9.688557,21.639999 -21.639999,21.639999 -11.951442,0 -21.639999,-9.688557 -21.639999,-21.639999 0,-11.951442 9.688557,-21.639999 21.639999,-21.639999 11.951442,0 21.639999,9.688557 21.639999,21.639999 z"
+                       id="circle4762"
+                       i:knockout="Off"
+                       style="fill:#df7627"
+                       cx="0"
+                       cy="0"
+                       r="21.639999" />
+                    <g
+                       id="g4764"
+                       i:knockout="Off">
+                      <path
+                         inkscape:connector-curvature="0"
+                         i:knockout="Off"
+                         style="fill:#df7627"
+                         d="M 9.7140234e-4,-22.9605 C 12.680972,-22.9605 22.961972,-12.681498 22.961972,-4.9702e-4 22.961972,12.6795 12.680972,22.9605 9.7140234e-4,22.9605 -12.680028,22.9605 -22.960028,12.6795 -22.960028,-4.9702e-4 c 0,-12.68100098 10.28,-22.96000298 22.96099940234,-22.96000298 m 0,-0.9 C -13.156028,-23.8605 -23.860028,-13.156498 -23.860028,-4.9702e-4 -23.860028,13.1555 -13.156028,23.8605 9.7140234e-4,23.8605 13.157972,23.8605 23.861972,13.1565 23.861972,-4.9702e-4 23.861972,-13.157498 13.157972,-23.8605 9.7140234e-4,-23.8605 l 0,0 z"
+                         id="path4766" />
+                    </g>
                   </g>
                 </g>
               </g>
@@ -12337,7 +12350,7 @@
                        height="6.6560001"
                        id="rect2693" />
                     <text
-                       id="col3row1_4_"
+                       id="sdcol4r7"
                        transform="matrix(0.8878,0,0,1,171.8477,567.9883)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Sexually Transmitted Diseases Control including HIV/AIDS</text>
                   </g>
@@ -12429,7 +12442,7 @@
                        height="6.6560001"
                        id="rect2709" />
                     <text
-                       id="col3row3_2_"
+                       id="sdcol4r3"
                        transform="matrix(0.8878,0,0,1,171.8477,507.25)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Malaria Control</text>
                   </g>
@@ -12475,7 +12488,7 @@
                        height="6.6560001"
                        id="rect2717" />
                     <text
-                       id="col3row4_2_"
+                       id="sdcol4r4"
                        transform="matrix(0.8878,0,0,1,171.8477,521.7168)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Sexually Transmitted Diseases Control including HIV/AIDS</text>
                   </g>
@@ -12521,7 +12534,7 @@
                        height="6.6560001"
                        id="rect2725" />
                     <text
-                       id="col3row5_2_"
+                       id="sdcol4r5"
                        transform="matrix(0.8878,0,0,1,171.8477,538.3184)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Sexually Transmitted Diseases Control including HIV/AIDS</text>
                   </g>
@@ -12567,7 +12580,7 @@
                        height="6.6560001"
                        id="rect2733" />
                     <text
-                       id="col3row6_2_"
+                       id="sdcol4r6"
                        transform="matrix(0.8878,0,0,1,171.8477,553.3867)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Malaria Control</text>
                   </g>
@@ -12613,7 +12626,7 @@
                        height="6.6560001"
                        id="rect2741" />
                     <text
-                       id="col3row7_2_"
+                       id="sdcol4r1"
                        transform="matrix(0.8878,0,0,1,171.8477,476.1719)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">Basic Health Care</text>
                   </g>
@@ -12664,8 +12677,9 @@
                        height="6.6560001"
                        id="rect2750" />
                     <text
-                       id="col2r1_6_"
-                       transform="matrix(0.8878,0,0,1,108.3013,568.8887)">
+                       id="sdcol3r7"
+                       transform="matrix(0.8878,0,0,1,108.3013,568.8887)"
+                       style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">
                       <tspan
                          x="0"
                          y="0"
@@ -12720,7 +12734,7 @@
                        height="6.6560001"
                        id="rect2762" />
                     <text
-                       id="col2r2_6_"
+                       id="sdcol3r2"
                        transform="matrix(0.8878,0,0,1,108.3008,491.0195)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">UNITED STATES</text>
                   </g>
@@ -12766,7 +12780,7 @@
                        height="6.6560001"
                        id="rect2770" />
                     <text
-                       id="col2r3_6_"
+                       id="sdcol3r3"
                        transform="matrix(0.8878,0,0,1,108.3013,507.25)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">GLOBAL FUND</text>
                   </g>
@@ -12814,8 +12828,9 @@
                        height="6.6560001"
                        id="rect2778" />
                     <text
-                       id="col2r4_6_"
-                       transform="matrix(0.8878,0,0,1,108.3013,521.7168)">
+                       id="sdcol3r4"
+                       transform="matrix(0.8878,0,0,1,108.3013,521.7168)"
+                       style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">
                       <tspan
                          x="0"
                          y="0"
@@ -12872,8 +12887,9 @@
                        height="6.6560001"
                        id="rect2790" />
                     <text
-                       id="col2r5_6_"
-                       transform="matrix(0.8878,0,0,1,108.3008,538.3184)">
+                       id="sdcol3r5"
+                       transform="matrix(0.8878,0,0,1,108.3008,538.3184)"
+                       style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">
                       <tspan
                          x="0"
                          y="0"
@@ -12928,7 +12944,7 @@
                        height="6.6560001"
                        id="rect2802" />
                     <text
-                       id="col2r6_6_"
+                       id="sdcol3r6"
                        transform="matrix(0.8878,0,0,1,108.3008,553.3867)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">GLOBAL FUND</text>
                   </g>
@@ -12974,7 +12990,7 @@
                        height="6.6560001"
                        id="rect2810" />
                     <text
-                       id="col2r7_11_"
+                       id="sdcol3r1"
                        transform="matrix(0.8878,0,0,1,108.3013,476.1719)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">UNITED KINGDOM</text>
                   </g>
@@ -13024,7 +13040,7 @@
                        height="6.6560001"
                        id="rect2819" />
                     <text
-                       id="col2r1_7_"
+                       id="sdcol2r7"
                        transform="matrix(0.8878,0,0,1,81.4355,568.8887)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2010</text>
                   </g>
@@ -13071,7 +13087,7 @@
                        height="6.6560001"
                        id="rect2827" />
                     <text
-                       id="col2r2_7_"
+                       id="sdcol2r2"
                        transform="matrix(0.8878,0,0,1,81.4355,491.0195)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2010</text>
                   </g>
@@ -13118,7 +13134,7 @@
                        height="6.6560001"
                        id="rect2835" />
                     <text
-                       id="col2r3_7_"
+                       id="sdcol2r3"
                        transform="matrix(0.8878,0,0,1,81.4355,507.25)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2009</text>
                   </g>
@@ -13165,7 +13181,7 @@
                        height="6.6560001"
                        id="rect2843" />
                     <text
-                       id="col2r4_7_"
+                       id="sdcol2r4"
                        transform="matrix(0.8878,0,0,1,81.4355,521.7168)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2010</text>
                   </g>
@@ -13212,7 +13228,7 @@
                        height="6.6560001"
                        id="rect2851" />
                     <text
-                       id="col2r5_7_"
+                       id="sdcol2r5"
                        transform="matrix(0.8878,0,0,1,81.4351,538.3184)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2009</text>
                   </g>
@@ -13259,7 +13275,7 @@
                        height="6.6560001"
                        id="rect2859" />
                     <text
-                       id="col2r6_7_"
+                       id="sdcol2r6"
                        transform="matrix(0.8878,0,0,1,81.4351,553.3867)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2009</text>
                   </g>
@@ -13306,7 +13322,7 @@
                        height="6.6560001"
                        id="rect2867" />
                     <text
-                       id="col2r7_12_"
+                       id="sdcol2r1"
                        transform="matrix(0.8878,0,0,1,81.4355,476.1719)"
                        style="font-size:8px;fill:#58595b;font-family:Calibri">2010</text>
                   </g>
@@ -13355,7 +13371,7 @@
                        height="8.7580004"
                        id="rect2876" />
                     <text
-                       id="col1r7_1_"
+                       id="sdcol1r7"
                        transform="matrix(0.8878,0,0,1,29.8691,569.0625)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$29.49m</text>
                   </g>
@@ -13401,7 +13417,7 @@
                        height="8.4790001"
                        id="rect2884" />
                     <text
-                       id="col1r2_1_"
+                       id="sdcol1r2"
                        transform="matrix(0.8878,0,0,1,29.8691,492.375)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$73.38m</text>
                   </g>
@@ -13447,7 +13463,7 @@
                        height="8.3129997"
                        id="rect2892" />
                     <text
-                       id="col1r3_1_"
+                       id="sdcol1r3"
                        transform="matrix(0.8878,0,0,1,29.8691,507.7773)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$72.18m</text>
                   </g>
@@ -13493,7 +13509,7 @@
                        height="9.0310001"
                        id="rect2900" />
                     <text
-                       id="col1r4_1_"
+                       id="sdcol1r4"
                        transform="matrix(0.8878,0,0,1,29.8691,523.0732)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$56.24m</text>
                   </g>
@@ -13539,7 +13555,7 @@
                        height="9.0950003"
                        id="rect2908" />
                     <text
-                       id="col1r5_1_"
+                       id="sdcol1r5"
                        transform="matrix(0.8878,0,0,1,29.8691,538.3232)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$50.34m</text>
                   </g>
@@ -13585,7 +13601,7 @@
                        height="8.335"
                        id="rect2916" />
                     <text
-                       id="col1r6_1_"
+                       id="sdcol1r6"
                        transform="matrix(0.8878,0,0,1,29.8691,553.7725)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$46.03m</text>
                   </g>
@@ -13631,7 +13647,7 @@
                        height="8.6090002"
                        id="rect2924" />
                     <text
-                       id="col1r1_2_"
+                       id="sdcol1r1"
                        transform="matrix(0.8878,0,0,1,29.8691,476.5518)"
                        style="font-size:10px;fill:#6d6e71;font-family:Calibri-Bold">$131.71m</text>
                   </g>

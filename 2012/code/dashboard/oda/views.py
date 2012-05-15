@@ -99,6 +99,7 @@ def back_data(request, iso3):
         "summary" : {
             "total_disbursements_count" : total_disbursements_count,
             "total_disbursements_sum" : total_disbursements_sum,
+            "total_disbursements_from_largest" : total,
         },
         "bil_sources" : {
             ds.source : {
