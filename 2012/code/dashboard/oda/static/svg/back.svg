@@ -348,7 +348,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="438.05886"
+     inkscape:cx="323.77315"
      inkscape:cy="273.96153"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -3038,7 +3038,7 @@
                          id="rect968" />
                       <text
                          id="bil_total_value"
-                         transform="scale(0.97534609,1.0252771)"
+                         transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
                          x="260.21387"
                          y="409.59775">77.49</text>
@@ -3144,8 +3144,10 @@
                          id="rect989" />
                       <text
                          id="bil_total_nr"
-                         transform="matrix(0.9513,0,0,1,169.8496,419.9512)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold">00</text>
+                         transform="scale(0.97534609,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
+                         x="177.83093"
+                         y="409.59775">00</text>
                     </g>
                   </switch>
                   <rect
