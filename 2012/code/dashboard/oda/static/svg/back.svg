@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="297.50798"
-     inkscape:cy="142.09628"
+     inkscape:cx="468.93655"
+     inkscape:cy="427.81057"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,9 +357,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="987"
+     inkscape:window-width="830"
      inkscape:window-height="1034"
-     inkscape:window-x="931"
+     inkscape:window-x="1088"
      inkscape:window-y="15"
      inkscape:window-maximized="0" />
   <metadata
@@ -6376,8 +6376,10 @@
                          id="rect1554" />
                       <text
                          id="SVGID_25_"
-                         transform="matrix(0.8878,0,0,1,20.0625,132.6216)"
-                         style="font-size:5px;fill:#0093d5;font-family:Calibri">in Million constant 2009 US$</text>
+                         transform="scale(0.9422314,1.0613104)"
+                         style="font-size:4.71115685px;fill:#0093d5;font-family:Calibri"
+                         x="242.52963"
+                         y="124.96024">in Million constant 2009 US$</text>
                     </g>
                   </switch>
                   <switch
@@ -7182,8 +7184,10 @@
                            id="rect1745" />
                         <text
                            id="SVGID_29_"
-                           transform="matrix(0.8878,0,0,1,302.6309,133.1392)"
-                           style="font-size:5px;fill:#0093d5;font-family:Calibri">in Million constant 2009 US$</text>
+                           transform="scale(0.94223139,1.0613104)"
+                           style="font-size:4.71115685px;fill:#0093d5;font-family:Calibri"
+                           x="548.15594"
+                           y="125.44794">in Million constant 2009 US$</text>
                       </g>
                     </switch>
                     <switch
