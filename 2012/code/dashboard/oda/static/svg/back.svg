@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="870.55886"
-     inkscape:cy="559.67582"
+     inkscape:cx="527.70172"
+     inkscape:cy="45.390106"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -358,9 +358,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="958"
-     inkscape:window-height="1049"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-height="530"
+     inkscape:window-x="960"
+     inkscape:window-y="519"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7717">
@@ -11944,9 +11944,9 @@
                  width="214.11"
                  height="108.214" />
               <g
-                 id="g4844">
+                 id="g4732">
                 <g
-                   id="_x5F_piechart_2_">
+                   id="oldpie">
                   <path
                      inkscape:connector-curvature="0"
                      i:knockout="Off"
@@ -11988,73 +11988,73 @@
                        style="fill:none;stroke:#e6e7e8;stroke-width:4.68450022;stroke-miterlimit:10;overflow:visible"
                        id="use2614" />
                   </g>
+                  <switch
+                     id="_x5F_otherpievalue_1_"
+                     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+                     i:objectType="pointText">
+                    <foreignObject
+                       requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+                       x="0"
+                       y="0"
+                       width="1"
+                       height="1"
+                       id="foreignObject2617">
+                      <ns:flowDef>
+                        <ns:region
+                           textMatrix="1 0 0 1 0 0">
+                          <ns:path
+                             d="M374.363,545.62" />
+                        </ns:region>
+                        <ns:flow
+                           style="font-family:'Calibri-Bold'; font-size:7.7112;">
+                          <ns:p>
+                            <ns:span
+                               style="fill:#FFFFFF;">63.5%</ns:span>
+                          </ns:p>
+                        </ns:flow>
+                      </ns:flowDef>
+                      <ns0:targetRef
+                         xlink:href="#_x5F_otherpievalue_2_" />
+                    </foreignObject>
+                    <text
+                       id="_x5F_otherpievalue_2_"
+                       transform="translate(374.3633,545.6201)"
+                       style="font-size:7.71120024px;fill:#ffffff;font-family:Calibri-Bold">63.5%</text>
+                  </switch>
+                  <switch
+                     id="_x5F_largestpievalue_1_"
+                     i:objectNS="http://ns.adobe.com/Flows/1.0/"
+                     i:objectType="pointText">
+                    <foreignObject
+                       requiredExtensions="http://ns.adobe.com/Flows/1.0/"
+                       x="0"
+                       y="0"
+                       width="1"
+                       height="1"
+                       id="foreignObject2621">
+                      <ns:flowDef>
+                        <ns:region
+                           textMatrix="1 0 0 1 0 0">
+                          <ns:path
+                             d="M435.329,512.124" />
+                        </ns:region>
+                        <ns:flow
+                           style="font-family:'Calibri-Bold'; font-size:7.7112;">
+                          <ns:p>
+                            <ns:span
+                               style="fill:#FFFFFF;">36.5%</ns:span>
+                          </ns:p>
+                        </ns:flow>
+                      </ns:flowDef>
+                      <ns0:targetRef
+                         xlink:href="#_x5F_largestpievalue_2_" />
+                    </foreignObject>
+                    <text
+                       id="_x5F_largestpievalue_2_"
+                       transform="translate(435.3291,512.124)"
+                       style="font-size:7.71120024px;fill:#ffffff;font-family:Calibri-Bold">36.5%</text>
+                  </switch>
                 </g>
-                <switch
-                   id="_x5F_otherpievalue_1_"
-                   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-                   i:objectType="pointText">
-                  <foreignObject
-                     requiredExtensions="http://ns.adobe.com/Flows/1.0/"
-                     x="0"
-                     y="0"
-                     width="1"
-                     height="1"
-                     id="foreignObject2617">
-                    <ns:flowDef>
-                      <ns:region
-                         textMatrix="1 0 0 1 0 0">
-                        <ns:path
-                           d="M374.363,545.62" />
-                      </ns:region>
-                      <ns:flow
-                         style="font-family:'Calibri-Bold'; font-size:7.7112;">
-                        <ns:p>
-                          <ns:span
-                             style="fill:#FFFFFF;">63.5%</ns:span>
-                        </ns:p>
-                      </ns:flow>
-                    </ns:flowDef>
-                    <ns0:targetRef
-                       xlink:href="#_x5F_otherpievalue_2_" />
-                  </foreignObject>
-                  <text
-                     id="_x5F_otherpievalue_2_"
-                     transform="translate(374.3633,545.6201)"
-                     style="font-size:7.71120024px;fill:#ffffff;font-family:Calibri-Bold">63.5%</text>
-                </switch>
-                <switch
-                   id="_x5F_largestpievalue_1_"
-                   i:objectNS="http://ns.adobe.com/Flows/1.0/"
-                   i:objectType="pointText">
-                  <foreignObject
-                     requiredExtensions="http://ns.adobe.com/Flows/1.0/"
-                     x="0"
-                     y="0"
-                     width="1"
-                     height="1"
-                     id="foreignObject2621">
-                    <ns:flowDef>
-                      <ns:region
-                         textMatrix="1 0 0 1 0 0">
-                        <ns:path
-                           d="M435.329,512.124" />
-                      </ns:region>
-                      <ns:flow
-                         style="font-family:'Calibri-Bold'; font-size:7.7112;">
-                        <ns:p>
-                          <ns:span
-                             style="fill:#FFFFFF;">36.5%</ns:span>
-                        </ns:p>
-                      </ns:flow>
-                    </ns:flowDef>
-                    <ns0:targetRef
-                       xlink:href="#_x5F_largestpievalue_2_" />
-                  </foreignObject>
-                  <text
-                     id="_x5F_largestpievalue_2_"
-                     transform="translate(435.3291,512.124)"
-                     style="font-size:7.71120024px;fill:#ffffff;font-family:Calibri-Bold">36.5%</text>
-                </switch>
                 <g
                    id="g4952"
                    transform="translate(362,470)">
