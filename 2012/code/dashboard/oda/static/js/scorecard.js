@@ -520,7 +520,7 @@ r2 = function(v) { return v.formatThousands(2); }
 function load_back(json) {
     /*********** Country Name ************/
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
-    d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
+    d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum) + "M");
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
     var countries = [

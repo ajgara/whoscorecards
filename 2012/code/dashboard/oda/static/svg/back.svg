@@ -348,8 +348,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="323.77315"
-     inkscape:cy="273.96153"
+     inkscape:cx="494.96664"
+     inkscape:cy="330.65781"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,10 +357,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="958"
-     inkscape:window-height="530"
-     inkscape:window-x="960"
-     inkscape:window-y="519"
+     inkscape:window-width="1918"
+     inkscape:window-height="1019"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7717">
@@ -8068,10 +8068,6 @@
                          width="63.907001"
                          height="5.967"
                          id="rect1917" />
-                      <text
-                         id="SVGID_48_"
-                         transform="matrix(0.8878,0,0,1,302.6309,354.2715)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNRWA</text>
                     </g>
                   </switch>
                   <switch
@@ -8114,10 +8110,6 @@
                          width="63.907001"
                          height="5.967"
                          id="rect1926" />
-                      <text
-                         id="SVGID_49_"
-                         transform="matrix(0.8878,0,0,1,302.6309,367.9805)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNRWA</text>
                     </g>
                   </switch>
                   <switch
@@ -8160,10 +8152,6 @@
                          width="63.907001"
                          height="5.967"
                          id="rect1935" />
-                      <text
-                         id="SVGID_50_"
-                         transform="matrix(0.8878,0,0,1,302.6309,380.3789)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNRWA</text>
                     </g>
                   </switch>
                   <switch
@@ -8208,8 +8196,10 @@
                          id="rect1944" />
                       <text
                          id="SVGID_51_"
-                         transform="matrix(0.8878,0,0,1,302.6309,393.8301)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNRWA</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="333.41351">UNRWA</text>
                     </g>
                   </switch>
                   <switch
@@ -8254,8 +8244,10 @@
                          id="rect1953" />
                       <text
                          id="SVGID_52_"
-                         transform="matrix(0.8878,0,0,1,302.6309,407.1797)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">WFP</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="345.99194">WFP</text>
                     </g>
                   </switch>
                 </g>
@@ -9037,12 +9029,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2082" />
-                      <text
-                         id="mcol3r16"
-                         transform="matrix(0.9513,0,0,1,541.0391,354.375)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9086,12 +9072,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2090" />
-                      <text
-                         id="mcol3r17"
-                         transform="matrix(0.9513,0,0,1,541.0391,368.084)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9135,12 +9115,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2098" />
-                      <text
-                         id="mcol3r18"
-                         transform="matrix(0.9513,0,0,1,541.0391,380.4824)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9186,10 +9160,10 @@
                          id="rect2106" />
                       <text
                          id="mcol3r19"
-                         transform="matrix(0.9513,0,0,1,541.0391,393.9336)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.41992"
+                         y="345.23233">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9235,10 +9209,10 @@
                          id="rect2114" />
                       <text
                          id="mcol3r20"
-                         transform="matrix(0.9513,0,0,1,536.2207,407.2891)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7714844"
-                         y="0">0.37</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.37933"
+                         y="358.25858">0.37</text>
                     </g>
                   </switch>
                 </g>
@@ -10020,12 +9994,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2243" />
-                      <text
-                         id="mcol2r16"
-                         transform="matrix(0.9513,0,0,1,460.1562,354.3789)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -10069,12 +10037,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2251" />
-                      <text
-                         id="mcol2r17"
-                         transform="matrix(0.9513,0,0,1,460.1562,368.0898)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -10118,12 +10080,6 @@
                          width="70.975998"
                          height="6.2030001"
                          id="rect2259" />
-                      <text
-                         id="mcol2r18"
-                         transform="matrix(0.9513,0,0,1,460.1562,380.4873)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
                     </g>
                   </switch>
                   <switch
@@ -10169,10 +10125,10 @@
                          id="rect2267" />
                       <text
                          id="mcol2r19"
-                         transform="matrix(0.9513,0,0,1,460.1562,393.9395)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.49255"
+                         y="345.23807">0</text>
                     </g>
                   </switch>
                   <switch
@@ -10218,10 +10174,10 @@
                          id="rect2275" />
                       <text
                          id="mcol2r20"
-                         transform="matrix(0.9513,0,0,1,455.3398,407.2969)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7714844"
-                         y="0">0.37</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.45401"
+                         y="358.26617">0.37</text>
                     </g>
                   </switch>
                 </g>
@@ -11750,16 +11706,10 @@
                        id="tspan2559">
                       <tspan
                          style="font-family:Calibri;-inkscape-font-specification:Calibri"
-                         id="tspan4956">In the period 2009-2010 the</tspan>
+                         id="tspan4956">In the period 2009-2010 the total amount of US$</tspan>
                       <tspan
                          style="font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                          id="tspan4720">
-                        <tspan
-                           style="font-family:Calibri;-inkscape-font-specification:Calibri"
-                           id="tspan4958">t</tspan>
-                        <tspan
-                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
-                           id="tspan4954">otal amount of US$</tspan>
                         <tspan
                            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                            id="summary_amount"
