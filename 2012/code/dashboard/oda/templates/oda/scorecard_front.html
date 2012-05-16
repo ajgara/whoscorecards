@@ -4,11 +4,13 @@
     <script type="text/javascript" src="{{ STATIC_URL }}js/scorecard.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/roundedbargraph.js"></script>
     <script type="text/javascript" src="{{ STATIC_URL }}js/piechart.js"></script>
+    <script type="text/javascript" src="{{ STATIC_URL }}js/segmentpie.js"></script>
 {% endblock %}
 
 
 {% block styles %}
     <style>
+        #scorecard { width:1052.36px; height:744.09px;}
         .rb-line {
             fill:none;
             stroke:#be1e2d;
@@ -43,17 +45,27 @@
         #bargraph2_block .rb-bar, #bargraph4_block .rb-bar {
             fill: #DF7627;
         }
+
+        .spg-arc-text {
+            display: none;
+        }
     </style>
 {% endblock %}
 
 {% block content %}
     <div id="scorecard"</div>
     <script>
-        d3.xml("{{ STATIC_URL }}svg/front.svg", "image/svg+xml", function(xml) {
-            var importedNode = document.importNode(xml.documentElement, true);
-            d3.select("#scorecard").node().appendChild(importedNode);
-            sc = new WHO.ScorecardFrontPage(importedNode, "{{ params.iso3 }}", SITE_URL);
-            sc.generate_scorecord();
+        var template = '{{ STATIC_URL }}svg/front.svg';
+        var json = '{% url front_data params.iso3 %}';
+
+        d3.json(json, function(e){
+            d3.xml(template, 'image/svg+xml', function(xml){
+                var scorecard = document.body.children[0];
+                scorecard.appendChild(xml.documentElement);
+ 
+                // load the json data
+                load_front(e);
         });
+    });
     </script>
 {% endblock %}

@@ -41,39 +41,48 @@ def country_data(request, iso3):
     
     return HttpResponse(js)
 
-def all_data(request, iso3):
+def front_data(request, iso3):
     country = get_object_or_404(models.Recipient, iso3=iso3) 
-    from itertools import groupby
-    indicators = groupby(
-        models.CountryIndicator.objects.filter(country=country).order_by("year", "indicator__pk"),
-        lambda x : x.year
-    )
+    country_indicators = models.CountryIndicator.objects.filter(country=country)
+    allocations = models.Allocation.objects.filter(country=country)
 
-    allocations = groupby(
-        models.Allocation.objects.filter(country=country).order_by("year", "mdgpurpose"),
-        lambda x : x.year
-    )
+    hd_indicator = models.GeneralIndicator.objects.get(name="ODA for Health Disbursements (Million constant 2009 US$)")
+    mdg6_purpose = models.MDGPurpose.objects.get(name="MDG6")
+    
+    # summary calculations
+    hd_2000 = country_indicators.get(year="2000", indicator=hd_indicator)
+    hd_2010 = country_indicators.get(year="2010", indicator=hd_indicator)
+    p_2000 = allocations.get(year="2000", mdgpurpose=mdg6_purpose)
+    p_2010 = allocations.get(year="2010", mdgpurpose=mdg6_purpose)
+
+    sum_increase = (hd_2010.value / hd_2000.value - 1) * 100
+    mdg6_perc_2000 = (p_2000.disbursement / hd_2000.value) * 100
+    mdg6_perc_2010 = (p_2010.disbursement / hd_2010.value) * 100
+
+    indicators = defaultdict(dict, {})
+    for indicator in country_indicators:
+        indicators[indicator.year][indicator.indicator.name] = indicator.value
+
+    allocations_commitments = defaultdict(dict, {})
+    allocations_disbursements = defaultdict(dict, {})
+    for allocation in allocations:
+        allocations_commitments[allocation.year][allocation.mdgpurpose.name] = allocation.commitment;
+        allocations_disbursements[allocation.year][allocation.mdgpurpose.name] = allocation.disbursement;
 
     js = {
         "country" : {
             "name" : country.name,
             "iso3" : country.iso3,
         }, 
-        "indicators" : {
-            year : {
-                i.indicator.pk : i.value
-                for i in it
-            }
-            for year, it in indicators 
+        "summary" : {
+            "sum_increase" : sum_increase,
+            "sum_amount" : mdg6_perc_2010,
+            "sum_2000" : mdg6_perc_2000,
         },
+        "indicators" : indicators,
         "allocations" : {
-            year : [
-            {
-                'mdgpurpose' : a.mdgpurpose.pk,
-                'commitment' : a.commitment,
-                'disbursement' : a.disbursement
-            } for a in it ]
-            for year, it in allocations
+            "commitments" : allocations_commitments,
+            "disbursements" : allocations_disbursements,
         },
     }
     
