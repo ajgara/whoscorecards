@@ -48,7 +48,7 @@ class Command(BaseCommand):
                         country=country, 
                         indicator=indicator, 
                         year=row.Year, 
-                        value=float(row.Value)
+                        value=float(row.Value) if row.Value else None
                     )
                 except oda_models.Recipient.DoesNotExist:
                     not_found_countries.add(row.ISO3)
