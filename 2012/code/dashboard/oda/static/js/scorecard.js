@@ -90,6 +90,7 @@ function load_front(json) {
         
     });
 
+    /*
     // bar charts
     var rounded = {
         bar: {
@@ -112,6 +113,7 @@ function load_front(json) {
         }, []);
     }
     rbg = new RoundedBarGraph(ctx)
+    */
 }
 function load_back(json) {
     /*********** Country Name ************/
