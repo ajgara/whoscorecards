@@ -23,7 +23,7 @@ class CountryIndicator(models.Model):
     country = models.ForeignKey(Recipient)
     indicator = models.ForeignKey(GeneralIndicator)
     year = models.CharField(max_length=4)
-    value = models.FloatField()
+    value = models.FloatField(null=True)
 
     class Meta:
         unique_together = ("country", "indicator", "year")
