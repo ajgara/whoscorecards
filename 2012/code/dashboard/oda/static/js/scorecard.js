@@ -85,22 +85,36 @@ function load_front(json) {
         var segpie = {
             width: 31,
             height:31,
-            node : "#allc_pie" + (2000 + i),
 
             arc: {
                 margin: 25,
                 width: 15,
             },
-            data : [
-                {"value" : allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]},
-                {"value" : allocation_disbursements["MDG6"]},
-                {"value" : allocation_disbursements["Other Health Purposes"]},
-                {"value" : allocation_disbursements["RH & FP"]}
-            ],
             colors : ["#cf3e96", "#62A73B", "#79317F", "#009983"],
+            class : "piechart"
         };
+
+        segpie["node"] = "#piec_" + (2000 + i);
+        segpie["data"] = [
+            {"value" : allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]},
+            {"value" : allocation_commitments["MDG6"]},
+            {"value" : allocation_commitments["Other Health Purposes"]},
+            {"value" : allocation_commitments["RH & FP"]}
+        ];
         
         var segpiegraph = new SegmentPieGraph(segpie);
+        d3.select("#piec_" + (2000 + i) + "_old").remove();
+
+        segpie["node"] = "#pied_" + (2000 + i);
+        segpie["data"] = [
+            {"value" : allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]},
+            {"value" : allocation_disbursements["MDG6"]},
+            {"value" : allocation_disbursements["Other Health Purposes"]},
+            {"value" : allocation_disbursements["RH & FP"]}
+        ];
+        var segpiegraph = new SegmentPieGraph(segpie);
+        
+        d3.select("#pied_" + (2000 + i) + "_old").remove();
 
         
     });

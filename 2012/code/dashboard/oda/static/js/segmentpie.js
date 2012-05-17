@@ -18,6 +18,9 @@ SegmentPieGraph = function(ctx){
     this.arc.offset_y = this.arc.offset_y || 0; // y offset of the graph
     this.arc.margin = this.arc.margin || 0.1; // margin between the arcs
 
+    this.class = ctx.class || "chart"; // css class
+    this.id = ctx.id || ""; // id
+
 
     this.colors = ctx.colors || ['#009983','#cf3d96', '#df7627', '#252', '#528', '#72f', '#444'];
 
@@ -50,7 +53,7 @@ SegmentPieGraph.prototype = {
 
 
         this.vis = d3.select(this.node).append("svg")
-            .attr("class", "chart")
+            .attr("class", this.class)
             .attr("width", this.w)
             .attr("height", this.h)
             .append('g')
@@ -63,7 +66,7 @@ SegmentPieGraph.prototype = {
             paths.enter().append('path')
             .attr('d', arc)
             .attr('class', function(d, i) { return 'spg-arc spg-color spg-group-' + i +' spg-arc-' + i; })
-            .style('stroke-width', this.arc.margin / 2)
+            //.style('stroke-width', this.arc.margin / 2)
             .style('fill', function(d, i) { return me.colors[i]; });
 
             paths.enter().append('text')
