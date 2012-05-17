@@ -49,7 +49,6 @@ function load_front(json) {
         d3.select("#indc" + (i + 2) + "r7").text(r2(indicators["Disbursements:  Ratio Health / Total ODA"]));
         d3.select("#indc" + (i + 2) + "r8").text(r2(indicators["Commitments per capita USD"]));
         d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Disbursements per capita USD"]));
-        console.log("ZAF:" + indicators["Regional AvComm per capita"]);
         d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional AvComm per capita"]));
         d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional AvDisb per capita"]));
         d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health (curr US$ p.c.)"]));
@@ -119,7 +118,13 @@ function load_front(json) {
         
     });
 
-    /*
+    round = function(x, places) {
+        x = x * Math.pow(10, places);
+        x = Math.round(x)
+        x =  x / Math.pow(10, places);
+        return x;
+    }
+
     // bar charts
     var rounded = {
         bar: {
@@ -132,17 +137,88 @@ function load_front(json) {
         line: {
             const_val: '0'
         },
-        node: "#bargraph1",
         width : 170,
-        height : 93,
-        data : _.reduce(all_years, function(memo, year) {
-            indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"];
-            memo.push({"value" : indicator, "series" : year});
-            return memo;
-        }, []);
+        height : 122,
     }
-    rbg = new RoundedBarGraph(ctx)
-    */
+
+    function arrow_change(indicator) {
+        var val_2009 = json.indicators["2009"][indicator]
+        var val_2010 = json.indicators["2010"][indicator]
+        var change = val_2010 - val_2009 
+        return {
+            increase : change,
+            change : Math.abs(change)
+        } 
+    }
+
+    function manipulate_arrow(arrow, change) {
+        box = arrow + "_box2";
+        if (change < 0) {
+            d3.select(arrow).attr("style", "fill: #bf202e");
+        } else if (change > 0) {
+            d3.select(arrow).attr("style", "fill: #68ae45");
+            d3.select(box).attr("transform", "matrix(1,0,0,-1,0,20)");
+        }
+    }
+    function fmt_millions(val) {
+        return "$" + r2(val) + "m";
+    }
+
+    rounded["node"] = "#oda_bar1"
+    rounded["data"] = _.reduce(all_years, function(memo, year) {
+        indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"];
+        memo.push({"value" : round(indicator, 2), "series" : year});
+        return memo;
+    }, [])
+    var change = arrow_change("ODA for Health Commitments, (Million constant 2009 US$)");
+    d3.select("#bar1_value").text(fmt_millions(change["change"]));
+    manipulate_arrow("#bar1_arrow", change["increase"]);
+
+    rbg = new RoundedBarGraph(rounded);
+    d3.select("#oda_bar1_old").remove();
+
+    rounded["bar"]["color"] = "#df7627";
+    rounded["node"] = "#oda_bar2"
+    rounded["data"] = _.reduce(all_years, function(memo, year) {
+        indicator = json.indicators[year]["ODA for Health Disbursements (Million constant 2009 US$)"];
+        memo.push({"value" : round(indicator, 2), "series" : year});
+        return memo;
+    }, [])
+    var change = arrow_change("ODA for Health Disbursements (Million constant 2009 US$)");
+    d3.select("#bar2_value").text(fmt_millions(change["change"]));
+    manipulate_arrow("#bar2_arrow", change["increase"]);
+
+    rbg = new RoundedBarGraph(rounded);
+    d3.select("#oda_bar2_old").remove();
+
+    rounded["bar"]["color"] = "#0093d5";
+    rounded["node"] = "#oda_bar3"
+    rounded["data"] = _.reduce(all_years, function(memo, year) {
+        indicator = json.indicators[year]["Commitments per capita USD"];
+        memo.push({"value" : round(indicator, 2), "series" : year});
+        return memo;
+    }, [])
+    var change = arrow_change("Commitments per capita USD");
+    d3.select("#bar3_value").text(fmt_millions(change["change"]));
+    manipulate_arrow("#bar3_arrow", change["increase"]);
+
+    rbg = new RoundedBarGraph(rounded);
+    d3.select("#oda_bar3_old").remove();
+
+    rounded["bar"]["color"] = "#df7627";
+    rounded["node"] = "#oda_bar4"
+    rounded["data"] = _.reduce(all_years, function(memo, year) {
+        indicator = json.indicators[year]["Disbursements per capita USD"];
+        memo.push({"value" : round(indicator, 2), "series" : year});
+        return memo;
+    }, [])
+    var change = arrow_change("Disbursements per capita USD");
+    d3.select("#bar4_value").text(fmt_millions(change["change"]));
+    manipulate_arrow("#bar4_arrow", change["increase"]);
+
+    rbg = new RoundedBarGraph(rounded);
+    d3.select("#oda_bar4_old").remove();
+
 }
 function load_back(json) {
     /*********** Country Name ************/
@@ -264,7 +340,5 @@ function load_back(json) {
     d3.select("#oldpie").remove();
 
     d3.select("#largest_other_text").text(json.summary.total_disbursements_count - 7);
-    var num = 32432432423;
-    console.log(num.formatThousands());    
 
 }

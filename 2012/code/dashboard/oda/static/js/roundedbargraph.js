@@ -149,7 +149,7 @@ RoundedBarGraph.prototype = {
             .attr('x', function(d, i){ return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; })
             .attr('y', function(d, i){ return me.h * 0.9; })
             .attr('dx', 0)
-            .attr('dy', -10)
+            .attr('dy', -6)
             .attr('class', function(d, i){ return  'rb-series rb-series-' + i; })
             .attr('text-anchor', 'middle')
             .attr('font-size', '13px')
