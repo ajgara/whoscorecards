@@ -15,14 +15,14 @@ class Command(BaseCommand):
         filename = args[0]
         with transaction.commit_on_success():
             oda_models.Disbursement.objects.all().delete()
-            dfactory = db.LargestDisbursementsFactory(file_path=filename, sheet_name="Sheet1")
+            dfactory = db.LargestDisbursementsFactory(file_path=filename, sheet_name="DB")
             for row in dfactory.data:
-                country = oda_models.Recipient.objects.get(iso3=row["ISO"])
+                country = oda_models.Recipient.objects.get(iso3=row["ISO3"])
                 oda_models.Disbursement.objects.create(
                     country=country,
                     donor=re_name.sub("", row["Donor"]),
                     year=row["Year"],
-                    purpose=row["Purpose"] or "",
-                    disbursement=float(row["Disbursement"]),
+                    purpose=row["Purposecode"] or "",
+                    disbursement=float(row["Total Disbursements"]),
                     percentage=float(row["%age"])
                 )
