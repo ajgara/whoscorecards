@@ -13,7 +13,8 @@ RoundedBarGraph = function(ctx){
 
 
     this.line = ctx.line || {};
-    this.line.type = this.line.type || ''; // Currently only supports avg or const
+    this.line.type = this.line.type || ''; // Currently only supports avg, const and point
+    this.line.data = this.line.data || []; // Currently only supports avg, const and point
     this.line.const_val =  this.line.const_val || 0;
     this.line.color =  this.line.color || '#cf3d96';
 
@@ -52,6 +53,7 @@ RoundedBarGraph.prototype = {
             }
         }
         this.max = this.max * 1.5;
+        this.bottom_offset = 5.9;
 
         // Check to see if the bar width is too big, if it is reduce the width of the arcs
         if (this.data.length * (this.bar.width + this.bar.margin) > this.chart.width ){
@@ -162,7 +164,9 @@ RoundedBarGraph.prototype = {
         this.vis.selectAll('g')
             .data(yseries.ticks(4))
             .enter().append('text')
-            .attr('y', yseries)
+            .attr('y', function(d) {
+                return yseries(d) - me.bottom_offset;
+            })
             .attr('x', this.chart.width_offset - 5)
             .attr('text-anchor', 'end')
             .attr('class', 'rb-y-tick')
@@ -178,6 +182,45 @@ RoundedBarGraph.prototype = {
                     .attr('x2', this.w)
                     .attr('y1', function(d) { return me.h - y(d) -0.5 - me.chart.height_offset; })
                     .attr('y2', function(d) { return me.h - y(d) -0.5 - me.chart.height_offset; })
+                    .attr('class', 'rb-line')
+                    .attr('stroke-dasharray', '10')
+                    .attr('stroke-width', '3')
+                    .attr('stroke', this.line.color);
+            } else if (this.line.type == 'point') {
+                this.vis.selectAll('g')
+                    .data(this.line.data)
+                    .enter().append('line')
+                    .attr('x1', function(d, i){ 
+                        return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; 
+                    })
+                    .attr('x2', function(d, i){ 
+                        if ((i - 1) < me.line.data.length - 2) {
+                            return x(i + 1) + me.chart.width_offset + me.bar.margin * (i + 1) + me.bar.width / 2; 
+                        } else {
+                            return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; 
+                        }
+                    })
+                    .attr('y1', function(d) {
+                        return yseries(d) - me.bottom_offset;
+                    })
+                    .attr('y2', function(d, i){ 
+                        if ((i - 1) < me.line.data.length - 2) {
+                            d = me.line.data[i + 1];
+                        }
+                        return yseries(d) - me.bottom_offset;
+                    })
+                    /*
+                    .attr('y1', function(d, i){ return me.h - y(d) - me.chart.height_offset; })
+                    .attr('y2', function(d, i){ 
+                        if ((i - 1) < me.line.data.length) {
+                            d = me.line.data[i + 1];
+                        }
+                        return me.h - y(d) - me.chart.height_offset; 
+                    })
+                    */
+
+                    //.attr('y1', function(d, i){ return y(d) })
+                    //.attr('y2', function(d, i){ return y(me.line.data[i + 1]) })
                     .attr('class', 'rb-line')
                     .attr('stroke-dasharray', '10')
                     .attr('stroke-width', '3')

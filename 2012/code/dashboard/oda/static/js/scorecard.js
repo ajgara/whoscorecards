@@ -164,6 +164,7 @@ function load_front(json) {
         return "$" + r2(val) + "m";
     }
 
+    /* --------- ODA for health commitments, per capita */
     rounded["node"] = "#oda_bar1"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"];
@@ -177,6 +178,7 @@ function load_front(json) {
     rbg = new RoundedBarGraph(rounded);
     d3.select("#oda_bar1_old").remove();
 
+    /* --------- ODA for health disbursements, per capita */
     rounded["bar"]["color"] = "#df7627";
     rounded["node"] = "#oda_bar2"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
@@ -191,6 +193,7 @@ function load_front(json) {
     rbg = new RoundedBarGraph(rounded);
     d3.select("#oda_bar2_old").remove();
 
+    /* --------- ODA for health commitments, per capita */
     rounded["bar"]["color"] = "#0093d5";
     rounded["node"] = "#oda_bar3"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
@@ -198,6 +201,15 @@ function load_front(json) {
         memo.push({"value" : round(indicator, 2), "series" : year});
         return memo;
     }, [])
+    rounded["line"] = {
+        type : "point",
+        data : _.reduce(all_years, function(memo, year) {
+            var v = json.indicators[year]["Regional AvComm per capita"];
+            memo.push(v);
+            return memo;
+        }, [])
+    }
+    
     var change = arrow_change("Commitments per capita USD");
     d3.select("#bar3_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar3_arrow", change["increase"]);
@@ -205,6 +217,7 @@ function load_front(json) {
     rbg = new RoundedBarGraph(rounded);
     d3.select("#oda_bar3_old").remove();
 
+    /* --------- ODA for health disbursements, per capita */
     rounded["bar"]["color"] = "#df7627";
     rounded["node"] = "#oda_bar4"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
@@ -212,6 +225,14 @@ function load_front(json) {
         memo.push({"value" : round(indicator, 2), "series" : year});
         return memo;
     }, [])
+    rounded["line"] = {
+        type : "point",
+        data : _.reduce(all_years, function(memo, year) {
+            var v = json.indicators[year]["Regional AvDisb per capita"];
+            memo.push(v);
+            return memo;
+        }, [])
+    }
     var change = arrow_change("Disbursements per capita USD");
     d3.select("#bar4_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar4_arrow", change["increase"]);
