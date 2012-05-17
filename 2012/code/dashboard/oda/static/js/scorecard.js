@@ -12,15 +12,29 @@ if (typeof Number.prototype.formatThousands != 'function') {
     }
 }
 
-r0 = function(v) { return v.formatThousands(0); }
-r1 = function(v) { return v.formatThousands(1); }
-r2 = function(v) { return v.formatThousands(2); }
+check_before_fmt = function(v, func) {
+    if (v == undefined || isNaN(v))
+        return "-";
+    return func(v);
+}
+
+r0 = function(v) {
+    return check_before_fmt(v, function(v) {return v.formatThousands(0);});
+}
+
+r1 = function(v) {
+    return check_before_fmt(v, function(v) {return v.formatThousands(1);});
+}
+r2 = function(v) {
+    return check_before_fmt(v, function(v) {return v.formatThousands(2);});
+}
 
 
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(r1(json.summary.sum_increase) + "%");
-    d3.select("#sum_amount").text(r0(json.summary.sum_amount) + "%");
+    d3.select("#sum_amount").text(r0(json.summary.sum_2010) + "%");
+    d3.select("#sum_purpose").text(json.summary.sum_purpose);
     d3.select("#sum_2000").text(r0(json.summary.sum_2000) + "%");
 
     var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
@@ -35,6 +49,7 @@ function load_front(json) {
         d3.select("#indc" + (i + 2) + "r7").text(r2(indicators["Disbursements:  Ratio Health / Total ODA"]));
         d3.select("#indc" + (i + 2) + "r8").text(r2(indicators["Commitments per capita USD"]));
         d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Disbursements per capita USD"]));
+        console.log("ZAF:" + indicators["Regional AvComm per capita"]);
         d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional AvComm per capita"]));
         d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional AvDisb per capita"]));
         d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health (curr US$ p.c.)"]));
@@ -118,21 +133,21 @@ function load_front(json) {
 function load_back(json) {
     /*********** Country Name ************/
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
-    d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum) + "M");
+    d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
     var countries = [
         "Australia", "Austria", "Belgium", "Canada", "Denmark", 
         "Finland", "France", "Germany", "Greece", "Ireland",
-        "Italy", "Japan", "Korea", "Luxembourg", "Netherlands",
-        "Norway", "Spain", "Sweden", "Switzerland", "United Arab Emirates",
+        "Italy", "Japan", "Korea", "Kuwait", "Luxembourg", "Netherlands", "New Zealand",
+        "Norway", "Portugal", "Spain", "Sweden", "Switzerland", "United Arab Emirates",
         "United Kingdom", "United States"
     ];
 
     var multis = [
         "AfDF", "AFESD", "AsDB Special Fund", "EU Institutions", "GAVI",
-        "GEF", "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
-        "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "UNRWA", "UNRWA", "UNRWA", "WFP"
+        "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
+        "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP"
     ]
 
     var bil_total_nr = 0;

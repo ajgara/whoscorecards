@@ -48,16 +48,21 @@ def front_data(request, iso3):
 
     hd_indicator = models.GeneralIndicator.objects.get(name="ODA for Health Disbursements (Million constant 2009 US$)")
     mdg6_purpose = models.MDGPurpose.objects.get(name="MDG6")
+    #hp_purpose = models.MDGPurpose.objects.get(name="HEALTH POLICY & ADMIN. MANAGEMENT")
+    #ohp = models.MDGPurpose.objects.get(name="Other Health Purposes")
+    #rhfp_purpose = models.MDGPurpose.objects.get(name="RH & FP")
     
     # summary calculations
     hd_2000 = country_indicators.get(year="2000", indicator=hd_indicator)
     hd_2010 = country_indicators.get(year="2010", indicator=hd_indicator)
-    p_2000 = allocations.get(year="2000", mdgpurpose=mdg6_purpose)
-    p_2010 = allocations.get(year="2010", mdgpurpose=mdg6_purpose)
+
+    alloc_2010 = allocations.filter(year="2010").order_by("-disbursement")[0]
+    mdg_purpose = alloc_2010.mdgpurpose
+    alloc_2000 = allocations.get(year="2000", mdgpurpose=mdg_purpose)
 
     sum_increase = (hd_2010.value / hd_2000.value - 1) * 100
-    mdg6_perc_2000 = (p_2000.disbursement / hd_2000.value) * 100
-    mdg6_perc_2010 = (p_2010.disbursement / hd_2010.value) * 100
+    mdg_perc_2000 = (alloc_2000.disbursement / hd_2000.value) * 100
+    mdg_perc_2010 = (alloc_2010.disbursement / hd_2010.value) * 100
 
     indicators = defaultdict(dict, {})
     for indicator in country_indicators:
@@ -76,8 +81,9 @@ def front_data(request, iso3):
         }, 
         "summary" : {
             "sum_increase" : sum_increase,
-            "sum_amount" : mdg6_perc_2010,
-            "sum_2000" : mdg6_perc_2000,
+            "sum_purpose" : mdg_purpose.name,
+            "sum_2010" : mdg_perc_2010,
+            "sum_2000" : mdg_perc_2000,
         },
         "indicators" : indicators,
         "allocations" : {

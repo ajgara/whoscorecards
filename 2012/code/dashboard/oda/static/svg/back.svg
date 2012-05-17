@@ -347,9 +347,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="405.32378"
-     inkscape:cy="444.94352"
+     inkscape:zoom="2"
+     inkscape:cx="496.38972"
+     inkscape:cy="376.34545"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,10 +357,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1918"
-     inkscape:window-height="1004"
+     inkscape:window-width="958"
+     inkscape:window-height="1049"
      inkscape:window-x="0"
-     inkscape:window-y="30"
+     inkscape:window-y="0"
      inkscape:window-maximized="0" />
   <metadata
      id="metadata7717">
@@ -409,7 +409,7 @@
                i:knockout="Off"
                style="fill:#d1d3d4"
                width="841.888"
-               height="331.32501" />
+               height="342.51804" />
             <rect
                y="0"
                id="_headerbar_1_"
@@ -2882,21 +2882,21 @@
               <g
                  id="_x5F_bilateral">
                 <rect
-                   id="_x5F_col2greyblock_2_"
-                   x="13.986"
-                   y="123.07"
-                   i:knockout="Off"
-                   style="fill:#f1f2f2"
-                   width="114.392"
-                   height="288.02301" />
-                <rect
                    id="_x5F_col2greyblock_3_"
                    x="219.416"
                    y="123.07"
                    i:knockout="Off"
                    style="fill:#f1f2f2"
                    width="70.865997"
-                   height="288.02301" />
+                   height="305.61206" />
+                <rect
+                   id="_x5F_col2greyblock_2_"
+                   x="13.986"
+                   y="123.07"
+                   i:knockout="Off"
+                   style="fill:#f1f2f2"
+                   width="114.392"
+                   height="305.61206" />
                 <g
                    id="_x5F_horisontalblocks_1_">
                   <rect
@@ -2906,95 +2906,105 @@
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row3_1_"
                      x="13.986"
-                     y="170.591"
+                     y="169.0972"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row5_1_"
                      x="13.986"
-                     y="194.642"
+                     y="191.65443"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row7_1_"
                      x="13.986"
-                     y="218.692"
+                     y="214.21167"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row9_1_"
                      x="13.986"
-                     y="242.743"
+                     y="236.76889"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row11_1_"
                      x="13.986"
-                     y="266.793"
+                     y="259.32611"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
                   <rect
                      id="row13_1_"
                      x="13.986"
-                     y="290.84399"
+                     y="281.88477"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.022" />
+                     height="11.41808" />
                   <rect
                      id="row15_1_"
                      x="13.986"
-                     y="314.892"
+                     y="304.44104"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.024" />
+                     height="11.419979" />
                   <rect
                      id="row17_1_"
                      x="13.986"
-                     y="338.94"
+                     y="326.99875"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.023" />
-                  <rect
-                     id="row19_1_"
-                     x="13.986"
-                     y="362.98901"
-                     i:knockout="Off"
-                     style="fill:#e6e7e8"
-                     width="276.40201"
-                     height="12.025" />
+                     height="11.419029" />
                   <rect
                      id="row21_4_"
                      x="13.986"
-                     y="387.04001"
+                     y="349.55502"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
                      width="276.40201"
-                     height="12.025" />
+                     height="11.420929" />
+                  <rect
+                     height="11.420929"
+                     width="276.40201"
+                     style="fill:#e6e7e8"
+                     i:knockout="Off"
+                     y="372.11224"
+                     x="13.986"
+                     id="rect6901" />
+                  <rect
+                     id="rect6903"
+                     x="13.986"
+                     y="394.66946"
+                     i:knockout="Off"
+                     style="fill:#e6e7e8"
+                     width="276.40201"
+                     height="11.420929" />
                 </g>
                 <g
-                   id="_x5F_total">
+                   id="_x5F_total"
+                   transform="translate(0,19.188051)">
                   <polyline
                      id="row21_3_"
                      i:knockout="Off"
                      style="fill:#e6e7e8"
-                     points="13.986,423.118 13.986,411.093 290.389,411.093          290.389,423.118        " />
+                     points="13.986,423.118 13.986,411.093 290.389,411.093          290.389,423.118        "
+                     transform="matrix(1,0,0,0.94976541,0,7.5967255)" />
                   <switch
                      id="col2r21_10_"
                      i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -3040,8 +3050,8 @@
                          id="bil_total_value"
                          transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
-                         x="260.21387"
-                         y="409.59775">77.49</text>
+                         x="261.24704"
+                         y="408.09338">77.49</text>
                     </g>
                   </switch>
                   <switch
@@ -3087,16 +3097,19 @@
                          id="rect977" />
                       <text
                          id="SVGID_1_"
-                         transform="matrix(0.8878,0,0,1,20.0811,420.0576)">
+                         transform="scale(0.94223139,1.0613104)"
+                         x="21.312281"
+                         y="394.23792"
+                         style="font-size:11.306777px">
                         <tspan
-                           x="0"
-                           y="0"
-                           style="font-size:8px;fill:#58595b;font-family:Calibri-Bold"
+                           x="21.312281"
+                           y="394.23792"
+                           style="font-size:7.53785133px;fill:#58595b;font-family:Calibri-Bold"
                            id="tspan980">TOTAL</tspan>
                         <tspan
-                           x="23.372"
-                           y="0"
-                           style="font-size:7px;fill:#58595b;font-family:Calibri"
+                           x="43.334114"
+                           y="394.23792"
+                           style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
                            id="tspan982" />
                       </text>
                     </g>
@@ -3144,19 +3157,19 @@
                          id="rect989" />
                       <text
                          id="bil_total_nr"
-                         transform="scale(0.97534609,1.0252771)"
+                         transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
-                         x="177.83093"
-                         y="409.59775">00</text>
+                         x="178.70561"
+                         y="408.09338">00</text>
                     </g>
                   </switch>
                   <rect
-                     x="13.986"
-                     y="411.09299"
+                     x="13.9754"
+                     y="410.02393"
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
-                     width="276.40201"
-                     height="12.025"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.4770489;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+                     width="276.42322"
+                     height="10.945549"
                      id="rect992" />
                 </g>
                 <g
@@ -3204,10 +3217,10 @@
                          id="rect1000" />
                       <text
                          id="col3r1"
-                         transform="matrix(0.9513,0,0,1,248.54,155.5356)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7382812"
-                         y="0">3.06</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.25275"
+                         y="150.96193">3.06</text>
                     </g>
                   </switch>
                   <switch
@@ -3253,10 +3266,10 @@
                          id="rect1008" />
                       <text
                          id="col3r2"
-                         transform="matrix(0.9513,0,0,1,248.251,167.5542)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.8457031"
-                         y="0">4.96</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.35751"
+                         y="161.86374">4.96</text>
                     </g>
                   </switch>
                   <switch
@@ -3302,10 +3315,10 @@
                          id="rect1016" />
                       <text
                          id="col3r3"
-                         transform="matrix(0.9513,0,0,1,248.251,179.5718)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7988281"
-                         y="0">0.06</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.3118"
+                         y="172.96303">0.06</text>
                     </g>
                   </switch>
                   <switch
@@ -3351,10 +3364,10 @@
                          id="rect1024" />
                       <text
                          id="col3r4"
-                         transform="matrix(0.9513,0,0,1,246.3223,191.5894)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.7617188"
-                         y="0">63.46</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.24512"
+                         y="183.74681">63.46</text>
                     </g>
                   </switch>
                   <switch
@@ -3400,10 +3413,10 @@
                          id="rect1032" />
                       <text
                          id="col3r5"
-                         transform="matrix(0.9513,0,0,1,248.251,203.6089)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.671875"
-                         y="0">2.59</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.2756"
+                         y="194.96411">2.59</text>
                     </g>
                   </switch>
                   <switch
@@ -3449,10 +3462,10 @@
                          id="rect1040" />
                       <text
                          id="col3r6"
-                         transform="matrix(0.9513,0,0,1,248.251,215.6265)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.5410156"
-                         y="0">1.61</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.17465"
+                         y="205.96555">1.61</text>
                     </g>
                   </switch>
                   <switch
@@ -3498,10 +3511,10 @@
                          id="rect1048" />
                       <text
                          id="col3r7"
-                         transform="matrix(0.9513,0,0,1,248.251,227.644)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7148438"
-                         y="0">0.43</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.39371"
+                         y="217.15715">0.43</text>
                     </g>
                   </switch>
                   <switch
@@ -3547,10 +3560,10 @@
                          id="rect1056" />
                       <text
                          id="col3r8"
-                         transform="matrix(0.9513,0,0,1,248.251,239.6626)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7324219"
-                         y="0">3.28</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.25845"
+                         y="228.78117">3.28</text>
                     </g>
                   </switch>
                   <switch
@@ -3596,10 +3609,10 @@
                          id="rect1064" />
                       <text
                          id="col3r9"
-                         transform="matrix(0.9513,0,0,1,253.832,251.6812)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="0.95507812"
-                         y="0">-</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.29276"
+                         y="238.42342">-</text>
                     </g>
                   </switch>
                   <switch
@@ -3645,10 +3658,10 @@
                          id="rect1072" />
                       <text
                          id="col3r10"
-                         transform="matrix(0.9513,0,0,1,246.3223,263.6987)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.6640625"
-                         y="0">22.73</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.31369"
+                         y="250.04808">22.73</text>
                     </g>
                   </switch>
                   <switch
@@ -3694,10 +3707,10 @@
                          id="rect1080" />
                       <text
                          id="col3r11"
-                         transform="matrix(0.9513,0,0,1,246.3223,275.7163)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.7421875"
-                         y="0">20.18</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.23749"
+                         y="260.96744">20.18</text>
                     </g>
                   </switch>
                   <switch
@@ -3743,10 +3756,10 @@
                          id="rect1088" />
                       <text
                          id="col3r12"
-                         transform="matrix(0.9513,0,0,1,246.3223,287.7349)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.5664062"
-                         y="0">18.32</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.18036"
+                         y="272.80847">18.32</text>
                     </g>
                   </switch>
                   <switch
@@ -3792,10 +3805,10 @@
                          id="rect1096" />
                       <text
                          id="col3r13"
-                         transform="matrix(0.9513,0,0,1,248.251,299.7539)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.8652344"
-                         y="0">4.30</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.33847"
+                         y="282.96854">4.30</text>
                     </g>
                   </switch>
                   <switch
@@ -3840,11 +3853,11 @@
                          height="6.2010002"
                          id="rect1104" />
                       <text
-                         id="col3r14"
-                         transform="matrix(0.9513,0,0,1,248.251,311.7715)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.8417969"
-                         y="0">0.34</text>
+                         id="col3r15"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.2699"
+                         y="304.96964">0.34</text>
                     </g>
                   </switch>
                   <switch
@@ -3889,11 +3902,11 @@
                          height="6.2010002"
                          id="rect1112" />
                       <text
-                         id="col3r15"
-                         transform="matrix(0.9513,0,0,1,245.6025,323.7891)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.8125"
-                         y="0">43.42</text>
+                         id="col3r16"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.42038"
+                         y="315.97849">43.42</text>
                     </g>
                   </switch>
                   <switch
@@ -3938,11 +3951,11 @@
                          height="6.2010002"
                          id="rect1120" />
                       <text
-                         id="col3r16"
-                         transform="matrix(0.9513,0,0,1,245.6025,335.8066)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.6738281"
-                         y="0">16.84</text>
+                         id="col3r18"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.07559"
+                         y="337.50818">16.84</text>
                     </g>
                   </switch>
                   <switch
@@ -3987,11 +4000,11 @@
                          height="6.2010002"
                          id="rect1128" />
                       <text
-                         id="col3r17"
-                         transform="matrix(0.9513,0,0,1,245.6025,347.8262)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.7890625"
-                         y="0">37.40</text>
+                         id="col3r20"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.2337"
+                         y="360.76587">37.40</text>
                     </g>
                   </switch>
                   <switch
@@ -4036,11 +4049,11 @@
                          height="6.2010002"
                          id="rect1136" />
                       <text
-                         id="col3r18"
-                         transform="matrix(0.9513,0,0,1,247.5312,359.8438)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7519531"
-                         y="0">9.37</text>
+                         id="col3r21"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.31943"
+                         y="370.97293">9.37</text>
                     </g>
                   </switch>
                   <switch
@@ -4085,11 +4098,11 @@
                          height="6.2010002"
                          id="rect1144" />
                       <text
-                         id="col3r19"
-                         transform="matrix(0.9513,0,0,1,247.5312,371.8613)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7402344"
-                         y="0">0.11</text>
+                         id="col3r22"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.36896"
+                         y="381.98514">0.11</text>
                     </g>
                   </switch>
                   <switch
@@ -4134,11 +4147,11 @@
                          height="6.2010002"
                          id="rect1152" />
                       <text
-                         id="col3r20"
-                         transform="matrix(0.9513,0,0,1,247.5312,383.8789)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.734375"
-                         y="0">0.12</text>
+                         id="col3r23"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.37466"
+                         y="392.97403">0.12</text>
                     </g>
                   </switch>
                   <switch
@@ -4183,11 +4196,11 @@
                          height="6.2010002"
                          id="rect1160" />
                       <text
-                         id="col3r21"
-                         transform="matrix(0.9513,0,0,1,245.6025,395.8984)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.7324219"
-                         y="0">77.49</text>
+                         id="col3r24"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.30417"
+                         y="404.65408">77.49</text>
                     </g>
                   </switch>
                   <switch
@@ -4232,11 +4245,11 @@
                          height="6.2010002"
                          id="rect1168" />
                       <text
-                         id="col3r22"
-                         transform="matrix(0.9513,0,0,1,243.6743,407.916)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="10.716797"
-                         y="0">656.85</text>
+                         id="col3r25"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="261.31943"
+                         y="414.97513">656.85</text>
                     </g>
                   </switch>
                 </g>
@@ -4285,10 +4298,10 @@
                          id="rect1177" />
                       <text
                          id="col2r1"
-                         transform="matrix(0.9513,0,0,1,170.8584,155.5371)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="150.96193">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4334,10 +4347,10 @@
                          id="rect1185" />
                       <text
                          id="col2r2"
-                         transform="matrix(0.9513,0,0,1,170.5693,167.5557)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="161.8652">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4383,10 +4396,10 @@
                          id="rect1193" />
                       <text
                          id="col2r3"
-                         transform="matrix(0.9513,0,0,1,170.5693,179.5732)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="172.96303">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4432,10 +4445,10 @@
                          id="rect1201" />
                       <text
                          id="col2r4"
-                         transform="matrix(0.9513,0,0,1,170.5693,191.5908)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="183.74817">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4481,10 +4494,10 @@
                          id="rect1209" />
                       <text
                          id="col2r5"
-                         transform="matrix(0.9513,0,0,1,170.5693,203.6104)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="194.96411">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4530,10 +4543,10 @@
                          id="rect1217" />
                       <text
                          id="col2r6"
-                         transform="matrix(0.9513,0,0,1,170.5693,215.6279)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="205.96745">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4579,10 +4592,10 @@
                          id="rect1225" />
                       <text
                          id="col2r7"
-                         transform="matrix(0.9513,0,0,1,170.5693,227.6455)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="217.15715">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4628,10 +4641,10 @@
                          id="rect1233" />
                       <text
                          id="col2r8"
-                         transform="matrix(0.9513,0,0,1,170.5693,239.6641)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="228.78117">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4677,10 +4690,10 @@
                          id="rect1241" />
                       <text
                          id="col2r9"
-                         transform="matrix(0.9513,0,0,1,170.5693,251.6821)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="238.96632">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4726,10 +4739,10 @@
                          id="rect1249" />
                       <text
                          id="col2r10"
-                         transform="matrix(0.9513,0,0,1,170.5693,263.6997)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="249.97188">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4774,11 +4787,11 @@
                          height="6.2010002"
                          id="rect1257" />
                       <text
-                         id="text4800"
-                         transform="matrix(0.9513,0,0,1,170.5693,275.7173)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r11"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="260.96744">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4824,10 +4837,10 @@
                          id="rect1265" />
                       <text
                          id="col2r12"
-                         transform="matrix(0.9513,0,0,1,170.5693,287.7368)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="272.80847">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4873,10 +4886,10 @@
                          id="rect1273" />
                       <text
                          id="col2r13"
-                         transform="matrix(0.9513,0,0,1,170.5693,299.7539)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="282.96854">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4921,11 +4934,11 @@
                          height="6.2010002"
                          id="rect1281" />
                       <text
-                         id="col2r14"
-                         transform="matrix(0.9513,0,0,1,170.5693,311.7686)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r15"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="304.96964">00</text>
                     </g>
                   </switch>
                   <switch
@@ -4970,11 +4983,11 @@
                          height="6.2010002"
                          id="rect1289" />
                       <text
-                         id="col2r15"
-                         transform="matrix(0.9513,0,0,1,169.8496,323.7861)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r16"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="315.97849">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5019,11 +5032,11 @@
                          height="6.2010002"
                          id="rect1297" />
                       <text
-                         id="col2r16"
-                         transform="matrix(0.9513,0,0,1,169.8496,335.8047)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r18"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="337.50818">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5068,11 +5081,11 @@
                          height="6.2010002"
                          id="rect1305" />
                       <text
-                         id="col2r17"
-                         transform="matrix(0.9513,0,0,1,169.8496,347.8213)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r20"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="360.76587">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5117,11 +5130,11 @@
                          height="6.2010002"
                          id="rect1313" />
                       <text
-                         id="col2r18"
-                         transform="matrix(0.9513,0,0,1,169.8496,359.8389)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r21"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="370.97293">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5166,11 +5179,11 @@
                          height="6.2010002"
                          id="rect1321" />
                       <text
-                         id="col2r19"
-                         transform="matrix(0.9513,0,0,1,169.8496,371.8564)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r22"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="381.98514">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5215,11 +5228,11 @@
                          height="6.2010002"
                          id="rect1329" />
                       <text
-                         id="col2r20"
-                         transform="matrix(0.9513,0,0,1,169.8496,383.874)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r23"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="392.97403">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5264,11 +5277,11 @@
                          height="6.2010002"
                          id="rect1337" />
                       <text
-                         id="col2r21"
-                         transform="matrix(0.9513,0,0,1,169.8496,395.8936)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r24"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="404.65408">00</text>
                     </g>
                   </switch>
                   <switch
@@ -5313,11 +5326,11 @@
                          height="6.2010002"
                          id="rect1345" />
                       <text
-                         id="col2r22"
-                         transform="matrix(0.9513,0,0,1,169.8496,407.9111)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="3.7792969"
-                         y="0">00</text>
+                         id="col2r25"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="178.7037"
+                         y="414.97513">00</text>
                     </g>
                   </switch>
                 </g>
@@ -5365,8 +5378,10 @@
                          id="rect1355" />
                       <text
                          id="SVGID_2_"
-                         transform="matrix(0.8878,0,0,1,20.833,155.5356)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Australia</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.80916"
+                         y="145.98373">Australia</text>
                     </g>
                   </switch>
                   <switch
@@ -5411,8 +5426,10 @@
                          id="rect1364" />
                       <text
                          id="SVGID_3_"
-                         transform="matrix(0.8878,0,0,1,20.6191,167.5591)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Austria</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.80916"
+                         y="156.61133">Austria</text>
                     </g>
                   </switch>
                   <switch
@@ -5457,8 +5474,10 @@
                          id="rect1373" />
                       <text
                          id="SVGID_4_"
-                         transform="matrix(0.8878,0,0,1,20.6191,179.583)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Belgium</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="167.23894">Belgium</text>
                     </g>
                   </switch>
                   <switch
@@ -5503,8 +5522,10 @@
                          id="rect1382" />
                       <text
                          id="SVGID_5_"
-                         transform="matrix(0.8878,0,0,1,20.0625,191.6064)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Canada</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.580963"
+                         y="177.86653">Canada</text>
                     </g>
                   </switch>
                   <switch
@@ -5549,8 +5570,10 @@
                          id="rect1391" />
                       <text
                          id="SVGID_6_"
-                         transform="matrix(0.8878,0,0,1,20.6191,203.6304)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Denmark</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="188.49413">Denmark</text>
                     </g>
                   </switch>
                   <switch
@@ -5595,8 +5618,10 @@
                          id="rect1400" />
                       <text
                          id="SVGID_7_"
-                         transform="matrix(0.8878,0,0,1,20.6191,215.6538)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Finland</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="199.12173">Finland</text>
                     </g>
                   </switch>
                   <switch
@@ -5641,8 +5666,10 @@
                          id="rect1409" />
                       <text
                          id="SVGID_8_"
-                         transform="matrix(0.8878,0,0,1,20.6191,227.6777)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">France</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="209.74933">France</text>
                     </g>
                   </switch>
                   <switch
@@ -5687,8 +5714,10 @@
                          id="rect1418" />
                       <text
                          id="SVGID_9_"
-                         transform="matrix(0.8878,0,0,1,20.6191,239.7012)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Germany</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.603048"
+                         y="220.37692">Germany</text>
                     </g>
                   </switch>
                   <switch
@@ -5733,8 +5762,10 @@
                          id="rect1427" />
                       <text
                          id="SVGID_10_"
-                         transform="matrix(0.8878,0,0,1,20.6191,251.7251)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Greece</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.603048"
+                         y="231.00453">Greece</text>
                     </g>
                   </switch>
                   <switch
@@ -5779,8 +5810,10 @@
                          id="rect1436" />
                       <text
                          id="SVGID_11_"
-                         transform="matrix(0.8878,0,0,1,20.6191,263.7485)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Ireland</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="241.63213">Ireland</text>
                     </g>
                   </switch>
                   <switch
@@ -5825,8 +5858,10 @@
                          id="rect1445" />
                       <text
                          id="SVGID_12_"
-                         transform="matrix(0.8878,0,0,1,20.6191,275.7725)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Italy</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="252.25972">Italy</text>
                     </g>
                   </switch>
                   <switch
@@ -5871,8 +5906,10 @@
                          id="rect1454" />
                       <text
                          id="SVGID_14_"
-                         transform="matrix(0.8878,0,0,1,20.6191,287.7959)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Japan</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.912216"
+                         y="262.88733">Japan</text>
                     </g>
                   </switch>
                   <switch
@@ -5917,8 +5954,10 @@
                          id="rect1463" />
                       <text
                          id="SVGID_15_"
-                         transform="matrix(0.8878,0,0,1,20.6191,299.8203)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Korea</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="273.51492">Korea</text>
                     </g>
                   </switch>
                   <switch
@@ -5963,8 +6002,10 @@
                          id="rect1472" />
                       <text
                          id="SVGID_16_"
-                         transform="matrix(0.8878,0,0,1,20.6191,311.8438)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Luxembourg</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="294.77011">Luxembourg</text>
                     </g>
                   </switch>
                   <switch
@@ -6009,8 +6050,10 @@
                          id="rect1481" />
                       <text
                          id="SVGID_17_"
-                         transform="matrix(0.8878,0,0,1,20.0811,323.8672)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Netherlands</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="305.39771">Netherlands</text>
                     </g>
                   </switch>
                   <switch
@@ -6055,8 +6098,10 @@
                          id="rect1490" />
                       <text
                          id="SVGID_18_"
-                         transform="matrix(0.8878,0,0,1,20.0811,335.8906)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Norway</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.30492"
+                         y="326.65292">Norway</text>
                     </g>
                   </switch>
                   <switch
@@ -6101,8 +6146,10 @@
                          id="rect1499" />
                       <text
                          id="SVGID_19_"
-                         transform="matrix(0.8878,0,0,1,20.0811,347.9141)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Spain</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.676659"
+                         y="347.90811">Spain</text>
                     </g>
                   </switch>
                   <switch
@@ -6147,8 +6194,10 @@
                          id="rect1508" />
                       <text
                          id="SVGID_20_"
-                         transform="matrix(0.8878,0,0,1,20.0811,359.9375)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Sweden</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.676659"
+                         y="358.53571">Sweden</text>
                     </g>
                   </switch>
                   <switch
@@ -6193,8 +6242,10 @@
                          id="rect1517" />
                       <text
                          id="SVGID_21_"
-                         transform="matrix(0.8878,0,0,1,20.0811,371.9619)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Switzerland</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.676659"
+                         y="369.1633">Switzerland</text>
                     </g>
                   </switch>
                   <switch
@@ -6239,8 +6290,10 @@
                          id="rect1526" />
                       <text
                          id="SVGID_22_"
-                         transform="matrix(0.8878,0,0,1,20.0811,383.9854)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">United Arab Emirates</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.312281"
+                         y="379.79092">United Arab Emirates</text>
                     </g>
                   </switch>
                   <switch
@@ -6285,8 +6338,10 @@
                          id="rect1535" />
                       <text
                          id="SVGID_23_"
-                         transform="matrix(0.8878,0,0,1,20.0811,396.0098)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">United Kingdom</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.312281"
+                         y="390.41852">United Kingdom</text>
                     </g>
                   </switch>
                   <switch
@@ -6331,8 +6386,10 @@
                          id="rect1544" />
                       <text
                          id="SVGID_24_"
-                         transform="matrix(0.8878,0,0,1,20.0811,408.0332)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">United States of America</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="21.312281"
+                         y="401.04611">United States of America</text>
                     </g>
                   </switch>
                 </g>
@@ -6543,338 +6600,194 @@
                        i:knockout="Off"
                        style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                        x1="13.986"
-                       y1="182.616"
+                       y1="180.32693"
                        x2="290.38901"
-                       y2="182.616"
-                       id="line1588" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="170.591"
-                       x2="290.38901"
-                       y2="170.591"
+                       y2="180.32693"
                        id="line1590" />
                     <line
                        i:knockout="Off"
                        style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                        x1="13.986"
-                       y1="242.743"
+                       y1="157.76973"
                        x2="290.38901"
-                       y2="242.743"
-                       id="line1592" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="230.718"
-                       x2="290.38901"
-                       y2="230.718"
-                       id="line1594" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="218.692"
-                       x2="290.38901"
-                       y2="218.692"
-                       id="line1596" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="206.66701"
-                       x2="290.38901"
-                       y2="206.66701"
-                       id="line1598" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="194.642"
-                       x2="290.38901"
-                       y2="194.642"
-                       id="line1600" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="158.565"
-                       x2="290.38901"
-                       y2="158.565"
+                       y2="157.76973"
                        id="line1602" />
                     <line
                        i:knockout="Off"
                        style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                        x1="13.986"
-                       y1="254.76801"
+                       y1="383.34198"
                        x2="290.38901"
-                       y2="254.76801"
-                       id="line1604" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="290.84399"
-                       x2="290.38901"
-                       y2="290.84399"
-                       id="line1606" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="338.94"
-                       x2="290.38901"
-                       y2="338.94"
-                       id="line1608" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="326.91599"
-                       x2="290.38901"
-                       y2="326.91599"
-                       id="line1610" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="314.892"
-                       x2="290.38901"
-                       y2="314.892"
-                       id="line1612" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="302.866"
-                       x2="290.38901"
-                       y2="302.866"
-                       id="line1614" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="278.819"
-                       x2="290.38901"
-                       y2="278.819"
-                       id="line1616" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="266.793"
-                       x2="290.38901"
-                       y2="266.793"
-                       id="line1618" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="375.01501"
-                       x2="290.38901"
-                       y2="375.01501"
+                       y2="383.34198"
                        id="line1620" />
                     <line
                        i:knockout="Off"
                        style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                        x1="13.986"
-                       y1="350.96399"
+                       y1="417.41788"
                        x2="290.38901"
-                       y2="350.96399"
-                       id="line1622" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="362.98901"
-                       x2="290.38901"
-                       y2="362.98901"
-                       id="line1624" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="411.091"
-                       x2="290.38901"
-                       y2="411.091"
+                       y2="417.41788"
                        id="line1626" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="387.04001"
-                       x2="290.38901"
-                       y2="387.04001"
-                       id="line1628" />
-                    <line
-                       i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
-                       x1="13.986"
-                       y1="399.065"
-                       x2="290.38901"
-                       y2="399.065"
-                       id="line1630" />
                   </g>
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="194.644"
+                     y1="202.88417"
                      x2="290.38901"
-                     y2="194.644"
+                     y2="202.88417"
                      id="line1632" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="182.618"
+                     y1="191.84563"
                      x2="290.38901"
-                     y2="182.618"
+                     y2="191.84563"
                      id="line1634" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="254.77"
+                     y1="259.5173"
                      x2="290.38901"
-                     y2="254.77"
+                     y2="259.5173"
                      id="line1636" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="242.745"
+                     y1="247.99863"
                      x2="290.38901"
-                     y2="242.745"
+                     y2="247.99863"
                      id="line1638" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="230.72"
+                     y1="236.96008"
                      x2="290.38901"
-                     y2="230.72"
+                     y2="236.96008"
                      id="line1640" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="218.694"
+                     y1="225.44141"
                      x2="290.38901"
-                     y2="218.694"
+                     y2="225.44141"
                      id="line1642" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="206.66901"
+                     y1="214.40286"
                      x2="290.38901"
-                     y2="206.66901"
+                     y2="214.40286"
                      id="line1644" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="170.593"
+                     y1="169.13533"
                      x2="290.38901"
-                     y2="170.593"
+                     y2="169.13533"
                      id="line1646" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="266.79501"
+                     y1="270.55585"
                      x2="290.38901"
-                     y2="266.79501"
+                     y2="270.55585"
                      id="line1648" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="302.87299"
+                     y1="304.63223"
                      x2="290.38901"
-                     y2="302.87299"
+                     y2="304.63223"
                      id="line1650" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="350.96799"
+                     y1="349.74622"
                      x2="290.38901"
-                     y2="350.96799"
+                     y2="349.74622"
                      id="line1652" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="338.94299"
+                     y1="338.22659"
                      x2="290.38901"
-                     y2="338.94299"
+                     y2="338.22659"
                      id="line1654" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="326.91901"
+                     y1="327.18994"
                      x2="290.38901"
-                     y2="326.91901"
+                     y2="327.18994"
                      id="line1656" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="314.896"
+                     y1="315.66983"
                      x2="290.38901"
-                     y2="314.896"
+                     y2="315.66983"
                      id="line1658" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="290.84601"
+                     y1="293.11163"
                      x2="290.38901"
-                     y2="290.84601"
+                     y2="293.11163"
                      id="line1660" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="278.82101"
+                     y1="282.07596"
                      x2="290.38901"
-                     y2="278.82101"
+                     y2="282.07596"
                      id="line1662" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="387.04199"
+                     y1="394.86066"
                      x2="290.38901"
-                     y2="387.04199"
+                     y2="394.86066"
                      id="line1664" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="362.991"
+                     y1="360.78476"
                      x2="290.38901"
-                     y2="362.991"
+                     y2="360.78476"
                      id="line1666" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="375.017"
+                     y1="372.30344"
                      x2="290.38901"
-                     y2="375.017"
+                     y2="372.30344"
                      id="line1668" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
                      x1="13.986"
-                     y1="399.06699"
+                     y1="405.8992"
                      x2="290.38901"
-                     y2="399.06699"
+                     y2="405.8992"
                      id="line1670" />
                 </g>
               </g>
@@ -6887,7 +6800,7 @@
                    i:knockout="Off"
                    style="fill:#f1f2f2"
                    width="70.865997"
-                   height="287.15201" />
+                   height="243.74248" />
                 <rect
                    id="col2greyblock_2_"
                    x="299.422"
@@ -6895,17 +6808,9 @@
                    i:knockout="Off"
                    style="fill:#f1f2f2"
                    width="117.27"
-                   height="287.15201" />
+                   height="245.17815" />
                 <g
                    id="_x5F_shading_2_">
-                  <rect
-                     x="299.422"
-                     y="384.90399"
-                     i:knockout="Off"
-                     style="fill:#e6e7e8"
-                     width="278.92401"
-                     height="13.215"
-                     id="rect1676" />
                   <rect
                      x="299.422"
                      y="332.05099"
@@ -6938,14 +6843,6 @@
                      width="278.92401"
                      height="13.214"
                      id="rect1684" />
-                  <rect
-                     x="299.422"
-                     y="358.479"
-                     i:knockout="Off"
-                     style="fill:#e6e7e8"
-                     width="278.92401"
-                     height="13.213"
-                     id="rect1686" />
                   <rect
                      x="299.422"
                      y="305.62299"
@@ -7069,30 +6966,6 @@
                      x2="578.78101"
                      y2="318.83801"
                      id="line1717" />
-                  <line
-                     i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.43709999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.876"
-                     x1="299.422"
-                     y1="371.69101"
-                     x2="578.78101"
-                     y2="371.69101"
-                     id="line1719" />
-                  <line
-                     i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
-                     x1="299.422"
-                     y1="398.11899"
-                     x2="578.78101"
-                     y2="398.11899"
-                     id="line1721" />
-                  <line
-                     i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
-                     x1="299.422"
-                     y1="384.90399"
-                     x2="578.78101"
-                     y2="384.90399"
-                     id="line1723" />
                   <line
                      i:knockout="Off"
                      style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
@@ -7608,10 +7481,6 @@
                          width="63.907001"
                          height="5.967"
                          id="rect1827" />
-                      <text
-                         id="SVGID_38_"
-                         transform="matrix(0.8878,0,0,1,302.6309,222.0347)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">GEF</text>
                     </g>
                   </switch>
                   <switch
@@ -7656,8 +7525,10 @@
                          id="rect1836" />
                       <text
                          id="SVGID_39_"
-                         transform="matrix(0.8878,0,0,1,302.6309,235.3789)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">Global Fund</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="209.45924">Global Fund</text>
                     </g>
                   </switch>
                   <switch
@@ -7702,8 +7573,10 @@
                          id="rect1845" />
                       <text
                          id="SVGID_40_"
-                         transform="matrix(0.8878,0,0,1,302.6309,248.7935)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">IDA</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="222.09891">IDA</text>
                     </g>
                   </switch>
                   <switch
@@ -7748,8 +7621,10 @@
                          id="rect1854" />
                       <text
                          id="SVGID_41_"
-                         transform="matrix(0.8878,0,0,1,302.6309,262.1045)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">IDB Special Fund</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="234.64095">IDB Special Fund</text>
                     </g>
                   </switch>
                   <switch
@@ -7794,8 +7669,10 @@
                          id="rect1863" />
                       <text
                          id="SVGID_42_"
-                         transform="matrix(0.8878,0,0,1,302.6309,275.335)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">OFID</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="247.10715">OFID</text>
                     </g>
                   </switch>
                   <switch
@@ -7840,8 +7717,10 @@
                          id="rect1872" />
                       <text
                          id="SVGID_43_"
-                         transform="matrix(0.8878,0,0,1,302.6309,287.936)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNAIDS</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="258.98032">UNAIDS</text>
                     </g>
                   </switch>
                   <switch
@@ -7886,8 +7765,10 @@
                          id="rect1881" />
                       <text
                          id="SVGID_44_"
-                         transform="matrix(0.8878,0,0,1,302.6309,301.2949)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNDP</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="271.56747">UNDP</text>
                     </g>
                   </switch>
                   <switch
@@ -7932,8 +7813,10 @@
                          id="rect1890" />
                       <text
                          id="SVGID_45_"
-                         transform="matrix(0.8878,0,0,1,302.6309,315.0684)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNFPA</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="284.54532">UNFPA</text>
                     </g>
                   </switch>
                   <switch
@@ -7978,8 +7861,10 @@
                          id="rect1899" />
                       <text
                          id="SVGID_46_"
-                         transform="matrix(0.8878,0,0,1,302.6309,327.7207)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNICEF</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="296.46671">UNICEF</text>
                     </g>
                   </switch>
                   <switch
@@ -8024,8 +7909,10 @@
                          id="rect1908" />
                       <text
                          id="SVGID_47_"
-                         transform="matrix(0.8878,0,0,1,302.6309,341.4531)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri">UNPBF</text>
+                         transform="scale(0.94223141,1.0613104)"
+                         style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
+                         x="321.18533"
+                         y="309.40579">UNPBF</text>
                     </g>
                   </switch>
                   <switch
@@ -8199,7 +8086,7 @@
                          transform="scale(0.94223141,1.0613104)"
                          style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
                          x="321.18533"
-                         y="333.41351">UNRWA</text>
+                         y="321.09149">UNRWA</text>
                     </g>
                   </switch>
                   <switch
@@ -8247,7 +8134,7 @@
                          transform="scale(0.94223141,1.0613104)"
                          style="font-size:7.53785133px;fill:#58595b;font-family:Calibri"
                          x="321.18533"
-                         y="345.99194">WFP</text>
+                         y="333.66992">WFP</text>
                     </g>
                   </switch>
                 </g>
@@ -8539,12 +8426,6 @@
                          width="70.975998"
                          height="6.2010002"
                          id="rect2002" />
-                      <text
-                         id="mcol3r6"
-                         transform="matrix(0.9513,0,0,1,532.3633,222.0742)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="10.740234"
-                         y="0">525.12</text>
                     </g>
                   </switch>
                   <switch
@@ -8589,11 +8470,11 @@
                          height="6.2030001"
                          id="rect2010" />
                       <text
-                         id="mcol3r7"
-                         transform="matrix(0.9513,0,0,1,532.3633,235.4243)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="10.720703"
-                         y="0">525.13</text>
+                         id="mcol3r6"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.27631"
+                         y="216.86499">525.13</text>
                     </g>
                   </switch>
                   <switch
@@ -8638,11 +8519,11 @@
                          height="6.2010002"
                          id="rect2018" />
                       <text
-                         id="mcol3r8"
-                         transform="matrix(0.9513,0,0,1,534.293,248.8472)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.8164062"
-                         y="0">55.24</text>
+                         id="mcol3r7"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.3974"
+                         y="229.95695">55.24</text>
                     </g>
                   </switch>
                   <switch
@@ -8687,11 +8568,11 @@
                          height="6.2030001"
                          id="rect2026" />
                       <text
-                         id="mcol3r9"
-                         transform="matrix(0.9513,0,0,1,541.0391,262.1641)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         id="mcol3r8"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.41992"
+                         y="242.94554">0</text>
                     </g>
                   </switch>
                   <switch
@@ -8736,11 +8617,11 @@
                          height="6.2010002"
                          id="rect2034" />
                       <text
-                         id="mcol3r10"
-                         transform="matrix(0.9513,0,0,1,541.0391,275.4028)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         id="mcol3r9"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.41992"
+                         y="255.85797">0</text>
                     </g>
                   </switch>
                   <switch
@@ -8785,11 +8666,11 @@
                          height="6.2030001"
                          id="rect2042" />
                       <text
-                         id="mcol3r11"
-                         transform="matrix(0.9513,0,0,1,536.2207,288.0103)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.6777344"
-                         y="0">5.12</text>
+                         id="mcol3r10"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.2879"
+                         y="268.15463">5.12</text>
                     </g>
                   </switch>
                   <switch
@@ -8834,11 +8715,11 @@
                          height="6.2020001"
                          id="rect2050" />
                       <text
-                         id="mcol3r12"
-                         transform="matrix(0.9513,0,0,1,536.2207,301.377)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7207031"
-                         y="0">9.31</text>
+                         id="mcol3r11"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.32983"
+                         y="281.1918">9.31</text>
                     </g>
                   </switch>
                   <switch
@@ -8883,11 +8764,11 @@
                          height="6.197"
                          id="rect2058" />
                       <text
-                         id="mcol3r13"
-                         transform="matrix(0.9513,0,0,1,534.293,315.1572)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.6894531"
-                         y="0">26.11</text>
+                         id="mcol3r12"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.27362"
+                         y="294.63226">26.11</text>
                     </g>
                   </switch>
                   <switch
@@ -8932,11 +8813,11 @@
                          height="6.2030001"
                          id="rect2066" />
                       <text
-                         id="mcol3r14"
-                         transform="matrix(0.9513,0,0,1,534.293,327.8105)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.9199219"
-                         y="0">43.44</text>
+                         id="mcol3r13"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.49835"
+                         y="306.9736">43.44</text>
                     </g>
                   </switch>
                   <switch
@@ -8981,11 +8862,11 @@
                          height="6.2010002"
                          id="rect2074" />
                       <text
-                         id="mcol3r15"
-                         transform="matrix(0.9513,0,0,1,536.2207,341.5508)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7207031"
-                         y="0">9.31</text>
+                         id="mcol3r14"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="556.32983"
+                         y="320.37515">9.31</text>
                     </g>
                   </switch>
                   <switch
@@ -9159,11 +9040,11 @@
                          height="6.2030001"
                          id="rect2106" />
                       <text
-                         id="mcol3r19"
+                         id="mcol3r15"
                          transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="556.41992"
-                         y="345.23233">0</text>
+                         y="332.47726">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9208,11 +9089,11 @@
                          height="6.2010002"
                          id="rect2114" />
                       <text
-                         id="mcol3r20"
+                         id="mcol3r16"
                          transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="556.37933"
-                         y="358.25858">0.37</text>
+                         y="345.50351">0.37</text>
                     </g>
                   </switch>
                 </g>
@@ -9504,12 +9385,6 @@
                          width="70.975998"
                          height="6.2010002"
                          id="rect2163" />
-                      <text
-                         id="mcol2r6"
-                         transform="matrix(0.9513,0,0,1,451.4824,222.0723)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="10.740234"
-                         y="0">525.12</text>
                     </g>
                   </switch>
                   <switch
@@ -9554,11 +9429,11 @@
                          height="6.2030001"
                          id="rect2171" />
                       <text
-                         id="mcol2r7"
-                         transform="matrix(0.9513,0,0,1,451.4824,235.4224)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="10.720703"
-                         y="0">525.13</text>
+                         id="mcol2r6"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.35095"
+                         y="216.86313">525.13</text>
                     </g>
                   </switch>
                   <switch
@@ -9603,11 +9478,11 @@
                          height="6.2010002"
                          id="rect2179" />
                       <text
-                         id="mcol2r8"
-                         transform="matrix(0.9513,0,0,1,453.4102,248.8452)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.8164062"
-                         y="0">55.24</text>
+                         id="mcol2r7"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.47012"
+                         y="229.955">55.24</text>
                     </g>
                   </switch>
                   <switch
@@ -9652,11 +9527,11 @@
                          height="6.2030001"
                          id="rect2187" />
                       <text
-                         id="mcol2r9"
-                         transform="matrix(0.9513,0,0,1,460.1562,262.1626)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         id="mcol2r8"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.49255"
+                         y="242.94408">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9701,11 +9576,11 @@
                          height="6.2010002"
                          id="rect2195" />
                       <text
-                         id="mcol2r10"
-                         transform="matrix(0.9513,0,0,1,460.1562,275.4014)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="1.7480469"
-                         y="0">0</text>
+                         id="mcol2r9"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.49255"
+                         y="255.8566">0</text>
                     </g>
                   </switch>
                   <switch
@@ -9750,11 +9625,11 @@
                          height="6.2030001"
                          id="rect2203" />
                       <text
-                         id="mcol2r11"
-                         transform="matrix(0.9513,0,0,1,455.3398,288.0088)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.6777344"
-                         y="0">5.12</text>
+                         id="mcol2r10"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.36258"
+                         y="268.15317">5.12</text>
                     </g>
                   </switch>
                   <switch
@@ -9799,11 +9674,11 @@
                          height="6.2020001"
                          id="rect2211" />
                       <text
-                         id="mcol2r12"
-                         transform="matrix(0.9513,0,0,1,455.3398,301.375)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7207031"
-                         y="0">9.31</text>
+                         id="mcol2r11"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.40448"
+                         y="281.18985">9.31</text>
                     </g>
                   </switch>
                   <switch
@@ -9848,11 +9723,11 @@
                          height="6.197"
                          id="rect2219" />
                       <text
-                         id="mcol2r13"
-                         transform="matrix(0.9513,0,0,1,453.4102,315.1562)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.6894531"
-                         y="0">26.11</text>
+                         id="mcol2r12"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.34631"
+                         y="294.63129">26.11</text>
                     </g>
                   </switch>
                   <switch
@@ -9897,11 +9772,11 @@
                          height="6.2030001"
                          id="rect2227" />
                       <text
-                         id="mcol2r14"
-                         transform="matrix(0.9513,0,0,1,453.4102,327.8145)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="8.9199219"
-                         y="0">43.44</text>
+                         id="mcol2r13"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.57111"
+                         y="306.97751">43.44</text>
                     </g>
                   </switch>
                   <switch
@@ -9946,11 +9821,11 @@
                          height="6.2010002"
                          id="rect2235" />
                       <text
-                         id="mcol2r15"
-                         transform="matrix(0.9513,0,0,1,455.3398,341.5566)"
-                         style="font-size:8px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-                         x="6.7207031"
-                         y="0">9.31</text>
+                         id="mcol2r14"
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+                         x="473.40448"
+                         y="320.38083">9.31</text>
                     </g>
                   </switch>
                   <switch
@@ -10124,11 +9999,11 @@
                          height="6.2030001"
                          id="rect2267" />
                       <text
-                         id="mcol2r19"
+                         id="mcol2r15"
                          transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="473.49255"
-                         y="345.23807">0</text>
+                         y="332.483">0</text>
                     </g>
                   </switch>
                   <switch
@@ -10173,11 +10048,11 @@
                          height="6.2010002"
                          id="rect2275" />
                       <text
-                         id="mcol2r20"
+                         id="mcol2r16"
                          transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
                          x="473.45401"
-                         y="358.26617">0.37</text>
+                         y="345.51111">0.37</text>
                     </g>
                   </switch>
                 </g>
@@ -10185,7 +10060,7 @@
                    id="_x5F_total_1_">
                   <rect
                      x="299.422"
-                     y="411.332"
+                     y="357.70828"
                      i:knockout="Off"
                      style="fill:#e6e7e8;stroke:#6d6e71;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
                      width="278.92401"
@@ -10234,10 +10109,10 @@
                          id="rect2286" />
                       <text
                          id="mul_total_value"
-                         transform="matrix(0.9513,0,0,1,532.5352,420.1855)"
-                         style="font-size:8px;fill:#58595b;font-family:Calibri-Bold;text-anchor:middle;text-align:center"
-                         x="10.849609"
-                         y="0">77.49</text>
+                         transform="scale(0.97534608,1.0252771)"
+                         style="font-size:7.80276871px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri-Bold"
+                         x="556.57825"
+                         y="357.52457">77.49</text>
                     </g>
                   </switch>
                   <switch
@@ -10283,18 +10158,18 @@
                          id="rect2295" />
                       <text
                          id="SVGID_53_"
-                         transform="scale(0.94223139,1.0613104)"
+                         transform="scale(0.94223141,1.0613104)"
                          x="321.43195"
-                         y="396.01694"
+                         y="345.491"
                          style="font-size:11.306777px">
                         <tspan
                            x="321.43195"
-                           y="396.01694"
+                           y="345.491"
                            style="font-size:7.53785133px;fill:#58595b;font-family:Calibri-Bold"
                            id="tspan2298">TOTAL</tspan>
                         <tspan
                            x="343.45377"
-                           y="396.01694"
+                           y="345.491"
                            style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
                            id="tspan2300" />
                       </text>
@@ -10343,10 +10218,10 @@
                          id="rect2307" />
                       <text
                          id="mul_total_nr"
-                         transform="scale(0.97534609,1.0252771)"
+                         transform="scale(0.97534608,1.0252771)"
                          style="font-size:7.80276871px;fill:#58595b;font-family:Calibri-Bold"
                          x="468.44202"
-                         y="409.82629">00</text>
+                         y="357.5246">00</text>
                     </g>
                   </switch>
                 </g>
@@ -10409,6 +10284,14 @@
                   </g>
                 </switch>
               </g>
+              <rect
+                 id="row21_4_-0"
+                 x="-1099.2471"
+                 y="-99.621582"
+                 i:knockout="Off"
+                 style="fill:#e6e7e8"
+                 width="345.71762"
+                 height="14.28505" />
             </g>
             <g
                id="_x5F_bubblegraph">
@@ -11709,7 +11592,7 @@
                        id="tspan2559">
                       <tspan
                          style="font-family:Calibri;-inkscape-font-specification:Calibri"
-                         id="tspan4956">In the period 2009-2010 the total amount of US$</tspan>
+                         id="tspan4956">In the period 2009-2010 the total amount of US$ Million</tspan>
                       <tspan
                          style="font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                          id="tspan4720">
@@ -11720,7 +11603,8 @@
                            dx="7.5378513">2299.13</tspan>
                         <tspan
                            id="tspan4753"
-                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri">as disbursed from donors for implementation in</tspan>
+                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
+                           dx="4">as disbursed from donors for implementation in</tspan>
                         <tspan
                            style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                            id="summary_count"
@@ -11829,17 +11713,17 @@
             <rect
                id="_x5F_greyblock_1_"
                x="14.726"
-               y="453.724"
+               y="461.15649"
                i:knockout="Off"
                style="fill:#d1d3d4"
                width="563.86102"
-               height="128.62" />
+               height="123.02348" />
             <g
                id="_x5F_header">
               <rect
                  id="block_2_"
                  x="14.6"
-                 y="439.54999"
+                 y="446.94531"
                  i:knockout="Off"
                  style="fill:#3f6e82"
                  width="564.021"
@@ -11887,8 +11771,9 @@
                      id="rect2595" />
                   <text
                      id="SVGID_70_"
-                     transform="translate(215.1426,448.9961)"
-                     style="font-size:8px;fill:#ffffff;font-family:Calibri">7 largest SINGLE disbursements in 2009-2010</text>
+                     style="font-size:8px;fill:#ffffff;font-family:Calibri"
+                     x="215.14259"
+                     y="456.99109">7 largest SINGLE disbursements in 2009-2010</text>
                 </g>
               </switch>
             </g>
@@ -12272,7 +12157,8 @@
               </g>
             </g>
             <g
-               id="_x5F_table">
+               id="_x5F_table"
+               transform="translate(0,6.3960176)">
               <g
                  id="_x5F_shading">
                 <rect
@@ -13755,6 +13641,133 @@
           </g>
         </g>
       </g>
+      <rect
+         id="row21_4_-8"
+         x="-898.50873"
+         y="-107.99634"
+         i:knockout="Off"
+         style="fill:#e6e7e8"
+         width="345.71762"
+         height="14.28505" />
+      <polyline
+         id="row21_3_-9"
+         i:knockout="Off"
+         style="fill:#e6e7e8"
+         points="13.986,423.118 13.986,411.093 290.389,411.093          290.389,423.118        "
+         transform="matrix(1.2507783,0,0,1.187946,-744.71479,-559.7638)" />
     </switch>
+    <text
+       id="col3r14"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-436.66254"
+       y="-183.26434">4.30</text>
+    <text
+       id="col2r14"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-540.02032"
+       y="-183.26434">00</text>
+    <text
+       id="SVGID_15_-3"
+       transform="scale(0.94223142,1.0613104)"
+       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri"
+       x="-763.72583"
+       y="-177.00998">Kuwait</text>
+    <text
+       id="col3r17"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-436.56009"
+       y="-142.14177">43.42</text>
+    <text
+       id="col2r17"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-540.02032"
+       y="-142.14177">00</text>
+    <text
+       y="-137.13167"
+       x="-763.72583"
+       id="SVGID_17_-7"
+       transform="scale(0.94223141,1.0613104)"
+       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri">New Zealand</text>
+    <text
+       id="col3r19"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-436.99136"
+       y="-114.53282">16.84</text>
+    <text
+       id="col2r19"
+       transform="scale(0.97534608,1.0252771)"
+       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-540.02032"
+       y="-114.63438">00</text>
+    <text
+       id="SVGID_18_-8"
+       transform="scale(0.94223142,1.0613104)"
+       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri"
+       x="-763.72583"
+       y="-110.54613">Portugal</text>
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#58595b;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Calibri"
+       x="-370.19473"
+       y="-90.232925"
+       id="text8654"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8656"
+         x="-370.19473"
+         y="-90.232925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"><tspan
+   style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Calibri"
+   id="tspan8658">ACRONYMS: </tspan>AFRO - WHO African Region; AMRO - WHO Region of the Americas; EMRO - WHO Eastern Mediterranean</tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-82.107925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8660">Region; EURO - WHO European Region; MDG - Millennium Development Goals; SEARO - WHO South-East Asia Region; </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-73.982925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8662">UN - UnitedNations;   WPRO - WHO Western Pacific Region;   AfDF - African Development Fund;  AFESD - Arab Fund for </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-65.857925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8666">Economic and Social Development; AsDBSpecialFunds-Asian Development Bank; EU Institutions-European Commission, </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-57.732925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8668">European  Community;  GAVI - Global Alliance for Vaccines and Immunization;  Global Fund - Global  Fund to Fight AIDS,</tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-49.607925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8670">Tuberculosis   and   Malaria;   IDA-International   Development   Association   (WorldBank);   IDBSp.  Fund-Inter-American </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-41.482925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8672">Development Bank,  SpecialFund;  OFID  -  OPEC Fund for International Development;  UNAIDS  -  Joint United Nations </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-33.357925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8674">Programme on HIV/AIDS; UNDP  -  UnitedNations Development Programme;  UNFPA  -  United Nations Population Fund; </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-25.232925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8698">UNICEF  -  United Nations Children’s Fund;  UNPBF  -  United Nations Peace building Fund;  UNRWA  -  United Nations </tspan><tspan
+         sodipodi:role="line"
+         x="-370.19473"
+         y="-17.107925"
+         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         id="tspan8732">Population Fund; WFP - World Food Programme</tspan></text>
   </g>
 </svg>
