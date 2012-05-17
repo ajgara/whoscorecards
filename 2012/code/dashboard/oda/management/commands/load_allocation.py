@@ -45,12 +45,13 @@ class Command(BaseCommand):
                         mdgpurpose=mdgpurpose,
                         year=row.Year
                     ).delete()
+
                     allocation = oda_models.Allocation.objects.create(
                         country=country, 
                         mdgpurpose=mdgpurpose,
                         year=row.Year, 
-                        commitment=float(row["Commitments MUSD"]),
-                        disbursement=float(row["Disbursements"])
+                        commitment=float(row["Commitments MUSD"]) if row["Commitments MUSD"] else "",
+                        disbursement=float(row["Disbursements"]) if row["Disbursements"] else ""
                     )
                 except oda_models.Recipient.DoesNotExist:
                     not_found_countries.add(row.ISO3)
