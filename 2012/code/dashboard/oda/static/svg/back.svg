@@ -14,12 +14,14 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1052.3618"
-   height="744.09894"
    id="svg7712"
    version="1.1"
    inkscape:version="0.48.0 r9654"
-   sodipodi:docname="back.svg">
+   sodipodi:docname="back.svg"
+   width="1052.36"
+   height="744.09448"
+   viewBox="0 0 1052.36 744.09446"
+  >
   <defs
      id="defs7714">
     <linearGradient
@@ -29,7 +31,7 @@
        y1="170.26511"
        x2="804.98541"
        y2="170.26511"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -55,7 +57,7 @@
        y1="170.26511"
        x2="1072.5381"
        y2="170.26511"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -81,7 +83,7 @@
        y1="227.9565"
        x2="804.98541"
        y2="227.9565"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -107,7 +109,7 @@
        y1="227.9565"
        x2="1072.5381"
        y2="227.9565"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -133,7 +135,7 @@
        y1="270.93649"
        x2="804.98541"
        y2="270.93649"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -159,7 +161,7 @@
        y1="270.93649"
        x2="1072.5381"
        y2="270.93649"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -185,7 +187,7 @@
        y1="301.37891"
        x2="805.18073"
        y2="301.37891"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -211,7 +213,7 @@
        y1="301.37891"
        x2="1072.3428"
        y2="301.37891"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -237,7 +239,7 @@
        y1="330.918"
        x2="805.18073"
        y2="330.918"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -263,7 +265,7 @@
        y1="330.918"
        x2="1072.1475"
        y2="330.918"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -289,7 +291,7 @@
        y1="390.66891"
        x2="1072.3428"
        y2="390.66891"
-       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -315,7 +317,7 @@
        y1="390.67191"
        x2="805.18073"
        y2="390.67191"
-       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960206)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -353,9 +355,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.25"
-     inkscape:cx="-0.87687421"
-     inkscape:cy="463.25238"
+     inkscape:zoom="0.5"
+     inkscape:cx="440.49709"
+     inkscape:cy="214.17179"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -364,11 +366,14 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="999"
-     inkscape:window-height="516"
+     inkscape:window-height="1034"
      inkscape:window-x="0"
-     inkscape:window-y="533"
+     inkscape:window-y="15"
      inkscape:window-maximized="0"
-     units="mm" />
+     units="mm"
+     inkscape:showpageshadow="false"
+     borderlayer="false"
+     showborder="true" />
   <metadata
      id="metadata7717">
     <rdf:RDF>
@@ -385,7 +390,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(744.71463,571.60554)">
+     transform="translate(744.71463,571.60549)">
     <switch
        id="switch6"
        transform="matrix(1.2500022,0,0,1.2618969,-744.71463,-571.60554)">
@@ -741,8 +746,8 @@
                    id="rect119" />
                 <text
                    id="_scorecardname_2_"
-                   style="font-size:12px;fill:#ffffff;font-family:Calibri"
-                   x="523.97449"
+                   style="font-size:12px;text-align:end;text-anchor:end;fill:#ffffff;font-family:Calibri"
+                   x="816.94324"
                    y="18.0576">OFFICIAL DEVELOPMENT ASSISTANCE (ODA) FOR HEALTH TO</text>
               </g>
             </switch>
