@@ -14,8 +14,8 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1052.3622"
-   height="744.09448"
+   width="1052.3618"
+   height="744.09894"
    id="svg7712"
    version="1.1"
    inkscape:version="0.48.0 r9654"
@@ -28,7 +28,8 @@
        x1="670.06641"
        y1="170.26511"
        x2="804.98541"
-       y2="170.26511">
+       y2="170.26511"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -54,7 +55,7 @@
        y1="170.26511"
        x2="1072.5381"
        y2="170.26511"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -79,7 +80,8 @@
        x1="670.06641"
        y1="227.9565"
        x2="804.98541"
-       y2="227.9565">
+       y2="227.9565"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -105,7 +107,7 @@
        y1="227.9565"
        x2="1072.5381"
        y2="227.9565"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -130,7 +132,8 @@
        x1="670.06641"
        y1="270.93649"
        x2="804.98541"
-       y2="270.93649">
+       y2="270.93649"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -156,7 +159,7 @@
        y1="270.93649"
        x2="1072.5381"
        y2="270.93649"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -181,7 +184,8 @@
        x1="670.26172"
        y1="301.37891"
        x2="805.18073"
-       y2="301.37891">
+       y2="301.37891"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -207,7 +211,7 @@
        y1="301.37891"
        x2="1072.3428"
        y2="301.37891"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -232,7 +236,8 @@
        x1="670.26172"
        y1="330.918"
        x2="805.18073"
-       y2="330.918">
+       y2="330.918"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -258,7 +263,7 @@
        y1="330.918"
        x2="1072.1475"
        y2="330.918"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -284,7 +289,7 @@
        y1="390.66891"
        x2="1072.3428"
        y2="390.66891"
-       gradientTransform="matrix(-1,0,0,1,1675.6055,0)">
+       gradientTransform="matrix(-1.0006208,0,0,0.991189,1676.3845,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -309,7 +314,8 @@
        x1="670.26172"
        y1="390.67191"
        x2="805.18073"
-       y2="390.67191">
+       y2="390.67191"
+       gradientTransform="matrix(1.0006208,0,0,0.991189,-0.26121962,2.5960012)">
       <stop
          offset="0"
          style="stop-color:#E6E7E8"
@@ -347,9 +353,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="667.25059"
-     inkscape:cy="250.58051"
+     inkscape:zoom="0.25"
+     inkscape:cx="-0.87687421"
+     inkscape:cy="463.25238"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -357,11 +363,12 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1918"
-     inkscape:window-height="517"
+     inkscape:window-width="999"
+     inkscape:window-height="516"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-y="533"
+     inkscape:window-maximized="0"
+     units="mm" />
   <metadata
      id="metadata7717">
     <rdf:RDF>
@@ -378,10 +385,10 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(744.38826,568.32741)">
+     transform="translate(744.71463,571.60554)">
     <switch
        id="switch6"
-       transform="matrix(1.2507783,0,0,1.2507783,-744.71479,-565.05151)">
+       transform="matrix(1.2500022,0,0,1.2618969,-744.71463,-571.60554)">
       <foreignObject
          requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/"
          x="0"
@@ -2888,7 +2895,7 @@
                      x="13.9754"
                      y="410.02393"
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.4770489;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.47509003;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
                      width="276.42322"
                      height="10.945549"
                      id="rect992" />
@@ -6311,7 +6318,7 @@
                      id="lines_1_">
                     <line
                        i:knockout="Off"
-                       style="fill:none;stroke:#0093d5;stroke-width:0.57349998;stroke-linejoin:round;stroke-miterlimit:10"
+                       style="fill:none;stroke:#0093d5;stroke-width:0.571145;stroke-linejoin:round;stroke-miterlimit:10"
                        x1="13.986"
                        y1="146.53999"
                        x2="290.28201"
@@ -6319,7 +6326,7 @@
                        id="line1586" />
                     <line
                        i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                       style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                        x1="13.986"
                        y1="180.32693"
                        x2="290.38901"
@@ -6327,7 +6334,7 @@
                        id="line1590" />
                     <line
                        i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                       style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                        x1="13.986"
                        y1="157.76973"
                        x2="290.38901"
@@ -6335,7 +6342,7 @@
                        id="line1602" />
                     <line
                        i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                       style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                        x1="13.986"
                        y1="383.34198"
                        x2="290.38901"
@@ -6343,7 +6350,7 @@
                        id="line1620" />
                     <line
                        i:knockout="Off"
-                       style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                       style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                        x1="13.986"
                        y1="417.41788"
                        x2="290.38901"
@@ -6352,7 +6359,7 @@
                   </g>
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="202.88417"
                      x2="290.38901"
@@ -6360,7 +6367,7 @@
                      id="line1632" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="191.84563"
                      x2="290.38901"
@@ -6368,7 +6375,7 @@
                      id="line1634" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="259.5173"
                      x2="290.38901"
@@ -6376,7 +6383,7 @@
                      id="line1636" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="247.99863"
                      x2="290.38901"
@@ -6384,7 +6391,7 @@
                      id="line1638" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="236.96008"
                      x2="290.38901"
@@ -6392,7 +6399,7 @@
                      id="line1640" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="225.44141"
                      x2="290.38901"
@@ -6400,7 +6407,7 @@
                      id="line1642" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="214.40286"
                      x2="290.38901"
@@ -6408,7 +6415,7 @@
                      id="line1644" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="169.13533"
                      x2="290.38901"
@@ -6416,7 +6423,7 @@
                      id="line1646" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="270.55585"
                      x2="290.38901"
@@ -6424,7 +6431,7 @@
                      id="line1648" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="304.63223"
                      x2="290.38901"
@@ -6432,7 +6439,7 @@
                      id="line1650" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="349.74622"
                      x2="290.38901"
@@ -6440,7 +6447,7 @@
                      id="line1652" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="338.22659"
                      x2="290.38901"
@@ -6448,7 +6455,7 @@
                      id="line1654" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="327.18994"
                      x2="290.38901"
@@ -6456,7 +6463,7 @@
                      id="line1656" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="315.66983"
                      x2="290.38901"
@@ -6464,7 +6471,7 @@
                      id="line1658" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="293.11163"
                      x2="290.38901"
@@ -6472,7 +6479,7 @@
                      id="line1660" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="282.07596"
                      x2="290.38901"
@@ -6480,7 +6487,7 @@
                      id="line1662" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="394.86066"
                      x2="290.38901"
@@ -6488,7 +6495,7 @@
                      id="line1664" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="360.78476"
                      x2="290.38901"
@@ -6496,7 +6503,7 @@
                      id="line1666" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="372.30344"
                      x2="290.38901"
@@ -6504,7 +6511,7 @@
                      id="line1668" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#6d6e71;stroke-width:0.38240001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7663"
+                     style="fill:none;stroke:#6d6e71;stroke-width:0.38082975;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76315339"
                      x1="13.986"
                      y1="405.8992"
                      x2="290.38901"
@@ -6601,7 +6608,7 @@
                    id="_x5F_lines_2_">
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#0093d5;stroke-width:0.57660002;stroke-linejoin:round;stroke-miterlimit:10"
+                     style="fill:none;stroke:#0093d5;stroke-width:0.57423234;stroke-linejoin:round;stroke-miterlimit:10"
                      x1="299.095"
                      y1="147.05701"
                      x2="578.34802"
@@ -6609,7 +6616,7 @@
                      id="line1697" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="186.69701"
                      x2="578.78101"
@@ -6617,7 +6624,7 @@
                      id="line1699" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="173.48399"
                      x2="578.78101"
@@ -6625,7 +6632,7 @@
                      id="line1701" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="252.76601"
                      x2="578.78101"
@@ -6633,7 +6640,7 @@
                      id="line1703" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="239.552"
                      x2="578.78101"
@@ -6641,7 +6648,7 @@
                      id="line1705" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="226.338"
                      x2="578.78101"
@@ -6649,7 +6656,7 @@
                      id="line1707" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="213.125"
                      x2="578.78101"
@@ -6657,7 +6664,7 @@
                      id="line1709" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="199.911"
                      x2="578.78101"
@@ -6665,7 +6672,7 @@
                      id="line1711" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="160.271"
                      x2="578.78101"
@@ -6673,7 +6680,7 @@
                      id="line1713" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="265.979"
                      x2="578.78101"
@@ -6681,7 +6688,7 @@
                      id="line1715" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="318.83801"
                      x2="578.78101"
@@ -6689,7 +6696,7 @@
                      id="line1717" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="358.479"
                      x2="578.78101"
@@ -6697,7 +6704,7 @@
                      id="line1725" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.43709999;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.876"
+                     style="fill:none;stroke:#000000;stroke-width:0.43530515;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.87240293"
                      x1="299.422"
                      y1="332.05099"
                      x2="578.78101"
@@ -6705,7 +6712,7 @@
                      id="line1727" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="305.62299"
                      x2="578.78101"
@@ -6713,7 +6720,7 @@
                      id="line1729" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="345.26401"
                      x2="578.78101"
@@ -6721,7 +6728,7 @@
                      id="line1731" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="292.40601"
                      x2="578.78101"
@@ -6729,7 +6736,7 @@
                      id="line1733" />
                   <line
                      i:knockout="Off"
-                     style="fill:none;stroke:#000000;stroke-width:0.38440001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7704"
+                     style="fill:none;stroke:#000000;stroke-width:0.38282156;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.76723655"
                      x1="299.422"
                      y1="279.19299"
                      x2="578.78101"
@@ -9783,7 +9790,7 @@
                      x="299.422"
                      y="357.70828"
                      i:knockout="Off"
-                     style="fill:#e6e7e8;stroke:#6d6e71;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
+                     style="fill:#e6e7e8;stroke:#6d6e71;stroke-width:0.49794689;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10"
                      width="278.92401"
                      height="12.025"
                      id="rect2279" />
@@ -10005,14 +10012,6 @@
                   </g>
                 </switch>
               </g>
-              <rect
-                 id="row21_4_-0"
-                 x="-1099.2471"
-                 y="-99.621582"
-                 i:knockout="Off"
-                 style="fill:#e6e7e8"
-                 width="345.71762"
-                 height="14.28505" />
             </g>
             <g
                id="_x5F_bubblegraph">
@@ -10089,7 +10088,7 @@
                    x="595.91803"
                    y="135.96001"
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40290001;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.8159"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.40124559;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81254971"
                    width="223.938"
                    height="215.858" />
                 <rect
@@ -10097,7 +10096,7 @@
                    x="595.91803"
                    y="359.741"
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.3838;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.7773"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.38222402;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.77410821"
                    width="223.938"
                    height="56.132" />
               </g>
@@ -11515,7 +11514,7 @@
                   <path
                      inkscape:connector-curvature="0"
                      i:knockout="Off"
-                     style="fill:#0093d5;stroke:#e6e7e8;stroke-width:0.96390003;stroke-miterlimit:10"
+                     style="fill:#0093d5;stroke:#e6e7e8;stroke-width:0.95994198;stroke-miterlimit:10"
                      d="m 411.088,472.079 c -26.913,0 -48.73,21.817 -48.73,48.729 0,26.914 21.817,48.731 48.73,48.731 26.915,0 48.733,-21.817 48.733,-48.731 0,-26.912 -21.818,-48.729 -48.733,-48.729 z m 0,71.084 c -12.347,0 -22.355,-10.008 -22.355,-22.354 0,-12.346 10.009,-22.354 22.355,-22.354 12.346,0 22.356,10.007 22.356,22.354 0,12.347 -10.009,22.354 -22.356,22.354 z"
                      id="path2602" />
                   <g
@@ -11540,7 +11539,7 @@
                     </clipPath>
                     <polyline
                        i:knockout="Off"
-                       style="fill:#009983;stroke:#e6e7e8;stroke-width:4.68450022"
+                       style="fill:#009983;stroke:#e6e7e8;stroke-width:4.66526461"
                        points="          411.088,520.552 411.088,464.083 465.743,493.93 458.583,561.114 411.554,520.552         "
                        id="polyline2612"
                        clip-path="url(#SVGID_71_)" />
@@ -11550,7 +11549,7 @@
                        y="0"
                        x="0"
                        xlink:href="#SVGID_13_"
-                       style="fill:none;stroke:#e6e7e8;stroke-width:4.68450022;stroke-miterlimit:10;overflow:visible"
+                       style="fill:none;stroke:#e6e7e8;stroke-width:4.66526461;stroke-miterlimit:10;overflow:visible"
                        id="use2614" />
                   </g>
                   <switch
@@ -11635,7 +11634,7 @@
                      x="474.06201"
                      y="524.09198"
                      i:knockout="Off"
-                     style="fill:#d1d3d4;stroke:#0093d5;stroke-width:0.75;stroke-miterlimit:10"
+                     style="fill:#d1d3d4;stroke:#0093d5;stroke-width:0.74692029;stroke-miterlimit:10"
                      width="81.666"
                      height="40.333"
                      id="rect2627" />
@@ -11752,7 +11751,7 @@
                      x="470.50101"
                      y="524.09198"
                      i:knockout="Off"
-                     style="fill:#0093d5;stroke:#0093d5;stroke-width:0.75;stroke-miterlimit:10"
+                     style="fill:#0093d5;stroke:#0093d5;stroke-width:0.74692029;stroke-miterlimit:10"
                      width="6.4180002"
                      height="40.333"
                      id="rect2653" />
@@ -11763,7 +11762,7 @@
                      x="474.06201"
                      y="475.33899"
                      i:knockout="Off"
-                     style="fill:#d1d3d4;stroke:#009983;stroke-width:0.75;stroke-miterlimit:10"
+                     style="fill:#d1d3d4;stroke:#009983;stroke-width:0.74692029;stroke-miterlimit:10"
                      width="81.666"
                      height="40.333"
                      id="rect2657" />
@@ -11771,7 +11770,7 @@
                      x="470.50101"
                      y="475.33899"
                      i:knockout="Off"
-                     style="fill:#009983;stroke:#009983;stroke-width:0.75;stroke-miterlimit:10"
+                     style="fill:#009983;stroke:#009983;stroke-width:0.74692029;stroke-miterlimit:10"
                      width="6.4180002"
                      height="40.333"
                      id="rect2659" />
@@ -13249,7 +13248,7 @@
                  id="_x5F_lines">
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="465.79901"
                    x2="342.556"
@@ -13257,7 +13256,7 @@
                    id="line2928" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="481.258"
                    x2="342.556"
@@ -13265,7 +13264,7 @@
                    id="line2930" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="496.71701"
                    x2="342.556"
@@ -13273,7 +13272,7 @@
                    id="line2932" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="512.17603"
                    x2="342.556"
@@ -13281,7 +13280,7 @@
                    id="line2934" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="527.63599"
                    x2="342.556"
@@ -13289,7 +13288,7 @@
                    id="line2936" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="543.09497"
                    x2="342.556"
@@ -13297,7 +13296,7 @@
                    id="line2938" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="558.55402"
                    x2="342.556"
@@ -13305,7 +13304,7 @@
                    id="line2940" />
                 <line
                    i:knockout="Off"
-                   style="fill:none;stroke:#6d6e71;stroke-width:0.40000001;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81"
+                   style="fill:none;stroke:#6d6e71;stroke-width:0.39835751;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80667394"
                    x1="26.091"
                    y1="574.013"
                    x2="342.556"
@@ -13379,132 +13378,133 @@
     </switch>
     <text
        id="col3r14"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-436.66254"
-       y="-183.26434">4.30</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-438.93881"
+       y="-185.50627">4.30</text>
     <text
        id="col2r14"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-540.02032"
-       y="-183.26434">00</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-542.72272"
+       y="-185.50627">00</text>
     <text
        id="SVGID_15_-3"
-       transform="scale(0.94223142,1.0613104)"
-       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri"
-       x="-763.72583"
-       y="-177.00998">Kuwait</text>
+       transform="scale(0.93778017,1.066348)"
+       style="font-size:9.46705532px;fill:#58595b;font-family:Calibri"
+       x="-767.36737"
+       y="-179.17567">Kuwait</text>
     <text
        id="col3r17"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-436.56009"
-       y="-142.14177">43.42</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-438.83594"
+       y="-144.21416">43.42</text>
     <text
        id="col2r17"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-540.02032"
-       y="-142.14177">00</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-542.72272"
+       y="-144.21416">00</text>
     <text
-       y="-137.13167"
-       x="-763.72583"
+       y="-139.13293"
+       x="-767.36737"
        id="SVGID_17_-7"
-       transform="scale(0.94223141,1.0613104)"
-       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri">New Zealand</text>
+       transform="scale(0.93778017,1.066348)"
+       style="font-size:9.46705532px;fill:#58595b;font-family:Calibri">New Zealand</text>
     <text
        id="col3r19"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-436.99136"
-       y="-114.53282">16.84</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-439.26898"
+       y="-116.49136">16.84</text>
     <text
        id="col2r19"
-       transform="scale(0.97534608,1.0252771)"
-       style="font-size:9.75953388px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-540.02032"
-       y="-114.63438">00</text>
+       transform="scale(0.9707384,1.0301436)"
+       style="font-size:9.79977417px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
+       x="-542.72272"
+       y="-116.59334">00</text>
     <text
        id="SVGID_18_-8"
-       transform="scale(0.94223142,1.0613104)"
-       style="font-size:9.42818069px;fill:#58595b;font-family:Calibri"
-       x="-763.72583"
-       y="-110.54613">Portugal</text>
+       transform="scale(0.93778017,1.066348)"
+       style="font-size:9.46705532px;fill:#58595b;font-family:Calibri"
+       x="-767.36737"
+       y="-112.43777">Portugal</text>
     <text
        xml:space="preserve"
-       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#58595b;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Calibri"
-       x="-370.19473"
-       y="-90.232925"
+       style="font-size:18.07421684px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#58595b;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Calibri"
+       x="-372.18521"
+       y="-92.128845"
        id="text8654"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="125%"
+       transform="scale(0.99527583,1.0047466)"><tspan
          sodipodi:role="line"
          id="tspan8656"
-         x="-370.19473"
-         y="-90.232925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"><tspan
-   style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-92.128845"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"><tspan
+   style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;text-anchor:start;fill:#0093d5;font-family:Arial;-inkscape-font-specification:Calibri"
    id="tspan8658">ACRONYMS: </tspan>AFRO-WHO African Region; AMRO-WHO Region of the Americas; EMRO - WHO Eastern Mediterranean</tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-82.107925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-83.970345"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8660">Region; EURO - WHO European Region; MDG-Millennium Development Goals; SEARO - WHO South-East Asia Region; </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-73.982925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-75.811844"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8662">UN - UnitedNations;  WPRO - WHO Western Pacific Region;  AfDF - African Development Fund;  AFESD - Arab Fund for </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-65.857925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-67.653343"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8666">Economic and Social Development; AsDBSpecialFunds-Asian Development Bank; EU Institutions-European Commission, </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-57.732925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-59.494843"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8668">European  Community;  GAVI-Global Alliance for Vaccines and Immunization;  Global Fund - Global  Fund to Fight AIDS,</tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-49.607925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-51.336342"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8670">Tuberculosis   and   Malaria;   IDA-International   Development  Association  (WorldBank);   IDBSp.  Fund-Inter-American </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-41.482925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-43.177841"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8672">Development Bank,  SpecialFund;  OFID  -  OPEC Fund for International Development;  UNAIDS  -  Joint United Nations </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-33.357925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-35.019341"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8674">Programme on HIV/AIDS; UNDP  -  UnitedNations Development Programme;  UNFPA - United Nations Population Fund; </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-25.232925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-26.860838"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8698">UNICEF  -  United Nations Children’s Fund;  UNPBF  -  United Nations Peace building Fund;  UNRWA  -  United Nations </tspan><tspan
          sodipodi:role="line"
-         x="-370.19473"
-         y="-17.107925"
-         style="font-size:6.5px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
+         x="-372.18521"
+         y="-18.702337"
+         style="font-size:6.52680063px;font-weight:normal;text-align:start;text-anchor:start;fill:#58595b;fill-opacity:1;-inkscape-font-specification:Calibri"
          id="tspan8732">Population Fund; WFP - World Food Programme</tspan></text>
     <rect
-       x="-9.4427567"
-       y="-5.7720118"
+       x="-9.8988037"
+       y="-7.3544283"
        i:knockout="Off"
-       style="fill:none;stroke:#6d6e71;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80999999"
-       width="305.60898"
-       height="171.14999"
+       style="fill:none;stroke:#6d6e71;stroke-width:0.49999997;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.80999998"
+       width="305.41937"
+       height="172.6714"
        id="rect7578" />
     <rect
-       x="-370.26694"
-       y="-96.307922"
+       x="-370.49911"
+       y="-98.695137"
        i:knockout="Off"
-       style="fill:none;stroke:#6d6e71;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81000002"
-       width="350.08484"
-       height="80.149994"
+       style="fill:none;stroke:#6d6e71;stroke-width:0.49999997;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81000001"
+       width="349.86761"
+       height="80.862473"
        id="rect7578-3" />
   </g>
 </svg>
