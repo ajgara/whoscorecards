@@ -160,8 +160,12 @@ function load_front(json) {
             d3.select(box).attr("transform", "matrix(1,0,0,-1,0,20)");
         }
     }
+
+    function fmt_dollars(val) {
+        return "$" + r2(val);
+    }
     function fmt_millions(val) {
-        return "$" + r2(val) + "m";
+        return fmt_dollars(val) + "m";
     }
 
     /* --------- ODA for health commitments, per capita */
@@ -211,7 +215,7 @@ function load_front(json) {
     }
     
     var change = arrow_change("Commitments per capita USD");
-    d3.select("#bar3_value").text(fmt_millions(change["change"]));
+    d3.select("#bar3_value").text(fmt_dollars(change["change"]));
     manipulate_arrow("#bar3_arrow", change["increase"]);
 
     rbg = new RoundedBarGraph(rounded);
@@ -234,7 +238,7 @@ function load_front(json) {
         }, [])
     }
     var change = arrow_change("Disbursements per capita USD");
-    d3.select("#bar4_value").text(fmt_millions(change["change"]));
+    d3.select("#bar4_value").text(fmt_dollars(change["change"]));
     manipulate_arrow("#bar4_arrow", change["increase"]);
 
     rbg = new RoundedBarGraph(rounded);
