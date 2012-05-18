@@ -138,7 +138,7 @@ function load_front(json) {
             const_val: '0'
         },
         width : 170,
-        height : 122,
+        height : 102,
     }
 
     function arrow_change(indicator) {
@@ -169,12 +169,25 @@ function load_front(json) {
     }
 
     /* --------- ODA for health commitments, per capita */
+
+    
+    max = _.reduce(all_years, function(memo, year) {
+        var val = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"]
+        if (val > memo) memo = val;
+
+        val = json.indicators[year]["ODA for Health Disbursements (Million constant 2009 US$)"]
+        if (val > memo) memo = val;
+
+        return memo
+        
+    }, 0);
     rounded["node"] = "#oda_bar1"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"];
         memo.push({"value" : round(indicator, 2), "series" : year});
         return memo;
     }, [])
+    rounded["max"] = max;
     var change = arrow_change("ODA for Health Commitments, (Million constant 2009 US$)");
     d3.select("#bar1_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar1_arrow", change["increase"]);
@@ -190,6 +203,7 @@ function load_front(json) {
         memo.push({"value" : round(indicator, 2), "series" : year});
         return memo;
     }, [])
+    rounded["max"] = max;
     var change = arrow_change("ODA for Health Disbursements (Million constant 2009 US$)");
     d3.select("#bar2_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar2_arrow", change["increase"]);
@@ -198,6 +212,24 @@ function load_front(json) {
     d3.select("#oda_bar2_old").remove();
 
     /* --------- ODA for health commitments, per capita */
+    max = _.reduce(all_years, function(memo, year) {
+        var val = json.indicators[year]["Commitments per capita USD"]
+        if (val > memo) memo = val;
+
+        val = json.indicators[year]["Disbursements per capita USD"]
+        if (val > memo) memo = val;
+
+        val = json.indicators[year]["Regional AvComm per capita"]
+        if (val > memo) memo = val;
+
+        val = json.indicators[year]["Regional AvDisb per capita"]
+        if (val > memo) memo = val;
+
+        return memo
+        
+    }, 0);
+
+    rounded["max"] = max;
     rounded["bar"]["color"] = "#0093d5";
     rounded["node"] = "#oda_bar3"
     rounded["data"] = _.reduce(all_years, function(memo, year) {

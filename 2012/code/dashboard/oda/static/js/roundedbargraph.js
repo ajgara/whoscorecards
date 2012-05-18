@@ -11,6 +11,7 @@ RoundedBarGraph = function(ctx){
     var chart_height = ctx.chart_height || 0.8;
     var chart_width = ctx.chart_width || 0.9;
 
+    this.max = ctx.max;
 
     this.line = ctx.line || {};
     this.line.type = this.line.type || ''; // Currently only supports avg, const and point
@@ -44,12 +45,14 @@ RoundedBarGraph.prototype = {
         if (data.length === undefined || data.length === 0) { return; }
         this.data = data;
 
-        this.max = 0;
-        this.total = 0;
-        for (var i =0 ; i < this.data.length; i ++){
-            var val = this.data[i].value;
-            if (val > this.max){
-                this.max = val;
+        if (this.max == undefined) {
+            this.max = 0;
+            this.total = 0;
+            for (var i =0 ; i < this.data.length; i ++){
+                var val = this.data[i].value;
+                if (val > this.max){
+                    this.max = val;
+                }
             }
         }
         this.max = this.max * 1.5;
@@ -134,24 +137,12 @@ RoundedBarGraph.prototype = {
                 .attr('class', function(d, i){ return  'rb-bar rb-bar-top-square rb-bar-' + i; });
         }
 
-        // add the text above the bars
-        bg.enter().append('text')
-            .attr('x', function(d, i){ return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; })
-            .attr('y', function(d, i){ return me.h - y(d.value) -0.5 - me.chart.height_offset; })
-            .attr('dx', 0)
-            .attr('dy', -5)
-            .attr('class', function(d, i){ return  'rb-bar rb-bar-text rb-bar-text-' + i; })
-            .attr('text-anchor', 'middle')
-            .attr('font-size', '10px')
-            .attr('fill', me.bar.color)
-            .text(function(d){ return d.value; });
-
         // add the x series
         bg.enter().append('text')
             .attr('x', function(d, i){ return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; })
             .attr('y', function(d, i){ return me.h * 0.9; })
             .attr('dx', 0)
-            .attr('dy', -6)
+            .attr('dy', -3)
             .attr('class', function(d, i){ return  'rb-series rb-series-' + i; })
             .attr('text-anchor', 'middle')
             .attr('font-size', '13px')
@@ -227,6 +218,19 @@ RoundedBarGraph.prototype = {
                     .attr('stroke', this.line.color);
             }
         }
+
+        // add the text above the bars
+        bg.enter().append('text')
+            .attr('x', function(d, i){ return x(i) + me.chart.width_offset + me.bar.margin * i + me.bar.width / 2; })
+            .attr('y', function(d, i){ return me.h - y(d.value) -0.5 - me.chart.height_offset; })
+            .attr('dx', 0)
+            .attr('dy', -5)
+            .attr('class', function(d, i){ return  'rb-bar rb-bar-text rb-bar-text-' + i; })
+            .attr('text-anchor', 'middle')
+            .attr('font-size', '10px')
+            .attr('fill', me.bar.color)
+            .text(function(d){ return d.value; });
+
 
 
     }
