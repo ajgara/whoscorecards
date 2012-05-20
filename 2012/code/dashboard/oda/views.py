@@ -10,36 +10,36 @@ from collections import defaultdict
 
 import models
 
-def data_country_name(request, iso3):
-    country = get_object_or_404(models.Recipient, iso3=iso3) 
-    data = [{
-        "Name" : country.name, 
-        "ISO3" : country.iso3
-    }]
-    return HttpResponse(json.dumps(data))
-
-def data_allocation(request, iso3):
-    country = get_object_or_404(models.Recipient, iso3=iso3) 
-    allocations = models.Allocation.objects.filter(country=country)
-    js = json.dumps( [{
-        'mdgpurpose' : a.mdgpurpose.pk,
-        'commitment' : a.commitment,
-        'disbursement' : a.disbursement,
-        'year' : a.year,
-    } for a in allocations])
-    
-    return HttpResponse(js)
-
-def country_data(request, iso3):
-    country = get_object_or_404(models.Recipient, iso3=iso3) 
-    indicators = models.CountryIndicator.objects.filter(country=country)
-    js = json.dumps( [{
-        'indicator' : i.indicator.pk,
-        'value' : i.value,
-        'year' : i.year,
-    } for i in indicators])
-    
-    return HttpResponse(js)
+#def data_country_name(request, iso3):
+#    country = get_object_or_404(models.Recipient, iso3=iso3) 
+#    data = [{
+#        "Name" : country.name, 
+#        "ISO3" : country.iso3
+#    }]
+#    return HttpResponse(json.dumps(data))
+#
+#def data_allocation(request, iso3):
+#    country = get_object_or_404(models.Recipient, iso3=iso3) 
+#    allocations = models.Allocation.objects.filter(country=country)
+#    js = json.dumps( [{
+#        'mdgpurpose' : a.mdgpurpose.pk,
+#        'commitment' : a.commitment,
+#        'disbursement' : a.disbursement,
+#        'year' : a.year,
+#    } for a in allocations])
+#    
+#    return HttpResponse(js)
+#
+#def country_data(request, iso3):
+#    country = get_object_or_404(models.Recipient, iso3=iso3) 
+#    indicators = models.CountryIndicator.objects.filter(country=country)
+#    js = json.dumps( [{
+#        'indicator' : i.indicator.pk,
+#        'value' : i.value,
+#        'year' : i.year,
+#    } for i in indicators])
+#    
+#    return HttpResponse(js)
 
 def front_data(request, iso3):
     country = get_object_or_404(models.Recipient, iso3=iso3) 
@@ -47,15 +47,18 @@ def front_data(request, iso3):
     allocations = models.Allocation.objects.filter(country=country)
 
     hd_indicator = models.GeneralIndicator.objects.get(name="ODA for Health Disbursements (Million constant 2009 US$)")
-    mdg6_purpose = models.MDGPurpose.objects.get(name="MDG6")
-    #hp_purpose = models.MDGPurpose.objects.get(name="HEALTH POLICY & ADMIN. MANAGEMENT")
-    #ohp = models.MDGPurpose.objects.get(name="Other Health Purposes")
-    #rhfp_purpose = models.MDGPurpose.objects.get(name="RH & FP")
-    
     # summary calculations
-    hd_2000 = country_indicators.get(year="2000", indicator=hd_indicator)
-    hd_2010 = country_indicators.get(year="2010", indicator=hd_indicator)
+    try:
+        hd_2000 = country_indicators.get(year="2000", indicator=hd_indicator)
+    except models.CountryIndicator.DoesNotExist:
+        hd_2000 = 0
 
+    try:
+        hd_2010 = country_indicators.get(year="2010", indicator=hd_indicator)
+    except models.CountryIndicator.DoesNotExist:
+        hd_2010 = 0
+
+    # Highest valued allocation in 2010
     alloc_2010 = allocations.filter(year="2010").order_by("-disbursement")[0]
     mdg_purpose = alloc_2010.mdgpurpose
     alloc_2000 = allocations.get(year="2000", mdgpurpose=mdg_purpose)
@@ -91,6 +94,28 @@ def front_data(request, iso3):
             "disbursements" : allocations_disbursements,
         },
     }
+
+    # sanity checks
+    i1_text = "ODA for Health Commitments, (Million constant 2009 US$)"
+    i2_text = "ODA for Health Disbursements (Million constant 2009 US$)"
+    total_commitments1 = { year : value[i1_text] for year, value in indicators.items() }
+    total_disbursements1 = { year : value[i2_text] for year, value in indicators.items() }
+    total_commitments2 = { year : sum(ac.values()) for year, ac in allocations_commitments.items()}
+    total_disbursements2 = { year : sum(ac.values()) for year, ac in  allocations_disbursements.items()}
+    total_disbursements3 = models.DisbursementSource.objects.filter(country=country).aggregate(Sum('amount'))["amount__sum"]
+    try:
+        assert abs(total_disbursements1["2010"] - total_disbursements3) < 0.0001
+    except AssertionError:
+        print "Error comparing sources: ", (total_disbursements1["2010"] - total_disbursements3)
+
+    for year in total_commitments1:
+        try:
+            assert abs(total_commitments1[year] - total_commitments2[year]) < 0.0001
+            assert abs(total_disbursements1[year] - total_disbursements2[year]) < 0.0001
+        except AssertionError:
+            print "Error in year: %s" % year
+            print total_commitments1[year] - total_commitments2[year]
+            print total_disbursements1[year] - total_disbursements2[year]
     
     return HttpResponse(json.dumps(js, indent=4))
 
