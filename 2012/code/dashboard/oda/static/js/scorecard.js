@@ -34,7 +34,14 @@ function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(r1(json.summary.sum_increase) + "%");
     d3.select("#sum_amount").text(r0(json.summary.sum_2010) + "%");
-    d3.select("#sum_purpose").text(json.summary.sum_purpose);
+
+    console.log(json.summary.sum_purpose);
+    purpose_mapping = {
+        "HEALTH POLICY & ADMIN. MANAGEMENT" : "Health Policy & Admin",
+        "MDG6" : "MDG6",
+        "Other Health Purposes" : "Other Health Purposes"
+    }
+    d3.select("#sum_purpose").text(purpose_mapping[json.summary.sum_purpose]);
     d3.select("#sum_2000").text(r0(json.summary.sum_2000) + "%");
 
     var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
