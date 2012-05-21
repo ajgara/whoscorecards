@@ -12,11 +12,36 @@
         <script type="text/javascript" src="{{ STATIC_URL }}js/miso.ds.0.1.0.js"></script>
         <!--<script type="text/javascript" src="{{ STATIC_URL }}js/miso.ds.deps.min.0.1.1.js"></script>-->
 
-        <link rel="stylesheet" href="{{ STATIC_URL }}css/style.css" type="text/css" media="screen"/>
+        <!--<link rel="stylesheet" href="{{ STATIC_URL }}css/style.css" type="text/css" media="screen"/>-->
 
         <style>
             /* A4 page */
             svg, #scorecard { width:2126px ; height:1495px;}
+
+            @font-face {
+                font-family: 'UniversLT-LightUltraCondensed';
+                src: url('{{ STATIC_URL }}fonts/uluc.ttf');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'Univers LT 49 LightUltraCn';
+                src: url('{{ STATIC_URL }}fonts/uluc.ttf');
+                font-weight: normal;
+                font-style: normal;
+            }
+
+            @font-face {
+                font-family: 'Calibri';
+                src: url('{{ STATIC_URL }}css/calibri.ttf');
+            }
+
+            @font-face {
+                font-family: 'Calibri-Bold';
+                src: url('{{ STATIC_URL }}css/calibri-bold.ttf');
+            }
+
         </style>
         {% block styles %}
         {% endblock %}
