@@ -30,7 +30,11 @@ class Command(BaseCommand):
                     if row.ISO3 in countries:
                         country = countries[row.ISO3]
                     else:
-                        country = oda_models.Recipient.objects.get(iso3=row.ISO3)
+                        country, _ = oda_models.Recipient.objects.get_or_create(
+                            iso3=row.ISO3
+                        )
+                        country.name = row.Countries
+                        country.save()
                         countries[row.ISO3] = country
 
                     if row.Indicators in indicators:
