@@ -355,9 +355,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="387.54062"
-     inkscape:cy="87.71687"
+     inkscape:zoom="2"
+     inkscape:cx="352.66721"
+     inkscape:cy="102.62059"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -9761,7 +9761,8 @@
               </switch>
             </g>
             <g
-               id="_x5F_piechart">
+               id="_x5F_piechart"
+               transform="translate(0,6.3396623)">
               <rect
                  id="_x5F_whiteblock_1_"
                  x="353.5"
@@ -10154,15 +10155,16 @@
                    height="108.214" />
                 <rect
                    id="_x5F_whiteblock_3_"
-                   x="167.729"
+                   x="182.12898"
                    y="465.79901"
                    i:knockout="Off"
                    style="fill:#e6e7e8"
-                   width="174.828"
+                   width="160.42802"
                    height="108.214" />
               </g>
               <g
-                 id="_x5F_col4">
+                 id="_x5F_col4"
+                 transform="translate(14.399974,0)">
                 <switch
                    id="col3row1_2_"
                    i:objectNS="http://ns.adobe.com/Flows/1.0/"
@@ -11616,8 +11618,8 @@
                      id="rect2950" />
                   <text
                      id="SVGID_76_"
-                     transform="translate(26.0908,462.6406)"
-                     style="font-size:5px;fill:#414042;font-family:Calibri">in Million constant US$</text>
+                     style="font-size:5px;fill:#414042;font-family:Calibri"
+                     transform="translate(26.0908,462.6406)">in Million constant US$</text>
                 </g>
               </switch>
             </g>
