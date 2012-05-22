@@ -29,6 +29,14 @@ r2 = function(v) {
     return check_before_fmt(v, function(v) {return v.formatThousands(2);});
 }
 
+r12 = function(v) {
+    return check_before_fmt(v, function(v) {
+        if (v < 1000000) 
+            return v.formatThousands(2);
+        return v.formatThousands(1);
+    });
+}
+
 
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
@@ -47,7 +55,7 @@ function load_front(json) {
     var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
     _.each(all_years, function(el, i) {
         var indicators = json.indicators[el];
-        d3.select("#indc" + (i + 2) + "r1").text(r1(indicators["Population as at 30 june of each year"] / 1000000));
+        d3.select("#indc" + (i + 2) + "r1").text(r12(indicators["Population as at 30 june of each year"] / 1000000));
         d3.select("#indc" + (i + 2) + "r2").text(r2(indicators["Commitments TOTAL ODA  (Million constant 2009 US$)"]));
         d3.select("#indc" + (i + 2) + "r3").text(r2(indicators["Disbursements TOTAL ODA  (Million constant 2009 US$)"]));
         d3.select("#indc" + (i + 2) + "r4").text(r2(indicators["ODA for Health Commitments, (Million constant 2009 US$)"]));
