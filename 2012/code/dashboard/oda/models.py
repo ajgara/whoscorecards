@@ -3,7 +3,7 @@ from django.db import models
 class Country(models.Model):
 
     name = models.CharField(max_length=60)
-    iso3 = models.CharField(max_length=3)
+    iso3 = models.CharField(max_length=3, unique=True)
 
     class Meta:
         abstract = True
