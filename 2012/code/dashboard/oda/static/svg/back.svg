@@ -2,10 +2,11 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:ns0="http://ns.adobe.com/Extensibility/1.0/"
    xmlns:ns="http://ns.adobe.com/Flows/1.0/"
    xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
-   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -20,8 +21,7 @@
    sodipodi:docname="back.svg"
    width="1052.36"
    height="744.09448"
-   viewBox="0 0 1052.36 744.09446"
-  >
+   viewBox="0 0 1052.36 744.09446">
   <defs
      id="defs7714">
     <linearGradient
@@ -355,9 +355,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="440.49709"
-     inkscape:cy="214.17179"
+     inkscape:zoom="1"
+     inkscape:cx="707.24737"
+     inkscape:cy="127.76258"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -365,10 +365,10 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="999"
-     inkscape:window-height="1034"
+     inkscape:window-width="958"
+     inkscape:window-height="512"
      inkscape:window-x="0"
-     inkscape:window-y="15"
+     inkscape:window-y="537"
      inkscape:window-maximized="0"
      units="mm"
      inkscape:showpageshadow="false"
@@ -871,1741 +871,6 @@
                  width="235.94099"
                  height="149.495"
                  id="rect137" />
-              <text
-                 id="_source_x5F_wording_2_"
-                 x="591"
-                 y="462.56088">
-                <tspan
-                   x="591"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#0093d5;font-family:Calibri-Bold"
-                   id="tspan140">SOURCE:</tspan>
-                <tspan
-                   x="613.461"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan142" />
-                <tspan
-                   x="615.35199"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan144">This</tspan>
-                <tspan
-                   x="625.354"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan146" />
-                <tspan
-                   x="627.245"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan148">information</tspan>
-                <tspan
-                   x="656.84198"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan150" />
-                <tspan
-                   x="658.73199"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan152">was</tspan>
-                <tspan
-                   x="668.46698"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan154" />
-                <tspan
-                   x="670.35602"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan156">extracted</tspan>
-                <tspan
-                   x="694.09601"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan158" />
-                <tspan
-                   x="695.98602"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan160">on</tspan>
-                <tspan
-                   x="702.45099"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan162" />
-                <tspan
-                   x="704.34198"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan164">13/02/2012</tspan>
-                <tspan
-                   x="733.96204"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan166" />
-                <tspan
-                   x="735.85303"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan168">from</tspan>
-                <tspan
-                   x="748.00403"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan170" />
-                <tspan
-                   x="749.89502"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan172">the</tspan>
-                <tspan
-                   x="758.22101"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan174" />
-                <tspan
-                   x="760.11102"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan176">Creditor</tspan>
-                <tspan
-                   x="780.604"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan178" />
-                <tspan
-                   x="782.49402"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan180">Reporting</tspan>
-                <tspan
-                   x="807.01599"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan182" />
-                <tspan
-                   x="808.90601"
-                   y="462.56088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan184">System</tspan>
-                <tspan
-                   x="591"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan186">(CRS)</tspan>
-                <tspan
-                   x="604.125"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan188" />
-                <tspan
-                   x="605.92603"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan190">database</tspan>
-                <tspan
-                   x="628.68799"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan192" />
-                <tspan
-                   x="630.48798"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan194">maintained</tspan>
-                <tspan
-                   x="658.84998"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan196" />
-                <tspan
-                   x="660.65002"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan198">by</tspan>
-                <tspan
-                   x="666.651"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan200" />
-                <tspan
-                   x="668.45099"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan202">the</tspan>
-                <tspan
-                   x="676.77698"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan204" />
-                <tspan
-                   x="678.578"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan206">Organization</tspan>
-                <tspan
-                   x="710.47198"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan208" />
-                <tspan
-                   x="712.271"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan210">for</tspan>
-                <tspan
-                   x="719.50201"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan212" />
-                <tspan
-                   x="721.30298"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan214">Economic</tspan>
-                <tspan
-                   x="745.49603"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan216" />
-                <tspan
-                   x="747.297"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan218">Co-operation</tspan>
-                <tspan
-                   x="780.15302"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan220" />
-                <tspan
-                   x="781.953"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan222">and</tspan>
-                <tspan
-                   x="791.34503"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan224" />
-                <tspan
-                   x="793.14502"
-                   y="469.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan226">Development</tspan>
-                <tspan
-                   x="591"
-                   y="477.1619"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan228">(OECD), Statistics Department (http://stats.oecd.org/Index.aspx).</tspan>
-                <tspan
-                   x="591"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#0093d5;font-family:Calibri-Bold"
-                   id="tspan230">DEFINITIONS:</tspan>
-                <tspan
-                   x="625.43701"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan232" />
-                <tspan
-                   x="628.34003"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan234">CRS</tspan>
-                <tspan
-                   x="637.76703"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan236" />
-                <tspan
-                   x="640.66998"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan238">financial</tspan>
-                <tspan
-                   x="661.625"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan240" />
-                <tspan
-                   x="664.52698"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan242">data</tspan>
-                <tspan
-                   x="675.677"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan244" />
-                <tspan
-                   x="678.58002"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan246">presented</tspan>
-                <tspan
-                   x="703.98999"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan248" />
-                <tspan
-                   x="706.89398"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan250">here</tspan>
-                <tspan
-                   x="718.35803"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan252" />
-                <tspan
-                   x="721.26099"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan254">are</tspan>
-                <tspan
-                   x="729.38501"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan256" />
-                <tspan
-                   x="732.28699"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan258">commitments</tspan>
-                <tspan
-                   x="767.03802"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan260" />
-                <tspan
-                   x="769.94098"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan262">and</tspan>
-                <tspan
-                   x="779.33203"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan264" />
-                <tspan
-                   x="782.23499"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan266">disbursements.</tspan>
-                <tspan
-                   x="820.453"
-                   y="484.46088"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan268" />
-                <tspan
-                   x="823.35602"
-                   y="484.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan270">A</tspan>
-                <tspan
-                   x="591"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan272">commitment</tspan>
-                <tspan
-                   x="623.35699"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan274" />
-                <tspan
-                   x="625.56598"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan276">is</tspan>
-                <tspan
-                   x="629.35303"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan278" />
-                <tspan
-                   x="631.56201"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan280">a</tspan>
-                <tspan
-                   x="634.5"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan282" />
-                <tspan
-                   x="636.71002"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan284">firm</tspan>
-                <tspan
-                   x="647.013"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan286" />
-                <tspan
-                   x="649.22302"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan288">written</tspan>
-                <tspan
-                   x="667.328"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan290" />
-                <tspan
-                   x="669.53699"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan292">obligation</tspan>
-                <tspan
-                   x="694.5"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan294" />
-                <tspan
-                   x="696.70898"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan296">by</tspan>
-                <tspan
-                   x="702.711"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan298" />
-                <tspan
-                   x="704.91998"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan300">a</tspan>
-                <tspan
-                   x="707.85901"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan302" />
-                <tspan
-                   x="710.06799"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan304">government</tspan>
-                <tspan
-                   x="740.62201"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan306" />
-                <tspan
-                   x="742.83099"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan308">or o</tspan>
-                <tspan
-                   x="748.20001"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan310">f</tspan>
-                <tspan
-                   x="750.41003"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan312">ficial</tspan>
-                <tspan
-                   x="766.93799"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan314" />
-                <tspan
-                   x="769.146"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan316">agency,</tspan>
-                <tspan
-                   x="788.13501"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan318" />
-                <tspan
-                   x="790.34399"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan320">backed</tspan>
-                <tspan
-                   x="808.16803"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan322" />
-                <tspan
-                   x="810.37701"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan324">by</tspan>
-                <tspan
-                   x="816.37903"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan326" />
-                <tspan
-                   x="818.58801"
-                   y="491.76089"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan328">the</tspan>
-                <tspan
-                   x="591"
-                   y="499.06088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan330">appropriation or availability of the necessary funds, to provide resources of a specified amount</tspan>
-                <tspan
-                   x="591"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan332">under</tspan>
-                <tspan
-                   x="605.86298"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan334" />
-                <tspan
-                   x="608.40997"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan336">specified</tspan>
-                <tspan
-                   x="630.59802"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan338">f</tspan>
-                <tspan
-                   x="633.14502"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan340">inancial</tspan>
-                <tspan
-                   x="654.09998"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan342" />
-                <tspan
-                   x="656.646"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan344">terms</tspan>
-                <tspan
-                   x="671.19299"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan346" />
-                <tspan
-                   x="673.73999"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan348">and</tspan>
-                <tspan
-                   x="683.13098"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan350" />
-                <tspan
-                   x="685.67798"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan352">conditions</tspan>
-                <tspan
-                   x="711.633"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan354" />
-                <tspan
-                   x="714.17999"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan356">and</tspan>
-                <tspan
-                   x="723.57098"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan358" />
-                <tspan
-                   x="726.11902"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan360">for</tspan>
-                <tspan
-                   x="733.349"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan362" />
-                <tspan
-                   x="735.896"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan364">specified</tspan>
-                <tspan
-                   x="758.08301"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan366" />
-                <tspan
-                   x="760.63"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan368">development</tspan>
-                <tspan
-                   x="793.83801"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan370" />
-                <tspan
-                   x="796.38501"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan372">purposes.</tspan>
-                <tspan
-                   x="820.80902"
-                   y="506.36188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan374" />
-                <tspan
-                   x="823.35498"
-                   y="506.36188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan376">A</tspan>
-                <tspan
-                   x="591"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan378">disbursement</tspan>
-                <tspan
-                   x="625.29102"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan380" />
-                <tspan
-                   x="626.61499"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan382">is</tspan>
-                <tspan
-                   x="630.40002"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan384" />
-                <tspan
-                   x="631.72601"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan386">the</tspan>
-                <tspan
-                   x="640.052"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan388" />
-                <tspan
-                   x="641.37701"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan390">release</tspan>
-                <tspan
-                   x="659.39398"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan392" />
-                <tspan
-                   x="660.71899"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan394">of</tspan>
-                <tspan
-                   x="665.81799"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan396" />
-                <tspan
-                   x="667.14301"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan398">funds</tspan>
-                <tspan
-                   x="681.07599"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan400" />
-                <tspan
-                   x="682.401"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan402">to,</tspan>
-                <tspan
-                   x="689.20099"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan404" />
-                <tspan
-                   x="690.52502"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan406">or</tspan>
-                <tspan
-                   x="695.89502"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan408" />
-                <tspan
-                   x="697.22003"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan410">the</tspan>
-                <tspan
-                   x="705.54602"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan412" />
-                <tspan
-                   x="706.87103"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan414">purchase</tspan>
-                <tspan
-                   x="729.65698"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan416" />
-                <tspan
-                   x="730.98199"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan418">of</tspan>
-                <tspan
-                   x="736.08203"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan420" />
-                <tspan
-                   x="737.40601"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan422">goods</tspan>
-                <tspan
-                   x="752.39099"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan424" />
-                <tspan
-                   x="753.716"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan426">or</tspan>
-                <tspan
-                   x="759.08502"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan428" />
-                <tspan
-                   x="760.41003"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan430">services</tspan>
-                <tspan
-                   x="780.18799"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan432" />
-                <tspan
-                   x="781.513"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan434">for,</tspan>
-                <tspan
-                   x="790.25903"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan436" />
-                <tspan
-                   x="791.58398"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan438">a</tspan>
-                <tspan
-                   x="794.521"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan440" />
-                <tspan
-                   x="795.84698"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan442">recipient;</tspan>
-                <tspan
-                   x="819.586"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan444" />
-                <tspan
-                   x="820.91101"
-                   y="513.66187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan446">by</tspan>
-                <tspan
-                   x="591"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan448">extension,</tspan>
-                <tspan
-                   x="616.80103"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan450" />
-                <tspan
-                   x="618.76801"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan452">the</tspan>
-                <tspan
-                   x="627.09302"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan454" />
-                <tspan
-                   x="629.06"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan456">amount</tspan>
-                <tspan
-                   x="648.65601"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan458" />
-                <tspan
-                   x="650.62299"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan460">thus</tspan>
-                <tspan
-                   x="661.51599"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan462" />
-                <tspan
-                   x="663.48199"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan464">spent.</tspan>
-                <tspan
-                   x="678.96198"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan466" />
-                <tspan
-                   x="680.92902"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan468">Disbursements</tspan>
-                <tspan
-                   x="718.16998"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan470" />
-                <tspan
-                   x="720.13702"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan472">record</tspan>
-                <tspan
-                   x="736.508"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan474" />
-                <tspan
-                   x="738.474"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan476">the</tspan>
-                <tspan
-                   x="746.79999"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan478" />
-                <tspan
-                   x="748.76599"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan480">actual</tspan>
-                <tspan
-                   x="763.89801"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan482" />
-                <tspan
-                   x="765.86499"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan484">international</tspan>
-                <tspan
-                   x="798.09698"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan486" />
-                <tspan
-                   x="800.06299"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan488">transfer</tspan>
-                <tspan
-                   x="819.84399"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan490" />
-                <tspan
-                   x="821.81104"
-                   y="520.96088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan492">of</tspan>
-                <tspan
-                   x="591"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan494">financial</tspan>
-                <tspan
-                   x="611.95502"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan496" />
-                <tspan
-                   x="613.56403"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan498">resources,</tspan>
-                <tspan
-                   x="639.29199"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan500" />
-                <tspan
-                   x="640.90002"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan502">or</tspan>
-                <tspan
-                   x="646.27002"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan504" />
-                <tspan
-                   x="647.87903"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan506">of</tspan>
-                <tspan
-                   x="652.979"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan508" />
-                <tspan
-                   x="654.58698"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan510">goods</tspan>
-                <tspan
-                   x="669.57202"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan512" />
-                <tspan
-                   x="671.18103"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan514">or</tspan>
-                <tspan
-                   x="676.54999"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan516" />
-                <tspan
-                   x="678.15802"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan518">services</tspan>
-                <tspan
-                   x="697.93701"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan520" />
-                <tspan
-                   x="699.54498"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan522">valued</tspan>
-                <tspan
-                   x="716.151"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan524" />
-                <tspan
-                   x="717.76001"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan526">at</tspan>
-                <tspan
-                   x="722.74402"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan528" />
-                <tspan
-                   x="724.354"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan530">the</tspan>
-                <tspan
-                   x="732.67999"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan532" />
-                <tspan
-                   x="734.28802"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan534">cost</tspan>
-                <tspan
-                   x="744.55701"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan536" />
-                <tspan
-                   x="746.16602"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan538">to</tspan>
-                <tspan
-                   x="751.44904"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan540" />
-                <tspan
-                   x="753.05902"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan542">the</tspan>
-                <tspan
-                   x="761.38501"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan544" />
-                <tspan
-                   x="762.99298"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan546">donor.</tspan>
-                <tspan
-                   x="779.58801"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan548" />
-                <tspan
-                   x="781.19598"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan550">It</tspan>
-                <tspan
-                   x="784.77301"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan552" />
-                <tspan
-                   x="786.38202"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan554">can</tspan>
-                <tspan
-                   x="795.138"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan556" />
-                <tspan
-                   x="796.74603"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan558">take</tspan>
-                <tspan
-                   x="807.57202"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan560" />
-                <tspan
-                   x="809.18103"
-                   y="528.26086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan562">several</tspan>
-                <tspan
-                   x="591"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan564">years</tspan>
-                <tspan
-                   x="604.29303"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan566" />
-                <tspan
-                   x="606.58398"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan568">to</tspan>
-                <tspan
-                   x="611.867"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan570" />
-                <tspan
-                   x="614.15802"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan572">disburse</tspan>
-                <tspan
-                   x="635.20099"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan574" />
-                <tspan
-                   x="637.492"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan576">a</tspan>
-                <tspan
-                   x="640.43201"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan578" />
-                <tspan
-                   x="642.72302"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan580">commitment.</tspan>
-                <tspan
-                   x="676.61298"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan582" />
-                <tspan
-                   x="678.90399"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan584">Yearly</tspan>
-                <tspan
-                   x="694.18597"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan586" />
-                <tspan
-                   x="696.47699"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan588">commitments</tspan>
-                <tspan
-                   x="731.229"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan590" />
-                <tspan
-                   x="733.52002"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan592">and</tspan>
-                <tspan
-                   x="742.91003"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan594" />
-                <tspan
-                   x="745.20099"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan596">disbursements</tspan>
-                <tspan
-                   x="781.88599"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan598" />
-                <tspan
-                   x="784.17798"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan600">are</tspan>
-                <tspan
-                   x="792.30103"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan602" />
-                <tspan
-                   x="794.59198"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan604">presented</tspan>
-                <tspan
-                   x="820.00201"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan606" />
-                <tspan
-                   x="822.29303"
-                   y="535.56085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan608">in</tspan>
-                <tspan
-                   x="591"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan610">constant</tspan>
-                <tspan
-                   x="612.70502"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan612" />
-                <tspan
-                   x="615.25403"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan614">2009</tspan>
-                <tspan
-                   x="627.70099"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan616" />
-                <tspan
-                   x="630.25"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan618">US$</tspan>
-                <tspan
-                   x="640.12598"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan620" />
-                <tspan
-                   x="642.67499"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan622">to</tspan>
-                <tspan
-                   x="647.95898"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan624" />
-                <tspan
-                   x="650.508"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan626">ensure</tspan>
-                <tspan
-                   x="667.59302"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan628" />
-                <tspan
-                   x="670.14203"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan630">comparability</tspan>
-                <tspan
-                   x="704.34998"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan632" />
-                <tspan
-                   x="706.89801"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan634">over</tspan>
-                <tspan
-                   x="718.09003"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan636" />
-                <tspan
-                   x="720.63904"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan638">years.</tspan>
-                <tspan
-                   x="735.46503"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan640" />
-                <tspan
-                   x="740.56201"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan642">ODA</tspan>
-                <tspan
-                   x="751.97699"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan644" />
-                <tspan
-                   x="754.52502"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan646">for</tspan>
-                <tspan
-                   x="761.75598"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan648" />
-                <tspan
-                   x="764.30499"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan650">health</tspan>
-                <tspan
-                   x="780.18799"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan652" />
-                <tspan
-                   x="782.73602"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan654">volumes</tspan>
-                <tspan
-                   x="803.73199"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan656" />
-                <tspan
-                   x="806.28101"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan658">are</tspan>
-                <tspan
-                   x="814.40399"
-                   y="542.86188"
-                   style="font-size:6.19999981px;letter-spacing:1;fill:#58595b;font-family:Calibri"
-                   id="tspan660" />
-                <tspan
-                   x="816.953"
-                   y="542.86188"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan662">also</tspan>
-                <tspan
-                   x="591"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan664">presented</tspan>
-                <tspan
-                   x="616.41101"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan666" />
-                <tspan
-                   x="618.37299"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan668">in</tspan>
-                <tspan
-                   x="622.99103"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan670" />
-                <tspan
-                   x="624.953"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan672">US$</tspan>
-                <tspan
-                   x="634.82898"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan674" />
-                <tspan
-                   x="636.79102"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan676">per</tspan>
-                <tspan
-                   x="645.20203"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan678" />
-                <tspan
-                   x="647.164"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan680">capita</tspan>
-                <tspan
-                   x="662.29602"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan682" />
-                <tspan
-                   x="664.258"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan684">per</tspan>
-                <tspan
-                   x="672.66803"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan686" />
-                <tspan
-                   x="674.63098"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan688">year</tspan>
-                <tspan
-                   x="685.52899"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan690" />
-                <tspan
-                   x="687.48999"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan692">and</tspan>
-                <tspan
-                   x="696.883"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan694" />
-                <tspan
-                   x="698.84399"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan696">according</tspan>
-                <tspan
-                   x="723.06403"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan698" />
-                <tspan
-                   x="725.02698"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan700">to</tspan>
-                <tspan
-                   x="730.31104"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan702" />
-                <tspan
-                   x="732.27301"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan704">allocation</tspan>
-                <tspan
-                   x="756.651"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan706" />
-                <tspan
-                   x="758.61304"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan708">(i.e.</tspan>
-                <tspan
-                   x="767.97601"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan710" />
-                <tspan
-                   x="769.93799"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan712">policy</tspan>
-                <tspan
-                   x="784.552"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan714" />
-                <tspan
-                   x="786.51404"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan716">purpose).</tspan>
-                <tspan
-                   x="810.39301"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan718" />
-                <tspan
-                   x="812.354"
-                   y="550.16187"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan720">Policy</tspan>
-                <tspan
-                   x="591"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan722">purposes</tspan>
-                <tspan
-                   x="613.89001"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan724" />
-                <tspan
-                   x="616.08801"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan726">used</tspan>
-                <tspan
-                   x="627.98798"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan728" />
-                <tspan
-                   x="630.18799"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan730">here</tspan>
-                <tspan
-                   x="641.65198"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan732" />
-                <tspan
-                   x="643.85199"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan734">are</tspan>
-                <tspan
-                   x="651.97498"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan736" />
-                <tspan
-                   x="654.17297"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan738">based</tspan>
-                <tspan
-                   x="669.01202"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan740" />
-                <tspan
-                   x="671.211"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan742">on</tspan>
-                <tspan
-                   x="677.67603"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan744" />
-                <tspan
-                   x="679.87402"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan746">the</tspan>
-                <tspan
-                   x="688.20001"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan748" />
-                <tspan
-                   x="690.39801"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan750">original</tspan>
-                <tspan
-                   x="708.99603"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan752" />
-                <tspan
-                   x="711.19501"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan754">CRS</tspan>
-                <tspan
-                   x="720.62201"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan756" />
-                <tspan
-                   x="722.82001"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan758">statistical</tspan>
-                <tspan
-                   x="746.35999"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan760" />
-                <tspan
-                   x="748.55902"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan762">purpose</tspan>
-                <tspan
-                   x="769.05499"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan764" />
-                <tspan
-                   x="771.25403"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan766">codes,</tspan>
-                <tspan
-                   x="787.27203"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan768" />
-                <tspan
-                   x="789.47101"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan770">but</tspan>
-                <tspan
-                   x="797.97003"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan772" />
-                <tspan
-                   x="800.16803"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan774">have</tspan>
-                <tspan
-                   x="812.15601"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan776" />
-                <tspan
-                   x="814.35498"
-                   y="557.46088"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan778">been</tspan>
-                <tspan
-                   x="591"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan780">aggregated</tspan>
-                <tspan
-                   x="619.05103"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan782" />
-                <tspan
-                   x="621.03497"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan784">to</tspan>
-                <tspan
-                   x="626.31799"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan786" />
-                <tspan
-                   x="628.30402"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan788">reflect,</tspan>
-                <tspan
-                   x="645.94501"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan790" />
-                <tspan
-                   x="647.92999"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan792">as</tspan>
-                <tspan
-                   x="653.26202"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan794" />
-                <tspan
-                   x="655.24603"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan796">far</tspan>
-                <tspan
-                   x="662.177"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan798" />
-                <tspan
-                   x="664.16199"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan800">as</tspan>
-                <tspan
-                   x="669.49402"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan802" />
-                <tspan
-                   x="671.479"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan804">possible,</tspan>
-                <tspan
-                   x="693.31097"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan806" />
-                <tspan
-                   x="695.29498"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan808">global</tspan>
-                <tspan
-                   x="710.37"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan810" />
-                <tspan
-                   x="712.354"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan812">health</tspan>
-                <tspan
-                   x="728.237"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan814" />
-                <tspan
-                   x="730.22302"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan816">development</tspan>
-                <tspan
-                   x="763.42999"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan818" />
-                <tspan
-                   x="765.414"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan820">benchmarks</tspan>
-                <tspan
-                   x="795.91003"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan822" />
-                <tspan
-                   x="797.89502"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan824">(i.e.</tspan>
-                <tspan
-                   x="807.25702"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan826" />
-                <tspan
-                   x="809.242"
-                   y="564.76086"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan828">MDG6;</tspan>
-                <tspan
-                   x="591"
-                   y="572.06085"
-                   style="font-size:6.19999981px;fill:#58595b;font-family:Calibri"
-                   id="tspan830">Reproductive Health &amp; Family Planning).</tspan>
-              </text>
             </g>
           </switch>
           <g
@@ -11309,38 +9574,31 @@
                      transform="scale(0.94223141,1.0613104)"
                      x="84.79628"
                      y="77.541779"
-                     style="font-size:11.306777px;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold">
+                     style="font-size:11.30677700000000030px;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold">
                     <tspan
                        x="84.79628"
                        y="77.541779"
-                       style="font-size:11.9449501px;fill:#ffffff;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
+                       style="font-size:11.94495009999999979px;fill:#ffffff;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                        id="tspan2559">
+                      <tspan
+                         style="font-size:11.94328879999999948px;font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold;fill:#79317f;fill-opacity:1"
+                         id="summary_amount"
+                         dx="7.5378513">2299.13</tspan>
+                      <tspan
+                         id="tspan4753"
+                         dx="4"
+                         style="font-family:Calibri;-inkscape-font-specification:Calibri">as disbursed from donors for implementation in</tspan>
+                      <tspan
+                         style="font-size:11.94328879999999948px;font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold;fill:#79317f;fill-opacity:1"
+                         id="summary_count"
+                         dx="7.5378513">1900</tspan>
+                      <tspan
+                         id="tspan4750"
+                         dx="7.5378513"
+                         style="font-family:Calibri;-inkscape-font-specification:Calibri">different transfers</tspan>
                       <tspan
                          style="font-family:Calibri;-inkscape-font-specification:Calibri"
                          id="tspan4956">In the period 2009-2010 the total amount of US$ Million</tspan>
-                      <tspan
-                         style="font-weight:bold;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
-                         id="tspan4720">
-                        <tspan
-                           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
-                           id="summary_amount"
-                           dy="1.8844628"
-                           dx="7.5378513">2299.13</tspan>
-                        <tspan
-                           id="tspan4753"
-                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri"
-                           dx="4">as disbursed from donors for implementation in</tspan>
-                        <tspan
-                           style="font-size:18px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#79317f;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
-                           id="summary_count"
-                           dy="1.8844628"
-                           dx="7.5378513">1900</tspan>
-                        <tspan
-                           id="tspan4750"
-                           dy="-1.8844628"
-                           dx="7.5378513"
-                           style="font-weight:normal;font-family:Calibri;-inkscape-font-specification:Calibri">different transfers</tspan>
-                      </tspan>
                     </tspan>
                   </text>
                 </g>
@@ -13507,9 +11765,1887 @@
        x="-370.49911"
        y="-98.695137"
        i:knockout="Off"
-       style="fill:none;stroke:#6d6e71;stroke-width:0.49999997;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81000001"
-       width="349.86761"
-       height="80.862473"
+       style="fill:#ff0000;stroke:#6d6e71;stroke-width:0.49999997;stroke-linecap:round;stroke-miterlimit:10;stroke-dasharray:0, 0.81000001"
+       width="1"
+       height="1"
        id="rect7578-3" />
+    <g
+       id="g7095">
+      <foreignObject
+         id="foreignObject7104">
+        <xhtml:body>
+          <xhtml:div
+             id="wordBubble">SOURCE: This information was extracted on 13/02/2012 from the Creditor Reporting System(CRS) database maintained by the Organization for Economic Co-operation and Development (OECD), Statistics Department (http://stats.oecd.org/Index.aspx). 
+
+DEFINITIONS: CRS financial data presented here are commitments and disbursements. A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount underspecified financial terms and conditions and for specified development purposes. A disbursement is the release of funds to, or the purchase of goods or services for, a recipient; by extension, the amount thus spent. Disbursements record the actual international transfer of financial resources, or of goods or services valued at the cost to the donor. It can take several years to disburse a commitment. Yearly commitments and disbursements are presented inconstant 2009US$ to ensure comparability over years. ODA for health volumes are also presented in US$ per capita per year and according to allocation(i.e. policy purpose). Policy purposes used here are based on the original CRS statistical purpose codes, but have been aggregated to reflect, as far as possible, global health development benchmarks (i.e. MDG6; Reproductive Health &amp; Family Planning).</xhtml:div>
+        </xhtml:body>
+      </foreignObject>
+    </g>
+    <text
+       y="9.9750204"
+       x="-2.7801125"
+       id="_source_x5F_wording_3_"
+       style="font-size:15.59037971px">
+      <tspan
+         x="-2.7801125"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#0093d5;font-family:Calibri-Bold"
+         id="tspan6880">SOURCE:</tspan>
+      <tspan
+         x="24.517401"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6882" />
+      <tspan
+         x="29.425716"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6884">This</tspan>
+      <tspan
+         x="41.582386"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6886" />
+      <tspan
+         x="44.036537"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6888">information</tspan>
+      <tspan
+         x="80.009995"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6890" />
+      <tspan
+         x="82.462883"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6892">was</tspan>
+      <tspan
+         x="94.293404"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6894" />
+      <tspan
+         x="96.7463"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6896">extracted</tspan>
+      <tspan
+         x="125.60019"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6898" />
+      <tspan
+         x="128.05441"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6900">on</tspan>
+      <tspan
+         x="135.91327"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6902" />
+      <tspan
+         x="138.36742"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6904">13/02/2012</tspan>
+      <tspan
+         x="174.36174"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6906" />
+      <tspan
+         x="176.8159"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6908">from</tspan>
+      <tspan
+         x="191.58524"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6910" />
+      <tspan
+         x="194.0394"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6912">the</tspan>
+      <tspan
+         x="204.15883"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6914" />
+      <tspan
+         x="206.61299"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6916">Creditor</tspan>
+      <tspan
+         x="231.51868"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6918" />
+      <tspan
+         x="233.97157"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6920">Reporting</tspan>
+      <tspan
+         x="263.77643"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6922" />
+      <tspan
+         x="266.23193"
+         y="9.9750204"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6924">System</tspan>
+      <tspan
+         x="-2.7801125"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6926">(CRS)</tspan>
+      <tspan
+         x="13.17408"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6928" />
+      <tspan
+         x="15.778977"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6930">database</tspan>
+      <tspan
+         x="43.445381"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6932" />
+      <tspan
+         x="46.050278"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6934">maintained</tspan>
+      <tspan
+         x="80.521935"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6936" />
+      <tspan
+         x="83.128105"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6938">by</tspan>
+      <tspan
+         x="90.421822"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6940" />
+      <tspan
+         x="93.026718"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6942">the</tspan>
+      <tspan
+         x="103.14619"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6944" />
+      <tspan
+         x="105.75233"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6946">Organization</tspan>
+      <tspan
+         x="144.51649"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6948" />
+      <tspan
+         x="147.1214"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6950">for</tspan>
+      <tspan
+         x="155.90924"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6952" />
+      <tspan
+         x="158.51413"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6954">Economic</tspan>
+      <tspan
+         x="187.92149"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6956" />
+      <tspan
+         x="190.5264"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6958">Co-operation</tspan>
+      <tspan
+         x="230.45984"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6960" />
+      <tspan
+         x="233.06599"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6962">and</tspan>
+      <tspan
+         x="244.48076"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6964" />
+      <tspan
+         x="247.08568"
+         y="19.459154"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6966">Development</tspan>
+      <tspan
+         x="-2.7801125"
+         y="28.943285"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6968">(OECD), Statistics Department (http://stats.oecd.org/Index.aspx).</tspan>
+      <tspan
+         x="-2.7801125"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#0093d5;font-family:Calibri-Bold"
+         id="tspan6970">DEFINITIONS:</tspan>
+      <tspan
+         x="39.072323"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6972" />
+      <tspan
+         x="43.017975"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6974">CRS</tspan>
+      <tspan
+         x="54.47691"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6976" />
+      <tspan
+         x="58.421291"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6978">financial</tspan>
+      <tspan
+         x="83.892052"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6980" />
+      <tspan
+         x="87.836426"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6982">data</tspan>
+      <tspan
+         x="101.38833"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6984" />
+      <tspan
+         x="105.33398"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6986">presented</tspan>
+      <tspan
+         x="136.21722"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6988" />
+      <tspan
+         x="140.16161"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6990">here</tspan>
+      <tspan
+         x="154.09555"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6992" />
+      <tspan
+         x="158.03993"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6994">are</tspan>
+      <tspan
+         x="167.9138"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan6996" />
+      <tspan
+         x="171.85945"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan6998">commitments</tspan>
+      <tspan
+         x="214.09641"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7000" />
+      <tspan
+         x="218.04205"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7002">and</tspan>
+      <tspan
+         x="229.45554"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7004" />
+      <tspan
+         x="233.4012"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7006">disbursements.</tspan>
+      <tspan
+         x="279.85275"
+         y="38.426147"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7008" />
+      <tspan
+         x="283.7984"
+         y="38.426147"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7010">A</tspan>
+      <tspan
+         x="-2.7801125"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7012">commitment</tspan>
+      <tspan
+         x="36.547993"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7014" />
+      <tspan
+         x="39.530899"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7016">is</tspan>
+      <tspan
+         x="44.131378"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7018" />
+      <tspan
+         x="47.115635"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7020">a</tspan>
+      <tspan
+         x="50.68716"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7022" />
+      <tspan
+         x="53.670067"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7024">firm</tspan>
+      <tspan
+         x="66.193092"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7026" />
+      <tspan
+         x="69.174728"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7028">written</tspan>
+      <tspan
+         x="91.17926"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7030" />
+      <tspan
+         x="94.162163"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7032">obligation</tspan>
+      <tspan
+         x="124.5024"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7034" />
+      <tspan
+         x="127.48663"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7036">by</tspan>
+      <tspan
+         x="134.78035"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7038" />
+      <tspan
+         x="137.76328"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7040">a</tspan>
+      <tspan
+         x="141.33606"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7042" />
+      <tspan
+         x="144.31779"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7044">government</tspan>
+      <tspan
+         x="181.45277"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7046" />
+      <tspan
+         x="184.43568"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7048">or o</tspan>
+      <tspan
+         x="190.96158"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7050">f</tspan>
+      <tspan
+         x="193.9433"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7052">ficial</tspan>
+      <tspan
+         x="214.03273"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7054" />
+      <tspan
+         x="217.01443"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7056">agency,</tspan>
+      <tspan
+         x="240.09209"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7058" />
+      <tspan
+         x="243.07634"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7060">backed</tspan>
+      <tspan
+         x="264.73911"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7062" />
+      <tspan
+         x="267.72205"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7064">by</tspan>
+      <tspan
+         x="275.01703"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7066" />
+      <tspan
+         x="278.00003"
+         y="47.911625"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7068">the</tspan>
+      <tspan
+         x="-2.7801125"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7070">appropriation</tspan>
+      <tspan
+         x="38.952744"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7072" />
+      <tspan
+         x="40.939205"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7074">or</tspan>
+      <tspan
+         x="47.466438"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7076" />
+      <tspan
+         x="49.452908"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7078">availability</tspan>
+      <tspan
+         x="81.773087"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7080" />
+      <tspan
+         x="83.760811"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7082">of</tspan>
+      <tspan
+         x="89.959282"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7084" />
+      <tspan
+         x="91.947098"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7086">the</tspan>
+      <tspan
+         x="102.06655"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7088" />
+      <tspan
+         x="104.05429"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7090">necessary</tspan>
+      <tspan
+         x="133.90079"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7092" />
+      <tspan
+         x="135.88727"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7094">funds,</tspan>
+      <tspan
+         x="154.66721"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7096" />
+      <tspan
+         x="156.65492"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7098">to</tspan>
+      <tspan
+         x="163.07684"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7100" />
+      <tspan
+         x="165.06468"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7102">provide</tspan>
+      <tspan
+         x="188.20213"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7104" />
+      <tspan
+         x="190.18987"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7106">resources</tspan>
+      <tspan
+         x="219.61673"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7108" />
+      <tspan
+         x="221.60445"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7110">of</tspan>
+      <tspan
+         x="227.80165"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7112" />
+      <tspan
+         x="229.79073"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7114">a</tspan>
+      <tspan
+         x="233.36217"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7116" />
+      <tspan
+         x="235.34999"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7118">specified</tspan>
+      <tspan
+         x="262.3161"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7120" />
+      <tspan
+         x="264.30258"
+         y="57.395752"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7122">amount</tspan>
+      <tspan
+         x="-2.7801125"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7124">under</tspan>
+      <tspan
+         x="15.285275"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7126" />
+      <tspan
+         x="18.759346"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7128">specified</tspan>
+      <tspan
+         x="45.725479"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7130">f</tspan>
+      <tspan
+         x="49.202168"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7132">inancial</tspan>
+      <tspan
+         x="74.670311"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7134" />
+      <tspan
+         x="78.144379"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7136">terms</tspan>
+      <tspan
+         x="95.823914"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7138" />
+      <tspan
+         x="99.299255"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7140">and</tspan>
+      <tspan
+         x="110.71268"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7142" />
+      <tspan
+         x="114.18802"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7144">conditions</tspan>
+      <tspan
+         x="145.7352"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7146" />
+      <tspan
+         x="149.2092"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7148">and</tspan>
+      <tspan
+         x="160.62532"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7150" />
+      <tspan
+         x="164.0994"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7152">for</tspan>
+      <tspan
+         x="172.88713"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7154" />
+      <tspan
+         x="176.36122"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7156">specified</tspan>
+      <tspan
+         x="203.32867"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7158" />
+      <tspan
+         x="206.80269"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7160">development</tspan>
+      <tspan
+         x="247.16362"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7162" />
+      <tspan
+         x="250.63896"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7164">purposes.</tspan>
+      <tspan
+         x="280.32303"
+         y="66.879883"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7166" />
+      <tspan
+         x="283.7984"
+         y="66.879883"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7168">A</tspan>
+      <tspan
+         x="-2.7801125"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7170">disbursement</tspan>
+      <tspan
+         x="38.896919"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7172" />
+      <tspan
+         x="40.752148"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7174">is</tspan>
+      <tspan
+         x="45.355244"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7176" />
+      <tspan
+         x="47.210472"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7178">the</tspan>
+      <tspan
+         x="57.329926"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7180" />
+      <tspan
+         x="59.183891"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7182">release</tspan>
+      <tspan
+         x="81.081848"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7184" />
+      <tspan
+         x="82.938431"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7186">of</tspan>
+      <tspan
+         x="89.134277"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7188" />
+      <tspan
+         x="90.990852"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7190">funds</tspan>
+      <tspan
+         x="107.92722"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7192" />
+      <tspan
+         x="109.78245"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7194">to,</tspan>
+      <tspan
+         x="118.04668"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7196" />
+      <tspan
+         x="119.90324"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7198">or</tspan>
+      <tspan
+         x="126.42781"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7200" />
+      <tspan
+         x="128.283"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7202">the</tspan>
+      <tspan
+         x="138.4025"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7204" />
+      <tspan
+         x="140.25905"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7206">purchase</tspan>
+      <tspan
+         x="167.9541"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7208" />
+      <tspan
+         x="169.80931"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7210">of</tspan>
+      <tspan
+         x="176.00778"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7212" />
+      <tspan
+         x="177.8631"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7214">goods</tspan>
+      <tspan
+         x="196.07526"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7216" />
+      <tspan
+         x="197.93175"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7218">or</tspan>
+      <tspan
+         x="204.45636"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7220" />
+      <tspan
+         x="206.3116"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7222">services</tspan>
+      <tspan
+         x="230.34938"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7224" />
+      <tspan
+         x="232.20595"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7226">for,</tspan>
+      <tspan
+         x="242.83598"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7228" />
+      <tspan
+         x="244.68996"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7230">a</tspan>
+      <tspan
+         x="248.26276"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7232" />
+      <tspan
+         x="250.11798"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7234">recipient;</tspan>
+      <tspan
+         x="278.96921"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7236" />
+      <tspan
+         x="280.82578"
+         y="76.364014"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7238">by</tspan>
+      <tspan
+         x="-2.7801125"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7240">extension,</tspan>
+      <tspan
+         x="28.578665"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7242" />
+      <tspan
+         x="31.348579"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7244">the</tspan>
+      <tspan
+         x="41.468033"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7246" />
+      <tspan
+         x="44.236603"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7248">amount</tspan>
+      <tspan
+         x="68.054817"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7250" />
+      <tspan
+         x="70.825996"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7252">thus</tspan>
+      <tspan
+         x="84.064842"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7254" />
+      <tspan
+         x="86.836021"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7256">spent.</tspan>
+      <tspan
+         x="105.64973"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7258" />
+      <tspan
+         x="108.41957"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7260">Disbursements</tspan>
+      <tspan
+         x="153.68369"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7262" />
+      <tspan
+         x="156.45224"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7264">record</tspan>
+      <tspan
+         x="176.34947"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7266" />
+      <tspan
+         x="179.1194"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7268">the</tspan>
+      <tspan
+         x="189.23886"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7270" />
+      <tspan
+         x="192.00877"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7272">actual</tspan>
+      <tspan
+         x="210.40022"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7274" />
+      <tspan
+         x="213.17004"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7276">international</tspan>
+      <tspan
+         x="252.34479"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7278" />
+      <tspan
+         x="255.1147"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7280">transfer</tspan>
+      <tspan
+         x="279.15637"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7282" />
+      <tspan
+         x="281.92618"
+         y="85.846878"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7284">of</tspan>
+      <tspan
+         x="-2.7801125"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7286">financial</tspan>
+      <tspan
+         x="22.689375"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7288" />
+      <tspan
+         x="24.890257"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7290">resources,</tspan>
+      <tspan
+         x="56.159348"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7292" />
+      <tspan
+         x="58.360233"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7294">or</tspan>
+      <tspan
+         x="64.88604"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7296" />
+      <tspan
+         x="67.085571"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7298">of</tspan>
+      <tspan
+         x="73.284126"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7300" />
+      <tspan
+         x="75.484924"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7302">goods</tspan>
+      <tspan
+         x="93.69709"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7304" />
+      <tspan
+         x="95.896629"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7306">or</tspan>
+      <tspan
+         x="102.4238"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7308" />
+      <tspan
+         x="104.62331"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7310">services</tspan>
+      <tspan
+         x="128.66112"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7312" />
+      <tspan
+         x="130.86063"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7314">valued</tspan>
+      <tspan
+         x="151.045"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7316" />
+      <tspan
+         x="153.24713"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7318">at</tspan>
+      <tspan
+         x="159.304"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7320" />
+      <tspan
+         x="161.50487"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7322">the</tspan>
+      <tspan
+         x="171.62434"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7324" />
+      <tspan
+         x="173.82649"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7326">cost</tspan>
+      <tspan
+         x="186.30653"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7328" />
+      <tspan
+         x="188.50742"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7330">to</tspan>
+      <tspan
+         x="194.9306"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7332" />
+      <tspan
+         x="197.13013"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7334">the</tspan>
+      <tspan
+         x="207.2496"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7336" />
+      <tspan
+         x="209.44922"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7338">donor.</tspan>
+      <tspan
+         x="229.6192"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7340" />
+      <tspan
+         x="231.8201"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7342">It</tspan>
+      <tspan
+         x="236.16722"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7344" />
+      <tspan
+         x="238.36676"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7346">can</tspan>
+      <tspan
+         x="249.00974"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7348" />
+      <tspan
+         x="251.2106"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7350">take</tspan>
+      <tspan
+         x="264.36887"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7352" />
+      <tspan
+         x="266.56842"
+         y="95.332321"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7354">several</tspan>
+      <tspan
+         x="-2.7801125"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7356">years</tspan>
+      <tspan
+         x="13.375414"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7358" />
+      <tspan
+         x="16.539036"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7360">to</tspan>
+      <tspan
+         x="22.960964"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7362" />
+      <tspan
+         x="26.125776"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7364">disburse</tspan>
+      <tspan
+         x="51.701839"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7366" />
+      <tspan
+         x="54.865383"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7368">a</tspan>
+      <tspan
+         x="58.438179"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7370" />
+      <tspan
+         x="61.601727"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7372">commitment.</tspan>
+      <tspan
+         x="102.79411"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7374" />
+      <tspan
+         x="105.95763"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7376">Yearly</tspan>
+      <tspan
+         x="124.52967"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7378" />
+      <tspan
+         x="127.69448"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7380">commitments</tspan>
+      <tspan
+         x="169.93141"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7382" />
+      <tspan
+         x="173.09497"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7384">and</tspan>
+      <tspan
+         x="184.50974"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7386" />
+      <tspan
+         x="187.67328"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7388">disbursements</tspan>
+      <tspan
+         x="232.26051"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7390" />
+      <tspan
+         x="235.42406"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7392">are</tspan>
+      <tspan
+         x="245.29666"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7394" />
+      <tspan
+         x="248.46147"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7396">presented</tspan>
+      <tspan
+         x="279.3447"
+         y="104.8165"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7398" />
+      <tspan
+         x="282.50958"
+         y="104.8165"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7400">in</tspan>
+      <tspan
+         x="-2.7801125"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7402">constant</tspan>
+      <tspan
+         x="23.602713"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7404" />
+      <tspan
+         x="27.258692"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7406">2009</tspan>
+      <tspan
+         x="42.383919"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7408" />
+      <tspan
+         x="46.03989"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7410">US$</tspan>
+      <tspan
+         x="58.041851"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7412" />
+      <tspan
+         x="61.699104"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7414">to</tspan>
+      <tspan
+         x="68.121101"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7416" />
+      <tspan
+         x="71.779625"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7418">ensure</tspan>
+      <tspan
+         x="92.543411"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7420" />
+      <tspan
+         x="96.200653"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7422">comparability</tspan>
+      <tspan
+         x="137.77762"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7424" />
+      <tspan
+         x="141.43486"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7426">over</tspan>
+      <tspan
+         x="155.03745"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7428" />
+      <tspan
+         x="158.69341"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7430">years.</tspan>
+      <tspan
+         x="176.71329"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7432" />
+      <tspan
+         x="180.37054"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7434">ODA</tspan>
+      <tspan
+         x="194.24208"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7436" />
+      <tspan
+         x="197.89932"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7438">for</tspan>
+      <tspan
+         x="206.68706"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7440" />
+      <tspan
+         x="210.34305"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7442">health</tspan>
+      <tspan
+         x="229.64784"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7444" />
+      <tspan
+         x="233.3051"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7446">volumes</tspan>
+      <tspan
+         x="258.82126"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7448" />
+      <tspan
+         x="262.47849"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7450">are</tspan>
+      <tspan
+         x="272.35245"
+         y="114.30062"
+         style="font-size:7.53534985px;letter-spacing:1.29919815;fill:#58595b;font-family:Calibri"
+         id="tspan7452" />
+      <tspan
+         x="276.00836"
+         y="114.30062"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7454">also</tspan>
+      <tspan
+         x="-2.7801125"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7456">presented</tspan>
+      <tspan
+         x="28.103199"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7458" />
+      <tspan
+         x="30.785973"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7460">in</tspan>
+      <tspan
+         x="36.399864"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7462" />
+      <tspan
+         x="39.08136"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7464">US$</tspan>
+      <tspan
+         x="51.084675"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7466" />
+      <tspan
+         x="53.766251"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7468">per</tspan>
+      <tspan
+         x="63.988327"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7470" />
+      <tspan
+         x="66.669907"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7472">capita</tspan>
+      <tspan
+         x="85.061279"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7474" />
+      <tspan
+         x="87.744118"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7476">per</tspan>
+      <tspan
+         x="97.967545"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7478" />
+      <tspan
+         x="100.64912"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7480">year</tspan>
+      <tspan
+         x="113.89574"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7482" />
+      <tspan
+         x="116.5773"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7484">and</tspan>
+      <tspan
+         x="127.99073"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7486" />
+      <tspan
+         x="130.67358"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7488">according</tspan>
+      <tspan
+         x="160.11212"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7490" />
+      <tspan
+         x="162.79369"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7492">to</tspan>
+      <tspan
+         x="169.21689"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7494" />
+      <tspan
+         x="171.89847"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7496">allocation</tspan>
+      <tspan
+         x="201.52927"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7498" />
+      <tspan
+         x="204.2108"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7500">(i.e.</tspan>
+      <tspan
+         x="215.5905"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7502" />
+      <tspan
+         x="218.27335"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7504">policy</tspan>
+      <tspan
+         x="236.03464"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7506" />
+      <tspan
+         x="238.71748"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7508">purpose).</tspan>
+      <tspan
+         x="267.74161"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7510" />
+      <tspan
+         x="270.4231"
+         y="123.78474"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7512">Policy</tspan>
+      <tspan
+         x="-2.7801125"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7514">purposes</tspan>
+      <tspan
+         x="25.03965"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7516" />
+      <tspan
+         x="28.009632"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7518">used</tspan>
+      <tspan
+         x="42.473602"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7520" />
+      <tspan
+         x="45.443581"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7522">here</tspan>
+      <tspan
+         x="59.377449"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7524" />
+      <tspan
+         x="62.346161"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7526">are</tspan>
+      <tspan
+         x="72.220039"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7528" />
+      <tspan
+         x="75.188667"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7530">based</tspan>
+      <tspan
+         x="93.224174"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7532" />
+      <tspan
+         x="96.194153"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7534">on</tspan>
+      <tspan
+         x="104.05042"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7536" />
+      <tspan
+         x="107.02039"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7538">the</tspan>
+      <tspan
+         x="117.13982"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7540" />
+      <tspan
+         x="120.10849"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7542">original</tspan>
+      <tspan
+         x="142.71068"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7544" />
+      <tspan
+         x="145.68066"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7546">CRS</tspan>
+      <tspan
+         x="157.13959"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7548" />
+      <tspan
+         x="160.10825"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7550">statistical</tspan>
+      <tspan
+         x="188.72049"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7552" />
+      <tspan
+         x="191.69048"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7554">purpose</tspan>
+      <tspan
+         x="216.59995"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7556" />
+      <tspan
+         x="219.56993"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7558">codes,</tspan>
+      <tspan
+         x="239.03973"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7560" />
+      <tspan
+         x="242.00839"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7562">but</tspan>
+      <tspan
+         x="252.33827"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7564" />
+      <tspan
+         x="255.30699"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7566">have</tspan>
+      <tspan
+         x="269.87744"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7568" />
+      <tspan
+         x="272.84613"
+         y="133.26761"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7570">been</tspan>
+      <tspan
+         x="-2.7801125"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7572">aggregated</tspan>
+      <tspan
+         x="31.310917"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7574" />
+      <tspan
+         x="34.070362"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7576">to</tspan>
+      <tspan
+         x="40.493637"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7578" />
+      <tspan
+         x="43.25182"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7580">reflect,</tspan>
+      <tspan
+         x="64.693825"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7582" />
+      <tspan
+         x="67.452011"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7584">as</tspan>
+      <tspan
+         x="73.932373"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7586" />
+      <tspan
+         x="76.693176"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7588">far</tspan>
+      <tspan
+         x="85.114563"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7590" />
+      <tspan
+         x="87.8741"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7592">as</tspan>
+      <tspan
+         x="94.357079"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7594" />
+      <tspan
+         x="97.115273"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7596">possible,</tspan>
+      <tspan
+         x="123.65011"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7598" />
+      <tspan
+         x="126.40964"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7600">global</tspan>
+      <tspan
+         x="144.73091"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7602" />
+      <tspan
+         x="147.49037"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7604">health</tspan>
+      <tspan
+         x="166.7939"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7606" />
+      <tspan
+         x="169.55344"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7608">development</tspan>
+      <tspan
+         x="209.91428"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7610" />
+      <tspan
+         x="212.67245"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7612">benchmarks</tspan>
+      <tspan
+         x="249.73727"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7614" />
+      <tspan
+         x="252.49806"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7616">(i.e.</tspan>
+      <tspan
+         x="263.87775"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7618" />
+      <tspan
+         x="266.63721"
+         y="142.75305"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7620">MDG6;</tspan>
+      <tspan
+         x="-2.7801125"
+         y="152.2372"
+         style="font-size:7.53534985px;fill:#58595b;font-family:Calibri"
+         id="tspan7622">Reproductive Health &amp; Family Planning).</tspan>
+    </text>
   </g>
 </svg>
