@@ -40,7 +40,7 @@ r12 = function(v) {
 
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
-    d3.select("#sum_increase").text(r1(json.summary.sum_increase) + "%");
+    d3.select("#sum_increase").text(r0(json.summary.sum_increase) + "%");
     d3.select("#sum_amount").text(r0(json.summary.sum_2010) + "%");
 
     console.log(json.summary.sum_purpose);
