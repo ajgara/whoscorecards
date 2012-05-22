@@ -29,7 +29,7 @@
     <div id="scorecard"></div>
     <script>
         var template = '{{ STATIC_URL }}svg/back.svg';
-        var json = '{% url back_data params.iso3 %}';
+        var json = '{% url back_data iso3 %}';
 
         d3.json(json, function(e){
             d3.xml(template, 'image/svg+xml', function(xml){
