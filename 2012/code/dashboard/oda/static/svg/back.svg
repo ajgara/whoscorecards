@@ -3,10 +3,10 @@
 
 <svg
    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:ns0="http://ns.adobe.com/Extensibility/1.0/"
    xmlns:ns="http://ns.adobe.com/Flows/1.0/"
    xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
-   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -357,7 +357,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2"
      inkscape:cx="512.66721"
-     inkscape:cy="582.62059"
+     inkscape:cy="102.62059"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -366,9 +366,9 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="958"
-     inkscape:window-height="1019"
+     inkscape:window-height="1034"
      inkscape:window-x="960"
-     inkscape:window-y="0"
+     inkscape:window-y="15"
      inkscape:window-maximized="0"
      units="mm"
      inkscape:showpageshadow="false"
@@ -9761,7 +9761,8 @@
               </switch>
             </g>
             <g
-               id="_x5F_piechart">
+               id="_x5F_piechart"
+               transform="translate(0,6.3396624)">
               <rect
                  id="_x5F_whiteblock_1_"
                  x="353.5"

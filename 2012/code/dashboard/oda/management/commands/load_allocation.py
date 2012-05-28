@@ -6,6 +6,12 @@ from collections import defaultdict
 import sys
 from django.db import transaction
 
+def float_or_none(x):
+    try:
+        return float(x)
+    except TypeError:
+        return 0
+
 class Command(BaseCommand):
     def handle(self, *args, **options):
         if len(args) != 1:
@@ -46,12 +52,14 @@ class Command(BaseCommand):
                         year=row.Year
                     ).delete()
 
+                    #if row.ISO3 == "AFG":
+                    #    import pdb; pdb.set_trace()
                     allocation = oda_models.Allocation.objects.create(
                         country=country, 
                         mdgpurpose=mdgpurpose,
                         year=row.Year, 
-                        commitment=float(row["Commitments MUSD"]) if row["Commitments MUSD"] else "",
-                        disbursement=float(row["Disbursements"]) if row["Disbursements"] else ""
+                        commitment=float_or_none(row["Commitments MUSD"]),
+                        disbursement=float_or_none(row["Disbursements"]),
                     )
                 except oda_models.Recipient.DoesNotExist:
                     not_found_countries.add(row.ISO3)

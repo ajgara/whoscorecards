@@ -1,4 +1,5 @@
 import re 
+import csv
 from django.views.generic.simple import direct_to_template
 from django.template.loader import render_to_string
 from django.template import loader, Context
@@ -10,8 +11,19 @@ from collections import defaultdict
 
 import models
 
+def safe_div(a, b):
+    try:
+        return float(a) / float(b)
+    except:
+        return None
+
+def safe_mul(a, b):
+    try:
+        return float(a) * float(b)
+    except:
+        return None
+
 def scorecard(request, iso3):
-    print request.GET.get("page", "1") == "1"
     if request.GET.get("page", "1") == "1":
         return direct_to_template(request, template="oda/scorecard_front.html", extra_context={
             "iso3" : iso3
@@ -22,14 +34,34 @@ def scorecard(request, iso3):
         })
 
 def front_data(request, iso3):
+    f = open("/tmp/trace.log", "a")
+    w = csv.writer(f)
     country = get_object_or_404(models.Recipient, iso3=iso3) 
     country_indicators = models.CountryIndicator.objects.filter(country=country)
     allocations = models.Allocation.objects.filter(country=country)
 
     hd_indicator = models.GeneralIndicator.objects.get(name="ODA for Health Disbursements (Million constant 2009 US$)")
+
+    overrides = {
+        "BLR" : {"increase" : "197%", "year" : "2005"},
+        "LBY" : {"increase" : "212%", "year" : "2005"},
+        "MNE" : {"increase" : "431%", "year" : "2004"},
+        "UKR" : {"increase" : "31%", "year" : "2005"},
+    } 
+    overrides = {
+        "BLR" : "2005",
+        "LBY" : "2005",
+        "MNE" : "2004",
+        "UKR" : "2005",
+    } 
+
+    base_year = "2000" 
+
+    if country.iso3 in overrides:
+        base_year = overrides[country.iso3]
     # summary calculations
     try:
-        hd_2000 = country_indicators.get(year="2000", indicator=hd_indicator)
+        hd_2000 = country_indicators.get(year=base_year, indicator=hd_indicator)
     except models.CountryIndicator.DoesNotExist:
         hd_2000 = 0
 
@@ -41,11 +73,15 @@ def front_data(request, iso3):
     # Highest valued allocation in 2010
     alloc_2010 = allocations.filter(year="2010").order_by("-disbursement")[0]
     mdg_purpose = alloc_2010.mdgpurpose
-    alloc_2000 = allocations.get(year="2000", mdgpurpose=mdg_purpose)
+    try:
+        alloc_2000 = allocations.get(year=base_year, mdgpurpose=mdg_purpose)
+    except models.Allocation.DoesNotExist:
+        alloc_2000 = models.Allocation()
+        alloc_2000.disbursement = 0
 
     sum_increase = (hd_2010.value / hd_2000.value - 1) * 100
-    mdg_perc_2000 = (alloc_2000.disbursement / hd_2000.value) * 100
-    mdg_perc_2010 = (alloc_2010.disbursement / hd_2010.value) * 100
+    mdg_perc_2000 = safe_mul(safe_div(alloc_2000.disbursement, hd_2000.value), 100)
+    mdg_perc_2010 = safe_mul(safe_div(alloc_2010.disbursement, hd_2010.value), 100)
 
     indicators = defaultdict(dict, {})
     for indicator in country_indicators:
@@ -54,8 +90,10 @@ def front_data(request, iso3):
     allocations_commitments = defaultdict(dict, {})
     allocations_disbursements = defaultdict(dict, {})
     for allocation in allocations:
-        allocations_commitments[allocation.year][allocation.mdgpurpose.name] = allocation.commitment;
-        allocations_disbursements[allocation.year][allocation.mdgpurpose.name] = allocation.disbursement;
+        if allocation.commitment:
+            allocations_commitments[allocation.year][allocation.mdgpurpose.name] = allocation.commitment;
+        if allocation.disbursement:
+            allocations_disbursements[allocation.year][allocation.mdgpurpose.name] = allocation.disbursement;
 
     js = {
         "country" : {
@@ -67,6 +105,7 @@ def front_data(request, iso3):
             "sum_purpose" : mdg_purpose.name,
             "sum_2010" : mdg_perc_2010,
             "sum_2000" : mdg_perc_2000,
+            "sum_baseyear" : base_year,
         },
         "indicators" : indicators,
         "allocations" : {
@@ -75,28 +114,38 @@ def front_data(request, iso3):
         },
     }
 
-    # sanity checks
-    i1_text = "ODA for Health Commitments, (Million constant 2009 US$)"
-    i2_text = "ODA for Health Disbursements (Million constant 2009 US$)"
-    total_commitments1 = { year : value[i1_text] for year, value in indicators.items() }
-    total_disbursements1 = { year : value[i2_text] for year, value in indicators.items() }
-    total_commitments2 = { year : sum(ac.values()) for year, ac in allocations_commitments.items()}
-    total_disbursements2 = { year : sum(ac.values()) for year, ac in  allocations_disbursements.items()}
-    total_disbursements3 = models.DisbursementSource.objects.filter(country=country).aggregate(Sum('amount'))["amount__sum"]
     try:
-        assert abs(total_disbursements1["2010"] - total_disbursements3) < 0.0001
-    except AssertionError:
-        print "Error comparing sources: ", (total_disbursements1["2010"] - total_disbursements3)
+        #import pdb; pdb.set_trace()
+        # sanity checks
+        i1_text = "ODA for Health Commitments, (Million constant 2009 US$)"
+        i2_text = "ODA for Health Disbursements (Million constant 2009 US$)"
+        total_commitments1 = { year : value.get(i1_text, 0) for year, value in indicators.items() }
+        total_disbursements1 = { year : value.get(i2_text, 0) for year, value in indicators.items() }
+        total_commitments2 = { year : sum(ac.values()) for year, ac in allocations_commitments.items()}
+        total_disbursements2 = { year : sum(ac.values()) for year, ac in  allocations_disbursements.items()}
+        total_disbursements3 = models.DisbursementSource.objects.filter(country=country).aggregate(Sum('amount'))["amount__sum"]
 
-    for year in total_commitments1:
-        try:
-            assert abs(total_commitments1[year] - total_commitments2[year]) < 0.0001
-            assert abs(total_disbursements1[year] - total_disbursements2[year]) < 0.0001
-        except AssertionError:
-            print "Error in year: %s" % year
-            print total_commitments1[year] - total_commitments2[year]
-            print total_disbursements1[year] - total_disbursements2[year]
+        values = [
+            country.iso3,
+            total_disbursements1["2010"],
+            total_disbursements3,
+        ]
+
+        for year in range(2000, 2011):
+            year = str(year)
+            values.append(total_commitments1.get(year, "-"))
+            values.append(total_commitments2.get(year, "-"))
+            values.append(total_disbursements1.get(year, "-"))
+            values.append(total_disbursements2.get(year, "-"))
+
+        w.writerow(values)
+
+        f.flush()
+    except:
+        import traceback
+        traceback.print_exc()
     
+    f.close()
     return HttpResponse(json.dumps(js, indent=4))
 
 def back_data(request, iso3):

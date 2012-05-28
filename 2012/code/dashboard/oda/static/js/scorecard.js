@@ -7,10 +7,28 @@ if (typeof String.prototype.startsWith != 'function') {
 
 if (typeof Number.prototype.formatThousands != 'function') {
     Number.prototype.formatThousands = function(c, d, t) {
-        var n = this, c = isNaN(c = Math.abs(c)) ? 2 : c, d = d == undefined ? "." : d, t = t == undefined ? "," : t, s = n < 0 ? "-" : "", i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", j = (j = i.length) > 3 ? j % 3 : 0;
-       return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+        var n = this, 
+            c = isNaN(c = Math.abs(c)) ? 2 : c, 
+            d = d == undefined ? "." : d, 
+            t = t == undefined ? "," : t, 
+            s = n < 0 ? "-" : "", 
+            i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+            j = (j = i.length) > 3 ? j % 3 : 0;
+       return s 
+              + (j ? i.substr(0, j) + t : "") 
+              + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) 
+              + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
     }
 }
+
+round = function(x, places) {
+    x = x * Math.pow(10, places);
+    x = Math.round(x)
+    x =  x / Math.pow(10, places);
+    console.log(x)
+    return x;
+}
+
 
 check_before_fmt = function(v, func) {
     if (v == undefined || isNaN(v))
@@ -37,6 +55,17 @@ r12 = function(v) {
     });
 }
 
+niz = function(v) {
+    if (isNaN(v)) return 0;
+    return v;
+}
+
+noz = function(v) {
+    if (v == undefined)
+        return 0
+    return v
+}
+
 
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
@@ -51,6 +80,7 @@ function load_front(json) {
     }
     d3.select("#sum_purpose").text(purpose_mapping[json.summary.sum_purpose]);
     d3.select("#sum_2000").text(r0(json.summary.sum_2000) + "%");
+    d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
     var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
     _.each(all_years, function(el, i) {
@@ -73,27 +103,34 @@ function load_front(json) {
 
         var allocation_commitments = json.allocations.commitments[el];
         var allocation_disbursements = json.allocations.disbursements[el];
-        d3.select("#allcc" + (i + 1) + "r1").text(r2(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]));
-        d3.select("#allcc" + (i + 1) + "r2").text(r2(allocation_commitments["MDG6"]));
-        d3.select("#allcc" + (i + 1) + "r3").text(r2(allocation_commitments["Other Health Purposes"]));
-        d3.select("#allcc" + (i + 1) + "r4").text(r2(allocation_commitments["RH & FP"]));
-        d3.select("#allcc" + (i + 1) + "r5").text(r2(
-              allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]
-            + allocation_commitments["MDG6"]
-            + allocation_commitments["Other Health Purposes"]
-            + allocation_commitments["RH & FP"]
-        ));
 
-        d3.select("#alldc" + (i + 1) + "r1").text(r2(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]));
-        d3.select("#alldc" + (i + 1) + "r2").text(r2(allocation_disbursements["MDG6"]));
-        d3.select("#alldc" + (i + 1) + "r3").text(r2(allocation_disbursements["Other Health Purposes"]));
-        d3.select("#alldc" + (i + 1) + "r4").text(r2(allocation_disbursements["RH & FP"]));
-        d3.select("#alldc" + (i + 1) + "r5").text(r2(
-              allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]
-            + allocation_disbursements["MDG6"]
-            + allocation_disbursements["Other Health Purposes"]
-            + allocation_disbursements["RH & FP"]
-        ));
+        d3.select("#allcc" + (i + 1) + "r1").text("-")
+        d3.select("#allcc" + (i + 1) + "r2").text("-")
+        d3.select("#allcc" + (i + 1) + "r3").text("-")
+        d3.select("#allcc" + (i + 1) + "r4").text("-")
+        d3.select("#allcc" + (i + 1) + "r5").text("-")
+
+        if (allocation_commitments != undefined) {
+            d3.select("#allcc" + (i + 1) + "r1").text(r2(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]));
+            d3.select("#allcc" + (i + 1) + "r2").text(r2(allocation_commitments["MDG6"]));
+            d3.select("#allcc" + (i + 1) + "r3").text(r2(allocation_commitments["Other Health Purposes"]));
+            d3.select("#allcc" + (i + 1) + "r4").text(r2(allocation_commitments["RH & FP"]));
+            d3.select("#allcc" + (i + 1) + "r5").text(r2(_.sum(_.values(allocation_commitments))));
+        }
+
+        d3.select("#alldc" + (i + 1) + "r1").text("-")
+        d3.select("#alldc" + (i + 1) + "r2").text("-")
+        d3.select("#alldc" + (i + 1) + "r3").text("-")
+        d3.select("#alldc" + (i + 1) + "r4").text("-")
+        d3.select("#alldc" + (i + 1) + "r5").text("-")
+
+        if (allocation_disbursements != undefined) {
+            d3.select("#alldc" + (i + 1) + "r1").text(r2(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]));
+            d3.select("#alldc" + (i + 1) + "r2").text(r2(allocation_disbursements["MDG6"]));
+            d3.select("#alldc" + (i + 1) + "r3").text(r2(allocation_disbursements["Other Health Purposes"]));
+            d3.select("#alldc" + (i + 1) + "r4").text(r2(allocation_disbursements["RH & FP"]));
+            d3.select("#alldc" + (i + 1) + "r5").text(r2(_.sum(_.values(allocation_disbursements))));
+        }
 
         // segment pie
         var segpie = {
@@ -108,37 +145,34 @@ function load_front(json) {
             class : "piechart"
         };
 
-        segpie["node"] = "#piec_" + (2000 + i);
-        segpie["data"] = [
-            {"value" : allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]},
-            {"value" : allocation_commitments["MDG6"]},
-            {"value" : allocation_commitments["Other Health Purposes"]},
-            {"value" : allocation_commitments["RH & FP"]}
-        ];
-        
-        var segpiegraph = new SegmentPieGraph(segpie);
+        if (allocation_commitments != undefined) {
+            segpie["node"] = "#piec_" + (2000 + i);
+            segpie["data"] = [
+                {"value" : niz(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"])},
+                {"value" : niz(allocation_commitments["MDG6"])},
+                {"value" : niz(allocation_commitments["Other Health Purposes"])},
+                {"value" : niz(allocation_commitments["RH & FP"])}
+            ];
+            
+            var segpiegraph = new SegmentPieGraph(segpie);
+        }
         d3.select("#piec_" + (2000 + i) + "_old").remove();
 
-        segpie["node"] = "#pied_" + (2000 + i);
-        segpie["data"] = [
-            {"value" : allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]},
-            {"value" : allocation_disbursements["MDG6"]},
-            {"value" : allocation_disbursements["Other Health Purposes"]},
-            {"value" : allocation_disbursements["RH & FP"]}
-        ];
-        var segpiegraph = new SegmentPieGraph(segpie);
+        if (allocation_disbursements != undefined) {
+            segpie["node"] = "#pied_" + (2000 + i);
+            segpie["data"] = [
+                {"value" : niz(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"])},
+                {"value" : niz(allocation_disbursements["MDG6"])},
+                {"value" : niz(allocation_disbursements["Other Health Purposes"])},
+                {"value" : niz(allocation_disbursements["RH & FP"])}
+            ];
+            var segpiegraph = new SegmentPieGraph(segpie);
+        }
         
         d3.select("#pied_" + (2000 + i) + "_old").remove();
 
         
     });
-
-    round = function(x, places) {
-        x = x * Math.pow(10, places);
-        x = Math.round(x)
-        x =  x / Math.pow(10, places);
-        return x;
-    }
 
     // bar charts
     var rounded = {
@@ -199,7 +233,7 @@ function load_front(json) {
     rounded["node"] = "#oda_bar1"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2009 US$)"];
-        memo.push({"value" : round(indicator, 2), "series" : year});
+            memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["max"] = max;
@@ -215,7 +249,7 @@ function load_front(json) {
     rounded["node"] = "#oda_bar2"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["ODA for Health Disbursements (Million constant 2009 US$)"];
-        memo.push({"value" : round(indicator, 2), "series" : year});
+        memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["max"] = max;
@@ -249,14 +283,14 @@ function load_front(json) {
     rounded["node"] = "#oda_bar3"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["Commitments per capita USD"];
-        memo.push({"value" : round(indicator, 2), "series" : year});
+        memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["line"] = {
         type : "point",
         data : _.reduce(all_years, function(memo, year) {
             var v = json.indicators[year]["Regional AvComm per capita"];
-            memo.push(v);
+            memo.push(noz(v));
             return memo;
         }, [])
     }
@@ -273,14 +307,14 @@ function load_front(json) {
     rounded["node"] = "#oda_bar4"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
         indicator = json.indicators[year]["Disbursements per capita USD"];
-        memo.push({"value" : round(indicator, 2), "series" : year});
+        memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["line"] = {
         type : "point",
         data : _.reduce(all_years, function(memo, year) {
             var v = json.indicators[year]["Regional AvDisb per capita"];
-            memo.push(v);
+            memo.push(noz(v));
             return memo;
         }, [])
     }
@@ -307,8 +341,8 @@ function load_back(json) {
     ];
 
     var multis = [
-        "AfDF", "AFESD", "AsDB Special Fund", "EU Institutions", "GAVI",
-        "Global Fund", "IDA", "IDB Special Fund", "OFID", "UNAIDS",
+        "AfDF", "AFESD", "AsDB Special Funds", "EU Institutions", "GAVI",
+        "Global Fund", "IDA", "IDB Sp.Fund", "OFID", "UNAIDS",
         "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP"
     ]
 
@@ -342,6 +376,9 @@ function load_back(json) {
     });
     d3.select("#mul_total_nr").text(mul_total_nr);
     d3.select("#mul_total_value").text(r2(mul_total_value));
+    console.log(bil_total_value)
+    console.log(mul_total_value)
+    console.log(bil_total_value + mul_total_value)
 
     // bubbles
     d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
@@ -362,14 +399,18 @@ function load_back(json) {
     d3.select("#bubble_perc6").text(r1(other_perc * 100) + "%");
     
 
-    ratio2 = Math.sqrt(json.largest_sources[1]["percentage"] / json.largest_sources[0]["percentage"]);
-    ratio3 = Math.sqrt(json.largest_sources[2]["percentage"] / json.largest_sources[0]["percentage"]);
-    ratio4 = Math.sqrt(json.largest_sources[3]["percentage"] / json.largest_sources[0]["percentage"]);
-    ratio5 = Math.sqrt(json.largest_sources[4]["percentage"] / json.largest_sources[0]["percentage"]);
-    ratio6 = Math.sqrt(other_perc / json.largest_sources[0]["percentage"]);
+    var largest_value = json.largest_sources[0]["percentage"];
+    // if the largest value not much larger than the other values, scale it down to prevent overlaps
+    ratio1 = largest_value < 0.25 ? 0.7 : 1.0;
+    ratio2 = Math.sqrt(json.largest_sources[1]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
+    ratio3 = Math.sqrt(json.largest_sources[2]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
+    ratio4 = Math.sqrt(json.largest_sources[3]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
+    ratio5 = Math.sqrt(json.largest_sources[4]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
+    ratio6 = Math.sqrt(other_perc / json.largest_sources[0]["percentage"]) * ratio1;
 
     other_disbursements = 100 - totaltop5;
 
+    d3.select("#bubble1").attr("transform", "scale(" + ratio1 + "," + ratio1 + ")");
     d3.select("#bubble2").attr("transform", "scale(" + ratio2 + "," + ratio2 + ")");
     d3.select("#bubble3").attr("transform", "scale(" + ratio3 + "," + ratio3 + ")");
     d3.select("#bubble4").attr("transform", "scale(" + ratio4 + "," + ratio4 + ")");
@@ -384,8 +425,8 @@ function load_back(json) {
         d3.select("#sdcol4r" + (i + 1)).text(el.purpose);
     }); 
 
-    var val1 = r1(json.disbursements_percentage["other"].percentage * 100);
-    var val2 = r1(json.disbursements_percentage["largest"].percentage * 100);
+    var val1 = r0(json.disbursements_percentage["other"].percentage * 100);
+    var val2 = r0(json.disbursements_percentage["largest"].percentage * 100);
     // segment pie
     var segpie = {
         width: 300,
