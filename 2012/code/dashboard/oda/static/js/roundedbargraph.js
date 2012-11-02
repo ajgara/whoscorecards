@@ -9,7 +9,7 @@ RoundedBarGraph = function(ctx){
     this.node =  ctx.node;
 
     var chart_height = ctx.chart_height || 0.8;
-    var chart_width = ctx.chart_width || 0.9;
+    var chart_width = ctx.chart_width || 0.85;
 
     this.max = ctx.max;
 

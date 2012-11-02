@@ -40,6 +40,10 @@ r0 = function(v) {
     return check_before_fmt(v, function(v) {return v.formatThousands(0);});
 }
 
+r0nt = function(v) {
+    return check_before_fmt(v, Math.round(v));
+}
+
 r1 = function(v) {
     return check_before_fmt(v, function(v) {return v.formatThousands(1);});
 }
@@ -69,17 +73,17 @@ noz = function(v) {
 
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
-    d3.select("#sum_increase").text(r0(json.summary.sum_increase) + "%");
+    d3.select("#sum_increase").text(Math.round(json.summary.sum_increase) + "%");
     d3.select("#sum_amount").text(r0(json.summary.sum_2010) + "%");
 
-    console.log(json.summary.sum_purpose);
     purpose_mapping = {
         "HEALTH POLICY & ADMIN. MANAGEMENT" : "Health Policy & Admin",
         "MDG6" : "MDG6",
-        "Other Health Purposes" : "Other Health Purposes"
+        "Other Health Purposes" : "Other Health Purposes",
+        "RH & FP" : "Reproductive H. & Family Planning"
     }
     d3.select("#sum_purpose").text(purpose_mapping[json.summary.sum_purpose]);
-    d3.select("#sum_2000").text(r0(json.summary.sum_2000) + "%");
+    d3.select("#sum_2000").text(Math.round(json.summary.sum_2000) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
     var all_years = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010"];
@@ -178,15 +182,15 @@ function load_front(json) {
     var rounded = {
         bar: {
             'margin' : 4, // pixels between bars
-            'width': 185, // width of bars
-            'rounding': 3, // pixels for rounding effect
+            'width': 155, // width of bars
+            'rounding': 5, // pixels for rounding effect
             'color': '#0093d5'
         },
 
         line: {
             const_val: '0'
         },
-        width : 170,
+        width : 190,
         height : 102,
     }
 
@@ -376,9 +380,6 @@ function load_back(json) {
     });
     d3.select("#mul_total_nr").text(mul_total_nr);
     d3.select("#mul_total_value").text(r2(mul_total_value));
-    console.log(bil_total_value)
-    console.log(mul_total_value)
-    console.log(bil_total_value + mul_total_value)
 
     // bubbles
     d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
@@ -401,7 +402,7 @@ function load_back(json) {
 
     var largest_value = json.largest_sources[0]["percentage"];
     // if the largest value not much larger than the other values, scale it down to prevent overlaps
-    ratio1 = largest_value < 0.25 ? 0.7 : 1.0;
+    ratio1 = largest_value < 0.28 ? 0.78 : 1.0;
     ratio2 = Math.sqrt(json.largest_sources[1]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
     ratio3 = Math.sqrt(json.largest_sources[2]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
     ratio4 = Math.sqrt(json.largest_sources[3]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
