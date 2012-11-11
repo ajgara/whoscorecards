@@ -2,7 +2,7 @@ import os
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-PROJECT_ROOT = os.path.join(os.path.dirname(os.path.realpath(os.path.join("..", __file__))), "..")
+PROJECT_ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), ".."))
 print PROJECT_ROOT
 
 ADMINS = (
@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+    'oda',
 )
 
 # A sample logging configuration. The only tangible logging

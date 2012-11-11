@@ -1,8 +1,8 @@
 from django.conf.urls import patterns, include, url
 
 # Uncomment the next two lines to enable the admin:
-# from django.contrib import admin
-# admin.autodiscover()
+from django.contrib import admin
+admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
@@ -12,6 +12,9 @@ urlpatterns = patterns('',
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
-    # Uncomment the next line to enable the admin:
-    # url(r'^admin/', include(admin.site.urls)),
+    url(r'^admin/', include(admin.site.urls)),
+    url(r'^data/(?P<donor>[^/]*)/disbursements/$', 'oda.views.json_disbursements'),
+    url(r'^data/(?P<donor>[^/]*)/purpose/$', 'oda.views.json_purpose'),
+    url(r'^data/(?P<donor>[^/]*)/disbursement_by_income/$', 'oda.views.json_disbursement_by_income'),
+    url(r'^data/(?P<donor>[^/]*)/disbursement_by_region/$', 'oda.views.json_disbursement_by_region'),
 )

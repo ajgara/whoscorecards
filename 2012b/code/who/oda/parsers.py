@@ -1,6 +1,16 @@
 import csv
+import os
+from django.conf import settings
 import models
 import ftypes
+
+
+data_files = {
+    "disbursements" : os.path.join(settings.STATIC_ROOT, "Table1 Chart2.csv"),
+    "purpose" : os.path.join(settings.STATIC_ROOT, "Table 3&5 Chart 4&6.csv"),
+    "disbursement_by_income" : os.path.join(settings.STATIC_ROOT, "Table 7 Chart 8.csv"),
+    "disbursement_by_region" : os.path.join(settings.STATIC_ROOT, "Table 9 Chart 10.csv")
+}
 
 def strip_perc(s):
     return models.SafeFloat(s.replace("%", ""))
@@ -58,5 +68,5 @@ def parse_disbursement_by_region(fp):
 if __name__ == "__main__":
     #parse_disbursements(open("../../../data/Table1 Chart2.csv"))
     #print parse_purpose(open("../../../data/Table 3&5 Chart 4&6.csv"))
-    print parse_disbursement_by_income(open("../../../data/Table 7 Chart 8.csv"))
+    print parse_disbursement_by_income(open(data_files["disbursement_by_income"]))
     #print parse_disbursement_by_region(open("../../../data/Table 9 Chart 10.csv"))
