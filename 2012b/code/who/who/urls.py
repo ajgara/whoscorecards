@@ -17,4 +17,5 @@ urlpatterns = patterns('',
     url(r'^data/(?P<donor>[^/]*)/purpose/$', 'oda.views.json_purpose'),
     url(r'^data/(?P<donor>[^/]*)/disbursement_by_income/$', 'oda.views.json_disbursement_by_income'),
     url(r'^data/(?P<donor>[^/]*)/disbursement_by_region/$', 'oda.views.json_disbursement_by_region'),
+    url(r'^data/(?P<donor>[^/]*)/page1/$', 'oda.views.json_page1'),
 )
