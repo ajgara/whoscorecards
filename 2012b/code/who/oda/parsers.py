@@ -6,10 +6,10 @@ import ftypes
 
 
 data_files = {
-    "disbursements" : os.path.join(settings.STATIC_ROOT, "Table1 Chart2.csv"),
-    "purpose" : os.path.join(settings.STATIC_ROOT, "Table 3&5 Chart 4&6.csv"),
-    "disbursement_by_income" : os.path.join(settings.STATIC_ROOT, "Table 7 Chart 8.csv"),
-    "disbursement_by_region" : os.path.join(settings.STATIC_ROOT, "Table 9 Chart 10.csv")
+    "disbursements" : os.path.join(settings.DATA_ROOT, "Table1 Chart2.csv"),
+    "purpose" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6.csv"),
+    "disbursement_by_income" : os.path.join(settings.DATA_ROOT, "Table 7 Chart 8.csv"),
+    "disbursement_by_region" : os.path.join(settings.DATA_ROOT, "Table 9 Chart 10.csv")
 }
 
 def strip_perc(s):

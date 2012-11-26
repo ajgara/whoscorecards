@@ -3,7 +3,7 @@ import os
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 PROJECT_ROOT = os.path.normpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), ".."))
-print PROJECT_ROOT
+DATA_ROOT = os.path.normpath(os.path.join(PROJECT_ROOT, "..", "..", "data"))
 
 ADMINS = (
     ('Adi Eyal', 'adi@burgercom.co.za'),
