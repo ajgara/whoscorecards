@@ -20,9 +20,16 @@ class DonorData(object):
         return data
 
     @property
-    def purpose(self):
-        filename = parsers.data_files["purpose"]
-        data = parsers.parse_purpose(open(filename))
+    def purpose_commitments(self):
+        filename = parsers.data_files["purpose_commitments"]
+        data = parsers.parse_purpose_commitments(open(filename))
+        data /= (lambda x : x.Donor == self.donor)
+        return data
+
+    @property
+    def purpose_disbursements(self):
+        filename = parsers.data_files["purpose_disbursements"]
+        data = parsers.parse_purpose_disbursements(open(filename))
         data /= (lambda x : x.Donor == self.donor)
         return data
 
@@ -45,9 +52,14 @@ def json_disbursements(request, donor=None):
     js = json.dumps(donordata.disbursements, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
 
-def json_purpose(request, donor=None):
+def json_purpose_commitments(request, donor=None):
     donordata = DonorData(donor)
-    js = json.dumps(donordata.purpose, indent=4, default=encoder)
+    js = json.dumps(donordata.purpose_commitments, indent=4, default=encoder)
+    return HttpResponse(js, mimetype="application/json")
+
+def json_purpose_disbursements(request, donor=None):
+    donordata = DonorData(donor)
+    js = json.dumps(donordata.purpose_disbursements, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
 
 def json_disbursement_by_income(request, donor=None):
@@ -79,7 +91,7 @@ def json_page1(request, donor=None):
     oda_percentage = disbursements * (lambda x : x["%age"])
 
     # allocation - commitments
-    commitments = donordata.purpose
+    commitments = donordata.purpose_commitments
 
     get_commitment = extract("Commitments, Million, constant 2009 US$")
 
@@ -96,10 +108,8 @@ def json_page1(request, donor=None):
     c_bar = [sum(el for el in year if el) for year in c_pies]
 
     # allocation - disbursements
-    # TODO fix this - this is actually commitments
-    disbursements = donordata.purpose
-    # TODO fix this - this is actually commitments
-    get_disbursement = extract("Commitments, Million, constant 2009 US$")
+    disbursements = donordata.purpose_disbursements
+    get_disbursement = extract("Disbursements, Million, constant 2009 US$")
     filter_and_extract_disbursements = lambda x : filter_and_extract(
         disbursements, filter_by("Purpose", x), get_disbursement
     )
@@ -121,6 +131,20 @@ def json_page1(request, donor=None):
     lmics = filter_and_extract_income("LMICs") 
     umics = filter_and_extract_income("UMICs") 
     gmc = filter_and_extract_income("Global and multi-country") 
+
+    # disbursement by region
+    by_region = donordata.disbursement_by_region
+    get_disbursement = extract("Disbursements, Million, constant 2009 US$")
+    filter_and_extract_income = lambda x : filter_and_extract(
+        by_region, filter_by("WHO Region", x), get_disbursement
+    )
+    afr = filter_and_extract_income("Afr") 
+    amr = filter_and_extract_income("Amr") 
+    emr = filter_and_extract_income("Emr") 
+    eur = filter_and_extract_income("Eur") 
+    sear = filter_and_extract_income("Sear") 
+    multicount = filter_and_extract_income("Multicount") 
+    not_un = filter_and_extract_income("Not UN") 
 
     data = {
         "country_name" : donor,
@@ -163,6 +187,11 @@ def json_page1(request, donor=None):
         # By Income
         "by_income_table" : [
             ldcs, lics, lmics, umics, gmc
+        ],
+
+        # By Region
+        "by_region_table" : [
+            afr, amr, emr, eur, sear, multicount, not_un
         ],
     }
 

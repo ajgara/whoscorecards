@@ -7,7 +7,8 @@ import ftypes
 
 data_files = {
     "disbursements" : os.path.join(settings.DATA_ROOT, "Table1 Chart2.csv"),
-    "purpose" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6.csv"),
+    "purpose_commitments" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6.csv"),
+    "purpose_disbursements" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6_d.csv"),
     "disbursement_by_income" : os.path.join(settings.DATA_ROOT, "Table 7 Chart 8.csv"),
     "disbursement_by_region" : os.path.join(settings.DATA_ROOT, "Table 9 Chart 10.csv")
 }
@@ -36,12 +37,21 @@ def parse_disbursements(fp):
     return parse_file(fp, transforms)
     
 
-def parse_purpose(fp):
+def parse_purpose_commitments(fp):
     transforms = {
         "Donor" : str,
         "Year" : str,
         "Purpose" : str,
         "Commitments, Million, constant 2009 US$" : models.SafeFloat,
+    }
+    return parse_file(fp, transforms)
+
+def parse_purpose_disbursements(fp):
+    transforms = {
+        "Donor" : str,
+        "Year" : str,
+        "Purpose" : str,
+        "Disbursements, Million, constant 2009 US$" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
 
