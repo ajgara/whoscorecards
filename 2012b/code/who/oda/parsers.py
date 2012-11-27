@@ -5,12 +5,14 @@ import models
 import ftypes
 
 
+path_to_file = lambda x : os.path.join(settings.DATA_ROOT, x)
 data_files = {
-    "disbursements" : os.path.join(settings.DATA_ROOT, "Table1 Chart2.csv"),
-    "purpose_commitments" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6.csv"),
-    "purpose_disbursements" : os.path.join(settings.DATA_ROOT, "Table 3&5 Chart 4&6_d.csv"),
-    "disbursement_by_income" : os.path.join(settings.DATA_ROOT, "Table 7 Chart 8.csv"),
-    "disbursement_by_region" : os.path.join(settings.DATA_ROOT, "Table 9 Chart 10.csv")
+    "disbursements" : path_to_file("Table1 Chart2.csv"),
+    "purpose_commitments" : path_to_file("Table 3&5 Chart 4&6.csv"),
+    "purpose_disbursements" : path_to_file("Table 3&5 Chart 4&6_d.csv"),
+    "disbursement_by_income" : path_to_file("Table 7 Chart 8.csv"),
+    "disbursement_by_region" : path_to_file("Table 9 Chart 10.csv"),
+    "disbursement_by_country" : path_to_file("Table13 Chart14.csv"),
 }
 
 def strip_perc(s):
@@ -72,6 +74,21 @@ def parse_disbursement_by_region(fp):
         "WHO Region" : str,
         "Disbursements, Million, constant 2009 US$" : models.SafeFloat,
 
+    }
+    return parse_file(fp, transforms)
+
+def parse_disbursements_by_country(fp):
+    transforms = {
+        "Donor" : str,
+        "ISO3" : str,
+        "Recipient" : str,
+        "Economic Development" : str,
+        "WHO Region" : str,
+        "HEALTH POLICY & ADMIN. MANAGEMENT" : models.SafeFloat,
+        "MDG6" : models.SafeFloat,
+        "Other Health Purposes" : models.SafeFloat,
+        "RH & FP" : models.SafeFloat,
+        "Disbursements, Million, 2009 constant US$ \nTotal" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
 

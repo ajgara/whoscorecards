@@ -110,6 +110,13 @@ class DonorData(object):
         data /= extract_donor(self.donor)
         return data
 
+    @property
+    def disbursement_by_country(self):
+        filename = parsers.data_files["disbursement_by_country"]
+        data = parsers.parse_disbursements_by_country(open(filename))
+        data /= extract_donor(self.donor)
+        return data
+
 def json_disbursements(request, donor=None):
     donordata = DonorData(donor)
     js = json.dumps(donordata.disbursements, indent=4, default=encoder)
@@ -133,6 +140,29 @@ def json_disbursement_by_income(request, donor=None):
 def json_disbursement_by_region(request, donor=None):
     donordata = DonorData(donor)
     js = json.dumps(donordata.disbursement_by_region, indent=4, default=encoder)
+    return HttpResponse(js, mimetype="application/json")
+
+def json_page2(request, donor=None):
+    donordata = DonorData(donor)
+
+    by_country = donordata.disbursement_by_country
+    print len(by_country)
+    data = {
+        "by_country_table" : [
+            [
+                row["Recipient"],
+                row["Economic Development"],
+                row["WHO Region"],
+                fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"]),
+                fod(row["MDG6"]),
+                fod(row["Other Health Purposes"]),
+                fod(row["RH & FP"]),
+                fod(row["Disbursements, Million, 2009 constant US$ \nTotal"]),
+            ]
+            for row in by_country
+        ]
+    }
+    js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
 
 def json_page1(request, donor=None):
