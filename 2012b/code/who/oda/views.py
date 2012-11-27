@@ -3,6 +3,9 @@ import json
 import parsers
 import ftypes
 
+def round2(x):
+    return round(x, 2)
+
 def extract(field):
     return lambda x : x[field]
 
@@ -210,13 +213,13 @@ def json_page1(request, donor=None):
     commitments = donordata.purpose_commitments
     c_policy, c_mdg6, c_other, c_rhfp = commitments
     c_pies = zip(*commitments)
-    c_bar = [sum(foz(el) for el in year) for year in c_pies]
+    c_bar = [round2(sum([foz(el) for el in year])) for year in c_pies]
 
     # allocation - disbursements
     disbursements = donordata.purpose_disbursements
     d_policy, d_mdg6, d_other, d_rhfp = disbursements
     d_pies = zip(*disbursements)
-    d_bar = [sum(foz(el) for el in year) for year in d_pies]
+    d_bar = [round2(sum([foz(el) for el in year])) for year in d_pies]
 
     # disbursement by income
     by_income = donordata.disbursement_by_income
@@ -268,7 +271,7 @@ def json_page1(request, donor=None):
         "health_total_commitments_bar" : c_bar,
 
         "arrow_commitments" : c_bar[10] - c_bar[9],
-        "arrow_commitments_text" : c_bar[10] - c_bar[9],
+        "arrow_commitments_text" : round2(c_bar[10] - c_bar[9]),
 
         # Disbursements
         "purpose_disbursements_table" : [
@@ -288,7 +291,7 @@ def json_page1(request, donor=None):
         "health_total_disbursements_bar" : d_bar,
 
         "arrow_disbursements" : d_bar[10] - d_bar[9],
-        "arrow_disbursements_text" : d_bar[10] - d_bar[9],
+        "arrow_disbursements_text" : round2(d_bar[10] - d_bar[9]),
 
         # By Income
         "by_income_table" : [
