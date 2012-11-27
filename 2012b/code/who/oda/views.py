@@ -26,13 +26,19 @@ def extract_year_data(value_field):
 def align_years(data, years=range(2000, 2011)):
     year_map = dict(data)
     val_or_dash = lambda x : x if x else "-"
-    return [val_or_dash(year_map.get(str(year), None)) for year in years]
+    return [fod(year_map.get(str(year), None)) for year in years]
 
 def foz(x):
     try:
         return float(x)
     except:
         return 0
+
+def fod(x):
+    try:
+        return float(x)
+    except:
+        return "-"
 
 purpose_categories = [
     "HEALTH POLICY & ADMIN. MANAGEMENT",
@@ -156,11 +162,11 @@ def json_page1(request, donor=None):
     filter_and_extract_income = lambda x : filter_and_extract(
         by_income, filter_by("Income Group", x), get_disbursement
     )
-    ldcs = filter_and_extract_income("LDCs") 
-    lics = filter_and_extract_income("Other LICs") 
-    lmics = filter_and_extract_income("LMICs") 
-    umics = filter_and_extract_income("UMICs") 
-    gmc = filter_and_extract_income("Global and multi-country") 
+    ldcs = map(fod, filter_and_extract_income("LDCs"))
+    lics = map(fod, filter_and_extract_income("Other LICs"))
+    lmics = map(fod, filter_and_extract_income("LMICs")) 
+    umics = map(fod, filter_and_extract_income("UMICs"))
+    gmc = map(fod, filter_and_extract_income("Global and multi-country"))
 
     # disbursement by region
     by_region = donordata.disbursement_by_region
@@ -168,13 +174,13 @@ def json_page1(request, donor=None):
     filter_and_extract_income = lambda x : filter_and_extract(
         by_region, filter_by("WHO Region", x), get_disbursement
     )
-    afr = filter_and_extract_income("Afr") 
-    amr = filter_and_extract_income("Amr") 
-    emr = filter_and_extract_income("Emr") 
-    eur = filter_and_extract_income("Eur") 
-    sear = filter_and_extract_income("Sear") 
-    multicount = filter_and_extract_income("Multicount") 
-    not_un = filter_and_extract_income("Not UN") 
+    afr = map(fod, filter_and_extract_income("Afr")) 
+    amr = map(fod, filter_and_extract_income("Amr")) 
+    emr = map(fod, filter_and_extract_income("Emr")) 
+    eur = map(fod, filter_and_extract_income("Eur")) 
+    sear = map(fod, filter_and_extract_income("Sear")) 
+    multicount = map(fod, filter_and_extract_income("Multicount"))
+    not_un = map(fod, filter_and_extract_income("Not UN")) 
 
     data = {
         "country_name" : donor,
