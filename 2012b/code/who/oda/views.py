@@ -43,6 +43,9 @@ def fod(x):
     except:
         return "-"
 
+def sum_ignore_nones(arr):
+    return sum(foz(x) for x in arr)
+
 purpose_categories = [
     "HEALTH POLICY & ADMIN. MANAGEMENT",
     "MDG6",
@@ -169,6 +172,18 @@ def json_page2(request, donor=None):
         extract_purpose(el)
         for el in by_country_without_global[0:8]
     ]
+
+    total_oda = sum_ignore_nones([
+        el[value_field] for el in by_country
+    ])
+    print top8_pies
+    other_oda = (total_oda - sum_ignore_nones(global_pie) - sum([sum_ignore_nones(pie) for pie in top8_pies])) / total_oda
+    
+
+    top8_countries = [
+        el["Recipient"]
+        for el in by_country_without_global[0:8]
+    ]
     
 
     data = {
@@ -195,6 +210,29 @@ def json_page2(request, donor=None):
             map(foz, top8_pies[5]),
             map(foz, top8_pies[6]),
             map(foz, top8_pies[7]),
+        ],
+        "recipient_percs" : [
+            round2(sum_ignore_nones(global_pie) / total_oda),
+            round2(sum_ignore_nones(top8_pies[0]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[1]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[2]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[3]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[4]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[5]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[6]) / total_oda),
+            round2(sum_ignore_nones(top8_pies[7]) / total_oda),
+            round2(other_oda),
+        ],
+        "recipient_countries" : [
+            "Global and Regional",
+            top8_countries[0],
+            top8_countries[1],
+            top8_countries[2],
+            top8_countries[3],
+            top8_countries[4],
+            top8_countries[5],
+            top8_countries[6],
+            top8_countries[7],
         ]
     }
     js = json.dumps(data, indent=4, default=encoder)
