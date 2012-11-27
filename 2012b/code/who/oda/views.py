@@ -146,7 +146,28 @@ def json_page2(request, donor=None):
     donordata = DonorData(donor)
 
     by_country = donordata.disbursement_by_country
-    print len(by_country)
+    value_field = "Disbursements, Million, 2009 constant US$ \nTotal"
+    by_country_top_30 = sorted(by_country, key=lambda x: x[value_field], reverse=True)[0:30]
+    by_country_without_global = sorted(
+        by_country / (lambda x: x["Recipient"] != "Global and Regional"),
+        key = lambda x: x[value_field],
+        reverse=True
+    )
+
+    extract_purpose = lambda x : [x[purpose] for purpose in purpose_categories]  # extract purpose data   
+    extract_purpose = lambda x : [x[purpose] for purpose in purpose_categories]    
+    global_pie = filter_and_extract(
+        by_country, 
+        lambda x: x["Recipient"] == "Global and Regional",         # filter Global
+        extract_purpose
+    )[0]
+
+    top8_pies = [
+        extract_purpose(el)
+        for el in by_country_without_global[0:8]
+    ]
+    
+
     data = {
         "by_country_table" : [
             [
@@ -157,9 +178,20 @@ def json_page2(request, donor=None):
                 fod(row["MDG6"]),
                 fod(row["Other Health Purposes"]),
                 fod(row["RH & FP"]),
-                fod(row["Disbursements, Million, 2009 constant US$ \nTotal"]),
+                fod(row[value_field]),
             ]
-            for row in by_country
+            for row in by_country_top_30
+        ],
+        "recipient_pies" : [
+            map(foz, global_pie), 
+            map(foz, top8_pies[0]),
+            map(foz, top8_pies[1]),
+            map(foz, top8_pies[2]),
+            map(foz, top8_pies[3]),
+            map(foz, top8_pies[4]),
+            map(foz, top8_pies[5]),
+            map(foz, top8_pies[6]),
+            map(foz, top8_pies[7]),
         ]
     }
     js = json.dumps(data, indent=4, default=encoder)
