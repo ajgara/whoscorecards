@@ -151,10 +151,11 @@ def json_page1(request, donor=None):
         "disbursements_table" : [
             total_disbursements, total_health_disbursements, oda_percentage
         ],
+
+        # Commitments
         "purpose_commitments_table" : [
             c_policy, c_mdg6, c_other, c_rhfp
         ],
-        # Commitments
         "purpose_commitments_pie_2000" : c_pies[0],
         "purpose_commitments_pie_2001" : c_pies[1],
         "purpose_commitments_pie_2002" : c_pies[2],
@@ -170,6 +171,9 @@ def json_page1(request, donor=None):
         "health_total_commitments_bar" : c_bar,
 
         # Disbursements
+        "purpose_disbursements_table" : [
+            d_policy, d_mdg6, d_other, d_rhfp
+        ],
         "purpose_disbursements_pie_2000" : d_pies[0],
         "purpose_disbursements_pie_2001" : d_pies[1],
         "purpose_disbursements_pie_2002" : d_pies[2],
