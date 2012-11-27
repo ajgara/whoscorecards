@@ -321,7 +321,10 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2008" : map(foz, c_pies[8]),
         "purpose_commitments_pie_2009" : map(foz, c_pies[9]),
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
-        "health_total_commitments_bar" : c_bar,
+        "health_total_commitments_bar" : {
+                "data" : c_bar,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+            },
 
         "arrow_commitments" : c_bar[10] - c_bar[9],
         "arrow_commitments_text" : round2(c_bar[10] - c_bar[9]),
@@ -341,7 +344,10 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2008" : map(foz, d_pies[8]),
         "purpose_disbursements_pie_2009" : map(foz, d_pies[9]),
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
-        "health_total_disbursements_bar" : d_bar,
+        "health_total_disbursements_bar" : {
+                "data" : d_bar,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+            },
 
         "arrow_disbursements" : d_bar[10] - d_bar[9],
         "arrow_disbursements_text" : round2(d_bar[10] - d_bar[9]),
