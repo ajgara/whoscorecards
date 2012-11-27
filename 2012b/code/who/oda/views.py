@@ -3,10 +3,43 @@ import json
 import parsers
 import ftypes
 
+def extract(field):
+    return lambda x : x[field]
+
+def filter_by(field, value):
+    return lambda x : x[field] == value
+
+def filter_and_extract(data, filter_by, extract):
+    return list(data / filter_by * extract)
+
+def extract_donor(donor):
+    return lambda x : x.Donor == donor
+
 def encoder(arg):
     if type(arg) == ftypes.list:
         return list(arg)
     return dict(arg)
+
+def extract_year_data(value_field):
+    return lambda x : (x["Year"], x[value_field])
+
+def align_years(data, years=range(2000, 2011)):
+    year_map = dict(data)
+    val_or_dash = lambda x : x if x else "-"
+    return [val_or_dash(year_map.get(str(year), None)) for year in years]
+
+def foz(x):
+    try:
+        return float(x)
+    except:
+        return 0
+
+purpose_categories = [
+    "HEALTH POLICY & ADMIN. MANAGEMENT",
+    "MDG6",
+    "Other Health Purposes",
+    "RH & FP",
+]
 
 class DonorData(object):
     def __init__(self, donor):
@@ -15,36 +48,60 @@ class DonorData(object):
     @property
     def disbursements(self):
         filename = parsers.data_files["disbursements"]
-        data = parsers.parse_disbursements(open(filename))
-        data /= (lambda x : x.Donor == self.donor)
+        data = parsers.parse_disbursements(open(filename)) / extract_donor(self.donor)
+        data /= extract_donor(self.donor)
         return data
 
     @property
     def purpose_commitments(self):
         filename = parsers.data_files["purpose_commitments"]
         data = parsers.parse_purpose_commitments(open(filename))
-        data /= (lambda x : x.Donor == self.donor)
-        return data
+        data /= extract_donor(self.donor)
+
+        value_field = "Commitments, Million, constant 2009 US$"
+        output = [
+            align_years(                            # Fill in missing data gaps
+                filter_and_extract(
+                    data, 
+                    filter_by("Purpose", category), # Filter a specific purpose category
+                    extract_year_data(value_field)  # Extract an array of (year, data) tuples
+                )
+            )
+            for category in purpose_categories
+        ]
+        return output
 
     @property
     def purpose_disbursements(self):
         filename = parsers.data_files["purpose_disbursements"]
         data = parsers.parse_purpose_disbursements(open(filename))
-        data /= (lambda x : x.Donor == self.donor)
-        return data
+        data /= extract_donor(self.donor)
+
+        value_field = "Disbursements, Million, constant 2009 US$"
+        output = [
+            align_years(                            # Fill in missing data gaps
+                filter_and_extract(
+                    data, 
+                    filter_by("Purpose", category), # Filter a specific purpose category
+                    extract_year_data(value_field)  # Extract an array of (year, data) tuples
+                )
+            )
+            for category in purpose_categories
+        ]
+        return output
 
     @property
     def disbursement_by_income(self):
         filename = parsers.data_files["disbursement_by_income"]
         data = parsers.parse_disbursement_by_income(open(filename))
-        data /= (lambda x : x.Donor == self.donor)
+        data /= extract_donor(self.donor)
         return data
 
     @property
     def disbursement_by_region(self):
         filename = parsers.data_files["disbursement_by_region"]
         data = parsers.parse_disbursement_by_region(open(filename))
-        data /= (lambda x : x.Donor == self.donor)
+        data /= extract_donor(self.donor)
         return data
 
 def json_disbursements(request, donor=None):
@@ -73,15 +130,6 @@ def json_disbursement_by_region(request, donor=None):
     return HttpResponse(js, mimetype="application/json")
 
 def json_page1(request, donor=None):
-    def extract(field):
-        return lambda x : x[field]
-
-    def filter_by(field, value):
-        return lambda x : x[field] == value
-
-    def filter_and_extract(data, filter_by, extract):
-        return list(data / filter_by * extract)
-    
     donordata = DonorData(donor)
 
     # disbursements
@@ -92,33 +140,15 @@ def json_page1(request, donor=None):
 
     # allocation - commitments
     commitments = donordata.purpose_commitments
-
-    get_commitment = extract("Commitments, Million, constant 2009 US$")
-
-    filter_and_extract_commitments = lambda x : filter_and_extract(
-        commitments, filter_by("Purpose", x), get_commitment
-    )
-
-    c_policy = filter_and_extract_commitments("HEALTH POLICY & ADMIN. MANAGEMENT")
-    c_mdg6 = filter_and_extract_commitments("MDG6")
-    c_other = filter_and_extract_commitments("Other Health Purposes")
-    c_rhfp = filter_and_extract_commitments("RH & FP")
-    c_pies = zip(c_policy, c_mdg6, c_other, c_rhfp)
-
-    c_bar = [sum(el for el in year if el) for year in c_pies]
+    c_policy, c_mdg6, c_other, c_rhfp = commitments
+    c_pies = zip(*commitments)
+    c_bar = [sum(foz(el) for el in year) for year in c_pies]
 
     # allocation - disbursements
     disbursements = donordata.purpose_disbursements
-    get_disbursement = extract("Disbursements, Million, constant 2009 US$")
-    filter_and_extract_disbursements = lambda x : filter_and_extract(
-        disbursements, filter_by("Purpose", x), get_disbursement
-    )
-    d_policy = filter_and_extract_disbursements("HEALTH POLICY & ADMIN. MANAGEMENT")
-    d_mdg6 = filter_and_extract_disbursements("MDG6")
-    d_other = filter_and_extract_disbursements("Other Health Purposes")
-    d_rhfp = filter_and_extract_disbursements("RH & FP")
-    d_pies = zip(d_policy, d_mdg6, d_other, d_rhfp)
-    d_bar = total_health_disbursements
+    d_policy, d_mdg6, d_other, d_rhfp = disbursements
+    d_pies = zip(*disbursements)
+    d_bar = [sum(foz(el) for el in year) for year in d_pies]
 
     # disbursement by income
     by_income = donordata.disbursement_by_income
@@ -156,37 +186,41 @@ def json_page1(request, donor=None):
         "purpose_commitments_table" : [
             c_policy, c_mdg6, c_other, c_rhfp
         ],
-        "purpose_commitments_pie_2000" : c_pies[0],
-        "purpose_commitments_pie_2001" : c_pies[1],
-        "purpose_commitments_pie_2002" : c_pies[2],
-        "purpose_commitments_pie_2003" : c_pies[3],
-        "purpose_commitments_pie_2004" : c_pies[4],
-        "purpose_commitments_pie_2005" : c_pies[5],
-        "purpose_commitments_pie_2006" : c_pies[6],
-        # TODO This data is missing for the moment
-        "purpose_commitments_pie_2007" : c_pies[0],
-        "purpose_commitments_pie_2008" : c_pies[0],
-        "purpose_commitments_pie_2009" : c_pies[0],
-        "purpose_commitments_pie_2010" : c_pies[0],
+        "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
+        "purpose_commitments_pie_2001" : map(foz, c_pies[1]),
+        "purpose_commitments_pie_2002" : map(foz, c_pies[2]),
+        "purpose_commitments_pie_2003" : map(foz, c_pies[3]),
+        "purpose_commitments_pie_2004" : map(foz, c_pies[4]),
+        "purpose_commitments_pie_2005" : map(foz, c_pies[5]),
+        "purpose_commitments_pie_2006" : map(foz, c_pies[6]),
+        "purpose_commitments_pie_2007" : map(foz, c_pies[7]),
+        "purpose_commitments_pie_2008" : map(foz, c_pies[8]),
+        "purpose_commitments_pie_2009" : map(foz, c_pies[9]),
+        "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : c_bar,
+
+        "arrow_commitments" : c_bar[10] - c_bar[9],
+        "arrow_commitments_text" : c_bar[10] - c_bar[9],
 
         # Disbursements
         "purpose_disbursements_table" : [
             d_policy, d_mdg6, d_other, d_rhfp
         ],
-        "purpose_disbursements_pie_2000" : d_pies[0],
-        "purpose_disbursements_pie_2001" : d_pies[1],
-        "purpose_disbursements_pie_2002" : d_pies[2],
-        "purpose_disbursements_pie_2003" : d_pies[3],
-        "purpose_disbursements_pie_2004" : d_pies[4],
-        "purpose_disbursements_pie_2005" : d_pies[5],
-        "purpose_disbursements_pie_2006" : d_pies[6],
-        # TODO This data is missing for the moment
-        "purpose_disbursements_pie_2007" : d_pies[0],
-        "purpose_disbursements_pie_2008" : d_pies[0],
-        "purpose_disbursements_pie_2009" : d_pies[0],
-        "purpose_disbursements_pie_2010" : d_pies[0],
+        "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
+        "purpose_disbursements_pie_2001" : map(foz, d_pies[1]),
+        "purpose_disbursements_pie_2002" : map(foz, d_pies[2]),
+        "purpose_disbursements_pie_2003" : map(foz, d_pies[3]),
+        "purpose_disbursements_pie_2004" : map(foz, d_pies[4]),
+        "purpose_disbursements_pie_2005" : map(foz, d_pies[5]),
+        "purpose_disbursements_pie_2006" : map(foz, d_pies[6]),
+        "purpose_disbursements_pie_2007" : map(foz, d_pies[7]),
+        "purpose_disbursements_pie_2008" : map(foz, d_pies[8]),
+        "purpose_disbursements_pie_2009" : map(foz, d_pies[9]),
+        "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : d_bar,
+
+        "arrow_disbursements" : d_bar[10] - d_bar[9],
+        "arrow_disbursements_text" : d_bar[10] - d_bar[9],
 
         # By Income
         "by_income_table" : [
