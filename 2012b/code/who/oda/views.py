@@ -290,6 +290,14 @@ def json_page1(request, donor=None):
         "disbursements_table" : [
             total_disbursements, total_health_disbursements, oda_percentage
         ],
+        "disbursements_graph" : {
+            "total": total_disbursements,
+            "health": {
+                "data": total_health_disbursements,
+                "domain-y": [ 0, max(total_disbursements) ]
+            }
+        },
+        
 
         # Commitments
         "purpose_commitments_table" : [
