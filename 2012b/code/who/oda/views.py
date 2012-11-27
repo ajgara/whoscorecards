@@ -283,7 +283,10 @@ def json_page1(request, donor=None):
     eur = map(fod, filter_and_extract_income("Eur")) 
     sear = map(fod, filter_and_extract_income("Sear")) 
     multicount = map(fod, filter_and_extract_income("Multicount"))
-    not_un = map(fod, filter_and_extract_income("Not UN")) 
+    not_un = map(fod, filter_and_extract_income("Not UN"))
+    
+    by_income_domain_y = [ 0, max(ldcs + lics + lmics + umics + gmc) ]
+    by_region_domain_y = [ 0, max(afr + amr + emr + eur + sear + multicount + not_un) ]
 
     data = {
         "country_name" : donor,
@@ -291,10 +294,10 @@ def json_page1(request, donor=None):
             total_disbursements, total_health_disbursements, oda_percentage
         ],
         "disbursements_graph" : {
-            "total": total_disbursements,
-            "health": {
-                "data": total_health_disbursements,
-                "domain-y": [ 0, max(total_disbursements) ]
+            "total" : total_disbursements,
+            "health" : {
+                "data" : total_health_disbursements,
+                "domain-y" : [ 0, max(total_disbursements) ]
             }
         },
         
@@ -343,11 +346,63 @@ def json_page1(request, donor=None):
         "by_income_table" : [
             ldcs, lics, lmics, umics, gmc
         ],
+        "by_income_graph" : [
+            {
+                "data" : ldcs,
+                "domain-y" : by_income_domain_y
+            },
+            {
+                "data" : lics,
+                "domain-y" : by_income_domain_y
+            },
+            {
+                "data" : lmics,
+                "domain-y" : by_income_domain_y
+            },
+            {
+                "data" : umics,
+                "domain-y" : by_income_domain_y
+            },
+            {
+                "data" : gmc,
+                "domain-y" : by_income_domain_y
+            }
+        ],
 
         # By Region
         "by_region_table" : [
             afr, amr, emr, eur, sear, multicount, not_un
         ],
+        "by_region_graph" : [
+            {
+                "data" : afr,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : amr,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : emr,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : eur,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : sear,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : multicount,
+                "domain-y" : by_region_domain_y
+            },
+            {
+                "data" : not_un,
+                "domain-y" : by_region_domain_y
+            }
+        ]
     }
 
     js = json.dumps(data, indent=4, default=encoder)
