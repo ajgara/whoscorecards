@@ -294,10 +294,14 @@ def json_page1(request, donor=None):
             total_disbursements, total_health_disbursements, oda_percentage
         ],
         "disbursements_graph" : {
-            "total" : total_disbursements,
+            "total" : {
+                "data" : total_disbursements,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+            },
             "health" : {
                 "data" : total_health_disbursements,
-                "domain-y" : [ 0, max(total_disbursements) ]
+                "domain-y" : [ 0, max(total_disbursements) ],
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             }
         },
         
@@ -349,23 +353,28 @@ def json_page1(request, donor=None):
         "by_income_graph" : [
             {
                 "data" : ldcs,
-                "domain-y" : by_income_domain_y
+                "domain-y" : by_income_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : lics,
-                "domain-y" : by_income_domain_y
+                "domain-y" : by_income_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : lmics,
-                "domain-y" : by_income_domain_y
+                "domain-y" : by_income_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : umics,
-                "domain-y" : by_income_domain_y
+                "domain-y" : by_income_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : gmc,
-                "domain-y" : by_income_domain_y
+                "domain-y" : by_income_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             }
         ],
 
@@ -376,31 +385,38 @@ def json_page1(request, donor=None):
         "by_region_graph" : [
             {
                 "data" : afr,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : amr,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : emr,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : eur,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : sear,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : multicount,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             },
             {
                 "data" : not_un,
-                "domain-y" : by_region_domain_y
+                "domain-y" : by_region_domain_y,
+                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
             }
         ]
     }
