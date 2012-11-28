@@ -176,7 +176,6 @@ def json_page2(request, donor=None):
     total_oda = sum_ignore_nones([
         el[value_field] for el in by_country
     ])
-    print top8_pies
     other_oda = (total_oda - sum_ignore_nones(global_pie) - sum([sum_ignore_nones(pie) for pie in top8_pies])) / total_oda
     
 
@@ -243,9 +242,10 @@ def json_page1(request, donor=None):
 
     # disbursements
     disbursements = donordata.disbursements
-    total_disbursements = disbursements * (lambda x : x["Total ODA"])
-    total_health_disbursements = disbursements * (lambda x : x["Total Health"])
-    oda_percentage = disbursements * (lambda x : x["%age"])
+    total_disbursements = disbursements * extract("Total ODA")
+    other_disbursements = disbursements * extract("OTHER ODA")
+    total_health_disbursements = disbursements * extract("Total Health")
+    oda_percentage = disbursements * extract("%age")
 
     # allocation - commitments
     commitments = donordata.purpose_commitments
@@ -285,8 +285,9 @@ def json_page1(request, donor=None):
     multicount = map(fod, filter_and_extract_income("Multicount"))
     not_un = map(fod, filter_and_extract_income("Not UN"))
     
-    by_income_domain_y = [ 0, max(ldcs + lics + lmics + umics + gmc) ]
-    by_region_domain_y = [ 0, max(afr + amr + emr + eur + sear + multicount + not_un) ]
+    by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)]
+    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)]
+    domain_x = range(2000, 2011)
 
     data = {
         "country_name" : donor,
@@ -294,14 +295,14 @@ def json_page1(request, donor=None):
             total_disbursements, total_health_disbursements, oda_percentage
         ],
         "disbursements_graph" : {
-            "total" : {
-                "data" : total_disbursements,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+            "other" : {
+                "data" : other_disbursements,
+                "labels" : domain_x
             },
             "health" : {
                 "data" : total_health_disbursements,
                 "domain-y" : [ 0, max(total_disbursements) ],
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             }
         },
         
@@ -323,7 +324,7 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
 
         "arrow_commitments" : c_bar[10] - c_bar[9],
@@ -346,7 +347,7 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
 
         "arrow_disbursements" : d_bar[10] - d_bar[9],
@@ -360,27 +361,27 @@ def json_page1(request, donor=None):
             {
                 "data" : ldcs,
                 "domain-y" : by_income_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : lics,
                 "domain-y" : by_income_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : lmics,
                 "domain-y" : by_income_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : umics,
                 "domain-y" : by_income_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : gmc,
                 "domain-y" : by_income_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             }
         ],
 
@@ -392,37 +393,37 @@ def json_page1(request, donor=None):
             {
                 "data" : afr,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : amr,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : emr,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : eur,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : sear,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : multicount,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             },
             {
                 "data" : not_un,
                 "domain-y" : by_region_domain_y,
-                "labels" : [ "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010" ]
+                "labels" : domain_x
             }
         ]
     }
