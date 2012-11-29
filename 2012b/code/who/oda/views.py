@@ -186,18 +186,30 @@ def json_page2(request, donor=None):
     
 
     data = {
+        "country_name" : donor,
+        #"by_country_table" : [
+        #    [
+        #        row["Recipient"],
+        #        row["Economic Development"],
+        #        row["WHO Region"],
+        #        fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"]),
+        #        fod(row["MDG6"]),
+        #        fod(row["Other Health Purposes"]),
+        #        fod(row["RH & FP"]),
+        #        fod(row[value_field]),
+        #    ]
+        #    for row in by_country_top_30
+        #],
+        # Made each column a separate table widget.
         "by_country_table" : [
-            [
-                row["Recipient"],
-                row["Economic Development"],
-                row["WHO Region"],
-                fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"]),
-                fod(row["MDG6"]),
-                fod(row["Other Health Purposes"]),
-                fod(row["RH & FP"]),
-                fod(row[value_field]),
-            ]
-            for row in by_country_top_30
+            [[ row["Recipient"] for row in by_country_top_30 ]],
+            [[ row["Economic Development"] for row in by_country_top_30 ]],
+            [[ row["WHO Region"] for row in by_country_top_30 ]],
+            [[ fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"]) for row in by_country_top_30 ]],
+            [[ fod(row["MDG6"]) for row in by_country_top_30 ]],
+            [[ fod(row["Other Health Purposes"]) for row in by_country_top_30 ]],
+            [[ fod(row["RH & FP"]) for row in by_country_top_30 ]],
+            [[ fod(row[value_field]) for row in by_country_top_30 ]]
         ],
         "recipient_pies" : [
             map(foz, global_pie), 
