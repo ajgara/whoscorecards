@@ -32,13 +32,13 @@
      inkscape:window-height="1899"
      id="namedview3002"
      showgrid="false"
-     inkscape:zoom="7.2030166"
-     inkscape:cx="584.60267"
-     inkscape:cy="209.13137"
+     inkscape:zoom="3.6015083"
+     inkscape:cx="580.32771"
+     inkscape:cy="216.94726"
      inkscape:window-x="0"
      inkscape:window-y="19"
      inkscape:window-maximized="0"
-     inkscape:current-layer="ODA_for_Health" />
+     inkscape:current-layer="g605" />
   <metadata
      id="metadata4403">
     <rdf:rdf>
@@ -1058,6 +1058,7 @@
 
 
 
+
 m</text>
         <text
            transform="matrix(1 0 0 1 781.8867 223.5332)"
@@ -1092,6 +1093,7 @@ m</text>
    data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_disbursements_text"
    data-widget="text"
    id="tspan39616">99.49</tspan>
+
 
 
 
@@ -1352,18 +1354,18 @@ m</text>
            style="fill:#595A5C; font-family:'Calibri'; font-size:5.5;"
            id="text629">To WPRO Countries</text>
         <text
-           transform="matrix(0.97 0 0 1 518.127 551.207)"
+           transform="matrix(0.97,0,0,1,518.127,551.207)"
            id="text631">
           <tspan
              x="0"
              y="0"
-             style="fill:#595A5C; font-family:'Calibri'; font-size:5.5;"
+             style="font-size:5.5px;fill:#595a5c;font-family:Calibri"
              id="tspan633">Global &amp; Multi-Country</tspan>
           <tspan
-             x="51.544"
+             x="51.543999"
              y="0"
-             style="fill:#595A5C; font-family:'Calibri'; font-size:4;"
-             id="tspan635">(incl UN)</tspan>
+             style="font-size:4px;fill:#595a5c;font-family:Calibri"
+             id="tspan635" />
         </text>
         <text
            transform="matrix(0.97 0 0 1 517.8848 505.2578)"
