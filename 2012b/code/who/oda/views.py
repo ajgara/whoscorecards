@@ -2,9 +2,13 @@ from django.http import HttpResponse
 import json
 import parsers
 import ftypes
+import locale
+
+# TODO not sure if this is the right thing to do
+locale.setlocale(locale.LC_ALL, 'en_US.utf8')
 
 def round2(x):
-    return "%.2f" % round(x, 2)
+    return locale.format("%.2f", x, grouping=True)
 
 def extract(field):
     return lambda x : x[field]
@@ -13,7 +17,7 @@ def filter_by(field, value):
     return lambda x : x[field] == value
 
 def filter_and_extract(data, filter_by, extract):
-    return list(data / filter_by * extract)
+    return (data / filter_by) * extract
 
 def extract_donor(donor):
     return lambda x : x.Donor == donor
@@ -39,7 +43,7 @@ def foz(x):
 
 def fod(x):
     try:
-        return float(x)
+        return round2(float(x))
     except:
         return "-"
 
@@ -251,13 +255,13 @@ def json_page1(request, donor=None):
     commitments = donordata.purpose_commitments
     c_policy, c_mdg6, c_other, c_rhfp = commitments
     c_pies = zip(*commitments)
-    c_bar = [round2(sum([foz(el) for el in year])) for year in c_pies]
+    c_bar = [sum(foz(el) for el in year) for year in c_pies]
 
     # allocation - disbursements
     disbursements = donordata.purpose_disbursements
     d_policy, d_mdg6, d_other, d_rhfp = disbursements
     d_pies = zip(*disbursements)
-    d_bar = [round2(sum([foz(el) for el in year])) for year in d_pies]
+    d_bar = [sum(foz(el) for el in year) for year in d_pies]
 
     # disbursement by income
     by_income = donordata.disbursement_by_income
@@ -265,11 +269,11 @@ def json_page1(request, donor=None):
     filter_and_extract_income = lambda x : filter_and_extract(
         by_income, filter_by("Income Group", x), get_disbursement
     )
-    ldcs = map(fod, filter_and_extract_income("LDCs"))
-    lics = map(fod, filter_and_extract_income("Other LICs"))
-    lmics = map(fod, filter_and_extract_income("LMICs")) 
-    umics = map(fod, filter_and_extract_income("UMICs"))
-    gmc = map(fod, filter_and_extract_income("Global and multi-country"))
+    ldcs = filter_and_extract_income("LDCs")
+    lics = filter_and_extract_income("Other LICs")
+    lmics = filter_and_extract_income("LMICs")
+    umics = filter_and_extract_income("UMICs")
+    gmc = filter_and_extract_income("Global and multi-country")
 
     # disbursement by region
     by_region = donordata.disbursement_by_region
@@ -277,13 +281,13 @@ def json_page1(request, donor=None):
     filter_and_extract_income = lambda x : filter_and_extract(
         by_region, filter_by("WHO Region", x), get_disbursement
     )
-    afr = map(fod, filter_and_extract_income("Afr")) 
-    amr = map(fod, filter_and_extract_income("Amr")) 
-    emr = map(fod, filter_and_extract_income("Emr")) 
-    eur = map(fod, filter_and_extract_income("Eur")) 
-    sear = map(fod, filter_and_extract_income("Sear")) 
-    multicount = map(fod, filter_and_extract_income("Multicount"))
-    not_un = map(fod, filter_and_extract_income("Not UN"))
+    afr = filter_and_extract_income("Afr")
+    amr = filter_and_extract_income("Amr")
+    emr = filter_and_extract_income("Emr")
+    eur = filter_and_extract_income("Eur")
+    sear = filter_and_extract_income("Sear")
+    multicount = filter_and_extract_income("Multicount")
+    not_un = filter_and_extract_income("Not UN")
     
     by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)]
     by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)]
@@ -292,7 +296,7 @@ def json_page1(request, donor=None):
     data = {
         "country_name" : donor,
         "disbursements_table" : [
-            total_disbursements, total_health_disbursements, oda_percentage
+            total_disbursements * round2, total_health_disbursements * round2, oda_percentage * round2
         ],
         "disbursements_graph" : {
             "other" : {
@@ -324,6 +328,7 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
+                "data_labels" : map(round2, c_bar),
                 "labels" : domain_x
             },
 
@@ -347,6 +352,7 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
+                "data_labels" : map(round2, d_bar),
                 "labels" : domain_x
             },
 
@@ -355,7 +361,11 @@ def json_page1(request, donor=None):
 
         # By Income
         "by_income_table" : [
-            ldcs, lics, lmics, umics, gmc
+            ldcs * fod, 
+            lics * fod, 
+            lmics * fod, 
+            umics * fod, 
+            gmc * fod
         ],
         "by_income_graph" : [
             {
@@ -387,7 +397,13 @@ def json_page1(request, donor=None):
 
         # By Region
         "by_region_table" : [
-            afr, amr, emr, eur, sear, multicount, not_un
+           afr * fod, 
+           amr * fod,
+           emr * fod,
+           eur * fod,
+           sear * fod,
+           multicount * fod,
+           not_un * fod
         ],
         "by_region_graph" : [
             {
