@@ -4,7 +4,7 @@ import parsers
 import ftypes
 
 def round2(x):
-    return round(x, 2)
+    return "%.2f" % round(x, 2)
 
 def extract(field):
     return lambda x : x[field]
