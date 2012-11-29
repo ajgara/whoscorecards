@@ -153,7 +153,7 @@ def json_page2(request, donor=None):
 
     by_country = donordata.disbursement_by_country
     value_field = "Disbursements, Million, 2009 constant US$ \nTotal"
-    by_country_top_30 = sorted(by_country, key=lambda x: x[value_field], reverse=True)[0:30]
+    by_country_top_40 = sorted(by_country, key=lambda x: x[value_field], reverse=True)[0:40]
     by_country_without_global = sorted(
         by_country / (lambda x: x["Recipient"] != "Global and Regional"),
         key = lambda x: x[value_field],
@@ -202,14 +202,14 @@ def json_page2(request, donor=None):
         #],
         # Made each column a separate table widget.
         "by_country_table" : [
-            [ [row["Recipient"]] for row in by_country_top_30 ],
-            [ [row["Economic Development"]] for row in by_country_top_30 ],
-            [ [row["WHO Region"]] for row in by_country_top_30 ],
-            [ [fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"])] for row in by_country_top_30 ],
-            [ [fod(row["MDG6"])] for row in by_country_top_30 ],
-            [ [fod(row["Other Health Purposes"])] for row in by_country_top_30 ],
-            [ [fod(row["RH & FP"])] for row in by_country_top_30 ],
-            [ [fod(row[value_field])] for row in by_country_top_30 ]
+            [ [row["Recipient"]] for row in by_country_top_40 ],
+            [ [row["Economic Development"]] for row in by_country_top_40 ],
+            [ [row["WHO Region"]] for row in by_country_top_40 ],
+            [ [fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"])] for row in by_country_top_40 ],
+            [ [fod(row["MDG6"])] for row in by_country_top_40 ],
+            [ [fod(row["Other Health Purposes"])] for row in by_country_top_40 ],
+            [ [fod(row["RH & FP"])] for row in by_country_top_40 ],
+            [ [fod(row[value_field])] for row in by_country_top_40 ]
         ],
         "recipient_pies" : [
             map(foz, global_pie), 
