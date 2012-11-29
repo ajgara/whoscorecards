@@ -191,20 +191,6 @@ def json_page2(request, donor=None):
 
     data = {
         "country_name" : donor,
-        #"by_country_table" : [
-        #    [
-        #        row["Recipient"],
-        #        row["Economic Development"],
-        #        row["WHO Region"],
-        #        fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"]),
-        #        fod(row["MDG6"]),
-        #        fod(row["Other Health Purposes"]),
-        #        fod(row["RH & FP"]),
-        #        fod(row[value_field]),
-        #    ]
-        #    for row in by_country_top_30
-        #],
-        # Made each column a separate table widget.
         "by_country_table" : [
             [ [row["Recipient"]] for row in by_country_top_40 ],
             [ [row["Economic Development"]] for row in by_country_top_40 ],
@@ -301,8 +287,8 @@ def json_page1(request, donor=None):
     multicount = filter_and_extract_income("Multicount")
     not_un = filter_and_extract_income("Not UN")
     
-    by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)]
-    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)]
+    by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)*1.2]
+    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)*1.2]
     domain_x = range(2000, 2011)
 
     data = {
@@ -313,11 +299,14 @@ def json_page1(request, donor=None):
         "disbursements_graph" : {
             "other" : {
                 "data" : other_disbursements,
+                "data-labels" : [round2(item) for item in other_disbursements],
+                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
             "health" : {
                 "data" : total_health_disbursements,
-                "domain-y" : [ 0, max(total_disbursements) ],
+                "data-labels" : [round2(item) for item in total_health_disbursements],
+                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             }
         },
@@ -341,6 +330,7 @@ def json_page1(request, donor=None):
         "health_total_commitments_bar" : {
                 "data" : c_bar,
                 "data_labels" : map(round2, c_bar),
+                "domain-y" : [0, max(c_bar)*1.2],
                 "labels" : domain_x
             },
 
@@ -365,6 +355,7 @@ def json_page1(request, donor=None):
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
                 "data_labels" : map(round2, d_bar),
+                "domain-y" : [0, max(d_bar)*1.2],
                 "labels" : domain_x
             },
 
