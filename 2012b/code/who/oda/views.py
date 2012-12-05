@@ -329,7 +329,7 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
-                "data_labels" : map(round2, c_bar),
+                "data-labels" : map(round2, c_bar),
                 "domain-y" : [0, max(c_bar)*1.2],
                 "labels" : domain_x
             },
@@ -354,7 +354,7 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
-                "data_labels" : map(round2, d_bar),
+                "data-labels" : map(round2, d_bar),
                 "domain-y" : [0, max(d_bar)*1.2],
                 "labels" : domain_x
             },
