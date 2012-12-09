@@ -62,6 +62,13 @@ class DonorData(object):
         self.donor = donor
 
     @property
+    def recipient_countries(self):
+        filename = parsers.data_files["recipient_countries"]
+        data = parsers.parse_recipient_countries(open(filename)) / extract_donor(self.donor)
+        data /= extract_donor(self.donor)
+        return data
+
+    @property
     def disbursements(self):
         filename = parsers.data_files["disbursements"]
         data = parsers.parse_disbursements(open(filename)) / extract_donor(self.donor)
@@ -156,38 +163,12 @@ def json_page2(request, donor=None):
     donordata = DonorData(donor)
 
     by_country = donordata.disbursement_by_country
+    recipient_countries = sorted(donordata.recipient_countries, key=lambda x: x["Ordinal"])
+
     value_field = "Disbursements, Million, 2009 constant US$ \nTotal"
     by_country_top_40 = sorted(by_country, key=lambda x: x[value_field], reverse=True)[0:40]
-    by_country_without_global = sorted(
-        by_country / (lambda x: x["Recipient"] != "Global and Regional"),
-        key = lambda x: x[value_field],
-        reverse=True
-    )
 
-    extract_purpose = lambda x : [x[purpose] for purpose in purpose_categories]  # extract purpose data   
     extract_purpose = lambda x : [x[purpose] for purpose in purpose_categories]    
-    global_pie = filter_and_extract(
-        by_country, 
-        lambda x: x["Recipient"] == "Global and Regional",         # filter Global
-        extract_purpose
-    )[0]
-
-    top8_pies = [
-        extract_purpose(el)
-        for el in by_country_without_global[0:8]
-    ]
-
-    total_oda = sum_ignore_nones([
-        el[value_field] for el in by_country
-    ])
-    other_oda = (total_oda - sum_ignore_nones(global_pie) - sum([sum_ignore_nones(pie) for pie in top8_pies])) / total_oda
-    
-
-    top8_countries = [
-        el["Recipient"]
-        for el in by_country_without_global[0:8]
-    ]
-    
 
     data = {
         "country_name" : donor,
@@ -202,39 +183,14 @@ def json_page2(request, donor=None):
             [ [fod(row[value_field])] for row in by_country_top_40 ]
         ],
         "recipient_pies" : [
-            map(foz, global_pie), 
-            map(foz, top8_pies[0]),
-            map(foz, top8_pies[1]),
-            map(foz, top8_pies[2]),
-            map(foz, top8_pies[3]),
-            map(foz, top8_pies[4]),
-            map(foz, top8_pies[5]),
-            map(foz, top8_pies[6]),
-            map(foz, top8_pies[7]),
+            map(foz, extract_purpose(rc)) for rc in recipient_countries
         ],
         "recipient_percs" : [
-            round2(sum_ignore_nones(global_pie) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[0]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[1]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[2]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[3]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[4]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[5]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[6]) / total_oda * 100),
-            round2(sum_ignore_nones(top8_pies[7]) / total_oda * 100),
-            round2(other_oda),
+            round2(rc["Percentage"]) for rc in recipient_countries
         ],
         "recipient_countries" : [
-            "Global and Regional",
-            top8_countries[0],
-            top8_countries[1],
-            top8_countries[2],
-            top8_countries[3],
-            top8_countries[4],
-            top8_countries[5],
-            top8_countries[6],
-            top8_countries[7],
-        ]
+            rc["Recipient"] for rc in recipient_countries
+        ],
     }
     js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
