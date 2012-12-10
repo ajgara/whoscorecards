@@ -13,6 +13,7 @@ data_files = {
     "disbursement_by_income" : path_to_file("Table 7 Chart 8.csv"),
     "disbursement_by_region" : path_to_file("Table 9 Chart 10.csv"),
     "disbursement_by_country" : path_to_file("Table13 Chart14.csv"),
+    "recipient_countries" : path_to_file("Chart14.csv"),
 }
 
 def strip_perc(s):
@@ -91,6 +92,22 @@ def parse_disbursements_by_country(fp):
         "Disbursements, Million, 2009 constant US$ \nTotal" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
+
+def parse_recipient_countries(fp):
+    transforms = {
+        "Donor" : str,
+        "ISO3" : str,
+        "Recipient" : str,
+        "HEALTH POLICY & ADMIN. MANAGEMENT" : models.SafeFloat,
+        "MDG6" : models.SafeFloat,
+        "Other Health Purposes" : models.SafeFloat,
+        "RH & FP" : models.SafeFloat,
+        "Disbursements, Million, 2009 constant US$ \nTotal" : models.SafeFloat,
+        "Ordinal" : int,
+        "Percentage" : strip_perc,
+    }
+    return parse_file(fp, transforms)
+    
 
 if __name__ == "__main__":
     #parse_disbursements(open("../../../data/Table1 Chart2.csv"))
