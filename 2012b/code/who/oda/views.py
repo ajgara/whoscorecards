@@ -284,11 +284,12 @@ def json_page1(request, donor=None):
     emr = filter_and_extract_income("Emr")
     eur = filter_and_extract_income("Eur")
     sear = filter_and_extract_income("Sear")
+    wpr = filter_and_extract_income("Wpr")
     multicount = filter_and_extract_income("Multicount")
     not_un = filter_and_extract_income("Not UN")
     
     by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)*1.2]
-    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)*1.2]
+    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + wpr + multicount + not_un)*1.2]
     domain_x = range(2000, 2011)
 
     data = {
@@ -405,6 +406,7 @@ def json_page1(request, donor=None):
            emr * fod,
            eur * fod,
            sear * fod,
+           wpr * fod,
            multicount * fod,
            not_un * fod
         ],
@@ -431,6 +433,11 @@ def json_page1(request, donor=None):
             },
             {
                 "data" : sear,
+                "domain-y" : by_region_domain_y,
+                "labels" : domain_x
+            },
+            {
+                "data" : wpr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
