@@ -240,11 +240,12 @@ def json_page1(request, donor=None):
     emr = filter_and_extract_income("Emr")
     eur = filter_and_extract_income("Eur")
     sear = filter_and_extract_income("Sear")
+    wpr = filter_and_extract_income("Wpr")
     multicount = filter_and_extract_income("Multicount")
     not_un = filter_and_extract_income("Not UN")
     
     by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)*1.2]
-    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + multicount + not_un)*1.2]
+    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + wpr + multicount + not_un)*1.2]
     domain_x = range(2000, 2011)
 
     data = {
@@ -256,6 +257,12 @@ def json_page1(request, donor=None):
             "other" : {
                 "data" : other_disbursements,
                 "data-labels" : [round2(item) for item in other_disbursements],
+                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
+                "labels" : domain_x
+            },
+            "total" : {
+                "data" : total_disbursements,
+                "data-labels" : [round2(item) for item in total_health_disbursements],
                 "domain-y" : [ 0, max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
@@ -361,46 +368,52 @@ def json_page1(request, donor=None):
            emr * fod,
            eur * fod,
            sear * fod,
+           wpr * fod,
            multicount * fod,
            not_un * fod
         ],
-        "by_region_graph" : [
-            {
+        "by_region_graph" : {
+            'afr': {
                 "data" : afr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'amr': {
                 "data" : amr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'emr': {
                 "data" : emr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'eur': {
                 "data" : eur,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'sear': {
                 "data" : sear,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'wpr': {
+                "data" : wpr,
+                "domain-y" : by_region_domain_y,
+                "labels" : domain_x
+            },
+            'multi': {
                 "data" : multicount,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'other': {
                 "data" : not_un,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             }
-        ]
+        }
     }
 
     js = json.dumps(data, indent=4, default=encoder)
