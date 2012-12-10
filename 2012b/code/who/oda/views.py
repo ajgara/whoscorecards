@@ -33,7 +33,7 @@ def extract_year_data(value_field):
 def align_years(data, years=range(2000, 2011)):
     year_map = dict(data)
     val_or_dash = lambda x : x if x else "-"
-    return [fod(year_map.get(str(year), None)) for year in years]
+    return [year_map.get(str(year), None) for year in years]
 
 def foz(x):
     try:
@@ -270,7 +270,7 @@ def json_page1(request, donor=None):
 
         # Commitments
         "purpose_commitments_table" : [
-            c_policy, c_mdg6, c_other, c_rhfp
+            map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
         ],
         "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
         "purpose_commitments_pie_2001" : map(foz, c_pies[1]),
@@ -295,7 +295,7 @@ def json_page1(request, donor=None):
 
         # Disbursements
         "purpose_disbursements_table" : [
-            d_policy, d_mdg6, d_other, d_rhfp
+            map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
         ],
         "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
         "purpose_disbursements_pie_2001" : map(foz, d_pies[1]),

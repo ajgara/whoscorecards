@@ -7,7 +7,7 @@ import ftypes
 
 path_to_file = lambda x : os.path.join(settings.DATA_ROOT, x)
 data_files = {
-    "disbursements" : path_to_file("Table1 Chart2.csv"),
+    "disbursements" : path_to_file("Table1 Chart2 v2.csv"),
     "purpose_commitments" : path_to_file("Table 3&5 Chart 4&6.csv"),
     "purpose_disbursements" : path_to_file("Table 3&5 Chart 4&6_d.csv"),
     "disbursement_by_income" : path_to_file("Table 7 Chart 8.csv"),
