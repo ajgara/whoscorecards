@@ -262,7 +262,7 @@ def json_page1(request, donor=None):
             },
             "total" : {
                 "data" : total_disbursements,
-                "data-labels" : [round2(item) for item in other_disbursements],
+                "data-labels" : [round2(item) for item in total_health_disbursements],
                 "domain-y" : [ 0, max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
