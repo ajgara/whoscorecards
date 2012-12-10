@@ -260,6 +260,12 @@ def json_page1(request, donor=None):
                 "domain-y" : [ 0, max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
+            "total" : {
+                "data" : total_disbursements,
+                "data-labels" : [round2(item) for item in other_disbursements],
+                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
+                "labels" : domain_x
+            },
             "health" : {
                 "data" : total_health_disbursements,
                 "data-labels" : [round2(item) for item in total_health_disbursements],
@@ -366,48 +372,48 @@ def json_page1(request, donor=None):
            multicount * fod,
            not_un * fod
         ],
-        "by_region_graph" : [
-            {
+        "by_region_graph" : {
+            'afr': {
                 "data" : afr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'amr': {
                 "data" : amr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'emr': {
                 "data" : emr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'eur': {
                 "data" : eur,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'sear': {
                 "data" : sear,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'wpr': {
                 "data" : wpr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'multi': {
                 "data" : multicount,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
-            {
+            'other': {
                 "data" : not_un,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             }
-        ]
+        }
     }
 
     js = json.dumps(data, indent=4, default=encoder)
