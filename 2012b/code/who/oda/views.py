@@ -306,7 +306,7 @@ def json_page1(request, donor=None):
                 map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
             ],
             'totals': [
-                round2(item) for item in total_health_disbursements
+                [round2(item)] for item in total_health_disbursements
             ],
         },
         "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
