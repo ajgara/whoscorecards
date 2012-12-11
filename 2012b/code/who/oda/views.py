@@ -301,9 +301,14 @@ def json_page1(request, donor=None):
         "arrow_commitments_text" : round2(c_bar[10] - c_bar[9]),
 
         # Disbursements
-        "purpose_disbursements_table" : [
-            map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
-        ],
+        "purpose_disbursements_table" : {
+            'data': [
+                map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
+            ],
+            'totals': [
+                round2(item) for item in total_health_disbursements
+            ],
+        },
         "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
         "purpose_disbursements_pie_2001" : map(foz, d_pies[1]),
         "purpose_disbursements_pie_2002" : map(foz, d_pies[2]),
