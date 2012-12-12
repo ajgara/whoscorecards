@@ -10,6 +10,8 @@ locale.setlocale(locale.LC_ALL, 'en_US.utf8')
 def round2(x):
     if type(x) == str:
         return x
+    if x == None:
+        return "-"
     return locale.format("%.2f", x, grouping=True)
 
 def extract(field):
