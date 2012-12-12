@@ -37,7 +37,7 @@ def align_years(data, years=range(2000, 2011)):
     val_or_dash = lambda x : x if x else "-"
     return [year_map.get(str(year), None) for year in years]
 
-def extract_years(data, key, years=range(2000, 2011)):
+def extract_years(data, key, blank="-", years=range(2000, 2011)):
     newdata = ftypes.list()
     for year in years:
         added = False
@@ -46,7 +46,7 @@ def extract_years(data, key, years=range(2000, 2011)):
                 added = True
                 newdata.append(item[key])
         if not added:
-            newdata.append('-')
+            newdata.append(blank)
     return newdata
 
 def foz(x):
@@ -285,19 +285,19 @@ def json_page1(request, donor=None):
         "disbursements_graph" : {
             "other" : {
                 "data" : other_disbursements * foz,
-                "data-labels" : [round2(item) for item in other_disbursements],
+                "data-labels" : [round2(item).replace("-", "") for item in other_disbursements],
                 "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
             "total" : {
                 "data" : total_disbursements * foz,
-                "data-labels" : [round2(item) for item in total_health_disbursements],
+                "data-labels" : [round2(item).replace("-", "") for item in total_health_disbursements],
                 "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
             "health" : {
                 "data" : total_health_disbursements * foz,
-                "data-labels" : [round2(item) for item in total_health_disbursements],
+                "data-labels" : [round2(item).replace("-", "") for item in total_health_disbursements],
                 "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             }
@@ -321,7 +321,7 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
-                "data-labels" : map(round2, c_bar),
+                "data-labels" : [round2(i or "") for i in c_bar],
                 "domain-y" : [0, max(c_bar)*1.2],
                 "labels" : domain_x
             },
@@ -351,7 +351,7 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
-                "data-labels" : map(round2, d_bar),
+                "data-labels" : [round2(i or "") for i in d_bar],
                 "domain-y" : [0, max(d_bar)*1.2],
                 "labels" : domain_x
             },
