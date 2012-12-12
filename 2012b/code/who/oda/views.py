@@ -369,27 +369,27 @@ def json_page1(request, donor=None):
         ],
         "by_income_graph" : [
             {
-                "data" : ldcs * foz,
+                "data" : ldcs,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : lics * foz,
+                "data" : lics,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : lmics * foz,
+                "data" : lmics,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : umics * foz,
+                "data" : umics,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : gmc * foz,
+                "data" : gmc,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             }
@@ -408,42 +408,42 @@ def json_page1(request, donor=None):
         ],
         "by_region_graph" : {
             'afr': {
-                "data" : afr * foz,
+                "data" : afr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'amr': {
-                "data" : amr * foz,
+                "data" : amr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'emr': {
-                "data" : emr * foz,
+                "data" : emr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'eur': {
-                "data" : eur * foz,
+                "data" : eur,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'sear': {
-                "data" : sear * foz,
+                "data" : sear,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'wpr': {
-                "data" : wpr * foz,
+                "data" : wpr,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'multi': {
-                "data" : multicount * foz,
+                "data" : multicount,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'other': {
-                "data" : not_un * foz,
+                "data" : not_un,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             }
