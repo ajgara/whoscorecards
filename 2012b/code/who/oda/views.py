@@ -56,7 +56,7 @@ def foz(x):
         return 0
 
 def safe_max(list):
-    m = max(list or [0])
+    m = max([i for i in list if type(i) != str] or [0])
     if type(m) == str:
         return 1
     return m or 1
