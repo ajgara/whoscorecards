@@ -210,15 +210,12 @@ def json_page2(request, donor=None):
             pad(40, [""], [ [fod(row["RH & FP"])] for row in by_country_top_40 ]),
             pad(40, [""], [ [fod(row[value_field])] for row in by_country_top_40 ])
         ],
-        "recipient_pies" : [
-            pad(9, [], [map(foz, extract_purpose(rc)) for rc in recipient_countries])
-        ],
-        "recipient_percs" : [
-            pad(9, "", [(round2(rc["Percentage"])+"%").replace("-%", "") for rc in recipient_countries])
-        ],
-        "recipient_countries" : [
-            pad(9, "", [rc["Recipient"] for rc in recipient_countries])
-        ],
+        "recipient_pies" : 
+            pad(9, [], [map(foz, extract_purpose(rc)) for rc in recipient_countries]),
+        "recipient_percs" :
+            pad(9, "", [(round2(rc["Percentage"])+"%").replace("-%", "") for rc in recipient_countries]),
+        "recipient_countries" : 
+            pad(9, "", [rc["Recipient"] for rc in recipient_countries]),
     }
     js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
