@@ -211,13 +211,13 @@ def json_page2(request, donor=None):
             pad(40, [""], [ [fod(row[value_field])] for row in by_country_top_40 ])
         ],
         "recipient_pies" : [
-            map(foz, extract_purpose(rc)) for rc in recipient_countries
+            pad(9, [], [map(foz, extract_purpose(rc)) for rc in recipient_countries])
         ],
         "recipient_percs" : [
-            round2(rc["Percentage"]) for rc in recipient_countries
+            pad(9, "", [(round2(rc["Percentage"])+"%").replace("-%", "") for rc in recipient_countries])
         ],
         "recipient_countries" : [
-            rc["Recipient"] for rc in recipient_countries
+            pad(9, "", [rc["Recipient"] for rc in recipient_countries])
         ],
     }
     js = json.dumps(data, indent=4, default=encoder)
@@ -281,8 +281,7 @@ def json_page1(request, donor=None):
     data = {
         "country_name" : donor,
         "disbursements_table" : [
-            map(round2, total_disbursements), map(round2, total_health_disbursements), map(round2, oda_percentage)
-            #map(round2, total_disbursements), total_health_disbursements * round2, oda_percentage * round2
+            map(round2, total_disbursements), total_health_disbursements * round2, oda_percentage * round2
         ],
         "disbursements_graph" : {
             "other" : {
@@ -308,6 +307,12 @@ def json_page1(request, donor=None):
 
         # Commitments
         "purpose_commitments_table" : [
+            #'data': [
+            #    map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
+            #],
+            #'totals': [
+            #    [round2(item or "-") for item in total_health_disbursements]
+            #],
             map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
         ],
         "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
@@ -337,7 +342,7 @@ def json_page1(request, donor=None):
                 map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
             ],
             'totals': [
-                [round2(item) for item in total_health_disbursements]
+                [round2(item or "-") for item in total_health_disbursements]
             ],
         },
         "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
