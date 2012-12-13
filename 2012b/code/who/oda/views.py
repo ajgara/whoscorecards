@@ -213,9 +213,9 @@ def json_page2(request, donor=None):
         "recipient_pies" : 
             pad(9, [], [map(foz, extract_purpose(rc)) for rc in recipient_countries]),
         "recipient_percs" :
-            pad(9, "", [(round2(rc["Percentage"])+"%").replace("-%", "") for rc in recipient_countries]),
+            pad(9, " ", [(round2(rc["Percentage"])+"%").replace("-%", " ") for rc in recipient_countries]),
         "recipient_countries" : 
-            pad(9, "", [rc["Recipient"] for rc in recipient_countries]),
+            pad(9, " ", [rc["Recipient"] for rc in recipient_countries]),
     }
     js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
