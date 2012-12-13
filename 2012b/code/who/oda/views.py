@@ -326,7 +326,7 @@ def json_page1(request, donor=None):
         "health_total_commitments_bar" : {
                 "data" : c_bar,
                 "data-labels" : [round2(i or "") for i in c_bar],
-                "domain-y" : [0, max(c_bar)*1.2],
+                "domain-y" : [0, safe_max(c_bar)*1.2],
                 "labels" : domain_x
             },
 
@@ -356,7 +356,7 @@ def json_page1(request, donor=None):
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
                 "data-labels" : [round2(i or "") for i in d_bar],
-                "domain-y" : [0, max(d_bar)*1.2],
+                "domain-y" : [0, safe_max(d_bar)*1.2],
                 "labels" : domain_x
             },
 
