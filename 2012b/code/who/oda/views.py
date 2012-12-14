@@ -8,6 +8,10 @@ import locale
 locale.setlocale(locale.LC_ALL, 'en_US.utf8')
 
 def round2(x):
+    if type(x) == str:
+        return x
+    if x == None:
+        return "-"
     return locale.format("%.2f", x, grouping=True)
 
 def extract(field):
@@ -35,17 +39,41 @@ def align_years(data, years=range(2000, 2011)):
     val_or_dash = lambda x : x if x else "-"
     return [year_map.get(str(year), None) for year in years]
 
+def extract_years(data, key, blank="-", years=range(2000, 2011)):
+    newdata = ftypes.list()
+    for year in years:
+        added = False
+        for item in data:
+            if item['Year'] == str(year) and not added:
+                added = True
+                newdata.append(item[key])
+        if not added:
+            newdata.append(blank)
+    return newdata
+
 def foz(x):
     try:
         return float(x)
     except:
         return 0
 
+def safe_max(list):
+    m = max([i for i in list if type(i) != str] or [0])
+    if type(m) == str:
+        return 1
+    return m or 1
+
 def fod(x):
     try:
         return round2(float(x))
     except:
         return "-"
+
+def pad(length, pad, oldlist):
+    newlist = ftypes.list([pad] * length)
+    for i in range(0, len(oldlist)):
+        newlist[i] = oldlist[i]
+    return newlist
 
 def sum_ignore_nones(arr):
     return sum(foz(x) for x in arr)
@@ -173,24 +201,21 @@ def json_page2(request, donor=None):
     data = {
         "country_name" : donor,
         "by_country_table" : [
-            [ [row["Recipient"]] for row in by_country_top_40 ],
-            [ [row["Economic Development"]] for row in by_country_top_40 ],
-            [ [row["WHO Region"]] for row in by_country_top_40 ],
-            [ [fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"])] for row in by_country_top_40 ],
-            [ [fod(row["MDG6"])] for row in by_country_top_40 ],
-            [ [fod(row["Other Health Purposes"])] for row in by_country_top_40 ],
-            [ [fod(row["RH & FP"])] for row in by_country_top_40 ],
-            [ [fod(row[value_field])] for row in by_country_top_40 ]
+            pad(40, [""], [ [row["Recipient"]] for row in by_country_top_40 ]),
+            pad(40, [""], [ [row["Economic Development"]] for row in by_country_top_40 ]),
+            pad(40, [""], [ [row["WHO Region"]] for row in by_country_top_40 ]),
+            pad(40, [""], [ [fod(row["HEALTH POLICY & ADMIN. MANAGEMENT"])] for row in by_country_top_40 ]),
+            pad(40, [""], [ [fod(row["MDG6"])] for row in by_country_top_40 ]),
+            pad(40, [""], [ [fod(row["Other Health Purposes"])] for row in by_country_top_40 ]),
+            pad(40, [""], [ [fod(row["RH & FP"])] for row in by_country_top_40 ]),
+            pad(40, [""], [ [fod(row[value_field])] for row in by_country_top_40 ])
         ],
-        "recipient_pies" : [
-            map(foz, extract_purpose(rc)) for rc in recipient_countries
-        ],
-        "recipient_percs" : [
-            round2(rc["Percentage"]) for rc in recipient_countries
-        ],
-        "recipient_countries" : [
-            rc["Recipient"] for rc in recipient_countries
-        ],
+        "recipient_pies" : 
+            pad(9, [], [map(foz, extract_purpose(rc)) for rc in recipient_countries]),
+        "recipient_percs" :
+            pad(9, " ", [(round2(rc["Percentage"])+"%").replace("-%", " ") for rc in recipient_countries]),
+        "recipient_countries" : 
+            pad(9, " ", [rc["Recipient"] for rc in recipient_countries]),
     }
     js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
@@ -200,10 +225,10 @@ def json_page1(request, donor=None):
 
     # disbursements
     disbursements = donordata.disbursements
-    total_disbursements = disbursements * extract("Total ODA")
-    other_disbursements = disbursements * extract("OTHER ODA")
-    total_health_disbursements = disbursements * extract("Total Health")
-    oda_percentage = disbursements * extract("%age")
+    total_disbursements = extract_years(disbursements, "Total ODA") #disbursements * extract("Total ODA")
+    other_disbursements = extract_years(disbursements, "OTHER ODA") #disbursements * extract("OTHER ODA")
+    total_health_disbursements = extract_years(disbursements, "Total Health") #disbursements * extract("Total Health")
+    oda_percentage = extract_years(disbursements, "%age") #disbursements * extract("%age")
 
     # allocation - commitments
     commitments = donordata.purpose_commitments
@@ -219,10 +244,11 @@ def json_page1(request, donor=None):
 
     # disbursement by income
     by_income = donordata.disbursement_by_income
-    get_disbursement = extract("Disbursements, Million, constant 2009 US$")
-    filter_and_extract_income = lambda x : filter_and_extract(
-        by_income, filter_by("Income Group", x), get_disbursement
-    )
+    filter_and_extract_income = lambda x : extract_years(by_income / filter_by("Income Group", x), "Disbursements, Million, constant 2009 US$")
+    #get_disbursement = extract("Disbursements, Million, constant 2009 US$")
+    #filter_and_extract_income = lambda x : filter_and_extract(
+    #    by_income, filter_by("Income Group", x), get_disbursement
+    #)
     ldcs = filter_and_extract_income("LDCs")
     lics = filter_and_extract_income("Other LICs")
     lmics = filter_and_extract_income("LMICs")
@@ -231,10 +257,11 @@ def json_page1(request, donor=None):
 
     # disbursement by region
     by_region = donordata.disbursement_by_region
-    get_disbursement = extract("Disbursements, Million, constant 2009 US$")
-    filter_and_extract_income = lambda x : filter_and_extract(
-        by_region, filter_by("WHO Region", x), get_disbursement
-    )
+    filter_and_extract_income = lambda x : extract_years(by_region / filter_by("WHO Region", x), "Disbursements, Million, constant 2009 US$")
+    #get_disbursement = extract("Disbursements, Million, constant 2009 US$")
+    #filter_and_extract_income = lambda x : filter_and_extract(
+    #    by_region, filter_by("WHO Region", x), get_disbursement
+    #)
     afr = filter_and_extract_income("Afr")
     amr = filter_and_extract_income("Amr")
     emr = filter_and_extract_income("Emr")
@@ -244,32 +271,32 @@ def json_page1(request, donor=None):
     multicount = filter_and_extract_income("Multicount")
     not_un = filter_and_extract_income("Not UN")
     
-    by_income_domain_y = [0, max(ldcs + lics + lmics + umics + gmc)*1.2]
-    by_region_domain_y = [0, max(afr + amr + emr + eur + sear + wpr + multicount + not_un)*1.2]
+    by_income_domain_y = [0, safe_max(ldcs + lics + lmics + umics + gmc)*1.2]
+    by_region_domain_y = [0, safe_max(afr + amr + emr + eur + sear + wpr + multicount + not_un)*1.2]
     domain_x = range(2000, 2011)
 
     data = {
         "country_name" : donor,
         "disbursements_table" : [
-            total_disbursements * round2, total_health_disbursements * round2, oda_percentage * round2
+            map(round2, total_disbursements), total_health_disbursements * round2, oda_percentage * round2
         ],
         "disbursements_graph" : {
             "other" : {
-                "data" : other_disbursements,
-                "data-labels" : [round2(item) for item in other_disbursements],
-                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
+                "data" : other_disbursements * foz,
+                "data-labels" : [round2(item).replace("-", "") for item in other_disbursements],
+                "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
             "total" : {
-                "data" : total_disbursements,
-                "data-labels" : [round2(item) for item in total_health_disbursements],
-                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
+                "data" : total_disbursements * foz,
+                "data-labels" : [round2(item).replace("-", "") for item in total_health_disbursements],
+                "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             },
             "health" : {
-                "data" : total_health_disbursements,
-                "data-labels" : [round2(item) for item in total_health_disbursements],
-                "domain-y" : [ 0, max(total_disbursements)*1.2 ],
+                "data" : total_health_disbursements * foz,
+                "data-labels" : [round2(item).replace("-", "") for item in total_health_disbursements],
+                "domain-y" : [ 0, safe_max(total_disbursements)*1.2 ],
                 "labels" : domain_x
             }
         },
@@ -277,6 +304,12 @@ def json_page1(request, donor=None):
 
         # Commitments
         "purpose_commitments_table" : [
+            #'data': [
+            #    map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
+            #],
+            #'totals': [
+            #    [round2(item or "-") for item in total_health_disbursements]
+            #],
             map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
         ],
         "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
@@ -292,8 +325,8 @@ def json_page1(request, donor=None):
         "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
-                "data-labels" : map(round2, c_bar),
-                "domain-y" : [0, max(c_bar)*1.2],
+                "data-labels" : [round2(i or "") for i in c_bar],
+                "domain-y" : [0, safe_max(c_bar)*1.2],
                 "labels" : domain_x
             },
 
@@ -301,9 +334,14 @@ def json_page1(request, donor=None):
         "arrow_commitments_text" : round2(c_bar[10] - c_bar[9]),
 
         # Disbursements
-        "purpose_disbursements_table" : [
-            map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
-        ],
+        "purpose_disbursements_table" : {
+            'data': [
+                map(fod, d_policy), map(fod, d_mdg6), map(fod, d_other), map(fod, d_rhfp)
+            ],
+            'totals': [
+                [round2(item or "-") for item in total_health_disbursements]
+            ],
+        },
         "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
         "purpose_disbursements_pie_2001" : map(foz, d_pies[1]),
         "purpose_disbursements_pie_2002" : map(foz, d_pies[2]),
@@ -317,8 +355,8 @@ def json_page1(request, donor=None):
         "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
-                "data-labels" : map(round2, d_bar),
-                "domain-y" : [0, max(d_bar)*1.2],
+                "data-labels" : [round2(i or "") for i in d_bar],
+                "domain-y" : [0, safe_max(d_bar)*1.2],
                 "labels" : domain_x
             },
 
@@ -335,27 +373,27 @@ def json_page1(request, donor=None):
         ],
         "by_income_graph" : [
             {
-                "data" : ldcs,
+                "data" : ldcs * foz,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : lics,
+                "data" : lics * foz,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : lmics,
+                "data" : lmics * foz,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : umics,
+                "data" : umics * foz,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             },
             {
-                "data" : gmc,
+                "data" : gmc * foz,
                 "domain-y" : by_income_domain_y,
                 "labels" : domain_x
             }
@@ -374,42 +412,42 @@ def json_page1(request, donor=None):
         ],
         "by_region_graph" : {
             'afr': {
-                "data" : afr,
+                "data" : afr * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'amr': {
-                "data" : amr,
+                "data" : amr * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'emr': {
-                "data" : emr,
+                "data" : emr * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'eur': {
-                "data" : eur,
+                "data" : eur * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'sear': {
-                "data" : sear,
+                "data" : sear * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'wpr': {
-                "data" : wpr,
+                "data" : wpr * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'multi': {
-                "data" : multicount,
+                "data" : multicount * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             },
             'other': {
-                "data" : not_un,
+                "data" : not_un * foz,
                 "domain-y" : by_region_domain_y,
                 "labels" : domain_x
             }
@@ -418,3 +456,5 @@ def json_page1(request, donor=None):
 
     js = json.dumps(data, indent=4, default=encoder)
     return HttpResponse(js, mimetype="application/json")
+    
+    
