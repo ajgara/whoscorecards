@@ -207,7 +207,7 @@ Austria,JOR,Jordan,Low middle income,Emr,0.00,,,,0.00
 Austria,KHM,Cambodia,Least developed,Wpr,0.00,,,,0.00
 Austria,TTO,Trinidad and Tobago,Upper middle income,Amr,0.00,,,,0.00
 Austria,TGO,Togo,Least developed,Afr,0.00,,,,0.00
-Austria,LBY,Libyan Arab Jamahiriya,Upper middle income,Emr,,0.00,,,0.00
+Austria,LBY,Libya,Upper middle income,Emr,,0.00,,,0.00
 Belgium,COD,Democratic Republic of the Congo,Least developed,Afr,15.17,16.13,36.64,,67.93
 Belgium,Global and Regional,Global and Regional,Global and Regional,Global and Regional,1.47,9.91,47.15,1.45,59.98
 Belgium,RWA,Rwanda,Least developed,Afr,21.51,1.75,12.96,0.03,36.26
@@ -491,7 +491,7 @@ EU Institutions,NPL,Nepal,Least developed,Sear,1.01,0.32,1.53,0.80,3.65
 EU Institutions,COG,Congo,Low middle income,Afr,0.35,0.90,2.20,,3.46
 EU Institutions,NIC,Nicaragua,Low middle income,Amr,0.11,1.29,1.14,0.71,3.25
 EU Institutions,TGO,Togo,Least developed,Afr,0.02,0.64,2.50,,3.16
-EU Institutions,LBY,Libyan Arab Jamahiriya,Upper middle income,Emr,0.12,2.15,0.67,,2.94
+EU Institutions,LBY,Libya,Upper middle income,Emr,0.12,2.15,0.67,,2.94
 EU Institutions,UZB,Uzbekistan,Other low income,Eur,2.71,,0.19,,2.90
 EU Institutions,ECU,Ecuador,Low middle income,Amr,0.11,1.70,0.88,,2.68
 EU Institutions,PAK,Pakistan,Other low income,Emr,0.71,0.41,,1.45,2.58
@@ -618,7 +618,7 @@ France,MAR,Morocco,Low middle income,Emr,11.48,1.00,18.73,,31.22
 France,BFA,Burkina Faso,Least developed,Afr,2.13,16.55,3.94,0.00,22.62
 France,SEN,Senegal,Least developed,Afr,10.13,8.01,4.20,,22.34
 France,KEN,Kenya,Other low income,Afr,1.22,0.18,20.71,,22.11
-France,LBY,Libyan Arab Jamahiriya,Upper middle income,Emr,,,16.43,,16.43
+France,LBY,Libya,Upper middle income,Emr,,,16.43,,16.43
 France,MYT,Mayotte (France),Upper middle income,,5.18,6.48,3.73,0.55,15.93
 France,BEN,Benin,Least developed,Afr,1.92,5.53,5.82,,13.27
 France,CMR,Cameroon,Low middle income,Afr,0.65,10.10,1.06,,11.81
@@ -1283,7 +1283,7 @@ Italy,COG,Congo,Low middle income,Afr,,,0.03,,0.03
 Italy,JAM,Jamaica,Upper middle income,Amr,,,0.02,,0.02
 Italy,SWZ,Swaziland,Low middle income,Afr,,0.02,,,0.02
 Italy,MEX,Mexico,Upper middle income,Amr,,,0.01,,0.01
-Italy,LBY,Libyan Arab Jamahiriya,Upper middle income,Emr,0.01,,,,0.01
+Italy,LBY,Libya,Upper middle income,Emr,0.01,,,,0.01
 Italy,BGD,Bangladesh,Least developed,Sear,,,0.00,,0.00
 Italy,ARM,Armenia,Low middle income,Eur,,,0.00,,0.00
 Italy,NPL,Nepal,Least developed,Sear,,,0.00,,0.00
@@ -1422,79 +1422,79 @@ Japan,SYC,Seychelles,Upper middle income,Afr,0.02,,,,0.02
 Japan,UNK,Kosovo (SCR 1244 (1999)) ,Low middle income,,,,,0.01,0.01
 Japan,OMN,Oman,Upper middle income,Emr,0.01,,,,0.01
 Japan,MUS,Mauritius,Upper middle income,Afr,0.00,0.00,,,0.00
-Korea,VNM,Viet Nam,Other low income,Wpr,0.17,0.05,44.57,,44.79
-Korea,BIH,Bosnia and Herzegovina,Low middle income,Eur,,,35.98,,35.98
-Korea,AFG,Afghanistan,Least developed,Emr,,,29.74,,29.74
-Korea,Global and Regional,Global and Regional,Global and Regional,Global and Regional,14.30,2.87,5.35,0.46,22.98
-Korea,HND,Honduras,Low middle income,Amr,,,9.29,,9.29
-Korea,PER,Peru,Low middle income,Amr,0.09,,5.05,1.87,7.00
-Korea,LAO,Lao People's Democratic Republic,Least developed,Wpr,0.09,0.20,6.19,,6.48
-Korea,PRY,Paraguay,Low middle income,Amr,0.02,,5.61,0.02,5.65
-Korea,TZA,United Republic of Tanzania,Least developed,Afr,0.11,0.74,4.70,0.02,5.58
-Korea,COL,Colombia,Low middle income,Amr,,,4.18,,4.18
-Korea,IDN,Indonesia,Low middle income,Sear,,,3.63,,3.63
-Korea,IRQ,Iraq,Low middle income,Emr,,0.11,3.22,,3.33
-Korea,JOR,Jordan,Low middle income,Emr,0.00,,2.88,,2.88
-Korea,UZB,Uzbekistan,Other low income,Eur,0.03,1.68,1.00,,2.70
-Korea,ETH,Ethiopia,Least developed,Afr,0.17,,0.94,1.51,2.62
-Korea,COD,Democratic Republic of the Congo,Least developed,Afr,,1.35,1.13,0.01,2.49
-Korea,PHL,Philippines,Low middle income,Wpr,0.02,2.11,0.34,0.01,2.48
-Korea,GTM,Guatemala,Low middle income,Amr,0.01,,2.43,,2.44
-Korea,KEN,Kenya,Other low income,Afr,,,2.15,0.02,2.17
-Korea,KAZ,Kazakhstan,Upper middle income,Eur,0.02,,1.83,,1.85
-Korea,NPL,Nepal,Least developed,Sear,0.72,0.05,0.99,0.07,1.83
-Korea,PSE,West Bank & Gaza Strip,Low middle income,,0.01,,1.81,,1.82
-Korea,SLV,El Salvador,Low middle income,Amr,,,1.80,,1.80
-Korea,KHM,Cambodia,Least developed,Wpr,0.03,0.07,1.67,0.01,1.78
-Korea,CIV,Côte d'Ivoire,Other low income,Afr,,0.04,1.24,,1.29
-Korea,ZMB,Zambia,Least developed,Afr,,0.34,0.94,,1.28
-Korea,SEN,Senegal,Least developed,Afr,,0.33,0.90,,1.23
-Korea,UGA,Uganda,Least developed,Afr,0.09,0.67,0.45,,1.22
-Korea,NER,Niger,Least developed,Afr,,1.02,0.12,,1.15
-Korea,BGD,Bangladesh,Least developed,Sear,0.02,,0.63,0.45,1.10
-Korea,NGA,Nigeria,Other low income,Afr,0.01,0.92,0.13,,1.06
-Korea,MNG,Mongolia,Low middle income,Wpr,0.05,0.00,0.91,0.02,0.98
-Korea,DOM,Dominican Republic,Low middle income,Amr,,,0.45,0.52,0.97
-Korea,SDN,Sudan,Least developed,Emr,0.00,0.80,,,0.80
-Korea,MLI,Mali,Least developed,Afr,,,0.77,,0.77
-Korea,ECU,Ecuador,Low middle income,Amr,0.02,,0.66,,0.68
-Korea,FJI,Fiji,Upper middle income,Wpr,0.01,,0.62,,0.62
-Korea,EGY,Egypt,Low middle income,Emr,,,0.60,0.02,0.62
-Korea,CHN,China,Low middle income,Wpr,0.13,0.05,0.33,,0.51
-Korea,JAM,Jamaica,Upper middle income,Amr,,,0.46,,0.46
-Korea,GHA,Ghana,Other low income,Afr,0.02,,0.36,,0.38
-Korea,THA,Thailand,Low middle income,Sear,0.00,0.13,0.20,,0.34
-Korea,MWI,Malawi,Least developed,Afr,,0.31,,,0.31
-Korea,MAR,Morocco,Low middle income,Emr,,,0.30,,0.30
-Korea,LKA,Sri Lanka,Low middle income,Sear,0.02,,0.25,,0.27
-Korea,CMR,Cameroon,Low middle income,Afr,,0.14,0.07,0.02,0.23
-Korea,PAN,Panama,Upper middle income,Amr,,,0.19,,0.19
-Korea,CAF,Central African Republic,Least developed,Afr,,,0.18,,0.18
-Korea,COG,Congo,Low middle income,Afr,,0.17,,,0.17
-Korea,TLS,Timor-Leste,Least developed,Sear,0.01,,0.16,,0.17
-Korea,BFA,Burkina Faso,Least developed,Afr,,0.14,,,0.14
-Korea,UKR,Ukraine,Low middle income,Eur,0.01,,0.11,,0.12
-Korea,PAK,Pakistan,Other low income,Emr,0.06,,0.05,,0.11
-Korea,ZWE,Zimbabwe,Other low income,Afr,0.00,,0.10,,0.11
-Korea,SLE,Sierra Leone,Least developed,Afr,,,0.07,,0.07
-Korea,TUN,Tunisia,Low middle income,Emr,,,0.07,,0.07
-Korea,PLW,Palau,Upper middle income,Wpr,,,0.05,,0.05
-Korea,KGZ,Kyrgyzstan,Other low income,Eur,0.00,,0.04,,0.05
-Korea,PNG,Papua New Guinea,Other low income,Wpr,,,0.04,,0.04
-Korea,MMR,Myanmar,Least developed,Sear,,0.00,0.03,0.01,0.03
-Korea,SWZ,Swaziland,Low middle income,Afr,,,0.03,,0.03
-Korea,ZAF,South Africa,Upper middle income,Afr,,,0.02,,0.02
-Korea,RWA,Rwanda,Least developed,Afr,,,0.02,,0.02
-Korea,BOL,Bolivia (Plurinational State of),Low middle income,Amr,,,0.02,,0.02
-Korea,LCA,Saint Lucia,Upper middle income,Amr,,,0.01,0.01,0.02
-Korea,MDG,Madagascar,Least developed,Afr,,,0.01,,0.01
-Korea,GNQ,Equatorial Guinea,Least developed,Afr,,,0.01,,0.01
-Korea,IND,India,Low middle income,Sear,,,0.01,,0.01
-Korea,VCT,Saint Vincent and the Grenadines,Upper middle income,Amr,,,,0.01,0.01
-Korea,HTI,Haiti,Least developed,Amr,,,,0.01,0.01
-Korea,IRN,Iran (Islamic Republic of),Low middle income,Emr,0.00,,,,0.00
-Korea,MDV,Maldives,Least developed,Sear,0.00,,,,0.00
-Korea,MYS,Malaysia,Upper middle income,Wpr,0.00,,,,0.00
+Republic of Korea,VNM,Viet Nam,Other low income,Wpr,0.17,0.05,44.57,,44.79
+Republic of Korea,BIH,Bosnia and Herzegovina,Low middle income,Eur,,,35.98,,35.98
+Republic of Korea,AFG,Afghanistan,Least developed,Emr,,,29.74,,29.74
+Republic of Korea,Global and Regional,Global and Regional,Global and Regional,Global and Regional,14.30,2.87,5.35,0.46,22.98
+Republic of Korea,HND,Honduras,Low middle income,Amr,,,9.29,,9.29
+Republic of Korea,PER,Peru,Low middle income,Amr,0.09,,5.05,1.87,7.00
+Republic of Korea,LAO,Lao People's Democratic Republic,Least developed,Wpr,0.09,0.20,6.19,,6.48
+Republic of Korea,PRY,Paraguay,Low middle income,Amr,0.02,,5.61,0.02,5.65
+Republic of Korea,TZA,United Republic of Tanzania,Least developed,Afr,0.11,0.74,4.70,0.02,5.58
+Republic of Korea,COL,Colombia,Low middle income,Amr,,,4.18,,4.18
+Republic of Korea,IDN,Indonesia,Low middle income,Sear,,,3.63,,3.63
+Republic of Korea,IRQ,Iraq,Low middle income,Emr,,0.11,3.22,,3.33
+Republic of Korea,JOR,Jordan,Low middle income,Emr,0.00,,2.88,,2.88
+Republic of Korea,UZB,Uzbekistan,Other low income,Eur,0.03,1.68,1.00,,2.70
+Republic of Korea,ETH,Ethiopia,Least developed,Afr,0.17,,0.94,1.51,2.62
+Republic of Korea,COD,Democratic Republic of the Congo,Least developed,Afr,,1.35,1.13,0.01,2.49
+Republic of Korea,PHL,Philippines,Low middle income,Wpr,0.02,2.11,0.34,0.01,2.48
+Republic of Korea,GTM,Guatemala,Low middle income,Amr,0.01,,2.43,,2.44
+Republic of Korea,KEN,Kenya,Other low income,Afr,,,2.15,0.02,2.17
+Republic of Korea,KAZ,Kazakhstan,Upper middle income,Eur,0.02,,1.83,,1.85
+Republic of Korea,NPL,Nepal,Least developed,Sear,0.72,0.05,0.99,0.07,1.83
+Republic of Korea,PSE,West Bank & Gaza Strip,Low middle income,,0.01,,1.81,,1.82
+Republic of Korea,SLV,El Salvador,Low middle income,Amr,,,1.80,,1.80
+Republic of Korea,KHM,Cambodia,Least developed,Wpr,0.03,0.07,1.67,0.01,1.78
+Republic of Korea,CIV,Côte d'Ivoire,Other low income,Afr,,0.04,1.24,,1.29
+Republic of Korea,ZMB,Zambia,Least developed,Afr,,0.34,0.94,,1.28
+Republic of Korea,SEN,Senegal,Least developed,Afr,,0.33,0.90,,1.23
+Republic of Korea,UGA,Uganda,Least developed,Afr,0.09,0.67,0.45,,1.22
+Republic of Korea,NER,Niger,Least developed,Afr,,1.02,0.12,,1.15
+Republic of Korea,BGD,Bangladesh,Least developed,Sear,0.02,,0.63,0.45,1.10
+Republic of Korea,NGA,Nigeria,Other low income,Afr,0.01,0.92,0.13,,1.06
+Republic of Korea,MNG,Mongolia,Low middle income,Wpr,0.05,0.00,0.91,0.02,0.98
+Republic of Korea,DOM,Dominican Republic,Low middle income,Amr,,,0.45,0.52,0.97
+Republic of Korea,SDN,Sudan,Least developed,Emr,0.00,0.80,,,0.80
+Republic of Korea,MLI,Mali,Least developed,Afr,,,0.77,,0.77
+Republic of Korea,ECU,Ecuador,Low middle income,Amr,0.02,,0.66,,0.68
+Republic of Korea,FJI,Fiji,Upper middle income,Wpr,0.01,,0.62,,0.62
+Republic of Korea,EGY,Egypt,Low middle income,Emr,,,0.60,0.02,0.62
+Republic of Korea,CHN,China,Low middle income,Wpr,0.13,0.05,0.33,,0.51
+Republic of Korea,JAM,Jamaica,Upper middle income,Amr,,,0.46,,0.46
+Republic of Korea,GHA,Ghana,Other low income,Afr,0.02,,0.36,,0.38
+Republic of Korea,THA,Thailand,Low middle income,Sear,0.00,0.13,0.20,,0.34
+Republic of Korea,MWI,Malawi,Least developed,Afr,,0.31,,,0.31
+Republic of Korea,MAR,Morocco,Low middle income,Emr,,,0.30,,0.30
+Republic of Korea,LKA,Sri Lanka,Low middle income,Sear,0.02,,0.25,,0.27
+Republic of Korea,CMR,Cameroon,Low middle income,Afr,,0.14,0.07,0.02,0.23
+Republic of Korea,PAN,Panama,Upper middle income,Amr,,,0.19,,0.19
+Republic of Korea,CAF,Central African Republic,Least developed,Afr,,,0.18,,0.18
+Republic of Korea,COG,Congo,Low middle income,Afr,,0.17,,,0.17
+Republic of Korea,TLS,Timor-Leste,Least developed,Sear,0.01,,0.16,,0.17
+Republic of Korea,BFA,Burkina Faso,Least developed,Afr,,0.14,,,0.14
+Republic of Korea,UKR,Ukraine,Low middle income,Eur,0.01,,0.11,,0.12
+Republic of Korea,PAK,Pakistan,Other low income,Emr,0.06,,0.05,,0.11
+Republic of Korea,ZWE,Zimbabwe,Other low income,Afr,0.00,,0.10,,0.11
+Republic of Korea,SLE,Sierra Leone,Least developed,Afr,,,0.07,,0.07
+Republic of Korea,TUN,Tunisia,Low middle income,Emr,,,0.07,,0.07
+Republic of Korea,PLW,Palau,Upper middle income,Wpr,,,0.05,,0.05
+Republic of Korea,KGZ,Kyrgyzstan,Other low income,Eur,0.00,,0.04,,0.05
+Republic of Korea,PNG,Papua New Guinea,Other low income,Wpr,,,0.04,,0.04
+Republic of Korea,MMR,Myanmar,Least developed,Sear,,0.00,0.03,0.01,0.03
+Republic of Korea,SWZ,Swaziland,Low middle income,Afr,,,0.03,,0.03
+Republic of Korea,ZAF,South Africa,Upper middle income,Afr,,,0.02,,0.02
+Republic of Korea,RWA,Rwanda,Least developed,Afr,,,0.02,,0.02
+Republic of Korea,BOL,Bolivia (Plurinational State of),Low middle income,Amr,,,0.02,,0.02
+Republic of Korea,LCA,Saint Lucia,Upper middle income,Amr,,,0.01,0.01,0.02
+Republic of Korea,MDG,Madagascar,Least developed,Afr,,,0.01,,0.01
+Republic of Korea,GNQ,Equatorial Guinea,Least developed,Afr,,,0.01,,0.01
+Republic of Korea,IND,India,Low middle income,Sear,,,0.01,,0.01
+Republic of Korea,VCT,Saint Vincent and the Grenadines,Upper middle income,Amr,,,,0.01,0.01
+Republic of Korea,HTI,Haiti,Least developed,Amr,,,,0.01,0.01
+Republic of Korea,IRN,Iran (Islamic Republic of),Low middle income,Emr,0.00,,,,0.00
+Republic of Korea,MDV,Maldives,Least developed,Sear,0.00,,,,0.00
+Republic of Korea,MYS,Malaysia,Upper middle income,Wpr,0.00,,,,0.00
 Kuwait,JOR,Jordan,Low middle income,Emr,,,13.84,,13.84
 Kuwait,UZB,Uzbekistan,Other low income,Eur,,,12.69,,12.69
 Kuwait,CHN,China,Low middle income,Wpr,,,5.02,,5.02
@@ -2523,120 +2523,120 @@ United Kingdom,COG,Congo,Low middle income,Afr,,,0.01,,0.01
 United Kingdom,TKM,Turkmenistan,Low middle income,Eur,,,0.01,,0.01
 United Kingdom,BRB,Barbados,Upper middle income,Amr,,,0.00,,0.00
 United Kingdom,THA,Thailand,Low middle income,Sear,,0.00,,,0.00
-United States,Global and Regional,Global and Regional,Global and Regional,Global and Regional,8.56,"3,412.89",81.80,523.61,"4,026.86"
-United States,ZAF,South Africa,Upper middle income,Afr,,986.37,0.33,2.93,989.63
-United States,KEN,Kenya,Other low income,Afr,0.56,694.71,1.56,25.04,721.88
-United States,NGA,Nigeria,Other low income,Afr,0.99,658.76,2.00,40.69,702.44
-United States,TZA,United Republic of Tanzania,Least developed,Afr,0.44,492.82,4.42,32.01,529.69
-United States,UGA,Uganda,Least developed,Afr,1.39,504.39,1.81,19.51,527.10
-United States,ETH,Ethiopia,Least developed,Afr,0.39,443.38,0.16,42.61,486.54
-United States,MOZ,Mozambique,Least developed,Afr,0.92,358.24,3.28,13.55,375.98
-United States,ZMB,Zambia,Least developed,Afr,0.12,351.29,2.49,18.55,372.45
-United States,BWA,Botswana,Upper middle income,Afr,,280.29,,,280.29
-United States,AFG,Afghanistan,Least developed,Emr,1.34,14.11,39.92,191.24,246.61
-United States,RWA,Rwanda,Least developed,Afr,0.24,207.79,1.84,15.48,225.35
-United States,HTI,Haiti,Least developed,Amr,0.00,186.67,2.04,29.24,217.97
-United States,NAM,Namibia,Low middle income,Afr,,173.82,,,173.82
-United States,PAK,Pakistan,Other low income,Emr,0.13,12.70,22.16,106.80,141.79
-United States,CIV,Côte d'Ivoire,Other low income,Afr,,134.83,,,134.83
-United States,VNM,Viet Nam,Other low income,Wpr,,133.24,0.20,0.09,133.53
-United States,MWI,Malawi,Least developed,Afr,0.22,102.89,0.60,20.92,124.64
-United States,IND,India,Low middle income,Sear,5.85,65.98,9.50,40.82,122.15
-United States,COD,Democratic Republic of the Congo,Least developed,Afr,4.08,66.43,0.33,35.82,106.66
-United States,IRQ,Iraq,Low middle income,Emr,0.02,,103.68,,103.70
-United States,GHA,Ghana,Other low income,Afr,0.32,59.33,0.22,22.59,82.46
-United States,KHM,Cambodia,Least developed,Wpr,0.07,52.65,1.39,26.98,81.08
-United States,IDN,Indonesia,Low middle income,Sear,2.14,44.77,0.62,24.27,71.80
-United States,MDG,Madagascar,Least developed,Afr,0.01,49.56,0.53,21.17,71.28
-United States,ZWE,Zimbabwe,Other low income,Afr,0.18,60.45,0.17,7.99,68.78
-United States,AGO,Angola,Least developed,Afr,0.34,59.34,0.35,7.63,67.66
-United States,SDN,Sudan,Least developed,Emr,0.56,34.82,2.51,29.31,67.19
-United States,MLI,Mali,Least developed,Afr,3.28,42.96,4.10,12.88,63.22
-United States,SEN,Senegal,Least developed,Afr,0.27,41.69,0.30,19.36,61.61
-United States,LBR,Liberia,Least developed,Afr,0.46,33.09,0.17,22.39,56.11
-United States,BGD,Bangladesh,Least developed,Sear,0.97,13.46,0.04,41.60,56.07
-United States,EGY,Egypt,Low middle income,Emr,,16.63,7.32,30.84,54.78
-United States,JOR,Jordan,Low middle income,Emr,0.00,0.43,0.03,49.56,50.03
-United States,PHL,Philippines,Low middle income,Wpr,0.20,12.52,0.17,35.08,47.96
-United States,LSO,Lesotho,Least developed,Afr,3.90,27.51,15.45,,46.86
-United States,NPL,Nepal,Least developed,Sear,0.90,17.74,2.08,24.42,45.14
-United States,PER,Peru,Low middle income,Amr,0.78,10.64,0.66,27.77,39.85
-United States,BEN,Benin,Least developed,Afr,,26.60,0.51,9.94,37.04
-United States,SWZ,Swaziland,Low middle income,Afr,,34.19,,,34.19
-United States,PSE,West Bank & Gaza Strip,Low middle income,,3.78,,16.34,13.99,34.11
-United States,GUY,Guyana,Low middle income,Amr,,32.36,,,32.36
-United States,GTM,Guatemala,Low middle income,Amr,0.60,7.13,1.39,20.69,29.82
-United States,BOL,Bolivia (Plurinational State of),Low middle income,Amr,0.99,3.78,1.34,23.25,29.36
-United States,CHN,China,Low middle income,Wpr,2.12,25.25,1.08,,28.45
-United States,DOM,Dominican Republic,Low middle income,Amr,0.69,18.06,,7.18,25.93
-United States,GIN,Guinea,Least developed,Afr,1.33,11.51,1.22,10.87,24.93
-United States,UKR,Ukraine,Low middle income,Eur,,16.72,0.69,6.41,23.82
-United States,FSM,Micronesia (Federated States of),Low middle income,Wpr,23.57,,,,23.57
-United States,HND,Honduras,Low middle income,Amr,0.21,9.16,2.59,10.12,22.09
-United States,BDI,Burundi,Least developed,Afr,,14.59,0.04,5.97,20.60
-United States,YEM,Yemen,Least developed,Emr,,1.65,,12.41,14.06
-United States,NIC,Nicaragua,Low middle income,Amr,0.11,3.57,1.06,9.14,13.88
-United States,THA,Thailand,Low middle income,Sear,0.09,12.64,0.99,,13.71
-United States,GEO,Georgia,Low middle income,Eur,0.89,4.10,1.05,7.42,13.46
-United States,SLV,El Salvador,Low middle income,Amr,0.30,2.56,0.31,9.49,12.66
-United States,ARM,Armenia,Low middle income,Eur,,0.84,2.73,9.09,12.65
-United States,BRA,Brazil,Upper middle income,Amr,,12.31,0.18,,12.49
-United States,BFA,Burkina Faso,Least developed,Afr,,12.15,,,12.15
-United States,MEX,Mexico,Upper middle income,Amr,0.08,11.29,0.13,,11.50
-United States,CMR,Cameroon,Low middle income,Afr,,8.75,,1.51,10.26
-United States,TJK,Tajikistan,Other low income,Eur,,5.91,0.21,3.95,10.07
-United States,MHL,Marshall Islands,Low middle income,Wpr,9.15,,,,9.15
-United States,AZE,Azerbaijan,Low middle income,Eur,,0.85,2.56,5.46,8.87
-United States,MNG,Mongolia,Low middle income,Wpr,4.76,0.10,3.23,,8.08
-United States,PRY,Paraguay,Low middle income,Amr,0.15,0.36,0.17,6.89,7.56
-United States,NER,Niger,Least developed,Afr,,5.90,,1.22,7.12
-United States,UZB,Uzbekistan,Other low income,Eur,,5.68,0.39,0.48,6.55
-United States,TLS,Timor-Leste,Least developed,Sear,0.02,0.03,0.21,5.60,5.86
-United States,ALB,Albania,Low middle income,Eur,,0.17,1.24,3.41,4.82
-United States,PNG,Papua New Guinea,Other low income,Wpr,,4.30,,,4.30
-United States,MMR,Myanmar,Least developed,Sear,,4.25,,,4.25
-United States,KGZ,Kyrgyzstan,Other low income,Eur,,2.31,0.81,1.09,4.21
-United States,KAZ,Kazakhstan,Upper middle income,Eur,0.02,3.61,0.33,0.26,4.21
-United States,SLE,Sierra Leone,Least developed,Afr,,3.46,,0.10,3.56
-United States,JAM,Jamaica,Upper middle income,Amr,,2.43,0.58,0.16,3.17
-United States,TCD,Chad,Least developed,Afr,,2.91,,,2.91
-United States,LAO,Lao People's Democratic Republic,Least developed,Wpr,,2.22,0.53,,2.75
-United States,SOM,Somalia,Least developed,Emr,,1.60,,1.14,2.74
-United States,TKM,Turkmenistan,Low middle income,Eur,,2.05,0.27,0.28,2.61
-United States,ECU,Ecuador,Low middle income,Amr,,0.15,0.08,2.25,2.48
-United States,DJI,Djibouti,Least developed,Emr,,1.05,0.33,0.54,1.93
-United States,LBN,Lebanon,Upper middle income,Emr,,,1.53,,1.53
-United States,UNK,Kosovo (SCR 1244 (1999)) ,Low middle income,,,,,1.30,1.30
-United States,TGO,Togo,Least developed,Afr,,1.28,,,1.28
-United States,TUR,Turkey,Upper middle income,Eur,,1.00,0.20,,1.20
-United States,COG,Congo,Low middle income,Afr,,0.89,,0.22,1.12
-United States,CAF,Central African Republic,Least developed,Afr,,1.08,,,1.08
-United States,MRT,Mauritania,Least developed,Afr,,0.92,,,0.92
-United States,MDA,Republic of Moldova,Low middle income,Eur,,0.37,0.43,,0.80
-United States,PLW,Palau,Upper middle income,Wpr,0.15,,0.63,,0.78
-United States,LKA,Sri Lanka,Low middle income,Sear,,0.62,,,0.62
-United States,MAR,Morocco,Low middle income,Emr,,0.43,,,0.43
-United States,TTO,Trinidad and Tobago,Upper middle income,Amr,,0.40,,,0.40
-United States,GNB,Guinea-Bissau,Least developed,Afr,,0.30,,0.10,0.40
-United States,GMB,Gambia,Least developed,Afr,,0.39,,,0.39
-United States,ERI,Eritrea,Least developed,Afr,,0.24,0.14,,0.38
-United States,CRI,Costa Rica,Upper middle income,Amr,,0.14,0.22,,0.37
-United States,COL,Colombia,Low middle income,Amr,0.00,0.34,0.00,0.00,0.35
-United States,VEN,Venezuela (Bolivarian Republic of),Upper middle income,Amr,,0.34,,,0.34
-United States,BLZ,Belize,Upper middle income,Amr,,0.20,,,0.20
-United States,BIH,Bosnia and Herzegovina,Low middle income,Eur,,0.20,,,0.20
-United States,GAB,Gabon,Upper middle income,Afr,,0.20,,,0.20
-United States,PAN,Panama,Upper middle income,Amr,,0.01,0.12,,0.13
-United States,MKD,The former Yugoslav Republic of Macedonia,Low middle income,Eur,,0.12,0.00,,0.12
-United States,BRB,Barbados,Upper middle income,Amr,,0.11,,,0.11
-United States,COM,Comoros,Least developed,Afr,,0.11,,,0.11
-United States,BLR,Belarus,Upper middle income,Eur,,0.10,,,0.10
-United States,SRB,Serbia,Upper middle income,Eur,0.00,0.09,,,0.09
-United States,ARG,Argentina,Upper middle income,Amr,,0.08,,,0.08
-United States,DZA,Algeria,Low middle income,Afr,,0.07,,,0.07
-United States,SUR,Suriname,Upper middle income,Amr,,0.03,,,0.03
-United States,WSM,Samoa,Least developed,Wpr,,,0.02,,0.02
-United States,MYS,Malaysia,Upper middle income,Wpr,,,,,
+United States of America,Global and Regional,Global and Regional,Global and Regional,Global and Regional,8.56,"3,412.89",81.80,523.61,"4,026.86"
+United States of America,ZAF,South Africa,Upper middle income,Afr,,986.37,0.33,2.93,989.63
+United States of America,KEN,Kenya,Other low income,Afr,0.56,694.71,1.56,25.04,721.88
+United States of America,NGA,Nigeria,Other low income,Afr,0.99,658.76,2.00,40.69,702.44
+United States of America,TZA,United Republic of Tanzania,Least developed,Afr,0.44,492.82,4.42,32.01,529.69
+United States of America,UGA,Uganda,Least developed,Afr,1.39,504.39,1.81,19.51,527.10
+United States of America,ETH,Ethiopia,Least developed,Afr,0.39,443.38,0.16,42.61,486.54
+United States of America,MOZ,Mozambique,Least developed,Afr,0.92,358.24,3.28,13.55,375.98
+United States of America,ZMB,Zambia,Least developed,Afr,0.12,351.29,2.49,18.55,372.45
+United States of America,BWA,Botswana,Upper middle income,Afr,,280.29,,,280.29
+United States of America,AFG,Afghanistan,Least developed,Emr,1.34,14.11,39.92,191.24,246.61
+United States of America,RWA,Rwanda,Least developed,Afr,0.24,207.79,1.84,15.48,225.35
+United States of America,HTI,Haiti,Least developed,Amr,0.00,186.67,2.04,29.24,217.97
+United States of America,NAM,Namibia,Low middle income,Afr,,173.82,,,173.82
+United States of America,PAK,Pakistan,Other low income,Emr,0.13,12.70,22.16,106.80,141.79
+United States of America,CIV,Côte d'Ivoire,Other low income,Afr,,134.83,,,134.83
+United States of America,VNM,Viet Nam,Other low income,Wpr,,133.24,0.20,0.09,133.53
+United States of America,MWI,Malawi,Least developed,Afr,0.22,102.89,0.60,20.92,124.64
+United States of America,IND,India,Low middle income,Sear,5.85,65.98,9.50,40.82,122.15
+United States of America,COD,Democratic Republic of the Congo,Least developed,Afr,4.08,66.43,0.33,35.82,106.66
+United States of America,IRQ,Iraq,Low middle income,Emr,0.02,,103.68,,103.70
+United States of America,GHA,Ghana,Other low income,Afr,0.32,59.33,0.22,22.59,82.46
+United States of America,KHM,Cambodia,Least developed,Wpr,0.07,52.65,1.39,26.98,81.08
+United States of America,IDN,Indonesia,Low middle income,Sear,2.14,44.77,0.62,24.27,71.80
+United States of America,MDG,Madagascar,Least developed,Afr,0.01,49.56,0.53,21.17,71.28
+United States of America,ZWE,Zimbabwe,Other low income,Afr,0.18,60.45,0.17,7.99,68.78
+United States of America,AGO,Angola,Least developed,Afr,0.34,59.34,0.35,7.63,67.66
+United States of America,SDN,Sudan,Least developed,Emr,0.56,34.82,2.51,29.31,67.19
+United States of America,MLI,Mali,Least developed,Afr,3.28,42.96,4.10,12.88,63.22
+United States of America,SEN,Senegal,Least developed,Afr,0.27,41.69,0.30,19.36,61.61
+United States of America,LBR,Liberia,Least developed,Afr,0.46,33.09,0.17,22.39,56.11
+United States of America,BGD,Bangladesh,Least developed,Sear,0.97,13.46,0.04,41.60,56.07
+United States of America,EGY,Egypt,Low middle income,Emr,,16.63,7.32,30.84,54.78
+United States of America,JOR,Jordan,Low middle income,Emr,0.00,0.43,0.03,49.56,50.03
+United States of America,PHL,Philippines,Low middle income,Wpr,0.20,12.52,0.17,35.08,47.96
+United States of America,LSO,Lesotho,Least developed,Afr,3.90,27.51,15.45,,46.86
+United States of America,NPL,Nepal,Least developed,Sear,0.90,17.74,2.08,24.42,45.14
+United States of America,PER,Peru,Low middle income,Amr,0.78,10.64,0.66,27.77,39.85
+United States of America,BEN,Benin,Least developed,Afr,,26.60,0.51,9.94,37.04
+United States of America,SWZ,Swaziland,Low middle income,Afr,,34.19,,,34.19
+United States of America,PSE,West Bank & Gaza Strip,Low middle income,,3.78,,16.34,13.99,34.11
+United States of America,GUY,Guyana,Low middle income,Amr,,32.36,,,32.36
+United States of America,GTM,Guatemala,Low middle income,Amr,0.60,7.13,1.39,20.69,29.82
+United States of America,BOL,Bolivia (Plurinational State of),Low middle income,Amr,0.99,3.78,1.34,23.25,29.36
+United States of America,CHN,China,Low middle income,Wpr,2.12,25.25,1.08,,28.45
+United States of America,DOM,Dominican Republic,Low middle income,Amr,0.69,18.06,,7.18,25.93
+United States of America,GIN,Guinea,Least developed,Afr,1.33,11.51,1.22,10.87,24.93
+United States of America,UKR,Ukraine,Low middle income,Eur,,16.72,0.69,6.41,23.82
+United States of America,FSM,Micronesia (Federated States of),Low middle income,Wpr,23.57,,,,23.57
+United States of America,HND,Honduras,Low middle income,Amr,0.21,9.16,2.59,10.12,22.09
+United States of America,BDI,Burundi,Least developed,Afr,,14.59,0.04,5.97,20.60
+United States of America,YEM,Yemen,Least developed,Emr,,1.65,,12.41,14.06
+United States of America,NIC,Nicaragua,Low middle income,Amr,0.11,3.57,1.06,9.14,13.88
+United States of America,THA,Thailand,Low middle income,Sear,0.09,12.64,0.99,,13.71
+United States of America,GEO,Georgia,Low middle income,Eur,0.89,4.10,1.05,7.42,13.46
+United States of America,SLV,El Salvador,Low middle income,Amr,0.30,2.56,0.31,9.49,12.66
+United States of America,ARM,Armenia,Low middle income,Eur,,0.84,2.73,9.09,12.65
+United States of America,BRA,Brazil,Upper middle income,Amr,,12.31,0.18,,12.49
+United States of America,BFA,Burkina Faso,Least developed,Afr,,12.15,,,12.15
+United States of America,MEX,Mexico,Upper middle income,Amr,0.08,11.29,0.13,,11.50
+United States of America,CMR,Cameroon,Low middle income,Afr,,8.75,,1.51,10.26
+United States of America,TJK,Tajikistan,Other low income,Eur,,5.91,0.21,3.95,10.07
+United States of America,MHL,Marshall Islands,Low middle income,Wpr,9.15,,,,9.15
+United States of America,AZE,Azerbaijan,Low middle income,Eur,,0.85,2.56,5.46,8.87
+United States of America,MNG,Mongolia,Low middle income,Wpr,4.76,0.10,3.23,,8.08
+United States of America,PRY,Paraguay,Low middle income,Amr,0.15,0.36,0.17,6.89,7.56
+United States of America,NER,Niger,Least developed,Afr,,5.90,,1.22,7.12
+United States of America,UZB,Uzbekistan,Other low income,Eur,,5.68,0.39,0.48,6.55
+United States of America,TLS,Timor-Leste,Least developed,Sear,0.02,0.03,0.21,5.60,5.86
+United States of America,ALB,Albania,Low middle income,Eur,,0.17,1.24,3.41,4.82
+United States of America,PNG,Papua New Guinea,Other low income,Wpr,,4.30,,,4.30
+United States of America,MMR,Myanmar,Least developed,Sear,,4.25,,,4.25
+United States of America,KGZ,Kyrgyzstan,Other low income,Eur,,2.31,0.81,1.09,4.21
+United States of America,KAZ,Kazakhstan,Upper middle income,Eur,0.02,3.61,0.33,0.26,4.21
+United States of America,SLE,Sierra Leone,Least developed,Afr,,3.46,,0.10,3.56
+United States of America,JAM,Jamaica,Upper middle income,Amr,,2.43,0.58,0.16,3.17
+United States of America,TCD,Chad,Least developed,Afr,,2.91,,,2.91
+United States of America,LAO,Lao People's Democratic Republic,Least developed,Wpr,,2.22,0.53,,2.75
+United States of America,SOM,Somalia,Least developed,Emr,,1.60,,1.14,2.74
+United States of America,TKM,Turkmenistan,Low middle income,Eur,,2.05,0.27,0.28,2.61
+United States of America,ECU,Ecuador,Low middle income,Amr,,0.15,0.08,2.25,2.48
+United States of America,DJI,Djibouti,Least developed,Emr,,1.05,0.33,0.54,1.93
+United States of America,LBN,Lebanon,Upper middle income,Emr,,,1.53,,1.53
+United States of America,UNK,Kosovo (SCR 1244 (1999)) ,Low middle income,,,,,1.30,1.30
+United States of America,TGO,Togo,Least developed,Afr,,1.28,,,1.28
+United States of America,TUR,Turkey,Upper middle income,Eur,,1.00,0.20,,1.20
+United States of America,COG,Congo,Low middle income,Afr,,0.89,,0.22,1.12
+United States of America,CAF,Central African Republic,Least developed,Afr,,1.08,,,1.08
+United States of America,MRT,Mauritania,Least developed,Afr,,0.92,,,0.92
+United States of America,MDA,Republic of Moldova,Low middle income,Eur,,0.37,0.43,,0.80
+United States of America,PLW,Palau,Upper middle income,Wpr,0.15,,0.63,,0.78
+United States of America,LKA,Sri Lanka,Low middle income,Sear,,0.62,,,0.62
+United States of America,MAR,Morocco,Low middle income,Emr,,0.43,,,0.43
+United States of America,TTO,Trinidad and Tobago,Upper middle income,Amr,,0.40,,,0.40
+United States of America,GNB,Guinea-Bissau,Least developed,Afr,,0.30,,0.10,0.40
+United States of America,GMB,Gambia,Least developed,Afr,,0.39,,,0.39
+United States of America,ERI,Eritrea,Least developed,Afr,,0.24,0.14,,0.38
+United States of America,CRI,Costa Rica,Upper middle income,Amr,,0.14,0.22,,0.37
+United States of America,COL,Colombia,Low middle income,Amr,0.00,0.34,0.00,0.00,0.35
+United States of America,VEN,Venezuela (Bolivarian Republic of),Upper middle income,Amr,,0.34,,,0.34
+United States of America,BLZ,Belize,Upper middle income,Amr,,0.20,,,0.20
+United States of America,BIH,Bosnia and Herzegovina,Low middle income,Eur,,0.20,,,0.20
+United States of America,GAB,Gabon,Upper middle income,Afr,,0.20,,,0.20
+United States of America,PAN,Panama,Upper middle income,Amr,,0.01,0.12,,0.13
+United States of America,MKD,The former Yugoslav Republic of Macedonia,Low middle income,Eur,,0.12,0.00,,0.12
+United States of America,BRB,Barbados,Upper middle income,Amr,,0.11,,,0.11
+United States of America,COM,Comoros,Least developed,Afr,,0.11,,,0.11
+United States of America,BLR,Belarus,Upper middle income,Eur,,0.10,,,0.10
+United States of America,SRB,Serbia,Upper middle income,Eur,0.00,0.09,,,0.09
+United States of America,ARG,Argentina,Upper middle income,Amr,,0.08,,,0.08
+United States of America,DZA,Algeria,Low middle income,Afr,,0.07,,,0.07
+United States of America,SUR,Suriname,Upper middle income,Amr,,0.03,,,0.03
+United States of America,WSM,Samoa,Least developed,Wpr,,,0.02,,0.02
+United States of America,MYS,Malaysia,Upper middle income,Wpr,,,,,
 UNPBF,LBR,Liberia,Least developed,Afr,,,0.88,,0.88
 UNRWA,PSE,West Bank & Gaza Strip,Low middle income,,,,94.03,,94.03
 UNRWA,JOR,Jordan,Low middle income,Emr,,,39.95,,39.95

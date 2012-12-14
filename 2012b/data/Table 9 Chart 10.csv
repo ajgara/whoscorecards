@@ -1299,44 +1299,44 @@ Japan,2010,Emr, 64.62
 Japan,2010,Eur, 9.62 
 Japan,2010,Sear, 38.11 
 Japan,2010,Wpr, 89.04 
-Korea,2006,Multicount, 1.57 
-Korea,2006,Afr, 2.24 
-Korea,2006,Amr, 2.51 
-Korea,2006,Emr, 7.69 
-Korea,2006,Eur, 11.31 
-Korea,2006,Sear, 2.25 
-Korea,2006,Wpr, 5.49 
-Korea,2007,Multicount, 3.04 
-Korea,2007,Not UN, 0.43 
-Korea,2007,Afr, 2.30 
-Korea,2007,Amr, 5.53 
-Korea,2007,Emr, 10.31 
-Korea,2007,Eur, 6.63 
-Korea,2007,Sear, 3.75 
-Korea,2007,Wpr, 8.30 
-Korea,2008,Multicount, 10.20 
-Korea,2008,Afr, 7.98 
-Korea,2008,Amr, 14.67 
-Korea,2008,Emr, 5.80 
-Korea,2008,Eur, 2.70 
-Korea,2008,Sear, 7.06 
-Korea,2008,Wpr, 10.03 
-Korea,2009,Multicount, 11.83 
-Korea,2009,Not UN, 0.10 
-Korea,2009,Afr, 11.01 
-Korea,2009,Amr, 15.37 
-Korea,2009,Emr, 18.66 
-Korea,2009,Eur, 14.92 
-Korea,2009,Sear, 1.44 
-Korea,2009,Wpr, 26.50 
-Korea,2010,Multicount, 11.15 
-Korea,2010,Not UN, 1.72 
-Korea,2010,Afr, 11.53 
-Korea,2010,Amr, 17.35 
-Korea,2010,Emr, 19.19 
-Korea,2010,Eur, 25.78 
-Korea,2010,Sear, 5.95 
-Korea,2010,Wpr, 31.23 
+Republic of Korea,2006,Multicount, 1.57 
+Republic of Korea,2006,Afr, 2.24 
+Republic of Korea,2006,Amr, 2.51 
+Republic of Korea,2006,Emr, 7.69 
+Republic of Korea,2006,Eur, 11.31 
+Republic of Korea,2006,Sear, 2.25 
+Republic of Korea,2006,Wpr, 5.49 
+Republic of Korea,2007,Multicount, 3.04 
+Republic of Korea,2007,Not UN, 0.43 
+Republic of Korea,2007,Afr, 2.30 
+Republic of Korea,2007,Amr, 5.53 
+Republic of Korea,2007,Emr, 10.31 
+Republic of Korea,2007,Eur, 6.63 
+Republic of Korea,2007,Sear, 3.75 
+Republic of Korea,2007,Wpr, 8.30 
+Republic of Korea,2008,Multicount, 10.20 
+Republic of Korea,2008,Afr, 7.98 
+Republic of Korea,2008,Amr, 14.67 
+Republic of Korea,2008,Emr, 5.80 
+Republic of Korea,2008,Eur, 2.70 
+Republic of Korea,2008,Sear, 7.06 
+Republic of Korea,2008,Wpr, 10.03 
+Republic of Korea,2009,Multicount, 11.83 
+Republic of Korea,2009,Not UN, 0.10 
+Republic of Korea,2009,Afr, 11.01 
+Republic of Korea,2009,Amr, 15.37 
+Republic of Korea,2009,Emr, 18.66 
+Republic of Korea,2009,Eur, 14.92 
+Republic of Korea,2009,Sear, 1.44 
+Republic of Korea,2009,Wpr, 26.50 
+Republic of Korea,2010,Multicount, 11.15 
+Republic of Korea,2010,Not UN, 1.72 
+Republic of Korea,2010,Afr, 11.53 
+Republic of Korea,2010,Amr, 17.35 
+Republic of Korea,2010,Emr, 19.19 
+Republic of Korea,2010,Eur, 25.78 
+Republic of Korea,2010,Sear, 5.95 
+Republic of Korea,2010,Wpr, 31.23 
 Kuwait,2010,Multicount, 0.06 
 Kuwait,2010,Afr, 0.28 
 Kuwait,2010,Amr,
@@ -2342,94 +2342,94 @@ United Kingdom,2010,Emr, 7.39
 United Kingdom,2010,Eur, 1.95 
 United Kingdom,2010,Sear, 279.08 
 United Kingdom,2010,Wpr, 38.54 
-United States,2000,Multicount,
-United States,2000,Not UN,
-United States,2000,Afr,
-United States,2000,Amr,
-United States,2000,Emr,
-United States,2000,Eur,
-United States,2000,Sear,
-United States,2000,Wpr,
-United States,2001,Multicount,
-United States,2001,Not UN,
-United States,2001,Afr,
-United States,2001,Amr,
-United States,2001,Emr,
-United States,2001,Eur,
-United States,2001,Sear,
-United States,2001,Wpr,
-United States,2002,Multicount, 941.50 
-United States,2002,Not UN, 5.37 
-United States,2002,Afr, 324.45 
-United States,2002,Amr, 107.51 
-United States,2002,Emr, 95.25 
-United States,2002,Eur, 37.71 
-United States,2002,Sear, 125.84 
-United States,2002,Wpr, 26.64 
-United States,2003,Multicount," 1,151.30 "
-United States,2003,Not UN, 23.66 
-United States,2003,Afr, 566.89 
-United States,2003,Amr, 149.10 
-United States,2003,Emr, 116.19 
-United States,2003,Eur, 46.28 
-United States,2003,Sear, 193.30 
-United States,2003,Wpr, 71.17 
-United States,2004,Multicount, 770.16 
-United States,2004,Not UN, 43.71 
-United States,2004,Afr, 768.20 
-United States,2004,Amr, 164.28 
-United States,2004,Emr, 248.05 
-United States,2004,Eur, 51.38 
-United States,2004,Sear, 185.09 
-United States,2004,Wpr, 95.23 
-United States,2005,Multicount," 1,320.74 "
-United States,2005,Not UN, 25.69 
-United States,2005,Afr, 877.98 
-United States,2005,Amr, 155.03 
-United States,2005,Emr, 631.53 
-United States,2005,Eur, 72.03 
-United States,2005,Sear, 167.17 
-United States,2005,Wpr, 134.68 
-United States,2006,Multicount," 1,502.99 "
-United States,2006,Not UN, 16.72 
-United States,2006,Afr," 1,192.09 "
-United States,2006,Amr, 189.82 
-United States,2006,Emr, 539.49 
-United States,2006,Eur, 81.71 
-United States,2006,Sear, 161.69 
-United States,2006,Wpr, 119.32 
-United States,2007,Multicount," 1,671.66 "
-United States,2007,Not UN, 42.68 
-United States,2007,Afr," 1,597.59 "
-United States,2007,Amr, 221.26 
-United States,2007,Emr, 447.04 
-United States,2007,Eur, 72.15 
-United States,2007,Sear, 168.83 
-United States,2007,Wpr, 127.28 
-United States,2008,Multicount," 1,790.54 "
-United States,2008,Not UN, 25.38 
-United States,2008,Afr," 2,641.92 "
-United States,2008,Amr, 222.45 
-United States,2008,Emr, 305.44 
-United States,2008,Eur, 57.78 
-United States,2008,Sear, 177.24 
-United States,2008,Wpr, 148.01 
-United States,2009,Multicount," 1,981.85 "
-United States,2009,Not UN, 11.45 
-United States,2009,Afr," 3,114.36 "
-United States,2009,Amr, 223.33 
-United States,2009,Emr, 363.43 
-United States,2009,Eur, 50.71 
-United States,2009,Sear, 162.97 
-United States,2009,Wpr, 171.88 
-United States,2010,Multicount," 2,045.01 "
-United States,2010,Not UN, 23.95 
-United States,2010,Afr," 3,313.61 "
-United States,2010,Amr, 239.81 
-United States,2010,Emr, 321.36 
-United States,2010,Eur, 43.07 
-United States,2010,Sear, 156.63 
-United States,2010,Wpr, 167.80 
+United States of America,2000,Multicount,
+United States of America,2000,Not UN,
+United States of America,2000,Afr,
+United States of America,2000,Amr,
+United States of America,2000,Emr,
+United States of America,2000,Eur,
+United States of America,2000,Sear,
+United States of America,2000,Wpr,
+United States of America,2001,Multicount,
+United States of America,2001,Not UN,
+United States of America,2001,Afr,
+United States of America,2001,Amr,
+United States of America,2001,Emr,
+United States of America,2001,Eur,
+United States of America,2001,Sear,
+United States of America,2001,Wpr,
+United States of America,2002,Multicount, 941.50 
+United States of America,2002,Not UN, 5.37 
+United States of America,2002,Afr, 324.45 
+United States of America,2002,Amr, 107.51 
+United States of America,2002,Emr, 95.25 
+United States of America,2002,Eur, 37.71 
+United States of America,2002,Sear, 125.84 
+United States of America,2002,Wpr, 26.64 
+United States of America,2003,Multicount," 1,151.30 "
+United States of America,2003,Not UN, 23.66 
+United States of America,2003,Afr, 566.89 
+United States of America,2003,Amr, 149.10 
+United States of America,2003,Emr, 116.19 
+United States of America,2003,Eur, 46.28 
+United States of America,2003,Sear, 193.30 
+United States of America,2003,Wpr, 71.17 
+United States of America,2004,Multicount, 770.16 
+United States of America,2004,Not UN, 43.71 
+United States of America,2004,Afr, 768.20 
+United States of America,2004,Amr, 164.28 
+United States of America,2004,Emr, 248.05 
+United States of America,2004,Eur, 51.38 
+United States of America,2004,Sear, 185.09 
+United States of America,2004,Wpr, 95.23 
+United States of America,2005,Multicount," 1,320.74 "
+United States of America,2005,Not UN, 25.69 
+United States of America,2005,Afr, 877.98 
+United States of America,2005,Amr, 155.03 
+United States of America,2005,Emr, 631.53 
+United States of America,2005,Eur, 72.03 
+United States of America,2005,Sear, 167.17 
+United States of America,2005,Wpr, 134.68 
+United States of America,2006,Multicount," 1,502.99 "
+United States of America,2006,Not UN, 16.72 
+United States of America,2006,Afr," 1,192.09 "
+United States of America,2006,Amr, 189.82 
+United States of America,2006,Emr, 539.49 
+United States of America,2006,Eur, 81.71 
+United States of America,2006,Sear, 161.69 
+United States of America,2006,Wpr, 119.32 
+United States of America,2007,Multicount," 1,671.66 "
+United States of America,2007,Not UN, 42.68 
+United States of America,2007,Afr," 1,597.59 "
+United States of America,2007,Amr, 221.26 
+United States of America,2007,Emr, 447.04 
+United States of America,2007,Eur, 72.15 
+United States of America,2007,Sear, 168.83 
+United States of America,2007,Wpr, 127.28 
+United States of America,2008,Multicount," 1,790.54 "
+United States of America,2008,Not UN, 25.38 
+United States of America,2008,Afr," 2,641.92 "
+United States of America,2008,Amr, 222.45 
+United States of America,2008,Emr, 305.44 
+United States of America,2008,Eur, 57.78 
+United States of America,2008,Sear, 177.24 
+United States of America,2008,Wpr, 148.01 
+United States of America,2009,Multicount," 1,981.85 "
+United States of America,2009,Not UN, 11.45 
+United States of America,2009,Afr," 3,114.36 "
+United States of America,2009,Amr, 223.33 
+United States of America,2009,Emr, 363.43 
+United States of America,2009,Eur, 50.71 
+United States of America,2009,Sear, 162.97 
+United States of America,2009,Wpr, 171.88 
+United States of America,2010,Multicount," 2,045.01 "
+United States of America,2010,Not UN, 23.95 
+United States of America,2010,Afr," 3,313.61 "
+United States of America,2010,Amr, 239.81 
+United States of America,2010,Emr, 321.36 
+United States of America,2010,Eur, 43.07 
+United States of America,2010,Sear, 156.63 
+United States of America,2010,Wpr, 167.80 
 UNPBF,2009,Afr, 0.38 
 UNPBF,2010,Afr, 0.50 
 UNRWA,2005,Not UN, 35.57 
