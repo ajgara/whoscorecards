@@ -303,15 +303,18 @@ def json_page1(request, donor=None):
         
 
         # Commitments
-        "purpose_commitments_table" : [
-            #'data': [
-            #    map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
-            #],
+        "purpose_commitments_table" : {
+            'data': [
+                map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
+                ],
+            'totals': [
+                [fod(sum([e or 0 for e in i])) for i in zip(c_policy, c_mdg6, c_other, c_rhfp)]
+                ],
             #'totals': [
             #    [round2(item or "-") for item in total_health_disbursements]
             #],
-            map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
-        ],
+            #map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
+        },
         "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
         "purpose_commitments_pie_2001" : map(foz, c_pies[1]),
         "purpose_commitments_pie_2002" : map(foz, c_pies[2]),

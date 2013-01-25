@@ -28,7 +28,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1198"
-     inkscape:window-height="1518"
+     inkscape:window-height="1423"
      id="namedview3002"
      showgrid="false"
      inkscape:zoom="1.0186607"
@@ -37,7 +37,7 @@
      inkscape:window-x="0"
      inkscape:window-y="19"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g56697"
+     inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -760,7 +760,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1510,6 +1510,7 @@
    data-widget="text"
    id="tspan34949">154.21</tspan>
 
+
 m</text>
         <text
            id="text482"
@@ -1544,6 +1545,7 @@ m</text>
    data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_disbursements_text"
    style="text-align:center;text-anchor:middle"
    transform="matrix(1.3835206,0,0,1.3835206,-304.69707,-127.03063)">99.49</tspan>
+
 
 m</text>
       </g>
@@ -5518,12 +5520,11 @@ m</text>
   </g>
   <g
      class="table"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table"
+     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table.data"
      data-widget="table-alignondot-1"
      id="g24934"
      transform="matrix(1.2502883,0,0,1.2503571,3.7745637,-4.9389279)">
     <rect
-       opacity="0"
        style="opacity:0;visibility:hidden"
        visibility="hidden"
        class="widget-boundingbox"
@@ -5543,24 +5544,21 @@ m</text>
            class="table cell">
           <text
              id="text15619"
-             y="182.984375"
-             x="209.06676136363637"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="209.06676"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15621"
-             y="182.984375"
-             x="207.06676136363637"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="207.06676"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">42</text>
           <text
              id="text15623"
-             y="182.984375"
-             x="211.06676136363637"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="211.06676"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">95</text>
         </g>
         <g
@@ -5568,24 +5566,21 @@ m</text>
            class="table cell">
           <text
              id="text15627"
-             y="182.984375"
-             x="243.0752840909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="243.07529"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15629"
-             y="182.984375"
-             x="241.0752840909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="241.07529"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">208</text>
           <text
              id="text15631"
-             y="182.984375"
-             x="245.0752840909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="245.07529"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">00</text>
         </g>
         <g
@@ -5593,24 +5588,21 @@ m</text>
            class="table cell">
           <text
              id="text15635"
-             y="182.984375"
-             x="277.0838068181818"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="277.0838"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15637"
-             y="182.984375"
-             x="275.0838068181818"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="275.0838"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">197</text>
           <text
              id="text15639"
-             y="182.984375"
-             x="279.0838068181818"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="279.0838"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">71</text>
         </g>
         <g
@@ -5618,24 +5610,21 @@ m</text>
            class="table cell">
           <text
              id="text15643"
-             y="182.984375"
-             x="311.09232954545456"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="311.09232"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15645"
-             y="182.984375"
-             x="309.09232954545456"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="309.09232"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">228</text>
           <text
              id="text15647"
-             y="182.984375"
-             x="313.09232954545456"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="313.09232"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">14</text>
         </g>
         <g
@@ -5643,24 +5632,21 @@ m</text>
            class="table cell">
           <text
              id="text15651"
-             y="182.984375"
-             x="345.10085227272725"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="345.10086"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15653"
-             y="182.984375"
-             x="343.10085227272725"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="343.10086"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">107</text>
           <text
              id="text15655"
-             y="182.984375"
-             x="347.10085227272725"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="347.10086"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">57</text>
         </g>
         <g
@@ -5668,24 +5654,21 @@ m</text>
            class="table cell">
           <text
              id="text15659"
-             y="182.984375"
-             x="379.109375"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="379.10938"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15661"
-             y="182.984375"
-             x="377.109375"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="377.10938"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">2</text>
           <text
              id="text15663"
-             y="182.984375"
-             x="381.109375"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="381.10938"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">98</text>
         </g>
         <g
@@ -5693,24 +5676,21 @@ m</text>
            class="table cell">
           <text
              id="text15667"
-             y="182.984375"
-             x="413.11789772727275"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="413.11789"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15669"
-             y="182.984375"
-             x="411.11789772727275"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="411.11789"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">34</text>
           <text
              id="text15671"
-             y="182.984375"
-             x="415.11789772727275"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="415.11789"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">64</text>
         </g>
         <g
@@ -5718,24 +5698,21 @@ m</text>
            class="table cell">
           <text
              id="text15675"
-             y="182.984375"
-             x="447.1264204545455"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="447.12643"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15677"
-             y="182.984375"
-             x="445.1264204545455"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="445.12643"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">30</text>
           <text
              id="text15679"
-             y="182.984375"
-             x="449.1264204545455"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="449.12643"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">70</text>
         </g>
         <g
@@ -5743,24 +5720,21 @@ m</text>
            class="table cell">
           <text
              id="text15683"
-             y="182.984375"
-             x="481.1349431818182"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="481.13495"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15685"
-             y="182.984375"
-             x="479.1349431818182"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="479.13495"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">46</text>
           <text
              id="text15687"
-             y="182.984375"
-             x="483.1349431818182"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="483.13495"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">77</text>
         </g>
         <g
@@ -5768,24 +5742,21 @@ m</text>
            class="table cell">
           <text
              id="text15691"
-             y="182.984375"
-             x="515.143465909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="515.14349"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15693"
-             y="182.984375"
-             x="513.143465909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="513.14349"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">64</text>
           <text
              id="text15695"
-             y="182.984375"
-             x="517.143465909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="517.14349"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">46</text>
         </g>
         <g
@@ -5793,24 +5764,21 @@ m</text>
            class="table cell">
           <text
              id="text15699"
-             y="182.984375"
-             x="549.1519886363636"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="549.15198"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15701"
-             y="182.984375"
-             x="547.1519886363636"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="547.15198"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">75</text>
           <text
              id="text15703"
-             y="182.984375"
-             x="551.1519886363636"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="182.98438"
+             x="551.15198"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">54</text>
         </g>
       </g>
@@ -5822,24 +5790,21 @@ m</text>
            class="table cell">
           <text
              id="text15709"
-             y="195.390625"
-             x="209.06676136363637"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="209.06676"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15711"
-             y="195.390625"
-             x="207.06676136363637"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="207.06676"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">35</text>
           <text
              id="text15713"
-             y="195.390625"
-             x="211.06676136363637"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="211.06676"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">91</text>
         </g>
         <g
@@ -5847,24 +5812,21 @@ m</text>
            class="table cell">
           <text
              id="text15717"
-             y="195.390625"
-             x="243.0752840909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="243.07529"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15719"
-             y="195.390625"
-             x="241.0752840909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="241.07529"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">25</text>
           <text
              id="text15721"
-             y="195.390625"
-             x="245.0752840909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="245.07529"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">59</text>
         </g>
         <g
@@ -5872,24 +5834,21 @@ m</text>
            class="table cell">
           <text
              id="text15725"
-             y="195.390625"
-             x="277.0838068181818"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="277.0838"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15727"
-             y="195.390625"
-             x="275.0838068181818"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="275.0838"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">24</text>
           <text
              id="text15729"
-             y="195.390625"
-             x="279.0838068181818"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="279.0838"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">05</text>
         </g>
         <g
@@ -5897,24 +5856,21 @@ m</text>
            class="table cell">
           <text
              id="text15733"
-             y="195.390625"
-             x="311.09232954545456"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="311.09232"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15735"
-             y="195.390625"
-             x="309.09232954545456"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="309.09232"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">14</text>
           <text
              id="text15737"
-             y="195.390625"
-             x="313.09232954545456"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="313.09232"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">08</text>
         </g>
         <g
@@ -5922,24 +5878,21 @@ m</text>
            class="table cell">
           <text
              id="text15741"
-             y="195.390625"
-             x="345.10085227272725"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="345.10086"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15743"
-             y="195.390625"
-             x="343.10085227272725"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="343.10086"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">29</text>
           <text
              id="text15745"
-             y="195.390625"
-             x="347.10085227272725"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="347.10086"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">65</text>
         </g>
         <g
@@ -5947,24 +5900,21 @@ m</text>
            class="table cell">
           <text
              id="text15749"
-             y="195.390625"
-             x="379.109375"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="379.10938"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15751"
-             y="195.390625"
-             x="377.109375"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="377.10938"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">3</text>
           <text
              id="text15753"
-             y="195.390625"
-             x="381.109375"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="381.10938"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">77</text>
         </g>
         <g
@@ -5972,24 +5922,21 @@ m</text>
            class="table cell">
           <text
              id="text15757"
-             y="195.390625"
-             x="413.11789772727275"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="413.11789"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15759"
-             y="195.390625"
-             x="411.11789772727275"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="411.11789"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">19</text>
           <text
              id="text15761"
-             y="195.390625"
-             x="415.11789772727275"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="415.11789"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">24</text>
         </g>
         <g
@@ -5997,24 +5944,21 @@ m</text>
            class="table cell">
           <text
              id="text15765"
-             y="195.390625"
-             x="447.1264204545455"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="447.12643"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15767"
-             y="195.390625"
-             x="445.1264204545455"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="445.12643"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">28</text>
           <text
              id="text15769"
-             y="195.390625"
-             x="449.1264204545455"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="449.12643"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">47</text>
         </g>
         <g
@@ -6022,24 +5966,21 @@ m</text>
            class="table cell">
           <text
              id="text15773"
-             y="195.390625"
-             x="481.1349431818182"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="481.13495"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15775"
-             y="195.390625"
-             x="479.1349431818182"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="479.13495"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">26</text>
           <text
              id="text15777"
-             y="195.390625"
-             x="483.1349431818182"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="483.13495"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">92</text>
         </g>
         <g
@@ -6047,24 +5988,21 @@ m</text>
            class="table cell">
           <text
              id="text15781"
-             y="195.390625"
-             x="515.143465909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="515.14349"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15783"
-             y="195.390625"
-             x="513.143465909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="513.14349"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">54</text>
           <text
              id="text15785"
-             y="195.390625"
-             x="517.143465909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="517.14349"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">53</text>
         </g>
         <g
@@ -6072,24 +6010,21 @@ m</text>
            class="table cell">
           <text
              id="text15789"
-             y="195.390625"
-             x="549.1519886363636"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="549.15198"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15791"
-             y="195.390625"
-             x="547.1519886363636"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="547.15198"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">56</text>
           <text
              id="text15793"
-             y="195.390625"
-             x="551.1519886363636"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="195.39062"
+             x="551.15198"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">01</text>
         </g>
       </g>
@@ -6101,24 +6036,21 @@ m</text>
            class="table cell">
           <text
              id="text15799"
-             y="207.796875"
-             x="209.06676136363637"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="209.06676"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15801"
-             y="207.796875"
-             x="207.06676136363637"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="207.06676"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">44</text>
           <text
              id="text15803"
-             y="207.796875"
-             x="211.06676136363637"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="211.06676"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">00</text>
         </g>
         <g
@@ -6126,24 +6058,21 @@ m</text>
            class="table cell">
           <text
              id="text15807"
-             y="207.796875"
-             x="243.0752840909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="243.07529"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15809"
-             y="207.796875"
-             x="241.0752840909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="241.07529"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">25</text>
           <text
              id="text15811"
-             y="207.796875"
-             x="245.0752840909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="245.07529"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">15</text>
         </g>
         <g
@@ -6151,24 +6080,21 @@ m</text>
            class="table cell">
           <text
              id="text15815"
-             y="207.796875"
-             x="277.0838068181818"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="277.0838"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15817"
-             y="207.796875"
-             x="275.0838068181818"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="275.0838"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">35</text>
           <text
              id="text15819"
-             y="207.796875"
-             x="279.0838068181818"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="279.0838"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">35</text>
         </g>
         <g
@@ -6176,24 +6102,21 @@ m</text>
            class="table cell">
           <text
              id="text15823"
-             y="207.796875"
-             x="311.09232954545456"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="311.09232"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15825"
-             y="207.796875"
-             x="309.09232954545456"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="309.09232"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">23</text>
           <text
              id="text15827"
-             y="207.796875"
-             x="313.09232954545456"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="313.09232"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">18</text>
         </g>
         <g
@@ -6201,24 +6124,21 @@ m</text>
            class="table cell">
           <text
              id="text15831"
-             y="207.796875"
-             x="345.10085227272725"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="345.10086"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15833"
-             y="207.796875"
-             x="343.10085227272725"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="343.10086"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">232</text>
           <text
              id="text15835"
-             y="207.796875"
-             x="347.10085227272725"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="347.10086"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">33</text>
         </g>
         <g
@@ -6226,24 +6146,21 @@ m</text>
            class="table cell">
           <text
              id="text15839"
-             y="207.796875"
-             x="379.109375"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="379.10938"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15841"
-             y="207.796875"
-             x="377.109375"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="377.10938"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">228</text>
           <text
              id="text15843"
-             y="207.796875"
-             x="381.109375"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="381.10938"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">16</text>
         </g>
         <g
@@ -6251,24 +6168,21 @@ m</text>
            class="table cell">
           <text
              id="text15847"
-             y="207.796875"
-             x="413.11789772727275"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="413.11789"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15849"
-             y="207.796875"
-             x="411.11789772727275"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="411.11789"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">318</text>
           <text
              id="text15851"
-             y="207.796875"
-             x="415.11789772727275"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="415.11789"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">44</text>
         </g>
         <g
@@ -6276,24 +6190,21 @@ m</text>
            class="table cell">
           <text
              id="text15855"
-             y="207.796875"
-             x="447.1264204545455"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="447.12643"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15857"
-             y="207.796875"
-             x="445.1264204545455"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="445.12643"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">99</text>
           <text
              id="text15859"
-             y="207.796875"
-             x="449.1264204545455"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="449.12643"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">09</text>
         </g>
         <g
@@ -6301,24 +6212,21 @@ m</text>
            class="table cell">
           <text
              id="text15863"
-             y="207.796875"
-             x="481.1349431818182"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="481.13495"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15865"
-             y="207.796875"
-             x="479.1349431818182"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="479.13495"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">303</text>
           <text
              id="text15867"
-             y="207.796875"
-             x="483.1349431818182"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="483.13495"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">37</text>
         </g>
         <g
@@ -6326,24 +6234,21 @@ m</text>
            class="table cell">
           <text
              id="text15871"
-             y="207.796875"
-             x="515.143465909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="515.14349"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15873"
-             y="207.796875"
-             x="513.143465909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="513.14349"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">218</text>
           <text
              id="text15875"
-             y="207.796875"
-             x="517.143465909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="517.14349"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">91</text>
         </g>
         <g
@@ -6351,24 +6256,21 @@ m</text>
            class="table cell">
           <text
              id="text15879"
-             y="207.796875"
-             x="549.1519886363636"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="549.15198"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15881"
-             y="207.796875"
-             x="547.1519886363636"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="547.15198"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">355</text>
           <text
              id="text15883"
-             y="207.796875"
-             x="551.1519886363636"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="207.79688"
+             x="551.15198"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">90</text>
         </g>
       </g>
@@ -6380,24 +6282,21 @@ m</text>
            class="table cell">
           <text
              id="text15889"
-             y="220.203125"
-             x="209.06676136363637"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="209.06676"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15891"
-             y="220.203125"
-             x="207.06676136363637"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="207.06676"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">1</text>
           <text
              id="text15893"
-             y="220.203125"
-             x="211.06676136363637"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="211.06676"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">89</text>
         </g>
         <g
@@ -6405,24 +6304,21 @@ m</text>
            class="table cell">
           <text
              id="text15897"
-             y="220.203125"
-             x="243.0752840909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="243.07529"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15899"
-             y="220.203125"
-             x="241.0752840909091"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="241.07529"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">0</text>
           <text
              id="text15901"
-             y="220.203125"
-             x="245.0752840909091"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="245.07529"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">94</text>
         </g>
         <g
@@ -6430,24 +6326,21 @@ m</text>
            class="table cell">
           <text
              id="text15905"
-             y="220.203125"
-             x="277.0838068181818"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="277.0838"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15907"
-             y="220.203125"
-             x="275.0838068181818"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="275.0838"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">0</text>
           <text
              id="text15909"
-             y="220.203125"
-             x="279.0838068181818"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="279.0838"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">77</text>
         </g>
         <g
@@ -6455,24 +6348,21 @@ m</text>
            class="table cell">
           <text
              id="text15913"
-             y="220.203125"
-             x="311.09232954545456"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="311.09232"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15915"
-             y="220.203125"
-             x="309.09232954545456"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="309.09232"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">0</text>
           <text
              id="text15917"
-             y="220.203125"
-             x="313.09232954545456"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="313.09232"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">47</text>
         </g>
         <g
@@ -6480,24 +6370,21 @@ m</text>
            class="table cell">
           <text
              id="text15921"
-             y="220.203125"
-             x="345.10085227272725"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="345.10086"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15923"
-             y="220.203125"
-             x="343.10085227272725"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="343.10086"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">0</text>
           <text
              id="text15925"
-             y="220.203125"
-             x="347.10085227272725"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="347.10086"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">53</text>
         </g>
         <g
@@ -6505,10 +6392,9 @@ m</text>
            class="table cell">
           <text
              id="text15929"
-             y="220.203125"
-             x="379.109375"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="379.10938"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">-</text>
         </g>
         <g
@@ -6516,10 +6402,9 @@ m</text>
            class="table cell">
           <text
              id="text15933"
-             y="220.203125"
-             x="413.11789772727275"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="413.11789"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">-</text>
         </g>
         <g
@@ -6527,10 +6412,9 @@ m</text>
            class="table cell">
           <text
              id="text15937"
-             y="220.203125"
-             x="447.1264204545455"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="447.12643"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">-</text>
         </g>
         <g
@@ -6538,10 +6422,9 @@ m</text>
            class="table cell">
           <text
              id="text15941"
-             y="220.203125"
-             x="481.1349431818182"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="481.13495"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">-</text>
         </g>
         <g
@@ -6549,10 +6432,9 @@ m</text>
            class="table cell">
           <text
              id="text15945"
-             y="220.203125"
-             x="515.143465909091"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="515.14349"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">-</text>
         </g>
         <g
@@ -6560,24 +6442,21 @@ m</text>
            class="table cell">
           <text
              id="text15949"
-             y="220.203125"
-             x="549.1519886363636"
-             text-anchor="middle"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="549.15198"
+             style="font-size:7px;text-anchor:middle;fill:#595a5c;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text15951"
-             y="220.203125"
-             x="547.1519886363636"
-             text-anchor="end"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="547.15198"
+             style="font-size:7px;text-anchor:end;fill:#595a5c;font-family:Calibri"
              class="table cell left">4</text>
           <text
              id="text15953"
-             y="220.203125"
-             x="551.1519886363636"
-             text-anchor="start"
-             style="fill:#595A5C;font-family:Calibri;font-size:7;"
+             y="220.20312"
+             x="551.15198"
+             style="font-size:7px;text-anchor:start;fill:#595a5c;font-family:Calibri"
              class="table cell right">66</text>
         </g>
       </g>
@@ -14910,11 +14789,10 @@ m</text>
   <g
      id="g4937"
      data-widget="table-totals-alignondot-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table"
+     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table.totals"
      class="table"
      transform="matrix(1.2502883,0,0,1.2503571,25.067792,-4.9389279)">
     <rect
-       opacity="0"
        id="rect4939"
        x="192.0625"
        width="374.09375"
@@ -14934,24 +14812,21 @@ m</text>
            class="table cell">
           <text
              id="text18272"
-             y="232.62721300125122"
+             y="232.62721"
              x="192.0625"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18274"
-             y="232.62721300125122"
+             y="232.62721"
              x="190.0625"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">124</text>
           <text
              id="text18276"
-             y="232.62721300125122"
+             y="232.62721"
              x="194.0625"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">75</text>
         </g>
         <g
@@ -14959,24 +14834,21 @@ m</text>
            class="table cell">
           <text
              id="text18280"
-             y="232.62721300125122"
-             x="226.07102272727272"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="226.07103"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18282"
-             y="232.62721300125122"
-             x="224.07102272727272"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="224.07103"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">259</text>
           <text
              id="text18284"
-             y="232.62721300125122"
-             x="228.07102272727272"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="228.07103"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">68</text>
         </g>
         <g
@@ -14984,24 +14856,21 @@ m</text>
            class="table cell">
           <text
              id="text18288"
-             y="232.62721300125122"
-             x="260.07954545454544"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="260.07956"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18290"
-             y="232.62721300125122"
-             x="258.07954545454544"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="258.07956"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">257</text>
           <text
              id="text18292"
-             y="232.62721300125122"
-             x="262.07954545454544"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="262.07956"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">88</text>
         </g>
         <g
@@ -15009,24 +14878,21 @@ m</text>
            class="table cell">
           <text
              id="text18296"
-             y="232.62721300125122"
-             x="294.0880681818182"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="294.08807"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18298"
-             y="232.62721300125122"
-             x="292.0880681818182"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="292.08807"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">265</text>
           <text
              id="text18300"
-             y="232.62721300125122"
-             x="296.0880681818182"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="296.08807"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">87</text>
         </g>
         <g
@@ -15034,24 +14900,21 @@ m</text>
            class="table cell">
           <text
              id="text18304"
-             y="232.62721300125122"
-             x="328.0965909090909"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="328.09659"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18306"
-             y="232.62721300125122"
-             x="326.0965909090909"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="326.09659"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">370</text>
           <text
              id="text18308"
-             y="232.62721300125122"
-             x="330.0965909090909"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="330.09659"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">08</text>
         </g>
         <g
@@ -15059,24 +14922,21 @@ m</text>
            class="table cell">
           <text
              id="text18312"
-             y="232.62721300125122"
-             x="362.1051136363636"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="362.1051"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18314"
-             y="232.62721300125122"
-             x="360.1051136363636"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="360.1051"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">234</text>
           <text
              id="text18316"
-             y="232.62721300125122"
-             x="364.1051136363636"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="364.1051"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">91</text>
         </g>
         <g
@@ -15084,24 +14944,21 @@ m</text>
            class="table cell">
           <text
              id="text18320"
-             y="232.62721300125122"
-             x="396.1136363636364"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="396.11365"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18322"
-             y="232.62721300125122"
-             x="394.1136363636364"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="394.11365"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">372</text>
           <text
              id="text18324"
-             y="232.62721300125122"
-             x="398.1136363636364"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="398.11365"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">32</text>
         </g>
         <g
@@ -15109,24 +14966,21 @@ m</text>
            class="table cell">
           <text
              id="text18328"
-             y="232.62721300125122"
-             x="430.1221590909091"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="430.12216"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18330"
-             y="232.62721300125122"
-             x="428.1221590909091"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="428.12216"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">158</text>
           <text
              id="text18332"
-             y="232.62721300125122"
-             x="432.1221590909091"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="432.12216"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">26</text>
         </g>
         <g
@@ -15134,24 +14988,21 @@ m</text>
            class="table cell">
           <text
              id="text18336"
-             y="232.62721300125122"
-             x="464.1306818181818"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="464.13068"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18338"
-             y="232.62721300125122"
-             x="462.1306818181818"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="462.13068"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">377</text>
           <text
              id="text18340"
-             y="232.62721300125122"
-             x="466.1306818181818"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="466.13068"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">06</text>
         </g>
         <g
@@ -15159,24 +15010,21 @@ m</text>
            class="table cell">
           <text
              id="text18344"
-             y="232.62721300125122"
-             x="498.13920454545456"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="498.13919"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18346"
-             y="232.62721300125122"
-             x="496.13920454545456"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="496.13919"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">337</text>
           <text
              id="text18348"
-             y="232.62721300125122"
-             x="500.13920454545456"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="500.13919"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">90</text>
         </g>
         <g
@@ -15184,24 +15032,21 @@ m</text>
            class="table cell">
           <text
              id="text18352"
-             y="232.62721300125122"
-             x="532.1477272727273"
-             text-anchor="middle"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="532.14771"
+             style="font-size:7px;font-weight:bold;text-anchor:middle;fill:#000000;font-family:Calibri"
              class="table cell middle">.</text>
           <text
              id="text18354"
-             y="232.62721300125122"
-             x="530.1477272727273"
-             text-anchor="end"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="530.14771"
+             style="font-size:7px;font-weight:bold;text-anchor:end;fill:#000000;font-family:Calibri"
              class="table cell left">492</text>
           <text
              id="text18356"
-             y="232.62721300125122"
-             x="534.1477272727273"
-             text-anchor="start"
-             style="fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;"
+             y="232.62721"
+             x="534.14771"
+             style="font-size:7px;font-weight:bold;text-anchor:start;fill:#000000;font-family:Calibri"
              class="table cell right">11</text>
         </g>
       </g>
