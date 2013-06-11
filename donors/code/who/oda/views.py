@@ -7,6 +7,8 @@ import locale
 # TODO not sure if this is the right thing to do
 locale.setlocale(locale.LC_ALL, 'en_US.utf8')
 
+years = range(2001, 2012)
+
 def round2(x):
     if type(x) == str:
         return x
@@ -34,12 +36,12 @@ def encoder(arg):
 def extract_year_data(value_field):
     return lambda x : (x["Year"], x[value_field])
 
-def align_years(data, years=range(2000, 2011)):
+def align_years(data, years=years):
     year_map = dict(data)
     val_or_dash = lambda x : x if x else "-"
     return [year_map.get(str(year), None) for year in years]
 
-def extract_years(data, key, blank="-", years=range(2000, 2011)):
+def extract_years(data, key, blank="-", years=years):
     newdata = ftypes.list()
     for year in years:
         added = False
@@ -109,7 +111,7 @@ class DonorData(object):
         data = parsers.parse_purpose_commitments(open(filename))
         data /= extract_donor(self.donor)
 
-        value_field = "Commitments, Million, constant 2009 US$"
+        value_field = "Commitments, Million, constant 2010 US$"
         output = [
             align_years(                            # Fill in missing data gaps
                 filter_and_extract(
@@ -128,7 +130,7 @@ class DonorData(object):
         data = parsers.parse_purpose_disbursements(open(filename))
         data /= extract_donor(self.donor)
 
-        value_field = "Disbursements, Million, constant 2009 US$"
+        value_field = "Disbursements, Million, constant 2010 US$"
         output = [
             align_years(                            # Fill in missing data gaps
                 filter_and_extract(
@@ -193,7 +195,7 @@ def json_page2(request, donor=None):
     by_country = donordata.disbursement_by_country
     recipient_countries = sorted(donordata.recipient_countries, key=lambda x: x["Ordinal"])
 
-    value_field = "Disbursements, Million, 2009 constant US$ \nTotal"
+    value_field = "Disbursements, Million, 2010 constant US$ (2010-2011)"
     by_country_top_40 = sorted(by_country, key=lambda x: x[value_field], reverse=True)[0:40]
 
     extract_purpose = lambda x : [x[purpose] for purpose in purpose_categories]    
@@ -226,8 +228,8 @@ def json_page1(request, donor=None):
     # disbursements
     disbursements = donordata.disbursements
     total_disbursements = extract_years(disbursements, "Total ODA") #disbursements * extract("Total ODA")
-    other_disbursements = extract_years(disbursements, "OTHER ODA") #disbursements * extract("OTHER ODA")
-    total_health_disbursements = extract_years(disbursements, "Total Health") #disbursements * extract("Total Health")
+    other_disbursements = extract_years(disbursements, "Other ODA") #disbursements * extract("OTHER ODA")
+    total_health_disbursements = extract_years(disbursements, "Health ODA") #disbursements * extract("Total Health")
     oda_percentage = extract_years(disbursements, "%age") #disbursements * extract("%age")
 
     # allocation - commitments
@@ -244,8 +246,8 @@ def json_page1(request, donor=None):
 
     # disbursement by income
     by_income = donordata.disbursement_by_income
-    filter_and_extract_income = lambda x : extract_years(by_income / filter_by("Income Group", x), "Disbursements, Million, constant 2009 US$")
-    #get_disbursement = extract("Disbursements, Million, constant 2009 US$")
+    filter_and_extract_income = lambda x : extract_years(by_income / filter_by("incomegroupname", x), "Disbursements, Million, constant 2010 US$")
+    #get_disbursement = extract("Disbursements, Million, constant 2010 US$")
     #filter_and_extract_income = lambda x : filter_and_extract(
     #    by_income, filter_by("Income Group", x), get_disbursement
     #)
@@ -257,8 +259,8 @@ def json_page1(request, donor=None):
 
     # disbursement by region
     by_region = donordata.disbursement_by_region
-    filter_and_extract_income = lambda x : extract_years(by_region / filter_by("WHO Region", x), "Disbursements, Million, constant 2009 US$")
-    #get_disbursement = extract("Disbursements, Million, constant 2009 US$")
+    filter_and_extract_income = lambda x : extract_years(by_region / filter_by("WHO Region", x), "Disbursements, Million, constant 2010 US$")
+    #get_disbursement = extract("Disbursements, Million, constant 2010 US$")
     #filter_and_extract_income = lambda x : filter_and_extract(
     #    by_region, filter_by("WHO Region", x), get_disbursement
     #)
@@ -273,7 +275,7 @@ def json_page1(request, donor=None):
     
     by_income_domain_y = [0, safe_max(ldcs + lics + lmics + umics + gmc)*1.2]
     by_region_domain_y = [0, safe_max(afr + amr + emr + eur + sear + wpr + multicount + not_un)*1.2]
-    domain_x = range(2000, 2011)
+    domain_x = years
 
     data = {
         "country_name" : donor,
@@ -315,17 +317,17 @@ def json_page1(request, donor=None):
             #],
             #map(fod, c_policy), map(fod, c_mdg6), map(fod, c_other), map(fod, c_rhfp)
         },
-        "purpose_commitments_pie_2000" : map(foz, c_pies[0]),
-        "purpose_commitments_pie_2001" : map(foz, c_pies[1]),
-        "purpose_commitments_pie_2002" : map(foz, c_pies[2]),
-        "purpose_commitments_pie_2003" : map(foz, c_pies[3]),
-        "purpose_commitments_pie_2004" : map(foz, c_pies[4]),
-        "purpose_commitments_pie_2005" : map(foz, c_pies[5]),
-        "purpose_commitments_pie_2006" : map(foz, c_pies[6]),
-        "purpose_commitments_pie_2007" : map(foz, c_pies[7]),
-        "purpose_commitments_pie_2008" : map(foz, c_pies[8]),
-        "purpose_commitments_pie_2009" : map(foz, c_pies[9]),
-        "purpose_commitments_pie_2010" : map(foz, c_pies[10]),
+        "purpose_commitments_pie_2001" : map(foz, c_pies[0]),
+        "purpose_commitments_pie_2002" : map(foz, c_pies[1]),
+        "purpose_commitments_pie_2003" : map(foz, c_pies[2]),
+        "purpose_commitments_pie_2004" : map(foz, c_pies[3]),
+        "purpose_commitments_pie_2005" : map(foz, c_pies[4]),
+        "purpose_commitments_pie_2006" : map(foz, c_pies[5]),
+        "purpose_commitments_pie_2007" : map(foz, c_pies[6]),
+        "purpose_commitments_pie_2008" : map(foz, c_pies[7]),
+        "purpose_commitments_pie_2009" : map(foz, c_pies[8]),
+        "purpose_commitments_pie_2010" : map(foz, c_pies[9]),
+        "purpose_commitments_pie_2011" : map(foz, c_pies[10]),
         "health_total_commitments_bar" : {
                 "data" : c_bar,
                 "data-labels" : [round2(i or "") for i in c_bar],
@@ -345,17 +347,17 @@ def json_page1(request, donor=None):
                 [round2(item or "-") for item in total_health_disbursements]
             ],
         },
-        "purpose_disbursements_pie_2000" : map(foz, d_pies[0]),
-        "purpose_disbursements_pie_2001" : map(foz, d_pies[1]),
-        "purpose_disbursements_pie_2002" : map(foz, d_pies[2]),
-        "purpose_disbursements_pie_2003" : map(foz, d_pies[3]),
-        "purpose_disbursements_pie_2004" : map(foz, d_pies[4]),
-        "purpose_disbursements_pie_2005" : map(foz, d_pies[5]),
-        "purpose_disbursements_pie_2006" : map(foz, d_pies[6]),
-        "purpose_disbursements_pie_2007" : map(foz, d_pies[7]),
-        "purpose_disbursements_pie_2008" : map(foz, d_pies[8]),
-        "purpose_disbursements_pie_2009" : map(foz, d_pies[9]),
-        "purpose_disbursements_pie_2010" : map(foz, d_pies[10]),
+        "purpose_disbursements_pie_2001" : map(foz, d_pies[0]),
+        "purpose_disbursements_pie_2002" : map(foz, d_pies[1]),
+        "purpose_disbursements_pie_2003" : map(foz, d_pies[2]),
+        "purpose_disbursements_pie_2004" : map(foz, d_pies[3]),
+        "purpose_disbursements_pie_2005" : map(foz, d_pies[4]),
+        "purpose_disbursements_pie_2006" : map(foz, d_pies[5]),
+        "purpose_disbursements_pie_2007" : map(foz, d_pies[6]),
+        "purpose_disbursements_pie_2008" : map(foz, d_pies[7]),
+        "purpose_disbursements_pie_2009" : map(foz, d_pies[8]),
+        "purpose_disbursements_pie_2010" : map(foz, d_pies[9]),
+        "purpose_disbursements_pie_2011" : map(foz, d_pies[10]),
         "health_total_disbursements_bar" : {
                 "data" : d_bar,
                 "data-labels" : [round2(i or "") for i in d_bar],

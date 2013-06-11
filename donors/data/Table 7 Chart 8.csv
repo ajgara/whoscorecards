@@ -1,1680 +1,1777 @@
-Donor,Year,Income Group,"Disbursements, Million, constant 2009 US$"
-AfDF,2000,LDCs,
-AfDF,2000,LMICs,
-AfDF,2001,LDCs,24.84
-AfDF,2001,LMICs,4.38
-AfDF,2001,Other LICs,18.45
-AfDF,2002,Global and multi-country,3.77
-AfDF,2002,LDCs,38.18
-AfDF,2002,LMICs,3.64
-AfDF,2002,Other LICs,40.39
-AfDF,2003,Global and multi-country,1.51
-AfDF,2003,LDCs,36.61
-AfDF,2003,LMICs,1.03
-AfDF,2003,Other LICs,2.21
-AfDF,2004,Global and multi-country,0.87
-AfDF,2004,LDCs,69.98
-AfDF,2004,LMICs,11.13
+Donor,Year,incomegroupname,"Disbursements, Million, constant 2010 US$"
+AfDB,2011,LMICs,0.09
+AfDB,2011,Part I unallocated by income,0.08
+AfDB,2011,UMICs,1.44
+AfDF,2001,LDCs,24.99
+AfDF,2001,LMICs,21.52
+AfDF,2001,Other LICs,1.46
+AfDF,2002,LDCs,38.46
+AfDF,2002,LMICs,42.36
+AfDF,2002,Other LICs,1.99
+AfDF,2002,Part I unallocated by income,3.80
+AfDF,2003,LDCs,36.87
+AfDF,2003,LMICs,2.56
+AfDF,2003,Other LICs,0.70
+AfDF,2003,Part I unallocated by income,1.52
+AfDF,2004,LDCs,70.51
+AfDF,2004,LMICs,11.22
 AfDF,2004,Other LICs,0.18
-AfDF,2005,Global and multi-country,2.19
-AfDF,2005,LDCs,56.21
-AfDF,2005,LMICs,0.88
-AfDF,2005,Other LICs,7.13
-AfDF,2006,Global and multi-country,5.69
-AfDF,2006,LDCs,70.45
-AfDF,2006,LMICs,3.33
-AfDF,2006,Other LICs,6.97
-AfDF,2007,Global and multi-country,3.65
-AfDF,2007,LDCs,43.50
-AfDF,2007,LMICs,2.15
-AfDF,2007,Other LICs,32.27
-AfDF,2008,Global and multi-country,7.54
-AfDF,2008,LDCs,72.04
-AfDF,2008,LMICs,15.74
-AfDF,2008,Other LICs,13.43
-AfDF,2009,Global and multi-country,14.08
-AfDF,2009,LDCs,71.35
-AfDF,2009,LMICs,6.81
-AfDF,2009,Other LICs,12.08
-AfDF,2010,Global and multi-country,10.62
-AfDF,2010,LDCs,45.45
-AfDF,2010,LMICs,3.55
-AfDF,2010,Other LICs,16.56
-AfDF,2010,UMICs,
-AFESD,2008,Global and multi-country,0.89
-AFESD,2008,LDCs,0.91
-AFESD,2008,LMICs,2.56
-AFESD,2008,UMICs,0.13
-AFESD,2009,Global and multi-country,0.67
-AFESD,2009,LDCs,0.76
-AFESD,2009,LMICs,0.22
-AFESD,2009,UMICs,0.01
-AFESD,2010,Global and multi-country,0.19
-AFESD,2010,LDCs,0.14
-AFESD,2010,LMICs,0.51
-AFESD,2010,UMICs,0.46
-AsDB Special Funds,2000,LDCs,
-AsDB Special Funds,2000,Other LICs,
-AsDB Special Funds,2001,LMICs,
-AsDB Special Funds,2001,Other LICs,
-AsDB Special Funds,2003,LDCs,
-AsDB Special Funds,2003,LMICs,
-AsDB Special Funds,2003,Other LICs,
-AsDB Special Funds,2004,LMICs,
-AsDB Special Funds,2004,Other LICs,
-AsDB Special Funds,2005,LMICs,
-AsDB Special Funds,2005,Other LICs,
-AsDB Special Funds,2007,LMICs,
-AsDB Special Funds,2008,Other LICs,
-AsDB Special Funds,2010,Global and multi-country,1.57
-AsDB Special Funds,2010,LDCs,17.15
-AsDB Special Funds,2010,LMICs,32.44
-AsDB Special Funds,2010,Other LICs,170.96
-Australia,2000,Global and multi-country,7.74
-Australia,2000,LDCs,14.25
-Australia,2000,LMICs,40.11
-Australia,2000,Other LICs,53.97
-Australia,2000,UMICs,4.46
-Australia,2001,Global and multi-country,9.52
-Australia,2001,LDCs,28.18
-Australia,2001,LMICs,41.68
-Australia,2001,Other LICs,67.97
-Australia,2001,UMICs,7.55
-Australia,2002,Global and multi-country,5.76
-Australia,2002,LDCs,25.24
-Australia,2002,LMICs,29.83
-Australia,2002,Other LICs,83.03
-Australia,2002,UMICs,8.82
-Australia,2003,Global and multi-country,8.09
-Australia,2003,LDCs,29.01
-Australia,2003,LMICs,40.68
-Australia,2003,Other LICs,65.55
-Australia,2003,UMICs,6.27
-Australia,2004,Global and multi-country,10.62
-Australia,2004,LDCs,24.49
-Australia,2004,LMICs,46.29
-Australia,2004,Other LICs,53.93
-Australia,2004,UMICs,4.68
-Australia,2005,Global and multi-country,19.84
-Australia,2005,LDCs,26.54
-Australia,2005,LMICs,41.39
-Australia,2005,Other LICs,51.97
-Australia,2005,UMICs,5.80
-Australia,2006,Global and multi-country,52.58
-Australia,2006,LDCs,23.94
-Australia,2006,LMICs,62.35
-Australia,2006,Other LICs,56.41
-Australia,2006,UMICs,12.28
-Australia,2007,Global and multi-country,37.09
-Australia,2007,LDCs,30.77
-Australia,2007,LMICs,63.21
-Australia,2007,Other LICs,36.88
-Australia,2007,UMICs,13.47
-Australia,2008,Global and multi-country,59.94
-Australia,2008,LDCs,43.81
-Australia,2008,LMICs,46.02
-Australia,2008,Other LICs,41.91
-Australia,2008,UMICs,5.95
-Australia,2009,Global and multi-country,54.11
-Australia,2009,LDCs,58.31
-Australia,2009,LMICs,47.81
-Australia,2009,Other LICs,58.75
-Australia,2009,UMICs,6.93
-Australia,2010,Global and multi-country,60.95
-Australia,2010,LDCs,78.85
-Australia,2010,LMICs,44.85
-Australia,2010,Other LICs,76.12
-Australia,2010,UMICs,7.28
-Austria,2000,Global and multi-country,0.14
-Austria,2000,LDCs,0.69
-Austria,2000,LMICs,3.13
-Austria,2000,Other LICs,0.45
-Austria,2000,UMICs,0.09
-Austria,2001,Global and multi-country,0.12
-Austria,2001,LDCs,5.17
-Austria,2001,LMICs,39.93
-Austria,2001,Other LICs,7.68
-Austria,2001,UMICs,0.25
-Austria,2002,Global and multi-country,1.65
-Austria,2002,LDCs,4.28
-Austria,2002,LMICs,2.27
-Austria,2002,Other LICs,0.40
-Austria,2002,UMICs,0.13
-Austria,2003,Global and multi-country,0.03
-Austria,2003,LDCs,4.39
-Austria,2003,LMICs,3.26
-Austria,2003,Other LICs,0.43
-Austria,2003,UMICs,0.35
-Austria,2004,Global and multi-country,0.32
-Austria,2004,LDCs,4.33
-Austria,2004,LMICs,4.55
-Austria,2004,Other LICs,0.29
-Austria,2004,UMICs,0.20
-Austria,2005,Global and multi-country,1.05
-Austria,2005,LDCs,3.83
+AfDF,2004,Part I unallocated by income,0.88
+AfDF,2005,LDCs,56.63
+AfDF,2005,LMICs,7.46
+AfDF,2005,Other LICs,0.61
+AfDF,2005,Part I unallocated by income,2.21
+AfDF,2006,LDCs,70.96
+AfDF,2006,LMICs,6.05
+AfDF,2006,Other LICs,4.33
+AfDF,2006,Part I unallocated by income,5.73
+AfDF,2007,LDCs,43.81
+AfDF,2007,LMICs,31.44
+AfDF,2007,Other LICs,3.23
+AfDF,2007,Part I unallocated by income,3.67
+AfDF,2008,LDCs,72.60
+AfDF,2008,LMICs,19.31
+AfDF,2008,Other LICs,10.09
+AfDF,2008,Part I unallocated by income,7.60
+AfDF,2009,LDCs,72.01
+AfDF,2009,LMICs,17.91
+AfDF,2009,Other LICs,1.16
+AfDF,2009,Part I unallocated by income,14.21
+AfDF,2010,LDCs,45.88
+AfDF,2010,LMICs,16.77
+AfDF,2010,Other LICs,3.53
+AfDF,2010,Part I unallocated by income,10.72
+AfDF,2010,UMICs,0.00
+AfDF,2011,LDCs,56.96
+AfDF,2011,LMICs,6.14
+AfDF,2011,Other LICs,11.53
+AfDF,2011,Part I unallocated by income,9.43
+AfDF,2011,UMICs,0.00
+Arab Fund (AFESD),2008,LDCs,0.92
+Arab Fund (AFESD),2008,LMICs,0.91
+Arab Fund (AFESD),2008,Part I unallocated by income,0.89
+Arab Fund (AFESD),2008,UMICs,1.74
+Arab Fund (AFESD),2009,LDCs,0.76
+Arab Fund (AFESD),2009,LMICs,0.09
+Arab Fund (AFESD),2009,Part I unallocated by income,0.68
+Arab Fund (AFESD),2009,UMICs,0.14
+Arab Fund (AFESD),2010,LDCs,0.14
+Arab Fund (AFESD),2010,LMICs,0.00
+Arab Fund (AFESD),2010,Part I unallocated by income,0.19
+Arab Fund (AFESD),2010,UMICs,0.98
+Arab Fund (AFESD),2011,LDCs,0.20
+Arab Fund (AFESD),2011,LMICs,0.00
+Arab Fund (AFESD),2011,Part I unallocated by income,0.61
+Arab Fund (AFESD),2011,UMICs,1.30
+AsDB Special Funds,2001,LMICs,0.00
+AsDB Special Funds,2003,LDCs,0.00
+AsDB Special Funds,2003,LMICs,0.00
+AsDB Special Funds,2004,LMICs,0.00
+AsDB Special Funds,2004,Other LICs,0.00
+AsDB Special Funds,2005,LMICs,0.00
+AsDB Special Funds,2005,Other LICs,0.00
+AsDB Special Funds,2007,LMICs,0.00
+AsDB Special Funds,2008,LMICs,0.00
+AsDB Special Funds,2010,LDCs,17.32
+AsDB Special Funds,2010,LMICs,205.33
+AsDB Special Funds,2010,Other LICs,0.00
+AsDB Special Funds,2010,Part I unallocated by income,1.59
+AsDB Special Funds,2011,LDCs,9.85
+AsDB Special Funds,2011,LMICs,60.43
+AsDB Special Funds,2011,Other LICs,5.50
+AsDB Special Funds,2011,Part I unallocated by income,4.78
+Australia,2001,LDCs,34.18
+Australia,2001,LMICs,133.03
+Australia,2001,Other LICs,0.15
+Australia,2001,Part I unallocated by income,11.63
+Australia,2001,UMICs,10.30
+Australia,2002,LDCs,30.67
+Australia,2002,LMICs,139.84
+Australia,2002,Other LICs,0.90
+Australia,2002,Part I unallocated by income,7.04
+Australia,2002,UMICs,8.28
+Australia,2003,LDCs,35.50
+Australia,2003,LMICs,126.76
+Australia,2003,Other LICs,0.00
+Australia,2003,Part I unallocated by income,9.90
+Australia,2003,UMICs,10.91
+Australia,2004,LDCs,29.97
+Australia,2004,LMICs,114.29
+Australia,2004,Other LICs,0.70
+Australia,2004,Part I unallocated by income,12.99
+Australia,2004,UMICs,13.37
+Australia,2005,LDCs,32.50
+Australia,2005,LMICs,104.95
+Australia,2005,Other LICs,0.56
+Australia,2005,Part I unallocated by income,24.29
+Australia,2005,UMICs,15.90
+Australia,2006,LDCs,29.29
+Australia,2006,LMICs,133.16
+Australia,2006,Other LICs,0.04
+Australia,2006,Part I unallocated by income,64.31
+Australia,2006,UMICs,27.10
+Australia,2007,LDCs,37.57
+Australia,2007,LMICs,112.05
+Australia,2007,Other LICs,0.00
+Australia,2007,Part I unallocated by income,45.28
+Australia,2007,UMICs,26.61
+Australia,2008,LDCs,53.49
+Australia,2008,LMICs,98.93
+Australia,2008,Other LICs,0.29
+Australia,2008,Part I unallocated by income,73.18
+Australia,2008,UMICs,15.41
+Australia,2009,LDCs,72.10
+Australia,2009,LMICs,112.52
+Australia,2009,Other LICs,10.85
+Australia,2009,Part I unallocated by income,66.91
+Australia,2009,UMICs,16.97
+Australia,2010,LDCs,97.89
+Australia,2010,LMICs,147.42
+Australia,2010,Other LICs,0.06
+Australia,2010,Part I unallocated by income,75.78
+Australia,2010,UMICs,12.11
+Australia,2011,LDCs,116.15
+Australia,2011,LMICs,188.23
+Australia,2011,Other LICs,0.61
+Australia,2011,Part I unallocated by income,79.43
+Australia,2011,UMICs,14.45
+Austria,2001,LDCs,5.01
+Austria,2001,LMICs,21.84
+Austria,2001,Other LICs,0.13
+Austria,2001,Part I unallocated by income,0.12
+Austria,2001,UMICs,24.42
+Austria,2002,LDCs,4.16
+Austria,2002,LMICs,1.87
+Austria,2002,Other LICs,0.26
+Austria,2002,Part I unallocated by income,1.61
+Austria,2002,UMICs,0.59
+Austria,2003,LDCs,4.27
+Austria,2003,LMICs,3.05
+Austria,2003,Other LICs,0.33
+Austria,2003,Part I unallocated by income,0.03
+Austria,2003,UMICs,0.55
+Austria,2004,LDCs,4.20
+Austria,2004,LMICs,4.17
+Austria,2004,Other LICs,0.25
+Austria,2004,Part I unallocated by income,0.31
+Austria,2004,UMICs,0.45
+Austria,2005,LDCs,3.71
 Austria,2005,LMICs,4.10
-Austria,2005,Other LICs,0.52
-Austria,2005,UMICs,0.09
-Austria,2006,Global and multi-country,1.59
-Austria,2006,LDCs,5.96
-Austria,2006,LMICs,7.44
-Austria,2006,Other LICs,0.51
-Austria,2006,UMICs,0.68
-Austria,2007,Global and multi-country,1.62
-Austria,2007,LDCs,5.41
-Austria,2007,LMICs,4.96
-Austria,2007,Other LICs,1.82
-Austria,2007,UMICs,0.79
-Austria,2008,Global and multi-country,1.82
-Austria,2008,LDCs,3.71
-Austria,2008,LMICs,6.81
-Austria,2008,Other LICs,0.53
-Austria,2008,UMICs,0.81
-Austria,2009,Global and multi-country,2.25
-Austria,2009,LDCs,2.69
-Austria,2009,LMICs,5.29
-Austria,2009,Other LICs,1.19
-Austria,2009,UMICs,0.42
-Austria,2010,Global and multi-country,1.17
-Austria,2010,LDCs,1.64
-Austria,2010,LMICs,6.55
-Austria,2010,Other LICs,0.44
-Austria,2010,UMICs,0.44
-Belgium,2000,Global and multi-country,50.27
-Belgium,2000,LDCs,52.09
-Belgium,2000,LMICs,12.17
-Belgium,2000,Other LICs,3.24
-Belgium,2000,UMICs,2.30
-Belgium,2001,Global and multi-country,38.76
-Belgium,2001,LDCs,50.56
-Belgium,2001,LMICs,18.61
-Belgium,2001,Other LICs,13.81
-Belgium,2001,UMICs,3.16
-Belgium,2002,Global and multi-country,44.50
-Belgium,2002,LDCs,54.13
-Belgium,2002,LMICs,13.08
-Belgium,2002,Other LICs,6.26
-Belgium,2002,UMICs,2.94
-Belgium,2003,Global and multi-country,50.01
-Belgium,2003,LDCs,52.15
-Belgium,2003,LMICs,7.60
-Belgium,2003,Other LICs,3.98
-Belgium,2003,UMICs,5.09
-Belgium,2004,Global and multi-country,33.67
-Belgium,2004,LDCs,47.41
-Belgium,2004,LMICs,7.96
-Belgium,2004,Other LICs,6.54
-Belgium,2004,UMICs,4.69
-Belgium,2005,Global and multi-country,24.74
-Belgium,2005,LDCs,65.37
-Belgium,2005,LMICs,14.42
-Belgium,2005,Other LICs,5.82
-Belgium,2005,UMICs,3.90
-Belgium,2006,Global and multi-country,29.19
-Belgium,2006,LDCs,77.32
-Belgium,2006,LMICs,18.21
-Belgium,2006,Other LICs,6.54
-Belgium,2006,UMICs,6.65
-Belgium,2007,Global and multi-country,33.70
-Belgium,2007,LDCs,88.59
-Belgium,2007,LMICs,20.58
-Belgium,2007,Other LICs,6.24
-Belgium,2007,UMICs,4.56
-Belgium,2008,Global and multi-country,29.24
-Belgium,2008,LDCs,83.16
-Belgium,2008,LMICs,18.83
-Belgium,2008,Other LICs,9.70
-Belgium,2008,UMICs,4.33
-Belgium,2009,Global and multi-country,32.66
-Belgium,2009,LDCs,95.77
-Belgium,2009,LMICs,16.64
-Belgium,2009,Other LICs,5.96
-Belgium,2009,UMICs,5.52
-Belgium,2010,Global and multi-country,27.32
-Belgium,2010,LDCs,109.87
-Belgium,2010,LMICs,22.23
-Belgium,2010,Other LICs,5.78
-Belgium,2010,UMICs,3.05
-Canada,2000,Global and multi-country,31.53
-Canada,2000,LDCs,18.84
-Canada,2000,LMICs,8.15
-Canada,2000,Other LICs,6.03
-Canada,2000,UMICs,4.22
-Canada,2001,Global and multi-country,21.51
-Canada,2001,LDCs,17.61
-Canada,2001,LMICs,17.43
-Canada,2001,Other LICs,5.91
-Canada,2001,UMICs,4.48
-Canada,2002,Global and multi-country,24.90
-Canada,2002,LDCs,19.51
-Canada,2002,LMICs,28.65
-Canada,2002,Other LICs,30.45
-Canada,2002,UMICs,5.33
-Canada,2003,Global and multi-country,46.40
-Canada,2003,LDCs,40.55
-Canada,2003,LMICs,31.40
-Canada,2003,Other LICs,21.61
-Canada,2003,UMICs,6.05
-Canada,2004,Global and multi-country,107.10
-Canada,2004,LDCs,58.38
-Canada,2004,LMICs,21.18
-Canada,2004,Other LICs,23.54
-Canada,2004,UMICs,7.26
-Canada,2005,Global and multi-country,225.68
-Canada,2005,LDCs,65.54
-Canada,2005,LMICs,15.98
-Canada,2005,Other LICs,24.88
-Canada,2005,UMICs,7.49
-Canada,2006,Global and multi-country,66.51
-Canada,2006,LDCs,100.57
-Canada,2006,LMICs,24.31
-Canada,2006,Other LICs,21.82
-Canada,2006,UMICs,9.49
-Canada,2007,Global and multi-country,192.09
-Canada,2007,LDCs,137.86
-Canada,2007,LMICs,31.57
-Canada,2007,Other LICs,28.54
-Canada,2007,UMICs,5.86
-Canada,2008,Global and multi-country,158.96
-Canada,2008,LDCs,155.87
-Canada,2008,LMICs,22.87
-Canada,2008,Other LICs,33.37
-Canada,2008,UMICs,4.71
-Canada,2009,Global and multi-country,184.39
-Canada,2009,LDCs,172.27
-Canada,2009,LMICs,37.50
-Canada,2009,Other LICs,34.97
-Canada,2009,UMICs,9.50
-Canada,2010,Global and multi-country,185.89
-Canada,2010,LDCs,158.96
-Canada,2010,LMICs,20.81
-Canada,2010,Other LICs,21.22
-Canada,2010,UMICs,7.55
-Denmark,2000,Global and multi-country,1.94
-Denmark,2000,LDCs,13.74
-Denmark,2000,LMICs,12.32
-Denmark,2000,Other LICs,4.00
-Denmark,2001,Global and multi-country,9.08
-Denmark,2001,LDCs,18.38
-Denmark,2001,LMICs,20.61
-Denmark,2001,Other LICs,6.22
-Denmark,2001,UMICs,0.41
-Denmark,2002,Global and multi-country,
-Denmark,2002,LDCs,
-Denmark,2002,LMICs,
-Denmark,2002,Other LICs,
-Denmark,2002,UMICs,
-Denmark,2003,Global and multi-country,6.96
-Denmark,2003,LDCs,41.97
-Denmark,2003,LMICs,9.73
-Denmark,2003,Other LICs,10.10
-Denmark,2003,UMICs,1.32
-Denmark,2004,Global and multi-country,6.03
-Denmark,2004,LDCs,56.87
-Denmark,2004,LMICs,3.85
-Denmark,2004,Other LICs,11.51
-Denmark,2004,UMICs,0.53
-Denmark,2005,Global and multi-country,3.80
-Denmark,2005,LDCs,62.59
-Denmark,2005,LMICs,9.11
-Denmark,2005,Other LICs,15.91
-Denmark,2005,UMICs,0.79
-Denmark,2006,Global and multi-country,3.33
-Denmark,2006,LDCs,62.26
-Denmark,2006,LMICs,6.08
-Denmark,2006,Other LICs,8.02
-Denmark,2006,UMICs,0.58
-Denmark,2007,Global and multi-country,2.79
-Denmark,2007,LDCs,61.91
-Denmark,2007,LMICs,4.32
-Denmark,2007,Other LICs,12.78
-Denmark,2007,UMICs,2.73
-Denmark,2008,Global and multi-country,3.49
-Denmark,2008,LDCs,51.81
-Denmark,2008,LMICs,4.78
-Denmark,2008,Other LICs,26.76
-Denmark,2008,UMICs,0.10
-Denmark,2009,Global and multi-country,12.22
-Denmark,2009,LDCs,75.86
-Denmark,2009,LMICs,4.11
-Denmark,2009,Other LICs,36.08
-Denmark,2009,UMICs,2.66
-Denmark,2010,Global and multi-country,34.07
-Denmark,2010,LDCs,85.65
-Denmark,2010,LMICs,5.49
-Denmark,2010,Other LICs,45.70
-Denmark,2010,UMICs,2.49
-EU Institutions,2000,Global and multi-country,4.88
-EU Institutions,2000,LDCs,52.47
-EU Institutions,2000,LMICs,14.49
-EU Institutions,2000,Other LICs,4.12
-EU Institutions,2000,UMICs,7.57
-EU Institutions,2001,Global and multi-country,4.92
-EU Institutions,2001,LDCs,67.31
-EU Institutions,2001,LMICs,2.79
-EU Institutions,2001,Other LICs,40.45
-EU Institutions,2001,UMICs,11.15
-EU Institutions,2002,Global and multi-country,14.95
-EU Institutions,2002,LDCs,80.85
-EU Institutions,2002,LMICs,6.81
-EU Institutions,2002,Other LICs,16.21
-EU Institutions,2002,UMICs,3.49
-EU Institutions,2003,Global and multi-country,24.41
-EU Institutions,2003,LDCs,73.69
-EU Institutions,2003,LMICs,10.57
-EU Institutions,2003,Other LICs,20.69
-EU Institutions,2003,UMICs,1.22
-EU Institutions,2004,Global and multi-country,7.17
-EU Institutions,2004,LDCs,112.69
-EU Institutions,2004,LMICs,13.89
-EU Institutions,2004,Other LICs,106.43
-EU Institutions,2004,UMICs,2.31
-EU Institutions,2005,Global and multi-country,82.92
-EU Institutions,2005,LDCs,131.12
-EU Institutions,2005,LMICs,130.56
-EU Institutions,2005,Other LICs,123.05
-EU Institutions,2005,UMICs,39.59
-EU Institutions,2006,Global and multi-country,104.68
-EU Institutions,2006,LDCs,222.08
-EU Institutions,2006,LMICs,224.42
-EU Institutions,2006,Other LICs,91.10
-EU Institutions,2006,UMICs,68.68
-EU Institutions,2007,Global and multi-country,195.77
-EU Institutions,2007,LDCs,220.79
-EU Institutions,2007,LMICs,149.99
-EU Institutions,2007,Other LICs,55.00
-EU Institutions,2007,UMICs,74.11
-EU Institutions,2008,Global and multi-country,184.48
-EU Institutions,2008,LDCs,218.91
-EU Institutions,2008,LMICs,179.16
-EU Institutions,2008,Other LICs,67.61
-EU Institutions,2008,UMICs,63.71
-EU Institutions,2009,Global and multi-country,103.07
-EU Institutions,2009,LDCs,175.53
-EU Institutions,2009,LMICs,187.29
-EU Institutions,2009,Other LICs,52.88
-EU Institutions,2009,UMICs,54.13
-EU Institutions,2010,Global and multi-country,97.88
-EU Institutions,2010,LDCs,179.87
-EU Institutions,2010,LMICs,180.59
-EU Institutions,2010,Other LICs,39.88
-EU Institutions,2010,UMICs,21.03
-Finland,2000,Global and multi-country,2.74
-Finland,2000,LDCs,4.77
-Finland,2000,LMICs,7.69
-Finland,2000,Other LICs,0.91
-Finland,2000,UMICs,0.29
-Finland,2001,Global and multi-country,5.85
-Finland,2001,LDCs,9.37
-Finland,2001,LMICs,10.31
-Finland,2001,Other LICs,2.10
-Finland,2001,UMICs,0.37
-Finland,2002,Global and multi-country,5.97
-Finland,2002,LDCs,8.65
-Finland,2002,LMICs,7.85
-Finland,2002,Other LICs,1.90
-Finland,2002,UMICs,1.38
-Finland,2003,Global and multi-country,4.25
-Finland,2003,LDCs,9.87
-Finland,2003,LMICs,12.48
-Finland,2003,Other LICs,1.83
-Finland,2003,UMICs,0.96
-Finland,2004,Global and multi-country,
-Finland,2004,LDCs,
-Finland,2004,LMICs,
-Finland,2004,Other LICs,
-Finland,2004,UMICs,
-Finland,2005,Global and multi-country,
-Finland,2005,LDCs,
-Finland,2005,LMICs,
-Finland,2005,Other LICs,
-Finland,2005,UMICs,
-Finland,2006,Global and multi-country,12.15
-Finland,2006,LDCs,10.74
-Finland,2006,LMICs,9.78
-Finland,2006,Other LICs,7.98
-Finland,2006,UMICs,3.45
-Finland,2007,Global and multi-country,11.01
-Finland,2007,LDCs,14.29
-Finland,2007,LMICs,12.30
-Finland,2007,Other LICs,1.77
-Finland,2007,UMICs,2.78
-Finland,2008,Global and multi-country,16.13
-Finland,2008,LDCs,14.90
-Finland,2008,LMICs,10.21
-Finland,2008,Other LICs,1.97
-Finland,2008,UMICs,1.88
-Finland,2009,Global and multi-country,8.54
-Finland,2009,LDCs,15.92
-Finland,2009,LMICs,8.64
-Finland,2009,Other LICs,1.61
-Finland,2009,UMICs,1.32
-Finland,2010,Global and multi-country,11.69
-Finland,2010,LDCs,13.54
-Finland,2010,LMICs,10.02
-Finland,2010,Other LICs,2.26
-Finland,2010,UMICs,0.69
-France,2000,Global and multi-country,1.04
-France,2000,LDCs,41.88
-France,2000,LMICs,21.29
-France,2000,Other LICs,4.08
-France,2000,UMICs,5.87
-France,2001,Global and multi-country,50.86
-France,2001,LDCs,56.64
-France,2001,LMICs,59.16
-France,2001,Other LICs,16.64
-France,2001,UMICs,49.01
-France,2002,Global and multi-country,55.17
-France,2002,LDCs,55.23
-France,2002,LMICs,56.96
-France,2002,Other LICs,10.74
-France,2002,UMICs,44.03
-France,2003,Global and multi-country,74.07
-France,2003,LDCs,64.86
-France,2003,LMICs,51.20
-France,2003,Other LICs,11.91
-France,2003,UMICs,44.20
-France,2004,Global and multi-country,115.62
-France,2004,LDCs,70.81
-France,2004,LMICs,52.35
-France,2004,Other LICs,10.68
-France,2004,UMICs,45.33
-France,2005,Global and multi-country,150.46
-France,2005,LDCs,75.02
-France,2005,LMICs,49.03
-France,2005,Other LICs,9.17
-France,2005,UMICs,20.82
-France,2006,Global and multi-country,27.42
-France,2006,LDCs,140.89
-France,2006,LMICs,89.77
-France,2006,Other LICs,44.84
-France,2006,UMICs,20.98
-France,2007,Global and multi-country,13.26
-France,2007,LDCs,29.65
-France,2007,LMICs,33.31
-France,2007,Other LICs,6.84
-France,2007,UMICs,19.59
-France,2008,Global and multi-country,223.91
-France,2008,LDCs,49.89
-France,2008,LMICs,21.06
-France,2008,Other LICs,2.99
-France,2008,UMICs,41.77
-France,2009,Global and multi-country,197.37
-France,2009,LDCs,77.86
-France,2009,LMICs,29.77
-France,2009,Other LICs,5.80
-France,2009,UMICs,33.61
-France,2010,Global and multi-country,277.94
-France,2010,LDCs,71.18
-France,2010,LMICs,44.71
-France,2010,Other LICs,32.02
-France,2010,UMICs,18.05
-GAVI,2007,Global and multi-country,514.09
-GAVI,2007,LDCs,305.49
-GAVI,2007,LMICs,37.80
-GAVI,2007,Other LICs,85.20
-GAVI,2008,Global and multi-country,101.65
-GAVI,2008,LDCs,357.33
-GAVI,2008,LMICs,38.61
-GAVI,2008,Other LICs,210.73
-GAVI,2009,Global and multi-country,106.10
-GAVI,2009,LDCs,230.38
-GAVI,2009,LMICs,28.51
-GAVI,2009,Other LICs,108.32
-GAVI,2009,UMICs,0.19
-GAVI,2010,Global and multi-country,114.00
-GAVI,2010,LDCs,361.03
-GAVI,2010,LMICs,41.60
-GAVI,2010,Other LICs,187.60
-GEF,2008,LMICs,0.59
-GEF,2008,UMICs,0.00
-Germany,2000,Global and multi-country,
-Germany,2000,LDCs,40.25
-Germany,2000,LMICs,21.62
-Germany,2000,Other LICs,21.77
-Germany,2000,UMICs,6.29
-Germany,2001,Global and multi-country,10.43
-Germany,2001,LDCs,92.36
-Germany,2001,LMICs,75.79
-Germany,2001,Other LICs,31.00
-Germany,2001,UMICs,9.55
-Germany,2002,Global and multi-country,3.27
-Germany,2002,LDCs,59.67
-Germany,2002,LMICs,49.56
-Germany,2002,Other LICs,38.28
-Germany,2002,UMICs,5.89
-Germany,2003,Global and multi-country,14.30
-Germany,2003,LDCs,90.09
-Germany,2003,LMICs,87.52
-Germany,2003,Other LICs,36.42
-Germany,2003,UMICs,7.21
-Germany,2004,Global and multi-country,15.77
-Germany,2004,LDCs,92.19
-Germany,2004,LMICs,126.92
-Germany,2004,Other LICs,32.63
-Germany,2004,UMICs,6.47
-Germany,2005,Global and multi-country,12.40
-Germany,2005,LDCs,80.82
-Germany,2005,LMICs,90.98
-Germany,2005,Other LICs,59.34
-Germany,2005,UMICs,5.82
-Germany,2006,Global and multi-country,30.19
-Germany,2006,LDCs,94.11
-Germany,2006,LMICs,114.79
-Germany,2006,Other LICs,34.67
-Germany,2006,UMICs,13.38
-Germany,2007,Global and multi-country,47.43
-Germany,2007,LDCs,96.44
-Germany,2007,LMICs,153.51
-Germany,2007,Other LICs,63.02
-Germany,2007,UMICs,4.43
-Germany,2008,Global and multi-country,52.69
-Germany,2008,LDCs,119.73
-Germany,2008,LMICs,148.03
-Germany,2008,Other LICs,71.01
-Germany,2008,UMICs,5.60
-Germany,2009,Global and multi-country,46.61
-Germany,2009,LDCs,157.23
-Germany,2009,LMICs,148.42
-Germany,2009,Other LICs,65.71
-Germany,2009,UMICs,6.65
-Germany,2010,Global and multi-country,95.64
-Germany,2010,LDCs,154.24
-Germany,2010,LMICs,160.59
-Germany,2010,Other LICs,77.81
-Germany,2010,UMICs,7.50
-Global Fund,2003,Global and multi-country,5.92
-Global Fund,2003,LDCs,131.57
-Global Fund,2003,LMICs,72.25
-Global Fund,2003,Other LICs,26.26
-Global Fund,2003,UMICs,39.46
-Global Fund,2004,Global and multi-country,9.63
-Global Fund,2004,LDCs,353.70
-Global Fund,2004,LMICs,178.68
-Global Fund,2004,Other LICs,77.47
-Global Fund,2004,UMICs,60.06
-Global Fund,2005,Global and multi-country,12.44
-Global Fund,2005,LDCs,686.09
-Global Fund,2005,LMICs,265.93
-Global Fund,2005,Other LICs,105.76
-Global Fund,2005,UMICs,70.77
-Global Fund,2006,Global and multi-country,21.59
-Global Fund,2006,LDCs,725.10
-Global Fund,2006,LMICs,409.03
-Global Fund,2006,Other LICs,173.47
-Global Fund,2006,UMICs,58.20
-Global Fund,2007,Global and multi-country,27.14
-Global Fund,2007,LDCs,840.44
-Global Fund,2007,LMICs,488.20
-Global Fund,2007,Other LICs,217.01
-Global Fund,2007,UMICs,91.81
-Global Fund,2008,Global and multi-country,29.74
-Global Fund,2008,LDCs,"1,205.68"
-Global Fund,2008,LMICs,551.95
-Global Fund,2008,Other LICs,219.95
-Global Fund,2008,UMICs,104.74
-Global Fund,2009,Global and multi-country,29.79
-Global Fund,2009,LDCs,979.56
-Global Fund,2009,LMICs,734.16
-Global Fund,2009,Other LICs,506.99
-Global Fund,2009,UMICs,86.35
-Global Fund,2010,Global and multi-country,33.40
-Global Fund,2010,LDCs,"1,626.76"
-Global Fund,2010,LMICs,809.02
-Global Fund,2010,Other LICs,403.78
-Global Fund,2010,UMICs,129.27
-Greece,2002,Global and multi-country,2.11
-Greece,2002,LDCs,0.54
-Greece,2002,LMICs,2.78
-Greece,2002,Other LICs,0.12
-Greece,2002,UMICs,0.95
-Greece,2003,Global and multi-country,9.31
+Austria,2005,Other LICs,0.15
+Austria,2005,Part I unallocated by income,1.02
+Austria,2005,UMICs,0.31
+Austria,2006,LDCs,5.78
+Austria,2006,LMICs,7.23
+Austria,2006,Other LICs,0.35
+Austria,2006,Part I unallocated by income,1.54
+Austria,2006,UMICs,0.78
+Austria,2007,LDCs,5.25
+Austria,2007,LMICs,5.52
+Austria,2007,Other LICs,0.74
+Austria,2007,Part I unallocated by income,1.57
+Austria,2007,UMICs,1.04
+Austria,2008,LDCs,3.58
+Austria,2008,LMICs,5.52
+Austria,2008,Other LICs,0.36
+Austria,2008,Part I unallocated by income,1.76
+Austria,2008,UMICs,2.00
+Austria,2009,LDCs,2.60
+Austria,2009,LMICs,5.14
+Austria,2009,Other LICs,0.27
+Austria,2009,Part I unallocated by income,2.17
+Austria,2009,UMICs,1.22
+Austria,2010,LDCs,1.58
+Austria,2010,LMICs,4.35
+Austria,2010,Other LICs,0.25
+Austria,2010,Part I unallocated by income,1.13
+Austria,2010,UMICs,2.54
+Austria,2011,LDCs,3.59
+Austria,2011,LMICs,7.57
+Austria,2011,Other LICs,0.24
+Austria,2011,Part I unallocated by income,0.48
+Austria,2011,UMICs,2.13
+BADEA,2011,LDCs,4.55
+BADEA,2011,LMICs,0.70
+BADEA,2011,Other LICs,0.00
+BADEA,2011,Part I unallocated by income,0.26
+BADEA,2011,UMICs,0.00
+Belgium,2001,LDCs,49.06
+Belgium,2001,LMICs,19.58
+Belgium,2001,Other LICs,6.99
+Belgium,2001,Part I unallocated by income,37.61
+Belgium,2001,UMICs,7.96
+Belgium,2002,LDCs,52.55
+Belgium,2002,LMICs,10.00
+Belgium,2002,Other LICs,4.15
+Belgium,2002,Part I unallocated by income,43.19
+Belgium,2002,UMICs,7.49
+Belgium,2003,LDCs,50.61
+Belgium,2003,LMICs,5.88
+Belgium,2003,Other LICs,2.35
+Belgium,2003,Part I unallocated by income,48.54
+Belgium,2003,UMICs,7.94
+Belgium,2004,LDCs,45.98
+Belgium,2004,LMICs,8.22
+Belgium,2004,Other LICs,2.61
+Belgium,2004,Part I unallocated by income,32.66
+Belgium,2004,UMICs,7.79
+Belgium,2005,LDCs,63.44
+Belgium,2005,LMICs,7.74
+Belgium,2005,Other LICs,1.58
+Belgium,2005,Part I unallocated by income,24.01
+Belgium,2005,UMICs,14.11
+Belgium,2006,LDCs,75.04
+Belgium,2006,LMICs,11.49
+Belgium,2006,Other LICs,0.97
+Belgium,2006,Part I unallocated by income,28.33
+Belgium,2006,UMICs,18.02
+Belgium,2007,LDCs,85.98
+Belgium,2007,LMICs,17.78
+Belgium,2007,Other LICs,0.96
+Belgium,2007,Part I unallocated by income,32.70
+Belgium,2007,UMICs,11.71
+Belgium,2008,LDCs,80.56
+Belgium,2008,LMICs,14.82
+Belgium,2008,Other LICs,0.67
+Belgium,2008,Part I unallocated by income,28.32
+Belgium,2008,UMICs,16.34
+Belgium,2009,LDCs,92.73
+Belgium,2009,LMICs,12.56
+Belgium,2009,Other LICs,1.60
+Belgium,2009,Part I unallocated by income,31.63
+Belgium,2009,UMICs,13.06
+Belgium,2010,LDCs,106.04
+Belgium,2010,LMICs,19.03
+Belgium,2010,Other LICs,1.64
+Belgium,2010,Part I unallocated by income,26.36
+Belgium,2010,UMICs,9.30
+Belgium,2011,LDCs,94.54
+Belgium,2011,LMICs,19.19
+Belgium,2011,Other LICs,1.41
+Belgium,2011,Part I unallocated by income,31.96
+Belgium,2011,UMICs,10.86
+Canada,2001,LDCs,20.13
+Canada,2001,LMICs,20.81
+Canada,2001,Other LICs,1.00
+Canada,2001,Part I unallocated by income,24.59
+Canada,2001,UMICs,10.00
+Canada,2002,LDCs,22.30
+Canada,2002,LMICs,61.01
+Canada,2002,Other LICs,1.11
+Canada,2002,Part I unallocated by income,28.46
+Canada,2002,UMICs,11.53
+Canada,2003,LDCs,46.35
+Canada,2003,LMICs,47.07
+Canada,2003,Other LICs,4.70
+Canada,2003,Part I unallocated by income,53.05
+Canada,2003,UMICs,15.75
+Canada,2004,LDCs,66.73
+Canada,2004,LMICs,38.83
+Canada,2004,Other LICs,4.66
+Canada,2004,Part I unallocated by income,122.42
+Canada,2004,UMICs,15.87
+Canada,2005,LDCs,74.92
+Canada,2005,LMICs,40.41
+Canada,2005,Other LICs,3.42
+Canada,2005,Part I unallocated by income,257.98
+Canada,2005,UMICs,11.41
+Canada,2006,LDCs,114.97
+Canada,2006,LMICs,45.24
+Canada,2006,Other LICs,3.74
+Canada,2006,Part I unallocated by income,76.03
+Canada,2006,UMICs,14.58
+Canada,2007,LDCs,157.60
+Canada,2007,LMICs,54.80
+Canada,2007,Other LICs,7.34
+Canada,2007,Part I unallocated by income,219.59
+Canada,2007,UMICs,13.26
+Canada,2008,LDCs,178.06
+Canada,2008,LMICs,58.13
+Canada,2008,Other LICs,2.20
+Canada,2008,Part I unallocated by income,181.58
+Canada,2008,UMICs,9.31
+Canada,2009,LDCs,196.42
+Canada,2009,LMICs,69.06
+Canada,2009,Other LICs,4.98
+Canada,2009,Part I unallocated by income,210.23
+Canada,2009,UMICs,19.16
+Canada,2010,LDCs,180.93
+Canada,2010,LMICs,39.86
+Canada,2010,Other LICs,4.70
+Canada,2010,Part I unallocated by income,211.58
+Canada,2010,UMICs,11.80
+Canada,2011,LDCs,282.58
+Canada,2011,LMICs,53.97
+Canada,2011,Other LICs,11.67
+Canada,2011,Part I unallocated by income,268.03
+Canada,2011,UMICs,6.71
+Czech Republic,2011,LDCs,1.03
+Czech Republic,2011,LMICs,0.95
+Czech Republic,2011,Other LICs,0.04
+Czech Republic,2011,Part I unallocated by income,0.02
+Czech Republic,2011,UMICs,0.90
+Denmark,2001,LDCs,18.17
+Denmark,2001,LMICs,15.18
+Denmark,2001,Other LICs,4.16
+Denmark,2001,Part I unallocated by income,8.97
+Denmark,2001,UMICs,7.59
+Denmark,2002,LDCs,0.00
+Denmark,2002,LMICs,0.00
+Denmark,2002,Other LICs,0.00
+Denmark,2002,Part I unallocated by income,0.00
+Denmark,2002,UMICs,0.00
+Denmark,2003,LDCs,41.48
+Denmark,2003,LMICs,10.18
+Denmark,2003,Other LICs,9.41
+Denmark,2003,Part I unallocated by income,6.88
+Denmark,2003,UMICs,1.31
+Denmark,2004,LDCs,56.21
+Denmark,2004,LMICs,6.19
+Denmark,2004,Other LICs,8.84
+Denmark,2004,Part I unallocated by income,5.96
+Denmark,2004,UMICs,0.68
+Denmark,2005,LDCs,61.86
+Denmark,2005,LMICs,5.26
+Denmark,2005,Other LICs,12.60
+Denmark,2005,Part I unallocated by income,3.75
+Denmark,2005,UMICs,7.66
+Denmark,2006,LDCs,61.53
+Denmark,2006,LMICs,3.25
+Denmark,2006,Other LICs,5.80
+Denmark,2006,Part I unallocated by income,3.29
+Denmark,2006,UMICs,5.46
+Denmark,2007,LDCs,60.99
+Denmark,2007,LMICs,4.50
+Denmark,2007,Other LICs,11.06
+Denmark,2007,Part I unallocated by income,2.75
+Denmark,2007,UMICs,3.97
+Denmark,2008,LDCs,50.92
+Denmark,2008,LMICs,19.58
+Denmark,2008,Other LICs,10.74
+Denmark,2008,Part I unallocated by income,3.43
+Denmark,2008,UMICs,0.77
+Denmark,2009,LDCs,74.61
+Denmark,2009,LMICs,22.80
+Denmark,2009,Other LICs,16.57
+Denmark,2009,Part I unallocated by income,12.02
+Denmark,2009,UMICs,2.79
+Denmark,2010,LDCs,83.78
+Denmark,2010,LMICs,33.82
+Denmark,2010,Other LICs,16.19
+Denmark,2010,Part I unallocated by income,33.32
+Denmark,2010,UMICs,2.50
+Denmark,2011,LDCs,72.93
+Denmark,2011,LMICs,19.56
+Denmark,2011,Other LICs,19.85
+Denmark,2011,Part I unallocated by income,27.15
+Denmark,2011,UMICs,0.12
+EU Institutions,2001,LDCs,64.22
+EU Institutions,2001,LMICs,36.46
+EU Institutions,2001,Other LICs,5.29
+EU Institutions,2001,Part I unallocated by income,4.69
+EU Institutions,2001,UMICs,10.14
+EU Institutions,2002,LDCs,77.17
+EU Institutions,2002,LMICs,10.27
+EU Institutions,2002,Other LICs,7.94
+EU Institutions,2002,Part I unallocated by income,14.27
+EU Institutions,2002,UMICs,7.08
+EU Institutions,2003,LDCs,70.33
+EU Institutions,2003,LMICs,11.15
+EU Institutions,2003,Other LICs,15.19
+EU Institutions,2003,Part I unallocated by income,23.29
+EU Institutions,2003,UMICs,4.60
+EU Institutions,2004,LDCs,107.52
+EU Institutions,2004,LMICs,89.21
+EU Institutions,2004,Other LICs,22.02
+EU Institutions,2004,Part I unallocated by income,6.84
+EU Institutions,2004,UMICs,5.63
+EU Institutions,2005,LDCs,125.15
+EU Institutions,2005,LMICs,188.68
+EU Institutions,2005,Other LICs,26.71
+EU Institutions,2005,Part I unallocated by income,79.15
+EU Institutions,2005,UMICs,64.18
+EU Institutions,2006,LDCs,212.21
+EU Institutions,2006,LMICs,222.82
+EU Institutions,2006,Other LICs,32.87
+EU Institutions,2006,Part I unallocated by income,100.03
+EU Institutions,2006,UMICs,109.10
+EU Institutions,2007,LDCs,211.05
+EU Institutions,2007,LMICs,152.98
+EU Institutions,2007,Other LICs,22.36
+EU Institutions,2007,Part I unallocated by income,187.14
+EU Institutions,2007,UMICs,87.88
+EU Institutions,2008,LDCs,209.45
+EU Institutions,2008,LMICs,172.18
+EU Institutions,2008,Other LICs,15.19
+EU Institutions,2008,Part I unallocated by income,176.51
+EU Institutions,2008,UMICs,102.09
+EU Institutions,2009,LDCs,168.12
+EU Institutions,2009,LMICs,169.01
+EU Institutions,2009,Other LICs,21.14
+EU Institutions,2009,Part I unallocated by income,98.71
+EU Institutions,2009,UMICs,90.75
+EU Institutions,2010,LDCs,172.43
+EU Institutions,2010,LMICs,177.65
+EU Institutions,2010,Other LICs,22.41
+EU Institutions,2010,Part I unallocated by income,71.31
+EU Institutions,2010,UMICs,28.22
+EU Institutions,2011,LDCs,204.25
+EU Institutions,2011,LMICs,188.35
+EU Institutions,2011,Other LICs,21.17
+EU Institutions,2011,Part I unallocated by income,88.62
+EU Institutions,2011,UMICs,116.75
+Finland,2001,LDCs,9.04
+Finland,2001,LMICs,3.99
+Finland,2001,Other LICs,1.08
+Finland,2001,Part I unallocated by income,5.64
+Finland,2001,UMICs,7.26
+Finland,2002,LDCs,8.34
+Finland,2002,LMICs,4.09
+Finland,2002,Other LICs,1.13
+Finland,2002,Part I unallocated by income,5.75
+Finland,2002,UMICs,5.51
+Finland,2003,LDCs,9.52
+Finland,2003,LMICs,6.77
+Finland,2003,Other LICs,1.41
+Finland,2003,Part I unallocated by income,4.11
+Finland,2003,UMICs,6.56
+Finland,2004,LDCs,0.00
+Finland,2004,LMICs,0.00
+Finland,2004,Other LICs,0.00
+Finland,2004,Part I unallocated by income,0.00
+Finland,2004,UMICs,0.00
+Finland,2005,LDCs,0.00
+Finland,2005,LMICs,0.00
+Finland,2005,Other LICs,0.00
+Finland,2005,Part I unallocated by income,0.00
+Finland,2005,UMICs,0.00
+Finland,2006,LDCs,10.38
+Finland,2006,LMICs,14.05
+Finland,2006,Other LICs,0.73
+Finland,2006,Part I unallocated by income,11.75
+Finland,2006,UMICs,5.72
+Finland,2007,LDCs,13.79
+Finland,2007,LMICs,9.74
+Finland,2007,Other LICs,1.11
+Finland,2007,Part I unallocated by income,10.63
+Finland,2007,UMICs,5.42
+Finland,2008,LDCs,14.33
+Finland,2008,LMICs,8.62
+Finland,2008,Other LICs,1.00
+Finland,2008,Part I unallocated by income,15.51
+Finland,2008,UMICs,3.90
+Finland,2009,LDCs,15.20
+Finland,2009,LMICs,6.44
+Finland,2009,Other LICs,1.12
+Finland,2009,Part I unallocated by income,8.15
+Finland,2009,UMICs,3.48
+Finland,2010,LDCs,13.10
+Finland,2010,LMICs,8.26
+Finland,2010,Other LICs,1.50
+Finland,2010,Part I unallocated by income,11.31
+Finland,2010,UMICs,2.79
+Finland,2011,LDCs,7.58
+Finland,2011,LMICs,8.60
+Finland,2011,Other LICs,1.33
+Finland,2011,Part I unallocated by income,10.39
+Finland,2011,UMICs,2.36
+France,2001,LDCs,54.14
+France,2001,LMICs,31.90
+France,2001,Other LICs,1.36
+France,2001,Part I unallocated by income,48.61
+France,2001,UMICs,56.58
+France,2002,LDCs,52.88
+France,2002,LMICs,24.41
+France,2002,Other LICs,1.16
+France,2002,Part I unallocated by income,52.82
+France,2002,UMICs,56.32
+France,2003,LDCs,62.02
+France,2003,LMICs,31.95
+France,2003,Other LICs,1.69
+France,2003,Part I unallocated by income,70.84
+France,2003,UMICs,53.79
+France,2004,LDCs,67.66
+France,2004,LMICs,33.80
+France,2004,Other LICs,1.75
+France,2004,Part I unallocated by income,110.48
+France,2004,UMICs,45.07
+France,2005,LDCs,71.76
+France,2005,LMICs,30.01
+France,2005,Other LICs,1.75
+France,2005,Part I unallocated by income,143.93
+France,2005,UMICs,43.04
+France,2006,LDCs,135.11
+France,2006,LMICs,83.07
+France,2006,Other LICs,3.50
+France,2006,Part I unallocated by income,26.30
+France,2006,UMICs,62.16
+France,2007,LDCs,28.41
+France,2007,LMICs,20.76
+France,2007,Other LICs,0.57
+France,2007,Part I unallocated by income,12.70
+France,2007,UMICs,29.55
+France,2008,LDCs,47.82
+France,2008,LMICs,17.67
+France,2008,Other LICs,0.29
+France,2008,Part I unallocated by income,214.61
+France,2008,UMICs,32.21
+France,2009,LDCs,74.66
+France,2009,LMICs,27.55
+France,2009,Other LICs,0.69
+France,2009,Part I unallocated by income,189.26
+France,2009,UMICs,29.78
+France,2010,LDCs,67.98
+France,2010,LMICs,45.75
+France,2010,Other LICs,20.47
+France,2010,Part I unallocated by income,265.45
+France,2010,UMICs,17.24
+France,2011,LDCs,62.15
+France,2011,LMICs,44.00
+France,2011,Other LICs,5.36
+France,2011,Part I unallocated by income,62.39
+France,2011,UMICs,24.44
+GAVI,2007,LDCs,277.97
+GAVI,2007,LMICs,101.63
+GAVI,2007,Other LICs,19.15
+GAVI,2007,Part I unallocated by income,511.87
+GAVI,2007,UMICs,0.64
+GAVI,2008,LDCs,353.80
+GAVI,2008,LMICs,194.80
+GAVI,2008,Other LICs,32.30
+GAVI,2008,Part I unallocated by income,79.77
+GAVI,2008,UMICs,1.96
+GAVI,2009,LDCs,227.82
+GAVI,2009,LMICs,89.40
+GAVI,2009,Other LICs,21.58
+GAVI,2009,Part I unallocated by income,78.19
+GAVI,2009,UMICs,-0.26
+GAVI,2010,LDCs,359.64
+GAVI,2010,LMICs,174.95
+GAVI,2010,Other LICs,47.22
+GAVI,2010,Part I unallocated by income,114.98
+GAVI,2010,UMICs,2.60
+GAVI,2011,LDCs,432.39
+GAVI,2011,LMICs,151.91
+GAVI,2011,Other LICs,51.45
+GAVI,2011,Part I unallocated by income,62.95
+GAVI,2011,UMICs,1.56
+Germany,2001,LDCs,87.73
+Germany,2001,LMICs,79.42
+Germany,2001,Other LICs,2.54
+Germany,2001,Part I unallocated by income,9.91
+Germany,2001,UMICs,28.54
+Germany,2002,LDCs,56.67
+Germany,2002,LMICs,66.00
+Germany,2002,Other LICs,11.33
+Germany,2002,Part I unallocated by income,3.11
+Germany,2002,UMICs,11.68
+Germany,2003,LDCs,85.64
+Germany,2003,LMICs,95.21
+Germany,2003,Other LICs,10.34
+Germany,2003,Part I unallocated by income,13.60
+Germany,2003,UMICs,19.13
+Germany,2004,LDCs,87.54
+Germany,2004,LMICs,80.60
+Germany,2004,Other LICs,8.80
+Germany,2004,Part I unallocated by income,14.98
+Germany,2004,UMICs,68.25
+Germany,2005,LDCs,76.76
+Germany,2005,LMICs,108.94
+Germany,2005,Other LICs,21.47
+Germany,2005,Part I unallocated by income,11.78
+Germany,2005,UMICs,17.89
+Germany,2006,LDCs,89.45
+Germany,2006,LMICs,104.07
+Germany,2006,Other LICs,10.41
+Germany,2006,Part I unallocated by income,28.69
+Germany,2006,UMICs,40.30
+Germany,2007,LDCs,91.86
+Germany,2007,LMICs,151.33
+Germany,2007,Other LICs,29.31
+Germany,2007,Part I unallocated by income,45.18
+Germany,2007,UMICs,29.81
+Germany,2008,LDCs,114.31
+Germany,2008,LMICs,163.54
+Germany,2008,Other LICs,28.62
+Germany,2008,Part I unallocated by income,50.30
+Germany,2008,UMICs,22.30
+Germany,2009,LDCs,150.44
+Germany,2009,LMICs,109.13
+Germany,2009,Other LICs,32.17
+Germany,2009,Part I unallocated by income,44.60
+Germany,2009,UMICs,69.94
+Germany,2010,LDCs,147.86
+Germany,2010,LMICs,162.47
+Germany,2010,Other LICs,30.86
+Germany,2010,Part I unallocated by income,91.68
+Germany,2010,UMICs,42.39
+Germany,2011,LDCs,136.49
+Germany,2011,LMICs,79.69
+Germany,2011,Other LICs,47.83
+Germany,2011,Part I unallocated by income,62.73
+Germany,2011,UMICs,57.23
+Greece,2002,LDCs,0.53
+Greece,2002,LMICs,1.13
+Greece,2002,Part I unallocated by income,2.10
+Greece,2002,UMICs,2.69
 Greece,2003,LDCs,0.33
-Greece,2003,LMICs,5.57
-Greece,2003,Other LICs,0.35
-Greece,2003,UMICs,1.72
-Greece,2004,Global and multi-country,18.96
-Greece,2004,LDCs,1.53
-Greece,2004,LMICs,6.34
-Greece,2004,Other LICs,0.27
-Greece,2004,UMICs,1.45
-Greece,2005,Global and multi-country,12.23
-Greece,2005,LDCs,10.44
-Greece,2005,LMICs,11.66
-Greece,2005,Other LICs,0.27
-Greece,2005,UMICs,0.39
-Greece,2006,Global and multi-country,28.46
+Greece,2003,LMICs,3.87
+Greece,2003,Part I unallocated by income,9.24
+Greece,2003,UMICs,3.71
+Greece,2004,LDCs,1.52
+Greece,2004,LMICs,2.32
+Greece,2004,Other LICs,0.03
+Greece,2004,Part I unallocated by income,18.83
+Greece,2004,UMICs,5.65
+Greece,2005,LDCs,10.37
+Greece,2005,LMICs,1.94
+Greece,2005,Other LICs,0.25
+Greece,2005,Part I unallocated by income,12.14
+Greece,2005,UMICs,10.03
 Greece,2006,LDCs,1.10
-Greece,2006,LMICs,6.15
-Greece,2006,Other LICs,0.22
-Greece,2006,UMICs,2.19
-Greece,2007,Global and multi-country,31.33
-Greece,2007,LDCs,1.23
-Greece,2007,LMICs,2.90
-Greece,2007,Other LICs,0.63
-Greece,2007,UMICs,0.16
-Greece,2008,Global and multi-country,5.18
-Greece,2008,LDCs,1.31
-Greece,2008,LMICs,5.82
-Greece,2008,Other LICs,0.47
-Greece,2008,UMICs,0.51
-Greece,2009,Global and multi-country,12.32
-Greece,2009,LDCs,4.10
-Greece,2009,LMICs,4.41
-Greece,2009,Other LICs,0.16
-Greece,2009,UMICs,0.47
-Greece,2010,Global and multi-country,4.13
-Greece,2010,LMICs,2.18
-IDA,2000,LDCs,360.57
-IDA,2000,LMICs,553.65
-IDA,2000,Other LICs,78.66
-IDA,2000,UMICs,0.00
-IDA,2001,LDCs,425.98
-IDA,2001,LMICs,710.68
-IDA,2001,Other LICs,178.42
-IDA,2001,UMICs,0.07
-IDA,2002,LDCs,354.66
-IDA,2002,LMICs,742.07
-IDA,2002,Other LICs,244.47
-IDA,2002,UMICs,20.40
-IDA,2003,Global and multi-country,0.00
-IDA,2003,LDCs,433.70
-IDA,2003,LMICs,384.33
-IDA,2003,Other LICs,192.59
-IDA,2003,UMICs,11.08
-IDA,2004,Global and multi-country,1.34
-IDA,2004,LDCs,490.54
-IDA,2004,LMICs,600.19
-IDA,2004,Other LICs,284.83
-IDA,2004,UMICs,13.65
-IDA,2005,Global and multi-country,5.66
-IDA,2005,LDCs,550.04
-IDA,2005,LMICs,487.52
-IDA,2005,Other LICs,284.14
-IDA,2005,UMICs,3.32
-IDA,2006,Global and multi-country,8.61
-IDA,2006,LDCs,496.72
-IDA,2006,LMICs,357.01
-IDA,2006,Other LICs,262.34
-IDA,2006,UMICs,17.59
-IDA,2007,Global and multi-country,6.67
-IDA,2007,LDCs,353.22
-IDA,2007,LMICs,273.31
-IDA,2007,Other LICs,274.91
-IDA,2007,UMICs,12.01
-IDA,2008,Global and multi-country,7.49
-IDA,2008,LDCs,337.03
-IDA,2008,LMICs,231.41
-IDA,2008,Other LICs,152.47
-IDA,2008,UMICs,7.54
-IDA,2009,Global and multi-country,7.95
-IDA,2009,LDCs,421.89
-IDA,2009,LMICs,309.18
-IDA,2009,Other LICs,256.10
-IDA,2009,UMICs,2.40
-IDA,2010,Global and multi-country,8.96
-IDA,2010,LDCs,414.05
-IDA,2010,LMICs,240.23
-IDA,2010,Other LICs,260.82
-IDA,2010,UMICs,0.65
-IDB Sp.Fund,2001,LMICs,
-IDB Sp.Fund,2003,LMICs,
-IDB Sp.Fund,2005,LMICs,
-IDB Sp.Fund,2007,LMICs,
-IDB Sp.Fund,2009,Global and multi-country,2.48
-IDB Sp.Fund,2009,LDCs,5.64
-IDB Sp.Fund,2009,LMICs,13.70
-IDB Sp.Fund,2009,UMICs,0.39
-IDB Sp.Fund,2010,Global and multi-country,2.30
-IDB Sp.Fund,2010,LDCs,2.61
-IDB Sp.Fund,2010,LMICs,14.21
-IDB Sp.Fund,2010,UMICs,0.54
-IFAD,2003,LDCs,
-IFAD,2003,Other LICs,
-IFAD,2005,LDCs,
-IFAD,2005,LMICs,
-IFAD,2008,LDCs,
-IFAD,2008,Other LICs,
-Ireland,2000,LDCs,2.87
-Ireland,2000,LMICs,
-Ireland,2000,Other LICs,
-Ireland,2000,UMICs,0.12
-Ireland,2001,Global and multi-country,
-Ireland,2001,LDCs,3.85
-Ireland,2001,LMICs,
-Ireland,2001,Other LICs,0.01
-Ireland,2001,UMICs,0.28
-Ireland,2002,Global and multi-country,33.10
-Ireland,2002,LDCs,57.32
-Ireland,2002,LMICs,2.31
-Ireland,2002,Other LICs,3.17
-Ireland,2002,UMICs,4.93
-Ireland,2003,Global and multi-country,34.40
-Ireland,2003,LDCs,66.64
-Ireland,2003,LMICs,1.28
-Ireland,2003,Other LICs,4.05
-Ireland,2003,UMICs,8.31
-Ireland,2004,Global and multi-country,25.91
-Ireland,2004,LDCs,73.07
-Ireland,2004,LMICs,2.23
-Ireland,2004,Other LICs,3.66
-Ireland,2004,UMICs,7.71
-Ireland,2005,Global and multi-country,29.38
-Ireland,2005,LDCs,73.48
-Ireland,2005,LMICs,2.59
-Ireland,2005,Other LICs,3.89
-Ireland,2005,UMICs,7.59
-Ireland,2006,Global and multi-country,71.04
-Ireland,2006,LDCs,80.87
-Ireland,2006,LMICs,3.29
-Ireland,2006,Other LICs,6.63
-Ireland,2006,UMICs,3.21
-Ireland,2007,Global and multi-country,62.26
-Ireland,2007,LDCs,91.48
-Ireland,2007,LMICs,2.90
-Ireland,2007,Other LICs,9.11
-Ireland,2007,UMICs,7.31
-Ireland,2008,Global and multi-country,29.53
-Ireland,2008,LDCs,95.00
-Ireland,2008,LMICs,3.30
-Ireland,2008,Other LICs,6.82
-Ireland,2008,UMICs,6.64
-Ireland,2009,Global and multi-country,22.52
-Ireland,2009,LDCs,85.65
-Ireland,2009,LMICs,3.23
-Ireland,2009,Other LICs,6.29
-Ireland,2009,UMICs,6.05
-Ireland,2010,Global and multi-country,14.91
-Ireland,2010,LDCs,78.46
-Ireland,2010,LMICs,2.55
-Ireland,2010,Other LICs,5.96
-Ireland,2010,UMICs,3.68
-Isl.Dev Bank,2010,Global and multi-country,
-Isl.Dev Bank,2010,LDCs,
-Isl.Dev Bank,2010,LMICs,
-Isl.Dev Bank,2010,Other LICs,
-Italy,2000,Global and multi-country,
-Italy,2000,LDCs,0.00
-Italy,2000,LMICs,0.00
-Italy,2000,Other LICs,
-Italy,2000,UMICs,0.00
-Italy,2001,Global and multi-country,
+Greece,2006,LMICs,2.37
+Greece,2006,Other LICs,0.11
+Greece,2006,Part I unallocated by income,28.41
+Greece,2006,UMICs,6.07
+Greece,2007,LDCs,1.22
+Greece,2007,LMICs,1.69
+Greece,2007,Other LICs,0.12
+Greece,2007,Part I unallocated by income,31.11
+Greece,2007,UMICs,1.86
+Greece,2008,LDCs,1.28
+Greece,2008,LMICs,0.99
+Greece,2008,Other LICs,0.37
+Greece,2008,Part I unallocated by income,5.08
+Greece,2008,UMICs,5.31
+Greece,2009,LDCs,3.97
+Greece,2009,LMICs,3.19
+Greece,2009,Other LICs,0.01
+Greece,2009,Part I unallocated by income,11.92
+Greece,2009,UMICs,1.66
+Greece,2010,LMICs,2.14
+Greece,2010,Part I unallocated by income,4.06
+Greece,2011,LDCs,0.02
+Greece,2011,LMICs,2.15
+Greece,2011,Other LICs,0.01
+Greece,2011,Part I unallocated by income,0.06
+Greece,2011,UMICs,0.28
+Iceland,2011,LDCs,1.10
+Iceland,2011,LMICs,0.20
+Iceland,2011,Part I unallocated by income,0.25
+IDA,2001,LDCs,428.63
+IDA,2001,LMICs,787.37
+IDA,2001,Other LICs,13.49
+IDA,2001,UMICs,93.82
+IDA,2002,LDCs,357.23
+IDA,2002,LMICs,893.07
+IDA,2002,Other LICs,20.66
+IDA,2002,UMICs,100.52
+IDA,2003,LDCs,436.78
+IDA,2003,LMICs,503.47
+IDA,2003,Other LICs,28.68
+IDA,2003,Part I unallocated by income,0.00
+IDA,2003,UMICs,60.04
+IDA,2004,LDCs,494.25
+IDA,2004,LMICs,832.34
+IDA,2004,Other LICs,27.87
+IDA,2004,Part I unallocated by income,1.35
+IDA,2004,UMICs,45.27
+IDA,2005,LDCs,553.62
+IDA,2005,LMICs,738.64
+IDA,2005,Other LICs,17.21
+IDA,2005,Part I unallocated by income,5.70
+IDA,2005,UMICs,25.29
+IDA,2006,LDCs,500.24
+IDA,2006,LMICs,591.38
+IDA,2006,Other LICs,8.29
+IDA,2006,Part I unallocated by income,8.67
+IDA,2006,UMICs,41.99
+IDA,2007,LDCs,355.38
+IDA,2007,LMICs,523.64
+IDA,2007,Other LICs,12.05
+IDA,2007,Part I unallocated by income,6.72
+IDA,2007,UMICs,28.95
+IDA,2008,LDCs,339.08
+IDA,2008,LMICs,345.98
+IDA,2008,Other LICs,28.28
+IDA,2008,Part I unallocated by income,7.55
+IDA,2008,UMICs,20.73
+IDA,2009,LDCs,425.59
+IDA,2009,LMICs,544.78
+IDA,2009,Other LICs,13.61
+IDA,2009,Part I unallocated by income,8.02
+IDA,2009,UMICs,14.78
+IDA,2010,LDCs,417.96
+IDA,2010,LMICs,437.55
+IDA,2010,Other LICs,57.59
+IDA,2010,Part I unallocated by income,9.04
+IDA,2010,UMICs,11.35
+IDA,2011,LDCs,369.82
+IDA,2011,LMICs,541.61
+IDA,2011,Other LICs,64.79
+IDA,2011,Part I unallocated by income,20.87
+IDA,2011,UMICs,16.82
+IDB Sp.Fund,2001,LMICs,0.00
+IDB Sp.Fund,2003,LMICs,0.00
+IDB Sp.Fund,2005,LMICs,0.00
+IDB Sp.Fund,2007,LMICs,0.00
+IDB Sp.Fund,2009,LDCs,5.69
+IDB Sp.Fund,2009,LMICs,13.82
+IDB Sp.Fund,2009,Part I unallocated by income,2.50
+IDB Sp.Fund,2009,UMICs,0.41
+IDB Sp.Fund,2010,LDCs,2.63
+IDB Sp.Fund,2010,LMICs,14.24
+IDB Sp.Fund,2010,Part I unallocated by income,2.32
+IDB Sp.Fund,2010,UMICs,0.66
+IDB Sp.Fund,2011,LDCs,14.97
+IDB Sp.Fund,2011,LMICs,52.37
+IDB Sp.Fund,2011,Part I unallocated by income,2.76
+IDB Sp.Fund,2011,UMICs,0.73
+IFAD,2003,LDCs,0.00
+IFAD,2003,Other LICs,0.00
+IFAD,2005,LDCs,0.00
+IFAD,2005,UMICs,0.00
+IFAD,2008,LDCs,0.00
+IFAD,2008,Other LICs,0.00
+IFAD,2011,LDCs,0.00
+IFAD,2011,Other LICs,0.00
+Ireland,2001,LDCs,3.59
+Ireland,2001,LMICs,0.01
+Ireland,2001,Other LICs,0.00
+Ireland,2001,Part I unallocated by income,0.00
+Ireland,2001,UMICs,0.26
+Ireland,2002,LDCs,53.22
+Ireland,2002,LMICs,3.44
+Ireland,2002,Other LICs,1.34
+Ireland,2002,Part I unallocated by income,30.74
+Ireland,2002,UMICs,4.90
+Ireland,2003,LDCs,61.71
+Ireland,2003,LMICs,2.61
+Ireland,2003,Other LICs,2.20
+Ireland,2003,Part I unallocated by income,31.85
+Ireland,2003,UMICs,7.82
+Ireland,2004,LDCs,67.53
+Ireland,2004,LMICs,2.80
+Ireland,2004,Other LICs,2.00
+Ireland,2004,Part I unallocated by income,23.94
+Ireland,2004,UMICs,7.76
+Ireland,2005,LDCs,67.54
+Ireland,2005,LMICs,3.22
+Ireland,2005,Other LICs,1.93
+Ireland,2005,Part I unallocated by income,27.01
+Ireland,2005,UMICs,7.79
+Ireland,2006,LDCs,74.48
+Ireland,2006,LMICs,5.80
+Ireland,2006,Other LICs,2.37
+Ireland,2006,Part I unallocated by income,65.42
+Ireland,2006,UMICs,3.93
+Ireland,2007,LDCs,84.08
+Ireland,2007,LMICs,5.45
+Ireland,2007,Other LICs,4.65
+Ireland,2007,Part I unallocated by income,57.22
+Ireland,2007,UMICs,7.66
+Ireland,2008,LDCs,88.13
+Ireland,2008,LMICs,4.95
+Ireland,2008,Other LICs,3.25
+Ireland,2008,Part I unallocated by income,27.39
+Ireland,2008,UMICs,7.34
+Ireland,2009,LDCs,79.48
+Ireland,2009,LMICs,4.65
+Ireland,2009,Other LICs,3.56
+Ireland,2009,Part I unallocated by income,20.90
+Ireland,2009,UMICs,6.23
+Ireland,2010,LDCs,73.39
+Ireland,2010,LMICs,3.21
+Ireland,2010,Other LICs,4.56
+Ireland,2010,Part I unallocated by income,13.95
+Ireland,2010,UMICs,3.63
+Ireland,2011,LDCs,68.33
+Ireland,2011,LMICs,2.11
+Ireland,2011,Other LICs,5.38
+Ireland,2011,Part I unallocated by income,14.94
+Ireland,2011,UMICs,1.55
+Isl.Dev Bank,2010,LDCs,0.00
+Isl.Dev Bank,2010,LMICs,0.00
+Isl.Dev Bank,2010,Other LICs,0.00
+Isl.Dev Bank,2010,Part I unallocated by income,0.00
+Isl.Dev Bank,2010,UMICs,0.00
 Italy,2001,LDCs,0.00
 Italy,2001,LMICs,0.00
-Italy,2001,Other LICs,
+Italy,2001,Other LICs,0.00
+Italy,2001,Part I unallocated by income,0.00
 Italy,2001,UMICs,0.00
-Italy,2002,Global and multi-country,1.16
-Italy,2002,LDCs,6.88
-Italy,2002,LMICs,2.98
-Italy,2002,Other LICs,0.95
-Italy,2002,UMICs,2.94
-Italy,2003,Global and multi-country,1.87
-Italy,2003,LDCs,43.06
-Italy,2003,LMICs,9.88
-Italy,2003,Other LICs,1.51
-Italy,2003,UMICs,6.05
-Italy,2004,Global and multi-country,9.75
-Italy,2004,LDCs,23.10
-Italy,2004,LMICs,15.63
-Italy,2004,Other LICs,1.75
-Italy,2004,UMICs,13.62
-Italy,2005,Global and multi-country,15.74
-Italy,2005,LDCs,31.60
-Italy,2005,LMICs,13.80
-Italy,2005,Other LICs,1.80
-Italy,2005,UMICs,17.17
-Italy,2006,Global and multi-country,1.98
-Italy,2006,LDCs,27.15
-Italy,2006,LMICs,28.48
-Italy,2006,Other LICs,2.21
-Italy,2006,UMICs,26.27
-Italy,2007,Global and multi-country,5.70
-Italy,2007,LDCs,35.44
-Italy,2007,LMICs,51.55
-Italy,2007,Other LICs,6.44
-Italy,2007,UMICs,15.14
-Italy,2008,Global and multi-country,5.27
-Italy,2008,LDCs,41.18
-Italy,2008,LMICs,45.90
-Italy,2008,Other LICs,9.77
-Italy,2008,UMICs,16.70
-Italy,2009,Global and multi-country,7.90
-Italy,2009,LDCs,50.84
-Italy,2009,LMICs,31.02
-Italy,2009,Other LICs,8.83
-Italy,2009,UMICs,3.68
-Italy,2010,Global and multi-country,2.56
-Italy,2010,LDCs,47.10
-Italy,2010,LMICs,21.27
-Italy,2010,Other LICs,7.91
-Italy,2010,UMICs,9.15
-Japan,2000,LDCs,44.33
-Japan,2000,LMICs,153.15
-Japan,2000,Other LICs,32.65
-Japan,2000,UMICs,18.03
-Japan,2001,LDCs,28.66
-Japan,2001,LMICs,130.44
-Japan,2001,Other LICs,20.64
-Japan,2001,UMICs,8.36
-Japan,2002,LDCs,47.02
-Japan,2002,LMICs,62.33
-Japan,2002,Other LICs,26.88
-Japan,2002,UMICs,10.48
-Japan,2003,Global and multi-country,3.92
-Japan,2003,LDCs,88.58
-Japan,2003,LMICs,150.33
-Japan,2003,Other LICs,42.57
-Japan,2003,UMICs,39.75
-Japan,2004,Global and multi-country,12.43
-Japan,2004,LDCs,89.30
-Japan,2004,LMICs,123.96
-Japan,2004,Other LICs,40.45
-Japan,2004,UMICs,26.32
-Japan,2005,Global and multi-country,3.29
-Japan,2005,LDCs,87.77
-Japan,2005,LMICs,118.80
-Japan,2005,Other LICs,71.63
-Japan,2005,UMICs,19.19
-Japan,2006,Global and multi-country,2.39
-Japan,2006,LDCs,126.23
-Japan,2006,LMICs,190.37
-Japan,2006,Other LICs,79.77
-Japan,2006,UMICs,31.23
-Japan,2007,Global and multi-country,4.96
-Japan,2007,LDCs,126.90
-Japan,2007,LMICs,259.28
-Japan,2007,Other LICs,81.25
-Japan,2007,UMICs,18.72
-Japan,2008,Global and multi-country,14.72
-Japan,2008,LDCs,120.86
-Japan,2008,LMICs,178.42
-Japan,2008,Other LICs,55.50
-Japan,2008,UMICs,12.00
-Japan,2009,Global and multi-country,21.24
-Japan,2009,LDCs,169.92
-Japan,2009,LMICs,98.06
-Japan,2009,Other LICs,58.95
-Japan,2009,UMICs,10.11
-Japan,2010,Global and multi-country,17.85
-Japan,2010,LDCs,169.06
-Japan,2010,LMICs,105.52
-Japan,2010,Other LICs,67.84
-Japan,2010,UMICs,14.21
-Republic of Korea,2006,Global and multi-country,1.57
-Republic of Korea,2006,LDCs,4.31
-Republic of Korea,2006,LMICs,22.01
-Republic of Korea,2006,Other LICs,4.29
-Republic of Korea,2006,UMICs,0.90
-Republic of Korea,2007,Global and multi-country,3.04
-Republic of Korea,2007,LDCs,7.16
-Republic of Korea,2007,LMICs,24.72
-Republic of Korea,2007,Other LICs,4.76
-Republic of Korea,2007,UMICs,0.61
-Republic of Korea,2008,Global and multi-country,10.20
-Republic of Korea,2008,LDCs,10.50
-Republic of Korea,2008,LMICs,24.55
-Republic of Korea,2008,Other LICs,11.53
-Republic of Korea,2008,UMICs,1.67
-Republic of Korea,2009,Global and multi-country,11.83
-Republic of Korea,2009,LDCs,24.96
-Republic of Korea,2009,LMICs,35.86
-Republic of Korea,2009,Other LICs,25.41
-Republic of Korea,2009,UMICs,1.74
-Republic of Korea,2010,Global and multi-country,11.15
-Republic of Korea,2010,LDCs,34.05
-Republic of Korea,2010,LMICs,49.93
-Republic of Korea,2010,Other LICs,27.28
-Republic of Korea,2010,UMICs,1.48
-Kuwait,2010,Global and multi-country,0.06
-Kuwait,2010,LDCs,0.08
-Kuwait,2010,LMICs,19.91
-Kuwait,2010,Other LICs,12.97
-Luxembourg,2001,LDCs,
-Luxembourg,2001,LMICs,
-Luxembourg,2001,Other LICs,
-Luxembourg,2002,Global and multi-country,
-Luxembourg,2002,LDCs,
-Luxembourg,2002,LMICs,
-Luxembourg,2002,Other LICs,
-Luxembourg,2002,UMICs,
-Luxembourg,2003,Global and multi-country,
-Luxembourg,2003,LDCs,
-Luxembourg,2003,LMICs,
-Luxembourg,2003,Other LICs,
-Luxembourg,2003,UMICs,
-Luxembourg,2004,Global and multi-country,3.97
-Luxembourg,2004,LDCs,17.93
-Luxembourg,2004,LMICs,8.04
-Luxembourg,2004,Other LICs,8.04
-Luxembourg,2004,UMICs,1.82
-Luxembourg,2005,Global and multi-country,17.11
-Luxembourg,2005,LDCs,13.05
-Luxembourg,2005,LMICs,9.28
-Luxembourg,2005,Other LICs,5.98
-Luxembourg,2005,UMICs,4.20
-Luxembourg,2006,Global and multi-country,1.46
-Luxembourg,2006,LDCs,20.32
-Luxembourg,2006,LMICs,18.86
-Luxembourg,2006,Other LICs,6.03
-Luxembourg,2006,UMICs,4.18
-Luxembourg,2007,Global and multi-country,2.40
-Luxembourg,2007,LDCs,26.70
-Luxembourg,2007,LMICs,19.23
-Luxembourg,2007,Other LICs,7.39
-Luxembourg,2007,UMICs,1.48
-Luxembourg,2008,Global and multi-country,1.16
-Luxembourg,2008,LDCs,26.39
-Luxembourg,2008,LMICs,14.60
-Luxembourg,2008,Other LICs,8.82
-Luxembourg,2008,UMICs,3.78
-Luxembourg,2009,Global and multi-country,0.18
-Luxembourg,2009,LDCs,24.77
-Luxembourg,2009,LMICs,13.61
-Luxembourg,2009,Other LICs,7.59
-Luxembourg,2009,UMICs,0.72
-Luxembourg,2010,Global and multi-country,21.83
-Luxembourg,2010,LDCs,20.39
-Luxembourg,2010,LMICs,14.33
-Luxembourg,2010,Other LICs,3.05
-Luxembourg,2010,UMICs,1.32
-Netherlands,2000,Global and multi-country,
-Netherlands,2000,LDCs,
-Netherlands,2000,LMICs,
-Netherlands,2000,Other LICs,
-Netherlands,2000,UMICs,
-Netherlands,2001,Global and multi-country,6.41
-Netherlands,2001,LDCs,143.32
-Netherlands,2001,LMICs,32.05
-Netherlands,2001,Other LICs,36.76
-Netherlands,2001,UMICs,14.67
-Netherlands,2002,Global and multi-country,37.92
-Netherlands,2002,LDCs,129.35
-Netherlands,2002,LMICs,27.55
-Netherlands,2002,Other LICs,48.80
-Netherlands,2002,UMICs,14.19
-Netherlands,2003,Global and multi-country,149.92
-Netherlands,2003,LDCs,91.42
-Netherlands,2003,LMICs,16.94
-Netherlands,2003,Other LICs,24.23
-Netherlands,2003,UMICs,11.38
-Netherlands,2004,Global and multi-country,143.95
-Netherlands,2004,LDCs,84.28
-Netherlands,2004,LMICs,10.92
-Netherlands,2004,Other LICs,36.90
-Netherlands,2004,UMICs,8.49
-Netherlands,2005,Global and multi-country,109.12
-Netherlands,2005,LDCs,95.62
-Netherlands,2005,LMICs,16.06
-Netherlands,2005,Other LICs,16.89
-Netherlands,2005,UMICs,9.97
-Netherlands,2006,Global and multi-country,129.29
-Netherlands,2006,LDCs,100.31
-Netherlands,2006,LMICs,15.08
-Netherlands,2006,Other LICs,37.93
-Netherlands,2006,UMICs,5.16
-Netherlands,2007,Global and multi-country,127.68
-Netherlands,2007,LDCs,125.71
-Netherlands,2007,LMICs,24.23
-Netherlands,2007,Other LICs,37.63
-Netherlands,2007,UMICs,3.27
-Netherlands,2008,Global and multi-country,168.72
-Netherlands,2008,LDCs,119.45
-Netherlands,2008,LMICs,26.95
-Netherlands,2008,Other LICs,35.33
-Netherlands,2008,UMICs,8.74
-Netherlands,2009,Global and multi-country,195.91
-Netherlands,2009,LDCs,93.51
-Netherlands,2009,LMICs,14.90
-Netherlands,2009,Other LICs,37.69
-Netherlands,2009,UMICs,15.96
-Netherlands,2010,Global and multi-country,160.11
-Netherlands,2010,LDCs,93.80
-Netherlands,2010,LMICs,12.77
-Netherlands,2010,Other LICs,40.41
-Netherlands,2010,UMICs,12.37
-New Zealand,2002,Global and multi-country,0.56
-New Zealand,2002,LDCs,1.89
-New Zealand,2002,LMICs,1.47
-New Zealand,2002,Other LICs,0.96
-New Zealand,2002,UMICs,0.61
-New Zealand,2003,Global and multi-country,3.54
-New Zealand,2003,LDCs,2.01
-New Zealand,2003,LMICs,2.14
-New Zealand,2003,Other LICs,1.32
-New Zealand,2003,UMICs,1.28
-New Zealand,2004,Global and multi-country,2.43
-New Zealand,2004,LDCs,1.88
-New Zealand,2004,LMICs,0.94
-New Zealand,2004,Other LICs,4.78
-New Zealand,2004,UMICs,0.85
-New Zealand,2005,Global and multi-country,5.57
-New Zealand,2005,LDCs,1.86
-New Zealand,2005,LMICs,5.06
-New Zealand,2005,Other LICs,2.72
-New Zealand,2005,UMICs,0.80
-New Zealand,2006,Global and multi-country,6.90
-New Zealand,2006,LDCs,2.42
-New Zealand,2006,LMICs,1.64
-New Zealand,2006,Other LICs,6.98
-New Zealand,2006,UMICs,0.82
-New Zealand,2007,Global and multi-country,5.56
-New Zealand,2007,LDCs,0.69
-New Zealand,2007,LMICs,1.15
-New Zealand,2007,Other LICs,2.94
-New Zealand,2007,UMICs,0.73
-New Zealand,2008,Global and multi-country,7.82
-New Zealand,2008,LDCs,1.69
-New Zealand,2008,LMICs,0.63
-New Zealand,2008,Other LICs,7.01
-New Zealand,2008,UMICs,0.45
-New Zealand,2009,Global and multi-country,9.95
-New Zealand,2009,LDCs,2.88
-New Zealand,2009,LMICs,1.00
-New Zealand,2009,Other LICs,3.42
-New Zealand,2009,UMICs,0.39
-New Zealand,2010,Global and multi-country,7.05
-New Zealand,2010,LDCs,3.14
-New Zealand,2010,LMICs,1.66
-New Zealand,2010,Other LICs,9.89
-New Zealand,2010,UMICs,0.51
-Norway,2000,Global and multi-country,
-Norway,2000,LDCs,
-Norway,2000,LMICs,
-Norway,2000,Other LICs,
-Norway,2000,UMICs,
-Norway,2001,Global and multi-country,13.04
-Norway,2001,LDCs,40.01
-Norway,2001,LMICs,5.42
-Norway,2001,Other LICs,2.71
-Norway,2001,UMICs,4.06
-Norway,2002,Global and multi-country,48.82
-Norway,2002,LDCs,80.62
-Norway,2002,LMICs,13.89
-Norway,2002,Other LICs,4.05
-Norway,2002,UMICs,3.81
-Norway,2003,Global and multi-country,13.86
-Norway,2003,LDCs,84.18
-Norway,2003,LMICs,10.99
-Norway,2003,Other LICs,4.29
-Norway,2003,UMICs,3.25
-Norway,2004,Global and multi-country,33.96
-Norway,2004,LDCs,91.90
-Norway,2004,LMICs,21.31
-Norway,2004,Other LICs,5.50
-Norway,2004,UMICs,5.09
-Norway,2005,Global and multi-country,103.19
-Norway,2005,LDCs,95.70
-Norway,2005,LMICs,27.63
-Norway,2005,Other LICs,5.79
-Norway,2005,UMICs,8.36
-Norway,2006,Global and multi-country,145.81
-Norway,2006,LDCs,77.56
-Norway,2006,LMICs,32.99
-Norway,2006,Other LICs,4.47
-Norway,2006,UMICs,3.63
-Norway,2007,Global and multi-country,91.87
-Norway,2007,LDCs,82.40
-Norway,2007,LMICs,25.78
-Norway,2007,Other LICs,4.33
-Norway,2007,UMICs,4.33
-Norway,2008,Global and multi-country,112.10
-Norway,2008,LDCs,69.68
-Norway,2008,LMICs,24.93
-Norway,2008,Other LICs,9.09
-Norway,2008,UMICs,4.46
-Norway,2009,Global and multi-country,147.78
-Norway,2009,LDCs,69.14
-Norway,2009,LMICs,16.00
-Norway,2009,Other LICs,24.76
-Norway,2009,UMICs,3.21
-Norway,2010,Global and multi-country,79.39
-Norway,2010,LDCs,57.28
-Norway,2010,LMICs,20.74
-Norway,2010,Other LICs,23.37
-Norway,2010,UMICs,1.97
-OFID,2009,Global and multi-country,
-OFID,2009,LDCs,4.65
-OFID,2009,LMICs,9.13
-OFID,2009,Other LICs,3.72
-OFID,2009,UMICs,0.40
-OFID,2010,Global and multi-country,7.63
-OFID,2010,LDCs,3.17
-OFID,2010,LMICs,9.89
-OFID,2010,Other LICs,2.23
-OFID,2010,UMICs,0.88
-Portugal,2000,Global and multi-country,
-Portugal,2000,LDCs,0.34
-Portugal,2000,LMICs,
-Portugal,2000,UMICs,
-Portugal,2001,Global and multi-country,0.05
-Portugal,2001,LDCs,12.80
-Portugal,2001,LMICs,1.75
+Italy,2002,LDCs,6.49
+Italy,2002,LMICs,1.57
+Italy,2002,Other LICs,0.69
+Italy,2002,Part I unallocated by income,1.10
+Italy,2002,UMICs,4.23
+Italy,2003,LDCs,40.67
+Italy,2003,LMICs,5.45
+Italy,2003,Other LICs,1.35
+Italy,2003,Part I unallocated by income,1.77
+Italy,2003,UMICs,9.67
+Italy,2004,LDCs,21.87
+Italy,2004,LMICs,10.98
+Italy,2004,Other LICs,1.59
+Italy,2004,Part I unallocated by income,9.23
+Italy,2004,UMICs,16.79
+Italy,2005,LDCs,29.99
+Italy,2005,LMICs,9.45
+Italy,2005,Other LICs,1.64
+Italy,2005,Part I unallocated by income,14.94
+Italy,2005,UMICs,20.00
+Italy,2006,LDCs,25.79
+Italy,2006,LMICs,6.68
+Italy,2006,Other LICs,1.76
+Italy,2006,Part I unallocated by income,1.88
+Italy,2006,UMICs,45.68
+Italy,2007,LDCs,33.74
+Italy,2007,LMICs,16.07
+Italy,2007,Other LICs,4.53
+Italy,2007,Part I unallocated by income,5.43
+Italy,2007,UMICs,48.93
+Italy,2008,LDCs,39.29
+Italy,2008,LMICs,41.39
+Italy,2008,Other LICs,3.83
+Italy,2008,Part I unallocated by income,5.03
+Italy,2008,UMICs,23.83
+Italy,2009,LDCs,48.54
+Italy,2009,LMICs,25.19
+Italy,2009,Other LICs,3.11
+Italy,2009,Part I unallocated by income,7.54
+Italy,2009,UMICs,13.23
+Italy,2010,LDCs,45.11
+Italy,2010,LMICs,15.25
+Italy,2010,Other LICs,5.78
+Italy,2010,Part I unallocated by income,2.45
+Italy,2010,UMICs,15.69
+Italy,2011,LDCs,57.48
+Italy,2011,LMICs,23.53
+Italy,2011,Other LICs,5.18
+Italy,2011,Part I unallocated by income,1.72
+Italy,2011,UMICs,17.26
+Japan,2001,LDCs,29.93
+Japan,2001,LMICs,110.24
+Japan,2001,Other LICs,4.12
+Japan,2001,UMICs,52.11
+Japan,2002,LDCs,49.10
+Japan,2002,LMICs,65.00
+Japan,2002,Other LICs,6.35
+Japan,2002,UMICs,32.75
+Japan,2003,LDCs,92.40
+Japan,2003,LMICs,143.83
+Japan,2003,Other LICs,17.34
+Japan,2003,Part I unallocated by income,4.09
+Japan,2003,UMICs,81.82
+Japan,2004,LDCs,93.22
+Japan,2004,LMICs,127.67
+Japan,2004,Other LICs,8.21
+Japan,2004,Part I unallocated by income,12.98
+Japan,2004,UMICs,63.25
+Japan,2005,LDCs,91.63
+Japan,2005,LMICs,134.76
+Japan,2005,Other LICs,25.74
+Japan,2005,Part I unallocated by income,3.44
+Japan,2005,UMICs,58.37
+Japan,2006,LDCs,131.71
+Japan,2006,LMICs,166.10
+Japan,2006,Other LICs,12.58
+Japan,2006,Part I unallocated by income,2.49
+Japan,2006,UMICs,136.09
+Japan,2007,LDCs,132.45
+Japan,2007,LMICs,240.15
+Japan,2007,Other LICs,11.21
+Japan,2007,Part I unallocated by income,5.17
+Japan,2007,UMICs,123.82
+Japan,2008,LDCs,126.40
+Japan,2008,LMICs,165.04
+Japan,2008,Other LICs,10.29
+Japan,2008,Part I unallocated by income,15.40
+Japan,2008,UMICs,82.05
+Japan,2009,LDCs,176.79
+Japan,2009,LMICs,98.09
+Japan,2009,Other LICs,20.68
+Japan,2009,Part I unallocated by income,22.10
+Japan,2009,UMICs,55.17
+Japan,2010,LDCs,176.43
+Japan,2010,LMICs,114.22
+Japan,2010,Other LICs,34.07
+Japan,2010,Part I unallocated by income,18.65
+Japan,2010,UMICs,47.63
+Japan,2011,LDCs,183.86
+Japan,2011,LMICs,141.06
+Japan,2011,Other LICs,18.74
+Japan,2011,Part I unallocated by income,20.96
+Japan,2011,UMICs,39.61
+Kuwait (KFAED),2010,LDCs,0.00
+Kuwait (KFAED),2010,LMICs,14.15
+Kuwait (KFAED),2010,Part I unallocated by income,0.06
+Kuwait (KFAED),2010,UMICs,19.11
+Kuwait (KFAED),2011,LDCs,0.65
+Kuwait (KFAED),2011,LMICs,8.13
+Kuwait (KFAED),2011,Part I unallocated by income,0.05
+Kuwait (KFAED),2011,UMICs,18.07
+Luxembourg,2001,LDCs,0.00
+Luxembourg,2001,LMICs,0.00
+Luxembourg,2001,UMICs,0.00
+Luxembourg,2002,LDCs,0.00
+Luxembourg,2002,LMICs,0.00
+Luxembourg,2002,Part I unallocated by income,0.00
+Luxembourg,2002,UMICs,0.00
+Luxembourg,2003,LDCs,0.00
+Luxembourg,2003,LMICs,0.00
+Luxembourg,2003,Part I unallocated by income,0.00
+Luxembourg,2003,UMICs,0.00
+Luxembourg,2004,LDCs,18.00
+Luxembourg,2004,LMICs,14.63
+Luxembourg,2004,Part I unallocated by income,3.98
+Luxembourg,2004,UMICs,3.34
+Luxembourg,2005,LDCs,13.10
+Luxembourg,2005,LMICs,14.57
+Luxembourg,2005,Part I unallocated by income,17.17
+Luxembourg,2005,UMICs,4.96
+Luxembourg,2006,LDCs,20.39
+Luxembourg,2006,LMICs,22.85
+Luxembourg,2006,Other LICs,0.16
+Luxembourg,2006,Part I unallocated by income,1.47
+Luxembourg,2006,UMICs,6.18
+Luxembourg,2007,LDCs,26.81
+Luxembourg,2007,LMICs,22.43
+Luxembourg,2007,Other LICs,1.26
+Luxembourg,2007,Part I unallocated by income,2.40
+Luxembourg,2007,UMICs,4.52
+Luxembourg,2008,LDCs,26.45
+Luxembourg,2008,LMICs,18.59
+Luxembourg,2008,Other LICs,1.80
+Luxembourg,2008,Part I unallocated by income,1.16
+Luxembourg,2008,UMICs,6.87
+Luxembourg,2009,LDCs,24.71
+Luxembourg,2009,LMICs,16.29
+Luxembourg,2009,Other LICs,2.34
+Luxembourg,2009,Part I unallocated by income,0.18
+Luxembourg,2009,UMICs,3.23
+Luxembourg,2010,LDCs,19.69
+Luxembourg,2010,LMICs,15.25
+Luxembourg,2010,Other LICs,0.19
+Luxembourg,2010,Part I unallocated by income,20.00
+Luxembourg,2010,UMICs,2.62
+Luxembourg,2011,LDCs,17.70
+Luxembourg,2011,LMICs,11.55
+Luxembourg,2011,Other LICs,0.27
+Luxembourg,2011,Part I unallocated by income,6.48
+Luxembourg,2011,UMICs,1.70
+Netherlands,2001,LDCs,137.45
+Netherlands,2001,LMICs,50.02
+Netherlands,2001,Other LICs,8.57
+Netherlands,2001,Part I unallocated by income,6.15
+Netherlands,2001,UMICs,21.32
+Netherlands,2002,LDCs,124.05
+Netherlands,2002,LMICs,62.76
+Netherlands,2002,Other LICs,5.44
+Netherlands,2002,Part I unallocated by income,36.37
+Netherlands,2002,UMICs,18.62
+Netherlands,2003,LDCs,87.67
+Netherlands,2003,LMICs,38.15
+Netherlands,2003,Other LICs,0.37
+Netherlands,2003,Part I unallocated by income,143.78
+Netherlands,2003,UMICs,11.72
+Netherlands,2004,LDCs,80.83
+Netherlands,2004,LMICs,45.48
+Netherlands,2004,Other LICs,0.21
+Netherlands,2004,Part I unallocated by income,138.05
+Netherlands,2004,UMICs,8.06
+Netherlands,2005,LDCs,91.69
+Netherlands,2005,LMICs,31.01
+Netherlands,2005,Other LICs,0.00
+Netherlands,2005,Part I unallocated by income,104.64
+Netherlands,2005,UMICs,10.14
+Netherlands,2006,LDCs,96.19
+Netherlands,2006,LMICs,50.10
+Netherlands,2006,Other LICs,0.28
+Netherlands,2006,Part I unallocated by income,123.98
+Netherlands,2006,UMICs,5.40
+Netherlands,2007,LDCs,120.54
+Netherlands,2007,LMICs,46.29
+Netherlands,2007,Other LICs,0.22
+Netherlands,2007,Part I unallocated by income,122.44
+Netherlands,2007,UMICs,15.95
+Netherlands,2008,LDCs,114.82
+Netherlands,2008,LMICs,48.64
+Netherlands,2008,Other LICs,0.14
+Netherlands,2008,Part I unallocated by income,162.17
+Netherlands,2008,UMICs,19.47
+Netherlands,2009,LDCs,90.11
+Netherlands,2009,LMICs,50.04
+Netherlands,2009,Other LICs,0.02
+Netherlands,2009,Part I unallocated by income,188.76
+Netherlands,2009,UMICs,15.99
+Netherlands,2010,LDCs,90.66
+Netherlands,2010,LMICs,51.00
+Netherlands,2010,Other LICs,0.08
+Netherlands,2010,Part I unallocated by income,154.75
+Netherlands,2010,UMICs,12.28
+Netherlands,2011,LDCs,94.56
+Netherlands,2011,LMICs,57.06
+Netherlands,2011,Other LICs,14.70
+Netherlands,2011,Part I unallocated by income,118.22
+Netherlands,2011,UMICs,6.45
+New Zealand,2002,LDCs,2.22
+New Zealand,2002,LMICs,1.95
+New Zealand,2002,Other LICs,0.20
+New Zealand,2002,Part I unallocated by income,0.66
+New Zealand,2002,UMICs,1.42
+New Zealand,2003,LDCs,2.36
+New Zealand,2003,LMICs,3.49
+New Zealand,2003,Other LICs,0.12
+New Zealand,2003,Part I unallocated by income,4.16
+New Zealand,2003,UMICs,1.96
+New Zealand,2004,LDCs,2.22
+New Zealand,2004,LMICs,5.43
+New Zealand,2004,Other LICs,1.12
+New Zealand,2004,Part I unallocated by income,2.86
+New Zealand,2004,UMICs,1.17
+New Zealand,2005,LDCs,2.19
+New Zealand,2005,LMICs,4.82
+New Zealand,2005,Other LICs,0.62
+New Zealand,2005,Part I unallocated by income,6.55
+New Zealand,2005,UMICs,4.66
+New Zealand,2006,LDCs,2.84
+New Zealand,2006,LMICs,9.42
+New Zealand,2006,Other LICs,0.30
+New Zealand,2006,Part I unallocated by income,8.11
+New Zealand,2006,UMICs,1.37
+New Zealand,2007,LDCs,0.81
+New Zealand,2007,LMICs,4.71
+New Zealand,2007,Other LICs,0.16
+New Zealand,2007,Part I unallocated by income,6.54
+New Zealand,2007,UMICs,0.80
+New Zealand,2008,LDCs,1.98
+New Zealand,2008,LMICs,7.50
+New Zealand,2008,Other LICs,1.16
+New Zealand,2008,Part I unallocated by income,9.16
+New Zealand,2008,UMICs,0.81
+New Zealand,2009,LDCs,3.40
+New Zealand,2009,LMICs,5.19
+New Zealand,2009,Part I unallocated by income,11.76
+New Zealand,2009,UMICs,0.50
+New Zealand,2010,LDCs,3.73
+New Zealand,2010,LMICs,12.16
+New Zealand,2010,Other LICs,1.06
+New Zealand,2010,Part I unallocated by income,8.36
+New Zealand,2010,UMICs,1.08
+New Zealand,2011,LDCs,4.20
+New Zealand,2011,LMICs,9.66
+New Zealand,2011,Other LICs,0.47
+New Zealand,2011,Part I unallocated by income,9.19
+New Zealand,2011,UMICs,0.33
+Norway,2001,LDCs,43.56
+Norway,2001,LMICs,5.78
+Norway,2001,Other LICs,2.19
+Norway,2001,Part I unallocated by income,14.20
+Norway,2001,UMICs,5.30
+Norway,2002,LDCs,87.77
+Norway,2002,LMICs,11.92
+Norway,2002,Other LICs,3.13
+Norway,2002,Part I unallocated by income,53.15
+Norway,2002,UMICs,8.49
+Norway,2003,LDCs,91.64
+Norway,2003,LMICs,9.57
+Norway,2003,Other LICs,3.59
+Norway,2003,Part I unallocated by income,15.09
+Norway,2003,UMICs,7.01
+Norway,2004,LDCs,99.87
+Norway,2004,LMICs,17.97
+Norway,2004,Other LICs,4.01
+Norway,2004,Part I unallocated by income,36.97
+Norway,2004,UMICs,12.93
+Norway,2005,LDCs,104.00
+Norway,2005,LMICs,23.77
+Norway,2005,Other LICs,5.21
+Norway,2005,Part I unallocated by income,112.34
+Norway,2005,UMICs,15.46
+Norway,2006,LDCs,84.43
+Norway,2006,LMICs,28.34
+Norway,2006,Other LICs,4.24
+Norway,2006,Part I unallocated by income,158.73
+Norway,2006,UMICs,11.82
+Norway,2007,LDCs,89.70
+Norway,2007,LMICs,24.31
+Norway,2007,Other LICs,4.05
+Norway,2007,Part I unallocated by income,100.01
+Norway,2007,UMICs,8.76
+Norway,2008,LDCs,76.01
+Norway,2008,LMICs,31.21
+Norway,2008,Other LICs,2.25
+Norway,2008,Part I unallocated by income,122.29
+Norway,2008,UMICs,8.52
+Norway,2009,LDCs,76.64
+Norway,2009,LMICs,36.07
+Norway,2009,Other LICs,6.53
+Norway,2009,Part I unallocated by income,163.82
+Norway,2009,UMICs,6.14
+Norway,2010,LDCs,62.00
+Norway,2010,LMICs,42.06
+Norway,2010,Other LICs,3.34
+Norway,2010,Part I unallocated by income,85.93
+Norway,2010,UMICs,4.48
+Norway,2011,LDCs,59.95
+Norway,2011,LMICs,27.95
+Norway,2011,Other LICs,5.42
+Norway,2011,Part I unallocated by income,87.95
+Norway,2011,UMICs,3.26
+OFID,2009,LDCs,4.69
+OFID,2009,LMICs,6.94
+OFID,2009,Part I unallocated by income,0.00
+OFID,2009,UMICs,6.43
+OFID,2010,LDCs,3.20
+OFID,2010,LMICs,5.95
+OFID,2010,Other LICs,0.95
+OFID,2010,Part I unallocated by income,7.70
+OFID,2010,UMICs,6.23
+OFID,2011,LDCs,7.16
+OFID,2011,LMICs,8.04
+OFID,2011,Other LICs,2.65
+OFID,2011,Part I unallocated by income,10.64
+OFID,2011,UMICs,0.51
+Portugal,2001,LDCs,12.34
+Portugal,2001,LMICs,1.69
+Portugal,2001,Part I unallocated by income,0.05
 Portugal,2001,UMICs,0.02
-Portugal,2002,Global and multi-country,0.04
-Portugal,2002,LDCs,10.65
-Portugal,2002,LMICs,2.23
-Portugal,2003,LDCs,7.76
-Portugal,2003,LMICs,3.49
-Portugal,2004,Global and multi-country,0.20
-Portugal,2004,LDCs,9.12
-Portugal,2004,LMICs,2.93
-Portugal,2005,LDCs,8.22
-Portugal,2005,LMICs,3.97
-Portugal,2006,Global and multi-country,0.26
-Portugal,2006,LDCs,9.14
-Portugal,2006,LMICs,2.71
-Portugal,2007,Global and multi-country,0.48
-Portugal,2007,LDCs,8.89
-Portugal,2007,LMICs,2.23
-Portugal,2008,Global and multi-country,0.27
-Portugal,2008,LDCs,4.64
-Portugal,2008,LMICs,2.62
-Portugal,2008,UMICs,0.42
-Portugal,2009,Global and multi-country,0.11
-Portugal,2009,LDCs,5.84
-Portugal,2009,LMICs,3.21
-Portugal,2009,Other LICs,0.07
-Portugal,2009,UMICs,0.09
-Portugal,2010,Global and multi-country,0.47
-Portugal,2010,LDCs,7.01
-Portugal,2010,LMICs,5.35
+Portugal,2002,LDCs,10.26
+Portugal,2002,LMICs,2.15
+Portugal,2002,Part I unallocated by income,0.04
+Portugal,2003,LDCs,7.48
+Portugal,2003,LMICs,3.37
+Portugal,2004,LDCs,8.79
+Portugal,2004,LMICs,2.83
+Portugal,2004,Part I unallocated by income,0.19
+Portugal,2005,LDCs,7.92
+Portugal,2005,LMICs,3.83
+Portugal,2006,LDCs,8.81
+Portugal,2006,LMICs,2.61
+Portugal,2006,Part I unallocated by income,0.25
+Portugal,2007,LDCs,8.54
+Portugal,2007,LMICs,2.14
+Portugal,2007,Part I unallocated by income,0.46
+Portugal,2008,LDCs,4.47
+Portugal,2008,LMICs,2.53
+Portugal,2008,Part I unallocated by income,0.26
+Portugal,2008,UMICs,0.41
+Portugal,2009,LDCs,5.61
+Portugal,2009,LMICs,3.09
+Portugal,2009,Other LICs,0.06
+Portugal,2009,Part I unallocated by income,0.11
+Portugal,2009,UMICs,0.08
+Portugal,2010,LDCs,6.74
+Portugal,2010,LMICs,5.15
+Portugal,2010,Part I unallocated by income,0.45
 Portugal,2010,UMICs,0.05
-Spain,2000,Global and multi-country,4.43
-Spain,2000,LDCs,25.39
-Spain,2000,LMICs,145.17
-Spain,2000,Other LICs,7.76
-Spain,2000,UMICs,34.63
-Spain,2001,Global and multi-country,6.72
-Spain,2001,LDCs,39.70
-Spain,2001,LMICs,103.83
-Spain,2001,Other LICs,18.87
-Spain,2001,UMICs,12.83
-Spain,2002,Global and multi-country,11.45
-Spain,2002,LDCs,30.62
-Spain,2002,LMICs,53.17
-Spain,2002,Other LICs,4.36
-Spain,2002,UMICs,14.03
-Spain,2003,Global and multi-country,5.84
-Spain,2003,LDCs,44.22
-Spain,2003,LMICs,59.96
-Spain,2003,Other LICs,8.14
-Spain,2003,UMICs,15.85
-Spain,2004,Global and multi-country,8.75
-Spain,2004,LDCs,47.14
-Spain,2004,LMICs,70.34
-Spain,2004,Other LICs,15.67
-Spain,2004,UMICs,7.77
-Spain,2005,Global and multi-country,23.28
-Spain,2005,LDCs,54.73
-Spain,2005,LMICs,78.38
-Spain,2005,Other LICs,16.80
-Spain,2005,UMICs,7.72
-Spain,2006,Global and multi-country,32.08
-Spain,2006,LDCs,58.04
-Spain,2006,LMICs,67.72
-Spain,2006,Other LICs,7.87
-Spain,2006,UMICs,6.76
-Spain,2007,Global and multi-country,73.06
-Spain,2007,LDCs,62.51
-Spain,2007,LMICs,75.60
-Spain,2007,Other LICs,20.09
-Spain,2007,UMICs,15.86
-Spain,2008,Global and multi-country,110.33
-Spain,2008,LDCs,109.51
-Spain,2008,LMICs,105.40
-Spain,2008,Other LICs,18.46
-Spain,2008,UMICs,40.62
-Spain,2009,Global and multi-country,95.00
-Spain,2009,LDCs,99.24
-Spain,2009,LMICs,103.36
-Spain,2009,Other LICs,11.65
-Spain,2009,UMICs,26.80
-Spain,2010,Global and multi-country,67.72
-Spain,2010,LDCs,75.94
-Spain,2010,LMICs,81.95
-Spain,2010,Other LICs,5.18
-Spain,2010,UMICs,30.84
-Sweden,2000,Global and multi-country,24.68
-Sweden,2000,LDCs,16.02
-Sweden,2000,LMICs,20.96
-Sweden,2000,Other LICs,9.32
-Sweden,2000,UMICs,1.38
-Sweden,2001,Global and multi-country,52.39
-Sweden,2001,LDCs,37.43
-Sweden,2001,LMICs,22.69
-Sweden,2001,Other LICs,12.12
-Sweden,2001,UMICs,2.00
-Sweden,2002,Global and multi-country,39.61
-Sweden,2002,LDCs,35.78
-Sweden,2002,LMICs,19.05
-Sweden,2002,Other LICs,9.28
-Sweden,2002,UMICs,1.50
-Sweden,2003,Global and multi-country,45.35
-Sweden,2003,LDCs,39.78
-Sweden,2003,LMICs,18.20
-Sweden,2003,Other LICs,9.69
-Sweden,2003,UMICs,1.89
-Sweden,2004,Global and multi-country,74.79
-Sweden,2004,LDCs,52.71
-Sweden,2004,LMICs,17.70
-Sweden,2004,Other LICs,12.56
-Sweden,2004,UMICs,3.02
-Sweden,2005,Global and multi-country,108.28
-Sweden,2005,LDCs,55.60
-Sweden,2005,LMICs,19.43
-Sweden,2005,Other LICs,18.14
-Sweden,2005,UMICs,4.96
-Sweden,2006,Global and multi-country,107.38
-Sweden,2006,LDCs,96.87
-Sweden,2006,LMICs,30.82
-Sweden,2006,Other LICs,19.90
-Sweden,2006,UMICs,6.51
-Sweden,2007,Global and multi-country,116.52
-Sweden,2007,LDCs,98.00
-Sweden,2007,LMICs,25.34
-Sweden,2007,Other LICs,17.15
-Sweden,2007,UMICs,9.11
-Sweden,2008,Global and multi-country,91.72
-Sweden,2008,LDCs,83.76
-Sweden,2008,LMICs,22.54
-Sweden,2008,Other LICs,18.09
-Sweden,2008,UMICs,7.42
-Sweden,2009,Global and multi-country,110.03
-Sweden,2009,LDCs,64.01
-Sweden,2009,LMICs,18.56
-Sweden,2009,Other LICs,12.30
-Sweden,2009,UMICs,7.56
-Sweden,2010,Global and multi-country,107.35
-Sweden,2010,LDCs,51.61
-Sweden,2010,LMICs,6.66
-Sweden,2010,Other LICs,9.34
-Sweden,2010,UMICs,7.63
-Switzerland,2000,Global and multi-country,
-Switzerland,2000,LDCs,
-Switzerland,2000,LMICs,
-Switzerland,2000,UMICs,
-Switzerland,2001,Global and multi-country,
-Switzerland,2001,LDCs,
-Switzerland,2001,LMICs,
-Switzerland,2001,Other LICs,
-Switzerland,2001,UMICs,
-Switzerland,2002,Global and multi-country,14.26
-Switzerland,2002,LDCs,28.95
-Switzerland,2002,LMICs,6.37
-Switzerland,2002,Other LICs,1.32
-Switzerland,2002,UMICs,1.42
-Switzerland,2003,Global and multi-country,9.98
-Switzerland,2003,LDCs,29.19
-Switzerland,2003,LMICs,9.03
-Switzerland,2003,Other LICs,3.28
-Switzerland,2003,UMICs,0.49
-Switzerland,2004,Global and multi-country,9.50
-Switzerland,2004,LDCs,30.66
-Switzerland,2004,LMICs,7.57
-Switzerland,2004,Other LICs,4.04
-Switzerland,2004,UMICs,0.49
-Switzerland,2005,Global and multi-country,7.72
-Switzerland,2005,LDCs,31.28
-Switzerland,2005,LMICs,14.25
-Switzerland,2005,Other LICs,3.21
-Switzerland,2005,UMICs,0.90
-Switzerland,2006,Global and multi-country,6.29
-Switzerland,2006,LDCs,28.38
-Switzerland,2006,LMICs,11.03
-Switzerland,2006,Other LICs,6.88
-Switzerland,2006,UMICs,0.42
-Switzerland,2007,Global and multi-country,5.82
-Switzerland,2007,LDCs,25.06
-Switzerland,2007,LMICs,12.65
-Switzerland,2007,Other LICs,5.73
-Switzerland,2007,UMICs,0.49
-Switzerland,2008,Global and multi-country,11.32
-Switzerland,2008,LDCs,27.31
-Switzerland,2008,LMICs,13.01
-Switzerland,2008,Other LICs,6.00
-Switzerland,2008,UMICs,0.08
-Switzerland,2009,Global and multi-country,12.58
-Switzerland,2009,LDCs,33.37
-Switzerland,2009,LMICs,14.12
-Switzerland,2009,Other LICs,5.51
-Switzerland,2009,UMICs,0.25
-Switzerland,2010,Global and multi-country,9.07
-Switzerland,2010,LDCs,26.92
-Switzerland,2010,LMICs,13.53
-Switzerland,2010,Other LICs,5.64
-Switzerland,2010,UMICs,0.05
-UNAIDS,2001,Global and multi-country,88.99
-UNAIDS,2001,LDCs,20.31
-UNAIDS,2001,LMICs,8.13
-UNAIDS,2001,Other LICs,6.57
-UNAIDS,2001,UMICs,5.83
-UNAIDS,2002,Global and multi-country,66.71
-UNAIDS,2002,LDCs,9.18
-UNAIDS,2002,LMICs,8.74
-UNAIDS,2002,Other LICs,2.53
-UNAIDS,2002,UMICs,5.31
-UNAIDS,2003,Global and multi-country,128.05
-UNAIDS,2003,LDCs,13.77
-UNAIDS,2003,LMICs,9.43
-UNAIDS,2003,Other LICs,3.81
-UNAIDS,2003,UMICs,6.71
-UNAIDS,2004,Global and multi-country,151.67
-UNAIDS,2004,LDCs,1.66
-UNAIDS,2004,LMICs,1.45
-UNAIDS,2004,Other LICs,1.01
-UNAIDS,2004,UMICs,2.63
-UNAIDS,2005,Global and multi-country,102.91
-UNAIDS,2005,LDCs,15.09
-UNAIDS,2005,LMICs,10.74
-UNAIDS,2005,Other LICs,4.35
-UNAIDS,2005,UMICs,5.94
-UNAIDS,2006,Global and multi-country,161.82
-UNAIDS,2006,LDCs,13.68
-UNAIDS,2006,LMICs,10.57
-UNAIDS,2006,Other LICs,4.98
-UNAIDS,2006,UMICs,8.33
-UNAIDS,2007,Global and multi-country,59.81
-UNAIDS,2007,LDCs,30.24
-UNAIDS,2007,LMICs,20.32
-UNAIDS,2007,Other LICs,8.66
-UNAIDS,2007,UMICs,16.73
-UNAIDS,2008,Global and multi-country,96.78
-UNAIDS,2008,LDCs,17.59
-UNAIDS,2008,LMICs,11.92
-UNAIDS,2008,Other LICs,5.47
-UNAIDS,2008,UMICs,5.96
-UNAIDS,2009,Global and multi-country,128.25
-UNAIDS,2009,LDCs,20.41
-UNAIDS,2009,LMICs,13.31
-UNAIDS,2009,Other LICs,7.42
-UNAIDS,2009,UMICs,6.29
-UNAIDS,2010,Global and multi-country,111.98
-UNAIDS,2010,LDCs,20.48
-UNAIDS,2010,LMICs,14.62
-UNAIDS,2010,Other LICs,7.64
-UNAIDS,2010,UMICs,7.73
-UNDP,2004,Global and multi-country,0.03
-UNDP,2004,LDCs,11.78
-UNDP,2004,LMICs,3.40
-UNDP,2004,Other LICs,1.91
-UNDP,2004,UMICs,1.10
-UNDP,2005,Global and multi-country,0.16
-UNDP,2005,LDCs,15.56
-UNDP,2005,LMICs,1.57
-UNDP,2005,Other LICs,2.31
-UNDP,2005,UMICs,1.07
-UNDP,2006,Global and multi-country,0.16
-UNDP,2006,LDCs,17.46
-UNDP,2006,LMICs,1.21
-UNDP,2006,Other LICs,3.71
-UNDP,2006,UMICs,0.86
-UNDP,2007,LDCs,10.42
-UNDP,2007,LMICs,1.43
-UNDP,2007,Other LICs,2.69
-UNDP,2007,UMICs,0.45
-UNDP,2008,LDCs,11.05
-UNDP,2008,LMICs,1.98
-UNDP,2008,Other LICs,1.72
-UNDP,2008,UMICs,0.05
-UNDP,2009,Global and multi-country,1.51
-UNDP,2009,LDCs,20.16
-UNDP,2009,LMICs,2.35
-UNDP,2009,Other LICs,5.06
-UNDP,2009,UMICs,0.30
-UNDP,2010,Global and multi-country,2.74
-UNDP,2010,LDCs,14.79
-UNDP,2010,LMICs,1.09
-UNDP,2010,Other LICs,2.72
-UNDP,2010,UMICs,0.27
-UNECE,2008,Global and multi-country,0.31
-UNECE,2009,Global and multi-country,0.18
-UNECE,2010,Global and multi-country,0.10
-UNFPA,2001,Global and multi-country,70.19
-UNFPA,2001,LDCs,101.89
-UNFPA,2001,LMICs,85.10
-UNFPA,2001,Other LICs,34.91
-UNFPA,2001,UMICs,12.21
-UNFPA,2002,Global and multi-country,79.79
-UNFPA,2002,LDCs,120.74
-UNFPA,2002,LMICs,118.26
-UNFPA,2002,Other LICs,38.97
-UNFPA,2002,UMICs,18.67
-UNFPA,2003,Global and multi-country,129.77
-UNFPA,2003,LDCs,162.05
-UNFPA,2003,LMICs,97.48
-UNFPA,2003,Other LICs,53.40
-UNFPA,2003,UMICs,17.65
-UNFPA,2004,Global and multi-country,13.67
-UNFPA,2004,LDCs,101.86
-UNFPA,2004,LMICs,68.14
-UNFPA,2004,Other LICs,31.31
-UNFPA,2004,UMICs,13.76
-UNFPA,2005,Global and multi-country,13.42
-UNFPA,2005,LDCs,97.85
-UNFPA,2005,LMICs,68.40
-UNFPA,2005,Other LICs,37.15
-UNFPA,2005,UMICs,14.64
-UNFPA,2006,Global and multi-country,14.67
-UNFPA,2006,LDCs,101.39
-UNFPA,2006,LMICs,72.15
-UNFPA,2006,Other LICs,32.21
-UNFPA,2006,UMICs,15.87
-UNFPA,2007,Global and multi-country,1.75
-UNFPA,2007,LDCs,105.34
-UNFPA,2007,LMICs,65.41
-UNFPA,2007,Other LICs,33.72
-UNFPA,2007,UMICs,16.33
-UNFPA,2008,Global and multi-country,2.36
-UNFPA,2008,LDCs,136.35
-UNFPA,2008,LMICs,67.93
-UNFPA,2008,Other LICs,43.56
-UNFPA,2008,UMICs,17.40
-UNFPA,2009,Global and multi-country,80.04
-UNFPA,2009,LDCs,136.11
-UNFPA,2009,LMICs,76.13
-UNFPA,2009,Other LICs,40.20
-UNFPA,2009,UMICs,16.03
-UNFPA,2010,Global and multi-country,265.49
-UNFPA,2010,LDCs,277.78
-UNFPA,2010,LMICs,145.57
-UNFPA,2010,Other LICs,85.79
-UNFPA,2010,UMICs,32.57
-UNICEF,2000,Global and multi-country,0.33
-UNICEF,2000,LDCs,94.66
-UNICEF,2000,LMICs,54.65
-UNICEF,2000,Other LICs,33.66
-UNICEF,2000,UMICs,5.84
-UNICEF,2001,Global and multi-country,12.55
-UNICEF,2001,LDCs,109.39
-UNICEF,2001,LMICs,42.84
-UNICEF,2001,Other LICs,37.53
-UNICEF,2001,UMICs,7.63
-UNICEF,2002,Global and multi-country,9.22
-UNICEF,2002,LDCs,94.99
-UNICEF,2002,LMICs,42.46
-UNICEF,2002,Other LICs,30.76
-UNICEF,2002,UMICs,5.33
-UNICEF,2003,Global and multi-country,7.81
-UNICEF,2003,LDCs,91.11
-UNICEF,2003,LMICs,35.89
-UNICEF,2003,Other LICs,29.72
-UNICEF,2003,UMICs,5.47
-UNICEF,2004,Global and multi-country,6.95
-UNICEF,2004,LDCs,86.66
-UNICEF,2004,LMICs,37.16
-UNICEF,2004,Other LICs,32.73
-UNICEF,2004,UMICs,4.38
-UNICEF,2005,Global and multi-country,10.57
-UNICEF,2005,LDCs,106.18
-UNICEF,2005,LMICs,42.65
-UNICEF,2005,Other LICs,34.83
-UNICEF,2005,UMICs,5.65
-UNICEF,2006,Global and multi-country,1.41
-UNICEF,2006,LDCs,90.13
-UNICEF,2006,LMICs,32.99
-UNICEF,2006,Other LICs,27.15
-UNICEF,2006,UMICs,3.04
-UNICEF,2007,Global and multi-country,2.32
-UNICEF,2007,LDCs,100.81
-UNICEF,2007,LMICs,21.31
-UNICEF,2007,Other LICs,20.83
-UNICEF,2007,UMICs,2.33
-UNICEF,2008,Global and multi-country,1.13
-UNICEF,2008,LDCs,85.97
-UNICEF,2008,LMICs,15.09
-UNICEF,2008,Other LICs,25.78
-UNICEF,2008,UMICs,2.16
-UNICEF,2009,Global and multi-country,2.20
-UNICEF,2009,LDCs,112.25
-UNICEF,2009,LMICs,20.27
-UNICEF,2009,Other LICs,44.41
-UNICEF,2009,UMICs,4.46
-UNICEF,2010,Global and multi-country,2.15
-UNICEF,2010,LDCs,120.40
-UNICEF,2010,LMICs,20.33
-UNICEF,2010,Other LICs,37.47
-UNICEF,2010,UMICs,1.73
-United Arab Emirates,2009,Global and multi-country,2.18
-United Arab Emirates,2009,LDCs,10.16
-United Arab Emirates,2009,LMICs,9.63
-United Arab Emirates,2009,Other LICs,58.86
-United Arab Emirates,2009,UMICs,21.89
-United Arab Emirates,2010,Global and multi-country,13.51
-United Arab Emirates,2010,LDCs,6.31
-United Arab Emirates,2010,LMICs,7.76
-United Arab Emirates,2010,Other LICs,0.96
-United Arab Emirates,2010,UMICs,12.31
-United Kingdom,2000,Global and multi-country,25.87
-United Kingdom,2000,LDCs,78.12
-United Kingdom,2000,LMICs,79.64
-United Kingdom,2000,Other LICs,45.17
-United Kingdom,2000,UMICs,13.20
-United Kingdom,2001,Global and multi-country,52.75
-United Kingdom,2001,LDCs,114.16
-United Kingdom,2001,LMICs,45.49
-United Kingdom,2001,Other LICs,47.52
-United Kingdom,2001,UMICs,20.33
-United Kingdom,2002,Global and multi-country,164.81
-United Kingdom,2002,LDCs,133.59
-United Kingdom,2002,LMICs,131.96
-United Kingdom,2002,Other LICs,75.95
-United Kingdom,2002,UMICs,13.51
-United Kingdom,2003,Global and multi-country,76.33
-United Kingdom,2003,LDCs,137.15
-United Kingdom,2003,LMICs,97.15
-United Kingdom,2003,Other LICs,93.50
-United Kingdom,2003,UMICs,14.78
-United Kingdom,2004,Global and multi-country,99.31
-United Kingdom,2004,LDCs,129.64
-United Kingdom,2004,LMICs,68.06
-United Kingdom,2004,Other LICs,123.41
-United Kingdom,2004,UMICs,16.67
-United Kingdom,2005,Global and multi-country,81.57
-United Kingdom,2005,LDCs,155.12
-United Kingdom,2005,LMICs,206.80
-United Kingdom,2005,Other LICs,159.84
-United Kingdom,2005,UMICs,13.82
-United Kingdom,2006,Global and multi-country,271.94
-United Kingdom,2006,LDCs,178.72
-United Kingdom,2006,LMICs,114.60
-United Kingdom,2006,Other LICs,226.01
-United Kingdom,2006,UMICs,11.64
-United Kingdom,2007,Global and multi-country,252.64
-United Kingdom,2007,LDCs,188.06
-United Kingdom,2007,LMICs,244.22
-United Kingdom,2007,Other LICs,193.10
-United Kingdom,2007,UMICs,17.90
-United Kingdom,2008,Global and multi-country,159.44
-United Kingdom,2008,LDCs,230.41
-United Kingdom,2008,LMICs,222.48
-United Kingdom,2008,Other LICs,245.54
-United Kingdom,2008,UMICs,20.13
-United Kingdom,2009,Global and multi-country,317.30
-United Kingdom,2009,LDCs,297.67
-United Kingdom,2009,LMICs,222.32
-United Kingdom,2009,Other LICs,227.30
-United Kingdom,2009,UMICs,23.98
-United Kingdom,2010,Global and multi-country,411.38
-United Kingdom,2010,LDCs,277.56
-United Kingdom,2010,LMICs,234.79
-United Kingdom,2010,Other LICs,250.02
-United Kingdom,2010,UMICs,14.51
-United States of America,2000,Global and multi-country,
-United States of America,2000,LDCs,
-United States of America,2000,LMICs,
-United States of America,2000,Other LICs,
-United States of America,2000,UMICs,
-United States of America,2001,Global and multi-country,
-United States of America,2001,LDCs,
-United States of America,2001,LMICs,
-United States of America,2001,Other LICs,
-United States of America,2001,UMICs,
-United States of America,2002,Global and multi-country,941.50
-United States of America,2002,LDCs,251.47
-United States of America,2002,LMICs,274.64
-United States of America,2002,Other LICs,148.15
-United States of America,2002,UMICs,48.52
-United States of America,2003,Global and multi-country,"1,151.30"
-United States of America,2003,LDCs,475.94
-United States of America,2003,LMICs,416.40
-United States of America,2003,Other LICs,194.11
-United States of America,2003,UMICs,80.15
-United States of America,2004,Global and multi-country,770.16
-United States of America,2004,LDCs,658.86
-United States of America,2004,LMICs,521.15
-United States of America,2004,Other LICs,265.17
-United States of America,2004,UMICs,110.76
-United States of America,2005,Global and multi-country,"1,320.74"
-United States of America,2005,LDCs,807.62
-United States of America,2005,LMICs,856.61
-United States of America,2005,Other LICs,271.57
-United States of America,2005,UMICs,128.31
-United States of America,2006,Global and multi-country,"1,502.99"
-United States of America,2006,LDCs,938.84
-United States of America,2006,LMICs,771.22
-United States of America,2006,Other LICs,421.88
-United States of America,2006,UMICs,168.90
-United States of America,2007,Global and multi-country,"1,671.66"
-United States of America,2007,LDCs,"1,148.12"
-United States of America,2007,LMICs,625.83
-United States of America,2007,Other LICs,627.44
-United States of America,2007,UMICs,275.44
-United States of America,2008,Global and multi-country,"1,790.54"
-United States of America,2008,LDCs,"1,562.52"
-United States of America,2008,LMICs,558.37
-United States of America,2008,Other LICs,853.13
-United States of America,2008,UMICs,604.19
-United States of America,2009,Global and multi-country,"1,981.85"
-United States of America,2009,LDCs,"1,846.82"
-United States of America,2009,LMICs,547.73
-United States of America,2009,Other LICs,978.39
-United States of America,2009,UMICs,725.19
-United States of America,2010,Global and multi-country,"2,045.01"
-United States of America,2010,LDCs,"2,126.85"
-United States of America,2010,LMICs,525.27
-United States of America,2010,Other LICs,"1,032.45"
-United States of America,2010,UMICs,581.66
+Portugal,2011,LDCs,8.09
+Portugal,2011,LMICs,8.22
+Portugal,2011,Part I unallocated by income,0.04
+Republic of Korea,2006,LDCs,4.93
+Republic of Korea,2006,LMICs,13.30
+Republic of Korea,2006,Other LICs,0.06
+Republic of Korea,2006,Part I unallocated by income,1.79
+Republic of Korea,2006,UMICs,17.75
+Republic of Korea,2007,LDCs,8.19
+Republic of Korea,2007,LMICs,22.92
+Republic of Korea,2007,Other LICs,0.19
+Republic of Korea,2007,Part I unallocated by income,3.47
+Republic of Korea,2007,UMICs,11.32
+Republic of Korea,2008,LDCs,11.87
+Republic of Korea,2008,LMICs,34.49
+Republic of Korea,2008,Other LICs,1.66
+Republic of Korea,2008,Part I unallocated by income,11.67
+Republic of Korea,2008,UMICs,7.19
+Republic of Korea,2009,LDCs,28.54
+Republic of Korea,2009,LMICs,44.92
+Republic of Korea,2009,Other LICs,1.51
+Republic of Korea,2009,Part I unallocated by income,13.53
+Republic of Korea,2009,UMICs,25.64
+Republic of Korea,2010,LDCs,38.75
+Republic of Korea,2010,LMICs,51.08
+Republic of Korea,2010,Other LICs,1.14
+Republic of Korea,2010,Part I unallocated by income,12.69
+Republic of Korea,2010,UMICs,37.33
+Republic of Korea,2011,LDCs,31.01
+Republic of Korea,2011,LMICs,40.48
+Republic of Korea,2011,Other LICs,0.18
+Republic of Korea,2011,Part I unallocated by income,3.69
+Republic of Korea,2011,UMICs,21.50
+Spain,2001,LDCs,37.73
+Spain,2001,LMICs,90.89
+Spain,2001,Other LICs,10.87
+Spain,2001,Part I unallocated by income,6.39
+Spain,2001,UMICs,27.06
+Spain,2002,LDCs,29.09
+Spain,2002,LMICs,37.15
+Spain,2002,Other LICs,0.90
+Spain,2002,Part I unallocated by income,10.88
+Spain,2002,UMICs,29.94
+Spain,2003,LDCs,42.00
+Spain,2003,LMICs,42.88
+Spain,2003,Other LICs,1.50
+Spain,2003,Part I unallocated by income,5.55
+Spain,2003,UMICs,35.36
+Spain,2004,LDCs,44.77
+Spain,2004,LMICs,58.63
+Spain,2004,Other LICs,1.53
+Spain,2004,Part I unallocated by income,8.31
+Spain,2004,UMICs,28.90
+Spain,2005,LDCs,51.95
+Spain,2005,LMICs,69.16
+Spain,2005,Other LICs,1.31
+Spain,2005,Part I unallocated by income,22.09
+Spain,2005,UMICs,27.20
+Spain,2006,LDCs,55.08
+Spain,2006,LMICs,48.04
+Spain,2006,Other LICs,4.85
+Spain,2006,Part I unallocated by income,30.44
+Spain,2006,UMICs,25.28
+Spain,2007,LDCs,59.37
+Spain,2007,LMICs,49.53
+Spain,2007,Other LICs,16.73
+Spain,2007,Part I unallocated by income,69.39
+Spain,2007,UMICs,39.67
+Spain,2008,LDCs,104.03
+Spain,2008,LMICs,81.54
+Spain,2008,Other LICs,4.31
+Spain,2008,Part I unallocated by income,104.81
+Spain,2008,UMICs,70.40
+Spain,2009,LDCs,94.77
+Spain,2009,LMICs,81.63
+Spain,2009,Other LICs,1.96
+Spain,2009,Part I unallocated by income,90.72
+Spain,2009,UMICs,51.82
+Spain,2010,LDCs,72.50
+Spain,2010,LMICs,57.77
+Spain,2010,Other LICs,2.16
+Spain,2010,Part I unallocated by income,64.38
+Spain,2010,UMICs,52.67
+Spain,2011,LDCs,53.83
+Spain,2011,LMICs,48.69
+Spain,2011,Other LICs,1.21
+Spain,2011,Part I unallocated by income,31.86
+Spain,2011,UMICs,20.85
+Sweden,2001,LDCs,40.16
+Sweden,2001,LMICs,25.73
+Sweden,2001,Other LICs,4.18
+Sweden,2001,Part I unallocated by income,56.22
+Sweden,2001,UMICs,9.40
+Sweden,2002,LDCs,38.40
+Sweden,2002,LMICs,23.35
+Sweden,2002,Other LICs,4.01
+Sweden,2002,Part I unallocated by income,42.50
+Sweden,2002,UMICs,4.36
+Sweden,2003,LDCs,42.69
+Sweden,2003,LMICs,21.02
+Sweden,2003,Other LICs,5.66
+Sweden,2003,Part I unallocated by income,48.67
+Sweden,2003,UMICs,4.87
+Sweden,2004,LDCs,56.57
+Sweden,2004,LMICs,19.24
+Sweden,2004,Other LICs,9.14
+Sweden,2004,Part I unallocated by income,80.27
+Sweden,2004,UMICs,7.33
+Sweden,2005,LDCs,59.67
+Sweden,2005,LMICs,22.19
+Sweden,2005,Other LICs,13.16
+Sweden,2005,Part I unallocated by income,116.22
+Sweden,2005,UMICs,10.29
+Sweden,2006,LDCs,103.96
+Sweden,2006,LMICs,32.38
+Sweden,2006,Other LICs,15.06
+Sweden,2006,Part I unallocated by income,115.24
+Sweden,2006,UMICs,13.98
+Sweden,2007,LDCs,105.15
+Sweden,2007,LMICs,27.17
+Sweden,2007,Other LICs,12.16
+Sweden,2007,Part I unallocated by income,125.03
+Sweden,2007,UMICs,16.03
+Sweden,2008,LDCs,89.99
+Sweden,2008,LMICs,26.71
+Sweden,2008,Other LICs,14.58
+Sweden,2008,Part I unallocated by income,98.53
+Sweden,2008,UMICs,10.35
+Sweden,2009,LDCs,68.84
+Sweden,2009,LMICs,19.36
+Sweden,2009,Other LICs,11.90
+Sweden,2009,Part I unallocated by income,118.34
+Sweden,2009,UMICs,10.05
+Sweden,2010,LDCs,55.29
+Sweden,2010,LMICs,8.05
+Sweden,2010,Other LICs,8.61
+Sweden,2010,Part I unallocated by income,115.01
+Sweden,2010,UMICs,8.67
+Sweden,2011,LDCs,67.16
+Sweden,2011,LMICs,9.47
+Sweden,2011,Other LICs,5.53
+Sweden,2011,Part I unallocated by income,79.24
+Sweden,2011,UMICs,7.88
+Switzerland,2001,LDCs,0.00
+Switzerland,2001,LMICs,0.00
+Switzerland,2001,Other LICs,0.00
+Switzerland,2001,Part I unallocated by income,0.00
+Switzerland,2001,UMICs,0.00
+Switzerland,2002,LDCs,30.06
+Switzerland,2002,LMICs,1.86
+Switzerland,2002,Other LICs,0.82
+Switzerland,2002,Part I unallocated by income,14.81
+Switzerland,2002,UMICs,6.78
+Switzerland,2003,LDCs,30.31
+Switzerland,2003,LMICs,3.53
+Switzerland,2003,Other LICs,3.16
+Switzerland,2003,Part I unallocated by income,10.37
+Switzerland,2003,UMICs,6.60
+Switzerland,2004,LDCs,31.84
+Switzerland,2004,LMICs,3.10
+Switzerland,2004,Other LICs,3.96
+Switzerland,2004,Part I unallocated by income,9.87
+Switzerland,2004,UMICs,5.51
+Switzerland,2005,LDCs,32.49
+Switzerland,2005,LMICs,8.66
+Switzerland,2005,Other LICs,3.15
+Switzerland,2005,Part I unallocated by income,8.02
+Switzerland,2005,UMICs,7.27
+Switzerland,2006,LDCs,29.48
+Switzerland,2006,LMICs,8.18
+Switzerland,2006,Other LICs,7.04
+Switzerland,2006,Part I unallocated by income,6.53
+Switzerland,2006,UMICs,3.82
+Switzerland,2007,LDCs,26.03
+Switzerland,2007,LMICs,9.16
+Switzerland,2007,Other LICs,5.93
+Switzerland,2007,Part I unallocated by income,6.04
+Switzerland,2007,UMICs,4.50
+Switzerland,2008,LDCs,28.38
+Switzerland,2008,LMICs,8.22
+Switzerland,2008,Other LICs,6.23
+Switzerland,2008,Part I unallocated by income,11.77
+Switzerland,2008,UMICs,5.38
+Switzerland,2009,LDCs,34.71
+Switzerland,2009,LMICs,10.79
+Switzerland,2009,Other LICs,5.64
+Switzerland,2009,Part I unallocated by income,13.09
+Switzerland,2009,UMICs,4.25
+Switzerland,2010,LDCs,28.02
+Switzerland,2010,LMICs,11.32
+Switzerland,2010,Other LICs,5.68
+Switzerland,2010,Part I unallocated by income,9.44
+Switzerland,2010,UMICs,3.00
+Switzerland,2011,LDCs,33.14
+Switzerland,2011,LMICs,9.75
+Switzerland,2011,Other LICs,7.99
+Switzerland,2011,Part I unallocated by income,12.01
+Switzerland,2011,UMICs,3.79
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2003,LDCs,132.50
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2003,LMICs,51.33
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2003,Other LICs,13.39
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2003,Part I unallocated by income,5.96
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2003,UMICs,72.83
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2004,LDCs,356.38
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2004,LMICs,136.06
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2004,Other LICs,38.80
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2004,Part I unallocated by income,9.70
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2004,UMICs,143.32
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2005,LDCs,691.14
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2005,LMICs,254.35
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2005,Other LICs,15.45
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2005,Part I unallocated by income,12.53
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2005,UMICs,173.75
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2006,LDCs,730.36
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2006,LMICs,327.95
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2006,Other LICs,74.15
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2006,Part I unallocated by income,21.75
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2006,UMICs,241.49
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2007,LDCs,845.19
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2007,LMICs,425.86
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2007,Other LICs,72.78
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2007,Part I unallocated by income,27.34
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2007,UMICs,305.40
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2008,LDCs,"1,214.98"
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2008,LMICs,506.37
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2008,Other LICs,61.25
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2008,Part I unallocated by income,29.97
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2008,UMICs,315.79
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2009,LDCs,988.65
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2009,LMICs,945.14
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2009,Other LICs,53.89
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2009,Part I unallocated by income,30.06
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2009,UMICs,340.80
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2010,LDCs,"1,641.61"
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2010,LMICs,757.36
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2010,Other LICs,189.50
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2010,Part I unallocated by income,33.72
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2010,UMICs,408.50
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2011,LDCs,"1,218.69"
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2011,LMICs,760.47
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2011,Other LICs,155.83
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2011,Part I unallocated by income,16.17
+"The Global Fund to Fight AIDS, Tuberculosis and Malaria",2011,UMICs,327.73
+UNAIDS,2001,LDCs,20.43
+UNAIDS,2001,LMICs,9.69
+UNAIDS,2001,Other LICs,1.33
+UNAIDS,2001,Part I unallocated by income,89.54
+UNAIDS,2001,UMICs,8.74
+UNAIDS,2002,LDCs,9.25
+UNAIDS,2002,LMICs,6.87
+UNAIDS,2002,Other LICs,0.99
+UNAIDS,2002,Part I unallocated by income,67.19
+UNAIDS,2002,UMICs,8.30
+UNAIDS,2003,LDCs,13.87
+UNAIDS,2003,LMICs,9.60
+UNAIDS,2003,Other LICs,0.93
+UNAIDS,2003,Part I unallocated by income,128.96
+UNAIDS,2003,UMICs,8.84
+UNAIDS,2004,LDCs,1.67
+UNAIDS,2004,LMICs,1.77
+UNAIDS,2004,Other LICs,0.04
+UNAIDS,2004,Part I unallocated by income,152.81
+UNAIDS,2004,UMICs,2.82
+UNAIDS,2005,LDCs,15.20
+UNAIDS,2005,LMICs,10.82
+UNAIDS,2005,Other LICs,0.86
+UNAIDS,2005,Part I unallocated by income,103.67
+UNAIDS,2005,UMICs,9.18
+UNAIDS,2006,LDCs,13.78
+UNAIDS,2006,LMICs,10.14
+UNAIDS,2006,Other LICs,1.89
+UNAIDS,2006,Part I unallocated by income,162.99
+UNAIDS,2006,UMICs,11.35
+UNAIDS,2007,LDCs,30.44
+UNAIDS,2007,LMICs,18.35
+UNAIDS,2007,Other LICs,2.95
+UNAIDS,2007,Part I unallocated by income,60.24
+UNAIDS,2007,UMICs,21.44
+UNAIDS,2008,LDCs,17.72
+UNAIDS,2008,LMICs,12.25
+UNAIDS,2008,Other LICs,1.66
+UNAIDS,2008,Part I unallocated by income,97.52
+UNAIDS,2008,UMICs,8.84
+UNAIDS,2009,LDCs,20.60
+UNAIDS,2009,LMICs,14.74
+UNAIDS,2009,Other LICs,2.41
+UNAIDS,2009,Part I unallocated by income,129.44
+UNAIDS,2009,UMICs,9.18
+UNAIDS,2010,LDCs,20.67
+UNAIDS,2010,LMICs,16.64
+UNAIDS,2010,Other LICs,1.89
+UNAIDS,2010,Part I unallocated by income,113.04
+UNAIDS,2010,UMICs,11.09
+UNAIDS,2011,LDCs,25.49
+UNAIDS,2011,LMICs,18.23
+UNAIDS,2011,Other LICs,2.73
+UNAIDS,2011,Part I unallocated by income,106.91
+UNAIDS,2011,UMICs,15.99
+UNDP,2004,LDCs,11.86
+UNDP,2004,LMICs,3.08
+UNDP,2004,Other LICs,1.04
+UNDP,2004,Part I unallocated by income,0.03
+UNDP,2004,UMICs,2.33
+UNDP,2005,LDCs,15.67
+UNDP,2005,LMICs,2.00
+UNDP,2005,Other LICs,1.53
+UNDP,2005,Part I unallocated by income,0.16
+UNDP,2005,UMICs,1.44
+UNDP,2006,LDCs,17.59
+UNDP,2006,LMICs,2.81
+UNDP,2006,Other LICs,1.60
+UNDP,2006,Part I unallocated by income,0.16
+UNDP,2006,UMICs,1.37
+UNDP,2007,LDCs,10.48
+UNDP,2007,LMICs,2.71
+UNDP,2007,Other LICs,0.93
+UNDP,2007,UMICs,0.96
+UNDP,2008,LDCs,11.15
+UNDP,2008,LMICs,2.59
+UNDP,2008,Other LICs,0.97
+UNDP,2008,UMICs,0.80
+UNDP,2009,LDCs,20.35
+UNDP,2009,LMICs,5.30
+UNDP,2009,Other LICs,1.22
+UNDP,2009,Part I unallocated by income,1.53
+UNDP,2009,UMICs,1.26
+UNDP,2010,LDCs,14.93
+UNDP,2010,LMICs,2.42
+UNDP,2010,Other LICs,0.87
+UNDP,2010,Part I unallocated by income,2.77
+UNDP,2010,UMICs,0.83
+UNDP,2011,LDCs,8.47
+UNDP,2011,LMICs,2.26
+UNDP,2011,Other LICs,0.52
+UNDP,2011,Part I unallocated by income,1.66
+UNDP,2011,UMICs,1.02
+UNECE,2008,Part I unallocated by income,0.31
+UNECE,2009,Part I unallocated by income,0.18
+UNECE,2010,Part I unallocated by income,0.11
+UNECE,2011,Part I unallocated by income,0.00
+UNFPA,2001,LDCs,101.61
+UNFPA,2001,LMICs,83.94
+UNFPA,2001,Other LICs,7.60
+UNFPA,2001,Part I unallocated by income,70.63
+UNFPA,2001,UMICs,42.40
+UNFPA,2002,LDCs,120.87
+UNFPA,2002,LMICs,109.39
+UNFPA,2002,Other LICs,12.25
+UNFPA,2002,Part I unallocated by income,80.37
+UNFPA,2002,UMICs,56.29
+UNFPA,2003,LDCs,162.76
+UNFPA,2003,LMICs,119.75
+UNFPA,2003,Other LICs,7.06
+UNFPA,2003,Part I unallocated by income,130.70
+UNFPA,2003,UMICs,43.13
+UNFPA,2004,LDCs,102.05
+UNFPA,2004,LMICs,74.88
+UNFPA,2004,Other LICs,7.62
+UNFPA,2004,Part I unallocated by income,13.77
+UNFPA,2004,UMICs,32.15
+UNFPA,2005,LDCs,98.01
+UNFPA,2005,LMICs,81.10
+UNFPA,2005,Other LICs,9.42
+UNFPA,2005,Part I unallocated by income,13.52
+UNFPA,2005,UMICs,30.94
+UNFPA,2006,LDCs,101.73
+UNFPA,2006,LMICs,80.79
+UNFPA,2006,Other LICs,9.04
+UNFPA,2006,Part I unallocated by income,14.78
+UNFPA,2006,UMICs,31.40
+UNFPA,2007,LDCs,105.48
+UNFPA,2007,LMICs,79.32
+UNFPA,2007,Other LICs,7.93
+UNFPA,2007,Part I unallocated by income,1.76
+UNFPA,2007,UMICs,29.16
+UNFPA,2008,LDCs,136.90
+UNFPA,2008,LMICs,80.83
+UNFPA,2008,Other LICs,13.63
+UNFPA,2008,Part I unallocated by income,2.38
+UNFPA,2008,UMICs,35.52
+UNFPA,2009,LDCs,136.94
+UNFPA,2009,LMICs,86.94
+UNFPA,2009,Other LICs,12.03
+UNFPA,2009,Part I unallocated by income,80.78
+UNFPA,2009,UMICs,34.65
+UNFPA,2010,LDCs,137.57
+UNFPA,2010,LMICs,95.58
+UNFPA,2010,Other LICs,12.96
+UNFPA,2010,Part I unallocated by income,33.77
+UNFPA,2010,UMICs,35.36
+UNFPA,2011,LDCs,123.48
+UNFPA,2011,LMICs,86.35
+UNFPA,2011,Other LICs,10.87
+UNFPA,2011,Part I unallocated by income,43.96
+UNFPA,2011,UMICs,30.67
+UNICEF,2001,LDCs,109.86
+UNICEF,2001,LMICs,62.25
+UNICEF,2001,Other LICs,5.85
+UNICEF,2001,Part I unallocated by income,12.63
+UNICEF,2001,UMICs,20.33
+UNICEF,2002,LDCs,95.49
+UNICEF,2002,LMICs,56.71
+UNICEF,2002,Other LICs,6.11
+UNICEF,2002,Part I unallocated by income,9.28
+UNICEF,2002,UMICs,16.17
+UNICEF,2003,LDCs,91.57
+UNICEF,2003,LMICs,50.98
+UNICEF,2003,Other LICs,5.89
+UNICEF,2003,Part I unallocated by income,7.87
+UNICEF,2003,UMICs,14.63
+UNICEF,2004,LDCs,87.09
+UNICEF,2004,LMICs,55.31
+UNICEF,2004,Other LICs,4.75
+UNICEF,2004,Part I unallocated by income,7.00
+UNICEF,2004,UMICs,14.99
+UNICEF,2005,LDCs,106.79
+UNICEF,2005,LMICs,61.28
+UNICEF,2005,Other LICs,6.14
+UNICEF,2005,Part I unallocated by income,10.65
+UNICEF,2005,UMICs,16.47
+UNICEF,2006,LDCs,90.72
+UNICEF,2006,LMICs,47.85
+UNICEF,2006,Other LICs,4.69
+UNICEF,2006,Part I unallocated by income,1.42
+UNICEF,2006,UMICs,11.00
+UNICEF,2007,LDCs,101.53
+UNICEF,2007,LMICs,32.06
+UNICEF,2007,Other LICs,5.52
+UNICEF,2007,Part I unallocated by income,2.34
+UNICEF,2007,UMICs,7.22
+UNICEF,2008,LDCs,86.61
+UNICEF,2008,LMICs,31.99
+UNICEF,2008,Other LICs,6.04
+UNICEF,2008,Part I unallocated by income,1.13
+UNICEF,2008,UMICs,5.36
+UNICEF,2009,LDCs,113.24
+UNICEF,2009,LMICs,51.31
+UNICEF,2009,Other LICs,9.15
+UNICEF,2009,Part I unallocated by income,2.22
+UNICEF,2009,UMICs,9.38
+UNICEF,2010,LDCs,121.35
+UNICEF,2010,LMICs,49.48
+UNICEF,2010,Other LICs,5.04
+UNICEF,2010,Part I unallocated by income,2.17
+UNICEF,2010,UMICs,5.76
+UNICEF,2011,LDCs,130.93
+UNICEF,2011,LMICs,53.88
+UNICEF,2011,Other LICs,5.88
+UNICEF,2011,Part I unallocated by income,3.07
+UNICEF,2011,UMICs,7.87
+United Arab Emirates,2009,LDCs,10.26
+United Arab Emirates,2009,LMICs,64.91
+United Arab Emirates,2009,Other LICs,0.00
+United Arab Emirates,2009,Part I unallocated by income,2.20
+United Arab Emirates,2009,UMICs,26.31
+United Arab Emirates,2010,LDCs,5.97
+United Arab Emirates,2010,LMICs,7.78
+United Arab Emirates,2010,Part I unallocated by income,13.64
+United Arab Emirates,2010,UMICs,13.85
+United Arab Emirates,2011,LDCs,27.86
+United Arab Emirates,2011,LMICs,10.14
+United Arab Emirates,2011,Part I unallocated by income,5.31
+United Arab Emirates,2011,UMICs,4.47
+United Kingdom,2001,LDCs,114.63
+United Kingdom,2001,LMICs,56.70
+United Kingdom,2001,Other LICs,26.07
+United Kingdom,2001,Part I unallocated by income,52.97
+United Kingdom,2001,UMICs,31.05
+United Kingdom,2002,LDCs,134.88
+United Kingdom,2002,LMICs,154.27
+United Kingdom,2002,Other LICs,32.98
+United Kingdom,2002,Part I unallocated by income,166.40
+United Kingdom,2002,UMICs,36.14
+United Kingdom,2003,LDCs,139.45
+United Kingdom,2003,LMICs,142.40
+United Kingdom,2003,Other LICs,37.80
+United Kingdom,2003,Part I unallocated by income,77.61
+United Kingdom,2003,UMICs,28.61
+United Kingdom,2004,LDCs,131.85
+United Kingdom,2004,LMICs,123.25
+United Kingdom,2004,Other LICs,48.35
+United Kingdom,2004,Part I unallocated by income,101.00
+United Kingdom,2004,UMICs,40.07
+United Kingdom,2005,LDCs,157.52
+United Kingdom,2005,LMICs,268.14
+United Kingdom,2005,Other LICs,81.06
+United Kingdom,2005,Part I unallocated by income,82.83
+United Kingdom,2005,UMICs,37.15
+United Kingdom,2006,LDCs,181.17
+United Kingdom,2006,LMICs,247.12
+United Kingdom,2006,Other LICs,81.17
+United Kingdom,2006,Part I unallocated by income,275.67
+United Kingdom,2006,UMICs,28.80
+United Kingdom,2007,LDCs,192.00
+United Kingdom,2007,LMICs,335.25
+United Kingdom,2007,Other LICs,84.42
+United Kingdom,2007,Part I unallocated by income,257.92
+United Kingdom,2007,UMICs,45.08
+United Kingdom,2008,LDCs,234.85
+United Kingdom,2008,LMICs,377.22
+United Kingdom,2008,Other LICs,73.73
+United Kingdom,2008,Part I unallocated by income,162.51
+United Kingdom,2008,UMICs,46.60
+United Kingdom,2009,LDCs,302.62
+United Kingdom,2009,LMICs,333.04
+United Kingdom,2009,Other LICs,103.83
+United Kingdom,2009,Part I unallocated by income,322.58
+United Kingdom,2009,UMICs,44.60
+United Kingdom,2010,LDCs,283.49
+United Kingdom,2010,LMICs,363.43
+United Kingdom,2010,Other LICs,114.62
+United Kingdom,2010,Part I unallocated by income,420.17
+United Kingdom,2010,UMICs,31.95
+United Kingdom,2011,LDCs,401.23
+United Kingdom,2011,LMICs,339.56
+United Kingdom,2011,Other LICs,74.44
+United Kingdom,2011,Part I unallocated by income,588.60
+United Kingdom,2011,UMICs,29.23
+United States of America,2001,LDCs,0.00
+United States of America,2001,LMICs,0.00
+United States of America,2001,Other LICs,0.00
+United States of America,2001,Part I unallocated by income,0.00
+United States of America,2001,UMICs,0.00
+United States of America,2002,LDCs,254.41
+United States of America,2002,LMICs,306.98
+United States of America,2002,Other LICs,54.32
+United States of America,2002,Part I unallocated by income,952.51
+United States of America,2002,UMICs,115.51
+United States of America,2003,LDCs,481.74
+United States of America,2003,LMICs,445.03
+United States of America,2003,Other LICs,78.94
+United States of America,2003,Part I unallocated by income,"1,165.33"
+United States of America,2003,UMICs,175.08
+United States of America,2004,LDCs,667.03
+United States of America,2004,LMICs,605.92
+United States of America,2004,Other LICs,94.27
+United States of America,2004,Part I unallocated by income,779.71
+United States of America,2004,UMICs,207.96
+United States of America,2005,LDCs,817.76
+United States of America,2005,LMICs,933.60
+United States of America,2005,Other LICs,114.52
+United States of America,2005,Part I unallocated by income,"1,337.33"
+United States of America,2005,UMICs,224.04
+United States of America,2006,LDCs,950.88
+United States of America,2006,LMICs,922.99
+United States of America,2006,Other LICs,187.85
+United States of America,2006,Part I unallocated by income,"1,522.25"
+United States of America,2006,UMICs,268.47
+United States of America,2007,LDCs,"1,163.31"
+United States of America,2007,LMICs,921.98
+United States of America,2007,Other LICs,228.19
+United States of America,2007,Part I unallocated by income,"1,693.77"
+United States of America,2007,UMICs,398.51
+United States of America,2008,LDCs,"1,582.69"
+United States of America,2008,LMICs,977.14
+United States of America,2008,Other LICs,317.74
+United States of America,2008,Part I unallocated by income,"1,813.64"
+United States of America,2008,UMICs,746.64
+United States of America,2009,LDCs,"1,868.08"
+United States of America,2009,LMICs,965.10
+United States of America,2009,Other LICs,411.28
+United States of America,2009,Part I unallocated by income,"2,004.66"
+United States of America,2009,UMICs,900.65
+United States of America,2010,LDCs,"2,148.39"
+United States of America,2010,LMICs,986.16
+United States of America,2010,Other LICs,402.39
+United States of America,2010,Part I unallocated by income,"2,065.73"
+United States of America,2010,UMICs,772.18
+United States of America,2011,LDCs,"2,274.65"
+United States of America,2011,LMICs,925.67
+United States of America,2011,Other LICs,531.05
+United States of America,2011,Part I unallocated by income,"2,485.38"
+United States of America,2011,UMICs,794.40
 UNPBF,2009,LDCs,0.38
-UNPBF,2010,LDCs,0.50
-UNRWA,2005,LMICs,57.14
-UNRWA,2005,UMICs,15.71
-UNRWA,2006,LMICs,62.06
-UNRWA,2006,UMICs,15.16
-UNRWA,2007,LMICs,65.99
-UNRWA,2007,UMICs,15.32
-UNRWA,2008,LMICs,67.94
-UNRWA,2008,UMICs,14.75
-UNRWA,2009,LMICs,70.57
-UNRWA,2009,UMICs,16.95
-UNRWA,2010,LMICs,81.71
-UNRWA,2010,UMICs,15.83
-WFP,2009,LDCs,27.83
-WFP,2009,LMICs,5.76
-WFP,2009,Other LICs,6.69
-WFP,2009,UMICs,0.02
-WFP,2010,LDCs,19.82
-WFP,2010,LMICs,5.90
-WFP,2010,Other LICs,8.54
-WFP,2010,UMICs,0.05
-WHO,2009,Global and multi-country,418.50
-WHO,2010,Global and multi-country,354.13
+UNPBF,2010,LDCs,0.51
+UNPBF,2011,LDCs,0.00
+UNRWA,2005,LMICs,42.57
+UNRWA,2005,UMICs,30.81
+UNRWA,2006,LMICs,47.04
+UNRWA,2006,UMICs,30.74
+UNRWA,2007,LMICs,47.84
+UNRWA,2007,UMICs,34.05
+UNRWA,2008,LMICs,52.10
+UNRWA,2008,UMICs,31.23
+UNRWA,2009,LMICs,52.45
+UNRWA,2009,UMICs,35.88
+UNRWA,2010,LMICs,60.94
+UNRWA,2010,UMICs,37.53
+UNRWA,2011,LMICs,61.54
+UNRWA,2011,UMICs,33.73
+WFP,2009,LDCs,28.08
+WFP,2009,LMICs,5.47
+WFP,2009,Other LICs,6.54
+WFP,2009,UMICs,0.59
+WFP,2010,LDCs,20.01
+WFP,2010,LMICs,7.08
+WFP,2010,Other LICs,7.29
+WFP,2010,UMICs,0.25
+WFP,2011,LDCs,9.86
+WFP,2011,LMICs,1.31
+WFP,2011,Other LICs,2.14
+WFP,2011,UMICs,0.02
+WHO,2009,Part I unallocated by income,422.38
+WHO,2010,Part I unallocated by income,357.49
+WHO,2011,LDCs,59.08
+WHO,2011,LMICs,38.71
+WHO,2011,Other LICs,5.89
+WHO,2011,Part I unallocated by income,283.91
+WHO,2011,UMICs,21.81

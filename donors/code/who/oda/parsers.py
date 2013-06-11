@@ -7,7 +7,7 @@ import ftypes
 
 path_to_file = lambda x : os.path.join(settings.DATA_ROOT, x)
 data_files = {
-    "disbursements" : path_to_file("Table1 Chart2 v2.csv"),
+    "disbursements" : path_to_file("Table1 Chart2.csv"),
     "purpose_commitments" : path_to_file("Table 3&5 Chart 4&6.csv"),
     "purpose_disbursements" : path_to_file("Table 3&5 Chart 4&6_d.csv"),
     "disbursement_by_income" : path_to_file("Table 7 Chart 8.csv"),
@@ -32,8 +32,8 @@ def parse_disbursements(fp):
     transforms = {
         "Donor" : str,
         "Year" : str,
-        "OTHER ODA" : models.SafeFloat,
-        "Total Health" : models.SafeFloat,
+        "Other ODA" : models.SafeFloat,
+        "Health ODA" : models.SafeFloat,
         "Total ODA" : models.SafeFloat,
         "%age" : strip_perc,
     }
@@ -45,7 +45,7 @@ def parse_purpose_commitments(fp):
         "Donor" : str,
         "Year" : str,
         "Purpose" : str,
-        "Commitments, Million, constant 2009 US$" : models.SafeFloat,
+        "Commitments, Million, constant 2010 US$" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
 
@@ -54,7 +54,7 @@ def parse_purpose_disbursements(fp):
         "Donor" : str,
         "Year" : str,
         "Purpose" : str,
-        "Disbursements, Million, constant 2009 US$" : models.SafeFloat,
+        "Disbursements, Million, constant 2010 US$" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
 
@@ -62,8 +62,8 @@ def parse_disbursement_by_income(fp):
     transforms = {
         "Donor" : str,
         "Year" : str,
-        "Income Group" : str,
-        "Disbursements, Million, constant 2009 US$" : models.SafeFloat,
+        "incomegroupname" : str,
+        "Disbursements, Million, constant 2010 US$" : models.SafeFloat,
 
     }
     return parse_file(fp, transforms)
@@ -73,7 +73,7 @@ def parse_disbursement_by_region(fp):
         "Donor" : str,
         "Year" : str,
         "WHO Region" : str,
-        "Disbursements, Million, constant 2009 US$" : models.SafeFloat,
+        "Disbursements, Million, constant 2010 US$" : models.SafeFloat,
 
     }
     return parse_file(fp, transforms)
@@ -89,7 +89,7 @@ def parse_disbursements_by_country(fp):
         "MDG6" : models.SafeFloat,
         "Other Health Purposes" : models.SafeFloat,
         "RH & FP" : models.SafeFloat,
-        "Disbursements, Million, 2009 constant US$ \nTotal" : models.SafeFloat,
+        "Disbursements, Million, 2010 constant US$ (2010-2011)" : models.SafeFloat,
     }
     return parse_file(fp, transforms)
 
@@ -102,7 +102,7 @@ def parse_recipient_countries(fp):
         "MDG6" : models.SafeFloat,
         "Other Health Purposes" : models.SafeFloat,
         "RH & FP" : models.SafeFloat,
-        "Disbursements, Million, 2009 constant US$ \nTotal" : models.SafeFloat,
+        "Grand Total" : models.SafeFloat,
         "Ordinal" : int,
         "Percentage" : strip_perc,
     }
