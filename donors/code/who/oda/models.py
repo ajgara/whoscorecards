@@ -1,4 +1,6 @@
-#from django.db import models
+"""
+This application does not create models. It parses the csv files found in the data directory on demand
+"""
 import locale
 
 
