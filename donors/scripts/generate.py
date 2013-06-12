@@ -36,6 +36,7 @@ def generate(donor):
     os.system('inkscape --file="%s.svg" --export-pdf="%s.pdf" 2> /dev/null' % (page1, page1))
     os.system('cp "%s" "%s.svg"' % (page2_svg, page2))
     os.system('sed "s|/France/|/%s/|" "%s" > "%s.svg"' % (donor_url, page2_svg, page2))
+    os.system('inkscape  --file="%s.svg" --verb=za.co.widgetlabs.update --verb=FileSave --verb=FileQuit 2> /dev/null' % (page2))
     os.system('inkscape --file="%s.svg" --export-pdf="%s.pdf" ' % (page2, page2))
     # Merge pages
     input1 = PdfFileReader(file('%s.pdf' % (page1), 'rb'))
