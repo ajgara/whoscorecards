@@ -270,7 +270,7 @@ def json_page1(request, donor=None):
     eur = filter_and_extract_income("Eur")
     sear = filter_and_extract_income("Sear")
     wpr = filter_and_extract_income("Wpr")
-    multicount = filter_and_extract_income("Multicount")
+    multicount = filter_and_extract_income("MULTI")
     not_un = filter_and_extract_income("Not UN")
     
     by_income_domain_y = [0, safe_max(ldcs + lics + lmics + umics + gmc)*1.2]
