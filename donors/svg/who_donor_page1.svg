@@ -3655,7 +3655,7 @@ m</text>
          style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
          transform="scale(0.94223139,1.0613104)"
          x="23.636974"
-         y="536.74274">Part I unallocated by income</text>
+         y="536.74274">Global and Multi‐Country</text>
       <rect
          id="rect2693"
          height="6.2010002"
@@ -9318,7 +9318,7 @@ m</text>
        x="23.636974"
        transform="matrix(0.94223143,0,0,1.0613104,0,9.4696601e-6)"
        style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
-       id="text2206">Part I unallocated by income</text>
+       id="text2206">Global and Multi‐Country</text>
     <rect
        id="col2_1_"
        x="113.332"
@@ -14309,7 +14309,7 @@ m</text>
       <text
          transform="matrix(0,-1,1,0,607.5234,455.2305)"
          style="font-size:5px;fill:#595a5c;font-family:Calibri"
-         id="text721">(in Million constant 2009 US$)</text>
+         id="text721">(in Million constant 2010 US$)</text>
     </g>
     <g
        data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;' }"
