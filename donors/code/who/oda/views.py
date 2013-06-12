@@ -255,7 +255,7 @@ def json_page1(request, donor=None):
     lics = filter_and_extract_income("Other LICs")
     lmics = filter_and_extract_income("LMICs")
     umics = filter_and_extract_income("UMICs")
-    gmc = filter_and_extract_income("Global and multi-country")
+    gmc = filter_and_extract_income("Part I unallocated by income")
 
     # disbursement by region
     by_region = donordata.disbursement_by_region
