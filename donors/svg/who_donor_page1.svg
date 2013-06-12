@@ -16,7 +16,7 @@
    viewBox="0 0 1052.3622 744.09444"
    space="preserve"
    id="svg2"
-   inkscape:version="0.48+devel r11876"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="who_donor_page1.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -27,16 +27,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1198"
-     inkscape:window-height="1423"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      id="namedview3002"
      showgrid="false"
-     inkscape:zoom="1.0186607"
-     inkscape:cx="402.48927"
-     inkscape:cy="372.04724"
-     inkscape:window-x="0"
-     inkscape:window-y="19"
-     inkscape:window-maximized="0"
+     inkscape:zoom="2.0373214"
+     inkscape:cx="649.03379"
+     inkscape:cy="423.4321"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
      showguides="true"
      inkscape:guide-bbox="true" />
@@ -1055,7 +1055,7 @@
        x="466.93463" />
     <text
        transform="scale(0.9999725,1.0000275)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#country_name"
+       data-src="http://localhost:8000/data/France/page1/#country_name"
        data-widget="text"
        y="-92.005966"
        x="1025.1027"
@@ -1088,7 +1088,7 @@
         <text
            id="text137"
            style="font-size:5px;fill:#595a5c;font-family:Calibri"
-           transform="matrix(0,-1,1,0,595.3301,337.8887)">(in Million constant 2009 US$)</text>
+           transform="matrix(0,-1,1,0,595.3301,337.8887)">(in Million constant 2010 US$)</text>
         <g
            id="graph2_x5F_heading">
           <rect
@@ -1107,8 +1107,14 @@
              x="592.44397" />
           <text
              id="text290"
-             style="font-size:7.5px;fill:#595a5c;font-family:Calibri"
-             transform="matrix(0.8878,0,0,1,622.1406,360.2031)">ODA FOR HEALTH DISBURSEMENTS, TOTAL</text>
+             style="font-size:7.06673527px;fill:#595a5c;font-family:Calibri"
+             transform="scale(0.9422314,1.0613104)"
+             x="677.29852"
+             y="338.21536">
+            <tspan
+               style="font-size:5.19865799px"
+               id="tspan5329">ODA FOR HEALTH DISBURSEMENTS, TOTAL</tspan>
+          </text>
         </g>
       </g>
       <g
@@ -1137,12 +1143,12 @@
              id="tspan302"
              style="font-size:5px;fill:#595a5c;font-family:Calibri"
              y="0"
-             x="3.194">om 2009</tspan>
+             x="3.194">om 2010</tspan>
         </text>
         <text
            id="text304"
            style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#595a5c;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
-           transform="translate(780.0527,295.9248)">In 2010</text>
+           transform="translate(780.0527,295.9248)">In 2011</text>
       </g>
     </g>
     <g
@@ -1162,7 +1168,7 @@
         <text
            id="text322"
            style="font-size:5px;fill:#595a5c;font-family:Calibri"
-           transform="matrix(0,-1,1,0,595.5254,222.041)">(in Million constant 2009 US$)</text>
+           transform="matrix(0,-1,1,0,595.5254,222.041)">(in Million constant 2010 US$)</text>
         <g
            id="graph3_x5F_bars">
           <g
@@ -1503,8 +1509,14 @@
              x="592.35699" />
           <text
              id="text476"
-             style="font-size:7.5px;fill:#595a5c;font-family:Calibri"
-             transform="matrix(0.8878,0,0,1,623.3887,244.3564)">ODA FOR HEALTH COMMITMENTS, TOTAL</text>
+             style="font-size:7.06673527px;fill:#595a5c;font-family:Calibri"
+             transform="scale(0.9422314,1.0613104)"
+             x="678.28149"
+             y="229.05975">
+            <tspan
+               style="font-size:5.19865799px"
+               id="tspan5331">ODA FOR HEALTH COMMITMENTS, TOTAL</tspan>
+          </text>
         </g>
       </g>
       <g
@@ -1522,9 +1534,14 @@
            style="font-size:8px;text-align:center;text-anchor:middle;fill:#595a5c;font-family:Calibri"
            id="_x5F_value_2_">$<tspan
    style="text-align:center;text-anchor:middle"
-   data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_commitments_text"
+   data-src="http://localhost:8000/data/France/page1/#arrow_commitments_text"
    data-widget="text"
    id="tspan34949">154.21</tspan>
+
+
+
+
+
 
 
 
@@ -1548,12 +1565,12 @@ m</text>
              id="tspan488"
              style="font-size:5px;fill:#595a5c;font-family:Calibri"
              y="0"
-             x="3.194">om 2009</tspan>
+             x="3.194">om 2010</tspan>
         </text>
         <text
            id="text490"
            style="font-size:8px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#595a5c;font-family:Calibri;-inkscape-font-specification:Calibri Bold"
-           transform="translate(779.9814,179.4985)">In 2010</text>
+           transform="translate(779.9814,179.4985)">In 2011</text>
         <text
            id="text39614"
            style="font-size:8px;text-align:center;text-anchor:middle;fill:#595a5c;font-family:Calibri"
@@ -1561,9 +1578,14 @@ m</text>
            y="333.10526">$<tspan
    id="tspan39616"
    data-widget="text"
-   data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_disbursements_text"
+   data-src="http://localhost:8000/data/France/page1/#arrow_disbursements_text"
    style="text-align:center;text-anchor:middle"
    transform="matrix(1.3835206,0,0,1.3835206,-304.69707,-127.03063)">99.49</tspan>
+
+
+
+
+
 
 
 
@@ -1697,7 +1719,7 @@ m</text>
       <text
          id="text779"
          style="font-size:5px;fill:#595a5c;font-family:Calibri"
-         transform="matrix(0,-1,1,0,607.5234,561.2734)">(in Million constant 2009 US$)</text>
+         transform="matrix(0,-1,1,0,607.5234,561.2734)">(in Million constant 2010 US$)</text>
     </g>
   </g>
   <g
@@ -1815,7 +1837,7 @@ m</text>
       <text
          id="text846"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,202.2949,279.459)">2000</text>
+         transform="matrix(0.9513,0,0,1,202.2949,279.459)">2001</text>
       <rect
          id="rect848"
          height="6.2010002"
@@ -1826,7 +1848,7 @@ m</text>
       <text
          id="text850"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,236.3105,279.459)">2001</text>
+         transform="matrix(0.9513,0,0,1,236.3105,279.459)">2002</text>
       <rect
          id="rect852"
          height="5.1999998"
@@ -1837,7 +1859,7 @@ m</text>
       <text
          id="text854"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,270.3262,279.4624)">2002</text>
+         transform="matrix(0.9513,0,0,1,270.3262,279.4624)">2003</text>
       <rect
          id="rect856"
          height="6.2010002"
@@ -1848,7 +1870,7 @@ m</text>
       <text
          id="text858"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,304.3418,279.459)">2003</text>
+         transform="matrix(0.9513,0,0,1,304.3418,279.459)">2004</text>
       <rect
          id="rect860"
          height="6.2010002"
@@ -1859,7 +1881,7 @@ m</text>
       <text
          id="text862"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,338.3574,279.459)">2004</text>
+         transform="matrix(0.9513,0,0,1,338.3574,279.459)">2005</text>
       <rect
          id="rect864"
          height="6.2010002"
@@ -1870,7 +1892,7 @@ m</text>
       <text
          id="text866"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,372.3516,279.459)">2005</text>
+         transform="matrix(0.9513,0,0,1,372.3516,279.459)">2006</text>
       <rect
          id="rect868"
          height="6.2010002"
@@ -1881,7 +1903,7 @@ m</text>
       <text
          id="text870"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,406.3672,279.459)">2006</text>
+         transform="matrix(0.9513,0,0,1,406.3672,279.459)">2007</text>
       <rect
          id="rect872"
          height="6.2010002"
@@ -1892,7 +1914,7 @@ m</text>
       <text
          id="text874"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,440.3838,279.459)">2007</text>
+         transform="matrix(0.9513,0,0,1,440.3838,279.459)">2008</text>
       <rect
          id="rect876"
          height="6.2010002"
@@ -1903,7 +1925,7 @@ m</text>
       <text
          id="text878"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,474.3994,279.4624)">2008</text>
+         transform="matrix(0.9513,0,0,1,474.3994,279.4624)">2009</text>
       <rect
          id="rect880"
          height="6.2010002"
@@ -1914,7 +1936,7 @@ m</text>
       <text
          id="text882"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,508.415,279.459)">2009</text>
+         transform="matrix(0.9513,0,0,1,508.415,279.459)">2010</text>
       <rect
          id="rect884"
          height="6.2010002"
@@ -1925,7 +1947,7 @@ m</text>
       <text
          id="text886"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.9513,0,0,1,542.4297,279.459)">2010</text>
+         transform="matrix(0.9513,0,0,1,542.4297,279.459)">2011</text>
       <rect
          id="rect888"
          height="5.967"
@@ -1936,7 +1958,7 @@ m</text>
       <text
          id="text890"
          style="font-size:7px;fill:#0093d5;font-family:Calibri"
-         transform="matrix(0.8878,0,0,1,22.2051,280.1621)">in Million constant 2009 US$</text>
+         transform="matrix(0.8878,0,0,1,22.2051,280.1621)">in Million constant 2010 US$</text>
       <rect
          id="rect892"
          height="8.6210003"
@@ -2423,7 +2445,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="259.25882"
-       y="57.589329">2000</text>
+       y="57.589329">2001</text>
     <rect
        id="rect1518"
        height="7.7534652"
@@ -2436,7 +2458,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="302.86435"
-       y="57.589329">2001</text>
+       y="57.589329">2002</text>
     <rect
        id="rect1522"
        height="6.5018573"
@@ -2449,7 +2471,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="346.47003"
-       y="57.593468">2002</text>
+       y="57.593468">2003</text>
     <rect
        id="rect1526"
        height="7.7534652"
@@ -2462,7 +2484,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="390.0755"
-       y="57.589329">2003</text>
+       y="57.589329">2004</text>
     <rect
        id="rect1530"
        height="7.7534652"
@@ -2475,7 +2497,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="433.68106"
-       y="57.589329">2004</text>
+       y="57.589329">2005</text>
     <rect
        id="rect1534"
        height="7.7534652"
@@ -2488,7 +2510,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="477.25912"
-       y="57.589329">2005</text>
+       y="57.589329">2006</text>
     <rect
        id="rect1538"
        height="7.7534652"
@@ -2501,7 +2523,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="520.86469"
-       y="57.589329">2006</text>
+       y="57.589329">2007</text>
     <rect
        id="rect1542"
        height="7.7534652"
@@ -2514,7 +2536,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="564.4715"
-       y="57.589329">2007</text>
+       y="57.589329">2008</text>
     <rect
        id="rect1546"
        height="7.7534652"
@@ -2527,7 +2549,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="608.07697"
-       y="57.593468">2008</text>
+       y="57.593468">2009</text>
     <rect
        id="rect1550"
        height="7.7534652"
@@ -2540,7 +2562,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="651.6825"
-       y="57.589329">2009</text>
+       y="57.589329">2010</text>
     <rect
        id="rect1554"
        height="7.7534652"
@@ -2553,7 +2575,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="695.28693"
-       y="57.589329">2010</text>
+       y="57.589329">2011</text>
     <rect
        id="rect1564"
        height="7.4608812"
@@ -2566,7 +2588,7 @@ m</text>
        style="font-size:8.2466526px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.94220549,1.0613396)"
        x="29.3948"
-       y="56.462383">in Million constant 2009 US$</text>
+       y="56.462383">in Million constant 2010 US$</text>
     <rect
        id="rect1568"
        height="10.779329"
@@ -2969,7 +2991,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-42.481819,-153.75338)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2000"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2000"
        data-widget="pie-simple-1"
        id="pie1">
       <rect
@@ -3051,7 +3073,7 @@ m</text>
        style="font-size:8.2466526px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.94220549,1.0613396)"
        x="29.394802"
-       y="440.75089">in Million constant 2009 US$</text>
+       y="440.75089">in Million constant 2010 US$</text>
     <rect
        id="rect2442"
        height="7.4608812"
@@ -3119,7 +3141,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="158.33717"
-       y="455.38367">2000</text>
+       y="455.38367">2001</text>
     <rect
        id="rect2456"
        height="7.7534652"
@@ -3132,7 +3154,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="201.94269"
-       y="455.38367">2001</text>
+       y="455.38367">2002</text>
     <rect
        id="rect2460"
        height="6.5018573"
@@ -3145,7 +3167,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="245.54822"
-       y="455.38846">2002</text>
+       y="455.38846">2003</text>
     <rect
        id="rect2464"
        height="7.7534652"
@@ -3158,7 +3180,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="289.15375"
-       y="455.38367">2003</text>
+       y="455.38367">2004</text>
     <rect
        id="rect2468"
        height="7.7534652"
@@ -3171,7 +3193,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="332.7594"
-       y="455.38367">2004</text>
+       y="455.38367">2005</text>
     <rect
        id="rect2472"
        height="7.7534652"
@@ -3184,7 +3206,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="376.33737"
-       y="455.38367">2005</text>
+       y="455.38367">2006</text>
     <rect
        id="rect2476"
        height="7.7534652"
@@ -3197,7 +3219,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="419.94287"
-       y="455.38367">2006</text>
+       y="455.38367">2007</text>
     <rect
        id="rect2480"
        height="7.7534652"
@@ -3210,7 +3232,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="463.54968"
-       y="455.38367">2007</text>
+       y="455.38367">2008</text>
     <rect
        id="rect2484"
        height="7.7534652"
@@ -3223,7 +3245,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="507.1553"
-       y="455.38846">2008</text>
+       y="455.38846">2009</text>
     <rect
        id="rect2488"
        height="7.7534652"
@@ -3236,7 +3258,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="550.76086"
-       y="455.38367">2009</text>
+       y="455.38367">2010</text>
     <rect
        id="rect2492"
        height="7.7534652"
@@ -3249,7 +3271,7 @@ m</text>
        style="font-size:8.53648186px;fill:#0093d5;font-family:Calibri"
        transform="scale(0.97531925,1.0253053)"
        x="594.36511"
-       y="455.38367">2010</text>
+       y="455.38367">2011</text>
     <g
        id="g2531"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-158.7548)">
@@ -3633,7 +3655,7 @@ m</text>
          style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
          transform="scale(0.94223139,1.0613104)"
          x="23.636974"
-         y="536.74274">Global &amp; Multi-Country</text>
+         y="536.74274">Part I unallocated by income</text>
       <rect
          id="rect2693"
          height="6.2010002"
@@ -3889,7 +3911,7 @@ m</text>
     <g
        id="g33306"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2001"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2001"
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-153.75338)">
       <rect
@@ -3930,7 +3952,7 @@ m</text>
     </g>
     <g
        class="piechart"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2002"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2002"
        data-widget="pie-simple-1"
        id="g33320"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-153.75338)">
@@ -3973,7 +3995,7 @@ m</text>
     <g
        id="g33334"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2003"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2003"
        transform="matrix(1.2502883,0,0,1.2503571,84.998494,-153.75338)"
        class="piechart">
       <rect
@@ -4015,7 +4037,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,127.65992,-153.75338)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2004"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2004"
        data-widget="pie-simple-1"
        id="g33348">
       <rect
@@ -4057,7 +4079,7 @@ m</text>
     <g
        id="g33362"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2005"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2005"
        transform="matrix(1.2502883,0,0,1.2503571,170.03848,-153.75338)"
        class="piechart">
       <rect
@@ -4099,7 +4121,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,212.64706,-153.75338)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2006"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2006"
        data-widget="pie-simple-1"
        id="g33376">
       <rect
@@ -4141,7 +4163,7 @@ m</text>
     <g
        id="g33390"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2007"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2007"
        transform="matrix(1.2502883,0,0,1.2503571,255.14917,-153.75338)"
        class="piechart">
       <rect
@@ -4183,7 +4205,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,297.70083,-153.75338)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2008"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2008"
        data-widget="pie-simple-1"
        id="g33404">
       <rect
@@ -4225,7 +4247,7 @@ m</text>
     <g
        id="g33418"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2009"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2009"
        transform="matrix(1.2502883,0,0,1.2503571,340.18949,-153.75338)"
        class="piechart">
       <rect
@@ -4267,7 +4289,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,382.78475,-153.75338)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_pie_2010"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2010"
        data-widget="pie-simple-1"
        id="g33432">
       <rect
@@ -4309,7 +4331,7 @@ m</text>
     <g
        id="g17497"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2000"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2000"
        transform="matrix(1.2502883,0,0,1.2503571,-42.481819,-17.125237)"
        class="piechart">
       <rect
@@ -4350,7 +4372,7 @@ m</text>
     </g>
     <g
        class="piechart"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2001"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2001"
        data-widget="pie-simple-1"
        id="g17511"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-17.086176)">
@@ -4393,7 +4415,7 @@ m</text>
     <g
        id="g17525"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2002"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2002"
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-17.097229)">
       <rect
@@ -4435,7 +4457,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,84.998494,-17.085426)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2003"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2003"
        data-widget="pie-simple-1"
        id="g17539">
       <rect
@@ -4477,7 +4499,7 @@ m</text>
     <g
        id="g17553"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2004"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2004"
        transform="matrix(1.2502883,0,0,1.2503571,127.65992,-17.124838)"
        class="piechart">
       <rect
@@ -4519,7 +4541,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,170.03848,-17.122412)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2005"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2005"
        data-widget="pie-simple-1"
        id="g17567">
       <rect
@@ -4561,7 +4583,7 @@ m</text>
     <g
        id="g17581"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2006"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2006"
        transform="matrix(1.2502883,0,0,1.2503571,212.64706,-17.084913)"
        class="piechart">
       <rect
@@ -4603,7 +4625,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,255.14917,-17.124462)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2007"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2007"
        data-widget="pie-simple-1"
        id="g17595">
       <rect
@@ -4645,7 +4667,7 @@ m</text>
     <g
        id="g17609"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2008"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2008"
        transform="matrix(1.2502883,0,0,1.2503571,297.70083,-17.085401)"
        class="piechart">
       <rect
@@ -4687,7 +4709,7 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,340.18949,-17.128838)"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2009"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2009"
        data-widget="pie-simple-1"
        id="g17623">
       <rect
@@ -4729,7 +4751,7 @@ m</text>
     <g
        id="g17637"
        data-widget="pie-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_pie_2010"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2010"
        transform="matrix(1.2502883,0,0,1.2503571,382.78475,-17.11626)"
        class="piechart">
       <rect
@@ -4777,9 +4799,9 @@ m</text>
        y2="585.99402" />
   </g>
   <g
-     data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Roman;font-size:5.91;' }"
+     data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;' }"
      class="axis"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#health_total_disbursements_bar"
+     data-src="http://localhost:8000/data/France/page1/#health_total_disbursements_bar"
      data-widget="axis-horizontal-grid-1"
      id="oda-disbursements-axis"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-4.9389279)">
@@ -4856,123 +4878,163 @@ m</text>
          id="text14967"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="623.9090909090909"
-         y="344.9166666666667">2000</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5332">2000</tspan>
+      </text>
       <text
          id="text14969"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="637.7272727272727"
-         y="344.9166666666667">2001</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5334">2001</tspan>
+      </text>
       <text
          id="text14971"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="651.5454545454545"
-         y="344.9166666666667">2002</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5336">2002</tspan>
+      </text>
       <text
          id="text14973"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="665.3636363636364"
-         y="344.9166666666667">2003</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5338">2003</tspan>
+      </text>
       <text
          id="text14975"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="679.1818181818181"
-         y="344.9166666666667">2004</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5340">2004</tspan>
+      </text>
       <text
          id="text14977"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="693"
-         y="344.9166666666667">2005</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5342">2005</tspan>
+      </text>
       <text
          id="text14979"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="706.8181818181818"
-         y="344.9166666666667">2006</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5344">2006</tspan>
+      </text>
       <text
          id="text14981"
          font-size="5.916666666666667"
-         text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91000000000000014;-inkscape-font-specification:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
          x="720.6363636363636"
-         y="344.9166666666667">2007</text>
+         y="344.9166666666667"
+         text-anchor="middle">2007</text>
       <text
          id="text14983"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="734.4545454545454"
-         y="344.9166666666667">2008</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5346">2008</tspan>
+      </text>
       <text
          id="text14985"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="748.2727272727273"
-         y="344.9166666666667">2009</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5348">2009</tspan>
+      </text>
       <text
          id="text14987"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="762.0909090909091"
-         y="344.9166666666667">2010</text>
+         y="344.9166666666667">
+        <tspan
+           style="-inkscape-font-specification:Myriad Pro;font-family:Myriad Pro;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+           id="tspan5350">2010</tspan>
+      </text>
       <text
          id="text14989"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="338"
          x="615">0</text>
       <text
          id="text14991"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="324.6710428944133"
          x="615">100</text>
       <text
          id="text14993"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="311.3420857888265"
          x="615">200</text>
       <text
          id="text14995"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="298.0131286832398"
          x="615">300</text>
       <text
          id="text14997"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="284.6841715776531"
          x="615">400</text>
       <text
          id="text14999"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="271.35521447206634"
          x="615">500</text>
     </g>
   </g>
   <g
-     data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Roman;font-size:5.91;' }"
+     data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;' }"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-149.98035)"
      id="oda-commitments-axis"
      data-widget="axis-horizontal-grid-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#health_total_commitments_bar"
+     data-src="http://localhost:8000/data/France/page1/#health_total_commitments_bar"
      class="axis">
     <rect
        opacity="0"
@@ -5047,113 +5109,113 @@ m</text>
          id="text15020"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="623.9090909090909"
          y="344.9166666666667">2000</text>
       <text
          id="text15022"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="637.7272727272727"
          y="344.9166666666667">2001</text>
       <text
          id="text15024"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="651.5454545454545"
          y="344.9166666666667">2002</text>
       <text
          id="text15026"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="665.3636363636364"
          y="344.9166666666667">2003</text>
       <text
          id="text15028"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="679.1818181818181"
          y="344.9166666666667">2004</text>
       <text
          id="text15030"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="693"
          y="344.9166666666667">2005</text>
       <text
          id="text15032"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="706.8181818181818"
          y="344.9166666666667">2006</text>
       <text
          id="text15034"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="720.6363636363636"
          y="344.9166666666667">2007</text>
       <text
          id="text15036"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="734.4545454545454"
          y="344.9166666666667">2008</text>
       <text
          id="text15038"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="748.2727272727273"
          y="344.9166666666667">2009</text>
       <text
          id="text15040"
          font-size="5.916666666666667"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="762.0909090909091"
          y="344.9166666666667">2010</text>
       <text
          id="text15042"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="338"
          x="615">0</text>
       <text
          id="text15044"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="325.97694128497363"
          x="615">100</text>
       <text
          id="text15046"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="313.95388256994727"
          x="615">200</text>
       <text
          id="text15048"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="301.93082385492096"
          x="615">300</text>
       <text
          id="text15050"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="289.9077651398946"
          x="615">400</text>
       <text
          id="text15052"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="277.8847064248682"
          x="615">500</text>
     </g>
@@ -5161,9 +5223,9 @@ m</text>
   <g
      id="oda-disbursements-bar"
      data-widget="bar-rounded-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#health_total_disbursements_bar"
+     data-src="http://localhost:8000/data/France/page1/#health_total_disbursements_bar"
      class="barchart"
-     data-style="{ &quot;bar&quot;: &quot;fill:#df7627;&quot;, &quot;label&quot;: &quot;font-family:Myriad Roman;fill:#df7627;&quot; }"
+     data-style="{ &quot;bar&quot;: &quot;fill:#df7627;&quot;, &quot;label&quot;: &quot;font-family:Myriad Pro;fill:#df7627;&quot; }"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-4.9389279)">
     <rect
        opacity="0"
@@ -5239,7 +5301,7 @@ m</text>
          x="623.84"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label0">74.15</text>
       <text
          id="text15081"
@@ -5247,7 +5309,7 @@ m</text>
          x="637.6581818181819"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label1">232.31</text>
       <text
          id="text15083"
@@ -5255,7 +5317,7 @@ m</text>
          x="651.4763636363637"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label2">222.13</text>
       <text
          id="text15085"
@@ -5263,7 +5325,7 @@ m</text>
          x="665.2945454545455"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label3">246.24</text>
       <text
          id="text15087"
@@ -5271,7 +5333,7 @@ m</text>
          x="679.1127272727273"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label4">294.79</text>
       <text
          id="text15089"
@@ -5279,7 +5341,7 @@ m</text>
          x="692.9309090909092"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label5">304.50</text>
       <text
          id="text15091"
@@ -5287,7 +5349,7 @@ m</text>
          x="706.7490909090909"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label6">323.91</text>
       <text
          id="text15093"
@@ -5295,7 +5357,7 @@ m</text>
          x="720.5672727272728"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label7">102.65</text>
       <text
          id="text15095"
@@ -5303,7 +5365,7 @@ m</text>
          x="734.3854545454545"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label8">339.63</text>
       <text
          id="text15097"
@@ -5311,7 +5373,7 @@ m</text>
          x="748.2036363636364"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label9">344.41</text>
       <text
          id="text15099"
@@ -5319,17 +5381,17 @@ m</text>
          x="762.0218181818183"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#df7627;"
+         style="font-family:Myriad Pro;fill:#df7627;"
          class="bargraph bar label label10">443.90</text>
     </g>
   </g>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-149.98035)"
      class="barchart"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#health_total_commitments_bar"
+     data-src="http://localhost:8000/data/France/page1/#health_total_commitments_bar"
      data-widget="bar-rounded-1"
      id="oda-commitments-bar"
-     data-style="{ 'bar': 'fill:#0093d5;', 'label': 'font-family:Myriad Roman;fill:#0093d5;' }">
+     data-style="{ 'bar': 'fill:#0093d5;', 'label': 'font-family:Myriad Pro;fill:#0093d5;' }">
     <rect
        opacity="0"
        style="opacity:0;visibility:hidden"
@@ -5404,7 +5466,7 @@ m</text>
          x="623.84"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label0">124.75</text>
       <text
          id="text15128"
@@ -5412,7 +5474,7 @@ m</text>
          x="637.6581818181819"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label1">259.68</text>
       <text
          id="text15130"
@@ -5420,7 +5482,7 @@ m</text>
          x="651.4763636363637"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label2">257.89</text>
       <text
          id="text15132"
@@ -5428,7 +5490,7 @@ m</text>
          x="665.2945454545455"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label3">265.87</text>
       <text
          id="text15134"
@@ -5436,7 +5498,7 @@ m</text>
          x="679.1127272727273"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label4">370.08</text>
       <text
          id="text15136"
@@ -5444,7 +5506,7 @@ m</text>
          x="692.9309090909092"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label5">234.91</text>
       <text
          id="text15138"
@@ -5452,7 +5514,7 @@ m</text>
          x="706.7490909090909"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label6">372.32</text>
       <text
          id="text15140"
@@ -5460,7 +5522,7 @@ m</text>
          x="720.5672727272728"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label7">158.26</text>
       <text
          id="text15142"
@@ -5468,7 +5530,7 @@ m</text>
          x="734.3854545454545"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label8">377.06</text>
       <text
          id="text15144"
@@ -5476,7 +5538,7 @@ m</text>
          x="748.2036363636364"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label9">337.90</text>
       <text
          id="text15146"
@@ -5484,14 +5546,14 @@ m</text>
          x="762.0218181818183"
          font-size="4.1454545454545455"
          text-anchor="middle"
-         style="font-family:Myriad Roman;fill:#0093d5;"
+         style="font-family:Myriad Pro;fill:#0093d5;"
          class="bargraph bar label label10">492.11</text>
     </g>
   </g>
   <g
      id="oda-commitments-arrow"
      data-widget="arrow-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_commitments"
+     data-src="http://localhost:8000/data/France/page1/#arrow_commitments"
      class="barchart"
      transform="matrix(0.16451162,0,0,0.31699195,876.56913,143.83575)">
     <rect
@@ -5517,7 +5579,7 @@ m</text>
   <g
      transform="matrix(0.16451162,0,0,0.31699195,876.56913,289.83063)"
      class="barchart"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#arrow_disbursements"
+     data-src="http://localhost:8000/data/France/page1/#arrow_disbursements"
      data-widget="arrow-simple-1"
      id="g8619">
     <rect
@@ -5542,7 +5604,7 @@ m</text>
   </g>
   <g
      class="table"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table.data"
+     data-src="http://localhost:8000/data/France/page1/#purpose_commitments_table.data"
      data-widget="table-alignondot-1"
      id="g24934"
      transform="matrix(1.2502883,0,0,1.2503571,3.7745637,-4.9389279)">
@@ -6610,7 +6672,7 @@ m</text>
   <g
      id="g56399"
      data-widget="table-alignondot-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_table.data"
+     data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_table.data"
      class="table"
      transform="matrix(1.2502883,0,0,1.2503571,3.7223571,131.6057)">
     <rect
@@ -7780,7 +7842,7 @@ m</text>
     <text
        transform="matrix(0.88780002,0,0,1,23.3271,84.439911)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2786">in Million constant 2009 US$</text>
+       id="text2786">in Million constant 2010 US$</text>
     <rect
        x="23.327"
        y="92.378998"
@@ -7900,7 +7962,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,163.5625,84.413611)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2820">2000</text>
+       id="text2820">2001</text>
     <rect
        x="187.326"
        y="79.737999"
@@ -7912,7 +7974,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,197.5757,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2824">2001</text>
+       id="text2824">2002</text>
     <rect
        x="221.342"
        y="79.737999"
@@ -7924,7 +7986,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,231.5913,84.481411)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2828">2002</text>
+       id="text2828">2003</text>
     <rect
        x="255.35699"
        y="79.737999"
@@ -7936,7 +7998,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,265.6069,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2832">2003</text>
+       id="text2832">2004</text>
     <rect
        x="289.37299"
        y="79.737999"
@@ -7948,7 +8010,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,299.62261,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2836">2004</text>
+       id="text2836">2005</text>
     <rect
        x="323.367"
        y="79.737999"
@@ -7960,7 +8022,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,333.61671,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2840">2005</text>
+       id="text2840">2006</text>
     <rect
        x="357.383"
        y="79.737999"
@@ -7972,7 +8034,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,367.63231,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2844">2006</text>
+       id="text2844">2007</text>
     <rect
        x="391.39999"
        y="79.737999"
@@ -7984,7 +8046,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,401.64891,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2848">2007</text>
+       id="text2848">2008</text>
     <rect
        x="425.41599"
        y="79.737999"
@@ -7996,7 +8058,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,435.66411,84.481411)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2852">2008</text>
+       id="text2852">2009</text>
     <rect
        x="459.43201"
        y="79.737999"
@@ -8008,7 +8070,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,469.67971,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2856">2009</text>
+       id="text2856">2010</text>
     <rect
        x="493.44501"
        y="79.737999"
@@ -8020,7 +8082,7 @@ m</text>
     <text
        transform="matrix(0.95130002,0,0,1,503.69531,84.478011)"
        style="font-size:7px;fill:#0093d5;font-family:Calibri"
-       id="text2860">2010</text>
+       id="text2860">2011</text>
     <rect
        x="153.311"
        y="92.144997"
@@ -8305,7 +8367,7 @@ m</text>
     </g>
     <g
        class="table"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#disbursements_table"
+       data-src="http://localhost:8000/data/France/page1/#disbursements_table"
        data-widget="table-alignondot-1"
        id="g16463"
        transform="translate(-42.874539,-86)">
@@ -9186,7 +9248,7 @@ m</text>
        x="23.566504"
        transform="matrix(0.94223143,0,0,1.0613104,0,9.4696601e-6)"
        style="font-size:6.59561968px;fill:#0093d5;font-family:Calibri"
-       id="text2186">in Million constant 2009 US$</text>
+       id="text2186">in Million constant 2010 US$</text>
     <rect
        x="22.205"
        y="407.31799"
@@ -9256,7 +9318,7 @@ m</text>
        x="23.636974"
        transform="matrix(0.94223143,0,0,1.0613104,0,9.4696601e-6)"
        style="font-size:6.59561968px;fill:#58595b;font-family:Calibri"
-       id="text2206">Global and Multi-Country</text>
+       id="text2206">Part I unallocated by income</text>
     <rect
        id="col2_1_"
        x="113.332"
@@ -9318,7 +9380,7 @@ m</text>
        x="126.69185"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2216">2000</text>
+       id="text2216">2001</text>
     <rect
        x="147.33701"
        y="395.53299"
@@ -9332,7 +9394,7 @@ m</text>
        x="161.56726"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2220">2001</text>
+       id="text2220">2002</text>
     <rect
        x="181.353"
        y="395.53299"
@@ -9346,7 +9408,7 @@ m</text>
        x="196.44267"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2224">2002</text>
+       id="text2224">2003</text>
     <rect
        x="215.368"
        y="395.53299"
@@ -9360,7 +9422,7 @@ m</text>
        x="231.3181"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2228">2003</text>
+       id="text2228">2004</text>
     <rect
        x="249.384"
        y="395.53299"
@@ -9374,7 +9436,7 @@ m</text>
        x="266.1936"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2232">2004</text>
+       id="text2232">2005</text>
     <rect
        x="283.37799"
        y="395.53299"
@@ -9388,7 +9450,7 @@ m</text>
        x="301.047"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2236">2005</text>
+       id="text2236">2006</text>
     <rect
        x="317.39401"
        y="395.53299"
@@ -9402,7 +9464,7 @@ m</text>
        x="335.92239"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2240">2006</text>
+       id="text2240">2007</text>
     <rect
        x="351.41101"
        y="395.53299"
@@ -9416,7 +9478,7 @@ m</text>
        x="370.79883"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2244">2007</text>
+       id="text2244">2008</text>
     <rect
        x="385.427"
        y="395.53299"
@@ -9430,7 +9492,7 @@ m</text>
        x="405.67435"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2248">2008</text>
+       id="text2248">2009</text>
     <rect
        x="419.44199"
        y="395.53299"
@@ -9444,7 +9506,7 @@ m</text>
        x="440.54977"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2252">2009</text>
+       id="text2252">2010</text>
     <rect
        x="453.45599"
        y="395.53299"
@@ -9458,7 +9520,7 @@ m</text>
        x="475.42416"
        transform="matrix(0.9753461,0,0,1.0252771,0,9.4696601e-6)"
        style="font-size:6.82742262px;fill:#0093d5;font-family:Calibri"
-       id="text2256">2010</text>
+       id="text2256">2011</text>
     <rect
        x="113.576"
        y="418.42599"
@@ -9884,7 +9946,7 @@ m</text>
     <g
        id="g22825"
        data-widget="table-alignondot-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_table"
+       data-src="http://localhost:8000/data/France/page1/#by_income_table"
        class="table"
        transform="translate(3.4846727,103.20449)">
       <rect
@@ -11301,7 +11363,7 @@ m</text>
   <g
      id="g26076"
      data-widget="table-alignondot-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_table"
+     data-src="http://localhost:8000/data/France/page1/#by_region_table"
      class="table"
      transform="matrix(1.2502883,0,0,1.2503571,4.3544411,126.60427)">
     <rect
@@ -13566,7 +13628,7 @@ m</text>
        x="-9.5795393"
        transform="matrix(0,-1.0000275,0.9999725,0,0,0)"
        style="font-size:6.25161362px;fill:#595a5c;font-family:Calibri"
-       id="text502">(in Million constant 2009 US$)</text>
+       id="text502">(in Million constant 2010 US$)</text>
     <g
        transform="translate(0,-0.3330548)"
        id="g56697">
@@ -13628,10 +13690,10 @@ m</text>
     </g>
     <g
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-149.12453)"
-       data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Roman;font-size:5.91;' }"
+       data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;' }"
        id="g46128"
        data-widget="axis-horizontal-grid-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#disbursements_graph.other"
+       data-src="http://localhost:8000/data/France/page1/#disbursements_graph.other"
        class="axis">
       <rect
          opacity="0"
@@ -13706,123 +13768,123 @@ m</text>
            id="text17511"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="629.4964398470792"
            y="125.00881385803223">2000</text>
         <text
            id="text17513"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="646.6780402443626"
            y="125.00881385803223">2001</text>
         <text
            id="text17515"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="663.8596406416459"
            y="125.00881385803223">2002</text>
         <text
            id="text17517"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="681.0412410389293"
            y="125.00881385803223">2003</text>
         <text
            id="text17519"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="698.2228414362127"
            y="125.00881385803223">2004</text>
         <text
            id="text17521"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="715.4044418334961"
            y="125.00881385803223">2005</text>
         <text
            id="text17523"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="732.5860422307794"
            y="125.00881385803223">2006</text>
         <text
            id="text17525"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="749.7676426280628"
            y="125.00881385803223">2007</text>
         <text
            id="text17527"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="766.9492430253462"
            y="125.00881385803223">2008</text>
         <text
            id="text17529"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="784.1308434226296"
            y="125.00881385803223">2009</text>
         <text
            id="text17531"
            font-size="4.401193618774414"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="801.312443819913"
            y="125.00881385803223">2010</text>
         <text
            id="text17533"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="119.60762023925781"
            x="618.9056396484375">0</text>
         <text
            id="text17535"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="110.1479159924127"
            x="618.9056396484375">2000</text>
         <text
            id="text17537"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="100.6882117455676"
            x="618.9056396484375">4000</text>
         <text
            id="text17539"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="91.2285074987225"
            x="618.9056396484375">6000</text>
         <text
            id="text17541"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="81.76880325187739"
            x="618.9056396484375">8000</text>
         <text
            id="text17543"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="72.30909900503228"
            x="618.9056396484375">10000</text>
       </g>
     </g>
     <g
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-149.12453)"
-       data-style="{ 'bar': 'fill:#df7627;', 'label': 'font-family:Myriad Roman;fill:#df7627;font-size:4;' }"
+       data-style="{ 'bar': 'fill:#df7627;', 'label': 'font-family:Myriad Pro;fill:#df7627;font-size:4;' }"
        id="g74306"
        data-widget="bar-rounded-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#disbursements_graph.total"
+       data-src="http://localhost:8000/data/France/page1/#disbursements_graph.total"
        class="barchart">
       <rect
          opacity="0"
@@ -13898,7 +13960,7 @@ m</text>
            x="629.4070644378662"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label0">74.15</text>
         <text
            id="text17572"
@@ -13906,7 +13968,7 @@ m</text>
            x="646.5885649594394"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label1">232.31</text>
         <text
            id="text17574"
@@ -13914,7 +13976,7 @@ m</text>
            x="663.7700654810125"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label2">222.13</text>
         <text
            id="text17576"
@@ -13922,7 +13984,7 @@ m</text>
            x="680.9515660025857"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label3">246.24</text>
         <text
            id="text17578"
@@ -13930,7 +13992,7 @@ m</text>
            x="698.1330665241588"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label4">294.79</text>
         <text
            id="text17580"
@@ -13938,7 +14000,7 @@ m</text>
            x="715.314567045732"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label5">304.50</text>
         <text
            id="text17582"
@@ -13946,7 +14008,7 @@ m</text>
            x="732.4960675673051"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label6">323.91</text>
         <text
            id="text17584"
@@ -13954,7 +14016,7 @@ m</text>
            x="749.6775680888783"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label7">102.65</text>
         <text
            id="text17586"
@@ -13962,7 +14024,7 @@ m</text>
            x="766.8590686104515"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label8">339.63</text>
         <text
            id="text17588"
@@ -13970,7 +14032,7 @@ m</text>
            x="784.0405691320246"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label9">344.41</text>
         <text
            id="text17590"
@@ -13978,17 +14040,17 @@ m</text>
            x="801.2220696535978"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#df7627;font-size:4;"
+           style="font-family:Myriad Pro;fill:#df7627;font-size:4;"
            class="bargraph bar label label10">443.90</text>
       </g>
     </g>
     <g
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-149.12453)"
        class="barchart"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#disbursements_graph.other"
+       data-src="http://localhost:8000/data/France/page1/#disbursements_graph.other"
        data-widget="bar-rounded-1"
        id="g46078"
-       data-style="{ 'bar': 'fill:#62a73b;', 'label': 'font-family:Myriad Roman;fill:#ffffff;font-size:4;', 'label-position': 'bottom' }">
+       data-style="{ 'bar': 'fill:#62a73b;', 'label': 'font-family:Myriad Pro;fill:#ffffff;font-size:4;', 'label-position': 'bottom' }">
       <rect
          opacity="0"
          visibility="hidden"
@@ -14063,7 +14125,7 @@ m</text>
            x="629.4070644378662"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label0">3,296.74</text>
         <text
            id="text17619"
@@ -14071,7 +14133,7 @@ m</text>
            x="646.5885649594394"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label1">4,178.27</text>
         <text
            id="text17621"
@@ -14079,7 +14141,7 @@ m</text>
            x="663.7700654810125"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label2">6,490.20</text>
         <text
            id="text17623"
@@ -14087,7 +14149,7 @@ m</text>
            x="680.9515660025857"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label3">8,241.05</text>
         <text
            id="text17625"
@@ -14095,7 +14157,7 @@ m</text>
            x="698.1330665241588"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label4">5,995.20</text>
         <text
            id="text17627"
@@ -14103,7 +14165,7 @@ m</text>
            x="715.314567045732"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label5">8,969.31</text>
         <text
            id="text17629"
@@ -14111,7 +14173,7 @@ m</text>
            x="732.4960675673051"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label6">8,981.24</text>
         <text
            id="text17631"
@@ -14119,7 +14181,7 @@ m</text>
            x="749.6775680888783"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label7">7,125.12</text>
         <text
            id="text17633"
@@ -14127,7 +14189,7 @@ m</text>
            x="766.8590686104515"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label8">6,607.00</text>
         <text
            id="text17635"
@@ -14135,7 +14197,7 @@ m</text>
            x="784.0405691320246"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label9">7,265.06</text>
         <text
            id="text17637"
@@ -14143,7 +14205,7 @@ m</text>
            x="801.2220696535978"
            font-size="5.154450156471946"
            text-anchor="middle"
-           style="font-family:Myriad Roman;fill:#ffffff;font-size:4;"
+           style="font-family:Myriad Pro;fill:#ffffff;font-size:4;"
            class="bargraph bar label label10">8,220.52</text>
       </g>
     </g>
@@ -14250,10 +14312,10 @@ m</text>
          id="text721">(in Million constant 2009 US$)</text>
     </g>
     <g
-       data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Roman;font-size:5.91;' }"
+       data-style="{ 'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5', 'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;' }"
        transform="translate(0,-6)"
        class="axis"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.0"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.0"
        data-widget="axis-horizontal-grid-1"
        id="g90796">
       <rect
@@ -14315,101 +14377,101 @@ m</text>
            id="text17670"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="629.5018796053799"
            y="461.549111366272">2000</text>
         <text
            id="text17672"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="646.6786124489524"
            y="461.549111366272">2001</text>
         <text
            id="text17674"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="663.8553452925248"
            y="461.549111366272">2002</text>
         <text
            id="text17676"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="681.0320781360973"
            y="461.549111366272">2003</text>
         <text
            id="text17678"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="698.2088109796697"
            y="461.549111366272">2004</text>
         <text
            id="text17680"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="715.3855438232422"
            y="461.549111366272">2005</text>
         <text
            id="text17682"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="732.5622766668146"
            y="461.549111366272">2006</text>
         <text
            id="text17684"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="749.7390095103871"
            y="461.549111366272">2007</text>
         <text
            id="text17686"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="766.9157423539594"
            y="461.549111366272">2008</text>
         <text
            id="text17688"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="784.0924751975319"
            y="461.549111366272">2009</text>
         <text
            id="text17690"
            font-size="5.324963569641113"
            text-anchor="middle"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            x="801.2692080411044"
            y="461.549111366272">2010</text>
         <text
            id="text17692"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="455.22414779663086"
            x="618.9135131835938">0</text>
         <text
            id="text17694"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="436.0654676151488"
            x="618.9135131835938">100</text>
         <text
            id="text17696"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="416.9067874336668"
            x="618.9135131835938">200</text>
         <text
            id="text17698"
            text-anchor="end"
-           style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+           style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
            y="397.7481072521848"
            x="618.9135131835938">300</text>
       </g>
@@ -14419,7 +14481,7 @@ m</text>
        data-style="{  'line': 'stroke:#0093d5;stroke-width:1;fill-opacity:0;' }"
        id="g97441"
        data-widget="line-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.0"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.0"
        class="linechart">
       <rect
          opacity="0"
@@ -14444,7 +14506,7 @@ m</text>
     <g
        transform="translate(0,-6)"
        class="linechart"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.1"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.1"
        data-widget="line-simple-1"
        id="g107401"
        data-style="{  'line': 'stroke:#cf3d96;stroke-width:1;fill-opacity:0;' }">
@@ -14473,7 +14535,7 @@ m</text>
        data-style="{  'line': 'stroke:#62a73b;stroke-width:1;fill-opacity:0;' }"
        id="g107409"
        data-widget="line-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.2"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.2"
        class="linechart">
       <rect
          opacity="0"
@@ -14498,7 +14560,7 @@ m</text>
     <g
        transform="translate(0,-6)"
        class="linechart"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.3"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.3"
        data-widget="line-simple-1"
        id="g107417"
        data-style="{  'line': 'stroke:#79317f;stroke-width:1;fill-opacity:0;' }">
@@ -14527,7 +14589,7 @@ m</text>
        data-style="{  'line': 'stroke:#df7627;stroke-width:1;fill-opacity:0;' }"
        id="g107425"
        data-widget="line-simple-1"
-       data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_income_graph.4"
+       data-src="http://localhost:8000/data/France/page1/#by_income_graph.4"
        class="linechart">
       <rect
          opacity="0"
@@ -14553,10 +14615,10 @@ m</text>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)"
      class="axis"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.afr"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.afr"
      data-widget="axis-horizontal-grid-1"
      id="g94072"
-     data-style="{      'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5',      'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5',      'text': 'fill:#595a5c;font-family:Myriad Roman;font-size:5.91;'  }">
+     data-style="{      'axis': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5',      'grid': 'stroke:#231f20;stroke-width:0.25;stroke-linecap:round;stroke-dasharray:0, 0.5',      'text': 'fill:#595a5c;font-family:Myriad Pro;font-size:5.91;'  }">
     <rect
        opacity="0"
        visibility="hidden"
@@ -14616,101 +14678,101 @@ m</text>
          id="text17740"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="629.5018796053799"
          y="486.5118471781413">2000</text>
       <text
          id="text17742"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="646.6786124489524"
          y="486.5118471781413">2001</text>
       <text
          id="text17744"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="663.8553452925248"
          y="486.5118471781413">2002</text>
       <text
          id="text17746"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="681.0320781360973"
          y="486.5118471781413">2003</text>
       <text
          id="text17748"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="698.2088109796697"
          y="486.5118471781413">2004</text>
       <text
          id="text17750"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="715.3855438232422"
          y="486.5118471781413">2005</text>
       <text
          id="text17752"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="732.5622766668146"
          y="486.5118471781413">2006</text>
       <text
          id="text17754"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="749.7390095103871"
          y="486.5118471781413">2007</text>
       <text
          id="text17756"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="766.9157423539594"
          y="486.5118471781413">2008</text>
       <text
          id="text17758"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="784.0924751975319"
          y="486.5118471781413">2009</text>
       <text
          id="text17760"
          font-size="7.684408823649089"
          text-anchor="middle"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          x="801.2692080411044"
          y="486.5118471781413">2010</text>
       <text
          id="text17762"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="477.8274383544922"
          x="618.9135131835938">0</text>
       <text
          id="text17764"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="450.17971286104364"
          x="618.9135131835938">100</text>
       <text
          id="text17766"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="422.5319873675951"
          x="618.9135131835938">200</text>
       <text
          id="text17768"
          text-anchor="end"
-         style="fill:#595a5c;font-family:Myriad Roman;font-size:5.91;"
+         style="fill:#595a5c;font-family:Myriad Pro;font-size:5.91;"
          y="394.88426187414655"
          x="618.9135131835938">300</text>
     </g>
@@ -14719,7 +14781,7 @@ m</text>
      data-style="{  'line': 'stroke:#df7627;stroke-width:1;fill-opacity:0;' }"
      id="g97483"
      data-widget="line-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.afr"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.afr"
      class="linechart"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)">
     <rect
@@ -14745,7 +14807,7 @@ m</text>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)"
      class="linechart"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.amr"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.amr"
      data-widget="line-simple-1"
      id="g110763"
      data-style="{  'line': 'stroke:#62a73b;stroke-width:1;fill-opacity:0;' }">
@@ -14773,7 +14835,7 @@ m</text>
      data-style="{  'line': 'stroke:#79317f;stroke-width:1;fill-opacity:0;' }"
      id="g51427"
      data-widget="line-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.emr"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.emr"
      class="linechart"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)">
     <rect
@@ -14800,7 +14862,7 @@ m</text>
      data-style="{  'line': 'stroke:#c53254;stroke-width:1;fill-opacity:0;' }"
      id="g110771"
      data-widget="line-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.eur"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.eur"
      class="linechart"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)">
     <rect
@@ -14826,7 +14888,7 @@ m</text>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.33776)"
      class="linechart"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.sear"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.sear"
      data-widget="line-simple-1"
      id="g110779"
      data-style="{  'line': 'stroke:#c1b400;stroke-width:1;fill-opacity:0;' }">
@@ -14854,7 +14916,7 @@ m</text>
      data-style="{  'line': 'stroke:#f1b821;stroke-width:1;fill-opacity:0;' }"
      id="g110787"
      data-widget="line-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.wpr"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.wpr"
      class="linechart"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)">
     <rect
@@ -14880,7 +14942,7 @@ m</text>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.62445)"
      class="linechart"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.multi"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.multi"
      data-widget="line-simple-1"
      id="g110795"
      data-style="{  'line': 'stroke:#cf3d96;stroke-width:1;fill-opacity:0;' }">
@@ -14908,7 +14970,7 @@ m</text>
      data-style="{  'line': 'stroke:#0093d5;stroke-width:1;fill-opacity:0;' }"
      id="g110803"
      data-widget="line-simple-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#by_region_graph.other"
+     data-src="http://localhost:8000/data/France/page1/#by_region_graph.other"
      class="linechart"
      transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,117.56033)">
     <rect
@@ -14934,7 +14996,7 @@ m</text>
   <g
      id="g4937"
      data-widget="table-alignondot-1"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_commitments_table.totals"
+     data-src="http://localhost:8000/data/France/page1/#purpose_commitments_table.totals"
      class="table"
      transform="matrix(1.2502883,0,0,1.2503571,3.7745637,-4.9389279)"
      data-style="{ 'text': 'fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;' }">
@@ -15235,7 +15297,7 @@ m</text>
   <g
      transform="matrix(1.2502883,0,0,1.2503571,3.7223571,171.61713)"
      class="table"
-     data-src="http://widgetlabs.acscomputers.co.za/who-scorecards/data/France/page1/#purpose_disbursements_table.totals"
+     data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_table.totals"
      data-widget="table-alignondot-1"
      id="g27220"
      data-style="{ 'text': 'fill:#000000;font-family:Calibri;font-size:7;font-weight:bold;' }">
