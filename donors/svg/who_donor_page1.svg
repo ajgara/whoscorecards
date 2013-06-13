@@ -17,7 +17,7 @@
    space="preserve"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="who_donor_page1.svg">
+   sodipodi:docname="who_donor_page1.pdf">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -31,13 +31,13 @@
      inkscape:window-height="1056"
      id="namedview3002"
      showgrid="false"
-     inkscape:zoom="2.0373214"
-     inkscape:cx="649.03379"
-     inkscape:cy="423.4321"
+     inkscape:zoom="8.1492856"
+     inkscape:cx="290.28132"
+     inkscape:cy="666.78367"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2"
+     inkscape:current-layer="Background"
      showguides="true"
      inkscape:guide-bbox="true" />
   <metadata
@@ -777,6 +777,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1068,6 +1069,18 @@
        y="-136.34593"
        x="1031.2397"
        id="vertical_x5F_line" />
+    <text
+       transform="scale(0.9999725,1.0000275)"
+       data-src="http://localhost:8000/data/France/page1/#country_name"
+       data-widget="text"
+       y="-92.005966"
+       x="417.73016"
+       style="font-size:42.51097488px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers LT 49 LightUltraCn;-inkscape-font-specification:Univers LT 49 LightUltraCn"
+       id="_countryname-9">
+      <tspan
+         style="font-size:32px"
+         id="tspan5410">2001-2011</tspan>
+    </text>
   </g>
   <g
      transform="translate(0,148.81446)"
@@ -1547,6 +1560,7 @@
 
 
 
+
 m</text>
         <text
            id="text482"
@@ -1581,6 +1595,7 @@ m</text>
    data-src="http://localhost:8000/data/France/page1/#arrow_disbursements_text"
    style="text-align:center;text-anchor:middle"
    transform="matrix(1.3835206,0,0,1.3835206,-304.69707,-127.03063)">99.49</tspan>
+
 
 
 

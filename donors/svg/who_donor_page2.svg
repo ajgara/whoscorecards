@@ -15,7 +15,7 @@
    width="1052.3625"
    height="744.1"
    space="preserve"
-   sodipodi:docname="who_donor_page2.svg">
+   sodipodi:docname="who_donor_page2.pdf">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -25,16 +25,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="927"
-     inkscape:window-height="1027"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      id="namedview17785"
      showgrid="false"
-     inkscape:zoom="1.0186603"
-     inkscape:cx="934.82395"
-     inkscape:cy="-95.440566"
-     inkscape:window-x="66"
+     inkscape:zoom="1.4406032"
+     inkscape:cx="478.94067"
+     inkscape:cy="726.86376"
+     inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="g17791" />
   <metadata
      id="metadata17789">
@@ -296,6 +296,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -10518,6 +10519,18 @@
          style="text-align:justify;line-height:139.99999762%;marker:none"
          id="path8570" />
     </g>
+    <text
+       transform="scale(0.9999725,-1.0000275)"
+       data-src="http://localhost:8000/data/France/page1/#country_name"
+       data-widget="text"
+       y="-552.716"
+       x="318.23181"
+       style="font-size:34.00878143px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers LT 49 LightUltraCn;-inkscape-font-specification:Univers LT 49 LightUltraCn"
+       id="_countryname-9">
+      <tspan
+         style="font-size:25.60000038px"
+         id="tspan6633">2001-2011</tspan>
+    </text>
   </g>
   <g
      id="g5086"
