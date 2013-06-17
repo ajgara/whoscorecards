@@ -17,7 +17,7 @@
    space="preserve"
    id="svg2"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="who_donor_page1.pdf">
+   sodipodi:docname="who_donor_page1.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -31,9 +31,9 @@
      inkscape:window-height="1056"
      id="namedview3002"
      showgrid="false"
-     inkscape:zoom="8.1492856"
-     inkscape:cx="290.28132"
-     inkscape:cy="666.78367"
+     inkscape:zoom="1.4406038"
+     inkscape:cx="452.59584"
+     inkscape:cy="594.27031"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -777,7 +777,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1071,10 +1071,8 @@
        id="vertical_x5F_line" />
     <text
        transform="scale(0.9999725,1.0000275)"
-       data-src="http://localhost:8000/data/France/page1/#country_name"
-       data-widget="text"
        y="-92.005966"
-       x="417.73016"
+       x="275.7262"
        style="font-size:42.51097488px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers LT 49 LightUltraCn;-inkscape-font-specification:Univers LT 49 LightUltraCn"
        id="_countryname-9">
       <tspan
@@ -1561,6 +1559,9 @@
 
 
 
+
+
+
 m</text>
         <text
            id="text482"
@@ -1595,6 +1596,9 @@ m</text>
    data-src="http://localhost:8000/data/France/page1/#arrow_disbursements_text"
    style="text-align:center;text-anchor:middle"
    transform="matrix(1.3835206,0,0,1.3835206,-304.69707,-127.03063)">99.49</tspan>
+
+
+
 
 
 
@@ -3006,11 +3010,10 @@ m</text>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-42.481819,-153.75338)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2000"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2001"
        data-widget="pie-simple-1"
        id="pie1">
       <rect
-         opacity="0"
          id="rect4515"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -3020,29 +3023,33 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g4517"
          class="widget-content">
         <path
            id="path14575"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M9.287982711657175,6.9934885725126295A11.626500129699707,11.626500129699707 0 0,1 -10.98827428334613,3.799122732929458L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 9.2879827,6.9934886 A 11.6265,11.6265 0 0 1 -10.988274,3.7991227 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14577"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-10.98827428334613,3.799122732929458A11.626500129699707,11.626500129699707 0 0,1 -1.1037668864571075,-11.57398824633359L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -10.988274,3.7991227 A 11.6265,11.6265 0 0 1 -1.1037669,-11.573988 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14579"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 9.287982711657175,6.9934885725126295L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 0 1 9.2879827,6.9934886 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14581"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-1.1037668864571075,-11.57398824633359A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -1.1037669,-11.573988 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
@@ -3926,11 +3933,10 @@ m</text>
     <g
        id="g33306"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2001"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2002"
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-153.75338)">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -3942,37 +3948,40 @@ m</text>
       <g
          class="widget-content"
          id="g33310"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14719"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.034661237153285,-3.6622065271054853L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -11.034661,7.9642935 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14721"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.034661237153285,-3.6622065271054853A11.626500129699707,11.626500129699707 0 0,1 -6.861581285646715,-9.385851454522923L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -11.034661,-3.6622065 a 11.6265,11.6265 0 0 1 4.1730797,-5.723645 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14723"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-6.861581285646715,-9.385851454522923A11.626500129699707,11.626500129699707 0 0,1 -0.2644070019057663,-11.623493201411119L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -6.8615813,-9.3858515 A 11.6265,11.6265 0 0 1 -0.264407,-11.623493 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14725"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.2644070019057663,-11.623493201411119A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.264407,-11.623493 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2002"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2003"
        data-widget="pie-simple-1"
        id="g33320"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-153.75338)">
       <rect
-         opacity="0"
          id="rect33322"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -3982,39 +3991,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(277.0860872268677,249.8816270828247)"
+         transform="translate(277.08609,249.88163)"
          id="g33324"
          class="widget-content">
         <path
            id="path14730"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.562899958670794,-1.2144339470215009L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -11.5629,-1.2144339 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14732"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-6.6105797528935755,-9.564295091460782A11.626500129699707,11.626500129699707 0 0,1 -0.21949063992600337,-11.624428120337454L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -6.6105798,-9.5642951 a 11.6265,11.6265 0 0 1 6.39108916,-2.0601329 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14734"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.562899958670794,-1.2144339470215009A11.626500129699707,11.626500129699707 0 0,1 -6.6105797528935755,-9.564295091460782L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -11.5629,-1.2144339 a 11.6265,11.6265 0 0 1 4.9523202,-8.3498612 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14736"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.21949063992600337,-11.624428120337454A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.21949064,-11.624428 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g33334"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2003"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2004"
        transform="matrix(1.2502883,0,0,1.2503571,84.998494,-153.75338)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4026,37 +4038,40 @@ m</text>
       <g
          class="widget-content"
          id="g33338"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14741"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -9.046562131554907,-7.30309652584601L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -9.0465621,4.3234035 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14743"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-3.918806484269922,-10.946161930318377A11.626500129699707,11.626500129699707 0 0,1 -0.12785180970868118,-11.625797141730176L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -3.9188065,-10.946162 a 11.6265,11.6265 0 0 1 3.79095469,-0.679635 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14745"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.046562131554907,-7.30309652584601A11.626500129699707,11.626500129699707 0 0,1 -3.918806484269922,-10.946161930318377L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -9.0465621,-7.3030965 a 11.6265,11.6265 0 0 1 5.1277556,-3.6430655 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14747"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.12785180970868118,-11.625797141730176A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.12785181,-11.625797 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,127.65992,-153.75338)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2004"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2005"
        data-widget="pie-simple-1"
        id="g33348">
       <rect
-         opacity="0"
          id="rect33350"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4066,39 +4081,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g33352"
          class="widget-content">
         <path
            id="path14752"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.363567140825035,8.076276985518701A11.626500129699707,11.626500129699707 0 0,1 -5.700537100374389,-10.133083540224193L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -8.3635671,8.076277 a 11.6265,11.6265 0 0 1 2.66303,-18.209361 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14754"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-5.700537100374389,-10.133083540224193A11.626500129699707,11.626500129699707 0 0,1 -0.1048071670931228,-11.6260277276305L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -5.7005371,-10.133084 a 11.6265,11.6265 0 0 1 5.59572993,-1.492944 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14756"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -8.363567140825035,8.076276985518701L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -8.3635671,8.076277 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14758"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.1048071670931228,-11.6260277276305A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.10480717,-11.626028 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g33362"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2005"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2006"
        transform="matrix(1.2502883,0,0,1.2503571,170.03848,-153.75338)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4110,37 +4128,40 @@ m</text>
       <g
          class="widget-content"
          id="g33366"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14763"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.9243791261367452,-11.589694926833491A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.92437913,-11.589695 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14765"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.0856471981039557,-11.437901076287922A11.626500129699707,11.626500129699707 0 0,1 -0.9243791261367452,-11.589694926833491L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -2.0856472,-11.437901 a 11.6265,11.6265 0 0 1 1.16126807,-0.151794 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14767"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -2.0856471981039557,-11.437901076287922L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -2.0856472,0.188599 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14769"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,212.64706,-153.75338)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2006"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2007"
        data-widget="pie-simple-1"
        id="g33376">
       <rect
-         opacity="0"
          id="rect33378"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4150,39 +4171,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g33380"
          class="widget-content">
         <path
            id="path14774"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.174185569303333,-7.14211624141569A11.626500129699707,11.626500129699707 0 0,1 -3.70868220943205,-11.01912798434384L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -9.1741856,-7.1421162 a 11.6265,11.6265 0 0 1 5.4655034,-3.8770118 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14776"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-3.70868220943205,-11.01912798434384A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -3.7086822,-11.019128 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14778"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -9.174185569303333,-7.14211624141569L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -9.1741856,4.4843838 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14780"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g33390"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2007"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2008"
        transform="matrix(1.2502883,0,0,1.2503571,255.14917,-153.75338)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4194,37 +4218,40 @@ m</text>
       <g
          class="widget-content"
          id="g33394"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14785"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.279338961572082,8.162600788063926A11.626500129699707,11.626500129699707 0 0,1 -10.515849797478522,-4.959073331054729L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -8.279339,8.1626008 A 11.6265,11.6265 0 0 1 -10.51585,-4.9590733 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14787"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-10.515849797478522,-4.959073331054729A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -10.51585,-4.9590733 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14789"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -8.279338961572082,8.162600788063926L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -8.279339,8.1626008 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14791"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,297.70083,-153.75338)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2008"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2009"
        data-widget="pie-simple-1"
        id="g33404">
       <rect
-         opacity="0"
          id="rect33406"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4234,39 +4261,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g33408"
          class="widget-content">
         <path
            id="path14796"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-10.95033106795971,-3.90714150856911A11.626500129699707,11.626500129699707 0 0,1 -5.043124845865703,-10.475800544823262L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -10.950331,-3.9071415 a 11.6265,11.6265 0 0 1 5.9072062,-6.5686595 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14798"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-5.043124845865703,-10.475800544823262A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -5.0431248,-10.475801 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14800"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -10.95033106795971,-3.90714150856911L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -10.950331,7.7193585 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14802"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g33418"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2009"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2010"
        transform="matrix(1.2502883,0,0,1.2503571,340.18949,-153.75338)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4278,37 +4308,40 @@ m</text>
       <g
          class="widget-content"
          id="g33422"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14807"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.31311965101913,6.959978996499101A11.626500129699707,11.626500129699707 0 0,1 -9.870298427751738,-6.144323739275858L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -9.3131197,6.959979 A 11.6265,11.6265 0 0 1 -9.8702984,-6.1443237 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14809"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.870298427751738,-6.144323739275858A11.626500129699707,11.626500129699707 0 0,1 1.851713013394793e-14,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -9.8702984,-6.1443237 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14811"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -9.31311965101913,6.959978996499101L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -9.3131197,6.959979 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14813"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M1.851713013394793e-14,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 1.851713013394793e-14,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,382.78475,-153.75338)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2010"
+       data-src="http://localhost:8000/data/France/page1/#purpose_commitments_pie_2011"
        data-widget="pie-simple-1"
        id="g33432">
       <rect
-         opacity="0"
          id="rect33434"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4318,39 +4351,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g33436"
          class="widget-content">
         <path
            id="path14818"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.462270653589865,1.9472690440100626A11.626500129699707,11.626500129699707 0 0,1 -8.131927810991359,-8.309467813448258L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -11.462271,1.947269 A 11.6265,11.6265 0 0 1 -8.1319278,-8.3094678 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14820"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.131927810991359,-8.309467813448258A11.626500129699707,11.626500129699707 0 0,1 -0.6913431970653308,-11.605927358456919L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -8.1319278,-8.3094678 a 11.6265,11.6265 0 0 1 7.4405846,-3.2964592 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14822"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.462270653589865,1.9472690440100626L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -11.462271,1.947269 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14824"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.6913431970653308,-11.605927358456919A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.6913432,-11.605927 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17497"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2000"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2001"
        transform="matrix(1.2502883,0,0,1.2503571,-42.481819,-17.125237)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4362,37 +4398,40 @@ m</text>
       <g
          class="widget-content"
          id="g17501"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14829"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 2.199887110691863,11.416479403306393L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 0 1 2.1998871,11.416479 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14831"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.73194501775647,-6.361191039205813A11.626500129699707,11.626500129699707 0 0,1 -0.686737009552612,-11.606200823078069L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -9.731945,-6.361191 a 11.6265,11.6265 0 0 1 9.04520799,-5.24501 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14833"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M2.199887110691863,11.416479403306393A11.626500129699707,11.626500129699707 0 0,1 -9.73194501775647,-6.361191039205813L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 2.1998871,11.416479 A 11.6265,11.6265 0 0 1 -9.731945,-6.361191 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14835"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.686737009552612,-11.606200823078069A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.68673701,-11.606201 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2001"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2002"
        data-widget="pie-simple-1"
        id="g17511"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-17.086176)">
       <rect
-         opacity="0"
          id="rect17513"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4402,39 +4441,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g17515"
          class="widget-content">
         <path
            id="path14840"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -8.323709955005995,-8.117349188672456L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -8.32371,3.5091508 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14842"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-3.4873595319864354,-11.091159937561565A11.626500129699707,11.626500129699707 0 0,1 -0.2955525716870135,-11.622742961249573L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -3.4873595,-11.09116 a 11.6265,11.6265 0 0 1 3.19180693,-0.531583 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14844"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.323709955005995,-8.117349188672456A11.626500129699707,11.626500129699707 0 0,1 -3.4873595319864354,-11.091159937561565L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -8.32371,-8.1173492 A 11.6265,11.6265 0 0 1 -3.4873595,-11.09116 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14846"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.2955525716870135,-11.622742961249573A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.29555257,-11.622743 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17525"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2002"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2003"
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,-0.06683526,-17.097229)">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="265.44559"
@@ -4446,37 +4488,40 @@ m</text>
       <g
          class="widget-content"
          id="g17529"
-         transform="translate(277.0860872268677,249.8816270828247)">
+         transform="translate(277.08609,249.88163)">
         <path
            id="path14851"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -8.65130026557068,-7.767271656176576L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -8.6513003,3.8592283 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14853"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.722461197804349,-11.303261046811093A11.626500129699707,11.626500129699707 0 0,1 -0.25482404431933475,-11.623707238757524L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -2.7224612,-11.303261 a 11.6265,11.6265 0 0 1 2.46763716,-0.320446 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14855"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.65130026557068,-7.767271656176576A11.626500129699707,11.626500129699707 0 0,1 -2.722461197804349,-11.303261046811093L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -8.6513003,-7.7672717 a 11.6265,11.6265 0 0 1 5.9288391,-3.5359893 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14857"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.25482404431933475,-11.623707238757524A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.25482404,-11.623707 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,84.998494,-17.085426)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2003"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2004"
        data-widget="pie-simple-1"
        id="g17539">
       <rect
-         opacity="0"
          id="rect17541"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4486,39 +4531,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g17543"
          class="widget-content">
         <path
            id="path14862"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -5.860091233981653,-10.04165504263708L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -5.8600912,1.584845 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14864"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.318554545706561,-11.392971960138002A11.626500129699707,11.626500129699707 0 0,1 -0.1380421405199414,-11.625680609467473L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -2.3185545,-11.392972 a 11.6265,11.6265 0 0 1 2.18051236,-0.232709 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14866"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-5.860091233981653,-10.04165504263708A11.626500129699707,11.626500129699707 0 0,1 -2.318554545706561,-11.392971960138002L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -5.8600912,-10.041655 a 11.6265,11.6265 0 0 1 3.5415367,-1.351317 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14868"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.1380421405199414,-11.625680609467473A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.13804214,-11.625681 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17553"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2004"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2005"
        transform="matrix(1.2502883,0,0,1.2503571,127.65992,-17.124838)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4530,37 +4578,40 @@ m</text>
       <g
          class="widget-content"
          id="g17557"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14873"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.149194085099808,-3.2971163944699877A11.626500129699707,11.626500129699707 0 0,1 -2.1331996496567047,-11.429127898514908L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -11.149194,-3.2971164 a 11.6265,11.6265 0 0 1 9.0159944,-8.1320116 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14875"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.1331996496567047,-11.429127898514908A11.626500129699707,11.626500129699707 0 0,1 -0.13157641754423485,-11.625755584573998L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -2.1331996,-11.429128 a 11.6265,11.6265 0 0 1 2.00162318,-0.196628 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14877"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.149194085099808,-3.2971163944699877L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -11.149194,8.3293836 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14879"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.13157641754423485,-11.625755584573998A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.13157642,-11.625756 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,170.03848,-17.122412)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2005"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2006"
        data-widget="pie-simple-1"
        id="g17567">
       <rect
-         opacity="0"
          id="rect17569"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4570,39 +4621,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g17571"
          class="widget-content">
         <path
            id="path14884"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.336370184480073,-2.581126945025864A11.626500129699707,11.626500129699707 0 0,1 -3.4018554310633005,-11.117683431904887L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -11.33637,-2.5811269 a 11.6265,11.6265 0 0 1 7.9345146,-8.5365561 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14886"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-3.4018554310633005,-11.117683431904887A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -3.4018554,-11.117683 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14888"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.336370184480073,-2.581126945025864L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -11.33637,9.0453731 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14890"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17581"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2006"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2007"
        transform="matrix(1.2502883,0,0,1.2503571,212.64706,-17.084913)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4614,37 +4668,40 @@ m</text>
       <g
          class="widget-content"
          id="g17585"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14895"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-3.6414063751969095,-11.041542685539127A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -3.6414064,-11.041543 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14897"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-7.459536356264749,-8.918005529011054A11.626500129699707,11.626500129699707 0 0,1 -3.6414063751969095,-11.041542685539127L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -7.4595364,-8.9180055 a 11.6265,11.6265 0 0 1 3.81813,-2.1235375 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14899"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -7.459536356264749,-8.918005529011054L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -7.4595364,2.7084945 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14901"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-2.135682889732043e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -2.135682889732043e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,255.14917,-17.124462)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2007"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2008"
        data-widget="pie-simple-1"
        id="g17595">
       <rect
-         opacity="0"
          id="rect17597"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4654,39 +4711,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g17599"
          class="widget-content">
         <path
            id="path14906"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-7.08032795262096,9.221955397270234A11.626500129699707,11.626500129699707 0 0,1 -8.86729088271575,-7.519751170564984L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -7.080328,9.2219554 A 11.6265,11.6265 0 0 1 -8.8672909,-7.5197512 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14908"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-8.86729088271575,-7.519751170564984A11.626500129699707,11.626500129699707 0 0,1 -0.05922571360181301,-11.626349280008565L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -8.8672909,-7.5197512 a 11.6265,11.6265 0 0 1 8.80806519,-4.1065978 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14910"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -7.08032795262096,9.221955397270234L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -7.080328,9.2219554 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14912"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.05922571360181301,-11.626349280008565A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.05922571,-11.626349 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17609"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2008"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2009"
        transform="matrix(1.2502883,0,0,1.2503571,297.70083,-17.085401)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4698,37 +4758,40 @@ m</text>
       <g
          class="widget-content"
          id="g17613"
-         transform="translate(243.0607271194458,249.8816270828247)">
+         transform="translate(243.06073,249.88163)">
         <path
            id="path14917"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-10.931856504643312,-3.958537435441913A11.626500129699707,11.626500129699707 0 0,1 -4.422027990443086,-10.752728663815766L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -10.931857,-3.9585374 a 11.6265,11.6265 0 0 1 6.509829,-6.7941916 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14919"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-4.422027990443086,-10.752728663815766A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -4.422028,-10.752729 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14921"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -10.931856504643312,-3.958537435441913L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 11.6265,11.6265 0 1 1 -10.931857,7.6679626 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14923"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M8.190723622107944e-15,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        class="piechart"
        transform="matrix(1.2502883,0,0,1.2503571,340.18949,-17.128838)"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2009"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2010"
        data-widget="pie-simple-1"
        id="g17623">
       <rect
-         opacity="0"
          id="rect17625"
          style="opacity:0;visibility:hidden"
          visibility="hidden"
@@ -4738,39 +4801,42 @@ m</text>
          height="23.253"
          width="23.281" />
       <g
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          id="g17627"
          class="widget-content">
         <path
            id="path14928"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.830004045558988,-6.208584841185729A11.626500129699707,11.626500129699707 0 0,1 -1.246208940157203e-14,-11.626500129699707L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -9.830004,-6.2085848 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14930"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.860706367644882,6.159705771950065A11.626500129699707,11.626500129699707 0 0,1 -9.830004045558988,-6.208584841185729L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -9.8607064,6.1597058 A 11.6265,11.6265 0 0 1 -9.830004,-6.2085848 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14932"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -9.860706367644882,6.159705771950065L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -9.8607064,6.1597058 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14934"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-1.246208940157203e-14,-11.626500129699707A11.626500129699707,11.626500129699707 0 0,1 -1.246208940157203e-14,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m 0,-11.6265 a 0,0 0 0 0 0,0 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <g
        id="g17637"
        data-widget="pie-simple-1"
-       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2010"
+       data-src="http://localhost:8000/data/France/page1/#purpose_disbursements_pie_2011"
        transform="matrix(1.2502883,0,0,1.2503571,382.78475,-17.11626)"
        class="piechart">
       <rect
-         opacity="0"
          width="23.281"
          height="23.253"
          x="231.42023"
@@ -4781,28 +4847,32 @@ m</text>
          id="rect17639" />
       <g
          id="g11599"
-         transform="translate(243.0607271194458,249.8816270828247)"
+         transform="translate(243.06073,249.88163)"
          class="widget-content">
         <path
            id="path14939"
-           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-11.152959976840878,3.2843551910371764A11.626500129699707,11.626500129699707 0 0,1 -9.32596475268135,-6.9427578596442805L0,0Z"
-           class="pie slice slice0" />
+           style="fill:#cf3e96;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -11.15296,3.2843552 A 11.6265,11.6265 0 0 1 -9.3259648,-6.9427579 L 0,0 z"
+           class="pie slice slice0"
+           inkscape:connector-curvature="0" />
         <path
            id="path14941"
-           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-9.32596475268135,-6.9427578596442805A11.626500129699707,11.626500129699707 0 0,1 -0.6386007383566239,-11.608948891388819L0,0Z"
-           class="pie slice slice1" />
+           style="fill:#62a73b;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="m -9.3259648,-6.9427579 a 11.6265,11.6265 0 0 1 8.68736406,-4.6661911 L 0,0 z"
+           class="pie slice slice1"
+           inkscape:connector-curvature="0" />
         <path
            id="path14943"
-           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M7.118942965773477e-16,-11.626500129699707A11.626500129699707,11.626500129699707 0 1,1 -11.152959976840878,3.2843551910371764L0,0Z"
-           class="pie slice slice2" />
+           style="fill:#79317f;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M 0,-11.6265 A 11.6265,11.6265 0 1 1 -11.15296,3.2843552 L 0,0 z"
+           class="pie slice slice2"
+           inkscape:connector-curvature="0" />
         <path
            id="path14945"
-           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.414"
-           d="M-0.6386007383566239,-11.608948891388819A11.626500129699707,11.626500129699707 0 0,1 8.190723622107944e-15,-11.626500129699707L0,0Z"
-           class="pie slice slice3" />
+           style="fill:#2393d9;stroke:#ffffff;stroke-width:0.5;stroke-miterlimit:1.41400003"
+           d="M -0.63860074,-11.608949 A 11.6265,11.6265 0 0 1 0,-11.6265 L 0,0 z"
+           class="pie slice slice3"
+           inkscape:connector-curvature="0" />
       </g>
     </g>
     <line

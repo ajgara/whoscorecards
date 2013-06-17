@@ -15,7 +15,7 @@
    width="1052.3625"
    height="744.1"
    space="preserve"
-   sodipodi:docname="who_donor_page2.pdf">
+   sodipodi:docname="who_donor_page2.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -29,9 +29,9 @@
      inkscape:window-height="1056"
      id="namedview17785"
      showgrid="false"
-     inkscape:zoom="1.4406032"
-     inkscape:cx="478.94067"
-     inkscape:cy="726.86376"
+     inkscape:zoom="1"
+     inkscape:cx="428.08708"
+     inkscape:cy="607.77265"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -296,7 +296,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -10521,10 +10521,8 @@
     </g>
     <text
        transform="scale(0.9999725,-1.0000275)"
-       data-src="http://localhost:8000/data/France/page1/#country_name"
-       data-widget="text"
        y="-552.716"
-       x="318.23181"
+       x="223.82924"
        style="font-size:34.00878143px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers LT 49 LightUltraCn;-inkscape-font-specification:Univers LT 49 LightUltraCn"
        id="_countryname-9">
       <tspan
