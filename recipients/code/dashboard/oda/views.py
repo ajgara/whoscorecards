@@ -1,11 +1,12 @@
 import re 
 import csv
-from django.views.generic.simple import direct_to_template
+from django.shortcuts import redirect
 from django.template.loader import render_to_string
 from django.template import loader, Context
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 from django.db.models import Sum
+from django.core.urlresolvers import reverse
 import json
 from collections import defaultdict
 
@@ -25,13 +26,9 @@ def safe_mul(a, b):
 
 def scorecard(request, iso3):
     if request.GET.get("page", "1") == "1":
-        return direct_to_template(request, template="oda/scorecard_front.html", extra_context={
-            "iso3" : iso3
-        })
+        return redirect(reverse(scorecard_front, kwargs={"iso3" : iso3}))
     else:
-        return direct_to_template(request, template="oda/scorecard_back.html", extra_context={
-            "iso3" : iso3
-        })
+        return redirect(reverse(scorecard_back, kwargs={"iso3" : iso3}))
 
 def front_data(request, iso3):
     f = open("/tmp/trace.log", "a")
