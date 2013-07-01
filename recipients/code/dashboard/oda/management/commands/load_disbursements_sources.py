@@ -13,14 +13,14 @@ class Command(BaseCommand):
         filename = args[0]
         with transaction.commit_on_success():
             oda_models.DisbursementSource.objects.all().delete()
-            source_factory = db.ODASourceFactory(file_path=filename, sheet_name="DB for ADI use")
+            source_factory = db.ODASourceFactory(file_path=filename, sheet_name="DB")
             for row in source_factory.data:
-                print row["ISO3"]
-                country = oda_models.Recipient.objects.get(iso3=row["ISO3"])
+                print row["ISO"]
+                country = oda_models.Recipient.objects.get(iso3=row["ISO"])
                 oda_models.DisbursementSource.objects.create(
                     country=country,
                     source=row["donorname"],
                     number=int(row["Number of disbursements"]),
-                    amount=float(row["Disbursements"]),
-                    group=row["groupcode"]
+                    amount=float(row["Amount disbursed"]),
+                    group=row["Group"]
                 )
