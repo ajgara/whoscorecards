@@ -17,12 +17,12 @@ class Command(BaseCommand):
             dfactory = db.LargestDisbursementsFactory(file_path=filename, sheet_name="DB")
             for row in dfactory.data:
                 country = oda_models.Recipient.objects.get(iso3=row["ISO"])
-                if row["Donor"].strip().startswith("Other"): continue
+                #if row["Donor"].strip().startswith("Other"): continue
                 oda_models.Disbursement.objects.create(
                     country=country,
                     donor=re_name.sub("", row["Donor"]),
                     year=row["Year"],
                     purpose=row["Purpose"] or "",
                     percentage=float(row["%age"]),
-                    disbursement=float(row["Total Disbursements"])
+                    disbursement=float(row["Total Disbursements"] or 0)
                 )
