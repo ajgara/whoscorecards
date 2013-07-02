@@ -342,17 +342,16 @@ function load_back(json) {
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
     var countries = [
-        "Australia", "Austria", "Belgium", "Canada", "Denmark", 
-        "Finland", "France", "Germany", "Greece", "Ireland",
-        "Italy", "Japan", "Korea", "Kuwait", "Luxembourg", "Netherlands", "New Zealand",
-        "Norway", "Portugal", "Spain", "Sweden", "Switzerland", "United Arab Emirates",
-        "United Kingdom", "United States"
+        "Australia", "Austria", "Belgium", "Canada", "Czech Republic", "Denmark", 
+        "Finland", "France", "Germany", "Greece", "Iceland", "Ireland",
+        "Italy", "Japan", "Kuwait", "Luxembourg", "Netherlands", "New Zealand",
+        "Norway", "Portugal", "Republic of Korea", "Spain", "Sweden", "Switzerland",
+        "United Arab Emirates", "United Kingdom", "United States of America"
     ];
 
     var multis = [
-        "AfDF", "AFESD", "AsDB Special Funds", "EU Institutions", "GAVI",
-        "Global Fund", "IDA", "IDB Sp.Fund", "OFID", "UNAIDS",
-        "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP"
+        "AfDB", "AfDF", "Arab Fund (AFESD)", "AsDB Special Funds", "BADEA", "EU Institutions", "GAVI",
+        "IDA", "IDB Sp. Fund", "OFID", "The Global Fund", "UNAIDS", "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP", "WHO"
     ]
 
     var bil_total_nr = 0;
@@ -402,6 +401,8 @@ function load_back(json) {
         return memo + json.largest_sources[pair]["percentage"]
     }, 0);
     var other_perc = 1 - totaltop5;
+    
+    var other_perc = json.largest_sources[json.largest_sources.length - 1]["percentage"]
     d3.select("#bubble_perc6").text(r1(other_perc * 100) + "%");
     
 

@@ -9,6 +9,7 @@ from django.db.models import Sum
 from django.core.urlresolvers import reverse
 import json
 from collections import defaultdict
+from itertools import chain
 
 import models
 
@@ -182,14 +183,20 @@ def back_data(request, iso3):
             for ds in models.DisbursementSource.objects.filter(country=country, group="Mul")
         },
         "largest_sources" : [{
-               "percentage" : ds.amount / total,
-               "source" : ds.source 
+               "percentage" : ds.percentage,
+               "source" : ds.donor 
             }
-            for ds in models.DisbursementSource.objects.filter(country=country).order_by("-amount")[0:5]
-        ],
+            for ds in chain(
+                models.Disbursement.objects\
+                    .filter(country=country)\
+                    .exclude(donor__startswith="Other")\
+                    .order_by("-percentage"),
+                models.Disbursement.objects.filter(country=country, donor__startswith="Other")
+            )
+        ], 
         "largest_disbursements" : [{
                "donor" : d.donor, 
-               "year" : d.year, 
+               "year" : int(float(d.year)), 
                "disbursement" : d.disbursement, 
                "purpose" : d.purpose, 
             }
