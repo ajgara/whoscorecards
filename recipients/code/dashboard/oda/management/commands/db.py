@@ -1,5 +1,4 @@
 import xlrd
-import openpyxl
 import ftypes
 
 class DataProcessingException(Exception):
@@ -31,28 +30,10 @@ class XLSFile(object):
             r = map(lambda x : x.value, row)
             yield r
 
-class XLSXFile(object):
-    def __init__(self, file_path, sheet_name):
-        self.workbook = openpyxl.load_workbook(file_path)
-        print self.workbook.get_sheet_names()
-        self.sheet = self.workbook.get_sheet_by_name(sheet_name)
-        self.data = ftypes.list(*self._load_data())
-
-    def _load_data(self):
-        for row in self.sheet.rows:
-            r = map(lambda x : x.value, row)
-            yield r
-
 class XLSDB(object):
     def __init__(self, file_path, sheet_name):
         self.file_path = file_path
-        if file_path.endswith("xlsx"):
-            self.fileobj = XLSXFile(file_path, sheet_name)
-        elif file_path.endswith("xls"):
-            self.fileobj = XLSFile(file_path, sheet_name)
-        else:
-            raise DataProcessingException("Expected an XLS or XLSX file")
-            
+        self.fileobj = XLSFile(file_path, sheet_name)
         self.data = self.fileobj.data
 
     def filter_by_country(self, iso3):
