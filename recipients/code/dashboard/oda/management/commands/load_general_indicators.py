@@ -24,8 +24,9 @@ class Command(BaseCommand):
             count = 0
             for row in indicators_factory.data:
                 count += 1
-                sys.stdout.write("\r%d of %d" % (count, total))
-                sys.stdout.flush()
+                year = str(int(row.Year))
+                #sys.stdout.write("\r%d of %d" % (count, total))
+                #sys.stdout.flush()
                 try:
                     if row.ISO3 in countries:
                         country = countries[row.ISO3]
@@ -46,17 +47,19 @@ class Command(BaseCommand):
                     oda_models.CountryIndicator.objects.filter(
                         country=country, 
                         indicator=indicator,
-                        year=row.Year,
+                        year=year,
                     ).delete()
                     ci_ = oda_models.CountryIndicator.objects.create(
                         country=country, 
                         indicator=indicator, 
-                        year=row.Year, 
+                        year=year,
                         value=float(row.Value) if row.Value else None
                     )
                 except oda_models.Recipient.DoesNotExist:
                     not_found_countries.add(row.ISO3)
                 except ValueError:
+                    import traceback
+                    traceback.print_exc()
                     statistics["error_value"] += 1
 
             if len(not_found_countries) > 0:
