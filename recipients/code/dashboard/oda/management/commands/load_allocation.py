@@ -31,6 +31,7 @@ class Command(BaseCommand):
                 count = 0
                 for row in purpose_factory.data:
                     count += 1
+                    year = str(int(row.Year))
                     sys.stdout.write("\r%d of %d" % (count, total))
                     sys.stdout.flush()
                     try:
@@ -50,7 +51,7 @@ class Command(BaseCommand):
                         oda_models.Allocation.objects.filter(
                             country=country, 
                             mdgpurpose=mdgpurpose,
-                            year=row.Year
+                            year=year
                         ).delete()
 
                         commitment = row.get("Commitments MUSD", None)
@@ -58,7 +59,7 @@ class Command(BaseCommand):
                         allocation, _ = oda_models.Allocation.objects.get_or_create(
                             country=country, 
                             mdgpurpose=mdgpurpose,
-                            year=row.Year, 
+                            year=year,
                         )
                         allocation.commitment = float_or_none(commitment)
                         allocation.disbursement = float_or_none(disbursement)
