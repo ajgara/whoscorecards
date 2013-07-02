@@ -48,19 +48,14 @@ class Command(BaseCommand):
                             mdgpurpose, _ = oda_models.MDGPurpose.objects.get_or_create(name=row_mdg)
                             mdgpurposes[row_mdg] = mdgpurpose
 
-                        oda_models.Allocation.objects.filter(
-                            country=country, 
-                            mdgpurpose=mdgpurpose,
-                            year=year
-                        ).delete()
-
-                        commitment = row.get("Commitments MUSD", None)
-                        disbursement = row.get("Disbursements", None)
                         allocation, _ = oda_models.Allocation.objects.get_or_create(
                             country=country, 
                             mdgpurpose=mdgpurpose,
                             year=year,
                         )
+
+                        commitment = row.get("Commitments MUSD", allocation.commitment)
+                        disbursement = row.get("Disbursements", allocation.disbursement)
                         allocation.commitment = float_or_none(commitment)
                         allocation.disbursement = float_or_none(disbursement)
                         allocation.save()
