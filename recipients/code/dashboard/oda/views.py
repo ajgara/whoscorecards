@@ -129,7 +129,7 @@ def front_data(request, iso3):
             total_disbursements3,
         ]
 
-        for year in range(base_year, last_year + 1):
+        for year in range(int(base_year), int(last_year) + 1):
             year = str(year)
             values.append(total_commitments1.get(year, "-"))
             values.append(total_commitments2.get(year, "-"))
