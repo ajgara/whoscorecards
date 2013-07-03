@@ -1,0 +1,3 @@
+start the django server
+start the phantomjs server - phantomjs main.js
+run the generate script outside of the scripts folder
