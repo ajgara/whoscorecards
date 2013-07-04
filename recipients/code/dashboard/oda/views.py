@@ -187,7 +187,7 @@ def back_data(request, iso3):
                "source" : ds.donor 
             }
             for ds in chain(
-                models.Disbursement.objects\
+                models.Largest5Disbursements.objects\
                     .filter(country=country)\
                     .exclude(donor__startswith="Other")\
                     .order_by("-percentage"),

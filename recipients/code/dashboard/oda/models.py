@@ -70,3 +70,12 @@ class Disbursement(models.Model):
 
     def __unicode__(self):
         return "%s (%s)" % (self.donor, self.purpose)
+
+class Largest5Disbursements(models.Model):
+    country = models.ForeignKey(Recipient)
+    donor = models.CharField(max_length=50)
+    disbursement = models.FloatField()
+    percentage = models.FloatField()
+
+    def __unicode__(self):
+        return "%s (%s)" % (self.donor, self.purpose)
