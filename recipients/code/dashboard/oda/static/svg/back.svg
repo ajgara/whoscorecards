@@ -3,10 +3,10 @@
 
 <svg
    xmlns:xhtml="http://www.w3.org/1999/xhtml"
-   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:ns0="http://ns.adobe.com/Extensibility/1.0/"
    xmlns:ns="http://ns.adobe.com/Flows/1.0/"
    xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/"
+   xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -355,9 +355,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="318.32103"
-     inkscape:cy="643.26763"
+     inkscape:zoom="2"
+     inkscape:cx="572.84986"
+     inkscape:cy="198.28924"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -365,11 +365,11 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="472"
-     inkscape:window-height="347"
-     inkscape:window-x="945"
-     inkscape:window-y="186"
-     inkscape:window-maximized="0"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
      units="mm"
      inkscape:showpageshadow="false"
      borderlayer="false"
@@ -794,9 +794,13 @@
                    id="rect127" />
                 <text
                    id="countryname"
-                   style="font-size:34px;text-align:end;text-anchor:end;fill:#6dcff6;font-family:UniversLT-LightUltraCondensed"
+                   style="font-size:34px;text-align:end;text-anchor:end;fill:#6dcff6;font-family:'Univers LT 49 LightUltraCn'"
                    x="816.62292"
-                   y="47.381802">PLACEHOLDER</text>
+                   y="47.381802">
+                  <tspan
+                     style="-inkscape-font-specification:Univers LT 49 LightUltraCn;font-family:'Univers LT 49 LightUltraCn';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+                     id="tspan6749">PLACEHOLDER</tspan>
+                </text>
               </g>
             </switch>
             <rect
@@ -11678,33 +11682,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        y="158.86838"
        id="text9073"
        sodipodi:linespacing="125%">Produced by Re-Action! Consulting (Pty) Ltd. See www.re-action.co.za.</text>
-    <flowRoot
-       xml:space="preserve"
-       id="flowRoot50091"
-       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:1000%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#0093d5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:500;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:UnDinaru;-inkscape-font-specification:UnDinaru"
-       transform="translate(-472.03844,-909.97558)"><flowRegion
-         id="flowRegion50093"><rect
-           id="rect50095"
-           width="347.89655"
-           height="79.687347"
-           x="101.82337"
-           y="809.14832" /></flowRegion><flowPara
-         id="flowPara50101"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial">ACRONYMS:<flowSpan
-   style="line-height:125%;fill:#58595b"
-   id="flowSpan51003"> AFRO-WHO African Region; AMRO-WHO Region of the Americas; EMRO - WHO Eastern Mediterranean Region; EURO - WHO European Region; MDG-Millennium Development Goals; SEARO - WHO South-East Asia Region; UN - UnitedNations;  WPRO - WHO Western Pacific Region;  AfDF - African Development Fund;  AFESD - Arab Fund for Economic and Social Development; AsDBSpecialFunds-Asian Development Bank; EU Institutions-European Commission, European  Community;  GAVI-Global Alliance for Vaccines and Immunization;  The Global Fund - The Global Fund to Fight AIDS, Tuberculosis and Malaria;  IDA-International   Development  Association  (WorldBank);   IDBSp.  Fund-Inter-American  Development Bank,  SpecialFund;  OFID  -  OPEC Fund for International Development;  UNAIDS  -  Joint United Nations Programme on HIV/AIDS; UNDP  -  UnitedNations Development Programme;  UNFPA - United Nations Population Fund; UNICEF  -  United Nations Children’s Fund;  UNPBF  -  United Nations Peace building Fund;  UNRWA  -  United Nations Population Fund; WFP - World Food Programme</flowSpan></flowPara><flowPara
-         id="flowPara50103"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
-         id="flowPara50105"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
-         id="flowPara50107"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
-         id="flowPara50109"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;fill:#000000;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
-         id="flowPara50111"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial" /><flowPara
-         id="flowPara50113"
-         style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:125%;text-anchor:start;font-family:Arial;-inkscape-font-specification:Arial" /></flowRoot>    <text
+    <text
        xml:space="preserve"
        style="font-size:6.52680063px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:justify;line-height:1000%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#000080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:500;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Arial;-inkscape-font-specification:Arial"
        x="-8.8465443"
@@ -11887,11 +11865,112 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        transform="scale(0.9999725,1.0000275)"
        y="-518.80859"
        x="-466.82196"
-       style="font-size:42.51097488px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:Univers LT 49 LightUltraCn;-inkscape-font-specification:Univers LT 49 LightUltraCn"
+       style="font-size:42.51097488px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:end;text-anchor:end;fill:#6dcff6;font-family:'Univers LT 49 LightUltraCn';-inkscape-font-specification:Univers LT 49 LightUltraCn"
        id="_countryname-9">
       <tspan
          style="font-size:32px"
          id="tspan6633">2001-2011</tspan>
     </text>
+    <text
+       xml:space="preserve"
+       style="font-size:8px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:1000%;writing-mode:lr-tb;text-anchor:start;color:#000000;fill:#58595b;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:500;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:UnDinaru;-inkscape-font-specification:UnDinaru"
+       x="-370.4425"
+       y="-88.46067"
+       id="text4441"
+       sodipodi:linespacing="1000%"><tspan
+         sodipodi:role="line"
+         x="-330.88647"
+         y="-80.302162"
+         id="tspan4443"
+         style="font-size:6.5px;fill:#58595b;fill-opacity:1"><tspan
+           x="-370.4425"
+           y="-88.46067"
+           style="font-size:6.5px;text-align:justify;line-height:125%;fill:#0093d5;fill-opacity:0.94117647;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4445">ACRONYMS:</tspan><tspan
+           dx="0 0.21453226 0 0 0 0 0 0 0 0 0.2145294 0 0 0 0 0 0 0 0.21453285 0 0 0 0 0 0 0 0.21453702 0 0 0 0 0 0 0 0 0.21453667 0 0 0 0 0 0 0.21453667 0 0 0.21453667 0 0 0 0.21452177 0 0 0 0 0 0 0 0 0 0.21453667 0 0 0 0 0.21453667 0 0.21452141 0 0 0 0.21453667 0 0 0 0 0 0 0 0.21455193"
+           x="-330.88647"
+           y="-88.46067"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4447"> AFRO-WHO African Region; AMRO-WHO Region of the Americas; EMRO - WHO Eastern Mediterranean </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-72.143654"
+         id="tspan4449"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0 1.7197361 0 0 0 0 1.7197361 0 1.7197361 0 0 0 1.7197323 0 0 0 0 0 0 0 0 1.7197399 0 0 0 0 0 0 0 1.7197247 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1.7197399 0 0 0 0 0 0 0 0 0 0 0 1.7197399 0 0 0 0 0 0 1.7197399 0 0 0 0 0 1.7197399 0 1.7197399 0 0 0 1.7197399 0 0 0 0 0 0 0 0 0 0 1.7197403"
+           x="-370.4425"
+           y="-80.302162"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4451">Region; EURO - WHO European Region; MDG-Millennium Development Goals; SEARO - WHO South-East Asia </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-63.985142"
+         id="tspan4453"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0 0.07252121 0 0 0.072519302 0 0.072523117 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.072523117 0 0 0 0 0.072515488 0 0.072515488 0 0 0 0.072523117 0 0 0 0 0 0 0 0.072507858 0 0 0 0 0 0 0 0.072523117 0 0 0 0 0 0 0 0 0.072523475 0 0 0 0 0.072523117 0 0.072508216 0 0 0 0 0 0 0 0.072523117 0 0 0 0 0 0 0 0 0 0 0 0.072523117 0 0 0 0 0 0 0.072523475 0 0 0 0 0 0.072523117 0 0.072523475"
+           x="-370.4425"
+           y="-72.143654"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4455">Region; UN - UnitedNations;  WPRO - WHO Western Pacific Region;  AfDF - African Development Fund;  AFESD - Arab </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-55.826633"
+         id="tspan4457"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0.9188242 0 0 0 0.91882515 0 0 0 0 0 0 0 0 0.91882515 0 0 0 0.91882133 0 0 0 0 0 0 0.91882896 0 0 0 0 0 0 0 0 0 0 0 0 0.91882169 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.91882133 0 0 0 0 0 0 0 0 0 0 0 0.91882133 0 0 0 0 0 0.91883659 0 0 0.91883659"
+           x="-370.4425"
+           y="-63.985142"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4459">Fund for Economic and Social Development; AsDBSpecialFunds-Asian Development Bank; EU Institutions-European </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-47.668125"
+         id="tspan4461"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0 0 0 0 0 0.99334145 0 0 0 0 0 0 0 0 0 0.99334526 0 0 0 0 0 0 0 0 0 0 0 0.99334526 0 0 0 0 0 0 0 0 0 0 0 0.99333036 0 0 0 0 0 0 0 0 0.99334526 0 0 0 0.99333 0 0 0 0 0 0 0 0 0.99334526 0 0 0 0.99334526 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.99335194 0 0 0 0.99333 0 0 0 0 0 0 0.99333 0 0 0 0 0.99333 0 0.99335194"
+           x="-370.4425"
+           y="-55.826633"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4463">Commission, European  Community;  GAVI-Global Alliance for Vaccines and Immunization;  The Global Fund - The </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-39.509617"
+         id="tspan4465"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0.86314392 0 0 0 0 0.86314201 0 0 0.86314583 0 0 0 0 0 0.86314619 0 0 0 0 0 0.86314869 0 0 0 0 0 0 0 0 0 0 0 0 0.86314201 0 0 0 0.86314201 0 0 0 0 0 0 0 0 0 0.86314201 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.86314201 0 0 0 0 0 0 0 0 0 0 0 0 0.86314237 0 0 0 0 0 0 0 0 0 0 0 0 0.86314201"
+           x="-370.4425"
+           y="-47.668125"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4467">Global Fund to Fight AIDS, Tuberculosis and Malaria;  IDA-International   Development  Association  (WorldBank);   </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-31.351109"
+         id="tspan4469"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0 0.35394669 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35394859 0 0 0 0 0 0 0 0 0 0 0 0.35394859 0 0 0 0 0 0 0.35394096 0 0 0 0 0 0 0 0 0 0 0 0 0 0.35394096 0 0 0 0 0 0.35394096 0 0 0.35395622 0 0 0 0 0.35394096 0 0 0 0 0.3539257 0 0 0 0.35395622 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3539257"
+           x="-370.4425"
+           y="-39.509617"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4471">IDBSp.  Fund-Inter-American  Development Bank,  SpecialFund;  OFID  -  OPEC Fund for International Development;  </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-23.1926"
+         id="tspan4473"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0 0.061578751 0 0 0.061574936 0 0 0 0 0 0.061574936 0 0 0 0 0 0 0.061574936 0 0 0 0 0 0 0 0.061574936 0 0 0 0 0 0 0 0 0 0.061582565 0 0 0.061582565 0 0 0 0 0 0 0 0 0 0.061567307 0 0 0 0 0 0.061582565 0 0 0.061582565 0 0 0 0 0 0 0 0 0 0 0 0 0 0.061582565 0 0 0 0 0 0 0 0 0 0 0 0.061597824 0 0 0 0 0 0 0 0 0 0 0 0.061567307 0 0 0 0 0 0.061598182"
+           x="-370.4425"
+           y="-31.351109"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4475">UNAIDS  -  Joint United Nations Programme on HIV/AIDS; UNDP  -  UnitedNations Development Programme;  UNFPA - </tspan></tspan><tspan
+         sodipodi:role="line"
+         x="-370.4425"
+         y="-313.5"
+         id="tspan4477"
+         style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#58595b;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+           dx="0 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0 0 0 0.17831993 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0.17832756 0 0 0.17832756 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0.17832756 0 0 0.17832756 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0 0 0.17832756 0 0 0 0 0 0.17832756"
+           x="-370.4425"
+           y="-23.1926"
+           style="font-size:6.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;fill:#58595b;fill-opacity:1;marker:none;font-family:Arial;-inkscape-font-specification:Arial"
+           id="tspan4479">United Nations Population Fund; UNICEF  -  United Nations Children’s Fund;  UNPBF  -  United Nations Peace building </tspan></tspan></text>
   </g>
 </svg>
