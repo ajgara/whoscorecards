@@ -155,7 +155,7 @@ function load_front(json) {
         };
 
         if (allocation_commitments != undefined) {
-            segpie["node"] = "#piec_" + (2000 + i);
+            segpie["node"] = "#piec_" + (2001 + i);
             segpie["data"] = [
                 {"value" : niz(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"])},
                 {"value" : niz(allocation_commitments["MDG6"])},
@@ -165,10 +165,10 @@ function load_front(json) {
             
             var segpiegraph = new SegmentPieGraph(segpie);
         }
-        d3.select("#piec_" + (2000 + i) + "_old").remove();
+        d3.select("#piec_" + (2001 + i) + "_old").remove();
 
         if (allocation_disbursements != undefined) {
-            segpie["node"] = "#pied_" + (2000 + i);
+            segpie["node"] = "#pied_" + (2001 + i);
             segpie["data"] = [
                 {"value" : niz(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"])},
                 {"value" : niz(allocation_disbursements["MDG6"])},
@@ -178,7 +178,7 @@ function load_front(json) {
             var segpiegraph = new SegmentPieGraph(segpie);
         }
         
-        d3.select("#pied_" + (2000 + i) + "_old").remove();
+        d3.select("#pied_" + (2001 + i) + "_old").remove();
 
         
     });
