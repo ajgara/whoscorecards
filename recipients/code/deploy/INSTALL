@@ -1,4 +1,4 @@
-
+sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam
 virtualenv ~./.virtualenvs/who
 source ~/.virtualenvs/who/bin/activate
 
