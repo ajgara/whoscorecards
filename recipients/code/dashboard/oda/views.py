@@ -191,7 +191,7 @@ def back_data(request, iso3):
                     .filter(country=country)\
                     .exclude(donor__startswith="Other")\
                     .order_by("-percentage"),
-                models.Disbursement.objects.filter(country=country, donor__startswith="Other")
+                models.Largest5Disbursements.objects.filter(country=country, donor__startswith="Other")
             )
         ], 
         "largest_disbursements" : [{
