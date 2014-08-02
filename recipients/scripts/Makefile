@@ -1,6 +1,12 @@
 # Run make with a country code
 # e.g. make COUNTRY=ALB
 
+# or for all countries
+# for iso in `cut -f1 -d, ../data/countries.csv`
+# do               
+# make COUNTRY=$iso
+# done
+
 all: makepdf fixpdf
 
 makepdf:
