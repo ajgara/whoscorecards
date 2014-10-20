@@ -3,26 +3,27 @@ who-scorecards
 
 WHO Scorecard System
 
-installation
+Installation
 ============
 
-This installation is really messy and might never be cleaned up. Hopefully this guide will be useful
+1. Installing ubuntu package dependencies:
+    $ sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam
 
-sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam
-virtualenv ~./.virtualenvs/who
-source ~/.virtualenvs/who/bin/activate
+2. Creating virtual enviroment for python packages:
+    $ mkvirtualenv whoscorecards
 
--- install the fonts in recipients/code/dashboard/oda/static/fonts/ into .fonts
-sudo fc-cache -f -v
+3. Installing the fonts for the project:
+    $ cp recipients/code/dashboard/oda/static/fonts/* ~/.fonts/
+    $ sudo fc-cache -f -v
 
-cd /path/to/devfolder/
-git clone 
-mkdir -p /path/
-https://github.com/adieyal/widgetlabs.git
-cp /path/to/devfolder/widgetlabs/inkscape/* ~/.config/inkscape/extensions/
--- edit ~/.config/inkscape/extensions/ in line 12. Change url = ..... to url=localhost:8080 or wherever your phantomjs server is listening
-cd /path/to/devfolder/server
-phantomjs main.js
+4. Installing the widgetlabs plugin for inkscape
+    $ git clone https://github.com/adieyal/widgetlabs.git
+    $ cp widgetlabs/inkscape/* ~/.config/inkscape/extensions/
+
+5. Edit ~/.config/inkscape/extensions/ in line 12. Change url = ..... to url=localhost:8080 or wherever your phantomjs server is listening.
+
+6. Run the PhantomJS server.
+    $ phantomjs main.js
 
 To create the donor scorecards
 ==============================
