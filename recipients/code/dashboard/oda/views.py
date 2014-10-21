@@ -49,7 +49,7 @@ def front_data(request, iso3):
         "UKR" : "2005",
     } 
 
-    base_year = "2001" 
+    base_year = "2002"
     last_year = "2011"
 
     if country.iso3 in overrides:

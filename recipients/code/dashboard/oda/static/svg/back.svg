@@ -851,7 +851,7 @@
                     <ns:span
                        style="fill:#0093D5; font-family:'Calibri-Bold';">DEFINITIONS:</ns:span>
                     <ns:span
-                       style="fill:#58595B; font-family:'Calibri';"> CRS financial data presented here are commitments and disbursements. A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount under specified financial terms and conditions and for specified development purposes. A disbursement is the release of funds to, or the purchase of goods or services for, a recipient; by extension, the amount thus spent. Disbursements record the actual international transfer of financial resources, or of goods or services valued at the cost to the donor. It can take several years to disburse a commitment. Yearly commitments and disbursements are presented in constant 2009 US$ to ensure comparability over years.  ODA for health volumes are also presented in US$ per capita per year and according to allocation (i.e. policy purpose). Policy purposes used here are based on the original CRS statistical purpose codes, but have been aggregated to reflect, as far as possible, global health development benchmarks (i.e. MDG6; Reproductive Health &amp; Family Planning). </ns:span>
+                       style="fill:#58595B; font-family:'Calibri';"> CRS financial data presented here are commitments and disbursements. A commitment is a firm written obligation by a government or official agency, backed by the appropriation or availability of the necessary funds, to provide resources of a specified amount under specified financial terms and conditions and for specified development purposes. A disbursement is the release of funds to, or the purchase of goods or services for, a recipient; by extension, the amount thus spent. Disbursements record the actual international transfer of financial resources, or of goods or services valued at the cost to the donor. It can take several years to disburse a commitment. Yearly commitments and disbursements are presented in constant 2012 US$ to ensure comparability over years.  ODA for health volumes are also presented in US$ per capita per year and according to allocation (i.e. policy purpose). Policy purposes used here are based on the original CRS statistical purpose codes, but have been aggregated to reflect, as far as possible, global health development benchmarks (i.e. MDG6; Reproductive Health &amp; Family Planning). </ns:span>
                   </ns:p>
                   <ns:p
                      style="text-align:justify;">
@@ -4424,7 +4424,7 @@
                          y="110.53671">
                         <tspan
                            style="font-size:4.77867794px"
-                           id="tspan4355">in Million constant 2010 US$</tspan>
+                           id="tspan4355">in Million constant 2012 US$</tspan>
                       </text>
                     </g>
                   </switch>
@@ -7968,7 +7968,7 @@
                         <ns:p
                            style="text-align:center;text-align-last:center;">
                           <ns:span
-                             style="fill:#FFFFFF;">HOW MUCH DONORS DISBURSED IN 2009-2010</ns:span>
+                             style="fill:#FFFFFF;">HOW MUCH DONORS DISBURSED IN 2011-2012</ns:span>
                         </ns:p>
                       </ns:flow>
                     </ns:flowDef>
@@ -7992,7 +7992,7 @@
                        y="102.81055">
                       <tspan
                          style="font-size:7.16597337px"
-                         id="tspan4678">HOW MUCH DONORS DISBURSED IN 2010-2011</tspan>
+                         id="tspan4678">HOW MUCH DONORS DISBURSED IN 2011-2012</tspan>
                     </text>
                   </g>
                 </switch>
@@ -8058,7 +8058,7 @@
                        y="102.81006">
                       <tspan
                          style="font-size:7.16597337px"
-                         id="tspan4684">5 LARGEST SOURCES OF DISBURSEMENTS FOR HEALTH IN 2010-2011</tspan>
+                         id="tspan4684">5 LARGEST SOURCES OF DISBURSEMENTS FOR HEALTH IN 2011-2012</tspan>
                     </text>
                   </g>
                 </switch>
@@ -9276,7 +9276,7 @@
                        style="font-size:12.6773;">
                       <ns:p>
                         <ns:span
-                           style="fill:#FFFFFF; font-family:'Calibri';">In the period 2009-2010 the </ns:span>
+                           style="fill:#FFFFFF; font-family:'Calibri';">In the period 2011-2012 the </ns:span>
                         <ns:span
                            style="fill:#FFFFFF; font-family:'Calibri-Bold';">total amount</ns:span>
                         <ns:span
@@ -9314,7 +9314,7 @@
                        id="tspan2559">
                       <tspan
                          style="font-family:Calibri;-inkscape-font-specification:Calibri;font-size:11.14706972px"
-                         id="tspan4956">In the period 2010-2011 the total amount of US$ Million</tspan>
+                         id="tspan4956">In the period 2011-2012 the total amount of US$ Million</tspan>
                       <tspan
                          style="font-size:11.14706972px;font-weight:bold;fill:#79317f;fill-opacity:1;font-family:Calibri-Bold;-inkscape-font-specification:Calibri-Bold"
                          id="summary_amount"
@@ -9491,7 +9491,7 @@
                      y="464.45154">
                     <tspan
                        style="font-size:7.16597337px"
-                       id="tspan4682">7 largest SINGLE disbursements in 2010-2011</tspan>
+                       id="tspan4682">7 largest SINGLE disbursements in 2011-2012</tspan>
                   </text>
                 </g>
               </switch>
@@ -9667,7 +9667,7 @@
                             </ns:p>
                             <ns:p>
                               <ns:span
-                                 style="fill:#58595B;">in 2009-2010</ns:span>
+                                 style="fill:#58595B;">in 2011-2012</ns:span>
                             </ns:p>
                           </ns:flow>
                         </ns:flowDef>
@@ -9697,7 +9697,7 @@
                              x="480.02402"
                              y="557.25452"
                              style="font-size:6.5px;fill:#58595b;font-family:Calibri"
-                             id="tspan2642">in 2010-2011</tspan>
+                             id="tspan2642">in 2011-2012</tspan>
                         </text>
                       </g>
                     </switch>
@@ -9825,7 +9825,7 @@
                              x="481.02499"
                              y="507.90591"
                              id="tspan2672"
-                             style="font-size:6.5px;fill:#58595b;font-family:Calibri">in 2010-2011</tspan>
+                             style="font-size:6.5px;fill:#58595b;font-family:Calibri">in 2011-2012</tspan>
                         </text>
                       </g>
                     </switch>
@@ -11807,7 +11807,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
            x="-8.8465443"
            y="99.466301"
            style="fill:#58595b;fill-opacity:1;marker:none"
-           id="tspan51085">disbursements are presented in constant 2010 US$ to ensure comparability over years. ODA for health </tspan></tspan><tspan
+           id="tspan51085">disbursements are presented in constant 2012 US$ to ensure comparability over years. ODA for health </tspan></tspan><tspan
          sodipodi:role="line"
          x="-8.8465443"
          y="123.94183"
@@ -11859,7 +11859,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        y="-397.21335">
       <tspan
          style="font-size:6.00171089px"
-         id="tspan4355-7">in Million constant 2010 US$</tspan>
+         id="tspan4355-7">in Million constant 2012 US$</tspan>
     </text>
     <text
        transform="scale(0.9999725,1.0000275)"
@@ -11869,7 +11869,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        id="_countryname-9">
       <tspan
          style="font-size:32px"
-         id="tspan6633">2001-2011</tspan>
+         id="tspan6633">2002-2012</tspan>
     </text>
     <text
        xml:space="preserve"

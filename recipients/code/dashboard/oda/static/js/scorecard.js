@@ -86,7 +86,7 @@ function load_front(json) {
     d3.select("#sum_2000").text(Math.round(json.summary.sum_2000) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
-    var all_years = ["2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011"];
+    var all_years = ["2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"];
     _.each(all_years, function(el, i) {
 
         // *********************************************

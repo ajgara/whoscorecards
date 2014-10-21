@@ -3,6 +3,19 @@ who-scorecards
 
 WHO Scorecard System
 
+Structure
+============
+The program consists of a Python DJango application and a PhantomJS server running in the background.
+
+The DJango application is used to do the following:
+
+1. Retrieve data from .xls files and create corresponding DJango models to save in database.
+
+2. Show the data in a DJango template, using svg graphics.
+
+The PhantomJS server is used just to take the URL to the DJango template and render it to a PDF using a tool named rasterize.js
+
+
 Installation
 ============
 
@@ -32,30 +45,26 @@ Installation
 
     **$ phantomjs main.js**
 
-To create the donor scorecards
-==============================
 
-cd PROJECTROOT/donor
-python donors/code/who/manage.py runserver
-
--- in another session
-cd PROJECTROOT/
-scripts/generate.py
-
--- all pdfs will be generated in the output folder
-
-To create the recipient scorecards
+Changing static values inside templates
 =================================
+The files named *front.svg* and *back.svg* located at *recipients/code/dashboard/oda/static/svg/* have inside it the static values that appear in the final result.
+It also has other dummy values in it, when the URL hosted in the DJango server is hit, this dummy values are dynamically changed to the real values of the corresponding country.
 
-cd PROJECTROOT/recipients/code/dashboard/manage.py
-python manage.py runserver
+Changing dynamic values inside templates
+=================================
+These values are taken from three different places:
 
--- in another session
-cd PROJECTROOT/scripts
-for i `cat ../data/recipients/data/countries.csv | cut -d , -f 1`;
-do
-    make COUNTRY=$i
-done
+1. From the models of the DJango app (stored in the database)
 
+2. Calculated in the logic inside the DJango view.
 
-pip install -r requirements.txt
+3. Calculated using javascript inside the page.
+
+## Changing the value of the years:
+
+1. Changing the static values inside the corresponding .svg files
+
+2. Changing the all_years variable inside **scorecard.js**
+
+3. Changing the variables inside the view named **front_data**
