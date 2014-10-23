@@ -74,7 +74,7 @@ function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(Math.round(json.summary.sum_increase) + "%");
     d3.select("#sum_label").text(json.summary.sum_label);
-    d3.select("#sum_amount").text(r0(json.summary.sum_2010) + "%");
+    d3.select("#sum_amount").text(r0(json.summary.sum_last_year) + "%");
 
     purpose_mapping = {
         "HEALTH POLICY & ADMIN. MANAGEMENT" : "Health Policy & Admin",
@@ -83,7 +83,7 @@ function load_front(json) {
         "RH & FP" : "Reproductive H. & Family Planning"
     }
     d3.select("#sum_purpose").text(purpose_mapping[json.summary.sum_purpose]);
-    d3.select("#sum_2000").text(Math.round(json.summary.sum_2000) + "%");
+    d3.select("#sum_2000").text(Math.round(json.summary.sum_base_year) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
     var all_years = ["2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"];
@@ -94,17 +94,17 @@ function load_front(json) {
         // *********************************************
 
         var indicators = json.indicators[el];
-        d3.select("#indc" + (i + 2) + "r1").text(r12(indicators["Population as at 30 june of each year"] / 1000000));
-        d3.select("#indc" + (i + 2) + "r2").text(r2(indicators["Commitments TOTAL ODA  (Million constant 2010 US$)"]));
-        d3.select("#indc" + (i + 2) + "r3").text(r2(indicators["Disbursements TOTAL ODA  (Million constant 2010 US$)"]));
-        d3.select("#indc" + (i + 2) + "r4").text(r2(indicators["ODA for Health Commitments, (Million constant 2010 US$)"]));
-        d3.select("#indc" + (i + 2) + "r5").text(r2(indicators["ODA for Health Disbursements (Million constant 2010 US$)"]));
-        d3.select("#indc" + (i + 2) + "r6").text(r2(indicators["Commitments: Ratio Health / Total ODA"]));
-        d3.select("#indc" + (i + 2) + "r7").text(r2(indicators["Disbursements:  Ratio Health / Total ODA"]));
-        d3.select("#indc" + (i + 2) + "r8").text(r2(indicators["Commitments per capita USD"]));
-        d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Disbursements per capita USD"]));
-        d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional AvComm per capita"]));
-        d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional AvDisb per capita"]));
+        d3.select("#indc" + (i + 2) + "r1").text(r12(indicators["Population as at 30 June"] / 1000000));
+        d3.select("#indc" + (i + 2) + "r2").text(r2(indicators["Commitments TOTAL ODA (Million Constant 2012 US$)"]));
+        d3.select("#indc" + (i + 2) + "r3").text(r2(indicators["Disbursements TOTAL ODA (Million Constant 2012 US$)"]));
+        d3.select("#indc" + (i + 2) + "r4").text(r2(indicators["ODA for Health Commitments, (Million, Constant 2012 US$)"]));
+        d3.select("#indc" + (i + 2) + "r5").text(r2(indicators["ODA for Health Disbursements, (Million, Constant 2012 US$)"]));
+        d3.select("#indc" + (i + 2) + "r6").text(r2(indicators["RATIO Health/Total ODA Commitments"]));
+        d3.select("#indc" + (i + 2) + "r7").text(r2(indicators["RATIO Health/Total ODA Disbursements"]));
+        d3.select("#indc" + (i + 2) + "r8").text(r2(indicators["Health Commitments per Capita"]));
+        d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Health Disbursements per Capita"]));
+        d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional avg Health Commitments per Capita (const.2012 US$)"]));
+        d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional avg Health Disbursements per Capita (const.2012 US$)"]));
         d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health (curr US$ p.c.)"]));
         d3.select("#indc" + (i + 2) + "r13").text(r2(indicators["General government expenditure on health (curr US$ p.c.)"]));
         d3.select("#indc" + (i + 2) + "r14").text(r2(indicators["Private expenditure on health (curr US$ p.c.)"]));
@@ -200,9 +200,9 @@ function load_front(json) {
     }
 
     function arrow_change(indicator) {
-        var val_2009 = json.indicators["2010"][indicator]
-        var val_2010 = json.indicators["2011"][indicator]
-        var change = val_2010 - val_2009 
+        var val_penultimate_year = json.indicators["2011"][indicator];
+        var val_last_year = json.indicators["2012"][indicator];
+        var change = val_last_year - val_penultimate_year;
         return {
             increase : change,
             change : Math.abs(change)
@@ -230,10 +230,10 @@ function load_front(json) {
 
     
     max = _.reduce(all_years, function(memo, year) {
-        var val = json.indicators[year]["ODA for Health Commitments, (Million constant 2010 US$)"]
+        var val = json.indicators[year]["ODA for Health Commitments, (Million, Constant 2012 US$)"];
         if (val > memo) memo = val;
 
-        val = json.indicators[year]["ODA for Health Disbursements (Million constant 2010 US$)"]
+        val = json.indicators[year]["ODA for Health Disbursements, (Million, Constant 2012 US$)"];
         if (val > memo) memo = val;
 
         return memo
@@ -241,12 +241,12 @@ function load_front(json) {
     }, 0);
     rounded["node"] = "#oda_bar1"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["ODA for Health Commitments, (Million constant 2010 US$)"];
+        indicator = json.indicators[year]["ODA for Health Commitments, (Million, Constant 2012 US$)"];
             memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["max"] = max;
-    var change = arrow_change("ODA for Health Commitments, (Million constant 2010 US$)");
+    var change = arrow_change("ODA for Health Commitments, (Million, Constant 2012 US$)");
     d3.select("#bar1_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar1_arrow", change["increase"]);
 
@@ -257,12 +257,12 @@ function load_front(json) {
     rounded["bar"]["color"] = "#df7627";
     rounded["node"] = "#oda_bar2"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["ODA for Health Disbursements (Million constant 2010 US$)"];
+        indicator = json.indicators[year]["ODA for Health Disbursements, (Million, Constant 2012 US$)"];
         memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["max"] = max;
-    var change = arrow_change("ODA for Health Disbursements (Million constant 2010 US$)");
+    var change = arrow_change("ODA for Health Disbursements, (Million, Constant 2012 US$)");
     d3.select("#bar2_value").text(fmt_millions(change["change"]));
     manipulate_arrow("#bar2_arrow", change["increase"]);
 
@@ -271,40 +271,39 @@ function load_front(json) {
 
     /* --------- ODA for health commitments, per capita */
     max = _.reduce(all_years, function(memo, year) {
-        var val = json.indicators[year]["Commitments per capita USD"]
+        var val = json.indicators[year]["Health Commitments per Capita"];
         if (val > memo) memo = val;
 
-        val = json.indicators[year]["Disbursements per capita USD"]
+        val = json.indicators[year]["Health Disbursements per Capita"];
         if (val > memo) memo = val;
 
-        val = json.indicators[year]["Regional AvComm per capita"]
+        val = json.indicators[year]["Regional avg Health Commitments per Capita (const.2012 US$)"];
         if (val > memo) memo = val;
 
-        val = json.indicators[year]["Regional AvDisb per capita"]
+        val = json.indicators[year]["Regional avg Health Disbursements per Capita (const.2012 US$)"];
         if (val > memo) memo = val;
 
         return memo
-        
     }, 0);
 
     rounded["max"] = max;
     rounded["bar"]["color"] = "#0093d5";
     rounded["node"] = "#oda_bar3"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["Commitments per capita USD"];
+        indicator = json.indicators[year]["Health Commitments per Capita"];
         memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["line"] = {
         type : "point",
         data : _.reduce(all_years, function(memo, year) {
-            var v = json.indicators[year]["Regional AvComm per capita"];
+            var v = json.indicators[year]["Regional avg Health Commitments per Capita (const.2012 US$)"];
             memo.push(noz(v));
             return memo;
         }, [])
     }
     
-    var change = arrow_change("Commitments per capita USD");
+    var change = arrow_change("Health Commitments per Capita");
     d3.select("#bar3_value").text(fmt_dollars(change["change"]));
     manipulate_arrow("#bar3_arrow", change["increase"]);
 
@@ -315,19 +314,19 @@ function load_front(json) {
     rounded["bar"]["color"] = "#df7627";
     rounded["node"] = "#oda_bar4"
     rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["Disbursements per capita USD"];
+        indicator = json.indicators[year]["Health Disbursements per Capita"];
         memo.push({"value" : round(noz(indicator), 2), "series" : year});
         return memo;
     }, [])
     rounded["line"] = {
         type : "point",
         data : _.reduce(all_years, function(memo, year) {
-            var v = json.indicators[year]["Regional AvDisb per capita"];
+            var v = json.indicators[year]["Regional avg Health Disbursements per Capita (const.2012 US$)"];
             memo.push(noz(v));
             return memo;
         }, [])
     }
-    var change = arrow_change("Disbursements per capita USD");
+    var change = arrow_change("Health Disbursements per Capita");
     d3.select("#bar4_value").text(fmt_dollars(change["change"]));
     manipulate_arrow("#bar4_arrow", change["increase"]);
 

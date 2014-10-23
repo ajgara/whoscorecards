@@ -39,7 +39,7 @@ def front_data(request, iso3):
     allocations = models.Allocation.objects.filter(country=country)
 
     hd_indicator = models.GeneralIndicator.objects.get(
-        name="ODA for Health Disbursements (Million constant 2010 US$)"
+        name="ODA for Health Disbursements, (Million, Constant 2012 US$)"
     )
 
     overrides = {
@@ -50,35 +50,35 @@ def front_data(request, iso3):
     } 
 
     base_year = "2002"
-    last_year = "2011"
+    last_year = "2012"
 
     if country.iso3 in overrides:
         base_year = overrides[country.iso3]
     # summary calculations
     try:
-        hd_2000 = country_indicators.get(year=base_year, indicator=hd_indicator)
-        hd_2000 = hd_2000.value
+        hd_base_year = country_indicators.get(year=base_year, indicator=hd_indicator)
+        hd_base_year = hd_base_year.value
     except models.CountryIndicator.DoesNotExist:
-        hd_2000 = 0
+        hd_base_year = 0
 
     try:
-        hd_2010 = country_indicators.get(year=last_year, indicator=hd_indicator)
-        hd_2010 = hd_2010.value
+        hd_last_year = country_indicators.get(year=last_year, indicator=hd_indicator)
+        hd_last_year = hd_last_year.value
     except models.CountryIndicator.DoesNotExist:
-        hd_2010 = 0
+        hd_last_year = 0
 
-    # Highest valued allocation in 2010
-    alloc_2010 = allocations.filter(year=last_year).order_by("-disbursement")[0]
-    mdg_purpose = alloc_2010.mdgpurpose
+    # Highest valued allocation in last year
+    alloc_last_year = allocations.filter(year=last_year).order_by("-disbursement")[0]
+    mdg_purpose = alloc_last_year.mdgpurpose
     try:
-        alloc_2000 = allocations.get(year=base_year, mdgpurpose=mdg_purpose)
+        alloc_base_year = allocations.get(year=base_year, mdgpurpose=mdg_purpose)
     except models.Allocation.DoesNotExist:
-        alloc_2000 = models.Allocation()
-        alloc_2000.disbursement = 0
+        alloc_base_year = models.Allocation()
+        alloc_base_year.disbursement = 0
 
-    sum_increase = (hd_2010 / hd_2000 - 1) * 100
-    mdg_perc_2000 = safe_mul(safe_div(alloc_2000.disbursement, hd_2000), 100)
-    mdg_perc_2010 = safe_mul(safe_div(alloc_2010.disbursement, hd_2010), 100)
+    sum_increase = (hd_last_year / hd_base_year - 1) * 100
+    mdg_perc_base_year = safe_mul(safe_div(alloc_base_year.disbursement, hd_base_year), 100)
+    mdg_perc_last_year = safe_mul(safe_div(alloc_last_year.disbursement, hd_last_year), 100)
 
     indicators = defaultdict(dict, {})
     for indicator in country_indicators:
@@ -101,8 +101,8 @@ def front_data(request, iso3):
             "sum_increase" : abs(sum_increase),
             "sum_label" : "increased" if sum_increase > 0 else "decreased",
             "sum_purpose" : mdg_purpose.name,
-            "sum_2010" : mdg_perc_2010,
-            "sum_2000" : mdg_perc_2000,
+            "sum_last_year" : mdg_perc_last_year,
+            "sum_base_year" : mdg_perc_base_year,
             "sum_baseyear" : base_year,
         },
         "indicators" : indicators,
@@ -115,8 +115,8 @@ def front_data(request, iso3):
     try:
         #import pdb; pdb.set_trace()
         # sanity checks
-        i1_text = "ODA for Health Commitments, (Million constant 2010 US$)"
-        i2_text = "ODA for Health Disbursements (Million constant 2010 US$)"
+        i1_text = "ODA for Health Commitments, (Million, Constant 2012 US$)"
+        i2_text = "ODA for Health Disbursements, (Million, Constant 2012 US$)"
         total_commitments1 = { year : value.get(i1_text, 0) for year, value in indicators.items() }
         total_disbursements1 = { year : value.get(i2_text, 0) for year, value in indicators.items() }
         total_commitments2 = { year : sum(ac.values()) for year, ac in allocations_commitments.items()}
