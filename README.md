@@ -63,8 +63,18 @@ These values are taken from three different places:
 
 ## Changing the value of the years:
 
-1. Changing the static values inside the corresponding .svg files
+1. Changing the static values inside the corresponding .svg files in the folder **recipients/code/dashboard/oda/static/svg/**
 
-2. Changing the all_years variable inside **scorecard.js**
+2. Changing the references inside **recipients/code/dashboard/oda/static/js/scorecard.js**
 
-3. Changing the variables inside the view named **front_data**
+3. Changing the variables inside the view named **front_data** located in **recipients/code/dashboard/oda/views.py**
+
+## Changing the .xlsx to take the data from:
+
+1. Change the name of the files in **recipients/code/dashboard/Makefile**
+
+2. All the sheets in the excel file must have the name "DB"
+
+## Show the values stored in database
+
+Once the correct files are used to store the data in the database, to show these results on the .svg file the reference to the name of the indicators inside the view and **scoreboard.js** must be changed. For example "ODA for Health Disbursements, (Million, Constant 2011 US$)" to "ODA for Health Disbursements, (Million, Constant 2012 US$)"
