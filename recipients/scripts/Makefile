@@ -10,7 +10,7 @@
 all: makepdf fixpdf
 
 makepdf:
-	phantomjs rasterize.js http://localhost:8000/oda/scorecard/front/$(COUNTRY)/ $(COUNTRY)_front.pdf A4
+	phantomjs rasterize.js http://localhost:8000/oda/scorecard/front/$(COUNTRY)/ $(COUNTRY)_front.pdf 380mm*270mm
 	phantomjs rasterize.js http://localhost:8000/oda/scorecard/back/$(COUNTRY)/ $(COUNTRY)_back.pdf 380mm*270mm
 
 fixpdf:

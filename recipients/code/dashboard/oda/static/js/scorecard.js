@@ -105,9 +105,9 @@ function load_front(json) {
         d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Health Disbursements per Capita"]));
         d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional avg Health Commitments per Capita (const.2012 US$)"]));
         d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional avg Health Disbursements per Capita (const.2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health (curr US$ p.c.)"]));
-        d3.select("#indc" + (i + 2) + "r13").text(r2(indicators["General government expenditure on health (curr US$ p.c.)"]));
-        d3.select("#indc" + (i + 2) + "r14").text(r2(indicators["Private expenditure on health (curr US$ p.c.)"]));
+        d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health in current US$ per capita"]));
+        d3.select("#indc" + (i + 2) + "r13").text(r2(indicators["General government expenditure on health in current US$ per capita"]));
+        d3.select("#indc" + (i + 2) + "r14").text(r2(indicators["Private expenditure on health in current US$ per capita"]));
 
 
         var allocation_commitments = json.allocations.commitments[el];
