@@ -10,6 +10,8 @@ all: clean
 	python manage.py load_general_indicators "../../data/2012/2012_Table1.xlsx"
 	python manage.py load_allocation "../../data/2012/2012_purpose_commitments.xlsx"
 	python manage.py load_allocation "../../data/2012/2012_purpose_disbursements.xlsx"
+	python manage.py load_disbursements_sources "../../data/2012/2012_Disbursements_sources.xlsx"
+	python manage.py load_largest_disbursements "../../data/2012/2012_7largest_disbursement.xlsx"
 
 	# 2011
 	# python manage.py load_general_indicators "../../data/Table1.xlsx"
