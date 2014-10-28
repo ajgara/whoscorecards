@@ -353,7 +353,7 @@ function load_back(json) {
         "IDA", "IDB Sp. Fund", "OFID", "The Global Fund", "UNAIDS", "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP", "WHO"
     ];
 
-    var phils = ["Bill & Melinda Gates Foundation"];
+    var phils = ["BMGF"];
 
     var bil_total_nr = 0;
     var bil_total_value = 0;
