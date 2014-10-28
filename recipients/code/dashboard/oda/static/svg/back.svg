@@ -355,9 +355,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2"
-     inkscape:cx="527.75179"
-     inkscape:cy="398.28924"
+     inkscape:zoom="1"
+     inkscape:cx="251.96838"
+     inkscape:cy="353.04857"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -4603,7 +4603,7 @@
                    i:knockout="Off"
                    style="fill:#f1f2f2"
                    width="70.865997"
-                   height="243.74248" />
+                   height="246.54424" />
                 <rect
                    id="col2greyblock_2_"
                    x="299.422"
@@ -4611,7 +4611,7 @@
                    i:knockout="Off"
                    style="fill:#f1f2f2"
                    width="117.27"
-                   height="245.17815" />
+                   height="246.57903" />
                 <g
                    id="_x5F_shading_2_">
                   <rect
@@ -11976,7 +11976,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        transform="scale(0.93778016,1.066348)"
        style="font-size:10px;fill:#58595b;font-family:Calibri"
        x="-391.16562"
-       y="-118.29369">
+       y="-116.96747">
       <tspan
          style="fill:#005581;fill-opacity:1"
          id="tspan15792">BMGF</tspan>
@@ -11985,8 +11985,8 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        id="mcol2r20"
        transform="scale(0.97073835,1.0301437)"
        style="font-size:10px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
-       x="-172.7677"
-       y="-122.07675"
+       x="-172.40349"
+       y="-121.04713"
        inkscape:transform-center-x="5.5"
        inkscape:transform-center-y="-3.349979">0</text>
     <text
@@ -11994,7 +11994,7 @@ DEFINITIONS: CRS financial data presented here are commitments and disbursements
        transform="scale(0.97073835,1.0301437)"
        style="font-size:10px;text-align:center;text-anchor:middle;fill:#58595b;font-family:Calibri"
        x="-68.20813"
-       y="-123.0475"
+       y="-121.33146"
        inkscape:transform-center-x="2.1211201"
        inkscape:transform-center-y="3.349979">0</text>
   </g>
