@@ -30,8 +30,17 @@ round = function(x, places) {
 
 
 check_before_fmt = function(v, func) {
-    if (v == undefined || isNaN(v))
+    if(v == undefined) {
         return "-";
+    }
+
+    if(isNaN(v)) {
+        if(v.indexOf("<") == 0) {
+            return v;
+        }
+        return "-";
+    }
+
     return func(v);
 }
 
@@ -113,11 +122,11 @@ function load_front(json) {
         var allocation_commitments = json.allocations.commitments[el];
         var allocation_disbursements = json.allocations.disbursements[el];
 
-        d3.select("#allcc" + (i + 1) + "r1").text("-")
-        d3.select("#allcc" + (i + 1) + "r2").text("-")
-        d3.select("#allcc" + (i + 1) + "r3").text("-")
-        d3.select("#allcc" + (i + 1) + "r4").text("-")
-        d3.select("#allcc" + (i + 1) + "r5").text("-")
+        d3.select("#allcc" + (i + 1) + "r1").text("-");
+        d3.select("#allcc" + (i + 1) + "r2").text("-");
+        d3.select("#allcc" + (i + 1) + "r3").text("-");
+        d3.select("#allcc" + (i + 1) + "r4").text("-");
+        d3.select("#allcc" + (i + 1) + "r5").text("-");
 
         if (allocation_commitments != undefined) {
             d3.select("#allcc" + (i + 1) + "r1").text(r2(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]));
@@ -127,11 +136,11 @@ function load_front(json) {
             d3.select("#allcc" + (i + 1) + "r5").text(r2(_.sum(_.values(allocation_commitments))));
         }
 
-        d3.select("#alldc" + (i + 1) + "r1").text("-")
-        d3.select("#alldc" + (i + 1) + "r2").text("-")
-        d3.select("#alldc" + (i + 1) + "r3").text("-")
-        d3.select("#alldc" + (i + 1) + "r4").text("-")
-        d3.select("#alldc" + (i + 1) + "r5").text("-")
+        d3.select("#alldc" + (i + 1) + "r1").text("-");
+        d3.select("#alldc" + (i + 1) + "r2").text("-");
+        d3.select("#alldc" + (i + 1) + "r3").text("-");
+        d3.select("#alldc" + (i + 1) + "r4").text("-");
+        d3.select("#alldc" + (i + 1) + "r5").text("-");
 
         if (allocation_disbursements != undefined) {
             d3.select("#alldc" + (i + 1) + "r1").text(r2(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]));

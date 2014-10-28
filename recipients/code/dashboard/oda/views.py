@@ -82,7 +82,12 @@ def front_data(request, iso3):
 
     indicators = defaultdict(dict, {})
     for indicator in country_indicators:
-        indicators[indicator.year][indicator.indicator.name] = indicator.value
+        if indicator.value:
+            indicators[indicator.year][indicator.indicator.name] = indicator.value
+        else:
+            # Value could start with '<', for example '<0.5'. Do not use for calculations
+            if indicator.raw_value.startswith("<"):
+                indicators[indicator.year][indicator.indicator.name] = indicator.raw_value
 
     allocations_commitments = defaultdict(dict, {})
     allocations_disbursements = defaultdict(dict, {})
