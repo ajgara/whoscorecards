@@ -55,7 +55,7 @@ class DisbursementSource(models.Model):
     source = models.CharField(max_length=50)
     number = models.IntegerField()
     amount = models.FloatField()
-    group = models.CharField(max_length=10, choices=(("Bil", "Bil"), ("Mul", "Mul")))
+    group = models.CharField(max_length=10, choices=(("Bil", "Bil"), ("Mul", "Mul"), ("Phil", "Phil")))
 
     def __unicode__(self):
         return "%s => %s" % (self.source, self.country)

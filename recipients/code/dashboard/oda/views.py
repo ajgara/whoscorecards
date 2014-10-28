@@ -182,6 +182,13 @@ def back_data(request, iso3):
             }
             for ds in models.DisbursementSource.objects.filter(country=country, group="Mul")
         },
+        "phil_sources" : {
+            ds.source : {
+                "number": ds.number,
+                "amount": ds.amount
+            }
+            for ds in models.DisbursementSource.objects.filter(country=country, group="Phil")
+        },
         "largest_sources" : [{
                "percentage" : ds.percentage,
                "source" : ds.donor 

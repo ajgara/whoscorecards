@@ -351,7 +351,9 @@ function load_back(json) {
     var multis = [
         "AfDB", "AfDF", "Arab Fund (AFESD)", "AsDB Special Funds", "BADEA", "EU Institutions", "GAVI",
         "IDA", "IDB Sp. Fund", "OFID", "The Global Fund", "UNAIDS", "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP", "WHO"
-    ]
+    ];
+
+    var phils = ["Bill & Melinda Gates Foundation"];
 
     var bil_total_nr = 0;
     var bil_total_value = 0;
@@ -379,6 +381,18 @@ function load_back(json) {
             d3.select("#mcol3r" + (i + 1)).text(r2(json.mul_sources[c].amount));
             mul_total_nr += json.mul_sources[c].number;
             mul_total_value += json.mul_sources[c].amount;
+        }
+    });
+
+    var offset_from_muls = 20;
+    _.each(phils, function(c, i) {
+        d3.select("#mcol2r" + (i + offset_from_muls)).text("-");
+        d3.select("#mcol3r" + (i + offset_from_muls)).text("-");
+        if (json.phil_sources[c] != undefined) {
+            d3.select("#mcol2r" + (i + offset_from_muls)).text(json.phil_sources[c].number);
+            d3.select("#mcol3r" + (i + offset_from_muls)).text(r2(json.phil_sources[c].amount));
+            mul_total_nr += json.phil_sources[c].number;
+            mul_total_value += json.phil_sources[c].amount;
         }
     });
     d3.select("#mul_total_nr").text(mul_total_nr);
