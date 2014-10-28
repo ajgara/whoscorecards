@@ -384,7 +384,6 @@ function load_back(json) {
     d3.select("#mul_total_nr").text(mul_total_nr);
     d3.select("#mul_total_value").text(r2(mul_total_value));
 
-    /*
     // bubbles
     d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
     d3.select("#bubble_text2").text(json.largest_sources[1]["source"]);
@@ -423,7 +422,7 @@ function load_back(json) {
     d3.select("#bubble4").attr("transform", "scale(" + ratio4 + "," + ratio4 + ")");
     d3.select("#bubble5").attr("transform", "scale(" + ratio5 + "," + ratio5 + ")");
     d3.select("#bubble6").attr("transform", "scale(" + ratio6 + "," + ratio6 + ")");
-*/
+
     // largest single disbursements
     _.each(json.largest_disbursements, function(el, i) {
         d3.select("#sdcol1r" + (i + 1)).text("$" + r2(el.disbursement) + "m");
