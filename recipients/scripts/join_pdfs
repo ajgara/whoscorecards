@@ -1,0 +1,14 @@
+# This is just to switch the order of appearance from BACK-FRONT to FRONT-BACK
+cd ./output/
+FILES=(*)
+LENGTH=${#FILES[*]}
+ORDERED_FILES=()
+
+for (( i=0; i<${LENGTH}; i=i+2 ));
+do
+    ORDERED_FILES[${i}]=${FILES[$((${i}+1))]}
+    ORDERED_FILES[$((${i}+1))]=${FILES[${i}]}
+done
+
+# Actually merging the PDF's
+pdfjam ${ORDERED_FILES[*]} --landscape --outfile ../all_countries.pdf

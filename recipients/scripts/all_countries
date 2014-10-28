@@ -1,0 +1,5 @@
+
+for iso in `cut -f1 -d, ../data/countries.csv`
+do               
+	make COUNTRY=$iso
+done
