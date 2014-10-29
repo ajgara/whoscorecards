@@ -1,5 +1,6 @@
-
-for iso in `cut -f1 -d, ../data/countries.csv`
-do               
-	make COUNTRY=$iso
-done
+while read line
+do
+    iso=$(echo ${line} | tr ',' '\n'  | sed -n 1'p')
+    name=$(echo ${line} | tr ',' '\n' | sed -n 2'p')
+    make COUNTRY_ISO=$iso COUNTRY_NAME=$name
+done < ../data/countries.csv

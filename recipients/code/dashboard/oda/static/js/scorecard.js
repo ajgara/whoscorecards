@@ -352,7 +352,7 @@ function load_back(json) {
     var countries = [
         "Australia", "Austria", "Belgium", "Canada", "Czech Republic", "Denmark", 
         "Finland", "France", "Germany", "Greece", "Iceland", "Ireland",
-        "Italy", "Japan", "Kuwait", "Luxembourg", "Netherlands", "New Zealand",
+        "Italy", "Japan", "Kuwait (KFAED)", "Luxembourg", "Netherlands", "New Zealand",
         "Norway", "Portugal", "Republic of Korea", "Spain", "Sweden", "Switzerland",
         "United Arab Emirates", "United Kingdom", "United States of America"
     ];

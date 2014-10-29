@@ -1,19 +1,12 @@
-# Run make with a country code
-# e.g. make COUNTRY=ALB
-
-# or for all countries
-# for iso in `cut -f1 -d, ../data/countries.csv`
-# do               
-# make COUNTRY=$iso
-# done
+# Run make with a COUNTRY_ISO code
+# e.g. make COUNTRY_ISO=ALB
 
 all: makepdf fixpdf
 
 makepdf:
-	phantomjs rasterize.js http://localhost:8000/oda/scorecard/front/$(COUNTRY)/ ./output/$(COUNTRY)_front.pdf 380mm*270mm
-	phantomjs rasterize.js http://localhost:8000/oda/scorecard/back/$(COUNTRY)/ ./output/$(COUNTRY)_back.pdf 380mm*270mm
+	phantomjs rasterize.js http://localhost:8000/oda/scorecard/front/$(COUNTRY_ISO)/ ./output/$(COUNTRY_ISO)_front.pdf 380mm*270mm
+	phantomjs rasterize.js http://localhost:8000/oda/scorecard/back/$(COUNTRY_ISO)/ ./output/$(COUNTRY_ISO)_back.pdf 380mm*270mm
 
 fixpdf:
-	pdfjam ./output/$(COUNTRY)_front.pdf  --landscape --outfile ./output/$(COUNTRY)_front.pdf
-	pdfjam ./output/$(COUNTRY)_back.pdf  --landscape --outfile ./output/$(COUNTRY)_back.pdf
-
+	pdfjam ./output/$(COUNTRY_ISO)_front.pdf ./output/$(COUNTRY_ISO)_back.pdf --landscape --outfile ./output/$(COUNTRY_ISO)_$(COUNTRY_NAME).pdf
+	rm ./output/$(COUNTRY_ISO)_front.pdf ./output/$(COUNTRY_ISO)_back.pdf
