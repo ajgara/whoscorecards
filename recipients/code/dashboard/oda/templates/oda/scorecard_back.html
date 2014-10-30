@@ -32,6 +32,7 @@
         var json = '{% url "back_data" iso3 %}';
 
         d3.json(json, function(e){
+            if(e === null) return;
             d3.xml(template, 'image/svg+xml', function(xml){
                 var scorecard = document.body.children[0];
                 scorecard.appendChild(xml.documentElement);

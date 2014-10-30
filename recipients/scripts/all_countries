@@ -3,4 +3,4 @@ do
     iso=$(echo ${line} | tr ',' '\n'  | sed -n 1'p')
     name=$(echo ${line} | tr ',' '\n' | sed -n 2'p')
     make COUNTRY_ISO=$iso COUNTRY_NAME="$name"
-done < ../data/countries.csv
+done < $1

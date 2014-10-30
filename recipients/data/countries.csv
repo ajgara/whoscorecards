@@ -3,7 +3,6 @@ AGO,Angola
 ALB,Albania
 ARG,Argentina
 ARM,Armenia
-ATG,Antigua and Barbuda
 AZE,Azerbaijan
 BDI,Burundi
 BEN,Benin
@@ -11,7 +10,6 @@ BFA,Burkina Faso
 BGD,Bangladesh
 BIH,Bosnia and Herzegovina
 BLR,Belarus
-BLZ,Belize
 BOL,Bolivia (Plurinational State of)
 BRA,Brazil
 BTN,Bhutan
@@ -23,14 +21,12 @@ CIV,Côte d'Ivoire
 CMR,Cameroon
 COD,Democratic Republic of the Congo
 COG,Congo
-COK,Cook Islands
 COL,Colombia
 COM,Comoros
 CPV,Cape Verde
 CRI,Costa Rica
 CUB,Cuba
 DJI,Djibouti
-DMA,Dominica
 DOM,Dominican Republic
 DZA,Algeria
 ECU,Ecuador
@@ -38,7 +34,6 @@ EGY,Egypt
 ERI,Eritrea
 ETH,Ethiopia
 FJI,Fiji
-FSM,Micronesia (Federated States of)
 GAB,Gabon
 GEO,Georgia
 GHA,Ghana
@@ -46,37 +41,30 @@ GIN,Guinea
 GMB,Gambia
 GNB,Guinea-Bissau
 GNQ,Equatorial Guinea
-GRD,Grenada
 GTM,Guatemala
 GUY,Guyana
 HND,Honduras
-HRV,Croatia
 HTI,Haiti
 IDN,Indonesia
 IND,India
 IRN,Iran (Islamic Republic of)
 IRQ,Iraq
-ISO,Country
 JAM,Jamaica
 JOR,Jordan
 KAZ,Kazakhstan
 KEN,Kenya
 KGZ,Kyrgyzstan
 KHM,Cambodia
-KIR,Kiribati
 LAO,Lao People's Democratic Republic
 LBN,Lebanon
 LBR,Liberia
 LBY,Libya
-LCA,Saint Lucia
 LKA,Sri Lanka
 LSO,Lesotho
 MAR,Morocco
 MDA,Republic of Moldova
 MDG,Madagascar
-MDV,Maldives
 MEX,Mexico
-MHL,Marshall Islands
 MKD,The former Yugoslav Republic of Macedonia
 MLI,Mali
 MMR,Myanmar
@@ -84,8 +72,6 @@ MNE,Montenegro
 MNG,Mongolia
 MOZ,Mozambique
 MRT,Mauritania
-MSR,Montserrat
-Multicountry,Global and Regional
 MUS,Mauritius
 MWI,Malawi
 MYS,Malaysia
@@ -93,58 +79,41 @@ NAM,Namibia
 NER,Niger
 NGA,Nigeria
 NIC,Nicaragua
-NIU,Niue
 NPL,Nepal
-NRU,Nauru
-OMN,Oman
 PAK,Pakistan
 PAN,Panama
 PER,Peru
 PHL,Philippines
-PLW,Palau
 PNG,Papua New Guinea
 PRK,Democratic People's Republic of Korea
 PRY,Paraguay
-PSE,West Bank and Gaza Strip
 RWA,Rwanda
 SDN,Sudan
 SEN,Senegal
-SHN,Saint Helena
 SLB,Solomon Islands
 SLE,Sierra Leone
 SLV,El Salvador
 SOM,Somalia
 SRB,Serbia
 SSD,South Sudan
-STP,Sao Tome and Principe
 SUR,Suriname
 SWZ,Swaziland
-SYC,Seychelles
 SYR,Syrian Arab Republic
 TCD,Chad
 TGO,Togo
 THA,Thailand
 TJK,Tajikistan
-TKL,Tokelau
 TKM,Turkmenistan
 TLS,Timor-Leste
-TON,Tonga
-TTO,Trinidad and Tobago
 TUN,Tunisia
 TUR,Turkey
-TUV,Tuvalu
 TZA,United Republic of Tanzania
 UGA,Uganda
 UKR,Ukraine
-UNK,Kosovo (SCR 1244 (1999))
 URY,Uruguay
 UZB,Uzbekistan
-VCT,Saint Vincent and the Grenadines
 VEN,Venezuela (Bolivarian Republic of)
 VNM,Viet Nam
-VUT,Vanuatu
-WLF,Wallis and Futuna
-WSM,Samoa
 YEM,Yemen
 ZAF,South Africa
 ZMB,Zambia
