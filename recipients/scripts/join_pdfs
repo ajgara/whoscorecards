@@ -1,4 +1,9 @@
 # This is just to switch the order of appearance from BACK-FRONT to FRONT-BACK
 cd ./output/
 FILES=(*)
-pdfjam ${FILES[*]} --landscape --outfile ../all_countries.pdf
+for ((i=0;i<${#FILES[*]};i++));
+do
+    FILES[i]="${FILES[i]// /?}"
+done
+pdfjoin ${FILES[*]} --landscape --outfile ../all_countries.pdf
+

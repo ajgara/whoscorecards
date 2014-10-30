@@ -8,5 +8,5 @@ makepdf:
 	phantomjs rasterize.js http://localhost:8000/oda/scorecard/back/$(COUNTRY_ISO)/ ./output/$(COUNTRY_ISO)_back.pdf 380mm*270mm
 
 fixpdf:
-	pdfjam ./output/$(COUNTRY_ISO)_front.pdf ./output/$(COUNTRY_ISO)_back.pdf --landscape --outfile ./output/$(COUNTRY_ISO)_$(COUNTRY_NAME).pdf
+	pdfjam ./output/$(COUNTRY_ISO)_front.pdf ./output/$(COUNTRY_ISO)_back.pdf --landscape --outfile "./output/$(COUNTRY_ISO)_$(COUNTRY_NAME).pdf"
 	rm ./output/$(COUNTRY_ISO)_front.pdf ./output/$(COUNTRY_ISO)_back.pdf
