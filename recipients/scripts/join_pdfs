@@ -5,5 +5,7 @@ for ((i=0;i<${#FILES[*]};i++));
 do
     FILES[i]="${FILES[i]// /?}"
 done
-pdfjoin ${FILES[*]} --landscape --outfile ../all_countries.pdf
+pdfjoin ${FILES[*]} --outfile ../all_countries.pdf
+cd ..
+pdf90 all_countries.pdf
 
