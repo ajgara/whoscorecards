@@ -343,26 +343,57 @@ function load_front(json) {
     d3.select("#oda_bar4_old").remove();
 
 }
+
+var BILATERAL_TABLE_ROWS = 27;
+var MULTILATERAL_FOUNDATION_TABLE_ROWS = 20;
+var FOUNDATION_OFFSET_IN_TABLE = 20;
+
+function emptyTables() {
+    // Empty columns of bilateral and multilateral/foundation tables.
+    for(var i = 1; i <= BILATERAL_TABLE_ROWS; i++) {
+        d3.select("#col1r" + i).text("");
+        d3.select("#col2r" + i).text("");
+        d3.select("#col3r" + i).text("");
+    }
+    for(var j = 1; j <= MULTILATERAL_FOUNDATION_TABLE_ROWS; j++) {
+        d3.select("#mcol1r" + j).text("");
+        d3.select("#mcol2r" + j).text("");
+        d3.select("#mcol3r" + j).text("");
+    }
+}
+
+function fillBilateralSourcesColumn(bilateralSources) {
+    _.each(bilateralSources, function(value, index) {
+        d3.select("#col1r" + (index + 1)).text(value);
+    });
+}
+
+function fillMultilateralSourcesColumn(multilateralSources) {
+    _.each(multilateralSources, function(value, index) {
+        d3.select("#mcol1r" + (index + 1)).text(value);
+    });
+}
+
+function fillFoundationSourcesColumn(foundationSources) {
+    _.each(foundationSources, function(value, index) {
+        d3.select("#mcol1r" + (index + FOUNDATION_OFFSET_IN_TABLE)).text(value);
+    });
+}
+
 function load_back(json) {
     /*********** Country Name ************/
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
-    var countries = [
-        "Australia", "Austria", "Belgium", "Canada", "Czech Republic", "Denmark", 
-        "Finland", "France", "Germany", "Greece", "Iceland", "Ireland",
-        "Italy", "Japan", "Kuwait (KFAED)", "Luxembourg", "Netherlands", "New Zealand",
-        "Norway", "Portugal", "Republic of Korea", "Spain", "Sweden", "Switzerland",
-        "United Arab Emirates", "United Kingdom", "United States of America"
-    ];
+    var countries = json.all_disbursement_sources.bilateral;
+    var multis = json.all_disbursement_sources.multilateral;
+    var phils = json.all_disbursement_sources.foundation;
 
-    var multis = [
-        "AfDB", "AfDF", "Arab Fund (AFESD)", "AsDB Special Funds", "BADEA", "EU Institutions", "GAVI",
-        "IDA", "IDB Sp. Fund", "OFID", "The Global Fund", "UNAIDS", "UNDP", "UNFPA", "UNICEF", "UNPBF", "UNRWA", "WFP", "WHO"
-    ];
-
-    var phils = ["BMGF"];
+    emptyTables();
+    fillBilateralSourcesColumn(countries);
+    fillMultilateralSourcesColumn(multis);
+    fillFoundationSourcesColumn(phils);
 
     var bil_total_nr = 0;
     var bil_total_value = 0;
@@ -393,13 +424,12 @@ function load_back(json) {
         }
     });
 
-    var offset_from_muls = 20;
     _.each(phils, function(c, i) {
-        d3.select("#mcol2r" + (i + offset_from_muls)).text("-");
-        d3.select("#mcol3r" + (i + offset_from_muls)).text("-");
+        d3.select("#mcol2r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text("-");
+        d3.select("#mcol3r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text("-");
         if (json.phil_sources[c] != undefined) {
-            d3.select("#mcol2r" + (i + offset_from_muls)).text(json.phil_sources[c].number);
-            d3.select("#mcol3r" + (i + offset_from_muls)).text(r2(json.phil_sources[c].amount));
+            d3.select("#mcol2r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text(json.phil_sources[c].number);
+            d3.select("#mcol3r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text(r2(json.phil_sources[c].amount));
             mul_total_nr += json.phil_sources[c].number;
             mul_total_value += json.phil_sources[c].amount;
         }
