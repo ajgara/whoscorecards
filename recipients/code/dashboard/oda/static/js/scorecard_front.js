@@ -1,3 +1,13 @@
+function manipulate_arrow(arrow, change) {
+    box = arrow + "_box2";
+    if (change < 0) {
+        d3.select(arrow).attr("style", "fill: #bf202e");
+    } else if (change > 0) {
+        d3.select(arrow).attr("style", "fill: #68ae45");
+        d3.select(box).attr("transform", "matrix(1,0,0,-1,0,20)");
+    }
+}
+
 function fillIndicatorsTable(indicators) {
     var data = indicators.data;
     var names = indicators.names;
@@ -86,6 +96,172 @@ function createDisbursementTablePies(disbursement_purpose_table) {
     }
 }
 
+function createFirstBarGraph(indicator_table) {
+    var years = indicator_table.years;
+    var data = indicator_table.data;
+
+    var maxValue = 0;
+    for(var i = 0; i < years.length; i++) {
+        var aux = data[years[i]]["ODA Commitments Health"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["ODA Disbursements Health"]["real"];
+        if(maxValue < aux) maxValue = aux;
+    }
+
+    var barOptions = {
+        bar: {'margin': 4, 'width': 155, 'rounding': 5, 'color': '#0093d5'},
+        line: {const_val: '0'}, width : 190, height : 102
+    };
+
+    barOptions["node"] = "#oda_bar1"
+    var values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["ODA Commitments Health"]["real"];
+        values.push({"value": round(noz(value), 2), "series": years[i]});
+    }
+    barOptions["data"] = values;
+    barOptions["max"] = maxValue;
+
+    var lastYear = data[years[years.length - 1]]["ODA Commitments Health"]["real"];
+    var lastLastYear = data[years[years.length - 2]]["ODA Commitments Health"]["real"];
+    var increase = lastYear - lastLastYear;
+    var change = Math.abs(increase);
+    d3.select("#bar1_value").text(fmt_millions(change));
+    manipulate_arrow("#bar1_arrow", increase);
+    rbg = new RoundedBarGraph(barOptions);
+    d3.select("#oda_bar1_old").remove();
+}
+
+function createSecondBarGraph(indicator_table) {
+    var years = indicator_table.years;
+    var data = indicator_table.data;
+
+    var maxValue = 0;
+    for(var i = 0; i < years.length; i++) {
+        var aux = data[years[i]]["ODA Commitments Health"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["ODA Disbursements Health"]["real"];
+        if(maxValue < aux) maxValue = aux;
+    }
+
+    var barOptions = {
+        bar: {'margin': 4, 'width': 155, 'rounding': 5, 'color': '#df7627'},
+        line: {const_val: '0'}, width : 190, height : 102
+    };
+
+    barOptions["node"] = "#oda_bar2";
+    var values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["ODA Disbursements Health"]["real"];
+        values.push({"value": round(noz(value), 2), "series": years[i]});
+    }
+    barOptions["data"] = values;
+    barOptions["max"] = maxValue;
+
+    var lastYear = data[years[years.length - 1]]["ODA Disbursements Health"]["real"];
+    var lastLastYear = data[years[years.length - 2]]["ODA Disbursements Health"]["real"];
+    var increase = lastYear - lastLastYear;
+    var change = Math.abs(increase);
+    d3.select("#bar2_value").text(fmt_millions(change));
+    manipulate_arrow("#bar2_arrow", increase);
+    rbg = new RoundedBarGraph(barOptions);
+    d3.select("#oda_bar2_old").remove();
+}
+
+function createThirdBarGraph(indicator_table) {
+    var years = indicator_table.years;
+    var data = indicator_table.data;
+
+    var maxValue = 0;
+    for(var i = 0; i < years.length; i++) {
+        var aux = data[years[i]]["Regional Avg Health Commitments per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Regional Avg Health Disbursements per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Health Commitments per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Health Disbursements per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+    }
+
+    var barOptions = {
+        bar: {'margin': 4, 'width': 155, 'rounding': 5, 'color': '#0093d5'},
+        line: {const_val: '0'}, width : 190, height : 102
+    };
+
+    barOptions["node"] = "#oda_bar3";
+    var values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["Health Commitments per Capita"]["real"];
+        values.push({"value": round(noz(value), 2), "series": years[i]});
+    }
+    barOptions["data"] = values;
+    barOptions["max"] = maxValue;
+
+    values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["Regional Avg Health Commitments per Capita"]["real"];
+        values.push(noz(value));
+    }
+    barOptions["line"] = {type: "point", data :values};
+
+    var lastYear = data[years[years.length - 1]]["Health Commitments per Capita"]["real"];
+    var lastLastYear = data[years[years.length - 2]]["Health Commitments per Capita"]["real"];
+    var increase = lastYear - lastLastYear;
+    var change = Math.abs(increase);
+    d3.select("#bar3_value").text(fmt_dollars(change));
+    manipulate_arrow("#bar3_arrow", increase);
+    rbg = new RoundedBarGraph(barOptions);
+    d3.select("#oda_bar3_old").remove();
+}
+
+function createFourthBarGraph(indicator_table) {
+    var years = indicator_table.years;
+    var data = indicator_table.data;
+
+    var maxValue = 0;
+    for(var i = 0; i < years.length; i++) {
+        var aux = data[years[i]]["Regional Avg Health Commitments per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Regional Avg Health Disbursements per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Health Commitments per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+        aux = data[years[i]]["Health Disbursements per Capita"]["real"];
+        if(maxValue < aux) maxValue = aux;
+    }
+
+    var barOptions = {
+        bar: {'margin': 4, 'width': 155, 'rounding': 5, 'color': '#df7627'},
+        line: {const_val: '0'}, width : 190, height : 102
+    };
+
+    barOptions["node"] = "#oda_bar4";
+    var values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["Health Disbursements per Capita"]["real"];
+        values.push({"value": round(noz(value), 2), "series": years[i]});
+    }
+    barOptions["data"] = values;
+    barOptions["max"] = maxValue;
+
+    values = [];
+    for(i = 0; i < years.length; i++) {
+        var value = data[years[i]]["Regional Avg Health Disbursements per Capita"]["real"];
+        values.push(noz(value));
+    }
+    barOptions["line"] = {type: "point", data :values};
+
+    var lastYear = data[years[years.length - 1]]["Health Disbursements per Capita"]["real"];
+    var lastLastYear = data[years[years.length - 2]]["Health Disbursements per Capita"]["real"];
+    var increase = lastYear - lastLastYear;
+    var change = Math.abs(increase);
+    d3.select("#bar4_value").text(fmt_dollars(change));
+    manipulate_arrow("#bar4_arrow", increase);
+    rbg = new RoundedBarGraph(barOptions);
+    d3.select("#oda_bar4_old").remove();
+}
+
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(Math.round(json.summary.sum_increase) + "%");
@@ -103,161 +279,15 @@ function load_front(json) {
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
     fillIndicatorsTable(json.indicator_table);
+
     fillCommitmentPurposeTable(json.commitment_purpose_table);
-    fillDisbursementPurposeTable(json.disbursement_purpose_table);
     createCommitmentTablePies(json.commitment_purpose_table);
+
+    fillDisbursementPurposeTable(json.disbursement_purpose_table);
     createDisbursementTablePies(json.disbursement_purpose_table);
 
-    var all_years = ["2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"];
-
-    // bar charts
-    var rounded = {
-        bar: {
-            'margin' : 4, // pixels between bars
-            'width': 155, // width of bars
-            'rounding': 5, // pixels for rounding effect
-            'color': '#0093d5'
-        },
-
-        line: {
-            const_val: '0'
-        },
-        width : 190,
-        height : 102,
-    }
-
-    function arrow_change(indicator) {
-        var val_penultimate_year = json.indicators["2011"][indicator];
-        var val_last_year = json.indicators["2012"][indicator];
-        var change = val_last_year - val_penultimate_year;
-        return {
-            increase : change,
-            change : Math.abs(change)
-        }
-    }
-
-    function manipulate_arrow(arrow, change) {
-        box = arrow + "_box2";
-        if (change < 0) {
-            d3.select(arrow).attr("style", "fill: #bf202e");
-        } else if (change > 0) {
-            d3.select(arrow).attr("style", "fill: #68ae45");
-            d3.select(box).attr("transform", "matrix(1,0,0,-1,0,20)");
-        }
-    }
-
-    function fmt_dollars(val) {
-        return "$" + r2(val);
-    }
-    function fmt_millions(val) {
-        return fmt_dollars(val) + "m";
-    }
-
-    /* --------- ODA for health commitments, per capita */
-
-
-    max = _.reduce(all_years, function(memo, year) {
-        var val = json.indicators[year]["ODA for Health Commitments, (Million, Constant 2012 US$)"];
-        if (val > memo) memo = val;
-
-        val = json.indicators[year]["ODA for Health Disbursements, (Million, Constant 2012 US$)"];
-        if (val > memo) memo = val;
-
-        return memo
-
-    }, 0);
-    rounded["node"] = "#oda_bar1"
-    rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["ODA for Health Commitments, (Million, Constant 2012 US$)"];
-            memo.push({"value" : round(noz(indicator), 2), "series" : year});
-        return memo;
-    }, [])
-    rounded["max"] = max;
-    var change = arrow_change("ODA for Health Commitments, (Million, Constant 2012 US$)");
-    d3.select("#bar1_value").text(fmt_millions(change["change"]));
-    manipulate_arrow("#bar1_arrow", change["increase"]);
-
-    rbg = new RoundedBarGraph(rounded);
-    d3.select("#oda_bar1_old").remove();
-
-    /* --------- ODA for health disbursements, per capita */
-    rounded["bar"]["color"] = "#df7627";
-    rounded["node"] = "#oda_bar2"
-    rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["ODA for Health Disbursements, (Million, Constant 2012 US$)"];
-        memo.push({"value" : round(noz(indicator), 2), "series" : year});
-        return memo;
-    }, [])
-    rounded["max"] = max;
-    var change = arrow_change("ODA for Health Disbursements, (Million, Constant 2012 US$)");
-    d3.select("#bar2_value").text(fmt_millions(change["change"]));
-    manipulate_arrow("#bar2_arrow", change["increase"]);
-
-    rbg = new RoundedBarGraph(rounded);
-    d3.select("#oda_bar2_old").remove();
-
-    /* --------- ODA for health commitments, per capita */
-    max = _.reduce(all_years, function(memo, year) {
-        var val = json.indicators[year]["Health Commitments per Capita"];
-        if (val > memo) memo = val;
-
-        val = json.indicators[year]["Health Disbursements per Capita"];
-        if (val > memo) memo = val;
-
-        val = json.indicators[year]["Regional avg Health Commitments per Capita (const.2012 US$)"];
-        if (val > memo) memo = val;
-
-        val = json.indicators[year]["Regional avg Health Disbursements per Capita (const.2012 US$)"];
-        if (val > memo) memo = val;
-
-        return memo
-    }, 0);
-
-    rounded["max"] = max;
-    rounded["bar"]["color"] = "#0093d5";
-    rounded["node"] = "#oda_bar3"
-    rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["Health Commitments per Capita"];
-        memo.push({"value" : round(noz(indicator), 2), "series" : year});
-        return memo;
-    }, [])
-    rounded["line"] = {
-        type : "point",
-        data : _.reduce(all_years, function(memo, year) {
-            var v = json.indicators[year]["Regional avg Health Commitments per Capita (const.2012 US$)"];
-            memo.push(noz(v));
-            return memo;
-        }, [])
-    }
-
-    var change = arrow_change("Health Commitments per Capita");
-    d3.select("#bar3_value").text(fmt_dollars(change["change"]));
-    manipulate_arrow("#bar3_arrow", change["increase"]);
-
-    rbg = new RoundedBarGraph(rounded);
-    d3.select("#oda_bar3_old").remove();
-
-    /* --------- ODA for health disbursements, per capita */
-    rounded["bar"]["color"] = "#df7627";
-    rounded["node"] = "#oda_bar4"
-    rounded["data"] = _.reduce(all_years, function(memo, year) {
-        indicator = json.indicators[year]["Health Disbursements per Capita"];
-        memo.push({"value" : round(noz(indicator), 2), "series" : year});
-        return memo;
-    }, [])
-    rounded["line"] = {
-        type : "point",
-        data : _.reduce(all_years, function(memo, year) {
-            var v = json.indicators[year]["Regional avg Health Disbursements per Capita (const.2012 US$)"];
-            memo.push(noz(v));
-            return memo;
-        }, [])
-    }
-    var change = arrow_change("Health Disbursements per Capita");
-    d3.select("#bar4_value").text(fmt_dollars(change["change"]));
-    manipulate_arrow("#bar4_arrow", change["increase"]);
-
-    rbg = new RoundedBarGraph(rounded);
-    d3.select("#oda_bar4_old").remove();
-
+    createFirstBarGraph(json.indicator_table);
+    createSecondBarGraph(json.indicator_table);
+    createThirdBarGraph(json.indicator_table);
+    createFourthBarGraph(json.indicator_table);
 }

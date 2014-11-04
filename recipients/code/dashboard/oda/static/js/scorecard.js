@@ -91,5 +91,11 @@ noz = function(v) {
     return v
 }
 
+function fmt_dollars(val) {
+    return "$" + r2(val);
+}
+function fmt_millions(val) {
+    return fmt_dollars(val) + "m";
+}
 
 
