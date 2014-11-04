@@ -7,14 +7,27 @@ if (typeof String.prototype.startsWith != 'function') {
 
 if (typeof Number.prototype.formatThousands != 'function') {
     Number.prototype.formatThousands = function(c, d, t) {
-        var n = this, 
-            c = isNaN(c = Math.abs(c)) ? 2 : c, 
-            d = d == undefined ? "." : d, 
-            t = t == undefined ? "," : t, 
-            s = n < 0 ? "-" : "", 
-            i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+        var n = this,
+            // Parse arguments.
+            // - Amount of decimals.
+            c = isNaN(c = Math.abs(c)) ? 2 : c,
+
+            // - Decimal separator.
+            d = d == undefined ? "." : d,
+
+            // - Thousands separator.
+            t = t == undefined ? "," : t,
+
+            // If it is less than 0, put a negative sign.
+            s = n < 0 ? "-" : "",
+
+            // Keep only c decimals.
+            i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
+
+            // Where to put the first thousands separator.
             j = (j = i.length) > 3 ? j % 3 : 0;
-       return s 
+
+       return s
               + (j ? i.substr(0, j) + t : "") 
               + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) 
               + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
@@ -79,6 +92,18 @@ noz = function(v) {
 }
 
 
+function fillIndicatorsTable(indicators) {
+    var data = indicators.data;
+    var names = indicators.indicator_names;
+    var years = indicators.years;
+
+    for(var i = 0; i < years.length; i++) {
+        for(var j = 0; j < names.length; j++) {
+            d3.select("#indc" + (i + 2) + "r" + (j + 1)).text(data[years[i]][names[j]]["formatted"]);
+        }
+    }
+}
+
 function load_front(json) {
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(Math.round(json.summary.sum_increase) + "%");
@@ -95,6 +120,8 @@ function load_front(json) {
     d3.select("#sum_2000").text(Math.round(json.summary.sum_base_year) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
+    fillIndicatorsTable(json.new_indicators);
+
     var all_years = ["2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"];
     _.each(all_years, function(el, i) {
 
@@ -103,21 +130,6 @@ function load_front(json) {
         // *********************************************
 
         var indicators = json.indicators[el];
-        d3.select("#indc" + (i + 2) + "r1").text(r12(indicators["Population as at 30 June"] / 1000000));
-        d3.select("#indc" + (i + 2) + "r2").text(r2(indicators["Commitments TOTAL ODA (Million Constant 2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r3").text(r2(indicators["Disbursements TOTAL ODA (Million Constant 2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r4").text(r2(indicators["ODA for Health Commitments, (Million, Constant 2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r5").text(r2(indicators["ODA for Health Disbursements, (Million, Constant 2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r6").text(r2(indicators["RATIO Health/Total ODA Commitments"]));
-        d3.select("#indc" + (i + 2) + "r7").text(r2(indicators["RATIO Health/Total ODA Disbursements"]));
-        d3.select("#indc" + (i + 2) + "r8").text(r2(indicators["Health Commitments per Capita"]));
-        d3.select("#indc" + (i + 2) + "r9").text(r2(indicators["Health Disbursements per Capita"]));
-        d3.select("#indc" + (i + 2) + "r10").text(r2(indicators["Regional avg Health Commitments per Capita (const.2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r11").text(r2(indicators["Regional avg Health Disbursements per Capita (const.2012 US$)"]));
-        d3.select("#indc" + (i + 2) + "r12").text(r2(indicators["Total expenditure on health in current US$ per capita"]));
-        d3.select("#indc" + (i + 2) + "r13").text(r2(indicators["General government expenditure on health in current US$ per capita"]));
-        d3.select("#indc" + (i + 2) + "r14").text(r2(indicators["Private expenditure on health in current US$ per capita"]));
-
 
         var allocation_commitments = json.allocations.commitments[el];
         var allocation_disbursements = json.allocations.disbursements[el];
