@@ -19,7 +19,7 @@ class Purpose(object):
 
     @classmethod
     def default_value(cls):
-        return {'formatted': '-'}
+        return {'formatted': '-', 'real': 0}
 
 
 class CommitmentPurpose(Purpose):
