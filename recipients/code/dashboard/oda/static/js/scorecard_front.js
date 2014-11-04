@@ -263,7 +263,7 @@ function createFourthBarGraph(indicator_table) {
 }
 
 function load_front(json) {
-    var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
+    d3.select("#countryname").text(json.country.name.toUpperCase());
     d3.select("#sum_increase").text(Math.round(json.summary.sum_increase) + "%");
     d3.select("#sum_label").text(json.summary.sum_label);
     d3.select("#sum_amount").text(r0(json.summary.sum_last_year) + "%");

@@ -83,7 +83,6 @@ class FrontDataView(View):
                 "sum_base_year" : mdg_perc_base_year,
                 "sum_baseyear" : base_year,
             },
-            "indicators" : indicators,
             "indicator_table": indicator_table.as_dictionary(),
             "commitment_purpose_table": commitment_purpose_table.as_dictionary(),
             "disbursement_purpose_table": disbursement_purpose_table.as_dictionary(),
