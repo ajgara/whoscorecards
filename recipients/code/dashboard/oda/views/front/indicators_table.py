@@ -1,5 +1,6 @@
 import json
 import oda.models as models
+from django.conf import settings
 
 
 class IndicatorCreator(object):
@@ -96,7 +97,7 @@ class IndicatorTable(object):
 
     @property
     def years(self):
-        return sorted(set([indicator.year for indicator in self.indicators]))
+        return map(str, range(settings.FIRST_YEAR, settings.LAST_YEAR + 1))
 
     @property
     def indicator_names(self):

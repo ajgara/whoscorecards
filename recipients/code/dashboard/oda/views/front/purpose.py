@@ -1,4 +1,5 @@
 import oda.models as models
+from django.conf import settings
 
 
 class Purpose(object):
@@ -47,7 +48,7 @@ class PurposeTable(object):
 
     @property
     def years(self):
-        return sorted(set([indicator.year for indicator in self.allocations]))
+        return map(str, range(settings.FIRST_YEAR, settings.LAST_YEAR + 1))
 
     @property
     def purpose_names(self):
@@ -99,8 +100,11 @@ class CommitmentPurposeTable(PurposeTable):
 
         for year in self.years:
             total = sum([x['real'] for x in self.table_data[year].values() if 'real' in x])
-            formatted = '{:,.2f}'.format(total)
-            values = {'formatted': formatted, 'real': total}
+            if total > 0:
+                formatted = '{:,.2f}'.format(total)
+                values = {'formatted': formatted, 'real': total}
+            else:
+                values = {'formatted': '-'}
             self.table_data[year][self.TOTAL_PURPOSE_NAME] = values
 
 
@@ -116,6 +120,9 @@ class DisbursementPurposeTable(PurposeTable):
 
         for year in self.years:
             total = sum([x['real'] for x in self.table_data[year].values() if 'real' in x])
-            formatted = '{:,.2f}'.format(total)
-            values = {'formatted': formatted, 'real': total}
+            if total > 0:
+                formatted = '{:,.2f}'.format(total)
+                values = {'formatted': formatted, 'real': total}
+            else:
+                values = {'formatted': '-'}
             self.table_data[year][self.TOTAL_PURPOSE_NAME] = values
