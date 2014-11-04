@@ -22,6 +22,9 @@ class IndicatorCreator(object):
 
     @classmethod
     def generic_indicator_names(cls):
+        indicators_in_db = models.GeneralIndicator.objects.all().values_list('name', flat=True)
+        if not all([i in indicators_in_db for i in cls.GENERIC_INDICATOR_NAMES.values()]):
+            raise Exception(u"Some indicators are missing in GENERIC_INDICATOR_NAMES dictionary.")
         return {value: key for key, value in cls.GENERIC_INDICATOR_NAMES.items()}
 
     @classmethod
@@ -88,12 +91,11 @@ class GeneralIndicator(Indicator):
 class IndicatorTable(object):
     def __init__(self, country):
         self.indicators = models.CountryIndicator.objects.filter(country=country)
-        self.years = self.generate_years()
-
         self.table_data = self.generate_empty_table_data()
         self.fill_table_data()
 
-    def generate_years(self):
+    @property
+    def years(self):
         return sorted(set([indicator.year for indicator in self.indicators]))
 
     @property
@@ -114,7 +116,7 @@ class IndicatorTable(object):
                            'Private Expenditure on Health']
         indicators = IndicatorCreator.generic_indicator_names().values()
         if not all([i in indicators for i in indicators_list]):
-            raise Exception(u"Some indicators are missing")
+            raise Exception(u"Some indicators are missing in the ordered list of indicators for table 1.")
         return indicators_list
 
     def generate_empty_table_data(self):
@@ -134,7 +136,7 @@ class IndicatorTable(object):
     def as_dictionary(self):
         table_info = {
             'years': self.years,
-            'indicator_names': self.indicator_names,
+            'names': self.indicator_names,
             'data': self.table_data
         }
         return table_info

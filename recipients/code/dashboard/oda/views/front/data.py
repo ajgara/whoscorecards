@@ -8,6 +8,7 @@ from django.db.models import Sum
 from oda.utils import safe_mul, safe_div
 import oda.models as models
 from oda.views.front.indicators_table import IndicatorTable
+from oda.views.front.purpose import CommitmentPurposeTable, DisbursementPurposeTable
 
 
 class FrontDataView(View):
@@ -78,6 +79,8 @@ class FrontDataView(View):
                 allocations_disbursements[allocation.year][allocation.mdgpurpose.name] = allocation.disbursement;
 
         indicator_table = IndicatorTable(country)
+        commitment_purpose_table = CommitmentPurposeTable(country)
+        disbursement_purpose_table = DisbursementPurposeTable(country)
 
         js = {
             "country" : {
@@ -93,11 +96,14 @@ class FrontDataView(View):
                 "sum_baseyear" : base_year,
             },
             "indicators" : indicators,
-            "new_indicators": indicator_table.as_dictionary(),
             "allocations" : {
                 "commitments" : allocations_commitments,
                 "disbursements" : allocations_disbursements,
             },
+
+            "indicator_table": indicator_table.as_dictionary(),
+            "commitment_purpose_table": commitment_purpose_table.as_dictionary(),
+            "disbursement_purpose_table": disbursement_purpose_table.as_dictionary(),
         }
 
         try:

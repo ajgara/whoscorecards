@@ -94,12 +94,36 @@ noz = function(v) {
 
 function fillIndicatorsTable(indicators) {
     var data = indicators.data;
-    var names = indicators.indicator_names;
+    var names = indicators.names;
     var years = indicators.years;
 
     for(var i = 0; i < years.length; i++) {
         for(var j = 0; j < names.length; j++) {
             d3.select("#indc" + (i + 2) + "r" + (j + 1)).text(data[years[i]][names[j]]["formatted"]);
+        }
+    }
+}
+
+function fillCommitmentPurposeTable(commitment_purpose_table) {
+    var data = commitment_purpose_table.data;
+    var names = commitment_purpose_table.names;
+    var years = commitment_purpose_table.years;
+
+    for(var i = 0; i < years.length; i++) {
+        for(var j = 0; j < names.length; j++) {
+            d3.select("#allcc" + (i + 1) + "r" + (j + 1)).text(data[years[i]][names[j]]["formatted"]);
+        }
+    }
+}
+
+function fillDisbursementPurposeTable(disbursement_purpose_table) {
+    var data = disbursement_purpose_table.data;
+    var names = disbursement_purpose_table.names;
+    var years = disbursement_purpose_table.years;
+
+    for(var i = 0; i < years.length; i++) {
+        for(var j = 0; j < names.length; j++) {
+            d3.select("#alldc" + (i + 1) + "r" + (j + 1)).text(data[years[i]][names[j]]["formatted"]);
         }
     }
 }
@@ -120,7 +144,9 @@ function load_front(json) {
     d3.select("#sum_2000").text(Math.round(json.summary.sum_base_year) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
 
-    fillIndicatorsTable(json.new_indicators);
+    fillIndicatorsTable(json.indicator_table);
+    fillCommitmentPurposeTable(json.commitment_purpose_table);
+    fillDisbursementPurposeTable(json.disbursement_purpose_table);
 
     var all_years = ["2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012"];
     _.each(all_years, function(el, i) {
@@ -133,34 +159,6 @@ function load_front(json) {
 
         var allocation_commitments = json.allocations.commitments[el];
         var allocation_disbursements = json.allocations.disbursements[el];
-
-        d3.select("#allcc" + (i + 1) + "r1").text("-");
-        d3.select("#allcc" + (i + 1) + "r2").text("-");
-        d3.select("#allcc" + (i + 1) + "r3").text("-");
-        d3.select("#allcc" + (i + 1) + "r4").text("-");
-        d3.select("#allcc" + (i + 1) + "r5").text("-");
-
-        if (allocation_commitments != undefined) {
-            d3.select("#allcc" + (i + 1) + "r1").text(r2(allocation_commitments["HEALTH POLICY & ADMIN. MANAGEMENT"]));
-            d3.select("#allcc" + (i + 1) + "r2").text(r2(allocation_commitments["MDG6"]));
-            d3.select("#allcc" + (i + 1) + "r3").text(r2(allocation_commitments["Other Health Purposes"]));
-            d3.select("#allcc" + (i + 1) + "r4").text(r2(allocation_commitments["RH & FP"]));
-            d3.select("#allcc" + (i + 1) + "r5").text(r2(_.sum(_.values(allocation_commitments))));
-        }
-
-        d3.select("#alldc" + (i + 1) + "r1").text("-");
-        d3.select("#alldc" + (i + 1) + "r2").text("-");
-        d3.select("#alldc" + (i + 1) + "r3").text("-");
-        d3.select("#alldc" + (i + 1) + "r4").text("-");
-        d3.select("#alldc" + (i + 1) + "r5").text("-");
-
-        if (allocation_disbursements != undefined) {
-            d3.select("#alldc" + (i + 1) + "r1").text(r2(allocation_disbursements["HEALTH POLICY & ADMIN. MANAGEMENT"]));
-            d3.select("#alldc" + (i + 1) + "r2").text(r2(allocation_disbursements["MDG6"]));
-            d3.select("#alldc" + (i + 1) + "r3").text(r2(allocation_disbursements["Other Health Purposes"]));
-            d3.select("#alldc" + (i + 1) + "r4").text(r2(allocation_disbursements["RH & FP"]));
-            d3.select("#alldc" + (i + 1) + "r5").text(r2(_.sum(_.values(allocation_disbursements))));
-        }
 
         // segment pie
         var segpie = {
