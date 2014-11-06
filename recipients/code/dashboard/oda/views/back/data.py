@@ -6,6 +6,7 @@ from django.shortcuts import get_object_or_404
 from django.db.models import Sum
 import oda.models as models
 from oda.views.back.disbursement_sources import BilateralDisbursementSourcesTable, MultilateralAndFoundationDisbursementSourcesTable
+from oda.views.back.five_largest import FiveLargestGraph
 
 
 def back_data(request, iso3):
@@ -22,10 +23,12 @@ def back_data(request, iso3):
 
     bilateral_table = BilateralDisbursementSourcesTable(country)
     multilateral_and_foundation_table = MultilateralAndFoundationDisbursementSourcesTable(country)
+    five_largest_graph = FiveLargestGraph(country)
 
     js = {
         "bilateral_table": bilateral_table.as_dictionary(),
         "multilateral_and_foundation_table": multilateral_and_foundation_table.as_dictionary(),
+        "five_largest_graph": five_largest_graph.as_list(),
         "country" : {
             "name" : country.name,
             "iso3" : country.iso3,

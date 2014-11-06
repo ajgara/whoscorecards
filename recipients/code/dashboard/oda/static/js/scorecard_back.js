@@ -26,6 +26,30 @@ function fillMultilateralAndFoundationTotal(data) {
     d3.select("#mul_total_value").text(amount);
 }
 
+function createBubbleGraph(data) {
+    for(var i = 0; i < 5; i++) {
+        d3.select("#bubble_text" + (i + 1)).text(data[i]["name"]);
+        d3.select("#bubble_perc" + (i + 1)).text(data[i]["percentage"]["formatted"]);
+    }
+
+    d3.select("#bubble_perc6").text(data[data.length - 1]["percentage"]["formatted"]);
+
+    var largest_value = data[0]["percentage"]["real"];
+
+    // if the largest value not much larger than the other values, scale it down to prevent overlaps
+    var first_ratio = largest_value < 0.28 ? 0.78 : 1.0;
+    var ratios = [first_ratio];
+
+    for(i = 0; i < 5; i++) {
+        var value = Math.sqrt(data[i + 1]["percentage"]["real"] / data[0]["percentage"]["real"]) * first_ratio;
+        ratios.push(value);
+    }
+
+    for(i = 0; i < ratios.length; i++) {
+        d3.select("#bubble" + (i + 1)).attr("transform", "scale(" + ratios[i] + "," + ratios[i] + ")");
+    }
+}
+
 function load_back(json) {
     /*********** Country Name ************/
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
@@ -36,45 +60,7 @@ function load_back(json) {
     fillTable("#mcol", json.multilateral_and_foundation_table);
     fillBilateralTotal(json.bilateral_table);
     fillMultilateralAndFoundationTotal(json.multilateral_and_foundation_table);
-
-    // bubbles
-    d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);
-    d3.select("#bubble_text2").text(json.largest_sources[1]["source"]);
-    d3.select("#bubble_text3").text(json.largest_sources[2]["source"]);
-    d3.select("#bubble_text4").text(json.largest_sources[3]["source"]);
-    d3.select("#bubble_text5").text(json.largest_sources[4]["source"]);
-    d3.select("#bubble_perc1").text(r1(json.largest_sources[0]["percentage"] * 100) + "%");
-    d3.select("#bubble_perc2").text(r1(json.largest_sources[1]["percentage"] * 100) + "%");
-    d3.select("#bubble_perc3").text(r1(json.largest_sources[2]["percentage"] * 100) + "%");
-    d3.select("#bubble_perc4").text(r1(json.largest_sources[3]["percentage"] * 100) + "%");
-    d3.select("#bubble_perc5").text(r1(json.largest_sources[4]["percentage"] * 100) + "%");
-
-    var totaltop5 = _.reduce([0, 1, 2, 3, 4], function(memo, pair) {
-        return memo + json.largest_sources[pair]["percentage"]
-    }, 0);
-    var other_perc = 1 - totaltop5;
-
-    var other_perc = json.largest_sources[json.largest_sources.length - 1]["percentage"]
-    d3.select("#bubble_perc6").text(r1(other_perc * 100) + "%");
-
-
-    var largest_value = json.largest_sources[0]["percentage"];
-    // if the largest value not much larger than the other values, scale it down to prevent overlaps
-    ratio1 = largest_value < 0.28 ? 0.78 : 1.0;
-    ratio2 = Math.sqrt(json.largest_sources[1]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
-    ratio3 = Math.sqrt(json.largest_sources[2]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
-    ratio4 = Math.sqrt(json.largest_sources[3]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
-    ratio5 = Math.sqrt(json.largest_sources[4]["percentage"] / json.largest_sources[0]["percentage"]) * ratio1;
-    ratio6 = Math.sqrt(other_perc / json.largest_sources[0]["percentage"]) * ratio1;
-
-    other_disbursements = 100 - totaltop5;
-
-    d3.select("#bubble1").attr("transform", "scale(" + ratio1 + "," + ratio1 + ")");
-    d3.select("#bubble2").attr("transform", "scale(" + ratio2 + "," + ratio2 + ")");
-    d3.select("#bubble3").attr("transform", "scale(" + ratio3 + "," + ratio3 + ")");
-    d3.select("#bubble4").attr("transform", "scale(" + ratio4 + "," + ratio4 + ")");
-    d3.select("#bubble5").attr("transform", "scale(" + ratio5 + "," + ratio5 + ")");
-    d3.select("#bubble6").attr("transform", "scale(" + ratio6 + "," + ratio6 + ")");
+    createBubbleGraph(json.five_largest_graph);
 
     // largest single disbursements
     _.each(json.largest_disbursements, function(el, i) {
