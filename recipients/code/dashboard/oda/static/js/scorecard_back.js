@@ -1,37 +1,29 @@
-var BILATERAL_TABLE_ROWS = 27;
-var MULTILATERAL_FOUNDATION_TABLE_ROWS = 20;
-var FOUNDATION_OFFSET_IN_TABLE = 20;
 
-function emptyTables() {
-    // Empty columns of bilateral and multilateral/foundation tables.
-    for(var i = 1; i <= BILATERAL_TABLE_ROWS; i++) {
-        d3.select("#col1r" + i).text("");
-        d3.select("#col2r" + i).text("");
-        d3.select("#col3r" + i).text("");
-    }
-    for(var j = 1; j <= MULTILATERAL_FOUNDATION_TABLE_ROWS; j++) {
-        d3.select("#mcol1r" + j).text("");
-        d3.select("#mcol2r" + j).text("");
-        d3.select("#mcol3r" + j).text("");
+function fillTable(selector, table_data) {
+    for(var i = 0; i < table_data.sources.length - 1; i++) {
+        var source = table_data.sources[i];
+        var number = table_data.data[source]['number_of_disbursements'];
+        var amount = table_data.data[source]['amount']['formatted'];
+        d3.select(selector + "1r" + (i + 1)).text(source);
+        d3.select(selector + "2r" + (i + 1)).text(number);
+        d3.select(selector + "3r" + (i + 1)).text(amount);
     }
 }
 
-function fillBilateralSourcesColumn(bilateralSources) {
-    _.each(bilateralSources, function(value, index) {
-        d3.select("#col1r" + (index + 1)).text(value);
-    });
+function fillBilateralTotal(data) {
+    var total_name = data.sources[data.sources.length - 1];
+    var number = data.data[total_name]['number_of_disbursements'];
+    var amount = data.data[total_name]['amount']['formatted'];
+    d3.select("#bil_total_nr").text(number);
+    d3.select("#bil_total_value").text(amount);
 }
 
-function fillMultilateralSourcesColumn(multilateralSources) {
-    _.each(multilateralSources, function(value, index) {
-        d3.select("#mcol1r" + (index + 1)).text(value);
-    });
-}
-
-function fillFoundationSourcesColumn(foundationSources) {
-    _.each(foundationSources, function(value, index) {
-        d3.select("#mcol1r" + (index + FOUNDATION_OFFSET_IN_TABLE)).text(value);
-    });
+function fillMultilateralAndFoundationTotal(data) {
+    var total_name = data.sources[data.sources.length - 1];
+    var number = data.data[total_name]['number_of_disbursements'];
+    var amount = data.data[total_name]['amount']['formatted'];
+    d3.select("#mul_total_nr").text(number);
+    d3.select("#mul_total_value").text(amount);
 }
 
 function load_back(json) {
@@ -40,56 +32,10 @@ function load_back(json) {
     d3.select("#summary_amount").text(r2(json.summary.total_disbursements_sum));
     d3.select("#summary_count").text(r0(json.summary.total_disbursements_count));
 
-    var countries = json.all_disbursement_sources.bilateral;
-    var multis = json.all_disbursement_sources.multilateral;
-    var phils = json.all_disbursement_sources.foundation;
-
-    emptyTables();
-    fillBilateralSourcesColumn(countries);
-    fillMultilateralSourcesColumn(multis);
-    fillFoundationSourcesColumn(phils);
-
-    var bil_total_nr = 0;
-    var bil_total_value = 0;
-    // bilateral and multilateral tables
-    _.each(countries, function(c, i) {
-        d3.select("#col2r" + (i + 1)).text("-");
-        d3.select("#col3r" + (i + 1)).text("-");
-        if (json.bil_sources[c] != undefined) {
-            d3.select("#col2r" + (i + 1)).text(json.bil_sources[c].number);
-            d3.select("#col3r" + (i + 1)).text(r2(json.bil_sources[c].amount));
-            bil_total_nr += json.bil_sources[c].number;
-            bil_total_value += json.bil_sources[c].amount;
-        }
-    });
-    d3.select("#bil_total_nr").text(bil_total_nr);
-    d3.select("#bil_total_value").text(r2(bil_total_value));
-
-    var mul_total_nr = 0;
-    var mul_total_value = 0;
-    _.each(multis, function(c, i) {
-        d3.select("#mcol2r" + (i + 1)).text("-");
-        d3.select("#mcol3r" + (i + 1)).text("-");
-        if (json.mul_sources[c] != undefined) {
-            d3.select("#mcol2r" + (i + 1)).text(json.mul_sources[c].number);
-            d3.select("#mcol3r" + (i + 1)).text(r2(json.mul_sources[c].amount));
-            mul_total_nr += json.mul_sources[c].number;
-            mul_total_value += json.mul_sources[c].amount;
-        }
-    });
-
-    _.each(phils, function(c, i) {
-        d3.select("#mcol2r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text("-");
-        d3.select("#mcol3r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text("-");
-        if (json.phil_sources[c] != undefined) {
-            d3.select("#mcol2r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text(json.phil_sources[c].number);
-            d3.select("#mcol3r" + (i + FOUNDATION_OFFSET_IN_TABLE)).text(r2(json.phil_sources[c].amount));
-            mul_total_nr += json.phil_sources[c].number;
-            mul_total_value += json.phil_sources[c].amount;
-        }
-    });
-    d3.select("#mul_total_nr").text(mul_total_nr);
-    d3.select("#mul_total_value").text(r2(mul_total_value));
+    fillTable("#col", json.bilateral_table);
+    fillTable("#mcol", json.multilateral_and_foundation_table);
+    fillBilateralTotal(json.bilateral_table);
+    fillMultilateralAndFoundationTotal(json.multilateral_and_foundation_table);
 
     // bubbles
     d3.select("#bubble_text1").text(json.largest_sources[0]["source"]);

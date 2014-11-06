@@ -5,25 +5,8 @@ from django.http.response import HttpResponse
 from django.shortcuts import get_object_or_404
 from django.db.models import Sum
 import oda.models as models
+from oda.views.back.disbursement_sources import BilateralDisbursementSourcesTable, MultilateralAndFoundationDisbursementSourcesTable
 
-
-BILATERAL_SOURCE_NAME = 'Bil'
-MULTILATERAL_SOURCE_NAME = 'Mul'
-FOUNDATION_SOURCE_NAME = 'Phil'
-
-
-def get_all_disbursement_sources():
-    bilateral, multilateral, foundation = set([]), set([]), set([])
-
-    for disbursement_source in models.DisbursementSource.objects.all():
-        if disbursement_source.group == BILATERAL_SOURCE_NAME:
-            bilateral.add(disbursement_source.source)
-        elif disbursement_source.group == MULTILATERAL_SOURCE_NAME:
-            multilateral.add(disbursement_source.source)
-        elif disbursement_source.group == FOUNDATION_SOURCE_NAME:
-            foundation.add(disbursement_source.source)
-
-    return sorted(bilateral), sorted(multilateral), sorted(foundation)
 
 def back_data(request, iso3):
     country = get_object_or_404(models.Recipient, iso3=iso3)
@@ -37,9 +20,12 @@ def back_data(request, iso3):
     total_disbursements_count = disbursements.count() - 1 + ndisb
     total_disbursements_sum = float(disbursements.aggregate(Sum('disbursement'))["disbursement__sum"])
 
-    bilateral, multilateral, foundation = get_all_disbursement_sources()
+    bilateral_table = BilateralDisbursementSourcesTable(country)
+    multilateral_and_foundation_table = MultilateralAndFoundationDisbursementSourcesTable(country)
 
     js = {
+        "bilateral_table": bilateral_table.as_dictionary(),
+        "multilateral_and_foundation_table": multilateral_and_foundation_table.as_dictionary(),
         "country" : {
             "name" : country.name,
             "iso3" : country.iso3,
@@ -48,32 +34,6 @@ def back_data(request, iso3):
             "total_disbursements_count" : total_disbursements_count,
             "total_disbursements_sum" : total_disbursements_sum,
             "total_disbursements_from_largest" : total,
-        },
-        "all_disbursement_sources": {
-            "bilateral": bilateral,
-            "multilateral": multilateral,
-            "foundation": foundation,
-        },
-        "bil_sources" : {
-            ds.source : {
-                "number": ds.number,
-                "amount": ds.amount
-            }
-            for ds in models.DisbursementSource.objects.filter(country=country, group=BILATERAL_SOURCE_NAME)
-        },
-        "mul_sources" : {
-            ds.source : {
-                "number": ds.number,
-                "amount": ds.amount
-            }
-            for ds in models.DisbursementSource.objects.filter(country=country, group=MULTILATERAL_SOURCE_NAME)
-        },
-        "phil_sources" : {
-            ds.source : {
-                "number": ds.number,
-                "amount": ds.amount
-            }
-            for ds in models.DisbursementSource.objects.filter(country=country, group=FOUNDATION_SOURCE_NAME)
         },
         "largest_sources" : [{
                "percentage" : ds.percentage,
