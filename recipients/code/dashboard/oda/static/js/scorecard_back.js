@@ -50,6 +50,15 @@ function createBubbleGraph(data) {
     }
 }
 
+function fillSevenLargestDisbursementsTable(data) {
+    for(var i = 0; i < data.length; i++) {
+        d3.select("#sdcol1r" + (i + 1)).text(data[i]["disbursement"]);
+        d3.select("#sdcol2r" + (i + 1)).text(data[i]["year"]);
+        d3.select("#sdcol3r" + (i + 1)).text(data[i]["donor"]);
+        d3.select("#sdcol4r" + (i + 1)).text(data[i]["purpose"]);
+    }
+}
+
 function load_back(json) {
     /*********** Country Name ************/
     var country_name = d3.select("#countryname").text(json.country.name.toUpperCase());
@@ -58,18 +67,15 @@ function load_back(json) {
 
     fillTable("#col", json.bilateral_table);
     fillTable("#mcol", json.multilateral_and_foundation_table);
+
     fillBilateralTotal(json.bilateral_table);
     fillMultilateralAndFoundationTotal(json.multilateral_and_foundation_table);
+
     createBubbleGraph(json.five_largest_graph);
 
-    // largest single disbursements
-    _.each(json.largest_disbursements, function(el, i) {
-        d3.select("#sdcol1r" + (i + 1)).text("$" + r2(el.disbursement) + "m");
-        d3.select("#sdcol2r" + (i + 1)).text(el.year);
-        d3.select("#sdcol3r" + (i + 1)).text(el.donor.toUpperCase());
-        d3.select("#sdcol4r" + (i + 1)).text(el.purpose);
-    });
+    fillSevenLargestDisbursementsTable(json.largest_disbursement_table);
 
+    // largest single disbursements
     var val1 = r0(json.disbursements_percentage["other"].percentage * 100);
     var val2 = r0(json.disbursements_percentage["largest"].percentage * 100);
     // segment pie
