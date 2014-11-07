@@ -2,6 +2,7 @@ from django.conf.urls.defaults import *
 from django.views.generic import TemplateView
 from oda.views.front.data import FrontDataView
 from oda.views.front.export_xls import ExportTableOneAsXLS, ExportPurposeCommitmentAsXLS, ExportPurposeDisbursementAsXLS
+from oda.views.back.export_xls import ExportBackDataAsXLS
 
 
 def urlroute(to_url, view, name):
@@ -50,5 +51,10 @@ urlpatterns = patterns('',
         to_url=r'^front/xls/purpose-disbursement/$',
         view=ExportPurposeDisbursementAsXLS.as_view(),
         name="export_purpose_disbursement_xls"
+    ),
+    urlroute(
+        to_url=r'^back/xls/data/$',
+        view=ExportBackDataAsXLS.as_view(),
+        name="export_back_data_xls"
     ),
 )
