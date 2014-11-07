@@ -19,6 +19,7 @@ def back_data(request, iso3):
     other_disbursements = disbursements.get(donor__contains="Other ")
     ndisb = int(re_disb.match(other_disbursements.donor).groups()[0])
     pdisb = other_disbursements.percentage
+
     total_disbursements_count = disbursements.count() - 1 + ndisb
     total_disbursements_sum = float(disbursements.aggregate(Sum('disbursement'))["disbursement__sum"])
 
@@ -31,7 +32,7 @@ def back_data(request, iso3):
         "bilateral_table": bilateral_table.as_dictionary(),
         "multilateral_and_foundation_table": multilateral_and_foundation_table.as_dictionary(),
         "five_largest_graph": five_largest_graph.as_list(),
-        "largest_disbursement_table": largest_disbursement_table.as_list(),
+        "largest_disbursement_table": largest_disbursement_table.as_dictionary(),
         "country" : {
             "name" : country.name,
             "iso3" : country.iso3,
