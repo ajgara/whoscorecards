@@ -54,7 +54,7 @@ class DisbursementSourcesTable(object):
         for disbursement_source in disbursement_sources:
             values = DisbursementSource(disbursement_source).values
             number += disbursement_source.number
-            amount += float(values['amount']['formatted'].replace(",", ""))
+            amount += disbursement_source.amount
             self.table_data[disbursement_source.source] = values
 
         if len(disbursement_sources) > 0:
