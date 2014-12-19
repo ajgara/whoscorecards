@@ -61,7 +61,7 @@ $ cd whoscorecards/recipients/code/dashboard/
 $./manage.py runserver 8000
 ```
 
-Now you can open your browser and put the URL "http://127.0.0.1:8000/oda/scorecard/front/AFG/" inside the navigation bar. If everything went correctly, then the card corresponding to Afghanistan should appear whith its corresponding values (set in the excel file). To generate the PDFs for all of the countries:
+Now you can open your browser and put the URL "http://127.0.0.1:8000/oda/scorecard/front/AFG/" inside the navigation bar. If everything went correctly, then the card corresponding to Afghanistan should appear with its corresponding values (set in the excel file). To generate the PDFs for all of the countries:
 
 ```sh
 $ cd whoscorecards/recipients/scripts/
