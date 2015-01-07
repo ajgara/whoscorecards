@@ -68,6 +68,12 @@ $ cd whoscorecards/recipients/scripts/
 $ ./all_countries ../data/countries.csv
 ```
 
+To generate the PDF for a specific country:
+
+```sh
+./make COUNTRY_ISO=ARG COUNTRY_NAME=Argentina
+```
+
 To join them in an unique file:
 ```sh
 $ ./join_pdfs
@@ -75,6 +81,19 @@ $ ./join_pdfs
 
 **join_pdfs** creates two files in that same directory. The first one is all the PDF's inside the folder **output** joined. The other one is the same, but with all of the cards rotated.
 
+You can also generate output checksum excels with the data shown in the PDFs. To do so you can enter the following URL's onto your web browser navigation bar:
+
+First Page
+```
+http://localhost:8000/oda/front/xls/table-1/
+http://localhost:8000/oda/front/xls/purpose-commitment/
+http://localhost:8000/oda/front/xls/purpose-disbursement/
+```
+
+Second Page
+```
+http://localhost:8000/oda/back/xls/data
+```
 
 ### Adapting the app to work with other years
 
