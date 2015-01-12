@@ -1,80 +1,219 @@
-who-scorecards
-==============
+# Documentation for ODA Scorecards
 
-WHO Scorecard System
+### Installing the app
 
-Structure
-============
-The program consists of a Python DJango application and a PhantomJS server running in the background.
+This guide assumes you're using Ubuntu or another Debian based Linux distribution. First we create a directory to store the files for the project:
 
-The DJango application is used to do the following:
+```sh
+$ mkdir odascorecards
+```
 
-1. Retrieve data from .xls files and create corresponding DJango models to save in database.
+Inside this folder, we clone the GitHub repository:
 
-2. Show the data in a DJango template, using svg graphics.
+```sh
+$ cd odascorecards
+$ git clone https://github.com/ajgara/whoscorecards.git
+```
 
-The PhantomJS server is used just to take the URL to the DJango template and render it to a PDF using a tool named rasterize.js
+We first need to install some ubuntu packages in order to run the app:
+
+```sh
+$ sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam virtualenvwrapper python-pip
+```
+
+Now we create a virtual enviroment to install python packages in:
+
+```sh 
+$ mkvirtualenv whoscorecards
+```
+
+We swicth into this new enviroment:
+
+```sh
+$ workon whoscorecards
+```
+
+Now we install the python dependencies:
+```sh
+$ pip install -r requirements.txt
+```
+
+Installing the fonts used by the app:
+```sh
+$ cp whoscorecards/recipients/code/dashboard/oda/static/fonts/* ~/.fonts/
+$ sudo fc-cache -f -v
+```
+
+The app is already installed.
+
+### Running the app
+
+We have to load the countries data first:
+```sh
+$ cd whoscorecards/recipients/code/dashboard/
+$ make all
+```
+When the console asks for a password just insert 'admin'.
+
+Now we have to run the DJango server:
+```sh
+$ cd whoscorecards/recipients/code/dashboard/
+$./manage.py runserver 8000
+```
+
+Now you can open your browser and put the URL "http://127.0.0.1:8000/oda/scorecard/front/AFG/" inside the navigation bar. If everything went correctly, then the card corresponding to Afghanistan should appear with its corresponding values (set in the excel file). To generate the PDFs for all of the countries:
+
+```sh
+$ cd whoscorecards/recipients/scripts/
+$ ./all_countries ../data/countries.csv
+```
+
+To generate the PDF for a specific country:
+
+```sh
+./make COUNTRY_ISO=ARG COUNTRY_NAME=Argentina
+```
+
+To join them in an unique file:
+```sh
+$ ./join_pdfs
+```
+
+**join_pdfs** creates two files in that same directory. The first one is all the PDF's inside the folder **output** joined. The other one is the same, but with all of the cards rotated.
+
+You can also generate output checksum excels with the data shown in the PDFs. To do so you can enter the following URL's onto your web browser navigation bar:
+
+First Page
+```
+http://localhost:8000/oda/front/xls/table-1/
+http://localhost:8000/oda/front/xls/purpose-commitment/
+http://localhost:8000/oda/front/xls/purpose-disbursement/
+```
+
+Second Page
+```
+http://localhost:8000/oda/back/xls/data
+```
+
+### Adapting the app to work with other years
+
+We need to create a new folder to store the info for the corresponding year:
+
+```sh
+$ cd whoscorecards/recipients/data/
+$ mkdir {YEAR}
+```
+
+Inside that directory you should put the excel files with the information for each country. Make sure the names for the pages, columns and the structure of the file in general is the same for these new files and the ones that you'll find for past years.
+
+Now you have to tell the program to grab the data from the new files. Inside the directory **whoscorecards/recipients/code/dashboard** change the Makefile, substituting the references to past data files for new ones.
+
+In the settings for this DJango project (file **whoscorecards/recipients/code/dashboard/dashboard/settings.py**) modify the variables **FIRST_YEAR** and **LAST_YEAR** to their corresponding values.
+
+Inside file **whoscorecards/recipients/code/dashboard/oda/views/front/indicator_table.py** change the values of the variable **GENERIC_INDICATOR_NAMES** to work with the values in your new excel files. You can see past years excel data files and python code as an example.
+
+You can now generate the PDFs again as in step 2. Some references to pasts years will remain in the output, these are static and should be replaced manually using a vector graphics editor, such as Inkscape. The files you need to modify are the following:
+
+- whoscorecards/recipients/code/dashboard/oda/static/svg/back.svg
+- whoscorecards/recipients/code/dashboard/oda/static/svg/front.svg
 
 
-Installation
-============
+# Documentación ODA Scorecards
 
-1. Installing ubuntu package dependencies:
+### Instalando el proyecto
 
-    **$ sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam**
+Para la siguiente documentación se asume que se utiliza una distribución de Linux basada en Debian (preferentemente Ubuntu). Primero creamos una carpeta para guardar los archivos asociados al proyecto.
 
-2. Creating virtual enviroment for python packages:
+```sh
+$ mkdir odascorecards
+```
 
-    **$ mkvirtualenv whoscorecards**
+Dentro de esa carpeta clonamos el repositorio de GitHub:
 
-3. Installing the fonts for the project:
+```sh
+$ cd odascorecards
+$ git clone https://github.com/ajgara/whoscorecards.git
+```
 
-    **$ cp recipients/code/dashboard/oda/static/fonts/* ~/.fonts/**
+Instalamos las dependencias de la aplicación:
 
-    **$ sudo fc-cache -f -v**
+```sh
+$ sudo apt-get install libxml2-dev libxslt-dev texlive phantomjs pdfjam virtualenvwrapper python-pip
+```
 
-4. Installing the widgetlabs plugin for inkscape
+Creamos un virtual enviroment para instalar los paquetes de python necesarios:
 
-    **$ git clone https://github.com/adieyal/widgetlabs.git**
+```sh 
+$ mkvirtualenv whoscorecards
+```
 
-    **$ cp widgetlabs/inkscape/* ~/.config/inkscape/extensions/**
+Para trabajar dentro del entorno recién creado:
 
-5. Edit ~/.config/inkscape/extensions/ in line 12. Change url = ..... to url=localhost:8080 or wherever your phantomjs server is listening.
+```sh
+$ workon whoscorecards
+```
 
-6. Run the PhantomJS server.
+Instalamos las dependencias de python de la aplicación:
+```sh
+$ pip install -r requirements.txt
+```
 
-    **$ phantomjs main.js**
+Instalamos las fuentes utilizadas por la aplicación:
+```sh
+$ cp whoscorecards/recipients/code/dashboard/oda/static/fonts/* ~/.fonts/
+$ sudo fc-cache -f -v
+```
+
+La aplicación ya está instalada.
+
+### Corriendo el proyecto
+
+Cargar los datos:
+```sh
+$ cd whoscorecards/recipients/code/dashboard/
+$ make all
+```
+Cuando pida un password simplemente ingresar 'admin'.
+
+Correr el server de DJango:
+```sh
+$ cd whoscorecards/recipients/code/dashboard/
+$./manage.py runserver 8000
+```
+
+Ir a un navegador y probar introduciendo la URL "http://127.0.0.1:8000/oda/scorecard/front/AFG/". Debería verse la card correspondinete a Afghanistan. Para generar los pdfs para todos los países correr:
+
+```sh
+$ cd whoscorecards/recipients/scripts/
+$ ./all_countries ../data/countries.csv
+```
+
+Para unir todos los pdf en uno:
+```sh
+$ ./join_pdfs
+```
+
+Devuelve el output en la misma carpeta, en versión rotada y no rotada.
 
 
-Changing static values inside templates
-=================================
-The files named *front.svg* and *back.svg* located at *recipients/code/dashboard/oda/static/svg/* have inside it the static values that appear in the final result.
-It also has other dummy values in it, when the URL hosted in the DJango server is hit, this dummy values are dynamically changed to the real values of the corresponding country.
+### Adaptando los valores para años sucesivos
 
-Changing dynamic values inside templates
-=================================
-These values are taken from three different places:
+Hay que crear una carpeta con la información del año correspondiente:
 
-1. From the models of the DJango app (stored in the database)
+```sh
+$ cd whoscorecards/recipients/data/
+$ mkdir {AÑO}
+```
 
-2. Calculated in the logic inside the DJango view.
+Introducir allí los excel con la información. Asegurarse que los nombres de las hojas, las columnas y su estructura sean iguales a la del año pasado.
 
-3. Calculated using javascript inside the page.
+Ahora hay que modificar el programa que toma los datos de los excel para que utilice los nuevos archivos. En la carpeta **whoscorecards/recipients/code/dashboard** modificar el archivo Makefile sustituyendo las referencias a los archivos por sus equivalentes para el año nuevo.
 
-## Changing the value of the years:
+En las settings del proyecto (archivo **whoscorecards/recipients/code/dashboard/dashboard/settings.py**) modificar las variables **FIRST_YEAR** y **LAST_YEAR** a los valores correspondientes.
 
-1. Changing the static values inside the corresponding .svg files in the folder **recipients/code/dashboard/oda/static/svg/**
+En el archivo **whoscorecards/recipients/code/dashboard/oda/views/front/indicator_table.py** cambiar la variable **GENERIC_INDICATOR_NAMES**, del lado derecho poner los nombres que se utilizan en el excel para denominar a las variables correspondientes.
 
-2. Changing the references inside **recipients/code/dashboard/oda/static/js/scorecard.js**
+Generar nuevamente los PDF como en el paso 2. Todas las menciones a años anteriores que todavía persistan en los archivos, deberán ser reemplazadas manualmente con un programa de edición de gráficos vectoriales, modificando los archivos:
 
-3. Changing the variables inside the view named **front_data** located in **recipients/code/dashboard/oda/views.py**
-
-## Changing the .xlsx to take the data from:
-
-1. Change the name of the files in **recipients/code/dashboard/Makefile**
-
-2. All the sheets in the excel file must have the name "DB"
-
-## Show the values stored in database
-
-Once the correct files are used to store the data in the database, to show these results on the .svg file the reference to the name of the indicators inside the view and **scoreboard.js** must be changed. For example "ODA for Health Disbursements, (Million, Constant 2011 US$)" to "ODA for Health Disbursements, (Million, Constant 2012 US$)"
+- whoscorecards/recipients/code/dashboard/oda/static/svg/back.svg
+- whoscorecards/recipients/code/dashboard/oda/static/svg/front.svg
