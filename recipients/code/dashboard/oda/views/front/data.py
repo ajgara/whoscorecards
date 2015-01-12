@@ -23,6 +23,7 @@ class FrontDataView(View):
             "BLR" : "2005",
             "LBY" : "2005",
             "MNE" : "2004",
+	    "SSD" : "2011", #Added by BSG
             "UKR" : "2005",
         }
 
