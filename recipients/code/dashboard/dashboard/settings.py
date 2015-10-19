@@ -157,5 +157,5 @@ LOGGING = {
 }
 
 # Difference must be 10.
-FIRST_YEAR = 2002
-LAST_YEAR = 2012
+FIRST_YEAR = 2003
+LAST_YEAR = 2013

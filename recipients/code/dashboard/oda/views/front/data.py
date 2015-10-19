@@ -16,19 +16,20 @@ class FrontDataView(View):
         allocations = models.Allocation.objects.filter(country=country)
 
         hd_indicator = models.GeneralIndicator.objects.get(
-            name="ODA for Health Disbursements, (Million, Constant 2012 US$)"
+            name="ODA for Health Disbursements, (Million, Constant 2013 US$)"
         )
 
+        # There's information from the following years on (but not before) for these countries
         overrides = {
             "BLR" : "2005",
             "LBY" : "2005",
             "MNE" : "2004",
-	    "SSD" : "2011", #Added by BSG
+	        "SSD" : "2011", #Added by BSG
             "UKR" : "2005",
         }
 
-        base_year = "2002"
-        last_year = "2012"
+        base_year = "2003"
+        last_year = "2013"
 
         if country.iso3 in overrides:
             base_year = overrides[country.iso3]

@@ -15,10 +15,12 @@ class ExportBackDataAsXLS(View):
 
         for country in models.Recipient.objects.all():
             table = BilateralDisbursementSourcesTable(country=country).as_dictionary()
-            number = table["data"][table["sources"][-1]]["number_of_disbursements"]
-            amount_formatted = table["data"][table["sources"][-1]]["amount"]["formatted"]
-            amount_real = table["data"][table["sources"][-1]]["amount"].get("real", '')
-            work_sheet.append([country.iso3, country.name, number, amount_formatted, amount_real])
+
+            if len(table):
+                number = table["total"]["number_of_disbursements"]
+                amount_formatted = table["total"]["amount"]["formatted"]
+                amount_real = table["total"]["amount"].get("real", '')
+                work_sheet.append([country.iso3, country.name, number, amount_formatted, amount_real])
 
         return work_sheet
 
@@ -28,10 +30,12 @@ class ExportBackDataAsXLS(View):
 
         for country in models.Recipient.objects.all():
             table = MultilateralAndFoundationDisbursementSourcesTable(country=country).as_dictionary()
-            number = table["data"][table["sources"][-1]]["number_of_disbursements"]
-            amount_formatted = table["data"][table["sources"][-1]]["amount"]["formatted"]
-            amount_real = table["data"][table["sources"][-1]]["amount"].get("real", '')
-            work_sheet.append([country.iso3, country.name, number, amount_formatted, amount_real])
+
+            if len(table):
+                number = table["total"]["number_of_disbursements"]
+                amount_formatted = table["total"]["amount"]["formatted"]
+                amount_real = table["total"]["amount"].get("real", '')
+                work_sheet.append([country.iso3, country.name, number, amount_formatted, amount_real])
 
         return work_sheet
 

@@ -25,9 +25,15 @@ class Command(BaseCommand):
         filename = args[0]
         with transaction.commit_on_success():
             oda_models.Disbursement.objects.all().delete()
-            dfactory = db.LargestDisbursementsFactory(file_path=filename, sheet_name="DB")
+            dfactory = db.LargestDisbursementsFactory(file_path=filename, sheet_name="Final Table")
             for row in dfactory.data:
-                country = oda_models.Recipient.objects.get(iso3=row["ISO"])
+                # BSG: Add country if not found
+                # country = oda_models.Recipient.objects.get(iso3=row["ISO"])
+                country, created = oda_models.Recipient.objects.get_or_create(iso3=row["ISO"])
+                if created: 
+                    print "Country: %s was added." % country
+                    country.name = row["recipientname"]
+
                 oda_models.Disbursement.objects.create(
                     country=country,
                     donor=self.get_donor_name(row["Donor"]),

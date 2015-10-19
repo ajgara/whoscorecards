@@ -6,19 +6,19 @@ from django.conf import settings
 class IndicatorCreator(object):
     GENERIC_INDICATOR_NAMES = {
         'Population': 'Population as at 30 June',
-        'ODA Commitments Total': 'Commitments TOTAL ODA (Million Constant 2012 US$)',
-        'ODA Disbursements Total': 'Disbursements TOTAL ODA (Million Constant 2012 US$)',
-        'ODA Commitments Health': 'ODA for Health Commitments, (Million, Constant 2012 US$)',
-        'ODA Disbursements Health': 'ODA for Health Disbursements, (Million, Constant 2012 US$)',
+        'ODA Commitments Total': 'Commitments TOTAL ODA (Million Constant 2013 US$)',
+        'ODA Disbursements Total': 'Disbursements TOTAL ODA (Million Constant 2013 US$)',
+        'ODA Commitments Health': 'ODA for Health Commitments, (Million, Constant 2013 US$)',
+        'ODA Disbursements Health': 'ODA for Health Disbursements, (Million, Constant 2013 US$)',
         'ODA Commitments Ratio Health/Total': 'RATIO Health/Total ODA Commitments',
         'ODA Disbursements Ratio Health/Total': 'RATIO Health/Total ODA Disbursements',
         'Health Commitments per Capita': 'Health Commitments per Capita',
         'Health Disbursements per Capita': 'Health Disbursements per Capita',
-        'Regional Avg Health Commitments per Capita': 'Regional avg Health Commitments per Capita (const.2012 US$)',
-        'Regional Avg Health Disbursements per Capita': 'Regional avg Health Disbursements per Capita (const.2012 US$)',
-        'Total Expenditure on Health': 'Total expenditure on health in current US$ per capita',
-        'Government Expenditure on Health': 'General government expenditure on health in current US$ per capita',
-        'Private Expenditure on Health': 'Private expenditure on health in current US$ per capita',
+        'Regional Avg Health Commitments per Capita': 'Regional avg Health Commitments per Capita (const.2013 US$)',
+        'Regional Avg Health Disbursements per Capita': 'Regional avg Health Disbursements per Capita (const.2013 US$)',
+        'Total Expenditure on Health': 'Total expenditure on Health (curr US$ p.c.)',
+        'Government Expenditure on Health': 'General government expenditure on Health (curr US$ p.c.)',
+        'Private Expenditure on Health': 'Private expenditure on Health (curr US$ p.c.)',
     }
 
     @classmethod

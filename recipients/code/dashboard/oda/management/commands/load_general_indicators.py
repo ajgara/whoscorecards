@@ -15,7 +15,7 @@ class Command(BaseCommand):
         with transaction.commit_on_success():
             statistics = defaultdict(int, {})
             fn_indicator = args[0]
-            indicators_factory = db.IndicatorsFactory(file_path=fn_indicator)
+            indicators_factory = db.IndicatorsFactory(file_path=fn_indicator, sheet_name="Table1")
 
             countries = {}
             not_found_countries = set()
@@ -34,7 +34,7 @@ class Command(BaseCommand):
                         country, _ = oda_models.Recipient.objects.get_or_create(
                             iso3=row.ISO3
                         )
-                        country.name = row.Countries
+                        country.name = row["WHO Name"]
                         country.save()
                         countries[row.ISO3] = country
 
@@ -62,6 +62,7 @@ class Command(BaseCommand):
                 except ValueError:
                     import traceback
                     traceback.print_exc()
+                    print "Error when casting value '%s' for '%s'." % (row.Value, row.ISO3)
                     statistics["error_value"] += 1
 
             if len(not_found_countries) > 0:

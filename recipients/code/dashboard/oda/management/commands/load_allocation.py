@@ -41,7 +41,7 @@ class Command(BaseCommand):
                             country = oda_models.Recipient.objects.get(iso3=row.ISO3)
                             countries[row.ISO3] = country
 
-                        row_mdg = row["MDG Purpose 2010"]
+                        row_mdg = row["MDG Code"]
                         if row_mdg in mdgpurposes:
                             mdgpurpose = mdgpurposes[row_mdg]
                         else:

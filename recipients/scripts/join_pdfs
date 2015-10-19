@@ -1,11 +1,8 @@
-# This is just to switch the order of appearance from BACK-FRONT to FRONT-BACK
-cd ./output/
-FILES=(*)
-for ((i=0;i<${#FILES[*]};i++));
-do
-    FILES[i]="${FILES[i]// /?}"
-done
-pdfjoin ${FILES[*]} --outfile ../all_countries.pdf
-cd ..
-pdf90 all_countries.pdf
+#!/usr/bin/python
+import os
 
+os.system("cd ./output/")
+file_names = sorted(os.listdir("."))
+os.system("pdfjoin %s --outfile ../all_countries.pdf" % (" ".join(file_names)))
+os.system("cd ..")
+os.system("pdf90 all_countries.pdf")

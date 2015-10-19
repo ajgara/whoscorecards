@@ -277,6 +277,8 @@ function load_front(json) {
     d3.select("#sum_purpose").text(purpose_mapping[json.summary.sum_purpose]);
     d3.select("#sum_2000").text(Math.round(json.summary.sum_base_year) + "%");
     d3.select("#sum_baseyear").text(json.summary.sum_baseyear);
+    // Added by BSG in order to display base year for Other Health Purposes text on top
+    d3.select("#sum_baseyear_other").text(json.summary.sum_baseyear);
 
     fillIndicatorsTable(json.indicator_table);
 

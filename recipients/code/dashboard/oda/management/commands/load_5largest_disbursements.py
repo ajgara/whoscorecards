@@ -24,13 +24,13 @@ class Command(BaseCommand):
         filename = args[0]
         with transaction.commit_on_success():
             oda_models.Largest5Disbursements.objects.all().delete()
-            dfactory = db.XLSDB(file_path=filename, sheet_name="DB")
+            dfactory = db.XLSDB(file_path=filename, sheet_name="5 largest sources data")
             for row in dfactory.data:
                 country = oda_models.Recipient.objects.get(iso3=row["ISO"])
 
                 oda_models.Largest5Disbursements.objects.create(
                     country=country,
-                    donor=self.get_donor_name(row["Donor"]),
+                    donor=self.get_donor_name(row["WHO Donor Name"]),
                     percentage=float(row["%age"]),
                     disbursement=float(row["Total Disbursements"] or 0)
                 )

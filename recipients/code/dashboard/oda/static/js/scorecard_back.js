@@ -1,27 +1,49 @@
 
 function fillTable(selector, table_data) {
-    for(var i = 0; i < table_data.sources.length - 1; i++) {
+    for (var i = 0; i < table_data.sources.length; i++) {
         var source = table_data.sources[i];
-        var number = table_data.data[source]['number_of_disbursements'];
-        var amount = table_data.data[source]['amount']['formatted'];
-        d3.select(selector + "1r" + (i + 1)).text(source);
+        var name = source['name'];
+        var group = source['group'];
+        var number = source['number_of_disbursements'];
+        var amount = source['amount']['formatted'];
+
+        d3.select(selector + "1r" + (i + 1)).text(name);
         d3.select(selector + "2r" + (i + 1)).text(number);
         d3.select(selector + "3r" + (i + 1)).text(amount);
+
+        // Highlight Foundations in Multilateral/Foundation table
+        if ("Phil" == group) {
+            d3.select(selector + "1r" + (i + 1)).style("fill", "#005581");
+            d3.select(selector + "2r" + (i + 1)).style("fill", "#005581");
+            d3.select(selector + "3r" + (i + 1)).style("fill", "#005581");
+        }
+    }
+    
+    // Empty the remaining rows for Bilateral and Multilateral/Foundation tables on svg
+    if ("#col" == selector)
+        table_rows = 27     // Hardcoded number of rows for Bilateral
+    else
+        table_rows = 20;    // Hardcoded number of rows for Multilateral/Foundation
+
+    // Hide remaining rows
+    while (i < table_rows) {
+        d3.select(selector + "1r" + (i + 1)).style("opacity", 0);
+        d3.select(selector + "2r" + (i + 1)).style("opacity", 0);
+        d3.select(selector + "3r" + (i + 1)).style("opacity", 0);
+        i++;
     }
 }
 
 function fillBilateralTotal(data) {
-    var total_name = data.sources[data.sources.length - 1];
-    var number = data.data[total_name]['number_of_disbursements'];
-    var amount = data.data[total_name]['amount']['formatted'];
+    var number = data.total['number_of_disbursements'];
+    var amount = data.total['amount']['formatted'];
     d3.select("#bil_total_nr").text(number);
     d3.select("#bil_total_value").text(amount);
 }
 
 function fillMultilateralAndFoundationTotal(data) {
-    var total_name = data.sources[data.sources.length - 1];
-    var number = data.data[total_name]['number_of_disbursements'];
-    var amount = data.data[total_name]['amount']['formatted'];
+    var number = data.total['number_of_disbursements'];
+    var amount = data.total['amount']['formatted'];
     d3.select("#mul_total_nr").text(number);
     d3.select("#mul_total_value").text(amount);
 }
