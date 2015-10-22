@@ -2,7 +2,9 @@
 
 ### Installing the app
 
-This guide assumes you're using Ubuntu or another Debian based Linux distribution. First we create a directory to store the files for the project:
+This guide assumes you're using Ubuntu or another Debian based Linux distribution. In case of using the already existing VM environment you can omit the following steps and jump straight to the **Running the app** section.
+
+First we create a directory to store the files for the project:
 
 ```sh
 $ mkdir odascorecards
@@ -110,19 +112,37 @@ Now you have to tell the program to grab the data from the new files. Inside the
 
 In the settings for this DJango project (file **whoscorecards/recipients/code/dashboard/dashboard/settings.py**) modify the variables **FIRST_YEAR** and **LAST_YEAR** to their corresponding values.
 
-Inside file **whoscorecards/recipients/code/dashboard/oda/views/front/indicator_table.py** change the values of the variable **GENERIC_INDICATOR_NAMES** to work with the values in your new excel files. You can see past years excel data files and python code as an example.
+Inside the file **whoscorecards/recipients/code/dashboard/oda/views/front/indicator_table.py** change the values of the variable **GENERIC_INDICATOR_NAMES** to work with the values in your new excel files. You can see past years excel data files and python code as an example.
 
-You can now generate the PDFs again as in step 2. Some references to pasts years will remain in the output, these are static and should be replaced manually using a vector graphics editor, such as Inkscape. The files you need to modify are the following:
+Inside the file **whoscorecards/recipients/code/dashboard/oda/views/front/data.py** change the value of the variable **hd_indicator** to match with the ODA for Health Disbursements indicator for the **LAST_YEAR** in your new excel files. Also check that there's no need of adding new per country base year overrides for indicating the starting year from which there is information available for those countries. This is stored in the **overrides** array variable. Finally, update the **base_year** and **last_year* variables as well.
+
+You can now generate the PDFs again as in step 2. **Some references to pasts years will remain in the output, these are static and should be replaced manually using a vector graphics editor, such as Inkscape. The files you need to modify are the following:**
 
 - whoscorecards/recipients/code/dashboard/oda/static/svg/back.svg
 - whoscorecards/recipients/code/dashboard/oda/static/svg/front.svg
 
+Also make sure to update the two backpages textboxes with the new texts.
+
+### Adding bleeds and cropmarks
+
+The process of adding bleeds and cropmarks should be done by a designer based on the (non rotated) comprehensive pdf. The following steps will need to be performed:
+
+1. Download the MultipPageImporter script (v2.5 or later) for Adobe InDesign.
+2. Configure the script on Adobe InDesign.
+3. Set the correct page size before importing the comprehensive pdf.
+4. Run the MultiPageImporter script to import all the pdf pages into Adobe InDesign. Set the cropmarks to "Crop" when importing.
+5. Create, or use a previously created master template which add rectangles of different colors (grey and magenta) to simulate the bleed for the front page and apply to the back layer of all pages.
+6. Create, or use a previously created master template which add rectangles of different colors (grey and magenta) to simulate the bleed for the back page and apply to the back layer of all **even** pages.
+7. Export the Adobe InDesign document to pdf.
+8. Use Adobe Writter or other pdf editting application for rotating 90 degrees counterclockwise all pages.
 
 # Documentación ODA Scorecards
 
 ### Instalando el proyecto
 
-Para la siguiente documentación se asume que se utiliza una distribución de Linux basada en Debian (preferentemente Ubuntu). Primero creamos una carpeta para guardar los archivos asociados al proyecto.
+Para la siguiente documentación se asume que se utiliza una distribución de Linux basada en Debian (preferentemente Ubuntu). En caso de utilizar el entorno VM existente omitir los siguientes pasos e ir directamente a la sección **Corriendo el proyecto**.
+
+Primero creamos una carpeta para guardar los archivos asociados al proyecto.
 
 ```sh
 $ mkdir odascorecards
@@ -213,7 +233,24 @@ En las settings del proyecto (archivo **whoscorecards/recipients/code/dashboard/
 
 En el archivo **whoscorecards/recipients/code/dashboard/oda/views/front/indicator_table.py** cambiar la variable **GENERIC_INDICATOR_NAMES**, del lado derecho poner los nombres que se utilizan en el excel para denominar a las variables correspondientes.
 
-Generar nuevamente los PDF como en el paso 2. Todas las menciones a años anteriores que todavía persistan en los archivos, deberán ser reemplazadas manualmente con un programa de edición de gráficos vectoriales, modificando los archivos:
+En el archivo **whoscorecards/recipients/code/dashboard/oda/views/front/data.py** cambiar el valor de la variable **hd_indicator** para coincidir con el nombre del indicador de ODA for Health Disbursements del **LAST_YEAR** que se utiliza en los nuevos excels. También asegurarse de que no sea necesario agregar overides para el "año base" de cada país, que indica desde que año existe información disponible para dichos paises. Esta información se guarda en la variable array **overrides**. Por último, actualizar los valores de las variables **base_year** y **last_year**.
+
+Generar nuevamente los PDF como en el paso 2. **Todas las menciones a años anteriores que todavía persistan en los archivos, deberán ser reemplazadas manualmente con un programa de edición de gráficos vectoriales, como el Inkscape, modificando los archivos:**
 
 - whoscorecards/recipients/code/dashboard/oda/static/svg/back.svg
 - whoscorecards/recipients/code/dashboard/oda/static/svg/front.svg
+
+También asegurarse de modificar los dos cuadros de textos de las backpages con los textos actlizados.
+
+### Agregando demasía y marcas de corte
+
+El proceso de agregado de demasía y marcas de corte debe ser realizado por un diseñador basandose en el pdf (no rotado) que contiene todos los paises juntos. El proceso consta de los siguientes pasos (aproximadamente):
+
+1. Descargar el script MultipPageImporter script (v2.5 o superior) para Adobe InDesign.
+2. Configurar el script en Adobe InDesign.
+3. Configurar el tamaño correcto de página antes de importar el pdf.
+4. Ejecutar el script MultiPageImporter para importar todas las hojas del pdf en Adobe InDesign. Elegir la opcion "Crop" para cropmarks al realizar la importación.
+5. Crear, o utilizar el template maestro previamente creado que le agrega rectángulos de diferentes colores (grises y violetas) para simular demasía en la front page y aplicarlo al layer de fondo de todas las páginas.
+6. Crear, o utilizar el template maestro previamente creado que le agrega rectángulos de diferentes colores (grises y violetas) para simular demasía en la back page y aplicarlo al layer de fondo de todas las páginas **pares**.
+7. Exportar el documento de Adobe InDesign a pdf.
+8. Usar el Adobe Writter o algun otro software de edición de pdf para rotar 90 grados contra reloj las hojas del documento.
