@@ -106,9 +106,9 @@ $ cd whoscorecards/recipients/data/
 $ mkdir {YEAR}
 ```
 
-Inside that directory you should put the excel files with the information for each country. Make sure the names for the pages, columns and the structure of the file in general is the same for these new files and the ones that you'll find for past years. If names are changed you'll need to modify files inside **whoscorecards/recipients/code/dashboard/oda/management/commands**.
+Inside that directory you should put the excel files with the information for each country. Make sure the names for the pages, columns and the structure of the file in general is the same for these new files and the ones that you'll find for past years. If names were changed you'll need to modify the files inside **whoscorecards/recipients/code/dashboard/oda/management/commands**.
 
-**Important note:** make sure that the main csv file containing the recipient countries only contains **LF (line feed)** at the end of each line instead of containing **CRLF (carriage return plus line feed)**.
+**Important note:** make sure that the main csv file, with the recipient countries for the current year, only contains **LF (line feed)** at the end of each line instead of containing **CRLF (carriage return plus line feed)**.
 
 Now you have to tell the program to grab the data from the new files. Inside the directory **whoscorecards/recipients/code/dashboard** change the Makefile, substituting the references to past data files for new ones.
 
@@ -227,9 +227,9 @@ $ cd whoscorecards/recipients/data/
 $ mkdir {AÑO}
 ```
 
-Introducir allí los excel con la información. Asegurarse que los nombres de las hojas, las columnas y su estructura sean iguales a la del año pasado. Si los nombre fueron modificados hay que actualizar los archivos dentro de  **whoscorecards/recipients/code/dashboard/oda/management/commands**.
+Introducir allí los excel con la información. Asegurarse que los nombres de las hojas, las columnas y su estructura sean iguales a la del año pasado. Si los nombres fueron modificados hay que actualizar los archivos dentro de la carpeta **whoscorecards/recipients/code/dashboard/oda/management/commands**.
 
-**Importante:** Asegurarse de que el archivo csv principal que contiene los paises que se procesarán para el año en curso solo contienga **LF (line feed)** al final de cada linea, en vez de contener **CRLF (carriage return y line feed)**.
+**Importante:** Asegurarse que el archivo csv principal, que tiene los paises que se procesarán para el año en curso, solo contienga **LF (line feed)** al final de cada línea en vez de **CRLF (carriage return y line feed)**.
 
 Ahora hay que modificar el programa que toma los datos de los excel para que utilice los nuevos archivos. En la carpeta **whoscorecards/recipients/code/dashboard** modificar el archivo Makefile sustituyendo las referencias a los archivos por sus equivalentes para el año nuevo.
 
